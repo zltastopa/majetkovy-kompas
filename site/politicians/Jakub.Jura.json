@@ -1,0 +1,171 @@
+{
+  "user_id": "Jakub.Jura",
+  "name": "Mgr. Jakub JURA, LL.M.",
+  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POĽNONÁKUP TATRY A.S.)",
+  "years": [
+    2023,
+    2024
+  ],
+  "timeline": [
+    {
+      "year": 2023,
+      "data": {
+        "id": "ZC246199",
+        "declaration_id": 32230,
+        "name": "Mgr. JAKUB JURA, LL.M.",
+        "year": 2023,
+        "filed": "pri ujatí sa funkcie",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POĽNONÁKUP TATRY A.S.)",
+        "income": {
+          "public_function": 0,
+          "other": 0
+        },
+        "incompatibility": false,
+        "employment": null,
+        "business_activity": "KONATEĽ(JURA LEGAL S.R.O.)",
+        "positions": null,
+        "real_estate": null,
+        "movable_property": null,
+        "property_rights": [
+          "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 100%",
+          "ÚSPORY, podiel: BSM"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": "BYT, kat. územie STARÉ MESTO, rok zač. užívania: 2017, spôsob užívania: BÝVANIE",
+        "vehicles": [
+          {
+            "type": "OSOBNÉ VOZIDLO",
+            "brand": "AUDI",
+            "year_of_manufacture": 2015
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "new"
+      }
+    },
+    {
+      "year": 2024,
+      "data": {
+        "id": "ZC246199",
+        "declaration_id": 37708,
+        "name": "Mgr. JAKUB JURA, LL.M.",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POĽNONÁKUP TATRY A.S.)",
+        "income": {
+          "public_function": 6300,
+          "other": 30422
+        },
+        "incompatibility": true,
+        "employment": "SPRÁVA ŠTÁTNYCH HMOTNÝCH REZERV SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": "KONATEĽ(JURA LEGAL S.R.O.)",
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "HUŠTÁKY",
+            "lv_number": "15707",
+            "share": "50% BSM"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 100%",
+          "ÚSPORY, podiel: BSM"
+        ],
+        "obligations": [
+          {
+            "type": "SPLÁTKOVÝ ÚVER NA BÝVANIE",
+            "share": "BSM",
+            "date": "11. 11. 2024"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "changed",
+        "changes": [
+          {
+            "field": "income",
+            "old": {
+              "public_function": 0,
+              "other": 0
+            },
+            "new": {
+              "public_function": 6300,
+              "other": 30422
+            },
+            "old_total": 0,
+            "new_total": 36722,
+            "delta": 36722
+          },
+          {
+            "field": "incompatibility",
+            "old": false,
+            "new": true
+          },
+          {
+            "field": "employment",
+            "old": null,
+            "new": "SPRÁVA ŠTÁTNYCH HMOTNÝCH REZERV SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+          },
+          {
+            "field": "real_estate",
+            "old": null,
+            "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "HUŠTÁKY",
+                "lv_number": "15707",
+                "share": "50% BSM"
+              }
+            ]
+          },
+          {
+            "field": "obligations",
+            "old": [
+              {
+                "type": "žiadny"
+              }
+            ],
+            "new": [
+              {
+                "type": "SPLÁTKOVÝ ÚVER NA BÝVANIE",
+                "share": "BSM",
+                "date": "11. 11. 2024"
+              }
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
+            "field": "use_of_others_real_estate",
+            "old": "BYT, kat. územie STARÉ MESTO, rok zač. užívania: 2017, spôsob užívania: BÝVANIE",
+            "new": null
+          },
+          {
+            "field": "vehicles",
+            "old": [
+              {
+                "type": "OSOBNÉ VOZIDLO",
+                "brand": "AUDI",
+                "year_of_manufacture": 2015
+              }
+            ],
+            "new": null
+          }
+        ]
+      }
+    }
+  ],
+  "total_changes": 7,
+  "slug": "mgr-jakub-jura-ll-m"
+}

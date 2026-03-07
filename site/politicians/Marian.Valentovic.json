@@ -1,0 +1,169 @@
+{
+  "user_id": "Marian.Valentovic",
+  "name": "Ing. Marián Valentovič",
+  "public_function": "štátny tajomník",
+  "years": [
+    2023,
+    2024
+  ],
+  "timeline": [
+    {
+      "year": 2023,
+      "data": {
+        "id": "K246193",
+        "declaration_id": 32227,
+        "name": "Ing. MARIÁN VALENTOVIČ",
+        "year": 2023,
+        "filed": "pri ujatí sa funkcie",
+        "public_function": "štátny tajomník",
+        "income": {
+          "public_function": 0,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": "ALIANCIA SEKTOROVÝCH RÁD\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "SUCHÁ NAD PARNOU",
+            "lv_number": "2699",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "PODIEL V S.R.O., podiel: 1/1"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": [
+          {
+            "type": "MOTOROVÉ VOZIDLO",
+            "brand": "VOLKSWAGEN",
+            "year_of_manufacture": 2020
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "new"
+      }
+    },
+    {
+      "year": 2024,
+      "data": {
+        "id": "K246193",
+        "declaration_id": 37801,
+        "name": "Ing. MARIÁN VALENTOVIČ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "štátny tajomník",
+        "income": {
+          "public_function": 30575,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": "ALIANCIA SEKTOROVÝCH RÁD\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "VINOSADY",
+            "lv_number": "1049",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "SUCHÁ NAD PARNOU",
+            "lv_number": "2699",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "OBCHODNÝ PODIEL V s.r.o., podiel: 1/1"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": [
+          {
+            "type": "MOTOROVÉ VOZIDLO",
+            "brand": "VOLKSWAGEN",
+            "year_of_manufacture": 2020
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "changed",
+        "changes": [
+          {
+            "field": "income",
+            "old": {
+              "public_function": 0,
+              "other": 0
+            },
+            "new": {
+              "public_function": 30575,
+              "other": 0
+            },
+            "old_total": 0,
+            "new_total": 30575,
+            "delta": 30575
+          },
+          {
+            "field": "real_estate",
+            "old": [
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "SUCHÁ NAD PARNOU",
+                "lv_number": "2699",
+                "share": "BSM"
+              }
+            ],
+            "new": [
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "VINOSADY",
+                "lv_number": "1049",
+                "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "SUCHÁ NAD PARNOU",
+                "lv_number": "2699",
+                "share": "BSM"
+              }
+            ],
+            "old_count": 1,
+            "new_count": 2
+          },
+          {
+            "field": "property_rights",
+            "old": [
+              "PODIEL V S.R.O., podiel: 1/1"
+            ],
+            "new": [
+              "OBCHODNÝ PODIEL V s.r.o., podiel: 1/1"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          }
+        ]
+      }
+    }
+  ],
+  "total_changes": 3,
+  "slug": "ing-marian-valentovic"
+}

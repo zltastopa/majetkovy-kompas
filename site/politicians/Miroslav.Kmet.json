@@ -1,0 +1,169 @@
+{
+  "user_id": "Miroslav.Kmet",
+  "name": "MUDr. Miroslav KMEŤ, Mph,mba",
+  "public_function": "člen dozornej rady Všeobecnej zdravotnej poisťovne",
+  "years": [
+    2023,
+    2024
+  ],
+  "timeline": [
+    {
+      "year": 2023,
+      "data": {
+        "id": "X245868",
+        "declaration_id": 32296,
+        "name": "MUDr. MIROSLAV KMEŤ, MPH, MBA",
+        "year": 2023,
+        "filed": "pri ujatí sa funkcie",
+        "public_function": "člen dozornej rady Všeobecnej zdravotnej poisťovne",
+        "income": {
+          "public_function": 0,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "BYSTRIČKA",
+            "lv_number": "1626",
+            "share": "1/1"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "PODIEL V S.R.O., podiel: 100%"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": "RODINNÝ DOM, kat. územie MARTIN, rok zač. užívania: 1990, spôsob užívania: BÝVANIE",
+        "vehicles": [
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "BMW",
+            "year_of_manufacture": 2016
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "new"
+      }
+    },
+    {
+      "year": 2024,
+      "data": {
+        "id": "X245868",
+        "declaration_id": 36897,
+        "name": "MUDr. MIROSLAV KMEŤ, MPH,MBA",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen dozornej rady Všeobecnej zdravotnej poisťovne",
+        "income": {
+          "public_function": 24415,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE 4 KRÁT",
+            "cadastral_territory": "BYSTRIČKA",
+            "lv_number": "1626",
+            "share": "1/1"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "FINANČNÉ PROSTRIEDKY NA ÚČTE = ÚSPORY, podiel: 100%",
+          "PODIELY V OBCHODNEJ SPOLOČNOSTI, podiel: 100%"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "changed",
+        "changes": [
+          {
+            "field": "income",
+            "old": {
+              "public_function": 0,
+              "other": 0
+            },
+            "new": {
+              "public_function": 24415,
+              "other": 0
+            },
+            "old_total": 0,
+            "new_total": 24415,
+            "delta": 24415
+          },
+          {
+            "field": "real_estate",
+            "old": [
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "BYSTRIČKA",
+                "lv_number": "1626",
+                "share": "1/1"
+              }
+            ],
+            "new": [
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE 4 KRÁT",
+                "cadastral_territory": "BYSTRIČKA",
+                "lv_number": "1626",
+                "share": "1/1"
+              }
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
+            "field": "property_rights",
+            "old": [
+              "PODIEL V S.R.O., podiel: 100%"
+            ],
+            "new": [
+              "FINANČNÉ PROSTRIEDKY NA ÚČTE = ÚSPORY, podiel: 100%",
+              "PODIELY V OBCHODNEJ SPOLOČNOSTI, podiel: 100%"
+            ],
+            "old_count": 1,
+            "new_count": 2
+          },
+          {
+            "field": "use_of_others_real_estate",
+            "old": "RODINNÝ DOM, kat. územie MARTIN, rok zač. užívania: 1990, spôsob užívania: BÝVANIE",
+            "new": null
+          },
+          {
+            "field": "vehicles",
+            "old": [
+              {
+                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+                "brand": "BMW",
+                "year_of_manufacture": 2016
+              }
+            ],
+            "new": null
+          }
+        ]
+      }
+    }
+  ],
+  "total_changes": 5,
+  "slug": "mudr-miroslav-kmet-mph-mba"
+}

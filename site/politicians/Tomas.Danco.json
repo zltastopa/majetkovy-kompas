@@ -1,0 +1,151 @@
+{
+  "user_id": "Tomas.Danco",
+  "name": "JUDr. Tomáš Danč",
+  "public_function": "podpredseda Úradu na ochranu osobných údajov",
+  "years": [
+    2023,
+    2024
+  ],
+  "timeline": [
+    {
+      "year": 2023,
+      "data": {
+        "id": "U246327",
+        "declaration_id": 34416,
+        "name": "JUDr. TOMÁŠ DANČ",
+        "year": 2023,
+        "filed": "pri ujatí sa funkcie",
+        "public_function": "podpredseda Úradu na ochranu osobných údajov",
+        "income": {
+          "public_function": 0,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": null,
+        "movable_property": [
+          {
+            "type": "OSOBNÉ VOZIDLO",
+            "brand": "ŠKODA",
+            "year_of_manufacture": 2021,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": [
+          "CENNÉ PAPIERE, podiel: 1/1",
+          "VIRTUÁLNE MENY, podiel: 1/1"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "new"
+      }
+    },
+    {
+      "year": 2024,
+      "data": {
+        "id": "U246327",
+        "declaration_id": 38351,
+        "name": "JUDr. TOMÁŠ DANČ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "podpredseda Úradu na ochranu osobných údajov",
+        "income": {
+          "public_function": 38862,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": null,
+        "movable_property": [
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "ŠKODA",
+            "year_of_manufacture": 2021,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": [
+          "CENNÉ PAPIERE, podiel: 1/1",
+          "VIRTUÁLNE MENY, podiel: 1/1",
+          "ÚSPORY, podiel: 1/1"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "changed",
+        "changes": [
+          {
+            "field": "income",
+            "old": {
+              "public_function": 0,
+              "other": 0
+            },
+            "new": {
+              "public_function": 38862,
+              "other": 0
+            },
+            "old_total": 0,
+            "new_total": 38862,
+            "delta": 38862
+          },
+          {
+            "field": "movable_property",
+            "old": [
+              {
+                "type": "OSOBNÉ VOZIDLO",
+                "brand": "ŠKODA",
+                "year_of_manufacture": 2021,
+                "share": "1/1"
+              }
+            ],
+            "new": [
+              {
+                "type": "OSOBNÝ AUTOMOBIL",
+                "brand": "ŠKODA",
+                "year_of_manufacture": 2021,
+                "share": "1/1"
+              }
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
+            "field": "property_rights",
+            "old": [
+              "CENNÉ PAPIERE, podiel: 1/1",
+              "VIRTUÁLNE MENY, podiel: 1/1"
+            ],
+            "new": [
+              "CENNÉ PAPIERE, podiel: 1/1",
+              "VIRTUÁLNE MENY, podiel: 1/1",
+              "ÚSPORY, podiel: 1/1"
+            ],
+            "old_count": 2,
+            "new_count": 3
+          }
+        ]
+      }
+    }
+  ],
+  "total_changes": 3,
+  "slug": "judr-tomas-danc"
+}

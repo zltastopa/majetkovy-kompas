@@ -1,0 +1,207 @@
+{
+  "user_id": "Veronika.Srobova",
+  "name": "Ing. Veronika Šrobová",
+  "public_function": "poslanec Národnej rady Slovenskej republiky",
+  "years": [
+    2022,
+    2023,
+    2024
+  ],
+  "timeline": [
+    {
+      "year": 2022,
+      "data": {
+        "id": "B235473",
+        "declaration_id": 29586,
+        "name": "Ing. VERONIKA ŠROBOVÁ",
+        "year": 2022,
+        "filed": "pri ujatí sa funkcie",
+        "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "income": {
+          "public_function": 0,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": null,
+        "movable_property": null,
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": [
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "SUBARU",
+            "year_of_manufacture": 2016
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "new"
+      }
+    },
+    {
+      "year": 2023,
+      "data": {
+        "id": "B235473",
+        "declaration_id": 32648,
+        "name": "Ing. VERONIKA ŠROBOVÁ",
+        "year": 2023,
+        "filed": "k 30. aprílu",
+        "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "income": {
+          "public_function": 11736,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": null,
+        "movable_property": null,
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": [
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "SUBARU",
+            "year_of_manufacture": 2016
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "changed",
+        "changes": [
+          {
+            "field": "income",
+            "old": {
+              "public_function": 0,
+              "other": 0
+            },
+            "new": {
+              "public_function": 11736,
+              "other": 0
+            },
+            "old_total": 0,
+            "new_total": 11736,
+            "delta": 11736
+          },
+          {
+            "field": "vehicles",
+            "old": [
+              {
+                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+                "brand": "SUBARU",
+                "year_of_manufacture": 2016
+              }
+            ],
+            "new": [
+              {
+                "type": "OSOBNÝ AUTOMOBIL",
+                "brand": "SUBARU",
+                "year_of_manufacture": 2016
+              }
+            ],
+            "old_count": 1,
+            "new_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "year": 2024,
+      "data": {
+        "id": "B235473",
+        "declaration_id": 37180,
+        "name": "Ing. VERONIKA ŠROBOVÁ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "income": {
+          "public_function": 48912,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": null,
+        "movable_property": [
+          {
+            "type": "MOTOROVÉ VOZIDLO",
+            "brand": "SUBARU",
+            "year_of_manufacture": 2016,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "changed",
+        "changes": [
+          {
+            "field": "income",
+            "old": {
+              "public_function": 11736,
+              "other": 0
+            },
+            "new": {
+              "public_function": 48912,
+              "other": 0
+            },
+            "old_total": 11736,
+            "new_total": 48912,
+            "delta": 37176,
+            "delta_pct": 316.8
+          },
+          {
+            "field": "movable_property",
+            "old": null,
+            "new": [
+              {
+                "type": "MOTOROVÉ VOZIDLO",
+                "brand": "SUBARU",
+                "year_of_manufacture": 2016,
+                "share": "1/1"
+              }
+            ]
+          },
+          {
+            "field": "vehicles",
+            "old": [
+              {
+                "type": "OSOBNÝ AUTOMOBIL",
+                "brand": "SUBARU",
+                "year_of_manufacture": 2016
+              }
+            ],
+            "new": null
+          }
+        ]
+      }
+    }
+  ],
+  "total_changes": 5,
+  "slug": "ing-veronika-srobova"
+}
