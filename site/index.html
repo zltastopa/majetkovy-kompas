@@ -221,6 +221,55 @@ header .stat-label { color: var(--muted); font-size: 0.75rem; }
   .controls { flex-direction: column; }
   header .stats { flex-wrap: wrap; }
 }
+
+/* Compare mode */
+.compare-toggle {
+  padding: 0.35rem 0.75rem; border: 1px solid var(--accent); border-radius: 6px;
+  background: var(--card-bg); cursor: pointer; font-size: 0.85rem; font-weight: 500;
+  color: var(--accent); margin-left: auto;
+}
+.compare-toggle:hover, #detail.compare-mode .compare-toggle { background: var(--accent); color: #fff; }
+#compare-panel { display: none; }
+#detail.compare-mode #compare-panel { display: block; }
+#detail.compare-mode #detail-content,
+#detail.compare-mode #detail-context,
+#detail.compare-mode #income-section,
+#detail.compare-mode #timeline-section { display: none; }
+#detail.compare-mode .year-tabs button:not(.compare-toggle) { display: none; }
+.compare-selectors {
+  display: flex; gap: 0.75rem; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap;
+}
+.compare-selectors select {
+  padding: 0.5rem 0.75rem; border: 1px solid var(--border); border-radius: 6px;
+  background: var(--card-bg); font-size: 0.9rem; font-weight: 600;
+}
+.compare-arrow { color: var(--muted); font-size: 1.2rem; }
+.compare-section { margin-bottom: 1rem; }
+.compare-section-title {
+  font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--muted); margin-bottom: 0.4rem; font-weight: 600;
+}
+.compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+.compare-col {
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 0.75rem 0.85rem; font-size: 0.875rem;
+}
+.compare-col.diff-old { border-left: 3px solid var(--red); }
+.compare-col.diff-new { border-left: 3px solid var(--green); }
+.compare-col .item-added { background: var(--diff-add); margin: 0 -0.5rem; padding: 0.3rem 0.5rem; border-radius: 4px; margin-bottom: 0.25rem; }
+.compare-col .item-removed { background: var(--diff-rm); margin: 0 -0.5rem; padding: 0.3rem 0.5rem; border-radius: 4px; text-decoration: line-through; opacity: 0.7; margin-bottom: 0.25rem; }
+.compare-col .item-same { padding: 0.3rem 0; border-bottom: 1px solid #f1f5f9; }
+.compare-col .item-same:last-child { border-bottom: none; }
+.compare-delta {
+  display: inline-block; font-size: 0.78rem; font-weight: 600; padding: 1px 7px;
+  border-radius: 4px; margin-left: 0.4rem; vertical-align: middle;
+}
+.compare-delta.up { background: #dcfce7; color: #15803d; }
+.compare-delta.down { background: #fee2e2; color: #b91c1c; }
+.compare-link { font-size: 0.75rem; color: var(--accent); margin-left: 0.5rem; }
+@media (max-width: 640px) {
+  .compare-grid { grid-template-columns: 1fr; }
+}
 </style>
 </head>
 <body>
@@ -302,12 +351,14 @@ header .stat-label { color: var(--muted); font-size: 0.75rem; }
       <h3>Zmeny v čase</h3>
       <div class="section-card"><div id="timeline"></div></div>
     </div>
+    <div id="compare-panel"></div>
   </div>
 </div>
 
 <script>
 let indexData = [], highlights = {}, currentDetail = null;
 let stats = {};
+let compareMode = false;
 
 // Approximate Slovak median annual gross income per year (EUR)
 // Source: https://www.platy.sk/en/salaries-in-country
@@ -518,6 +569,8 @@ function onHash() {
 }
 
 async function loadDetail(userId) {
+  compareMode = false;
+  document.getElementById('detail').classList.remove('compare-mode');
   const resp = await fetch(`politicians/${userId}.json`);
   currentDetail = await resp.json();
   const d = currentDetail;
@@ -579,8 +632,8 @@ function renderYearTabs(detail) {
   const el = document.getElementById('year-tabs');
   const latest = detail.years[detail.years.length - 1];
   el.innerHTML = detail.years.map(y =>
-    `<button onclick="renderYearData(currentDetail,${y})" class="${y===latest?'active':''}">${y}</button>`
-  ).join('');
+    `<button onclick="exitCompare();renderYearData(currentDetail,${y})" class="${y===latest?'active':''}">${y}</button>`
+  ).join('') + (detail.years.length >= 2 ? '<button class="compare-toggle" onclick="toggleCompare()">Porovnať</button>' : '');
 }
 
 function renderYearData(detail, year) {
@@ -721,7 +774,7 @@ function renderIncomeChart(detail) {
 
 function renderTimeline(detail) {
   const el = document.getElementById('timeline');
-  el.innerHTML = detail.timeline.map(t => {
+  el.innerHTML = detail.timeline.map((t, i) => {
     const diff = t.diff;
     let badge, details = '';
     if (diff.type === 'new') {
@@ -745,7 +798,9 @@ function renderTimeline(detail) {
         return `<div><span class="field-name">${label}</span></div>`;
       }).filter(Boolean).join('') + '</div>';
     }
-    return `<div class="timeline-entry"><span class="timeline-year">${t.year}</span>${badge}${details}</div>`;
+    const prevYear = i > 0 ? detail.timeline[i - 1].year : null;
+    const cmpLink = diff.type === 'changed' && prevYear ? ` <a href="#" class="compare-link" onclick="event.preventDefault();enterCompareForYears(${prevYear},${t.year})">porovnať</a>` : '';
+    return `<div class="timeline-entry"><span class="timeline-year">${t.year}</span>${badge}${cmpLink}${details}</div>`;
   }).join('');
 }
 
@@ -763,6 +818,164 @@ function fieldLabel(key) {
     real_estate:'nehnuteľnosti',movable_property:'hnuteľný majetok',obligations:'záväzky',
     vehicles:'vozidlá',gifts:'dary',property_rights:'majetkové práva',public_function:'verejná funkcia',
     incompatibility:'nezlučiteľnosť',use_of_others_real_estate:'užívanie nehnuteľností'}[key] || key;
+}
+
+// Compare mode
+function toggleCompare() {
+  if (compareMode) { exitCompare(); return; }
+  compareMode = true;
+  document.getElementById('detail').classList.add('compare-mode');
+  document.querySelector('.compare-toggle').textContent = '← Späť';
+  const yrs = currentDetail.years;
+  renderComparison(currentDetail, yrs.length >= 2 ? yrs[yrs.length - 2] : yrs[0], yrs[yrs.length - 1]);
+}
+
+function exitCompare() {
+  compareMode = false;
+  document.getElementById('detail').classList.remove('compare-mode');
+  const btn = document.querySelector('.compare-toggle');
+  if (btn) btn.textContent = 'Porovnať';
+}
+
+function enterCompareForYears(yearLeft, yearRight) {
+  compareMode = true;
+  document.getElementById('detail').classList.add('compare-mode');
+  const btn = document.querySelector('.compare-toggle');
+  if (btn) btn.textContent = '← Späť';
+  renderComparison(currentDetail, yearLeft, yearRight);
+  window.scrollTo(0, 0);
+}
+
+function onCompareYearChange() {
+  renderComparison(currentDetail,
+    parseInt(document.getElementById('compare-left').value),
+    parseInt(document.getElementById('compare-right').value));
+}
+
+function renderComparison(detail, yearLeft, yearRight) {
+  const panel = document.getElementById('compare-panel');
+  const le = detail.timeline.find(t => t.year === yearLeft);
+  const re = detail.timeline.find(t => t.year === yearRight);
+  if (!le || !re) return;
+  const L = le.data, R = re.data;
+
+  let html = `<div class="compare-selectors">
+    <select id="compare-left" onchange="onCompareYearChange()">
+      ${detail.years.map(y => `<option value="${y}"${y===yearLeft?' selected':''}>${y}</option>`).join('')}
+    </select>
+    <span class="compare-arrow">→</span>
+    <select id="compare-right" onchange="onCompareYearChange()">
+      ${detail.years.map(y => `<option value="${y}"${y===yearRight?' selected':''}>${y}</option>`).join('')}
+    </select>
+  </div>`;
+
+  // Income
+  html += cmpSection('Príjmy', () => {
+    const li = L.income || {}, ri = R.income || {};
+    const lt = (li.public_function||0)+(li.other||0), rt = (ri.public_function||0)+(ri.other||0);
+    const changed = lt !== rt || (li.public_function||0) !== (ri.public_function||0);
+    const incRows = (inc, total) => total > 0 ? `
+      <div class="data-row"><div class="data-label">Z verejnej funkcie</div><div class="data-value">${fmt(inc.public_function||0)} €</div></div>
+      <div class="data-row"><div class="data-label">Iné</div><div class="data-value">${fmt(inc.other||0)} €</div></div>
+      <div class="data-row" style="font-weight:600;border-top:2px solid var(--border)"><div class="data-label">Celkom</div><div class="data-value">${fmt(total)} €</div></div>
+    ` : '<span class="section-empty">neuvedené</span>';
+    let extra = '';
+    if (changed) {
+      const d = rt - lt, s = d > 0 ? '+' : '';
+      extra = `<div style="margin-top:0.4rem"><span class="compare-delta ${d>=0?'up':'down'}">${s}${fmt(d)} €</span></div>`;
+    }
+    return { left: incRows(li, lt), right: incRows(ri, rt) + extra, changed };
+  });
+
+  // Employment
+  html += cmpSection('Zamestnanie', () => ({
+    left: L.employment ? esc(L.employment).replace(/\n/g,'<br>') : '<span class="section-empty">nevykonáva</span>',
+    right: R.employment ? esc(R.employment).replace(/\n/g,'<br>') : '<span class="section-empty">nevykonáva</span>',
+    changed: L.employment !== R.employment
+  }));
+
+  // Positions
+  html += cmpListSection('Funkcie', L.positions, R.positions,
+    p => `<div class="item-role">${esc(p.role)}</div>${p.organization?`<div class="item-detail">${esc(p.organization)}</div>`:''}`);
+
+  // Real estate
+  html += cmpListSection('Nehnuteľnosti', L.real_estate, R.real_estate,
+    r => `<div class="item-role">${esc(r.type)}</div><div class="item-detail">${[r.cadastral_territory?`Kat. územie: ${esc(r.cadastral_territory)}`:'',r.lv_number?`LV: ${esc(r.lv_number)}`:'',r.share?`Podiel: ${esc(r.share)}`:''].filter(Boolean).join(' · ')}</div>`);
+
+  // Movable property
+  html += cmpListSection('Hnuteľný majetok',
+    Array.isArray(L.movable_property) ? L.movable_property : null,
+    Array.isArray(R.movable_property) ? R.movable_property : null,
+    v => `<div class="item-role">${esc(v.type||'')}</div><div class="item-detail">${[v.brand,v.year_of_manufacture?`(${v.year_of_manufacture})`:'',v.share?`Podiel: ${v.share}`:''].filter(Boolean).join(' ')}</div>`);
+
+  // Vehicles
+  if (L.vehicles || R.vehicles) {
+    html += cmpListSection('Užívanie vozidiel', L.vehicles, R.vehicles,
+      v => `<div class="item-role">${esc(v.type||'MOTOROVÉ VOZIDLO')}</div><div class="item-detail">${[v.brand,v.year_of_manufacture?`(${v.year_of_manufacture})`:''].filter(Boolean).join(' ')}</div>`);
+  }
+
+  // Obligations
+  html += cmpListSection('Záväzky', L.obligations, R.obligations,
+    o => `<div class="item-role">${esc(o.type)}</div><div class="item-detail">${[o.share?`Podiel: ${esc(o.share)}`:'',o.date?`Vznik: ${esc(o.date)}`:''].filter(Boolean).join(' · ')}</div>`);
+
+  // Property rights
+  if (L.property_rights || R.property_rights) {
+    html += cmpListSection('Majetkové práva', L.property_rights, R.property_rights,
+      r => typeof r === 'string' ? esc(r) : JSON.stringify(r));
+  }
+
+  // Gifts
+  html += cmpSection('Dary', () => ({
+    left: L.gifts ? esc(L.gifts) : '<span class="section-empty">žiadne</span>',
+    right: R.gifts ? esc(R.gifts) : '<span class="section-empty">žiadne</span>',
+    changed: L.gifts !== R.gifts
+  }));
+
+  panel.innerHTML = html;
+}
+
+function cmpSection(title, fn) {
+  const { left, right, changed } = fn();
+  return `<div class="compare-section">
+    <div class="compare-section-title">${title}</div>
+    <div class="compare-grid">
+      <div class="compare-col${changed?' diff-old':''}">${left}</div>
+      <div class="compare-col${changed?' diff-new':''}">${right}</div>
+    </div>
+  </div>`;
+}
+
+function cmpListSection(title, leftItems, rightItems, renderFn) {
+  leftItems = leftItems || [];
+  rightItems = rightItems || [];
+  if (!leftItems.length && !rightItems.length) {
+    return cmpSection(title, () => ({ left: '<span class="section-empty">žiadne</span>', right: '<span class="section-empty">žiadne</span>', changed: false }));
+  }
+  const lKeys = new Set(leftItems.map(x => JSON.stringify(x)));
+  const rKeys = new Set(rightItems.map(x => JSON.stringify(x)));
+  const changed = leftItems.length !== rightItems.length || leftItems.some(x => !rKeys.has(JSON.stringify(x)));
+
+  const lHtml = leftItems.map(item => {
+    const cls = rKeys.has(JSON.stringify(item)) ? 'item-same' : 'item-removed';
+    return `<div class="${cls}">${renderFn(item)}</div>`;
+  }).join('') || '<span class="section-empty">žiadne</span>';
+
+  const rHtml = rightItems.map(item => {
+    const cls = lKeys.has(JSON.stringify(item)) ? 'item-same' : 'item-added';
+    return `<div class="${cls}">${renderFn(item)}</div>`;
+  }).join('') || '<span class="section-empty">žiadne</span>';
+
+  const cd = rightItems.length - leftItems.length;
+  const badge = changed && cd !== 0
+    ? ` <span class="compare-delta ${cd>0?'up':'down'}">${leftItems.length} → ${rightItems.length}</span>` : '';
+
+  return `<div class="compare-section">
+    <div class="compare-section-title">${title}${badge}</div>
+    <div class="compare-grid">
+      <div class="compare-col${changed?' diff-old':''}">${lHtml}</div>
+      <div class="compare-col${changed?' diff-new':''}">${rHtml}</div>
+    </div>
+  </div>`;
 }
 
 init();
