@@ -86,7 +86,7 @@ def fetch_declaration_html(user_id, year=None):
     soup = BeautifulSoup(html, "html.parser")
     dropdown = soup.select_one("#_sectionLayoutContainer_ctl01_OznameniaList")
     if not dropdown:
-        return html
+        return None  # no year dropdown = no data available
     year_map = {}
     for opt in dropdown.select("option"):
         try:
@@ -96,7 +96,7 @@ def fetch_declaration_html(user_id, year=None):
             pass
 
     if year not in year_map:
-        return html  # year not available, return default
+        return None  # requested year not available for this politician
 
     # Already showing the requested year
     selected = dropdown.select_one("option[selected]")
@@ -127,6 +127,8 @@ def fetch_declaration_html(user_id, year=None):
 
 def parse_declaration(html):
     """Parse declaration HTML into a structured dict. Returns None if unavailable."""
+    if html is None:
+        return None
     soup = BeautifulSoup(html, "html.parser")
     output = soup.select_one("#_sectionLayoutContainer_ctl01_OutPut")
     if not output:
