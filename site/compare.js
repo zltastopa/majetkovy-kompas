@@ -239,7 +239,10 @@
     const rightData = rightEntry.data;
     const leftTotal = totalIncome(leftData);
     const rightTotal = totalIncome(rightData);
-    let html = `<div class="compare-selectors">
+    let html = `<div class="compare-intro">
+      <p>Starší rok je vľavo, novší vpravo. Zvýraznené bloky ukazujú, čo sa medzi priznaniami zmenilo, pribudlo alebo zaniklo.</p>
+    </div>
+    <div class="compare-selectors">
       <label class="compare-field">
         <span>Ľavý rok</span>
         <select data-compare-year="left">
@@ -405,7 +408,7 @@
     render();
   }
 
-  const personData = readJsonScript("person-compare-data");
+  const personData = readJsonScript("person-compare-data") || readJsonScript("person-detail-data");
   if (personData) {
     initPersonCompare(personData);
   }

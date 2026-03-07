@@ -1,14 +1,41 @@
 (() => {
-  const list = document.getElementById("person-list");
+  function setupTabs() {
+    const buttons = Array.from(document.querySelectorAll(".landing-tabs button"));
+    if (!buttons.length) {
+      return;
+    }
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        document.querySelectorAll(".landing-tabs button").forEach((item) => {
+          item.classList.remove("active");
+        });
+        document.querySelectorAll(".landing-section").forEach((section) => {
+          section.classList.remove("active");
+        });
+
+        button.classList.add("active");
+        const target = document.getElementById(`tab-${button.dataset.tab}`);
+        if (target) {
+          target.classList.add("active");
+        }
+      });
+    });
+  }
+
+  const list = document.getElementById("politician-list");
   const search = document.getElementById("search");
   const sort = document.getElementById("sort");
   const resultCount = document.getElementById("result-count");
+
+  setupTabs();
 
   if (!list || !search || !sort || !resultCount) {
     return;
   }
 
   const rows = Array.from(list.querySelectorAll(".person-row"));
+  const collator = new Intl.Collator("sk", { sensitivity: "base" });
 
   function getMetric(row, key) {
     return Number(row.dataset[key] || 0);
@@ -27,7 +54,7 @@
     if (mode === "changes") {
       return (a, b) => getMetric(b, "changes") - getMetric(a, "changes");
     }
-    return (a, b) => (a.dataset.name || "").localeCompare(b.dataset.name || "", "sk");
+    return (a, b) => collator.compare(a.dataset.name || "", b.dataset.name || "");
   }
 
   function applyFilters() {
@@ -35,13 +62,33 @@
     const visible = rows.filter((row) => {
       const haystack = `${row.dataset.name || ""} ${row.dataset.function || ""}`;
       const matches = haystack.includes(query);
-      row.hidden = !matches;
       return matches;
     });
 
     visible.sort(compareRows(sort.value));
-    visible.forEach((row) => list.appendChild(row));
+    rows.forEach((row) => {
+      row.hidden = true;
+    });
+
+    const shown = visible.slice(0, 200);
+    shown.forEach((row) => {
+      row.hidden = false;
+      list.appendChild(row);
+    });
     resultCount.textContent = `${visible.length} funkcionárov`;
+
+    const existingNote = list.querySelector("[data-overflow-note]");
+    if (existingNote) {
+      existingNote.remove();
+    }
+
+    if (visible.length > 200) {
+      const note = document.createElement("li");
+      note.dataset.overflowNote = "true";
+      note.className = "list-more";
+      note.textContent = `...a ${visible.length - 200} ďalších — upresnite hľadanie`;
+      list.appendChild(note);
+    }
   }
 
   search.addEventListener("input", applyFilters);
