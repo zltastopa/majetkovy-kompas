@@ -1,5 +1,6 @@
 let currentDetail = null;
-const SK_MEDIAN_SOURCE = "https://www.platy.sk/en/salaries-in-country";
+const SK_MEDIAN_SOURCE =
+  "https://hn24.hnonline.sk/hn24/96189316-desatina-pracujucich-vlani-zarabala-menej-ako-tisic-eur-mesacne";
 
 function initDetail() {
   const dataEl = document.getElementById("person-detail-data");
@@ -43,8 +44,10 @@ function renderDetailContext(detail) {
   const medianIncome = Number(context.median_income || 0);
   const medianProperties = Number(context.median_properties || 0);
   const slovakMedian = Number(context.slovak_median_income || 0);
+  const slovakMedianMonthly = slovakMedian > 0 ? Math.round(slovakMedian / 12) : 0;
   const multiple = Number(context.slovak_income_multiple || 0);
   const latestYear = context.latest_year || detail.years[detail.years.length - 1];
+  const incomeDeltaFromMedian = income > 0 && medianIncome > 0 ? income - medianIncome : 0;
 
   el.innerHTML = `<div class="context-card">
     <div class="ctx-item">
@@ -58,7 +61,21 @@ function renderDetailContext(detail) {
       }
       ${
         multiple >= 1.5
-          ? `<div class="ctx-rank">${multiple.toFixed(1)}× <a href="${SK_MEDIAN_SOURCE}" target="_blank" rel="noreferrer">medián príjmu na Slovensku</a> (${fmt(slovakMedian)} €)</div>`
+          ? `<div class="ctx-rank">${multiple.toFixed(1)}× <a href="${SK_MEDIAN_SOURCE}" target="_blank" rel="noreferrer">ročný medián príjmu na Slovensku</a> (${fmt(slovakMedian)} €)</div>`
+          : ""
+      }
+    </div>
+    <div class="ctx-item ctx-item--median">
+      <div class="ctx-val">${medianIncome > 0 ? `${fmt(medianIncome)} €` : "—"}</div>
+      <div class="ctx-label">medián funkcionárov</div>
+      ${
+        income > 0 && medianIncome > 0
+          ? `<div class="ctx-rank">${fmt(Math.abs(incomeDeltaFromMedian))} € ${incomeDeltaFromMedian >= 0 ? "nad" : "pod"} mediánom</div>`
+          : `<div class="ctx-rank">Referenčná hodnota pre porovnanie aktuálneho príjmu.</div>`
+      }
+      ${
+        slovakMedian > 0
+          ? `<div class="ctx-rank">Zdroj SR: <a href="${SK_MEDIAN_SOURCE}" target="_blank" rel="noreferrer">${fmt(slovakMedianMonthly)} € / mes. v ${latestYear}</a> · ${fmt(slovakMedian)} € ročne</div>`
           : ""
       }
     </div>

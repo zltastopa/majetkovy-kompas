@@ -66,6 +66,7 @@ a:hover {
   gap: 1.5rem;
   margin-top: 1rem;
   font-size: 0.85rem;
+  flex-wrap: wrap;
 }
 
 .stat {
@@ -82,6 +83,28 @@ a:hover {
 .stat-label {
   color: var(--muted);
   font-size: 0.75rem;
+}
+
+.stat-source {
+  margin-top: 0.15rem;
+  color: var(--muted);
+  font-size: 0.68rem;
+}
+
+.stat--median {
+  padding: 0.55rem 0.8rem;
+  border: 1px solid #c7d2fe;
+  border-radius: 12px;
+  background: #eef2ff;
+}
+
+.stat--median .stat-value {
+  color: #1d4ed8;
+}
+
+.stat--median-secondary {
+  background: #f8fbff;
+  border-color: #dbeafe;
 }
 
 .landing-tabs {
@@ -466,6 +489,12 @@ a:hover {
   padding: 0.8rem 0.9rem;
 }
 
+.ctx-item--median {
+  border-color: #c7d2fe;
+  background: #f8fbff;
+  box-shadow: inset 0 0 0 1px rgba(59, 130, 246, 0.08);
+}
+
 .ctx-val {
   font-size: 1.15rem;
   font-weight: 700;
@@ -483,6 +512,10 @@ a:hover {
   margin-top: 0.45rem;
   font-size: 0.76rem;
   color: var(--muted);
+}
+
+.ctx-item--median .ctx-val {
+  color: #1d4ed8;
 }
 
 .ctx-meter {
@@ -646,10 +679,13 @@ a:hover {
 .median-label {
   position: absolute;
   right: 0;
-  padding: 0 4px;
-  background: var(--card-bg);
-  color: var(--muted);
-  font-size: 0.65rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid #dbeafe;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.96);
+  color: #475569;
+  font-size: 0.68rem;
+  font-weight: 700;
   transform: translateY(-50%);
 }
 

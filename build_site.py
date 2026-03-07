@@ -35,7 +35,12 @@ SITE_DESCRIPTION = (
 SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")
 NRSR_LIST_URL = "https://www.nrsr.sk/web/?sid=oznamenia_funkcionarov"
 NRSR_DECL_URL = "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId="
-SK_MEDIAN_SOURCE = "https://www.platy.sk/en/salaries-in-country"
+# 2024 Slovak salary median reported by Alma Career/Platy.sk via TASR/HN24:
+# 1 500 EUR gross monthly, annualized here to 18 000 EUR.
+SK_MEDIAN_SOURCE = (
+    "https://hn24.hnonline.sk/hn24/96189316-"
+    "desatina-pracujucich-vlani-zarabala-menej-ako-tisic-eur-mesacne"
+)
 SK_MEDIAN_INCOME = {
     2019: 13100,
     2020: 13600,
@@ -253,6 +258,10 @@ def fmt_currency(value):
     return f"{fmt_int(value)} €"
 
 
+def annual_to_monthly(value):
+    return round(value / 12)
+
+
 def income_parts(data):
     if not isinstance(data, dict):
         return {"public_function": 0, "other": 0}
@@ -407,12 +416,21 @@ def render_person_redirect(person):
 """
 
 
-def header_stats(meta):
+def header_stats(meta, stats=None):
+    median_markup = ""
+    if stats:
+        latest_year = meta["years"][-1]
+        slovak_median = SK_MEDIAN_INCOME[latest_year]
+        median_markup = f"""
+  <div class="stat stat--median"><span class="stat-value">{fmt_currency(stats["median_income"])}</span><span class="stat-label">medián funkcionárov</span></div>
+  <div class="stat stat--median stat--median-secondary"><span class="stat-value">{fmt_currency(slovak_median)}</span><span class="stat-label"><a href="{SK_MEDIAN_SOURCE}" target="_blank" rel="noreferrer">ročný medián na Slovensku</a></span><span class="stat-source">zdroj {latest_year}: {fmt_int(annual_to_monthly(slovak_median))} €/mes.</span></div>
+"""
     return f"""
 <div class="stats">
   <div class="stat"><span class="stat-value">{fmt_int(meta["count"])}</span><span class="stat-label">funkcionárov</span></div>
   <div class="stat"><span class="stat-value">{len(meta["years"])}</span><span class="stat-label">rokov dát</span></div>
   <div class="stat"><span class="stat-value">{meta["years"][0]}–{meta["years"][-1]}</span><span class="stat-label">obdobie</span></div>
+  {median_markup}
 </div>
 """
 
@@ -554,7 +572,7 @@ def render_home(index, highlights, meta, stats):
         "/",
         body,
         current_nav="home",
-        header_extra=header_stats(meta),
+        header_extra=header_stats(meta, stats),
         header_note=header_explainer(),
         nav_markup=nav_markup,
         subtitle=(
@@ -616,7 +634,7 @@ def highlight_card(item, kind, prefix=""):
 """
 
 
-def render_section_page(kind, page, items, meta):
+def render_section_page(kind, page, items, meta, stats):
     title = f"{page['title']} | {SITE_NAME}"
     description = f"{page['intro']} {SITE_NAME} spracúva dáta z NR SR."
     extra_link = ""
@@ -641,6 +659,7 @@ def render_section_page(kind, page, items, meta):
         body,
         prefix="../",
         current_nav=kind,
+        header_extra=header_stats(meta, stats),
         header_note=header_explainer(),
         subtitle=(
             f'Majetkové priznania verejných funkcionárov SR · dáta z '
@@ -705,7 +724,7 @@ def field_summary(change):
     return label
 
 
-def render_person_page(person, meta):
+def render_person_page(person, meta, stats):
     role = display_role(person.get("public_function"))
     description = role
     title = f"{person['name']} | {SITE_NAME}"
@@ -772,6 +791,7 @@ def render_person_page(person, meta):
         person_path(person["slug"]),
         body,
         prefix="../../",
+        header_extra=header_stats(meta, stats),
         header_note=header_explainer(),
         subtitle=(
             f'Majetkové priznania verejných funkcionárov SR · dáta z '
@@ -1035,7 +1055,7 @@ def build():
         target_dir = SITE_DIR / page["slug"]
         target_dir.mkdir(exist_ok=True)
         (target_dir / "index.html").write_text(
-            render_section_page(kind, page, highlights[kind], meta),
+            render_section_page(kind, page, highlights[kind], meta, stats),
             encoding="utf-8",
         )
 
@@ -1056,7 +1076,7 @@ def build():
     for uid, data in politicians.items():
         target_dir = detail_html_dir / data["slug"]
         target_dir.mkdir(parents=True, exist_ok=True)
-        (target_dir / "index.html").write_text(render_person_page(data, meta), encoding="utf-8")
+        (target_dir / "index.html").write_text(render_person_page(data, meta, stats), encoding="utf-8")
         legacy_dir = legacy_detail_dir / data["slug"]
         legacy_dir.mkdir(parents=True, exist_ok=True)
         (legacy_dir / "index.html").write_text(render_person_redirect(data), encoding="utf-8")
