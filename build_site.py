@@ -64,11 +64,9 @@ SECTION_PAGES = {
         "intro": "Najvyššie celkové príjmy v poslednom dostupnom roku.",
     },
 }
-COMPARE_PAGE = {
-    "slug": "compare",
-    "title": "Porovnanie",
-    "intro": "Porovnajte 2 až 4 funkcionárov alebo si na detaile rozbaľte porovnanie rokov.",
-}
+PERSON_PAGE_SLUG = "osoba"
+LEGACY_PERSON_PAGE_SLUG = "politicians"
+DETAIL_JSON_DIRNAME = "politicians"
 ROLE_BREAK_KEYWORDS = (
     "člen ",
     "členka ",
@@ -272,8 +270,20 @@ def income_multiple_text(value, year):
     return f"{value / median:.1f}× slovenský medián"
 
 
+def person_path(slug):
+    return f"/{PERSON_PAGE_SLUG}/{slug}/"
+
+
 def person_href(slug, prefix=""):
-    return f"{prefix}politicians/{slug}/"
+    return f"{prefix}{PERSON_PAGE_SLUG}/{slug}/"
+
+
+def legacy_person_path(slug):
+    return f"/{LEGACY_PERSON_PAGE_SLUG}/{slug}/"
+
+
+def legacy_person_href(slug, prefix=""):
+    return f"{prefix}{LEGACY_PERSON_PAGE_SLUG}/{slug}/"
 
 
 def page_href(slug, prefix=""):
@@ -315,14 +325,11 @@ def meta_tags(title, description, path, *, image_path="", noindex=False):
 
 
 def nav_links(prefix="", current=""):
-    links = ['<a href="' + esc(prefix or "./") + '"' + (' aria-current="page"' if current == "home" else "") + ">Domov</a>"]
+    links = ['<a href="' + esc(prefix or "./") + '"' + (' aria-current="page"' if current == "home" else "") + ">Vyhľadávanie</a>"]
     for key, page in SECTION_PAGES.items():
         href = page_href(page["slug"], prefix)
         current_attr = ' aria-current="page"' if current == key else ""
         links.append(f'<a href="{esc(href)}"{current_attr}>{esc(page["title"])}</a>')
-    compare_href = page_href(COMPARE_PAGE["slug"], prefix)
-    compare_attr = ' aria-current="page"' if current == "compare" else ""
-    links.append(f'<a href="{esc(compare_href)}"{compare_attr}>{esc(COMPARE_PAGE["title"])}</a>')
     return "\n".join(links)
 
 
@@ -340,7 +347,10 @@ def shell(title, description, path, body, *, prefix="", current_nav="", json_ld=
 <div class="page-shell">
   <header class="site-header">
     <div class="site-header__inner">
-      <a class="site-brand" href="{esc(prefix or './')}">{SITE_NAME}</a>
+      <div class="site-header__meta">
+        <a class="site-brand" href="{esc(prefix or './')}">{SITE_NAME}</a>
+        <p class="site-subtitle">Majetkové priznania verejných funkcionárov SR · dáta z NR SR</p>
+      </div>
       <nav class="site-nav">
         {nav_links(prefix, current_nav)}
       </nav>
@@ -358,19 +368,37 @@ def shell(title, description, path, body, *, prefix="", current_nav="", json_ld=
 """
 
 
+def render_person_redirect(person):
+    target_path = person_path(person["slug"])
+    target_href = person_href(person["slug"], "../../")
+    description = f"Detail osoby {person['name']} bol presunutý na slovenskú URL."
+    return f"""<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{meta_tags(f"{person['name']} | {SITE_NAME}", description, target_path, noindex=True)}
+<meta http-equiv="refresh" content="0; url={esc(target_href)}">
+</head>
+<body>
+<main style="max-width: 720px; margin: 4rem auto; padding: 0 1rem; font: 16px/1.55 Georgia, 'Times New Roman', serif;">
+  <h1 style="font-size: 2rem; line-height: 1.1;">Stránka bola presunutá</h1>
+  <p>Nová adresa detailu je <a href="{esc(target_href)}">{esc(target_href)}</a>.</p>
+  <script>window.location.replace({json.dumps(target_href)});</script>
+</main>
+</body>
+</html>
+"""
+
+
 def stats_block(meta, stats):
     return f"""
-<section class="page-title page-title--home">
-  <p class="eyebrow">Majetkové priznania verejných funkcionárov SR</p>
-  <h1>Majetkové priznania s vlastnými URL pre každého funkcionára.</h1>
-  <p class="lede">{SITE_DESCRIPTION} Dáta pokrývajú roky {meta["years"][0]} až {meta["years"][-1]}.</p>
-  <dl class="metric-strip">
-    <div><dt>Funkcionárov</dt><dd>{fmt_int(meta["count"])}</dd></div>
-    <div><dt>Rokov dát</dt><dd>{len(meta["years"])}</dd></div>
-    <div><dt>Medián príjmu</dt><dd>{fmt_currency(stats["median_income"])}</dd></div>
-    <div><dt>Slovenský medián</dt><dd>{fmt_currency(SK_MEDIAN_INCOME[meta["years"][-1]])}</dd></div>
-  </dl>
-</section>
+<dl class="metric-strip metric-strip--home">
+  <div><dt>Funkcionárov</dt><dd>{fmt_int(meta["count"])}</dd></div>
+  <div><dt>Rokov dát</dt><dd>{len(meta["years"])}</dd></div>
+  <div><dt>Medián príjmu</dt><dd>{fmt_currency(stats["median_income"])}</dd></div>
+  <div><dt>Slovenský medián</dt><dd>{fmt_currency(SK_MEDIAN_INCOME[meta["years"][-1]])}</dd></div>
+</dl>
 """
 
 
@@ -395,8 +423,8 @@ def featured_sections(prefix="", *, current=""):
     return f"""
 <section class="section-block section-block--tight">
   <div class="section-heading">
-    <h2>Tematické stránky</h2>
-    <p>Každý prehľad má vlastnú indexovateľnú stránku namiesto anchor navigácie.</p>
+    <h2>Tematické prehľady</h2>
+    <p>Rýchle vstupy do najdôležitejších zmien a rebríčkov.</p>
   </div>
   <ul class="topic-list">
     {''.join(rows)}
@@ -454,8 +482,8 @@ def render_home(index, highlights, meta, stats):
 {stats_block(meta, stats)}
 <section class="section-block section-block--tight">
   <div class="section-heading">
-    <h2>Vyhľadávanie funkcionárov</h2>
-    <p>Filtrovanie funguje bez zmeny URL, ale každý výsledok smeruje na samostatnú detailnú stránku.</p>
+    <h2>Vyhľadávanie</h2>
+    <p>Hľadajte meno, funkciu alebo zoradenie podľa príjmov, nehnuteľností a zmien.</p>
   </div>
   <div class="toolbar">
     <label class="toolbar__search">
@@ -484,11 +512,58 @@ def render_home(index, highlights, meta, stats):
     {''.join(person_row(person) for person in index)}
   </ul>
 </section>
-{featured_sections()}
 <section class="section-block section-block--tight">
   <div class="section-heading">
-    <h2>Najvyššie príjmy v roku {latest_year}</h2>
-    <p>Výber z funkcionárov s najvyššími celkovými príjmami.</p>
+    <h2>{SECTION_PAGES['income_jumps']['title']}</h2>
+    <p>Najväčšie medziročné zmeny celkových príjmov ({meta["years"][0]}–{meta["years"][-1]})</p>
+  </div>
+  <div class="results-head results-head--highlights">
+    <span>Meno</span>
+    <span>Funkcia</span>
+    <span>{highlight_metric_label('income_jumps')}</span>
+    <span>Kontext</span>
+  </div>
+  <ul class="highlight-list">
+    {''.join(highlight_card(item, 'income_jumps') for item in highlights["income_jumps"][:8])}
+  </ul>
+  <p class="section-cta"><a href="{SECTION_PAGES['income_jumps']['slug']}/">Otvoriť kompletný prehľad</a></p>
+</section>
+<section class="section-block section-block--tight">
+  <div class="section-heading">
+    <h2>{SECTION_PAGES['new_properties']['title']}</h2>
+    <p>Funkcionári, ktorým pribudli nehnuteľnosti</p>
+  </div>
+  <div class="results-head results-head--highlights">
+    <span>Meno</span>
+    <span>Funkcia</span>
+    <span>{highlight_metric_label('new_properties')}</span>
+    <span>Kontext</span>
+  </div>
+  <ul class="highlight-list">
+    {''.join(highlight_card(item, 'new_properties') for item in highlights["new_properties"][:8])}
+  </ul>
+  <p class="section-cta"><a href="{SECTION_PAGES['new_properties']['slug']}/">Otvoriť kompletný prehľad</a></p>
+</section>
+<section class="section-block section-block--tight">
+  <div class="section-heading">
+    <h2>{SECTION_PAGES['new_obligations']['title']}</h2>
+    <p>Nové úvery a hypotéky</p>
+  </div>
+  <div class="results-head results-head--highlights">
+    <span>Meno</span>
+    <span>Funkcia</span>
+    <span>{highlight_metric_label('new_obligations')}</span>
+    <span>Kontext</span>
+  </div>
+  <ul class="highlight-list">
+    {''.join(highlight_card(item, 'new_obligations') for item in highlights["new_obligations"][:8])}
+  </ul>
+  <p class="section-cta"><a href="{SECTION_PAGES['new_obligations']['slug']}/">Otvoriť kompletný prehľad</a></p>
+</section>
+<section class="section-block section-block--tight">
+  <div class="section-heading">
+    <h2>Najvyššie príjmy</h2>
+    <p>Najvyššie celkové príjmy v roku {latest_year}</p>
   </div>
   <div class="results-head results-head--highlights">
     <span>Meno</span>
@@ -570,7 +645,7 @@ def render_section_page(kind, page, items, meta):
     <span>Meno</span>
     <span>Funkcia</span>
     <span>{highlight_metric_label(kind)}</span>
-    <span>Porovnanie</span>
+    <span>Kontext</span>
   </div>
   <ul class="highlight-list">
     {''.join(highlight_card(item, kind, '../') for item in items)}
@@ -588,90 +663,6 @@ def render_section_page(kind, page, items, meta):
         body,
         prefix="../",
         current_nav=kind,
-    )
-
-
-def render_compare_page(index, meta):
-    title = f"{COMPARE_PAGE['title']} | {SITE_NAME}"
-    description = "Porovnajte 2 až 4 verejných funkcionárov podľa príjmov, majetku, záväzkov a medziročných zmien."
-    body = f"""
-<section class="page-title">
-  <p class="eyebrow">Porovnávací nástroj</p>
-  <h1>{esc(COMPARE_PAGE['title'])}</h1>
-  <p class="lede">{esc(COMPARE_PAGE['intro'])}</p>
-</section>
-<section class="section-block section-block--tight">
-  <div class="section-heading">
-    <h2>Nastavenie porovnania</h2>
-    <p>Vyberte aspoň dvoch funkcionárov a rok, pre ktorý chcete porovnať posledný dostupný stav aj medziročnú zmenu.</p>
-  </div>
-  <div id="compare-tool" class="compare-tool" data-json-prefix="../politicians/">
-    <div class="compare-toolbar">
-      <label class="compare-field">
-        <span>Funkcionár 1</span>
-        <select data-compare-slot="0"></select>
-      </label>
-      <label class="compare-field">
-        <span>Funkcionár 2</span>
-        <select data-compare-slot="1"></select>
-      </label>
-      <label class="compare-field">
-        <span>Funkcionár 3</span>
-        <select data-compare-slot="2"></select>
-      </label>
-      <label class="compare-field">
-        <span>Funkcionár 4</span>
-        <select data-compare-slot="3"></select>
-      </label>
-      <label class="compare-field compare-field--year">
-        <span>Rok</span>
-        <select id="compare-year"></select>
-      </label>
-    </div>
-    <p id="compare-status" class="result-count">Vyberte aspoň dvoch funkcionárov.</p>
-    <div id="compare-results" hidden>
-      <section class="compare-section-block">
-        <div class="section-heading">
-          <h2>Rýchly prehľad</h2>
-          <p>Každá karta zobrazuje vybraný rok, zmenu oproti predchádzajúcemu priznaniu a odkaz na detail.</p>
-        </div>
-        <div id="compare-summary-grid" class="compare-summary-grid"></div>
-      </section>
-      <section class="compare-section-block">
-        <div class="section-heading">
-          <h2>Príjmový posun</h2>
-          <p>Dumbbell prehľad zobrazuje zmenu medzi predchádzajúcim rokom a vybraným priznaním.</p>
-        </div>
-        <div id="compare-dumbbells" class="compare-dumbbells"></div>
-      </section>
-      <section class="compare-section-block">
-        <div class="section-heading">
-          <h2>Porovnávacia tabuľka</h2>
-          <p>Najdôležitejšie metriky vedľa seba pre rýchle porovnanie.</p>
-        </div>
-        <div id="compare-table-wrap"></div>
-      </section>
-      <section class="compare-section-block">
-        <div class="section-heading">
-          <h2>Majetok a záväzky</h2>
-          <p>Podrobnejšie položky pre vybraný rok zoradené po osobách.</p>
-        </div>
-        <div id="compare-lists"></div>
-      </section>
-    </div>
-  </div>
-</section>
-<script type="application/json" id="compare-index-data">{json_for_script(index)}</script>
-<script type="application/json" id="compare-meta-data">{json_for_script(meta)}</script>
-<script src="../compare.js"></script>
-"""
-    return shell(
-        title,
-        description,
-        f"/{COMPARE_PAGE['slug']}/",
-        body,
-        prefix="../",
-        current_nav="compare",
     )
 
 
@@ -784,7 +775,7 @@ def render_person_page(person, meta):
                 "@type": "ListItem",
                 "position": 2,
                 "name": person["name"],
-                "item": abs_url(f"/politicians/{person['slug']}/") or f"/politicians/{person['slug']}/",
+                "item": abs_url(person_path(person["slug"])) or person_path(person["slug"]),
             },
         ],
     }
@@ -793,19 +784,17 @@ def render_person_page(person, meta):
         "@type": "Person",
         "name": person["name"],
         "description": description,
-        "url": abs_url(f"/politicians/{person['slug']}/") or f"/politicians/{person['slug']}/",
+        "url": abs_url(person_path(person["slug"])) or person_path(person["slug"]),
         "jobTitle": role,
     }
 
     body = f"""
 <article class="detail-page">
   <nav class="breadcrumb">
-    <a href="../../">Domov</a>
-    <span>/</span>
-    <span>{esc(person['name'])}</span>
+    <a href="../../">&larr; Späť na zoznam</a>
   </nav>
   <header class="detail-hero">
-    <p class="eyebrow">Detail funkcionára</p>
+    <p class="eyebrow">Osoba</p>
     <h1>{esc(person['name'])}</h1>
     <p class="lede">{esc(role)}</p>
     <p class="detail-summary">{esc(' · '.join(summary_parts))}</p>
@@ -814,7 +803,6 @@ def render_person_page(person, meta):
   <div class="detail-switch">
     <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
     <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
-    <a class="detail-switch__link" href="../../{COMPARE_PAGE['slug']}/?ids={esc(person['user_id'])}">Porovnať s ďalšími</a>
   </div>
   <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
     <section class="stats-grid stats-grid--detail">
@@ -875,7 +863,7 @@ def render_person_page(person, meta):
     return shell(
         title,
         description,
-        f"/politicians/{person['slug']}/",
+        person_path(person["slug"]),
         body,
         prefix="../../",
     )
@@ -1080,7 +1068,7 @@ def build():
     meta = {"years": years, "count": len(politicians)}
     (SITE_DIR / "meta.json").write_text(json.dumps(meta, ensure_ascii=False), encoding="utf-8")
 
-    detail_json_dir = SITE_DIR / "politicians"
+    detail_json_dir = SITE_DIR / DETAIL_JSON_DIRNAME
     detail_json_dir.mkdir(exist_ok=True)
     for uid, data in politicians.items():
         (detail_json_dir / f"{uid}.json").write_text(
@@ -1100,14 +1088,17 @@ def build():
             encoding="utf-8",
         )
 
-    compare_dir = SITE_DIR / COMPARE_PAGE["slug"]
-    compare_dir.mkdir(exist_ok=True)
-    (compare_dir / "index.html").write_text(
-        render_compare_page(index, meta),
-        encoding="utf-8",
-    )
+    compare_dir = SITE_DIR / "compare"
+    if compare_dir.exists():
+        shutil.rmtree(compare_dir)
 
-    detail_html_dir = SITE_DIR / "politicians"
+    legacy_detail_dir = SITE_DIR / LEGACY_PERSON_PAGE_SLUG
+    legacy_detail_dir.mkdir(exist_ok=True)
+    for child in legacy_detail_dir.iterdir():
+        if child.is_dir():
+            shutil.rmtree(child)
+    detail_html_dir = SITE_DIR / PERSON_PAGE_SLUG
+    detail_html_dir.mkdir(exist_ok=True)
     for child in detail_html_dir.iterdir():
         if child.is_dir():
             shutil.rmtree(child)
@@ -1115,15 +1106,17 @@ def build():
         target_dir = detail_html_dir / data["slug"]
         target_dir.mkdir(parents=True, exist_ok=True)
         (target_dir / "index.html").write_text(render_person_page(data, meta), encoding="utf-8")
+        legacy_dir = legacy_detail_dir / data["slug"]
+        legacy_dir.mkdir(parents=True, exist_ok=True)
+        (legacy_dir / "index.html").write_text(render_person_redirect(data), encoding="utf-8")
 
     robots_lines = ["User-agent: *", "Allow: /"]
     if SITE_URL:
         sitemap_entries = [abs_url("/")]
         for page in SECTION_PAGES.values():
             sitemap_entries.append(abs_url(f"/{page['slug']}/"))
-        sitemap_entries.append(abs_url(f"/{COMPARE_PAGE['slug']}/"))
         for data in politicians.values():
-            sitemap_entries.append(abs_url(f"/politicians/{data['slug']}/"))
+            sitemap_entries.append(abs_url(person_path(data["slug"])))
         sitemap_xml = (
             '<?xml version="1.0" encoding="UTF-8"?>\n'
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
