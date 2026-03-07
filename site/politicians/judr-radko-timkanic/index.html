@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,60 +38,80 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>JUDr. Radko Timkanič</h1>
-    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.) · príjem 31 872 € · 1 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)</p>
+    <p class="detail-summary">príjem 31 872 € · 1 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Radko.Timkanic" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>31 872 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>5</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>31 872 €</dd></div>
-        <div><dt>Iné</dt><dd>0 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Radko.Timkanic">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>31 872 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>5</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>Neuvedené</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 12940 · Podiel: 1/2</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>31 872 €</dd></div>
+          <div><dt>Iné</dt><dd>0 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>Neuvedené</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 12940 · Podiel: 1/2</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>public_function; Príjmy: 1 114 € → 31 872 € (+30 758 €); Majetkové práva: 1 → 1 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>public_function; Príjmy: 0 € → 1 114 € (+1 114 €)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "JUDr. Radko Timkanič", "item": "/politicians/judr-radko-timkanic/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "JUDr. Radko Timkanič", "description": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.) · príjem 31 872 € · 1 nehnuteľností · 1 záväzkov", "url": "/politicians/judr-radko-timkanic/", "jobTitle": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Radko.Timkanic", "name": "JUDr. Radko Timkanič", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)", "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)", "years": [2022, 2023, 2024], "timeline": [{"year": 2022, "data": {"id": "ZC245814", "declaration_id": 29911, "name": "JUDr. RADKO TIMKANIČ", "year": 2022, "filed": "pri ujatí sa funkcie", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": null, "business_activity": "ADVOKÁT A KONATEĽ(ADVOKÁTSKA KANCELÁRIA JUDr. RADKO TIMKANIČ, S.R.O.)", "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12940", "share": "1/2"}], "movable_property": null, "property_rights": ["PODIEL V S.R.O., podiel: 100%"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2023, "data": {"id": "ZC245814", "declaration_id": 33307, "name": "JUDr. RADKO TIMKANIČ", "year": 2023, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.\r\n)", "income": {"public_function": 1114, "other": 0}, "incompatibility": true, "employment": null, "business_activity": "ADVOKÁT A KONATEĽ(ADVOKÁTSKA KANCELÁRIA JUDr. RADKO TIMKANIČ, S.R.O.)", "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12940", "share": "1/2"}], "movable_property": null, "property_rights": ["PODIEL V S.R.O., podiel: 100%"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)", "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.\r\n)"}, {"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 1114, "other": 0}, "old_total": 0, "new_total": 1114, "delta": 1114}]}}, {"year": 2024, "data": {"id": "ZC245814", "declaration_id": 37396, "name": "JUDr. RADKO TIMKANIČ", "year": 2024, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)", "income": {"public_function": 31872, "other": 0}, "incompatibility": true, "employment": null, "business_activity": "ADVOKÁT A KONATEĽ(ADVOKÁTSKA KANCELÁRIA JUDr. RADKO TIMKANIČ, S.R.O.)", "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12940", "share": "1/2"}], "movable_property": null, "property_rights": ["OBCHODNÝ PODIEL V S.R.O., podiel: 100%"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.\r\n)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)"}, {"field": "income", "old": {"public_function": 1114, "other": 0}, "new": {"public_function": 31872, "other": 0}, "old_total": 1114, "new_total": 31872, "delta": 30758, "delta_pct": 2761.0}, {"field": "property_rights", "old": ["PODIEL V S.R.O., podiel: 100%"], "new": ["OBCHODNÝ PODIEL V S.R.O., podiel: 100%"], "old_count": 1, "new_count": 1}]}}], "total_changes": 5, "slug": "judr-radko-timkanic"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

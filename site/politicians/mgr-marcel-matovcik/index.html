@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,57 +38,74 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Mgr. Marcel Maťovčík</h1>
-    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÁ DITRIBUČNÁ A.S.) · príjem 50 443 € · 13 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÁ DITRIBUČNÁ A.S.)</p>
+    <p class="detail-summary">príjem 50 443 € · 13 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Marcel.Matovcik" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>50 443 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>13</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>3</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>5 000 €</dd></div>
-        <div><dt>Iné</dt><dd>45 443 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Marcel.Matovcik">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>50 443 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>13</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>3</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>MESTO MARTIN
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>POZEMOK ORNÁ PÔDA</strong><span>Kat. územie: TOMČANY · LV: 152 · Podiel: 1/1 BSM</span></li><li><strong>POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: TOMČANY · LV: 152 · Podiel: 1/1 BSM</span></li><li><strong>POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: TOMČANY · LV: 152 · Podiel: 1/1 BSM</span></li><li><strong>STAVBA RODINNÝ DOM</strong><span>Kat. územie: TOMČANY · LV: 152 · Podiel: 1/1 BSM</span></li><li><strong>POZEMOK ORNÁ PÔDA</strong><span>Kat. územie: MARTIN · LV: 6864 · Podiel: 1/1 BSM</span></li><li><strong>STAVBA INÁ BUDOVA NEBYTOVÉ PRIESTORY 8X</strong><span>Kat. územie: MARTIN · LV: 6919 · Podiel: 1/1</span></li><li><strong>POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: MARTIN · LV: 6919 · Podiel: 62311/195926</span></li><li><strong>POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: MARTIN · LV: 3937 · Podiel: 1/1</span></li><li><strong>STAVBA INÁ BUDOVA</strong><span>Kat. územie: MARTIN · LV: 3937 · Podiel: 1/1</span></li><li><strong>DVORIŠTE</strong><span>Kat. územie: SOLINE · LV: 3868 · Podiel: 1/1 BSM</span></li><li><strong>ZGRADA</strong><span>Kat. územie: SOLINE · LV: 3868 · Podiel: 1/1 BSM</span></li><li><strong>GARÁŽ</strong><span>Kat. územie: MARTIN · LV: 4829 · Podiel: 1/2 BSM</span></li><li><strong>BYT</strong><span>Kat. územie: MARTIN · LV: 5175 · Podiel: 1/2 BSM</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>5 000 €</dd></div>
+          <div><dt>Iné</dt><dd>45 443 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>MESTO MARTIN Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>POZEMOK ORNÁ PÔDA</strong><span>Kat. územie: TOMČANY · LV: 152 · Podiel: 1/1 BSM</span></li><li><strong>POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: TOMČANY · LV: 152 · Podiel: 1/1 BSM</span></li><li><strong>POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: TOMČANY · LV: 152 · Podiel: 1/1 BSM</span></li><li><strong>STAVBA RODINNÝ DOM</strong><span>Kat. územie: TOMČANY · LV: 152 · Podiel: 1/1 BSM</span></li><li><strong>POZEMOK ORNÁ PÔDA</strong><span>Kat. územie: MARTIN · LV: 6864 · Podiel: 1/1 BSM</span></li><li><strong>STAVBA INÁ BUDOVA NEBYTOVÉ PRIESTORY 8X</strong><span>Kat. územie: MARTIN · LV: 6919 · Podiel: 1/1</span></li><li><strong>POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: MARTIN · LV: 6919 · Podiel: 62311/195926</span></li><li><strong>POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: MARTIN · LV: 3937 · Podiel: 1/1</span></li><li><strong>STAVBA INÁ BUDOVA</strong><span>Kat. územie: MARTIN · LV: 3937 · Podiel: 1/1</span></li><li><strong>DVORIŠTE</strong><span>Kat. územie: SOLINE · LV: 3868 · Podiel: 1/1 BSM</span></li><li><strong>ZGRADA</strong><span>Kat. územie: SOLINE · LV: 3868 · Podiel: 1/1 BSM</span></li><li><strong>GARÁŽ</strong><span>Kat. územie: MARTIN · LV: 4829 · Podiel: 1/2 BSM</span></li><li><strong>BYT</strong><span>Kat. územie: MARTIN · LV: 5175 · Podiel: 1/2 BSM</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>public_function; Príjmy: 0 € → 50 443 € (+50 443 €); Nehnuteľnosti: 11 → 13 (+2)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Mgr. Marcel Maťovčík", "item": "/politicians/mgr-marcel-matovcik/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Mgr. Marcel Maťovčík", "description": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÁ DITRIBUČNÁ A.S.) · príjem 50 443 € · 13 nehnuteľností · 1 záväzkov", "url": "/politicians/mgr-marcel-matovcik/", "jobTitle": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÁ DITRIBUČNÁ A.S.)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Marcel.Matovcik", "name": "Mgr. Marcel Maťovčík", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÁ DITRIBUČNÁ A.S.)", "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÁ DITRIBUČNÁ A.S.)", "years": [2023, 2024], "timeline": [{"year": 2023, "data": {"id": "ZC246346", "declaration_id": 34283, "name": "Mgr. MARCEL MAŤOVČÍK", "year": 2023, "filed": "pri ujatí sa funkcie", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÁ DISTRIBUČNÁ A.S.)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "MESTO MARTIN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "STAVBA RODINNÝ DOM", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "MARTIN", "lv_number": "6864", "share": "1/1 BSM"}, {"type": "STAVBA INÁ BUDOVA, NEBYTOVÉ PRIESTORY 8X", "cadastral_territory": "MARTIN", "lv_number": "6919", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "DVORIŠTE", "cadastral_territory": "SOLINE", "lv_number": "3868", "share": "1/1 BSM"}, {"type": "ZGRADA", "cadastral_territory": "SOLINE", "lv_number": "3868", "share": "1/1 BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "MARTIN", "lv_number": "6919", "share": "62311/195926"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "MARTIN", "lv_number": "3937", "share": "1/1"}, {"type": "STAVBA INÁ BUDOVA", "cadastral_territory": "MARTIN", "lv_number": "3937", "share": "1/1"}], "movable_property": null, "property_rights": ["ÚSPORY, podiel: 1/1 BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2024, "data": {"id": "ZC246346", "declaration_id": 36837, "name": "Mgr. MARCEL MAŤOVČÍK", "year": 2024, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÁ DITRIBUČNÁ A.S.)", "income": {"public_function": 5000, "other": 45443}, "incompatibility": true, "employment": "MESTO MARTIN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "POZEMOK ORNÁ PÔDA", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "STAVBA RODINNÝ DOM", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "POZEMOK ORNÁ PÔDA", "cadastral_territory": "MARTIN", "lv_number": "6864", "share": "1/1 BSM"}, {"type": "STAVBA INÁ BUDOVA NEBYTOVÉ PRIESTORY 8X", "cadastral_territory": "MARTIN", "lv_number": "6919", "share": "1/1"}, {"type": "POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "MARTIN", "lv_number": "6919", "share": "62311/195926"}, {"type": "POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "MARTIN", "lv_number": "3937", "share": "1/1"}, {"type": "STAVBA INÁ BUDOVA", "cadastral_territory": "MARTIN", "lv_number": "3937", "share": "1/1"}, {"type": "DVORIŠTE", "cadastral_territory": "SOLINE", "lv_number": "3868", "share": "1/1 BSM"}, {"type": "ZGRADA", "cadastral_territory": "SOLINE", "lv_number": "3868", "share": "1/1 BSM"}, {"type": "GARÁŽ", "cadastral_territory": "MARTIN", "lv_number": "4829", "share": "1/2 BSM"}, {"type": "BYT", "cadastral_territory": "MARTIN", "lv_number": "5175", "share": "1/2 BSM"}], "movable_property": null, "property_rights": ["ÚSPORY, podiel: 1/1 BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÁ DISTRIBUČNÁ A.S.)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÁ DITRIBUČNÁ A.S.)"}, {"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 5000, "other": 45443}, "old_total": 0, "new_total": 50443, "delta": 50443}, {"field": "real_estate", "old": [{"type": "STAVBA RODINNÝ DOM", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "MARTIN", "lv_number": "6864", "share": "1/1 BSM"}, {"type": "STAVBA INÁ BUDOVA, NEBYTOVÉ PRIESTORY 8X", "cadastral_territory": "MARTIN", "lv_number": "6919", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "DVORIŠTE", "cadastral_territory": "SOLINE", "lv_number": "3868", "share": "1/1 BSM"}, {"type": "ZGRADA", "cadastral_territory": "SOLINE", "lv_number": "3868", "share": "1/1 BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "MARTIN", "lv_number": "6919", "share": "62311/195926"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "MARTIN", "lv_number": "3937", "share": "1/1"}, {"type": "STAVBA INÁ BUDOVA", "cadastral_territory": "MARTIN", "lv_number": "3937", "share": "1/1"}], "new": [{"type": "POZEMOK ORNÁ PÔDA", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "STAVBA RODINNÝ DOM", "cadastral_territory": "TOMČANY", "lv_number": "152", "share": "1/1 BSM"}, {"type": "POZEMOK ORNÁ PÔDA", "cadastral_territory": "MARTIN", "lv_number": "6864", "share": "1/1 BSM"}, {"type": "STAVBA INÁ BUDOVA NEBYTOVÉ PRIESTORY 8X", "cadastral_territory": "MARTIN", "lv_number": "6919", "share": "1/1"}, {"type": "POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "MARTIN", "lv_number": "6919", "share": "62311/195926"}, {"type": "POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "MARTIN", "lv_number": "3937", "share": "1/1"}, {"type": "STAVBA INÁ BUDOVA", "cadastral_territory": "MARTIN", "lv_number": "3937", "share": "1/1"}, {"type": "DVORIŠTE", "cadastral_territory": "SOLINE", "lv_number": "3868", "share": "1/1 BSM"}, {"type": "ZGRADA", "cadastral_territory": "SOLINE", "lv_number": "3868", "share": "1/1 BSM"}, {"type": "GARÁŽ", "cadastral_territory": "MARTIN", "lv_number": "4829", "share": "1/2 BSM"}, {"type": "BYT", "cadastral_territory": "MARTIN", "lv_number": "5175", "share": "1/2 BSM"}], "old_count": 11, "new_count": 13}]}}], "total_changes": 3, "slug": "mgr-marcel-matovcik"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

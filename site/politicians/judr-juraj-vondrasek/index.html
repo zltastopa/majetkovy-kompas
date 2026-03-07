@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,77 +38,98 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>JUDr. Juraj Vondrášek</h1>
-    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA) · príjem 43 543 € · 3 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)</p>
+    <p class="detail-summary">príjem 43 543 € · 3 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Juraj.Vondrasek" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>43 543 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>9</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
-        <div><dt>Iné</dt><dd>43 543 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Juraj.Vondrasek">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>43 543 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>9</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: DÚBRAVKA · LV: 2812 · Podiel: 1/1</span></li><li><strong>ZASTAVANÉ PLOCHY A NÁDVORIA</strong><span>Kat. územie: DÚBRAVKA · LV: 2812 · Podiel: 172/10000</span></li><li><strong>BYTOVÝ DOM</strong><span>Kat. územie: DÚBRAVKA · LV: 2812 · Podiel: 172/10000</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: BSM · Vznik: 29. 04. 2022</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
+          <div><dt>Iné</dt><dd>43 543 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: DÚBRAVKA · LV: 2812 · Podiel: 1/1</span></li><li><strong>ZASTAVANÉ PLOCHY A NÁDVORIA</strong><span>Kat. územie: DÚBRAVKA · LV: 2812 · Podiel: 172/10000</span></li><li><strong>BYTOVÝ DOM</strong><span>Kat. územie: DÚBRAVKA · LV: 2812 · Podiel: 172/10000</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: BSM · Vznik: 29. 04. 2022</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 41 890 € → 43 543 € (+1 653 €); Hnuteľný majetok: 1 → 2 (+1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 34 931 € → 41 890 € (+6 959 €); Funkcie: 1 → 1 (0); Záväzky: 1 → 1 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 29 695 € → 34 931 € (+5 236 €); Funkcie</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>Príjmy: 27 245 € → 29 695 € (+2 450 €)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2020,2021">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2020</strong>
   <span>Príjmy: 0 € → 27 245 € (+27 245 €)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2019,2020">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2019</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "JUDr. Juraj Vondrášek", "item": "/politicians/judr-juraj-vondrasek/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "JUDr. Juraj Vondrášek", "description": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA) · príjem 43 543 € · 3 nehnuteľností · 1 záväzkov", "url": "/politicians/judr-juraj-vondrasek/", "jobTitle": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Juraj.Vondrasek", "name": "JUDr. Juraj Vondrášek", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "years": [2019, 2020, 2021, 2022, 2023, 2024], "timeline": [{"year": 2019, "data": {"id": "ZC214156", "declaration_id": 15949, "name": "JUDr. JURAJ VONDRÁŠEK", "year": 2019, "filed": "pri ujatí sa funkcie", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "1/1"}, {"type": "ZASTAVANÉ PLOCHY A NÁDVORIA", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "172/10000"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "172/10000"}], "movable_property": [{"type": "MOTOROVÉ VOZIDLO", "brand": "HYUNDAI", "year_of_manufacture": 2014, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2020, "data": {"id": "ZC214156", "declaration_id": 20037, "name": "JUDr. JURAJ VONDRÁŠEK", "year": 2020, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "income": {"public_function": 0, "other": 27245}, "incompatibility": true, "employment": "SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "1/1"}, {"type": "ZASTAVANÉ PLOCHY A NÁDVORIA", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "172/10000"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "172/10000"}], "movable_property": [{"type": "MOTOROVÉ VOZIDLO", "brand": "HYUNDAI", "year_of_manufacture": 2014, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 0, "other": 27245}, "old_total": 0, "new_total": 27245, "delta": 27245}]}}, {"year": 2021, "data": {"id": "ZC214156", "declaration_id": 24181, "name": "JUDr. JURAJ VONDRÁŠEK", "year": 2021, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "income": {"public_function": 0, "other": 29695}, "incompatibility": true, "employment": "SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "1/1"}, {"type": "ZASTAVANÉ PLOCHY A NÁDVORIA", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "172/10000"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "172/10000"}], "movable_property": [{"type": "MOTOROVÉ VOZIDLO", "brand": "HYUNDAI", "year_of_manufacture": 2014, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 27245}, "new": {"public_function": 0, "other": 29695}, "old_total": 27245, "new_total": 29695, "delta": 2450, "delta_pct": 9.0}]}}, {"year": 2022, "data": {"id": "ZC214156", "declaration_id": 28936, "name": "JUDr. JURAJ VONDRÁŠEK", "year": 2022, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "income": {"public_function": 0, "other": 34931}, "incompatibility": true, "employment": "SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": [{"role": "POSLANEC ZASTUPITEĽSTVA MESTSKEJ ČASTI BRATISLAVY", "organization": "MESTSKÁ ČASŤ BRATISLAVA-DÚBRAVKA", "benefits": "PLAT"}], "real_estate": [{"type": "BYT", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "1/1"}, {"type": "ZASTAVANÉ PLOCHY A NÁDVORIA", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "172/10000"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "172/10000"}], "movable_property": [{"type": "MOTOROVÉ VOZIDLO", "brand": "HYUNDAI", "year_of_manufacture": 2014, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 29695}, "new": {"public_function": 0, "other": 34931}, "old_total": 29695, "new_total": 34931, "delta": 5236, "delta_pct": 17.6}, {"field": "positions", "old": null, "new": [{"role": "POSLANEC ZASTUPITEĽSTVA MESTSKEJ ČASTI BRATISLAVY", "organization": "MESTSKÁ ČASŤ BRATISLAVA-DÚBRAVKA", "benefits": "PLAT"}]}]}}, {"year": 2023, "data": {"id": "ZC214156", "declaration_id": 33537, "name": "JUDr. JURAJ VONDRÁŠEK", "year": 2023, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "income": {"public_function": 0, "other": 41890}, "incompatibility": true, "employment": "SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": [{"role": "POSLANEC ZASTUPITEĽSTVA MESTSKEJ ČASTI BRATISLAVY", "organization": "MESTSKÁ ČASŤ BRATISLAVA - DÚBRAVKA", "benefits": "PLAT"}], "real_estate": [{"type": "BYT", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "1/1"}, {"type": "ZASTAVANÉ PLOCHY A NÁDVORIA", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "172/10000"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "172/10000"}], "movable_property": [{"type": "MOTOROVÉ VOZIDLO", "brand": "HYUNDAI", "year_of_manufacture": 2014, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "29. 04. 2022"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 34931}, "new": {"public_function": 0, "other": 41890}, "old_total": 34931, "new_total": 41890, "delta": 6959, "delta_pct": 19.9}, {"field": "positions", "old": [{"role": "POSLANEC ZASTUPITEĽSTVA MESTSKEJ ČASTI BRATISLAVY", "organization": "MESTSKÁ ČASŤ BRATISLAVA-DÚBRAVKA", "benefits": "PLAT"}], "new": [{"role": "POSLANEC ZASTUPITEĽSTVA MESTSKEJ ČASTI BRATISLAVY", "organization": "MESTSKÁ ČASŤ BRATISLAVA - DÚBRAVKA", "benefits": "PLAT"}], "old_count": 1, "new_count": 1}, {"field": "obligations", "old": [{"type": "žiadny"}], "new": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "29. 04. 2022"}], "old_count": 1, "new_count": 1}]}}, {"year": 2024, "data": {"id": "ZC214156", "declaration_id": 37436, "name": "JUDr. JURAJ VONDRÁŠEK", "year": 2024, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "income": {"public_function": 0, "other": 43543}, "incompatibility": true, "employment": "SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": [{"role": "POSLANEC ZASTUPITEĽSTVA MESTSKEJ ČASTI BRATISLAVY", "organization": "MESTSKÁ ČASŤ BRATISLAVA - DÚBRAVKA", "benefits": "PLAT"}], "real_estate": [{"type": "BYT", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "1/1"}, {"type": "ZASTAVANÉ PLOCHY A NÁDVORIA", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "172/10000"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "DÚBRAVKA", "lv_number": "2812", "share": "172/10000"}], "movable_property": [{"type": "MOTOROVÉ VOZIDLO", "brand": "HYUNDAI", "year_of_manufacture": 2014, "share": "1/1"}, {"type": "MOTOROVÉ VOZIDLO", "brand": "MG", "year_of_manufacture": 2024, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "29. 04. 2022"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 41890}, "new": {"public_function": 0, "other": 43543}, "old_total": 41890, "new_total": 43543, "delta": 1653, "delta_pct": 3.9}, {"field": "movable_property", "old": [{"type": "MOTOROVÉ VOZIDLO", "brand": "HYUNDAI", "year_of_manufacture": 2014, "share": "1/1"}], "new": [{"type": "MOTOROVÉ VOZIDLO", "brand": "HYUNDAI", "year_of_manufacture": 2014, "share": "1/1"}, {"type": "MOTOROVÉ VOZIDLO", "brand": "MG", "year_of_manufacture": 2024, "share": "1/1"}], "old_count": 1, "new_count": 2}]}}], "total_changes": 9, "slug": "judr-juraj-vondrasek"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

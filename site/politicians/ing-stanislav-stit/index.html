@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,60 +38,80 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Ing. Stanislav Štít</h1>
-    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.) · príjem 9 438 € · 5 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)</p>
+    <p class="detail-summary">príjem 9 438 € · 5 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Stanislav.Stit" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>9 438 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>5</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>3</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>9 438 €</dd></div>
-        <div><dt>Iné</dt><dd>0 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Stanislav.Stit">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>9 438 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>5</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>3</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>Neuvedené</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>ZÁHRADY</strong><span>Kat. územie: KRUŠETNICA · LV: 1300 · Podiel: 1/2</span></li><li><strong>ORNÁ PÔDA A TRVALÝ TRÁVNY PORAST</strong><span>Kat. územie: KRUŠETNICA · LV: 2026 · Podiel: 1/1</span></li><li><strong>NEBYTOVÝ PRIESTOR - GARÁŽ</strong><span>Kat. územie: BRATISLAVA RUŽINOV · LV: 4249 · Podiel: 1/1 BSM</span></li><li><strong>NEBYTOVÝ PRIESTOR - GARÁŽ</strong><span>Kat. územie: BRATISLAVA RUŽINOV · LV: 6222 · Podiel: 1/1 BSM</span></li><li><strong>RODINNÝ DOM A ZÁHRADA</strong><span>Kat. územie: KRUŠETNICA · LV: 279 · Podiel: 1/1</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>9 438 €</dd></div>
+          <div><dt>Iné</dt><dd>0 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>Neuvedené</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>ZÁHRADY</strong><span>Kat. územie: KRUŠETNICA · LV: 1300 · Podiel: 1/2</span></li><li><strong>ORNÁ PÔDA A TRVALÝ TRÁVNY PORAST</strong><span>Kat. územie: KRUŠETNICA · LV: 2026 · Podiel: 1/1</span></li><li><strong>NEBYTOVÝ PRIESTOR - GARÁŽ</strong><span>Kat. územie: BRATISLAVA RUŽINOV · LV: 4249 · Podiel: 1/1 BSM</span></li><li><strong>NEBYTOVÝ PRIESTOR - GARÁŽ</strong><span>Kat. územie: BRATISLAVA RUŽINOV · LV: 6222 · Podiel: 1/1 BSM</span></li><li><strong>RODINNÝ DOM A ZÁHRADA</strong><span>Kat. územie: KRUŠETNICA · LV: 279 · Podiel: 1/1</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 3 586 € → 9 438 € (+5 852 €)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 0 € → 3 586 € (+3 586 €); Nehnuteľnosti: 5 → 5 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Ing. Stanislav Štít", "item": "/politicians/ing-stanislav-stit/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ing. Stanislav Štít", "description": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.) · príjem 9 438 € · 5 nehnuteľností · 1 záväzkov", "url": "/politicians/ing-stanislav-stit/", "jobTitle": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Stanislav.Stit", "name": "Ing. Stanislav Štít", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)", "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)", "years": [2022, 2023, 2024], "timeline": [{"year": 2022, "data": {"id": "ZC235380", "declaration_id": 27605, "name": "Ing. STANISLAV ŠTÍT", "year": 2022, "filed": "pri ujatí sa funkcie", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZÁHRADY", "cadastral_territory": "KRUŠETNICA", "lv_number": "1300", "share": "1/2"}, {"type": "ORNÁ PÔDA A TRVALÝ TRÁVNY PORAST", "cadastral_territory": "KRUŠETNICA", "lv_number": "2026", "share": "1/1"}, {"type": "BYT A NEBYTOVÝ PRIESTOR - GARÁŽ", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "4249", "share": "1/1 BSM"}, {"type": "BYT A NEBYTOVÝ PRIESTOR - GARÁŽ", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "6222", "share": "1/1 BSM"}, {"type": "RODINNÝ DOM A ZÁHRADA", "cadastral_territory": "KRUŠETNICA", "lv_number": "279", "share": "1/1"}], "movable_property": [{"type": "OSOBNÉ VOZIDLO", "brand": "PEUGEOT", "year_of_manufacture": 2009, "share": "BSM"}, {"type": "OSOBNÉ VOZIDLO", "brand": "VOLKSWAGEN", "year_of_manufacture": 2017, "share": "BSM"}, {"type": "OSOBNÉ VOZIDLO", "brand": "SEAT", "year_of_manufacture": 2022, "share": "BSM"}], "property_rights": ["FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: BSM", "SPORENIE DDS, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2023, "data": {"id": "ZC235380", "declaration_id": 33316, "name": "Ing. STANISLAV ŠTÍT", "year": 2023, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)", "income": {"public_function": 3586, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZÁHRADY", "cadastral_territory": "KRUŠETNICA", "lv_number": "1300", "share": "1/2"}, {"type": "ORNÁ PÔDA A TRVALÝ TRÁVNY PORAST", "cadastral_territory": "KRUŠETNICA", "lv_number": "2026", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR - GARÁŽ", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "4249", "share": "1/1 BSM"}, {"type": "NEBYTOVÝ PRIESTOR - GARÁŽ", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "6222", "share": "1/1 BSM"}, {"type": "RODINNÝ DOM A ZÁHRADA", "cadastral_territory": "KRUŠETNICA", "lv_number": "279", "share": "1/1"}], "movable_property": [{"type": "OSOBNÉ VOZIDLO", "brand": "PEUGEOT", "year_of_manufacture": 2009, "share": "BSM"}, {"type": "OSOBNÉ VOZIDLO", "brand": "VOLKSWAGEN", "year_of_manufacture": 2017, "share": "BSM"}, {"type": "OSOBNÉ VOZIDLO", "brand": "SEAT", "year_of_manufacture": 2022, "share": "BSM"}], "property_rights": ["FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: BSM", "SPORENIE DDS, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 3586, "other": 0}, "old_total": 0, "new_total": 3586, "delta": 3586}, {"field": "real_estate", "old": [{"type": "ZÁHRADY", "cadastral_territory": "KRUŠETNICA", "lv_number": "1300", "share": "1/2"}, {"type": "ORNÁ PÔDA A TRVALÝ TRÁVNY PORAST", "cadastral_territory": "KRUŠETNICA", "lv_number": "2026", "share": "1/1"}, {"type": "BYT A NEBYTOVÝ PRIESTOR - GARÁŽ", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "4249", "share": "1/1 BSM"}, {"type": "BYT A NEBYTOVÝ PRIESTOR - GARÁŽ", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "6222", "share": "1/1 BSM"}, {"type": "RODINNÝ DOM A ZÁHRADA", "cadastral_territory": "KRUŠETNICA", "lv_number": "279", "share": "1/1"}], "new": [{"type": "ZÁHRADY", "cadastral_territory": "KRUŠETNICA", "lv_number": "1300", "share": "1/2"}, {"type": "ORNÁ PÔDA A TRVALÝ TRÁVNY PORAST", "cadastral_territory": "KRUŠETNICA", "lv_number": "2026", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR - GARÁŽ", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "4249", "share": "1/1 BSM"}, {"type": "NEBYTOVÝ PRIESTOR - GARÁŽ", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "6222", "share": "1/1 BSM"}, {"type": "RODINNÝ DOM A ZÁHRADA", "cadastral_territory": "KRUŠETNICA", "lv_number": "279", "share": "1/1"}], "old_count": 5, "new_count": 5}]}}, {"year": 2024, "data": {"id": "ZC235380", "declaration_id": 37411, "name": "Ing. STANISLAV ŠTÍT", "year": 2024, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)", "income": {"public_function": 9438, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZÁHRADY", "cadastral_territory": "KRUŠETNICA", "lv_number": "1300", "share": "1/2"}, {"type": "ORNÁ PÔDA A TRVALÝ TRÁVNY PORAST", "cadastral_territory": "KRUŠETNICA", "lv_number": "2026", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR - GARÁŽ", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "4249", "share": "1/1 BSM"}, {"type": "NEBYTOVÝ PRIESTOR - GARÁŽ", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "6222", "share": "1/1 BSM"}, {"type": "RODINNÝ DOM A ZÁHRADA", "cadastral_territory": "KRUŠETNICA", "lv_number": "279", "share": "1/1"}], "movable_property": [{"type": "OSOBNÉ VOZIDLO", "brand": "PEUGEOT", "year_of_manufacture": 2009, "share": "BSM"}, {"type": "OSOBNÉ VOZIDLO", "brand": "VOLKSWAGEN", "year_of_manufacture": 2017, "share": "BSM"}, {"type": "OSOBNÉ VOZIDLO", "brand": "SEAT", "year_of_manufacture": 2022, "share": "BSM"}], "property_rights": ["FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: BSM", "SPORENIE DDS, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 3586, "other": 0}, "new": {"public_function": 9438, "other": 0}, "old_total": 3586, "new_total": 9438, "delta": 5852, "delta_pct": 163.2}]}}], "total_changes": 3, "slug": "ing-stanislav-stit"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

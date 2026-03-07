@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,55 +38,74 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>JUDr. Zuzana Čížová</h1>
-    <p class="lede">člen Súdnej rady Slovenskej republiky · príjem 34 043 € · 14 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">člen Súdnej rady Slovenskej republiky</p>
+    <p class="detail-summary">príjem 34 043 € · 14 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Zuzana.Cizova" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>34 043 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>14</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>5</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>12 870 €</dd></div>
-        <div><dt>Iné</dt><dd>21 173 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Zuzana.Cizova">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>34 043 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>14</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>5</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>Neuvedené</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>RODINNÝ DOM</strong><span>Kat. územie: BÁNOVCE NAD BEBRAVOU · LV: 133 · Podiel: 1/1</span></li><li><strong>BYT</strong><span>Kat. územie: BÁNOVCE NAD BEBRAVOU · LV: 2515 · Podiel: 1/1</span></li><li><strong>BYT</strong><span>Kat. územie: KUBRÁ · LV: 4647 · Podiel: 1/1</span></li><li><strong>NEBYTOVÝ PRIESTOR</strong><span>Kat. územie: NIVY · LV: 5370 · Podiel: 1/1</span></li><li><strong>NEBYTOVÝ PRIESTOR</strong><span>Kat. územie: NIVY · LV: 5370 · Podiel: 1/45</span></li><li><strong>NEBYTOVÝ PRIESTOR</strong><span>Kat. územie: NIVY · LV: 5370 · Podiel: 1/148</span></li><li><strong>ZÁHRADA</strong><span>Kat. územie: BÁNOVCE NAD BEBRAVOU · LV: 3441 · Podiel: 1/1</span></li><li><strong>ZÁHRADA</strong><span>Kat. územie: BÁNOVCE NAD BEBRAVOU · LV: 3441 · Podiel: 1/1</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: BÁNOVCE NAD BEBRAVOU · LV: 3441 · Podiel: 1/1</span></li><li><strong>NEBYTOVÝ PRIESTOR</strong><span>Kat. územie: TRENČÍN · LV: 9487 · Podiel: 1/1</span></li><li><strong>NEBYTOVÝ PRIESTOR</strong><span>Kat. územie: TRENČÍN · LV: 10539 · Podiel: 1/1</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: TRENČÍN · LV: 10575 · Podiel: 1/1</span></li><li><strong>NEBYTOVÝ PRIESTOR</strong><span>Kat. územie: TRENČÍN · LV: 10663 · Podiel: 1/1</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: TRENČÍN · LV: 10848 · Podiel: 1/1</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>ZÁVÄZOK</strong><span>Podiel: 100% · Vznik: 25. 12. 2024</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>12 870 €</dd></div>
+          <div><dt>Iné</dt><dd>21 173 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>Neuvedené</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>RODINNÝ DOM</strong><span>Kat. územie: BÁNOVCE NAD BEBRAVOU · LV: 133 · Podiel: 1/1</span></li><li><strong>BYT</strong><span>Kat. územie: BÁNOVCE NAD BEBRAVOU · LV: 2515 · Podiel: 1/1</span></li><li><strong>BYT</strong><span>Kat. územie: KUBRÁ · LV: 4647 · Podiel: 1/1</span></li><li><strong>NEBYTOVÝ PRIESTOR</strong><span>Kat. územie: NIVY · LV: 5370 · Podiel: 1/1</span></li><li><strong>NEBYTOVÝ PRIESTOR</strong><span>Kat. územie: NIVY · LV: 5370 · Podiel: 1/45</span></li><li><strong>NEBYTOVÝ PRIESTOR</strong><span>Kat. územie: NIVY · LV: 5370 · Podiel: 1/148</span></li><li><strong>ZÁHRADA</strong><span>Kat. územie: BÁNOVCE NAD BEBRAVOU · LV: 3441 · Podiel: 1/1</span></li><li><strong>ZÁHRADA</strong><span>Kat. územie: BÁNOVCE NAD BEBRAVOU · LV: 3441 · Podiel: 1/1</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: BÁNOVCE NAD BEBRAVOU · LV: 3441 · Podiel: 1/1</span></li><li><strong>NEBYTOVÝ PRIESTOR</strong><span>Kat. územie: TRENČÍN · LV: 9487 · Podiel: 1/1</span></li><li><strong>NEBYTOVÝ PRIESTOR</strong><span>Kat. územie: TRENČÍN · LV: 10539 · Podiel: 1/1</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: TRENČÍN · LV: 10575 · Podiel: 1/1</span></li><li><strong>NEBYTOVÝ PRIESTOR</strong><span>Kat. územie: TRENČÍN · LV: 10663 · Podiel: 1/1</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: TRENČÍN · LV: 10848 · Podiel: 1/1</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>ZÁVÄZOK</strong><span>Podiel: 100% · Vznik: 25. 12. 2024</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 0 € → 34 043 € (+34 043 €); Funkcie: 2 → 2 (0); Nehnuteľnosti: 11 → 14 (+3); Majetkové práva: 3 → 2 (-1); Záväzky: 1 → 1 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "JUDr. Zuzana Čížová", "item": "/politicians/judr-zuzana-cizova/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "JUDr. Zuzana Čížová", "description": "člen Súdnej rady Slovenskej republiky · príjem 34 043 € · 14 nehnuteľností · 1 záväzkov", "url": "/politicians/judr-zuzana-cizova/", "jobTitle": "člen Súdnej rady Slovenskej republiky"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Zuzana.Cizova", "name": "JUDr. Zuzana Čížová", "public_function": "člen Súdnej rady Slovenskej republiky", "role": "člen Súdnej rady Slovenskej republiky", "years": [2023, 2024], "timeline": [{"year": 2023, "data": {"id": "G246211", "declaration_id": 32254, "name": "JUDr. ZUZANA ČÍŽOVÁ", "year": 2023, "filed": "pri ujatí sa funkcie", "public_function": "člen Súdnej rady Slovenskej republiky", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": [{"role": "ČLENKA PREDSEDNÍCTVA SAK", "organization": "SLOVENSKÁ ADVOKÁTSKA KOMORA", "benefits": "ŽIADNE"}, {"role": "KONATEĽ", "organization": "ADVOKÁTSKA KANCELÁRIA JUDr. ZUZANA ČÍŽOVÁ", "benefits": "ŽIADNE"}], "real_estate": [{"type": "RODINNÝ DOM", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "133", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "2515", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "KUBRÁ", "lv_number": "4647", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "TRENČÍN", "lv_number": "10663", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TRENČÍN", "lv_number": "10848", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "3441", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "3441", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "3441", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "TRENČIN", "lv_number": "9487", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "TRENČÍN", "lv_number": "10539", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TRENČÍN", "lv_number": "10575", "share": "1/1"}], "movable_property": null, "property_rights": ["OBCHODNÝ PODIEL V SPOLOČNOSTI, podiel: 100%", "POHĽADÁCKA VOČI SPOLOČNOSTI , podiel: 100%", "ÚSPORY PEŇAŽNÝCH PROSTRIEDKOV, podiel: 100%"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2024, "data": {"id": "G246211", "declaration_id": 37162, "name": "JUDr. ZUZANA ČÍŽOVÁ", "year": 2024, "filed": "k 30. aprílu", "public_function": "člen Súdnej rady Slovenskej republiky", "income": {"public_function": 12870, "other": 21173}, "incompatibility": true, "employment": null, "business_activity": null, "positions": [{"role": "ČLENKA PREDSEDNÍCTVA SAK", "organization": "SLOVENSKÁ ADVOKÁTSKA KOMORA", "benefits": "NÁHRADA ZA STRATU ČASU, MZDA ZA DOHODU\r\nO VYKONANEJ PRÁCI"}, {"role": "KONATEĽ", "organization": "ADVOKÁTSKA KANCELÁRIA JUDr. ZUZANA ČÍŽOVÁ", "benefits": "ŽIADNE"}], "real_estate": [{"type": "RODINNÝ DOM", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "133", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "2515", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "KUBRÁ", "lv_number": "4647", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "NIVY", "lv_number": "5370", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "NIVY", "lv_number": "5370", "share": "1/45"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "NIVY", "lv_number": "5370", "share": "1/148"}, {"type": "ZÁHRADA", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "3441", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "3441", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "3441", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "TRENČÍN", "lv_number": "9487", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "TRENČÍN", "lv_number": "10539", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TRENČÍN", "lv_number": "10575", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "TRENČÍN", "lv_number": "10663", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TRENČÍN", "lv_number": "10848", "share": "1/1"}], "movable_property": null, "property_rights": ["OBCHODNÝ PODIEL SPOLOČNOSTI, podiel: 100%", "ÚSPORY PEŇAŽNÝCH PROSTRIEDKOV, podiel: 100%"], "obligations": [{"type": "ZÁVÄZOK", "share": "100%", "date": "25. 12. 2024"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 12870, "other": 21173}, "old_total": 0, "new_total": 34043, "delta": 34043}, {"field": "positions", "old": [{"role": "ČLENKA PREDSEDNÍCTVA SAK", "organization": "SLOVENSKÁ ADVOKÁTSKA KOMORA", "benefits": "ŽIADNE"}, {"role": "KONATEĽ", "organization": "ADVOKÁTSKA KANCELÁRIA JUDr. ZUZANA ČÍŽOVÁ", "benefits": "ŽIADNE"}], "new": [{"role": "ČLENKA PREDSEDNÍCTVA SAK", "organization": "SLOVENSKÁ ADVOKÁTSKA KOMORA", "benefits": "NÁHRADA ZA STRATU ČASU, MZDA ZA DOHODU\r\nO VYKONANEJ PRÁCI"}, {"role": "KONATEĽ", "organization": "ADVOKÁTSKA KANCELÁRIA JUDr. ZUZANA ČÍŽOVÁ", "benefits": "ŽIADNE"}], "old_count": 2, "new_count": 2}, {"field": "real_estate", "old": [{"type": "RODINNÝ DOM", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "133", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "2515", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "KUBRÁ", "lv_number": "4647", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "TRENČÍN", "lv_number": "10663", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TRENČÍN", "lv_number": "10848", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "3441", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "3441", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "3441", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "TRENČIN", "lv_number": "9487", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "TRENČÍN", "lv_number": "10539", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TRENČÍN", "lv_number": "10575", "share": "1/1"}], "new": [{"type": "RODINNÝ DOM", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "133", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "2515", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "KUBRÁ", "lv_number": "4647", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "NIVY", "lv_number": "5370", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "NIVY", "lv_number": "5370", "share": "1/45"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "NIVY", "lv_number": "5370", "share": "1/148"}, {"type": "ZÁHRADA", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "3441", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "3441", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BÁNOVCE NAD BEBRAVOU", "lv_number": "3441", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "TRENČÍN", "lv_number": "9487", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "TRENČÍN", "lv_number": "10539", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TRENČÍN", "lv_number": "10575", "share": "1/1"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "TRENČÍN", "lv_number": "10663", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TRENČÍN", "lv_number": "10848", "share": "1/1"}], "old_count": 11, "new_count": 14}, {"field": "property_rights", "old": ["OBCHODNÝ PODIEL V SPOLOČNOSTI, podiel: 100%", "POHĽADÁCKA VOČI SPOLOČNOSTI , podiel: 100%", "ÚSPORY PEŇAŽNÝCH PROSTRIEDKOV, podiel: 100%"], "new": ["OBCHODNÝ PODIEL SPOLOČNOSTI, podiel: 100%", "ÚSPORY PEŇAŽNÝCH PROSTRIEDKOV, podiel: 100%"], "old_count": 3, "new_count": 2}, {"field": "obligations", "old": [{"type": "žiadny"}], "new": [{"type": "ZÁVÄZOK", "share": "100%", "date": "25. 12. 2024"}], "old_count": 1, "new_count": 1}]}}], "total_changes": 5, "slug": "judr-zuzana-cizova"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

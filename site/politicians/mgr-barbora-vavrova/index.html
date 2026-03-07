@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,57 +38,74 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Mgr. Barbora Vávrová</h1>
-    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (INŠTITÚT PRE VÝSKUM PRÁCE A RODINY) · príjem 79 750 € · 3 nehnuteľností · 3 záväzkov</p>
+    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (INŠTITÚT PRE VÝSKUM PRÁCE A RODINY)</p>
+    <p class="detail-summary">príjem 79 750 € · 3 nehnuteľností · 3 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Barbora.Vavrova" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>79 750 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>3</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>4</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>55 420 €</dd></div>
-        <div><dt>Iné</dt><dd>24 330 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Barbora.Vavrova">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>79 750 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>3</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>4</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>MINISTERSTVO PRÁCE, SOCIÁLNYCH VECÍ A RODINY SLOVENSKEJ REPUBLIKY
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: BRATISLAVA - RUŽINOV, TRNÁVKA · LV: 4777 · Podiel: 1/2</span></li><li><strong>NEBYTOVÝ PRIESTOR - GARÁŽ</strong><span>Kat. územie: BRATISLAVA - RUŽINOV, TRNÁVKA · LV: 4777 · Podiel: 1443/45348</span></li><li><strong>BYT - GARSÓNKA</strong><span>Kat. územie: TRENČÍN · LV: 6151 · Podiel: 1/1</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>ÚVER NA BÝVANIE</strong><span>Podiel: 1/2 · Vznik: 01. 02. 2019</span></li><li><strong>ÚVER NA BÝVANIE</strong><span>Podiel: 1/2 · Vznik: 11. 06. 2021</span></li><li><strong>ÚVER NA BÝVANIE</strong><span>Podiel: 1/1 · Vznik: 17. 12. 2021</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>55 420 €</dd></div>
+          <div><dt>Iné</dt><dd>24 330 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>MINISTERSTVO PRÁCE, SOCIÁLNYCH VECÍ A RODINY SLOVENSKEJ REPUBLIKY Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: BRATISLAVA - RUŽINOV, TRNÁVKA · LV: 4777 · Podiel: 1/2</span></li><li><strong>NEBYTOVÝ PRIESTOR - GARÁŽ</strong><span>Kat. územie: BRATISLAVA - RUŽINOV, TRNÁVKA · LV: 4777 · Podiel: 1443/45348</span></li><li><strong>BYT - GARSÓNKA</strong><span>Kat. územie: TRENČÍN · LV: 6151 · Podiel: 1/1</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>ÚVER NA BÝVANIE</strong><span>Podiel: 1/2 · Vznik: 01. 02. 2019</span></li><li><strong>ÚVER NA BÝVANIE</strong><span>Podiel: 1/2 · Vznik: 11. 06. 2021</span></li><li><strong>ÚVER NA BÝVANIE</strong><span>Podiel: 1/1 · Vznik: 17. 12. 2021</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 0 € → 79 750 € (+79 750 €); Zamestnanie; Nehnuteľnosti: 3 → 3 (0); Záväzky: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Mgr. Barbora Vávrová", "item": "/politicians/mgr-barbora-vavrova/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Mgr. Barbora Vávrová", "description": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (INŠTITÚT PRE VÝSKUM PRÁCE A RODINY) · príjem 79 750 € · 3 nehnuteľností · 3 záväzkov", "url": "/politicians/mgr-barbora-vavrova/", "jobTitle": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (INŠTITÚT PRE VÝSKUM PRÁCE A RODINY)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Barbora.Vavrova", "name": "Mgr. Barbora Vávrová", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (INŠTITÚT PRE VÝSKUM PRÁCE A RODINY)", "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (INŠTITÚT PRE VÝSKUM PRÁCE A RODINY)", "years": [2023, 2024], "timeline": [{"year": 2023, "data": {"id": "ZC245840", "declaration_id": 29876, "name": "Mgr. BARBORA VÁVROVÁ", "year": 2023, "filed": "pri ujatí sa funkcie", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (INŠTITÚT PRE VÝSKUM PRÁCE A RODINY)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV, TRNÁVKA", "lv_number": "4777", "share": "1/2"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "BRATISLAVA - RUŽINOV, TRNÁVKA", "lv_number": "4777", "share": "1443/45348"}, {"type": "BYT", "cadastral_territory": "TRENČÍN", "lv_number": "6151", "share": "1/1"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "BMW", "year_of_manufacture": 2014, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "ÚVER NA BÝVANIE", "share": "1/1", "date": "17. 12. 2021"}, {"type": "ÚVER NA BÝVANIE", "share": "1/2", "date": "01. 02. 2019"}, {"type": "ÚVER NA BÝVANIE", "share": "1/2", "date": "11. 06. 2021"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2024, "data": {"id": "ZC245840", "declaration_id": 38231, "name": "Mgr. BARBORA VÁVROVÁ", "year": 2024, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (INŠTITÚT PRE VÝSKUM PRÁCE A RODINY)", "income": {"public_function": 55420, "other": 24330}, "incompatibility": true, "employment": "MINISTERSTVO PRÁCE, SOCIÁLNYCH VECÍ A RODINY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV, TRNÁVKA", "lv_number": "4777", "share": "1/2"}, {"type": "NEBYTOVÝ PRIESTOR - GARÁŽ", "cadastral_territory": "BRATISLAVA - RUŽINOV, TRNÁVKA", "lv_number": "4777", "share": "1443/45348"}, {"type": "BYT - GARSÓNKA", "cadastral_territory": "TRENČÍN", "lv_number": "6151", "share": "1/1"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "BMW", "year_of_manufacture": 2014, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "ÚVER NA BÝVANIE", "share": "1/2", "date": "01. 02. 2019"}, {"type": "ÚVER NA BÝVANIE", "share": "1/2", "date": "11. 06. 2021"}, {"type": "ÚVER NA BÝVANIE", "share": "1/1", "date": "17. 12. 2021"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 55420, "other": 24330}, "old_total": 0, "new_total": 79750, "delta": 79750}, {"field": "employment", "old": null, "new": "MINISTERSTVO PRÁCE, SOCIÁLNYCH VECÍ A RODINY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV, TRNÁVKA", "lv_number": "4777", "share": "1/2"}, {"type": "NEBYTOVÝ PRIESTOR", "cadastral_territory": "BRATISLAVA - RUŽINOV, TRNÁVKA", "lv_number": "4777", "share": "1443/45348"}, {"type": "BYT", "cadastral_territory": "TRENČÍN", "lv_number": "6151", "share": "1/1"}], "new": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV, TRNÁVKA", "lv_number": "4777", "share": "1/2"}, {"type": "NEBYTOVÝ PRIESTOR - GARÁŽ", "cadastral_territory": "BRATISLAVA - RUŽINOV, TRNÁVKA", "lv_number": "4777", "share": "1443/45348"}, {"type": "BYT - GARSÓNKA", "cadastral_territory": "TRENČÍN", "lv_number": "6151", "share": "1/1"}], "old_count": 3, "new_count": 3}, {"field": "obligations", "old": [{"type": "ÚVER NA BÝVANIE", "share": "1/1", "date": "17. 12. 2021"}, {"type": "ÚVER NA BÝVANIE", "share": "1/2", "date": "01. 02. 2019"}, {"type": "ÚVER NA BÝVANIE", "share": "1/2", "date": "11. 06. 2021"}], "new": [{"type": "ÚVER NA BÝVANIE", "share": "1/2", "date": "01. 02. 2019"}, {"type": "ÚVER NA BÝVANIE", "share": "1/2", "date": "11. 06. 2021"}, {"type": "ÚVER NA BÝVANIE", "share": "1/1", "date": "17. 12. 2021"}], "old_count": 3, "new_count": 3}]}}], "total_changes": 4, "slug": "mgr-barbora-vavrova"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

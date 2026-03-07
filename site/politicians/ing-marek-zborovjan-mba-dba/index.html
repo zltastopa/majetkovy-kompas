@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,57 +38,74 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Ing. Marek Zborovjan, MBA, DBA</h1>
-    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA HOLDING A.S.) · príjem 50 143 € · 2 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA HOLDING A.S.)</p>
+    <p class="detail-summary">príjem 50 143 € · 2 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Marek.Zborovjan" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>50 143 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>2</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>6</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>5 373 €</dd></div>
-        <div><dt>Iné</dt><dd>44 770 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Marek.Zborovjan">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>50 143 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>2</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>6</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>PAUFOSS, SPOL. S.R.O.
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA</strong><span>Kat. územie: ŠARIŠSKÉ MICHAĽANY · LV: 1117 · Podiel: BSM</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA</strong><span>Kat. územie: ŠARIŠSKÉ MICHAĽANY · LV: 2125 · Podiel: 1/2</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>5 373 €</dd></div>
+          <div><dt>Iné</dt><dd>44 770 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>PAUFOSS, SPOL. S.R.O. Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA</strong><span>Kat. územie: ŠARIŠSKÉ MICHAĽANY · LV: 1117 · Podiel: BSM</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA</strong><span>Kat. územie: ŠARIŠSKÉ MICHAĽANY · LV: 2125 · Podiel: 1/2</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 0 € → 50 143 € (+50 143 €); incompatibility; Zamestnanie; Funkcie: 1 → 2 (+1); Nehnuteľnosti: 12 → 2 (-10); Vozidlá: 1 → 1 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Ing. Marek Zborovjan, MBA, DBA", "item": "/politicians/ing-marek-zborovjan-mba-dba/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ing. Marek Zborovjan, MBA, DBA", "description": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA HOLDING A.S.) · príjem 50 143 € · 2 nehnuteľností · 1 záväzkov", "url": "/politicians/ing-marek-zborovjan-mba-dba/", "jobTitle": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA HOLDING A.S.)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Marek.Zborovjan", "name": "Ing. Marek Zborovjan, MBA, DBA", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA HOLDING A.S.)", "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA HOLDING A.S.)", "years": [2023, 2024], "timeline": [{"year": 2023, "data": {"id": "ZC246289", "declaration_id": 32823, "name": "Ing. MAREK ZBOROVJAN, MBA, DBA", "year": 2023, "filed": "pri ujatí sa funkcie", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA HOLDING A.S.)", "income": {"public_function": 0, "other": 0}, "incompatibility": false, "employment": "DANFOSS, SPOL. S R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": [{"role": "POSLANEC OBECNÉHO ZASTUPITEĽSTVA A ZÁSTUPCA STAROSTU", "organization": "OBEC ŠARIŠSKÉ MICHAĽANY", "benefits": "ODMENA"}], "real_estate": [{"type": "ZÁHRADA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "2125", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "2125", "share": "1/2"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "753", "share": "1/6"}, {"type": "STAVBY", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1117", "share": "BSM"}, {"type": "ZÁHRADA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1117", "share": "BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1117", "share": "BSM"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1208", "share": "329/23590"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1466", "share": "7/12"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1662", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1695", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1735", "share": "6/12"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1875", "share": "329/23590"}], "movable_property": null, "property_rights": ["ÚSPORY, podiel: 1/1", "ŽIVOTNÉ POISTENIE, podiel: 1/1", "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: 1/1"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": [{"type": "OSOBNÉ", "brand": "ŠKODA", "year_of_manufacture": 2019}], "gifts": null}, "diff": {"type": "new"}}, {"year": 2024, "data": {"id": "ZC246289", "declaration_id": 38188, "name": "Ing. MAREK ZBOROVJAN, MBA, DBA", "year": 2024, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA HOLDING A.S.)", "income": {"public_function": 5373, "other": 44770}, "incompatibility": true, "employment": "PAUFOSS, SPOL. S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": [{"role": "ŠTATUTÁR A TRÉNER OZ", "organization": "KARATE KLUB SABINOV O.Z.", "benefits": "ŽIADNE"}, {"role": "POSLANEC OZ - ZÁSTUPCA STAROSTU OBCE", "organization": "OBEC ŠARIŠSKÉ MICHAĽANY", "benefits": "ODMENA"}], "real_estate": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1117", "share": "BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "2125", "share": "1/2"}], "movable_property": null, "property_rights": ["ÚSPORY, podiel: 1/1", "ŽIVOTNÉ POISTENIE, podiel: 1/1", "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: 1/1"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": [{"type": "OSOBNÉ VOZIDLO", "brand": "ŠKODA", "year_of_manufacture": 2023}], "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 5373, "other": 44770}, "old_total": 0, "new_total": 50143, "delta": 50143}, {"field": "incompatibility", "old": false, "new": true}, {"field": "employment", "old": "DANFOSS, SPOL. S R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "new": "PAUFOSS, SPOL. S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "positions", "old": [{"role": "POSLANEC OBECNÉHO ZASTUPITEĽSTVA A ZÁSTUPCA STAROSTU", "organization": "OBEC ŠARIŠSKÉ MICHAĽANY", "benefits": "ODMENA"}], "new": [{"role": "ŠTATUTÁR A TRÉNER OZ", "organization": "KARATE KLUB SABINOV O.Z.", "benefits": "ŽIADNE"}, {"role": "POSLANEC OZ - ZÁSTUPCA STAROSTU OBCE", "organization": "OBEC ŠARIŠSKÉ MICHAĽANY", "benefits": "ODMENA"}], "old_count": 1, "new_count": 2}, {"field": "real_estate", "old": [{"type": "ZÁHRADA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "2125", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "2125", "share": "1/2"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "753", "share": "1/6"}, {"type": "STAVBY", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1117", "share": "BSM"}, {"type": "ZÁHRADA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1117", "share": "BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1117", "share": "BSM"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1208", "share": "329/23590"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1466", "share": "7/12"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1662", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1695", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1735", "share": "6/12"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1875", "share": "329/23590"}], "new": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "1117", "share": "BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA", "cadastral_territory": "ŠARIŠSKÉ MICHAĽANY", "lv_number": "2125", "share": "1/2"}], "old_count": 12, "new_count": 2}, {"field": "vehicles", "old": [{"type": "OSOBNÉ", "brand": "ŠKODA", "year_of_manufacture": 2019}], "new": [{"type": "OSOBNÉ VOZIDLO", "brand": "ŠKODA", "year_of_manufacture": 2023}], "old_count": 1, "new_count": 1}]}}], "total_changes": 6, "slug": "ing-marek-zborovjan-mba-dba"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

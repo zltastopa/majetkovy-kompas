@@ -1,0 +1,2173 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Majetkový kompas: redesign lab</title>
+<style>
+:root {
+  --bg-top: #f4ebe2;
+  --bg-bottom: #eff5f3;
+  --ink: #142027;
+  --muted: #576770;
+  --line: rgba(20, 32, 39, 0.14);
+  --panel: rgba(255, 252, 247, 0.82);
+  --panel-strong: rgba(255, 255, 255, 0.94);
+  --panel-alt: rgba(245, 235, 226, 0.68);
+  --accent: #9a4027;
+  --accent-soft: rgba(154, 64, 39, 0.14);
+  --accent-2: #16596b;
+  --accent-ink: #fff7f0;
+  --glow: rgba(154, 64, 39, 0.18);
+  --shadow: 0 18px 60px rgba(20, 32, 39, 0.08);
+  --radius-xl: 28px;
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+}
+
+body[data-mode="explorer"] {
+  --bg-top: #edf6f4;
+  --bg-bottom: #eef3f9;
+  --accent: #13706b;
+  --accent-soft: rgba(19, 112, 107, 0.14);
+  --accent-2: #2451a8;
+  --glow: rgba(19, 112, 107, 0.18);
+}
+
+body[data-mode="radar"] {
+  --bg-top: #f9efe1;
+  --bg-bottom: #f4f0ea;
+  --accent: #c15a1b;
+  --accent-soft: rgba(193, 90, 27, 0.14);
+  --accent-2: #7c1827;
+  --glow: rgba(193, 90, 27, 0.18);
+}
+
+body[data-mode="dossiers"] {
+  --bg-top: #f2eee6;
+  --bg-bottom: #eef2ef;
+  --accent: #7c3126;
+  --accent-soft: rgba(124, 49, 38, 0.14);
+  --accent-2: #3c5c4c;
+  --glow: rgba(124, 49, 38, 0.18);
+}
+
+body[data-mode="graph"] {
+  --bg-top: #edf5ea;
+  --bg-bottom: #eef3ef;
+  --accent: #2b714e;
+  --accent-soft: rgba(43, 113, 78, 0.14);
+  --accent-2: #8b4c18;
+  --glow: rgba(43, 113, 78, 0.18);
+}
+
+body[data-mode="atlas"] {
+  --bg-top: #edf3f8;
+  --bg-bottom: #eef6f1;
+  --accent: #2e6594;
+  --accent-soft: rgba(46, 101, 148, 0.14);
+  --accent-2: #185b4f;
+  --glow: rgba(46, 101, 148, 0.18);
+}
+
+body[data-mode="compare"] {
+  --bg-top: #f6ece9;
+  --bg-bottom: #f2f5f1;
+  --accent: #8e3342;
+  --accent-soft: rgba(142, 51, 66, 0.14);
+  --accent-2: #1e5b63;
+  --glow: rgba(142, 51, 66, 0.18);
+}
+
+body[data-mode="story"] {
+  --bg-top: #f7eee2;
+  --bg-bottom: #eff4eb;
+  --accent: #ab5635;
+  --accent-soft: rgba(171, 86, 53, 0.14);
+  --accent-2: #204f63;
+  --glow: rgba(171, 86, 53, 0.18);
+}
+
+body[data-mode="tiles"] {
+  --bg-top: #eff4ee;
+  --bg-bottom: #eef3f7;
+  --accent: #2d615a;
+  --accent-soft: rgba(45, 97, 90, 0.14);
+  --accent-2: #9a5a24;
+  --glow: rgba(45, 97, 90, 0.18);
+}
+
+body[data-mode="evidence"] {
+  --bg-top: #ecf0f4;
+  --bg-bottom: #f1f0ed;
+  --accent: #334c66;
+  --accent-soft: rgba(51, 76, 102, 0.14);
+  --accent-2: #8f4c33;
+  --glow: rgba(51, 76, 102, 0.18);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; min-height: 100%; }
+body {
+  font-family: "Avenir Next", "Trebuchet MS", "Lucida Grande", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 20% 0%, var(--glow), transparent 28%),
+    radial-gradient(circle at 88% 12%, rgba(17, 89, 107, 0.08), transparent 24%),
+    linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
+  transition: background 220ms ease, color 220ms ease;
+}
+
+a { color: inherit; }
+
+.page-shell {
+  width: min(1380px, calc(100vw - 32px));
+  margin: 28px auto 48px;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 34px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  background: linear-gradient(145deg, var(--panel-strong), rgba(255, 255, 255, 0.68));
+  box-shadow: var(--shadow);
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: auto -4% -36% auto;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, var(--accent-soft), transparent 68%);
+  pointer-events: none;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  margin: 16px 0 12px;
+  max-width: 12ch;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: clamp(2.8rem, 5vw, 4.7rem);
+  line-height: 0.94;
+  letter-spacing: -0.04em;
+}
+
+.hero p {
+  max-width: 74ch;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.hero-controls {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 240px minmax(260px, 1fr) auto;
+  gap: 14px;
+  align-items: end;
+  margin-top: 26px;
+}
+
+.control-block {
+  display: grid;
+  gap: 8px;
+}
+
+.control-block label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.control-block select,
+.control-block input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.84);
+  color: var(--ink);
+  padding: 15px 18px;
+  font-size: 0.95rem;
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.control-block select:focus,
+.control-block input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+  transform: translateY(-1px);
+}
+
+.search-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+}
+
+.ghost-link,
+.secondary-button,
+.chip-button,
+.mode-strip button,
+.mode-link {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--ink);
+  text-decoration: none;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.ghost-link,
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 18px;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.ghost-link:hover,
+.secondary-button:hover,
+.chip-button:hover,
+.mode-strip button:hover,
+.mode-link:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+}
+
+.secondary-button {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: transparent;
+}
+
+.mode-strip {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.mode-strip button {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.mode-strip button.active {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: transparent;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.hero-stats {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.stat-card {
+  padding: 18px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.72));
+  border: 1px solid var(--line);
+}
+
+.stat-value {
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.stat-label {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.stage {
+  margin-top: 24px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  background: rgba(255, 255, 255, 0.58);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
+}
+
+.mode-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: end;
+  margin-bottom: 22px;
+}
+
+.mode-kicker {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.mode-head h2 {
+  margin: 10px 0 8px;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: clamp(1.85rem, 3.1vw, 3rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.mode-head p {
+  max-width: 70ch;
+  margin: 0;
+  color: var(--muted);
+}
+
+.mode-badge {
+  flex-shrink: 0;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.mode-stage {
+  display: grid;
+  gap: 18px;
+  animation: rise 220ms ease;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.panel-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.panel-grid.two {
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+}
+
+.panel-grid.three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.panel-grid.equal {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.panel,
+.lead-story,
+.spot-card,
+.dossier-card,
+.chapter,
+.evidence-card,
+.compare-card,
+.atlas-band,
+.mosaic-tile,
+.signal-row,
+.signal-node,
+.role-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, var(--panel-strong), var(--panel));
+  box-shadow: 0 12px 28px rgba(20, 32, 39, 0.05);
+}
+
+.panel,
+.spot-card,
+.chapter,
+.evidence-card,
+.compare-card,
+.signal-row,
+.role-card {
+  padding: 20px;
+}
+
+.panel h3,
+.panel h4,
+.lead-story h3,
+.chapter h3,
+.dossier-card h3,
+.compare-card h3,
+.role-card h3 {
+  margin: 0;
+}
+
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.lead-story {
+  padding: 28px;
+  background:
+    radial-gradient(circle at top right, var(--accent-soft), transparent 34%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.8));
+}
+
+.lead-story h3 {
+  margin-top: 16px;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: clamp(1.85rem, 3vw, 2.8rem);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+}
+
+.lead-story p {
+  margin: 10px 0 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.mega-number {
+  margin-top: 22px;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: clamp(2.7rem, 5vw, 4.6rem);
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+}
+
+.subtle-note,
+.panel-note,
+.mini-note,
+.card-note {
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.lead-actions,
+.card-actions,
+.evidence-actions,
+.panel-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.spot-card {
+  padding: 18px;
+}
+
+.spot-card .spot-value {
+  margin-top: 14px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.spot-card .spot-meta {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.ticker-list,
+.compact-list,
+.signal-list,
+.evidence-list,
+.radar-list,
+.lane-list {
+  display: grid;
+  gap: 12px;
+}
+
+.ticker-item,
+.compact-item,
+.evidence-item {
+  display: grid;
+  gap: 8px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.ticker-item:last-child,
+.compact-item:last-child,
+.evidence-item:last-child {
+  border-bottom: none;
+}
+
+.item-title {
+  font-weight: 800;
+}
+
+.item-meta,
+.role-meta {
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.metric-strip,
+.dossier-metrics,
+.compare-metrics,
+.chapter-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.metric-box {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.64);
+}
+
+.metric-box strong {
+  display: block;
+  font-size: 1.2rem;
+  letter-spacing: -0.03em;
+}
+
+.metric-box span {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.pill,
+.signal-chip,
+.role-pill,
+.metric-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 11px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid var(--line);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.signal-chip,
+.metric-chip.active {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: transparent;
+}
+
+.role-pill {
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.dotplot {
+  position: relative;
+  min-height: 420px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(rgba(20, 32, 39, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(20, 32, 39, 0.06) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.65));
+  background-size: 25% 25%, 25% 25%, auto;
+  padding: 24px;
+}
+
+.axis-label {
+  position: absolute;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.axis-label.x { left: 24px; bottom: 16px; }
+.axis-label.y {
+  left: 16px;
+  top: 24px;
+  transform: rotate(-90deg) translateX(-100%);
+  transform-origin: left top;
+}
+
+.plot-dot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.92);
+  background: var(--dot, var(--accent));
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.plot-dot:hover {
+  transform: translate(-50%, -50%) scale(1.16);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18);
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.legend-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+}
+
+.slope-row {
+  display: grid;
+  grid-template-columns: minmax(0, 220px) 1fr auto;
+  gap: 14px;
+  align-items: center;
+}
+
+.slope-track {
+  position: relative;
+  height: 12px;
+}
+
+.slope-line {
+  position: absolute;
+  top: 50%;
+  height: 4px;
+  border-radius: 999px;
+  transform: translateY(-50%);
+  background: linear-gradient(90deg, var(--accent-2), var(--accent));
+}
+
+.slope-dot {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgba(255, 255, 255, 0.92);
+}
+
+.slope-dot.old { background: var(--accent-2); }
+.slope-dot.new { background: var(--accent); }
+
+.bar-track {
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(20, 32, 39, 0.08);
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent-2), var(--accent));
+}
+
+.distribution-row {
+  display: grid;
+  grid-template-columns: 130px 1fr auto;
+  gap: 12px;
+  align-items: center;
+}
+
+.dossier-grid,
+.tiles-grid,
+.evidence-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.dossier-card {
+  padding: 22px;
+  min-height: 250px;
+}
+
+.dossier-card h3 {
+  margin-top: 14px;
+  font-size: 1.28rem;
+  line-height: 1.08;
+}
+
+.dossier-card .highlight {
+  margin-top: 14px;
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+.signal-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.signal-node {
+  padding: 18px 20px;
+  display: grid;
+  gap: 8px;
+  min-width: 180px;
+}
+
+.signal-node strong {
+  font-size: 1.25rem;
+}
+
+.signal-rows {
+  display: grid;
+  gap: 12px;
+}
+
+.signal-row {
+  display: grid;
+  grid-template-columns: minmax(0, 240px) 1fr auto;
+  gap: 14px;
+  align-items: center;
+}
+
+.signal-row .chip-row {
+  justify-content: flex-start;
+}
+
+.atlas-stack {
+  display: grid;
+  gap: 14px;
+}
+
+.atlas-band {
+  padding: 18px;
+}
+
+.atlas-band header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.atlas-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.atlas-mini-card {
+  min-width: 160px;
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.atlas-mini-card strong,
+.mosaic-tile strong,
+.evidence-card strong {
+  display: block;
+}
+
+.metric-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.metric-chip {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.compare-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.compare-card .compare-value {
+  margin-top: 14px;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+.compare-card .compare-rank {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.chapter-stack {
+  display: grid;
+  gap: 18px;
+}
+
+.chapter {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.chapter-index {
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 4rem;
+  line-height: 0.85;
+  color: var(--accent);
+}
+
+.mosaic-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mosaic-summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.mosaic-summary .panel {
+  padding: 18px;
+}
+
+.tile-wall {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(146px, 1fr));
+  gap: 14px;
+  grid-auto-flow: dense;
+  align-items: stretch;
+}
+
+.mosaic-tile {
+  padding: 16px;
+  min-height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.72)),
+    linear-gradient(135deg, var(--accent-soft), transparent);
+}
+
+.tile-role {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.tile-metric {
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.evidence-grid {
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+}
+
+.evidence-card .case-kicker {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.evidence-card h3 {
+  margin-top: 10px;
+  font-size: 1.28rem;
+}
+
+.evidence-card ul {
+  margin: 14px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.empty-state,
+.loading-state {
+  padding: 34px;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.64);
+  text-align: center;
+}
+
+.loading-state strong,
+.empty-state strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.tiny {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+@media (max-width: 1080px) {
+  .hero-controls,
+  .hero-stats,
+  .panel-grid.two,
+  .panel-grid.three,
+  .evidence-grid,
+  .chapter {
+    grid-template-columns: 1fr;
+  }
+
+  .mode-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 760px) {
+  .page-shell {
+    width: min(100vw - 20px, 100%);
+    margin: 10px auto 28px;
+  }
+
+  .hero,
+  .stage {
+    padding: 18px;
+  }
+
+  .hero h1 {
+    max-width: none;
+    font-size: 2.4rem;
+  }
+
+  .search-row,
+  .signal-row,
+  .slope-row,
+  .distribution-row,
+  .mosaic-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .dotplot {
+    min-height: 320px;
+    padding: 16px;
+  }
+
+  .chapter {
+    gap: 12px;
+  }
+
+  .chapter-index {
+    font-size: 2.5rem;
+  }
+}
+</style>
+</head>
+<body data-mode="newsroom">
+<div class="page-shell">
+  <header class="hero">
+    <div class="eyebrow">Design Lab · 10 smerov</div>
+    <h1>Majetkový kompas, skúšaný nanovo.</h1>
+    <p>
+      Jeden dataset, desať úplne odlišných spôsobov, ako ho čítať. Tento lab
+      používa reálne publikované dáta a prepína medzi front-page, explorerom,
+      radarom zmien, mozaikou a ďalšími smermi, aby bolo jednoduché porovnať,
+      čo má najväčšiu silu pre verejnosť, médiá aj investigatívu.
+    </p>
+
+    <div class="hero-controls">
+      <div class="control-block">
+        <label for="mode-select">Koncept</label>
+        <select id="mode-select"></select>
+      </div>
+      <div class="control-block">
+        <label for="lab-search">Filtrovať meno alebo funkciu</label>
+        <div class="search-row">
+          <input id="lab-search" type="text" placeholder="napr. poslanec, Kaliňák, primátor">
+          <button class="ghost-link" id="clear-search" type="button">Vymazať</button>
+        </div>
+      </div>
+      <a class="ghost-link" href="./index.html">Pôvodný web</a>
+    </div>
+
+    <div class="mode-strip" id="mode-strip"></div>
+    <div class="hero-stats" id="hero-stats"></div>
+  </header>
+
+  <main class="stage">
+    <div class="mode-head">
+      <div>
+        <div class="mode-kicker" id="mode-kicker"></div>
+        <h2 id="mode-title"></h2>
+        <p id="mode-summary"></p>
+      </div>
+      <div class="mode-badge" id="mode-badge"></div>
+    </div>
+    <div class="mode-stage" id="mode-stage"></div>
+  </main>
+</div>
+
+<script>
+const LIVE_BASE = 'https://mrshu.github.io/majetkovy-kompas/';
+
+const MODES = [
+  { id: 'newsroom', label: '1. Spravodajská titulka', short: 'Titulka', summary: 'Front page pre najväčšie signály, príbehy a okamžité zaujímavosti.' },
+  { id: 'explorer', label: '2. Dátový explorer', short: 'Explorer', summary: 'Priestor na voľné skúmanie datasetu cez rozloženie, body a filtre.' },
+  { id: 'radar', label: '3. Radar zmien', short: 'Radar', summary: 'Rozhranie postavené na pohybe, volatilite a medziročných skokoch.' },
+  { id: 'dossiers', label: '4. Vizuálne spisy', short: 'Spisy', summary: 'Profilové karty, ktoré z každého mena robia čitateľný prípad.' },
+  { id: 'graph', label: '5. Sieť signálov', short: 'Sieť', summary: 'Skóre, väzby a zhluky ľudí podľa zdieľaných rizikových vzorcov.' },
+  { id: 'atlas', label: '6. Atlas majetku', short: 'Atlas', summary: 'Krajina majetku rozdelená do pásiem držby, nie iba do jedného rebríčka.' },
+  { id: 'compare', label: '7. Porovnávacie laboratórium', short: 'Porovnanie', summary: 'Porovnanie skupín funkcií a typov kariér naprieč viacerými metrikami.' },
+  { id: 'story', label: '8. Ročný príbeh', short: 'Príbeh', summary: 'Scrollytelling prístup, v ktorom sa dataset číta ako séria kapitol.' },
+  { id: 'tiles', label: '9. Mozaika všetkých', short: 'Mozaika', summary: 'Vizuálny wall všetkých mien, ktorý pomáha vidieť rozsah aj extrémy naraz.' },
+  { id: 'evidence', label: '10. Dôkazový stôl', short: 'Dôkazy', summary: 'Rozhranie zamerané na audit, transparentnosť a preklik k zdrojom.' },
+];
+
+const ROLE_COLORS = {
+  'Parlament': '#8f3b27',
+  'Vláda': '#1d6a66',
+  'Samospráva': '#3a5fa8',
+  'Štátne firmy a orgány': '#7a5b1c',
+  'Justícia a dohľad': '#6a397f',
+  'Ostatné': '#59656d',
+};
+
+const COMPARE_METRICS = {
+  medianIncome: { label: 'Medián príjmu', value: r => r.medianIncome, format: v => `${fmt(v)} €` },
+  avgProperties: { label: 'Priemerný počet nehnuteľností', value: r => r.avgProperties, format: v => v.toFixed(1) },
+  avgObligations: { label: 'Priemerný počet záväzkov', value: r => r.avgObligations, format: v => v.toFixed(1) },
+  avgChanges: { label: 'Priemerný počet zmien', value: r => r.avgChanges, format: v => v.toFixed(1) },
+};
+
+const TILE_METRICS = {
+  income: { label: 'Príjem', value: p => totalIncome(p.income), format: v => `${fmt(v)} €` },
+  properties: { label: 'Nehnuteľnosti', value: p => p.n_properties || 0, format: v => `${v} neh.` },
+  changes: { label: 'Zmeny', value: p => p.total_changes || 0, format: v => `${v} zmien` },
+};
+
+const state = {
+  mode: initialMode(),
+  query: '',
+  compareMetric: 'medianIncome',
+  tileMetric: 'income',
+  loading: true,
+  error: '',
+  meta: null,
+  indexData: [],
+  highlights: {},
+  byId: new Map(),
+  stats: null,
+};
+
+function initialMode() {
+  const id = window.location.hash.slice(1);
+  return MODES.some(mode => mode.id === id) ? id : MODES[0].id;
+}
+
+function fmt(value) {
+  return Number(value || 0).toLocaleString('sk-SK');
+}
+
+function compact(value) {
+  return new Intl.NumberFormat('sk-SK', { notation: 'compact', maximumFractionDigits: 1 }).format(value || 0);
+}
+
+function esc(text) {
+  const el = document.createElement('span');
+  el.textContent = text || '';
+  return el.innerHTML;
+}
+
+function totalIncome(income) {
+  if (!income || typeof income !== 'object') return 0;
+  return (income.public_function || 0) + (income.other || 0);
+}
+
+function median(values) {
+  const sorted = [...values].filter(v => Number.isFinite(v)).sort((a, b) => a - b);
+  if (!sorted.length) return 0;
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 ? sorted[mid] : Math.round((sorted[mid - 1] + sorted[mid]) / 2);
+}
+
+function average(values) {
+  if (!values.length) return 0;
+  return values.reduce((sum, value) => sum + value, 0) / values.length;
+}
+
+function clamp(value, min, max) {
+  return Math.max(min, Math.min(max, value));
+}
+
+function classifyRole(label) {
+  const value = (label || '').toLowerCase();
+  if (value.includes('poslanec')) return 'Parlament';
+  if (value.includes('vlády') || value.includes('minister') || value.includes('štátny tajomník')) return 'Vláda';
+  if (value.includes('starosta') || value.includes('primátor') || value.includes('vyššieho územného celku') || value.includes('predseda vyššieho územného celku')) return 'Samospráva';
+  if (value.includes('súd') || value.includes('sudca') || value.includes('prokur') || value.includes('rada pre') || value.includes('komisia')) return 'Justícia a dohľad';
+  if (value.includes('správnej rady') || value.includes('dozorného orgánu') || value.includes('štatutárny orgán') || value.includes('riaditeľ') || value.includes('agentúry')) return 'Štátne firmy a orgány';
+  return 'Ostatné';
+}
+
+function roleColor(role) {
+  return ROLE_COLORS[role] || ROLE_COLORS['Ostatné'];
+}
+
+function profileHref(userId) {
+  return `${LIVE_BASE}#${encodeURIComponent(userId)}`;
+}
+
+function sourceHref(userId) {
+  return `https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=${encodeURIComponent(userId)}`;
+}
+
+async function fetchJson(path) {
+  const candidates = [path, `${LIVE_BASE}${path}`];
+  let lastError = null;
+  for (const url of candidates) {
+    try {
+      const response = await fetch(url, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+      return await response.json();
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError || new Error(`Nepodarilo sa načítať ${path}`);
+}
+
+function computeStats(data) {
+  const incomes = data.map(person => totalIncome(person.income)).filter(value => value > 0);
+  const properties = data.map(person => person.n_properties || 0);
+  const obligations = data.map(person => person.n_obligations || 0);
+  const changes = data.map(person => person.total_changes || 0);
+  const incomeSorted = [...incomes].sort((a, b) => a - b);
+  const propertySorted = [...properties].sort((a, b) => a - b);
+
+  return {
+    medianIncome: median(incomeSorted),
+    medianProperties: median(propertySorted),
+    avgObligations: average(obligations),
+    avgChanges: average(changes),
+    maxIncome: Math.max(...incomes, 1),
+    maxProperties: Math.max(...properties, 1),
+    maxChanges: Math.max(...changes, 1),
+    incomePercentile(value) {
+      if (!incomeSorted.length) return 0;
+      return Math.round(incomeSorted.filter(item => item <= value).length / incomeSorted.length * 100);
+    },
+    propertyPercentile(value) {
+      if (!propertySorted.length) return 0;
+      return Math.round(propertySorted.filter(item => item <= value).length / propertySorted.length * 100);
+    },
+  };
+}
+
+function deriveRoleStats(data) {
+  const buckets = new Map();
+  data.forEach(person => {
+    const role = classifyRole(person.public_function);
+    if (!buckets.has(role)) buckets.set(role, []);
+    buckets.get(role).push(person);
+  });
+
+  return [...buckets.entries()].map(([role, people]) => {
+    const incomes = people.map(person => totalIncome(person.income));
+    return {
+      role,
+      count: people.length,
+      medianIncome: median(incomes.filter(Boolean)),
+      avgProperties: average(people.map(person => person.n_properties || 0)),
+      avgObligations: average(people.map(person => person.n_obligations || 0)),
+      avgChanges: average(people.map(person => person.total_changes || 0)),
+      obligationShare: Math.round(people.filter(person => (person.n_obligations || 0) > 0).length / people.length * 100),
+      color: roleColor(role),
+    };
+  }).sort((a, b) => b.count - a.count);
+}
+
+function filterData() {
+  const query = state.query.trim().toLowerCase();
+  const base = state.indexData;
+  if (!query) return base;
+  return base.filter(person =>
+    person.name.toLowerCase().includes(query) ||
+    (person.public_function || '').toLowerCase().includes(query)
+  );
+}
+
+function filterHighlights(activeIds) {
+  const result = {};
+  Object.entries(state.highlights).forEach(([key, items]) => {
+    result[key] = (items || []).filter(item => activeIds.has(item.user_id));
+  });
+  return result;
+}
+
+function personSignals(person, stats) {
+  const signals = [];
+  const income = totalIncome(person.income);
+  const properties = person.n_properties || 0;
+  const obligations = person.n_obligations || 0;
+  const changes = person.total_changes || 0;
+  const incomePct = stats.incomePercentile(income);
+  const propertyPct = stats.propertyPercentile(properties);
+
+  if (incomePct >= 99) signals.push('Top 1% príjmov');
+  else if (incomePct >= 90) signals.push('Nadpriemerný príjem');
+
+  if (propertyPct >= 99 || properties >= 10) signals.push('Veľa nehnuteľností');
+  else if (properties >= 3) signals.push('Majetok vo viacerých položkách');
+
+  if (obligations >= 3) signals.push('Viac záväzkov');
+  else if (obligations >= 1) signals.push('Má záväzky');
+
+  if (changes >= 15) signals.push('Veľmi časté zmeny');
+  else if (changes >= 8) signals.push('Vyššia volatilita');
+
+  if ((person.years || []).length >= 5) signals.push('Dlhá história');
+
+  return signals;
+}
+
+function signalScore(person, stats) {
+  return personSignals(person, stats).length;
+}
+
+function buildViewModel() {
+  const data = filterData();
+  const ids = new Set(data.map(person => person.user_id));
+  const roleStats = deriveRoleStats(data);
+  const stats = computeStats(data.length ? data : state.indexData);
+  const highlights = filterHighlights(ids);
+  return {
+    data,
+    ids,
+    roleStats,
+    stats,
+    highlights,
+    queryActive: !!state.query.trim(),
+    total: state.indexData.length,
+  };
+}
+
+function topPeople(view, limit = 12) {
+  const ids = [];
+  const highlightKeys = ['income_jumps', 'top_earners', 'new_properties', 'new_obligations', 'most_properties', 'most_obligations'];
+  highlightKeys.forEach(key => {
+    (view.highlights[key] || []).slice(0, 8).forEach(item => ids.push(item.user_id));
+  });
+  view.data
+    .slice()
+    .sort((a, b) => signalScore(b, view.stats) - signalScore(a, view.stats) || totalIncome(b.income) - totalIncome(a.income))
+    .slice(0, 16)
+    .forEach(person => ids.push(person.user_id));
+
+  const unique = [];
+  ids.forEach(id => {
+    if (!unique.includes(id) && state.byId.has(id)) unique.push(id);
+  });
+  return unique.slice(0, limit).map(id => state.byId.get(id));
+}
+
+function countBands(data) {
+  return [
+    { label: '0 neh.', filter: person => (person.n_properties || 0) === 0 },
+    { label: '1-2 neh.', filter: person => (person.n_properties || 0) >= 1 && (person.n_properties || 0) <= 2 },
+    { label: '3-5 neh.', filter: person => (person.n_properties || 0) >= 3 && (person.n_properties || 0) <= 5 },
+    { label: '6-10 neh.', filter: person => (person.n_properties || 0) >= 6 && (person.n_properties || 0) <= 10 },
+    { label: '11+ neh.', filter: person => (person.n_properties || 0) >= 11 },
+  ].map(band => {
+    const people = data.filter(band.filter).sort((a, b) => totalIncome(b.income) - totalIncome(a.income));
+    return { ...band, count: people.length, people: people.slice(0, 5) };
+  });
+}
+
+function renderHero(view) {
+  const statsEl = document.getElementById('hero-stats');
+  const years = state.meta ? state.meta.years : [];
+  const topIncome = Math.max(...view.data.map(person => totalIncome(person.income)), 0);
+  const statCards = [
+    { value: fmt(view.total), label: 'publikovaných profilov' },
+    { value: years.length ? `${years[0]}-${years[years.length - 1]}` : '—', label: 'časový rozsah' },
+    { value: `${fmt(view.stats.medianIncome)} €`, label: 'medián príjmu vo výbere' },
+    { value: `${fmt(topIncome)} €`, label: 'najvyšší príjem vo výbere' },
+    { value: view.queryActive ? `${fmt(view.data.length)} z ${fmt(view.total)}` : `${fmt(view.data.length)}`, label: view.queryActive ? 'výsledky po filtri' : 'záznamov v aktívnom pohľade' },
+  ];
+
+  statsEl.innerHTML = statCards.map(card => `
+    <div class="stat-card">
+      <div class="stat-value">${card.value}</div>
+      <div class="stat-label">${card.label}</div>
+    </div>
+  `).join('');
+}
+
+function renderModeControls() {
+  const select = document.getElementById('mode-select');
+  select.innerHTML = MODES.map(mode => `<option value="${mode.id}">${mode.label}</option>`).join('');
+  select.value = state.mode;
+
+  document.getElementById('mode-strip').innerHTML = MODES.map(mode => `
+    <button type="button" class="${mode.id === state.mode ? 'active' : ''}" onclick="setMode('${mode.id}')">${mode.short}</button>
+  `).join('');
+}
+
+function renderModeHeader(view) {
+  const mode = MODES.find(item => item.id === state.mode) || MODES[0];
+  document.body.dataset.mode = mode.id;
+  document.getElementById('mode-kicker').textContent = mode.label;
+  document.getElementById('mode-title').textContent = mode.short;
+  document.getElementById('mode-summary').textContent = mode.summary;
+  document.getElementById('mode-badge').textContent = view.queryActive
+    ? `${fmt(view.data.length)} zhôd pre "${state.query.trim()}"`
+    : `${fmt(view.data.length)} záznamov pripravených na prepnutie`;
+}
+
+function renderMetricBox(value, label) {
+  return `<div class="metric-box"><strong>${value}</strong><span>${label}</span></div>`;
+}
+
+function personCardMeta(person) {
+  return [
+    `${fmt(totalIncome(person.income))} €`,
+    `${person.n_properties || 0} neh.`,
+    `${person.n_obligations || 0} záv.`,
+    `${person.total_changes || 0} zmien`,
+  ].join(' · ');
+}
+
+function renderCompactPeople(people, limit = 6) {
+  return `<div class="compact-list">${people.slice(0, limit).map(person => `
+    <div class="compact-item">
+      <div>
+        <div class="item-title">${esc(person.name)}</div>
+        <div class="item-meta">${esc(person.public_function || '')}</div>
+      </div>
+      <div class="item-meta">${personCardMeta(person)}</div>
+      <div class="panel-actions">
+        <a class="ghost-link" href="${profileHref(person.user_id)}" target="_blank" rel="noopener">Profil</a>
+      </div>
+    </div>
+  `).join('')}</div>`;
+}
+
+function renderNewsroom(view) {
+  const lead = (view.highlights.income_jumps || [])[0];
+  const topEarner = (view.highlights.top_earners || [])[0];
+  const topProperty = (view.highlights.most_properties || [])[0];
+  const topObligation = (view.highlights.most_obligations || [])[0];
+  const spotlight = [topEarner, topProperty, topObligation].filter(Boolean);
+  const trending = [
+    ...(view.highlights.income_jumps || []).slice(0, 4).map(item => ({
+      title: `${item.name}: ${item.delta > 0 ? '+' : ''}${fmt(item.delta)} €`,
+      meta: `${item.year} · ${item.function || ''}`,
+      href: profileHref(item.user_id),
+    })),
+    ...(view.highlights.new_properties || []).slice(0, 2).map(item => ({
+      title: `${item.name}: +${item.added} nehnuteľností`,
+      meta: `${item.year} · celkom ${item.total}`,
+      href: profileHref(item.user_id),
+    })),
+  ].slice(0, 6);
+
+  const focus = topPeople(view, 6);
+  if (!lead) return renderEmpty('Vo výbere nie sú žiadne highlighty.');
+
+  return `
+    <div class="panel-grid two">
+      <article class="lead-story">
+        <div class="section-label">Najväčší príbehový signál</div>
+        <h3>${esc(lead.name)}</h3>
+        <p>${esc(lead.function || '')}</p>
+        <div class="mega-number">${lead.delta > 0 ? '+' : ''}${fmt(lead.delta)} €</div>
+        <div class="subtle-note">${lead.year}: ${fmt(lead.old_total)} € → ${fmt(lead.new_total)} €</div>
+        <div class="metric-strip">
+          ${renderMetricBox(`${lead.delta_pct == null ? 'nový príjem' : `${lead.delta_pct > 0 ? '+' : ''}${lead.delta_pct}%`}`, 'medziročná zmena')}
+          ${renderMetricBox(`${fmt(lead.new_total)} €`, 'nová úroveň príjmu')}
+          ${renderMetricBox(classifyRole(lead.function), 'typ funkcie')}
+        </div>
+        <div class="lead-actions">
+          <a class="secondary-button" href="${profileHref(lead.user_id)}" target="_blank" rel="noopener">Otvoriť profil</a>
+          <a class="ghost-link" href="${sourceHref(lead.user_id)}" target="_blank" rel="noopener">Originál na NR SR</a>
+        </div>
+      </article>
+      <div class="panel-grid">
+        ${spotlight.map(item => `
+          <article class="spot-card">
+            <div class="section-label">${spotLabel(item)}</div>
+            <div class="spot-value">${spotValue(item)}</div>
+            <div class="item-title" style="margin-top:10px">${esc(item.name)}</div>
+            <div class="spot-meta">${esc(item.function || '')}</div>
+            <div class="panel-actions">
+              <a class="ghost-link" href="${profileHref(item.user_id)}" target="_blank" rel="noopener">Profil</a>
+            </div>
+          </article>
+        `).join('')}
+      </div>
+    </div>
+    <div class="panel-grid two">
+      <section class="panel">
+        <div class="section-label">Redakčný feed</div>
+        <div class="ticker-list">${trending.map(item => `
+          <div class="ticker-item">
+            <div class="item-title">${esc(item.title)}</div>
+            <div class="item-meta">${esc(item.meta)}</div>
+            <div class="panel-actions">
+              <a class="ghost-link" href="${item.href}" target="_blank" rel="noopener">Rozbaliť</a>
+            </div>
+          </div>
+        `).join('')}</div>
+      </section>
+      <section class="panel">
+        <div class="section-label">Rýchly vstup do profilov</div>
+        <h3 style="margin-top:14px">Kto by bol na titulke dnes</h3>
+        <p class="panel-note">Výber najvýraznejších profilov podľa kombinácie príjmu, majetku, záväzkov a počtu zmien.</p>
+        ${renderCompactPeople(focus, 6)}
+      </section>
+    </div>
+  `;
+}
+
+function spotLabel(item) {
+  if ('income' in item) return 'Najvyšší príjem';
+  if ('count' in item && (state.highlights.most_properties || []).some(entry => entry.user_id === item.user_id)) return 'Najviac nehnuteľností';
+  if ('count' in item) return 'Najviac záväzkov';
+  return 'Highlight';
+}
+
+function spotValue(item) {
+  if ('income' in item) return `${fmt(item.income)} €`;
+  if ('count' in item) return `${item.count}`;
+  return '';
+}
+
+function renderExplorer(view) {
+  const maxIncome = Math.max(...view.data.map(person => totalIncome(person.income)), 1);
+  const maxProperties = Math.max(...view.data.map(person => person.n_properties || 0), 1);
+  const maxChanges = Math.max(...view.data.map(person => person.total_changes || 0), 1);
+  const points = view.data
+    .slice()
+    .sort((a, b) => totalIncome(b.income) - totalIncome(a.income))
+    .slice(0, Math.min(view.data.length, 260));
+
+  return `
+    <div class="panel-grid two">
+      <section class="panel">
+        <div class="section-label">Rozloženie datasetu</div>
+        <h3 style="margin-top:14px">Príjem × nehnuteľnosti × zmeny</h3>
+        <p class="panel-note">Bod = funkcionár. X os ukazuje počet nehnuteľností, Y os výšku príjmu a veľkosť bodu počet zachytených zmien.</p>
+        <div class="dotplot">
+          <div class="axis-label y">vyšší príjem</div>
+          <div class="axis-label x">viac nehnuteľností</div>
+          ${points.map(person => {
+            const role = classifyRole(person.public_function);
+            const left = 6 + (person.n_properties || 0) / maxProperties * 88;
+            const top = 94 - (totalIncome(person.income) / maxIncome * 82);
+            const size = 10 + (person.total_changes || 0) / maxChanges * 16;
+            return `<a
+              class="plot-dot"
+              href="${profileHref(person.user_id)}"
+              target="_blank"
+              rel="noopener"
+              style="left:${left}%; top:${top}%; width:${size}px; height:${size}px; --dot:${roleColor(role)}"
+              title="${esc(person.name)} · ${esc(role)} · ${fmt(totalIncome(person.income))} € · ${person.n_properties || 0} neh. · ${person.total_changes || 0} zmien"
+            ></a>`;
+          }).join('')}
+        </div>
+        <div class="legend">
+          ${Object.entries(ROLE_COLORS).map(([role, color]) => `
+            <div class="legend-item"><span class="legend-swatch" style="background:${color}"></span>${role}</div>
+          `).join('')}
+        </div>
+      </section>
+      <section class="panel">
+        <div class="section-label">Peer skupiny</div>
+        <h3 style="margin-top:14px">Kde sa sústreďuje objem</h3>
+        <div class="lane-list" style="margin-top:18px">
+          ${view.roleStats.slice(0, 6).map(role => `
+            <div>
+              <div class="distribution-row">
+                <div class="item-title">${role.role}</div>
+                <div class="bar-track"><div class="bar-fill" style="width:${role.count / Math.max(...view.roleStats.map(item => item.count), 1) * 100}%"></div></div>
+                <div class="tiny">${role.count}</div>
+              </div>
+              <div class="item-meta" style="margin-top:6px">Medián príjmu ${fmt(role.medianIncome)} € · priemerne ${role.avgProperties.toFixed(1)} nehnuteľnosti</div>
+            </div>
+          `).join('')}
+        </div>
+        <div class="panel-note" style="margin-top:18px">Po zapnutí ďalších filtrov by z tohto módu vedel vzniknúť hlavný dátový explorer celej aplikácie.</div>
+        <div class="panel-actions">
+          <a class="secondary-button" href="${profileHref((topPeople(view, 1)[0] || {}).user_id || '')}" target="_blank" rel="noopener">Otvor top prípad</a>
+        </div>
+      </section>
+    </div>
+  `;
+}
+
+function renderRadar(view) {
+  const jumps = (view.highlights.income_jumps || []).slice(0, 8);
+  const volatile = view.data.slice().sort((a, b) => (b.total_changes || 0) - (a.total_changes || 0)).slice(0, 8);
+  const maxJump = Math.max(...jumps.flatMap(item => [item.old_total || 0, item.new_total || 0]), 1);
+  const changeBands = [
+    { label: '0-2 zmeny', min: 0, max: 2 },
+    { label: '3-7 zmien', min: 3, max: 7 },
+    { label: '8-14 zmien', min: 8, max: 14 },
+    { label: '15+ zmien', min: 15, max: Infinity },
+  ].map(band => ({
+    ...band,
+    count: view.data.filter(person => {
+      const value = person.total_changes || 0;
+      return value >= band.min && value <= band.max;
+    }).length,
+  }));
+
+  return `
+    <div class="panel-grid three">
+      <section class="panel">
+        <div class="section-label">Skoky v príjmoch</div>
+        <div class="radar-list" style="margin-top:18px">
+          ${jumps.map(item => {
+            const oldPct = (item.old_total || 0) / maxJump * 100;
+            const newPct = (item.new_total || 0) / maxJump * 100;
+            const left = Math.min(oldPct, newPct);
+            const width = Math.max(Math.abs(newPct - oldPct), 2);
+            return `
+              <div class="slope-row">
+                <div>
+                  <div class="item-title">${esc(item.name)}</div>
+                  <div class="item-meta">${item.year} · ${esc(item.function || '')}</div>
+                </div>
+                <div class="slope-track">
+                  <div class="slope-line" style="left:${left}%; width:${width}%"></div>
+                  <div class="slope-dot old" style="left:${oldPct}%"></div>
+                  <div class="slope-dot new" style="left:${newPct}%"></div>
+                </div>
+                <div class="tiny">${item.delta > 0 ? '+' : ''}${fmt(item.delta)} €</div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </section>
+      <section class="panel">
+        <div class="section-label">Volatilita</div>
+        <div class="lane-list" style="margin-top:18px">
+          ${volatile.map(person => `
+            <div>
+              <div class="distribution-row">
+                <div class="item-title">${esc(person.name)}</div>
+                <div class="bar-track"><div class="bar-fill" style="width:${(person.total_changes || 0) / Math.max(...volatile.map(item => item.total_changes || 0), 1) * 100}%"></div></div>
+                <div class="tiny">${person.total_changes || 0}</div>
+              </div>
+              <div class="item-meta" style="margin-top:6px">${esc(person.public_function || '')}</div>
+            </div>
+          `).join('')}
+        </div>
+      </section>
+      <section class="panel">
+        <div class="section-label">Rozdelenie hluku</div>
+        <div class="lane-list" style="margin-top:18px">
+          ${changeBands.map(band => `
+            <div class="distribution-row">
+              <div class="item-title">${band.label}</div>
+              <div class="bar-track"><div class="bar-fill" style="width:${band.count / Math.max(...changeBands.map(item => item.count), 1) * 100}%"></div></div>
+              <div class="tiny">${band.count}</div>
+            </div>
+          `).join('')}
+        </div>
+        <p class="panel-note" style="margin-top:18px">Tento smer by z aplikácie spravil nástroj na sledovanie pohybu, nie iba stavových snapshotov.</p>
+      </section>
+    </div>
+  `;
+}
+
+function renderDossiers(view) {
+  const featured = topPeople(view, 9);
+  return `
+    <div class="dossier-grid">
+      ${featured.map(person => {
+        const role = classifyRole(person.public_function);
+        const signals = personSignals(person, view.stats).slice(0, 4);
+        return `
+          <article class="dossier-card">
+            <span class="role-pill" style="border-color:${roleColor(role)}40">${role}</span>
+            <h3>${esc(person.name)}</h3>
+            <div class="role-meta">${esc(person.public_function || '')}</div>
+            <div class="highlight">${fmt(totalIncome(person.income))} €</div>
+            <div class="card-note">Posledný známy celkový príjem</div>
+            <div class="dossier-metrics">
+              ${renderMetricBox(person.n_properties || 0, 'nehnuteľností')}
+              ${renderMetricBox(person.n_obligations || 0, 'záväzkov')}
+              ${renderMetricBox(person.total_changes || 0, 'zmien v histórii')}
+            </div>
+            <div class="chip-row" style="margin-top:14px">
+              ${signals.map(signal => `<span class="signal-chip">${signal}</span>`).join('')}
+            </div>
+            <div class="card-actions">
+              <a class="ghost-link" href="${profileHref(person.user_id)}" target="_blank" rel="noopener">Profil</a>
+              <a class="ghost-link" href="${sourceHref(person.user_id)}" target="_blank" rel="noopener">Zdroj</a>
+            </div>
+          </article>
+        `;
+      }).join('')}
+    </div>
+  `;
+}
+
+function renderGraph(view) {
+  const featured = topPeople(view, 8);
+  const signalCounts = {};
+  featured.forEach(person => personSignals(person, view.stats).forEach(signal => {
+    signalCounts[signal] = (signalCounts[signal] || 0) + 1;
+  }));
+  const nodes = Object.entries(signalCounts).sort((a, b) => b[1] - a[1]).slice(0, 6);
+
+  return `
+    <div class="panel-grid two">
+      <section class="panel">
+        <div class="section-label">Centrálny cluster</div>
+        <h3 style="margin-top:14px">Ktoré signály sa zbiehajú najčastejšie</h3>
+        <div class="signal-cloud" style="margin-top:18px">
+          ${nodes.map(([signal, count]) => `
+            <div class="signal-node">
+              <span class="section-label">Signal</span>
+              <strong>${esc(signal)}</strong>
+              <div class="mini-note">${count} profilov vo featured výbere</div>
+            </div>
+          `).join('')}
+        </div>
+      </section>
+      <section class="panel">
+        <div class="section-label">Siete ľudí</div>
+        <h3 style="margin-top:14px">Ľudia prepojení cez rovnaké vzorce</h3>
+        <div class="signal-rows" style="margin-top:18px">
+          ${featured.map(person => {
+            const role = classifyRole(person.public_function);
+            const signals = personSignals(person, view.stats);
+            return `
+              <div class="signal-row">
+                <div>
+                  <div class="item-title">${esc(person.name)}</div>
+                  <div class="item-meta">${esc(person.public_function || '')}</div>
+                </div>
+                <div class="chip-row">${signals.map(signal => `<span class="signal-chip">${signal}</span>`).join('')}</div>
+                <div><span class="role-pill" style="border-color:${roleColor(role)}40">${role}</span></div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </section>
+    </div>
+  `;
+}
+
+function renderAtlas(view) {
+  const bands = countBands(view.data);
+  const leaders = (view.highlights.most_properties || []).slice(0, 8);
+
+  return `
+    <div class="panel-grid two">
+      <section class="panel">
+        <div class="section-label">Pásma držby</div>
+        <h3 style="margin-top:14px">Majetok ako krajina vrstiev</h3>
+        <div class="atlas-stack" style="margin-top:18px">
+          ${bands.map((band, index) => `
+            <article class="atlas-band" style="background:
+              linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.7)),
+              linear-gradient(90deg, ${index % 2 ? 'rgba(46, 101, 148, 0.08)' : 'rgba(24, 91, 79, 0.08)'}, transparent)">
+              <header>
+                <div>
+                  <div class="item-title">${band.label}</div>
+                  <div class="item-meta">${band.count} funkcionárov</div>
+                </div>
+                <div class="pill">${Math.round(band.count / Math.max(view.data.length, 1) * 100)}%</div>
+              </header>
+              <div class="atlas-cards">
+                ${band.people.map(person => `
+                  <div class="atlas-mini-card">
+                    <strong>${esc(person.name)}</strong>
+                    <div class="tiny">${fmt(totalIncome(person.income))} € · ${person.n_properties || 0} neh.</div>
+                  </div>
+                `).join('') || '<div class="tiny">Žiadni zástupcovia po aktívnom filtri.</div>'}
+              </div>
+            </article>
+          `).join('')}
+        </div>
+      </section>
+      <section class="panel">
+        <div class="section-label">Držitelia s najväčším portfóliom</div>
+        <div class="compact-list" style="margin-top:18px">
+          ${leaders.map(item => `
+            <div class="compact-item">
+              <div class="item-title">${esc(item.name)}</div>
+              <div class="item-meta">${esc(item.function || '')}</div>
+              <div class="distribution-row">
+                <div class="tiny">počet nehnuteľností</div>
+                <div class="bar-track"><div class="bar-fill" style="width:${item.count / Math.max(...leaders.map(entry => entry.count), 1) * 100}%"></div></div>
+                <div class="tiny">${item.count}</div>
+              </div>
+              <div class="panel-actions">
+                <a class="ghost-link" href="${profileHref(item.user_id)}" target="_blank" rel="noopener">Profil</a>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </section>
+    </div>
+  `;
+}
+
+function renderCompare(view) {
+  const metric = COMPARE_METRICS[state.compareMetric];
+  const ranked = view.roleStats.slice().sort((a, b) => metric.value(b) - metric.value(a));
+  const maxValue = Math.max(...ranked.map(item => metric.value(item)), 1);
+
+  return `
+    <div class="metric-toggle">
+      ${Object.entries(COMPARE_METRICS).map(([key, item]) => `
+        <a href="#" class="metric-chip ${key === state.compareMetric ? 'active' : ''}" onclick="event.preventDefault(); setCompareMetric('${key}')">${item.label}</a>
+      `).join('')}
+    </div>
+    <div class="compare-grid">
+      ${ranked.map((role, index) => `
+        <article class="compare-card">
+          <span class="section-label">${index + 1}. miesto</span>
+          <h3 style="margin-top:14px">${role.role}</h3>
+          <div class="compare-value">${metric.format(metric.value(role))}</div>
+          <div class="bar-track" style="margin-top:14px"><div class="bar-fill" style="width:${metric.value(role) / maxValue * 100}%"></div></div>
+          <div class="compare-rank">${role.count} profilov · ${role.obligationShare}% s aspoň jedným záväzkom</div>
+          <div class="compare-metrics">
+            ${renderMetricBox(`${fmt(role.medianIncome)} €`, 'medián príjmu')}
+            ${renderMetricBox(role.avgProperties.toFixed(1), 'priem. nehnuteľnosti')}
+            ${renderMetricBox(role.avgChanges.toFixed(1), 'priem. zmeny')}
+          </div>
+        </article>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderStory(view) {
+  const leadJump = (view.highlights.income_jumps || [])[0];
+  const leadProperty = (view.highlights.most_properties || [])[0];
+  const leadObligation = (view.highlights.most_obligations || [])[0];
+  const chapters = [
+    {
+      index: '01',
+      label: 'Rozsah',
+      title: 'Najprv veľkosť celého poľa',
+      text: `V jednom zábere je tu ${fmt(view.total)} profilov a ${state.meta ? state.meta.years.length : 0} rokov. Prvý chapter by ľuďom ukázal rozsah, až potom by ich ťahal do konkrétnych mien.`,
+      metrics: [
+        { value: fmt(view.total), label: 'profilov' },
+        { value: `${state.meta ? state.meta.years[0] : '—'}-${state.meta ? state.meta.years[state.meta.years.length - 1] : '—'}`, label: 'roky' },
+      ],
+    },
+    {
+      index: '02',
+      label: 'Príjmy',
+      title: leadJump ? `Najostrejší skok: ${leadJump.name}` : 'Najostrejšie skoky',
+      text: leadJump ? `${leadJump.year} priniesol zmenu ${leadJump.delta > 0 ? '+' : ''}${fmt(leadJump.delta)} €. Takýto chapter by postavil do popredia pohyb, nie iba rebríček.` : 'Príjmový chapter zvýrazní najväčšie medziročné presuny.',
+      metrics: leadJump ? [
+        { value: `${leadJump.delta > 0 ? '+' : ''}${fmt(leadJump.delta)} €`, label: 'medziročná zmena' },
+        { value: `${fmt(leadJump.new_total)} €`, label: 'nová úroveň' },
+      ] : [],
+    },
+    {
+      index: '03',
+      label: 'Majetok',
+      title: leadProperty ? `${leadProperty.name} a koncentrácia nehnuteľností` : 'Koncentrácia majetku',
+      text: leadProperty ? `Majetkový chapter by ukázal, že jeden extrém môže mať ${leadProperty.count} nehnuteľností, ale zároveň by ukázal aj to, kde leží väčšina populácie.` : 'Majetkový chapter vysvetlí rozloženie nehnuteľností v celom súbore.',
+      metrics: leadProperty ? [
+        { value: `${leadProperty.count}`, label: 'nehnuteľností' },
+        { value: `${fmt(view.stats.medianProperties)}`, label: 'medián vo výbere' },
+      ] : [],
+    },
+    {
+      index: '04',
+      label: 'Záväzky a zmeny',
+      title: leadObligation ? `${leadObligation.name} a záväzková stopa` : 'Záväzky v kontexte',
+      text: leadObligation ? `Posledná kapitola by spojila záväzky, volatilitu a počet zmien do jedného uzáveru. Tak vzniká príbeh, nie iba sada tabuliek.` : 'Posledná kapitola uzavrie záväzky a volatilitu do jedného záveru.',
+      metrics: leadObligation ? [
+        { value: `${leadObligation.count}`, label: 'záväzkov' },
+        { value: `${view.stats.avgChanges.toFixed(1)}`, label: 'priem. zmeny' },
+      ] : [],
+    },
+  ];
+
+  return `
+    <div class="chapter-stack">
+      ${chapters.map(chapter => `
+        <section class="chapter">
+          <div class="chapter-index">${chapter.index}</div>
+          <div>
+            <div class="section-label">${chapter.label}</div>
+            <h3 style="margin-top:14px">${esc(chapter.title)}</h3>
+            <p class="panel-note" style="margin-top:12px">${esc(chapter.text)}</p>
+            <div class="chapter-metrics">
+              ${chapter.metrics.map(metric => renderMetricBox(metric.value, metric.label)).join('')}
+            </div>
+          </div>
+        </section>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderTiles(view) {
+  const metric = TILE_METRICS[state.tileMetric];
+  const sortedAll = view.data.slice().sort((a, b) => metric.value(b) - metric.value(a));
+  const visibleCount = Math.min(sortedAll.length, view.queryActive ? 48 : 60);
+  const sorted = sortedAll.slice(0, visibleCount);
+  const maxValue = Math.max(...sorted.map(person => metric.value(person)), 1);
+  const hiddenCount = Math.max(sortedAll.length - sorted.length, 0);
+  const roleMix = deriveRoleStats(sorted).slice(0, 4);
+
+  return `
+    <div class="mosaic-controls">
+      ${Object.entries(TILE_METRICS).map(([key, item]) => `
+        <a href="#" class="metric-chip ${key === state.tileMetric ? 'active' : ''}" onclick="event.preventDefault(); setTileMetric('${key}')">${item.label}</a>
+      `).join('')}
+    </div>
+    <div class="mosaic-summary">
+      <section class="panel">
+        <div class="section-label">Kurátorovaný wall</div>
+        <h3 style="margin-top:14px">Nie všetko naraz, ale najčitateľnejší výrez</h3>
+        <p class="panel-note" style="margin-top:12px">
+          Mozaika funguje lepšie ako výber extrémov a reprezentatívnych profilov než ako nekonečný grid.
+          Preto tu ukazujeme ${sorted.length} najsilnejších kariet podľa metriky
+          <strong>${metric.label.toLowerCase()}</strong>${hiddenCount ? ` a ďalších ${hiddenCount} nechávame za filtrami alebo drilldownom.` : '.'}
+        </p>
+        <div class="metric-strip">
+          ${renderMetricBox(sorted.length, 'viditeľných kariet')}
+          ${renderMetricBox(hiddenCount, 'skrytých po zúžení')}
+          ${renderMetricBox(metric.format(metric.value(sorted[0] || { income: {}, n_properties: 0, total_changes: 0 })), 'najsilnejšia karta')}
+        </div>
+      </section>
+      <section class="panel">
+        <div class="section-label">Mix rolí vo výreze</div>
+        <div class="lane-list" style="margin-top:16px">
+          ${roleMix.map(role => `
+            <div>
+              <div class="distribution-row">
+                <div class="item-title">${role.role}</div>
+                <div class="bar-track"><div class="bar-fill" style="width:${role.count / Math.max(...roleMix.map(item => item.count), 1) * 100}%"></div></div>
+                <div class="tiny">${role.count}</div>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </section>
+    </div>
+    <div class="tile-wall">
+      ${sorted.map(person => {
+        const ratio = metric.value(person) / maxValue;
+        const columnSpan = ratio > 0.66 ? 2 : 1;
+        const rowSpan = ratio > 0.8 ? 3 : ratio > 0.45 ? 2 : 1;
+        const role = classifyRole(person.public_function);
+        return `
+          <a
+            class="mosaic-tile"
+            href="${profileHref(person.user_id)}"
+            target="_blank"
+            rel="noopener"
+            style="grid-column: span ${columnSpan}; grid-row: span ${rowSpan}; border-color:${roleColor(role)}33"
+          >
+            <div>
+              <div class="tile-role">${role}</div>
+              <strong>${esc(person.name)}</strong>
+            </div>
+            <div>
+              <div class="tile-metric">${metric.format(metric.value(person))}</div>
+              <div class="tiny">${esc(person.public_function || '')}</div>
+            </div>
+          </a>
+        `;
+      }).join('')}
+    </div>
+  `;
+}
+
+function renderEvidence(view) {
+  const cases = [];
+  const addCase = (type, item, buildLines) => {
+    if (!item) return;
+    const person = state.byId.get(item.user_id);
+    if (!person) return;
+    if (cases.some(entry => entry.user_id === item.user_id && entry.type === type)) return;
+    cases.push({
+      type,
+      user_id: item.user_id,
+      name: person.name,
+      function: person.public_function,
+      lines: buildLines(person, item),
+    });
+  };
+
+  addCase('Príjmový skok', (view.highlights.income_jumps || [])[0], (person, item) => [
+    `${item.year}: ${fmt(item.old_total)} € → ${fmt(item.new_total)} €`,
+    `Celkom ${person.total_changes || 0} zmien v historickom zázname`,
+    `${person.n_properties || 0} nehnuteľností a ${person.n_obligations || 0} záväzkov`,
+  ]);
+  addCase('Najvyšší príjem', (view.highlights.top_earners || [])[0], (person, item) => [
+    `Posledný známy príjem ${fmt(item.income)} €`,
+    `${person.n_properties || 0} nehnuteľností`,
+    `${(person.years || []).length} rokov v histórii`,
+  ]);
+  addCase('Najviac nehnuteľností', (view.highlights.most_properties || [])[0], (person, item) => [
+    `${item.count} nehnuteľností v poslednom známom zázname`,
+    `${fmt(totalIncome(person.income))} € celkový príjem`,
+    `${person.total_changes || 0} zmien v histórii`,
+  ]);
+  addCase('Najviac záväzkov', (view.highlights.most_obligations || [])[0], (person, item) => [
+    `${item.count} záväzkov`,
+    `${fmt(totalIncome(person.income))} € príjem`,
+    `${person.n_properties || 0} nehnuteľností`,
+  ]);
+
+  const log = topPeople(view, 8);
+
+  return `
+    <div class="evidence-grid">
+      <section class="panel">
+        <div class="section-label">Auditné prípady</div>
+        <div class="tiles-grid" style="margin-top:18px">
+          ${cases.map(item => `
+            <article class="evidence-card">
+              <div class="case-kicker">${item.type}</div>
+              <h3>${esc(item.name)}</h3>
+              <div class="role-meta">${esc(item.function || '')}</div>
+              <ul>
+                ${item.lines.map(line => `<li>${esc(line)}</li>`).join('')}
+              </ul>
+              <div class="evidence-actions">
+                <a class="secondary-button" href="${profileHref(item.user_id)}" target="_blank" rel="noopener">Profil</a>
+                <a class="ghost-link" href="${sourceHref(item.user_id)}" target="_blank" rel="noopener">Zdroj</a>
+              </div>
+            </article>
+          `).join('')}
+        </div>
+      </section>
+      <section class="panel">
+        <div class="section-label">Queue na ďalšie overovanie</div>
+        <div class="evidence-list" style="margin-top:18px">
+          ${log.map(person => `
+            <div class="evidence-item">
+              <div class="item-title">${esc(person.name)}</div>
+              <div class="item-meta">${esc(person.public_function || '')}</div>
+              <div class="tiny">${personCardMeta(person)}</div>
+              <div class="chip-row">
+                ${personSignals(person, view.stats).slice(0, 4).map(signal => `<span class="signal-chip">${signal}</span>`).join('')}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </section>
+    </div>
+  `;
+}
+
+function renderEmpty(message) {
+  return `
+    <div class="empty-state">
+      <strong>Nič sa nenašlo</strong>
+      <div>${esc(message)}</div>
+      <div class="panel-actions" style="justify-content:center; margin-top:16px">
+        <button class="ghost-link" type="button" onclick="clearSearch()">Vymazať filter</button>
+      </div>
+    </div>
+  `;
+}
+
+function renderStage(view) {
+  const stage = document.getElementById('mode-stage');
+  if (state.loading) {
+    stage.innerHTML = `
+      <div class="loading-state">
+        <strong>Načítavam publikované dáta…</strong>
+        <div class="tiny">Skúšam lokálne JSON súbory a podľa potreby padám späť na živú verziu.</div>
+      </div>
+    `;
+    return;
+  }
+
+  if (state.error) {
+    stage.innerHTML = `
+      <div class="empty-state">
+        <strong>Nepodarilo sa načítať dáta</strong>
+        <div>${esc(state.error)}</div>
+      </div>
+    `;
+    return;
+  }
+
+  if (!view.data.length) {
+    stage.innerHTML = renderEmpty(`Pre filter "${state.query.trim()}" som nenašiel žiadne profily.`);
+    return;
+  }
+
+  const renderers = {
+    newsroom: renderNewsroom,
+    explorer: renderExplorer,
+    radar: renderRadar,
+    dossiers: renderDossiers,
+    graph: renderGraph,
+    atlas: renderAtlas,
+    compare: renderCompare,
+    story: renderStory,
+    tiles: renderTiles,
+    evidence: renderEvidence,
+  };
+
+  stage.innerHTML = renderers[state.mode](view);
+}
+
+function setMode(id) {
+  if (!MODES.some(mode => mode.id === id)) return;
+  state.mode = id;
+  window.location.hash = id;
+  render();
+}
+
+function setCompareMetric(id) {
+  if (!COMPARE_METRICS[id]) return;
+  state.compareMetric = id;
+  render();
+}
+
+function setTileMetric(id) {
+  if (!TILE_METRICS[id]) return;
+  state.tileMetric = id;
+  render();
+}
+
+function clearSearch() {
+  state.query = '';
+  document.getElementById('lab-search').value = '';
+  render();
+}
+
+window.setMode = setMode;
+window.setCompareMetric = setCompareMetric;
+window.setTileMetric = setTileMetric;
+window.clearSearch = clearSearch;
+
+function render() {
+  const view = buildViewModel();
+  renderModeControls();
+  renderHero(view);
+  renderModeHeader(view);
+  renderStage(view);
+}
+
+async function init() {
+  render();
+  try {
+    const [indexData, highlights, meta] = await Promise.all([
+      fetchJson('index.json'),
+      fetchJson('highlights.json'),
+      fetchJson('meta.json'),
+    ]);
+
+    state.indexData = indexData;
+    state.highlights = highlights;
+    state.meta = meta;
+    state.byId = new Map(indexData.map(person => [person.user_id, person]));
+    state.stats = computeStats(indexData);
+    state.loading = false;
+    state.error = '';
+    render();
+  } catch (error) {
+    state.loading = false;
+    state.error = error && error.message ? error.message : 'Neznáma chyba';
+    render();
+  }
+}
+
+document.getElementById('mode-select').addEventListener('change', event => {
+  setMode(event.target.value);
+});
+
+document.getElementById('lab-search').addEventListener('input', event => {
+  state.query = event.target.value;
+  render();
+});
+
+document.getElementById('clear-search').addEventListener('click', () => {
+  clearSearch();
+});
+
+window.addEventListener('hashchange', () => {
+  const id = window.location.hash.slice(1);
+  if (MODES.some(mode => mode.id === id)) {
+    state.mode = id;
+    render();
+  }
+});
+
+init();
+</script>
+</body>
+</html>

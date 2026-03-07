@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,62 +38,80 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>JUDr. Zuzana Mesterová</h1>
-    <p class="lede">poslanec Národnej rady Slovenskej republiky · príjem 65 688 € · 5 nehnuteľností · 5 záväzkov</p>
+    <p class="lede">poslanec Národnej rady Slovenskej republiky</p>
+    <p class="detail-summary">príjem 65 688 € · 5 nehnuteľností · 5 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Zuzana.Mesterova" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>65 688 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>5</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>5</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>5</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>48 912 €</dd></div>
-        <div><dt>Iné</dt><dd>16 776 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Zuzana.Mesterova">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>65 688 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>5</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>5</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>5</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>PROGRESÍVNE SLOVENSKO
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: STARÉ MESTO · LV: 7239 · Podiel: BSM</span></li><li><strong>ZÁHRADA</strong><span>Kat. územie: STARÉ MESTO · LV: 7783 · Podiel: 1558/10000</span></li><li><strong>RODINNÝ DOM, ZÁHRADA</strong><span>Kat. územie: STAKČÍN · LV: 72 · Podiel: 1/1</span></li><li><strong>BYT</strong><span>Kat. územie: STREDNÉ MESTO · LV: 11872 · Podiel: BSM</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: STREDNÉ MESTO · LV: 11872 · Podiel: 4010/228359</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>HVPOTEKÁRNY ÚVER</strong><span>Podiel: BSM · Vznik: 08. 10. 2020</span></li><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: BSM · Vznik: 21. 02. 2024</span></li><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: BSM · Vznik: 12. 07. 2022</span></li><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: BSM · Vznik: 09. 06. 2023</span></li><li><strong>BEZÚČELOVÝ ÚVER</strong><span>Podiel: BSM · Vznik: 23. 02. 2024</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>48 912 €</dd></div>
+          <div><dt>Iné</dt><dd>16 776 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>PROGRESÍVNE SLOVENSKO Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: STARÉ MESTO · LV: 7239 · Podiel: BSM</span></li><li><strong>ZÁHRADA</strong><span>Kat. územie: STARÉ MESTO · LV: 7783 · Podiel: 1558/10000</span></li><li><strong>RODINNÝ DOM, ZÁHRADA</strong><span>Kat. územie: STAKČÍN · LV: 72 · Podiel: 1/1</span></li><li><strong>BYT</strong><span>Kat. územie: STREDNÉ MESTO · LV: 11872 · Podiel: BSM</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: STREDNÉ MESTO · LV: 11872 · Podiel: 4010/228359</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>HVPOTEKÁRNY ÚVER</strong><span>Podiel: BSM · Vznik: 08. 10. 2020</span></li><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: BSM · Vznik: 21. 02. 2024</span></li><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: BSM · Vznik: 12. 07. 2022</span></li><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: BSM · Vznik: 09. 06. 2023</span></li><li><strong>BEZÚČELOVÝ ÚVER</strong><span>Podiel: BSM · Vznik: 23. 02. 2024</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 25 574 € → 65 688 € (+40 114 €); Nehnuteľnosti: 3 → 5 (+2); Záväzky: 3 → 5 (+2)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 0 € → 25 574 € (+25 574 €); Hnuteľný majetok: 1 → 1 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "JUDr. Zuzana Mesterová", "item": "/politicians/judr-zuzana-mesterova/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "JUDr. Zuzana Mesterová", "description": "poslanec Národnej rady Slovenskej republiky · príjem 65 688 € · 5 nehnuteľností · 5 záväzkov", "url": "/politicians/judr-zuzana-mesterova/", "jobTitle": "poslanec Národnej rady Slovenskej republiky"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Zuzana.Mesterova", "name": "JUDr. Zuzana Mesterová", "public_function": "poslanec Národnej rady Slovenskej republiky", "role": "poslanec Národnej rady Slovenskej republiky", "years": [2022, 2023, 2024], "timeline": [{"year": 2022, "data": {"id": "B235463", "declaration_id": 29637, "name": "JUDr. ZUZANA MESTEROVÁ", "year": 2022, "filed": "pri ujatí sa funkcie", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "PROGRESÍVNE SLOVENSKO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": [{"role": "ČLENKA PREDSEDNÍCTVA", "organization": "PROGRESÍVNE SLOVENSKO", "benefits": "ŽIADNE"}], "real_estate": [{"type": "RODINNÝ DOM, ZÁHRADA", "cadastral_territory": "STAKČÍN", "lv_number": "72", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "STREDNÉ MESTO", "lv_number": "11872", "share": "BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "STREDNÉ MESTO", "lv_number": "11872", "share": "4010/228359"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "CITROEN", "year_of_manufacture": 2020, "share": "BSM"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "12. 07. 2022"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "09. 06. 2023"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "08. 10. 2020"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2023, "data": {"id": "B235463", "declaration_id": 33460, "name": "JUDr. ZUZANA MESTEROVÁ", "year": 2023, "filed": "k 30. aprílu", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 11736, "other": 13838}, "incompatibility": true, "employment": "PROGRESÍVNE SLOVENSKO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": [{"role": "ČLENKA PREDSEDNÍCTVA", "organization": "PROGRESÍVNE SLOVENSKO", "benefits": "ŽIADNE"}], "real_estate": [{"type": "RODINNÝ DOM, ZÁHRADA", "cadastral_territory": "STAKČÍN", "lv_number": "72", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "STREDNÉ MESTO", "lv_number": "11872", "share": "BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "STREDNÉ MESTO", "lv_number": "11872", "share": "4010/228359"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "CITROËN", "year_of_manufacture": 2020, "share": "BSM"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "12. 07. 2022"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "09. 06. 2023"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "08. 10. 2020"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 11736, "other": 13838}, "old_total": 0, "new_total": 25574, "delta": 25574}, {"field": "movable_property", "old": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "CITROEN", "year_of_manufacture": 2020, "share": "BSM"}], "new": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "CITROËN", "year_of_manufacture": 2020, "share": "BSM"}], "old_count": 1, "new_count": 1}]}}, {"year": 2024, "data": {"id": "B235463", "declaration_id": 37228, "name": "JUDr. ZUZANA MESTEROVÁ", "year": 2024, "filed": "k 30. aprílu", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 48912, "other": 16776}, "incompatibility": true, "employment": "PROGRESÍVNE SLOVENSKO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": [{"role": "ČLENKA PREDSEDNÍCTVA", "organization": "PROGRESÍVNE SLOVENSKO", "benefits": "ŽIADNE"}], "real_estate": [{"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "7239", "share": "BSM"}, {"type": "ZÁHRADA", "cadastral_territory": "STARÉ MESTO", "lv_number": "7783", "share": "1558/10000"}, {"type": "RODINNÝ DOM, ZÁHRADA", "cadastral_territory": "STAKČÍN", "lv_number": "72", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "STREDNÉ MESTO", "lv_number": "11872", "share": "BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "STREDNÉ MESTO", "lv_number": "11872", "share": "4010/228359"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "CITROËN", "year_of_manufacture": 2020, "share": "BSM"}], "property_rights": null, "obligations": [{"type": "HVPOTEKÁRNY ÚVER", "share": "BSM", "date": "08. 10. 2020"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "21. 02. 2024"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "12. 07. 2022"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "09. 06. 2023"}, {"type": "BEZÚČELOVÝ ÚVER", "share": "BSM", "date": "23. 02. 2024"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 11736, "other": 13838}, "new": {"public_function": 48912, "other": 16776}, "old_total": 25574, "new_total": 65688, "delta": 40114, "delta_pct": 156.9}, {"field": "real_estate", "old": [{"type": "RODINNÝ DOM, ZÁHRADA", "cadastral_territory": "STAKČÍN", "lv_number": "72", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "STREDNÉ MESTO", "lv_number": "11872", "share": "BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "STREDNÉ MESTO", "lv_number": "11872", "share": "4010/228359"}], "new": [{"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "7239", "share": "BSM"}, {"type": "ZÁHRADA", "cadastral_territory": "STARÉ MESTO", "lv_number": "7783", "share": "1558/10000"}, {"type": "RODINNÝ DOM, ZÁHRADA", "cadastral_territory": "STAKČÍN", "lv_number": "72", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "STREDNÉ MESTO", "lv_number": "11872", "share": "BSM"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "STREDNÉ MESTO", "lv_number": "11872", "share": "4010/228359"}], "old_count": 3, "new_count": 5}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "12. 07. 2022"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "09. 06. 2023"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "08. 10. 2020"}], "new": [{"type": "HVPOTEKÁRNY ÚVER", "share": "BSM", "date": "08. 10. 2020"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "21. 02. 2024"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "12. 07. 2022"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "09. 06. 2023"}, {"type": "BEZÚČELOVÝ ÚVER", "share": "BSM", "date": "23. 02. 2024"}], "old_count": 3, "new_count": 5}]}}], "total_changes": 5, "slug": "judr-zuzana-mesterova"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

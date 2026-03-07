@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,62 +38,80 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Mgr. Maroš Stano</h1>
-    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.) · príjem 55 175 € · 5 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)</p>
+    <p class="detail-summary">príjem 55 175 € · 5 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Maros.Stano" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>55 175 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>5</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>10</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>21 912 €</dd></div>
-        <div><dt>Iné</dt><dd>33 263 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Maros.Stano">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>55 175 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>5</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>10</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>KANCELÁRIA NÁRODNEJ RADY SLOVENSKEJ REPUBLIKY
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: BRATISLAVA - KARLOVA VES · LV: 2998 · Podiel: 1/2</span></li><li><strong>GARÁŽ</strong><span>Kat. územie: BRATISLAVA - KARLOVA VES · LV: 3871 · Podiel: BSM</span></li><li><strong>RODINNÝ DOM</strong><span>Kat. územie: BRATISLAVA - RUŽINOV · LV: 1128 · Podiel: 1/6</span></li><li><strong>BYT</strong><span>Kat. územie: ŽILINA · LV: 5294 · Podiel: 1/4</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: KÁLNICA · LV: 667 · Podiel: 7/8</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>21 912 €</dd></div>
+          <div><dt>Iné</dt><dd>33 263 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>KANCELÁRIA NÁRODNEJ RADY SLOVENSKEJ REPUBLIKY Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: BRATISLAVA - KARLOVA VES · LV: 2998 · Podiel: 1/2</span></li><li><strong>GARÁŽ</strong><span>Kat. územie: BRATISLAVA - KARLOVA VES · LV: 3871 · Podiel: BSM</span></li><li><strong>RODINNÝ DOM</strong><span>Kat. územie: BRATISLAVA - RUŽINOV · LV: 1128 · Podiel: 1/6</span></li><li><strong>BYT</strong><span>Kat. územie: ŽILINA · LV: 5294 · Podiel: 1/4</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: KÁLNICA · LV: 667 · Podiel: 7/8</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 2 490 € → 55 175 € (+52 685 €); Zamestnanie; business_activity; Nehnuteľnosti: 5 → 5 (0); Hnuteľný majetok; Majetkové práva: 1 → 2 (+1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 0 € → 2 490 € (+2 490 €); Nehnuteľnosti: 5 → 5 (0); Hnuteľný majetok: 1 → 1 (0); Majetkové práva: 2 → 1 (-1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Mgr. Maroš Stano", "item": "/politicians/mgr-maros-stano/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Mgr. Maroš Stano", "description": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.) · príjem 55 175 € · 5 nehnuteľností · 1 záväzkov", "url": "/politicians/mgr-maros-stano/", "jobTitle": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Maros.Stano", "name": "Mgr. Maroš Stano", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)", "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)", "years": [2022, 2023, 2024], "timeline": [{"year": 2022, "data": {"id": "ZC245812", "declaration_id": 29779, "name": "Mgr. MAROŠ STANO", "year": 2022, "filed": "pri ujatí sa funkcie", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": null, "business_activity": "SZČO(Mgr. MAROŠ STANO - MS CONSULTING)", "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2998", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "3871", "share": "BSM"}, {"type": "RODINNÝ DOM", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1128", "share": "1/6"}, {"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5294", "share": "1/4"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "KÁLNICA", "lv_number": "667", "share": "7/8"}], "movable_property": [{"type": "OSOBNÉ AUTO", "brand": "VOLKSWAGEN", "year_of_manufacture": 2019, "share": "BSM"}], "property_rights": ["VYBAVENIE DOMÁCNOSTI, podiel: BSM", "FINANČNÁ HOTOVOSŤ, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2023, "data": {"id": "ZC245812", "declaration_id": 33266, "name": "Mgr. MAROŠ STANO", "year": 2023, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)", "income": {"public_function": 1500, "other": 990}, "incompatibility": true, "employment": null, "business_activity": "SZČO(Mgr. MAROŠ STANO - MS CONSULTING)", "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2998", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "3871", "share": "BSM"}, {"type": "RODINNÝ DOM", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "1128", "share": "1/6"}, {"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5294", "share": "1/4"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "KÁLNICA", "lv_number": "667", "share": "7/8"}], "movable_property": [{"type": "VYBAVENIE DOMÁCNOSTI", "share": "BSM"}], "property_rights": ["FINANČNÁ HOTOVOSŤ, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 1500, "other": 990}, "old_total": 0, "new_total": 2490, "delta": 2490}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2998", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "3871", "share": "BSM"}, {"type": "RODINNÝ DOM", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1128", "share": "1/6"}, {"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5294", "share": "1/4"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "KÁLNICA", "lv_number": "667", "share": "7/8"}], "new": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2998", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "3871", "share": "BSM"}, {"type": "RODINNÝ DOM", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "1128", "share": "1/6"}, {"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5294", "share": "1/4"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "KÁLNICA", "lv_number": "667", "share": "7/8"}], "old_count": 5, "new_count": 5}, {"field": "movable_property", "old": [{"type": "OSOBNÉ AUTO", "brand": "VOLKSWAGEN", "year_of_manufacture": 2019, "share": "BSM"}], "new": [{"type": "VYBAVENIE DOMÁCNOSTI", "share": "BSM"}], "old_count": 1, "new_count": 1}, {"field": "property_rights", "old": ["VYBAVENIE DOMÁCNOSTI, podiel: BSM", "FINANČNÁ HOTOVOSŤ, podiel: BSM"], "new": ["FINANČNÁ HOTOVOSŤ, podiel: BSM"], "old_count": 2, "new_count": 1}]}}, {"year": 2024, "data": {"id": "ZC245812", "declaration_id": 37320, "name": "Mgr. MAROŠ STANO", "year": 2024, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP INFRASTRUCTURE, A.S.)", "income": {"public_function": 21912, "other": 33263}, "incompatibility": true, "employment": "KANCELÁRIA NÁRODNEJ RADY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": "ŽIVNOSTNÍK(Mgr. MAROŠ STANO - MS CONSULTING)", "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2998", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "3871", "share": "BSM"}, {"type": "RODINNÝ DOM", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1128", "share": "1/6"}, {"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5294", "share": "1/4"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "KÁLNICA", "lv_number": "667", "share": "7/8"}], "movable_property": null, "property_rights": ["VYBAVENIE DOMÁCNOSTI, podiel: BSM", "FINANČNÁ HOTOVOSŤ, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 1500, "other": 990}, "new": {"public_function": 21912, "other": 33263}, "old_total": 2490, "new_total": 55175, "delta": 52685, "delta_pct": 2115.9}, {"field": "employment", "old": null, "new": "KANCELÁRIA NÁRODNEJ RADY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "business_activity", "old": "SZČO(Mgr. MAROŠ STANO - MS CONSULTING)", "new": "ŽIVNOSTNÍK(Mgr. MAROŠ STANO - MS CONSULTING)"}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2998", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "3871", "share": "BSM"}, {"type": "RODINNÝ DOM", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "1128", "share": "1/6"}, {"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5294", "share": "1/4"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "KÁLNICA", "lv_number": "667", "share": "7/8"}], "new": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2998", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "3871", "share": "BSM"}, {"type": "RODINNÝ DOM", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1128", "share": "1/6"}, {"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5294", "share": "1/4"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "KÁLNICA", "lv_number": "667", "share": "7/8"}], "old_count": 5, "new_count": 5}, {"field": "movable_property", "old": [{"type": "VYBAVENIE DOMÁCNOSTI", "share": "BSM"}], "new": null}, {"field": "property_rights", "old": ["FINANČNÁ HOTOVOSŤ, podiel: BSM"], "new": ["VYBAVENIE DOMÁCNOSTI, podiel: BSM", "FINANČNÁ HOTOVOSŤ, podiel: BSM"], "old_count": 1, "new_count": 2}]}}], "total_changes": 10, "slug": "mgr-maros-stano"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

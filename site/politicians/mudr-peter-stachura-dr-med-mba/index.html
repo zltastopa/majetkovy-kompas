@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,65 +38,80 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>MUDr. Peter Stachura, Dr. med., MBA</h1>
-    <p class="lede">poslanec Národnej rady Slovenskej republiky · príjem 105 916 € · 9 nehnuteľností · 2 záväzkov</p>
+    <p class="lede">poslanec Národnej rady Slovenskej republiky</p>
+    <p class="detail-summary">príjem 105 916 € · 9 nehnuteľností · 2 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Peter.Stachura" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>105 916 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>9</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>2</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>11</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>48 912 €</dd></div>
-        <div><dt>Iné</dt><dd>57 004 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Peter.Stachura">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>105 916 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>9</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>2</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>11</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>SLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie
-UNIVERSITÄTSKLINIKUM ST. PÖLTEN
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>SPOLUVLASTNÍCKY PODIEL K POZEMKU</strong><span>Kat. územie: ŽILINA · LV: 8086 · Podiel: 134/3551</span></li><li><strong>OSTATNÁ PLOCHA</strong><span>Kat. územie: ŽILINA · LV: 8115 · Podiel: 287/14880</span></li><li><strong>OSTATNÁ PLOCHA</strong><span>Kat. územie: ŽILINA · LV: 8115 · Podiel: 37/14880</span></li><li><strong>BYT</strong><span>Kat. územie: ŽILINA · LV: 8085 · Podiel: 1/2</span></li><li><strong>SPOLUVLASTNÍCKY PODIEL K POZEMKU</strong><span>Kat. územie: ŽILINA · LV: 8085 · Podiel: 1050/22286</span></li><li><strong>GARÁŽ</strong><span>Kat. územie: ŽILINA · LV: 8086 · Podiel: 1/2</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: ŽILINA · LV: 8114 · Podiel: 403/20900</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: ŽILINA · LV: 8114 · Podiel: 51/20900</span></li><li><strong>DOM</strong><span>Kat. územie: ST. PÖLTEN, RAKÚSKO · Podiel: 1/2</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/2 · Vznik: 09. 10. 2017</span></li><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/2 · Vznik: 07. 03. 2018</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>48 912 €</dd></div>
+          <div><dt>Iné</dt><dd>57 004 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>SLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie UNIVERSITÄTSKLINIKUM ST. PÖLTEN Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>SPOLUVLASTNÍCKY PODIEL K POZEMKU</strong><span>Kat. územie: ŽILINA · LV: 8086 · Podiel: 134/3551</span></li><li><strong>OSTATNÁ PLOCHA</strong><span>Kat. územie: ŽILINA · LV: 8115 · Podiel: 287/14880</span></li><li><strong>OSTATNÁ PLOCHA</strong><span>Kat. územie: ŽILINA · LV: 8115 · Podiel: 37/14880</span></li><li><strong>BYT</strong><span>Kat. územie: ŽILINA · LV: 8085 · Podiel: 1/2</span></li><li><strong>SPOLUVLASTNÍCKY PODIEL K POZEMKU</strong><span>Kat. územie: ŽILINA · LV: 8085 · Podiel: 1050/22286</span></li><li><strong>GARÁŽ</strong><span>Kat. územie: ŽILINA · LV: 8086 · Podiel: 1/2</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: ŽILINA · LV: 8114 · Podiel: 403/20900</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: ŽILINA · LV: 8114 · Podiel: 51/20900</span></li><li><strong>DOM</strong><span>Kat. územie: ST. PÖLTEN, RAKÚSKO · Podiel: 1/2</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/2 · Vznik: 09. 10. 2017</span></li><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/2 · Vznik: 07. 03. 2018</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 91 970 € → 105 916 € (+13 946 €); Zamestnanie; Nehnuteľnosti: 9 → 9 (0); Majetkové práva: 2 → 2 (0); Záväzky: 2 → 2 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 0 € → 91 970 € (+91 970 €); Zamestnanie; Funkcie; Nehnuteľnosti: 9 → 9 (0); Majetkové práva: 2 → 2 (0); Záväzky: 2 → 2 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "MUDr. Peter Stachura, Dr. med., MBA", "item": "/politicians/mudr-peter-stachura-dr-med-mba/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "MUDr. Peter Stachura, Dr. med., MBA", "description": "poslanec Národnej rady Slovenskej republiky · príjem 105 916 € · 9 nehnuteľností · 2 záväzkov", "url": "/politicians/mudr-peter-stachura-dr-med-mba/", "jobTitle": "poslanec Národnej rady Slovenskej republiky"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Peter.Stachura", "name": "MUDr. Peter Stachura, Dr. med., MBA", "public_function": "poslanec Národnej rady Slovenskej republiky", "role": "poslanec Národnej rady Slovenskej republiky", "years": [2022, 2023, 2024], "timeline": [{"year": 2022, "data": {"id": "B235435", "declaration_id": 29554, "name": "MUDr. PETER STACHURA, Dr. Med., MBA", "year": 2022, "filed": "pri ujatí sa funkcie", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "ARBEITERSAMARITERBUND\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERSITÄTSKLINIKUM ST. PÖLTEN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": [{"role": "PREZIDENT", "organization": "ASOCIÁCIA ZDRAVOT. PRAC. V ZAHRANIČÍ", "benefits": "ŽIADNE"}], "real_estate": [{"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1/1"}, {"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1050/22286"}, {"type": "GARÁŽ", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "1/1"}, {"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "134/3551"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "287/14880"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "37/14880"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "403/20900"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "51/20900"}, {"type": "DOM", "cadastral_territory": "ST. PÖLTEN, RAKÚSKA REPUBLIKA", "share": "1/2"}], "movable_property": [{"type": "MOTOROVÉ VOZIDLO", "brand": "BMW", "year_of_manufacture": 2016, "share": "1/1"}, {"type": "MOTOROVÉ VOZIDLO", "brand": "TESLA", "year_of_manufacture": 2023, "share": "1/1"}], "property_rights": ["SPORENIE A INVESTÍCIE V BANKÁCH, podiel: 1/1", "PODIEL V S.R.O., podiel: 50%"], "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "09. 10. 2017"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "07. 03. 2018"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2023, "data": {"id": "B235435", "declaration_id": 33384, "name": "MUDr. PETER STACHURA, Dr. med., MBA", "year": 2023, "filed": "k 30. aprílu", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 11736, "other": 80234}, "incompatibility": true, "employment": "UNIVERSITÄTSKLINIKUM ST. PÖLTEN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "134/3551"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "287/14880"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "37/14880"}, {"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1/2"}, {"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1050/22286"}, {"type": "GARÁŽ", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "403/20900"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "51/20900"}, {"type": "DOM", "cadastral_territory": "ST. PŐLTEN, RAKÚSKO", "share": "1/2"}], "movable_property": [{"type": "MOTOROVÉ VOZIDLO", "brand": "BMW", "year_of_manufacture": 2016, "share": "1/1"}, {"type": "MOTOROVÉ VOZIDLO", "brand": "TESLA", "year_of_manufacture": 2023, "share": "1/1"}], "property_rights": ["SPORENIE A INVESTÍCIE V BANKÁCH, podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 50%"], "obligations": [{"type": "HYPOTEKÁRNÝ ÚVER", "share": "1/2", "date": "09. 10. 2017"}, {"type": "HYPOTEKÁRNÝ ÚVER", "share": "1/2", "date": "07. 03. 2018"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 11736, "other": 80234}, "old_total": 0, "new_total": 91970, "delta": 91970}, {"field": "employment", "old": "ARBEITERSAMARITERBUND\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERSITÄTSKLINIKUM ST. PÖLTEN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "new": "UNIVERSITÄTSKLINIKUM ST. PÖLTEN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "positions", "old": [{"role": "PREZIDENT", "organization": "ASOCIÁCIA ZDRAVOT. PRAC. V ZAHRANIČÍ", "benefits": "ŽIADNE"}], "new": null}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1/1"}, {"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1050/22286"}, {"type": "GARÁŽ", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "1/1"}, {"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "134/3551"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "287/14880"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "37/14880"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "403/20900"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "51/20900"}, {"type": "DOM", "cadastral_territory": "ST. PÖLTEN, RAKÚSKA REPUBLIKA", "share": "1/2"}], "new": [{"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "134/3551"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "287/14880"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "37/14880"}, {"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1/2"}, {"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1050/22286"}, {"type": "GARÁŽ", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "403/20900"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "51/20900"}, {"type": "DOM", "cadastral_territory": "ST. PŐLTEN, RAKÚSKO", "share": "1/2"}], "old_count": 9, "new_count": 9}, {"field": "property_rights", "old": ["SPORENIE A INVESTÍCIE V BANKÁCH, podiel: 1/1", "PODIEL V S.R.O., podiel: 50%"], "new": ["SPORENIE A INVESTÍCIE V BANKÁCH, podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 50%"], "old_count": 2, "new_count": 2}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "09. 10. 2017"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "07. 03. 2018"}], "new": [{"type": "HYPOTEKÁRNÝ ÚVER", "share": "1/2", "date": "09. 10. 2017"}, {"type": "HYPOTEKÁRNÝ ÚVER", "share": "1/2", "date": "07. 03. 2018"}], "old_count": 2, "new_count": 2}]}}, {"year": 2024, "data": {"id": "B235435", "declaration_id": 37881, "name": "MUDr. PETER STACHURA, Dr. med., MBA", "year": 2024, "filed": "k 30. aprílu", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 48912, "other": 57004}, "incompatibility": true, "employment": "SLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERSITÄTSKLINIKUM ST. PÖLTEN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "134/3551"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "287/14880"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "37/14880"}, {"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1/2"}, {"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1050/22286"}, {"type": "GARÁŽ", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "403/20900"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "51/20900"}, {"type": "DOM", "cadastral_territory": "ST. PÖLTEN, RAKÚSKO", "share": "1/2"}], "movable_property": [{"type": "MOTOROVÉ VOZIDLO", "brand": "BMW", "year_of_manufacture": 2016, "share": "1/1"}, {"type": "MOTOROVÉ VOZIDLO", "brand": "TESLA", "year_of_manufacture": 2023, "share": "1/1"}], "property_rights": ["SPORENIE A INVESTÍCIE V BANKÁCH, podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 1/2"], "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "09. 10. 2017"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "07. 03. 2018"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 11736, "other": 80234}, "new": {"public_function": 48912, "other": 57004}, "old_total": 91970, "new_total": 105916, "delta": 13946, "delta_pct": 15.2}, {"field": "employment", "old": "UNIVERSITÄTSKLINIKUM ST. PÖLTEN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "new": "SLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERSITÄTSKLINIKUM ST. PÖLTEN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "real_estate", "old": [{"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "134/3551"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "287/14880"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "37/14880"}, {"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1/2"}, {"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1050/22286"}, {"type": "GARÁŽ", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "403/20900"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "51/20900"}, {"type": "DOM", "cadastral_territory": "ST. PŐLTEN, RAKÚSKO", "share": "1/2"}], "new": [{"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "134/3551"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "287/14880"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "ŽILINA", "lv_number": "8115", "share": "37/14880"}, {"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1/2"}, {"type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU", "cadastral_territory": "ŽILINA", "lv_number": "8085", "share": "1050/22286"}, {"type": "GARÁŽ", "cadastral_territory": "ŽILINA", "lv_number": "8086", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "403/20900"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ŽILINA", "lv_number": "8114", "share": "51/20900"}, {"type": "DOM", "cadastral_territory": "ST. PÖLTEN, RAKÚSKO", "share": "1/2"}], "old_count": 9, "new_count": 9}, {"field": "property_rights", "old": ["SPORENIE A INVESTÍCIE V BANKÁCH, podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 50%"], "new": ["SPORENIE A INVESTÍCIE V BANKÁCH, podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 1/2"], "old_count": 2, "new_count": 2}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNÝ ÚVER", "share": "1/2", "date": "09. 10. 2017"}, {"type": "HYPOTEKÁRNÝ ÚVER", "share": "1/2", "date": "07. 03. 2018"}], "new": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "09. 10. 2017"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "07. 03. 2018"}], "old_count": 2, "new_count": 2}]}}], "total_changes": 11, "slug": "mudr-peter-stachura-dr-med-mba"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

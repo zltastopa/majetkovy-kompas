@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,60 +38,80 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Ing. Bc. Vladimír HOSA, MPH</h1>
-    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE) · príjem 86 759 € · 2 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)</p>
+    <p class="detail-summary">príjem 86 759 € · 2 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Vladimir.Hosa" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>86 759 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>2</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>6</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>86 759 €</dd></div>
-        <div><dt>Iné</dt><dd>0 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Vladimir.Hosa">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>86 759 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>2</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>6</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>Neuvedené</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>POZEMOK</strong><span>Kat. územie: LEVOČA · LV: 7264 · Podiel: BSM</span></li><li><strong>STAVBA DOM</strong><span>Kat. územie: LEVOČA · LV: 7264 · Podiel: BSM</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>86 759 €</dd></div>
+          <div><dt>Iné</dt><dd>0 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>Neuvedené</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>POZEMOK</strong><span>Kat. územie: LEVOČA · LV: 7264 · Podiel: BSM</span></li><li><strong>STAVBA DOM</strong><span>Kat. územie: LEVOČA · LV: 7264 · Podiel: BSM</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 48 972 € → 86 759 € (+37 787 €); Nehnuteľnosti: 2 → 2 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 0 € → 48 972 € (+48 972 €); incompatibility; business_activity; Nehnuteľnosti: 3 → 2 (-1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Ing. Bc. Vladimír HOSA, MPH", "item": "/politicians/ing-bc-vladimir-hosa-mph/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ing. Bc. Vladimír HOSA, MPH", "description": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE) · príjem 86 759 € · 2 nehnuteľností · 1 záväzkov", "url": "/politicians/ing-bc-vladimir-hosa-mph/", "jobTitle": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Vladimir.Hosa", "name": "Ing. Bc. Vladimír HOSA, MPH", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)", "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)", "years": [2022, 2023, 2024], "timeline": [{"year": 2022, "data": {"id": "ZC235269", "declaration_id": 27533, "name": "Ing. Bc. VLADIMÍR HOSA, MPH.", "year": 2022, "filed": "pri ujatí sa funkcie", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)", "income": {"public_function": 0, "other": 0}, "incompatibility": false, "employment": null, "business_activity": "KONATEĽ(RESCUE SLOVAKIA S.R.O.)", "positions": null, "real_estate": [{"type": "POZEMOK", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}, {"type": "STAVBA - DOM", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "LEVOČA", "lv_number": "6366", "share": "BSM"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2023, "data": {"id": "ZC235269", "declaration_id": 33155, "name": "Ing.Bc. VLADIMÍR HOSA, MPH.", "year": 2023, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)", "income": {"public_function": 48972, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "POZEMOK", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}, {"type": "STAVBA - DOM", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 48972, "other": 0}, "old_total": 0, "new_total": 48972, "delta": 48972}, {"field": "incompatibility", "old": false, "new": true}, {"field": "business_activity", "old": "KONATEĽ(RESCUE SLOVAKIA S.R.O.)", "new": null}, {"field": "real_estate", "old": [{"type": "POZEMOK", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}, {"type": "STAVBA - DOM", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "LEVOČA", "lv_number": "6366", "share": "BSM"}], "new": [{"type": "POZEMOK", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}, {"type": "STAVBA - DOM", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}], "old_count": 3, "new_count": 2}]}}, {"year": 2024, "data": {"id": "ZC235269", "declaration_id": 37690, "name": "Ing. Bc. VLADIMÍR HOSA, MPH", "year": 2024, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)", "income": {"public_function": 86759, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "POZEMOK", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}, {"type": "STAVBA DOM", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 48972, "other": 0}, "new": {"public_function": 86759, "other": 0}, "old_total": 48972, "new_total": 86759, "delta": 37787, "delta_pct": 77.2}, {"field": "real_estate", "old": [{"type": "POZEMOK", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}, {"type": "STAVBA - DOM", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}], "new": [{"type": "POZEMOK", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}, {"type": "STAVBA DOM", "cadastral_territory": "LEVOČA", "lv_number": "7264", "share": "BSM"}], "old_count": 2, "new_count": 2}]}}], "total_changes": 6, "slug": "ing-bc-vladimir-hosa-mph"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

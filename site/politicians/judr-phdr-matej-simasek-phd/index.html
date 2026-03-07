@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JUDr. PhDr. Matej Šimášek, PhD. | Majetkový kompas</title>
-<meta name="description" content="primátor mestačlen Rady Slovenského pozemkového fondu · príjem 73 054 € · 3 nehnuteľností · 2 záväzkov">
+<meta name="description" content="primátor mesta · člen Rady Slovenského pozemkového fondu · príjem 73 054 € · 3 nehnuteľností · 2 záväzkov">
 <meta property="og:title" content="JUDr. PhDr. Matej Šimášek, PhD. | Majetkový kompas">
-<meta property="og:description" content="primátor mestačlen Rady Slovenského pozemkového fondu · príjem 73 054 € · 3 nehnuteľností · 2 záväzkov">
+<meta property="og:description" content="primátor mesta · člen Rady Slovenského pozemkového fondu · príjem 73 054 € · 3 nehnuteľností · 2 záväzkov">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="../../styles.css">
@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,65 +38,86 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>JUDr. PhDr. Matej Šimášek, PhD.</h1>
-    <p class="lede">primátor mestačlen Rady Slovenského pozemkového fondu · príjem 73 054 € · 3 nehnuteľností · 2 záväzkov</p>
+    <p class="lede">primátor mesta · člen Rady Slovenského pozemkového fondu</p>
+    <p class="detail-summary">príjem 73 054 € · 3 nehnuteľností · 2 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Matej.Simasek" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>73 054 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>2</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>12</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>54 934 €</dd></div>
-        <div><dt>Iné</dt><dd>18 120 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Matej.Simasek">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>73 054 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>2</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>12</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>Neuvedené</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>POZEMOK</strong><span>Kat. územie: ČADCA · LV: 13547 · Podiel: 1/1</span></li><li><strong>BYT V RODINNOM DOME S PODIELOM NA POZEMKU</strong><span>Kat. územie: STARÁ BYSTRICA · LV: 10068 · Podiel: 1/1</span></li><li><strong>POZEMOK</strong><span>Kat. územie: TATRANSKÁ LOMNICA · LV: 1277 · Podiel: 1/2</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>ÚVER</strong><span>Podiel: 1/1 · Vznik: 31. 12. 2020</span></li><li><strong>ÚVER</strong><span>Podiel: 1/2 · Vznik: 11. 10. 2022</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>54 934 €</dd></div>
+          <div><dt>Iné</dt><dd>18 120 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>Neuvedené</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>POZEMOK</strong><span>Kat. územie: ČADCA · LV: 13547 · Podiel: 1/1</span></li><li><strong>BYT V RODINNOM DOME S PODIELOM NA POZEMKU</strong><span>Kat. územie: STARÁ BYSTRICA · LV: 10068 · Podiel: 1/1</span></li><li><strong>POZEMOK</strong><span>Kat. územie: TATRANSKÁ LOMNICA · LV: 1277 · Podiel: 1/2</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>ÚVER</strong><span>Podiel: 1/1 · Vznik: 31. 12. 2020</span></li><li><strong>ÚVER</strong><span>Podiel: 1/2 · Vznik: 11. 10. 2022</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 50 227 € → 73 054 € (+22 827 €); Funkcie: 3 → 2 (-1); Hnuteľný majetok</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>public_function; Príjmy: 3 687 € → 50 227 € (+46 540 €); Funkcie: 1 → 3 (+2); Hnuteľný majetok; Majetkové práva: 2 → 1 (-1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 0 € → 3 687 € (+3 687 €); Funkcie; Hnuteľný majetok: 2 → 1 (-1); Majetkové práva: 1 → 2 (+1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "JUDr. PhDr. Matej Šimášek, PhD.", "item": "/politicians/judr-phdr-matej-simasek-phd/"}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "JUDr. PhDr. Matej Šimášek, PhD.", "description": "primátor mestačlen Rady Slovenského pozemkového fondu · príjem 73 054 € · 3 nehnuteľností · 2 záväzkov", "url": "/politicians/judr-phdr-matej-simasek-phd/", "jobTitle": "primátor mestačlen Rady Slovenského pozemkového fondu"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "JUDr. PhDr. Matej Šimášek, PhD.", "description": "primátor mesta · člen Rady Slovenského pozemkového fondu · príjem 73 054 € · 3 nehnuteľností · 2 záväzkov", "url": "/politicians/judr-phdr-matej-simasek-phd/", "jobTitle": "primátor mesta · člen Rady Slovenského pozemkového fondu"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Matej.Simasek", "name": "JUDr. PhDr. Matej Šimášek, PhD.", "public_function": "primátor mestačlen Rady Slovenského pozemkového fondu", "role": "primátor mesta · člen Rady Slovenského pozemkového fondu", "years": [2021, 2022, 2023, 2024], "timeline": [{"year": 2021, "data": {"id": "P235193", "declaration_id": 25652, "name": "JUDr. PhDr. MATEJ ŠIMÁŠEK, PhD.", "year": 2021, "filed": "pri ujatí sa funkcie", "public_function": "primátor mesta", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "POZEMOK", "cadastral_territory": "ČADCA", "lv_number": "13547", "share": "1/1"}, {"type": "BYT V RODINNOM DOME S PODIELOM NA POZEMKU", "cadastral_territory": "STARÁ BYSTRICA", "lv_number": "10068", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "TATRANSKÁ LOMNICA", "lv_number": "1277", "share": "1/2"}], "movable_property": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "MERCEDES BENZ", "year_of_manufacture": 2018, "share": "1/1"}, {"type": "UMELECKÉ DIELA A ARTEFAKTY", "share": "1/1"}], "property_rights": ["OBCHODNÝ PODIEL V S.R.O., podiel: 1/1"], "obligations": [{"type": "ÚVER", "share": "1/1", "date": "31. 12. 2020"}, {"type": "ÚVER", "share": "1/2", "date": "11. 10. 2022"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2022, "data": {"id": "P235193", "declaration_id": 28008, "name": "JUDr. PhDr. MATEJ ŠIMÁŠEK, PhD.", "year": 2022, "filed": "k 30. aprílu", "public_function": "primátor mesta", "income": {"public_function": 2854, "other": 833}, "incompatibility": true, "employment": null, "business_activity": null, "positions": [{"role": "POSLANEC", "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ", "benefits": "ODMENA A PAUŠÁLNE NÁHRADY"}], "real_estate": [{"type": "POZEMOK", "cadastral_territory": "ČADCA", "lv_number": "13547", "share": "1/1"}, {"type": "BYT V RODINNOM DOME S PODIELOM NA POZEMKU", "cadastral_territory": "STARÁ BYSTRICA", "lv_number": "10068", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "TATRANSKÁ LOMNICA", "lv_number": "1277", "share": "1/2"}], "movable_property": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "MERCEDES", "year_of_manufacture": 2018, "share": "1/1"}], "property_rights": ["UMELECKÉ DIELA A ARTEFAKTY, podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1"], "obligations": [{"type": "ÚVER", "share": "1/1", "date": "31. 12. 2020"}, {"type": "ÚVER", "share": "1/2", "date": "11. 10. 2022"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 2854, "other": 833}, "old_total": 0, "new_total": 3687, "delta": 3687}, {"field": "positions", "old": null, "new": [{"role": "POSLANEC", "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ", "benefits": "ODMENA A PAUŠÁLNE NÁHRADY"}]}, {"field": "movable_property", "old": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "MERCEDES BENZ", "year_of_manufacture": 2018, "share": "1/1"}, {"type": "UMELECKÉ DIELA A ARTEFAKTY", "share": "1/1"}], "new": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "MERCEDES", "year_of_manufacture": 2018, "share": "1/1"}], "old_count": 2, "new_count": 1}, {"field": "property_rights", "old": ["OBCHODNÝ PODIEL V S.R.O., podiel: 1/1"], "new": ["UMELECKÉ DIELA A ARTEFAKTY, podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1"], "old_count": 1, "new_count": 2}]}}, {"year": 2023, "data": {"id": "P235193", "declaration_id": 32943, "name": "JUDr. PhDr. MATEJ ŠIMÁŠEK, PhD.", "year": 2023, "filed": "k 30. aprílu", "public_function": "primátor mestačlen Rady Slovenského pozemkového fondu", "income": {"public_function": 50227, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": [{"role": "POSLANEC", "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ", "benefits": "PAUŠÁLNE NÁHRADY"}, {"role": "ČLEN RADY SPF", "organization": "SLOVENSKÝ POZEMKOVÝ FOND", "benefits": "ODMENA A PAUŠÁLNE NÁHRADY"}, {"role": "ČLEN PREDSTAVENSTVA", "organization": "SEVEROSLOVENSKÉ VODÁRNE A KANALIZÁCIE, A.S.", "benefits": "ŽIADNE"}], "real_estate": [{"type": "POZEMOK", "cadastral_territory": "ČADCA", "lv_number": "13547", "share": "1/1"}, {"type": "BYT V RODINNOM DOME S PODIELOM NA POZEMKU", "cadastral_territory": "STARÁ BYSTRICA", "lv_number": "10068", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "TATRANSKÁ LOMNICA", "lv_number": "1277", "share": "1/2"}], "movable_property": null, "property_rights": ["OBCHODNÝ PODIEL V S.R.O., podiel: 1/1"], "obligations": [{"type": "ÚVER", "share": "1/1", "date": "31. 12. 2020"}, {"type": "ÚVER", "share": "1/2", "date": "11. 10. 2022"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "primátor mesta", "new": "primátor mestačlen Rady Slovenského pozemkového fondu"}, {"field": "income", "old": {"public_function": 2854, "other": 833}, "new": {"public_function": 50227, "other": 0}, "old_total": 3687, "new_total": 50227, "delta": 46540, "delta_pct": 1262.3}, {"field": "positions", "old": [{"role": "POSLANEC", "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ", "benefits": "ODMENA A PAUŠÁLNE NÁHRADY"}], "new": [{"role": "POSLANEC", "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ", "benefits": "PAUŠÁLNE NÁHRADY"}, {"role": "ČLEN RADY SPF", "organization": "SLOVENSKÝ POZEMKOVÝ FOND", "benefits": "ODMENA A PAUŠÁLNE NÁHRADY"}, {"role": "ČLEN PREDSTAVENSTVA", "organization": "SEVEROSLOVENSKÉ VODÁRNE A KANALIZÁCIE, A.S.", "benefits": "ŽIADNE"}], "old_count": 1, "new_count": 3}, {"field": "movable_property", "old": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "MERCEDES", "year_of_manufacture": 2018, "share": "1/1"}], "new": null}, {"field": "property_rights", "old": ["UMELECKÉ DIELA A ARTEFAKTY, podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1"], "new": ["OBCHODNÝ PODIEL V S.R.O., podiel: 1/1"], "old_count": 2, "new_count": 1}]}}, {"year": 2024, "data": {"id": "P235193", "declaration_id": 37152, "name": "JUDr. PhDr. MATEJ ŠIMÁŠEK, PhD.", "year": 2024, "filed": "k 30. aprílu", "public_function": "primátor mestačlen Rady Slovenského pozemkového fondu", "income": {"public_function": 54934, "other": 18120}, "incompatibility": true, "employment": null, "business_activity": null, "positions": [{"role": "ČLEN PREDSTAVENSTVA", "organization": "SEVEROSLOVENSKÉ VODÁRNE A KANLIZÁCIA, A.S.", "benefits": "ŽIADNE"}, {"role": "POSLANEC", "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ", "benefits": "ODMENA A PAUŠÁLNE NÁHRADY"}], "real_estate": [{"type": "POZEMOK", "cadastral_territory": "ČADCA", "lv_number": "13547", "share": "1/1"}, {"type": "BYT V RODINNOM DOME S PODIELOM NA POZEMKU", "cadastral_territory": "STARÁ BYSTRICA", "lv_number": "10068", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "TATRANSKÁ LOMNICA", "lv_number": "1277", "share": "1/2"}], "movable_property": [{"type": "UMELECKÉ DIELA A ARTEFAKTY", "share": "1/1"}], "property_rights": ["OBCHODNÝ PODIEL V S.R.O., podiel: 1/1"], "obligations": [{"type": "ÚVER", "share": "1/1", "date": "31. 12. 2020"}, {"type": "ÚVER", "share": "1/2", "date": "11. 10. 2022"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 50227, "other": 0}, "new": {"public_function": 54934, "other": 18120}, "old_total": 50227, "new_total": 73054, "delta": 22827, "delta_pct": 45.4}, {"field": "positions", "old": [{"role": "POSLANEC", "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ", "benefits": "PAUŠÁLNE NÁHRADY"}, {"role": "ČLEN RADY SPF", "organization": "SLOVENSKÝ POZEMKOVÝ FOND", "benefits": "ODMENA A PAUŠÁLNE NÁHRADY"}, {"role": "ČLEN PREDSTAVENSTVA", "organization": "SEVEROSLOVENSKÉ VODÁRNE A KANALIZÁCIE, A.S.", "benefits": "ŽIADNE"}], "new": [{"role": "ČLEN PREDSTAVENSTVA", "organization": "SEVEROSLOVENSKÉ VODÁRNE A KANLIZÁCIA, A.S.", "benefits": "ŽIADNE"}, {"role": "POSLANEC", "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ", "benefits": "ODMENA A PAUŠÁLNE NÁHRADY"}], "old_count": 3, "new_count": 2}, {"field": "movable_property", "old": null, "new": [{"type": "UMELECKÉ DIELA A ARTEFAKTY", "share": "1/1"}]}]}}], "total_changes": 12, "slug": "judr-phdr-matej-simasek-phd"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

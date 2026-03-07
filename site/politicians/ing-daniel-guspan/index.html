@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,75 +38,98 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Ing. Daniel Guspan</h1>
-    <p class="lede">vedúci Kancelárie Národnej rady SR · príjem 79 234 € · 1 nehnuteľností · 3 záväzkov</p>
+    <p class="lede">vedúci Kancelárie Národnej rady SR</p>
+    <p class="detail-summary">príjem 79 234 € · 1 nehnuteľností · 3 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Daniel.Guspan" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>79 234 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>3</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>19</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>79 234 €</dd></div>
-        <div><dt>Iné</dt><dd>0 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Daniel.Guspan">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>79 234 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>3</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>19</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>Neuvedené</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>ZÁHRADA, RODINNÝ DOM, 2X ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: BRATISLAVA STARÉ MESTO · LV: 9940 · Podiel: 1/2</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>PÔŽIČKA OD PRÁVNICKEJ OSOBY</strong><span>Podiel: 1/1 · Vznik: 02. 01. 2024</span></li><li><strong>BANKOVÝ ÚVER</strong><span>Podiel: 1/1 · Vznik: 02. 02. 2017</span></li><li><strong>PÔŽIČKA OD FYZICKEJ OSOBY</strong><span>Podiel: 1/1 · Vznik: 23. 05. 2012</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>79 234 €</dd></div>
+          <div><dt>Iné</dt><dd>0 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>Neuvedené</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>ZÁHRADA, RODINNÝ DOM, 2X ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: BRATISLAVA STARÉ MESTO · LV: 9940 · Podiel: 1/2</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>PÔŽIČKA OD PRÁVNICKEJ OSOBY</strong><span>Podiel: 1/1 · Vznik: 02. 01. 2024</span></li><li><strong>BANKOVÝ ÚVER</strong><span>Podiel: 1/1 · Vznik: 02. 02. 2017</span></li><li><strong>PÔŽIČKA OD FYZICKEJ OSOBY</strong><span>Podiel: 1/1 · Vznik: 23. 05. 2012</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 62 654 € → 79 234 € (+16 580 €); Záväzky: 2 → 3 (+1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 53 998 € → 62 654 € (+8 656 €); Nehnuteľnosti: 1 → 1 (0); Majetkové práva: 3 → 4 (+1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 57 549 € → 53 998 € (-3 551 €); Nehnuteľnosti: 1 → 1 (0); Majetkové práva: 4 → 3 (-1); Záväzky: 3 → 2 (-1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>Príjmy: 52 216 € → 57 549 € (+5 333 €); Nehnuteľnosti: 2 → 1 (-1); Majetkové práva: 5 → 4 (-1); Záväzky: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2020,2021">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2020</strong>
   <span>Príjmy: 0 € → 52 216 € (+52 216 €); incompatibility; Nehnuteľnosti: 4 → 2 (-2); Hnuteľný majetok: 4 → 4 (0); Majetkové práva: 7 → 5 (-2); Záväzky: 4 → 3 (-1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2019,2020">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2019</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Ing. Daniel Guspan", "item": "/politicians/ing-daniel-guspan/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ing. Daniel Guspan", "description": "vedúci Kancelárie Národnej rady SR · príjem 79 234 € · 1 nehnuteľností · 3 záväzkov", "url": "/politicians/ing-daniel-guspan/", "jobTitle": "vedúci Kancelárie Národnej rady SR"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Daniel.Guspan", "name": "Ing. Daniel Guspan", "public_function": "vedúci Kancelárie Národnej rady SR", "role": "vedúci Kancelárie Národnej rady SR", "years": [2019, 2020, 2021, 2022, 2023, 2024], "timeline": [{"year": 2019, "data": {"id": "ZN202488", "declaration_id": 16792, "name": "Ing. DANIEL GUSPAN", "year": 2019, "filed": "k 30. aprílu", "public_function": "vedúci Kancelárie Národnej rady SR", "income": {"public_function": 0, "other": 0}, "incompatibility": false, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "1472", "share": "1/1"}, {"type": "5X OSTATNÁ PLOCHA, 6X ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TATRANSKÁ LOMNICA", "lv_number": "1007", "share": "1/1"}, {"type": "ZÁHRADA, ROZOSTAVANÁ BUDOVA, 2X ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/1"}, {"type": "BUDOVA, POZEMOK", "cadastral_territory": "Z.O. ŠIBENIK", "lv_number": "1849, 4017", "share": "1/1"}], "movable_property": [{"type": "MOTOCYKEL", "brand": "HD", "year_of_manufacture": 2015, "share": "1/1"}, {"type": "VODNÝ SKÚTER", "brand": "BOMBARDIER", "year_of_manufacture": 2005, "share": "1/1"}, {"type": "ZBIERKA UMELECKÝCH A ZBERATEĽSKÝCH PREDMETOV", "share": "1/1"}, {"type": "VYBAVENIE DOMÁCNOSTI", "share": "1/1"}], "property_rights": ["AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "DLHOPISY, podiel: 1/1", "PODIELOVÉ LISTY, podiel: 1/1", "PÔŽIČKA PRÁVNICKEJ OSOBE, podiel: 1/1", "PÔŽIČKA FYZICKEJ OSOBE, podiel: 1/1", "ÚSPORY, podiel: 1/1"], "obligations": [{"type": "BANKOVÝ ÚVER", "share": "1/1", "date": "21. 12. 2016"}, {"type": "BANKOVÝ ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "31. 12. 2010"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2020, "data": {"id": "ZN202488", "declaration_id": 19505, "name": "Ing. DANIEL GUSPAN", "year": 2020, "filed": "k 30. aprílu", "public_function": "vedúci Kancelárie Národnej rady SR", "income": {"public_function": 52216, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZÁHRADA, RODINNÝ DOM, 2X ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/2"}, {"type": "DOM, POZEMOK", "cadastral_territory": "Z.O. ŠIBENIK", "lv_number": "1849, 4017", "share": "1/1"}], "movable_property": [{"type": "MOTOCYKEL", "brand": "HARLEY DAVIDSON", "year_of_manufacture": 2015, "share": "1/1"}, {"type": "VODNÝ SKÚTER", "brand": "BOMBARDIER", "year_of_manufacture": 2005, "share": "1/1"}, {"type": "ZBIERKA UMELECKÝCH A ZBERATEĽSKÝCH PREDMETOV", "share": "1/1"}, {"type": "VYBAVENIE DOMÁCNOSTI", "share": "1/1"}], "property_rights": ["AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "DLHOPISY, podiel: 1/1", "ÚSPORY, podiel: 1/1", "PÔŽIČKA FYZICKEJ OSOBE, podiel: 1/1"], "obligations": [{"type": "BANKOVÝ ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}, {"type": "PÔŽIČKA OD PRÁVNICKEJ OSOBY", "share": "1/1", "date": "12. 11. 2020"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 52216, "other": 0}, "old_total": 0, "new_total": 52216, "delta": 52216}, {"field": "incompatibility", "old": false, "new": true}, {"field": "real_estate", "old": [{"type": "RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA RUŽINOV", "lv_number": "1472", "share": "1/1"}, {"type": "5X OSTATNÁ PLOCHA, 6X ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "TATRANSKÁ LOMNICA", "lv_number": "1007", "share": "1/1"}, {"type": "ZÁHRADA, ROZOSTAVANÁ BUDOVA, 2X ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/1"}, {"type": "BUDOVA, POZEMOK", "cadastral_territory": "Z.O. ŠIBENIK", "lv_number": "1849, 4017", "share": "1/1"}], "new": [{"type": "ZÁHRADA, RODINNÝ DOM, 2X ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/2"}, {"type": "DOM, POZEMOK", "cadastral_territory": "Z.O. ŠIBENIK", "lv_number": "1849, 4017", "share": "1/1"}], "old_count": 4, "new_count": 2}, {"field": "movable_property", "old": [{"type": "MOTOCYKEL", "brand": "HD", "year_of_manufacture": 2015, "share": "1/1"}, {"type": "VODNÝ SKÚTER", "brand": "BOMBARDIER", "year_of_manufacture": 2005, "share": "1/1"}, {"type": "ZBIERKA UMELECKÝCH A ZBERATEĽSKÝCH PREDMETOV", "share": "1/1"}, {"type": "VYBAVENIE DOMÁCNOSTI", "share": "1/1"}], "new": [{"type": "MOTOCYKEL", "brand": "HARLEY DAVIDSON", "year_of_manufacture": 2015, "share": "1/1"}, {"type": "VODNÝ SKÚTER", "brand": "BOMBARDIER", "year_of_manufacture": 2005, "share": "1/1"}, {"type": "ZBIERKA UMELECKÝCH A ZBERATEĽSKÝCH PREDMETOV", "share": "1/1"}, {"type": "VYBAVENIE DOMÁCNOSTI", "share": "1/1"}], "old_count": 4, "new_count": 4}, {"field": "property_rights", "old": ["AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "DLHOPISY, podiel: 1/1", "PODIELOVÉ LISTY, podiel: 1/1", "PÔŽIČKA PRÁVNICKEJ OSOBE, podiel: 1/1", "PÔŽIČKA FYZICKEJ OSOBE, podiel: 1/1", "ÚSPORY, podiel: 1/1"], "new": ["AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "DLHOPISY, podiel: 1/1", "ÚSPORY, podiel: 1/1", "PÔŽIČKA FYZICKEJ OSOBE, podiel: 1/1"], "old_count": 7, "new_count": 5}, {"field": "obligations", "old": [{"type": "BANKOVÝ ÚVER", "share": "1/1", "date": "21. 12. 2016"}, {"type": "BANKOVÝ ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "31. 12. 2010"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}], "new": [{"type": "BANKOVÝ ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}, {"type": "PÔŽIČKA OD PRÁVNICKEJ OSOBY", "share": "1/1", "date": "12. 11. 2020"}], "old_count": 4, "new_count": 3}]}}, {"year": 2021, "data": {"id": "ZN202488", "declaration_id": 24518, "name": "Ing. DANIEL GUSPAN", "year": 2021, "filed": "k 30. aprílu", "public_function": "vedúci Kancelárie Národnej rady SR", "income": {"public_function": 57549, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZÁHRADA, RODINNÝ DOM, 2X ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/2"}], "movable_property": [{"type": "MOTOCYKEL", "brand": "HARLEY DAVIDSON", "year_of_manufacture": 2015, "share": "1/1"}, {"type": "VODNÝ SKÚTER", "brand": "BOMBARDIER", "year_of_manufacture": 2005, "share": "1/1"}, {"type": "ZBIERKA UMELECKÝCH A ZBERATEĽSKÝCH PREDMETOV", "share": "1/1"}, {"type": "VYBAVENIE DOMÁCNOSTI", "share": "1/1"}], "property_rights": ["PÔŽIČKA FYZICKEJ OSOBE, podiel: 1/1", "AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "ÚSPORY, podiel: 1/1"], "obligations": [{"type": "PÔŽIČKA OD PRÁVNICKEJ OSOBY", "share": "1/1", "date": "12. 11. 2020"}, {"type": "BANKOVY ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 52216, "other": 0}, "new": {"public_function": 57549, "other": 0}, "old_total": 52216, "new_total": 57549, "delta": 5333, "delta_pct": 10.2}, {"field": "real_estate", "old": [{"type": "ZÁHRADA, RODINNÝ DOM, 2X ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/2"}, {"type": "DOM, POZEMOK", "cadastral_territory": "Z.O. ŠIBENIK", "lv_number": "1849, 4017", "share": "1/1"}], "new": [{"type": "ZÁHRADA, RODINNÝ DOM, 2X ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/2"}], "old_count": 2, "new_count": 1}, {"field": "property_rights", "old": ["AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "DLHOPISY, podiel: 1/1", "ÚSPORY, podiel: 1/1", "PÔŽIČKA FYZICKEJ OSOBE, podiel: 1/1"], "new": ["PÔŽIČKA FYZICKEJ OSOBE, podiel: 1/1", "AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "ÚSPORY, podiel: 1/1"], "old_count": 5, "new_count": 4}, {"field": "obligations", "old": [{"type": "BANKOVÝ ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}, {"type": "PÔŽIČKA OD PRÁVNICKEJ OSOBY", "share": "1/1", "date": "12. 11. 2020"}], "new": [{"type": "PÔŽIČKA OD PRÁVNICKEJ OSOBY", "share": "1/1", "date": "12. 11. 2020"}, {"type": "BANKOVY ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}], "old_count": 3, "new_count": 3}]}}, {"year": 2022, "data": {"id": "ZN202488", "declaration_id": 28277, "name": "Ing. DANIEL GUSPAN", "year": 2022, "filed": "k 30. aprílu", "public_function": "vedúci Kancelárie Národnej rady SR", "income": {"public_function": 53998, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZÁHRADA, RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/2"}], "movable_property": [{"type": "MOTOCYKEL", "brand": "HARLEY DAVIDSON", "year_of_manufacture": 2015, "share": "1/1"}, {"type": "VODNÝ SKÚTER", "brand": "BOMBARDIER", "year_of_manufacture": 2005, "share": "1/1"}, {"type": "ZBIERKA UMELECKÝCH A ZBERATEĽSKÝCH PREDMETOV", "share": "1/1"}, {"type": "VYBAVENIE DOMÁCNOSTI", "share": "1/1"}], "property_rights": ["AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "ÚSPORY, podiel: 1/1"], "obligations": [{"type": "BANKOVÝ ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 57549, "other": 0}, "new": {"public_function": 53998, "other": 0}, "old_total": 57549, "new_total": 53998, "delta": -3551, "delta_pct": -6.2}, {"field": "real_estate", "old": [{"type": "ZÁHRADA, RODINNÝ DOM, 2X ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/2"}], "new": [{"type": "ZÁHRADA, RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/2"}], "old_count": 1, "new_count": 1}, {"field": "property_rights", "old": ["PÔŽIČKA FYZICKEJ OSOBE, podiel: 1/1", "AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "ÚSPORY, podiel: 1/1"], "new": ["AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "ÚSPORY, podiel: 1/1"], "old_count": 4, "new_count": 3}, {"field": "obligations", "old": [{"type": "PÔŽIČKA OD PRÁVNICKEJ OSOBY", "share": "1/1", "date": "12. 11. 2020"}, {"type": "BANKOVY ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}], "new": [{"type": "BANKOVÝ ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}], "old_count": 3, "new_count": 2}]}}, {"year": 2023, "data": {"id": "ZN202488", "declaration_id": 32901, "name": "Ing. DANIEL GUSPAN", "year": 2023, "filed": "k 30. aprílu", "public_function": "vedúci Kancelárie Národnej rady SR", "income": {"public_function": 62654, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZÁHRADA, RODINNÝ DOM, 2X ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/2"}], "movable_property": [{"type": "MOTOCYKEL", "brand": "HARLEY DAVIDSON", "year_of_manufacture": 2015, "share": "1/1"}, {"type": "VODNÝ SKÚTER", "brand": "BOMBARDIER", "year_of_manufacture": 2005, "share": "1/1"}, {"type": "ZBIERKA UMELECKÝCH A ZBERATEĽSKÝCH PREDMETOV", "share": "1/1"}, {"type": "VYBAVENIE DOMÁCNOSTI", "share": "1/1"}], "property_rights": ["AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "ÚSPORY, podiel: 1/1", "PÔŽIČKA FYZICKEJ OSOBE, podiel: 1/1"], "obligations": [{"type": "BANKOVÝ ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 53998, "other": 0}, "new": {"public_function": 62654, "other": 0}, "old_total": 53998, "new_total": 62654, "delta": 8656, "delta_pct": 16.0}, {"field": "real_estate", "old": [{"type": "ZÁHRADA, RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/2"}], "new": [{"type": "ZÁHRADA, RODINNÝ DOM, 2X ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/2"}], "old_count": 1, "new_count": 1}, {"field": "property_rights", "old": ["AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "ÚSPORY, podiel: 1/1"], "new": ["AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "ÚSPORY, podiel: 1/1", "PÔŽIČKA FYZICKEJ OSOBE, podiel: 1/1"], "old_count": 3, "new_count": 4}]}}, {"year": 2024, "data": {"id": "ZN202488", "declaration_id": 36997, "name": "Ing. DANIEL GUSPAN", "year": 2024, "filed": "k 30. aprílu", "public_function": "vedúci Kancelárie Národnej rady SR", "income": {"public_function": 79234, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZÁHRADA, RODINNÝ DOM, 2X ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "BRATISLAVA STARÉ MESTO", "lv_number": "9940", "share": "1/2"}], "movable_property": [{"type": "MOTOCYKEL", "brand": "HARLEY DAVIDSON", "year_of_manufacture": 2015, "share": "1/1"}, {"type": "VODNÝ SKÚTER", "brand": "BOMBARDIER", "year_of_manufacture": 2005, "share": "1/1"}, {"type": "ZBIERKA UMELECKÝCH A ZBERATEĽSKÝCH PREDMETOV", "share": "1/1"}, {"type": "VYBAVENIE DOMÁCNOSTI", "share": "1/1"}], "property_rights": ["AKCIE, podiel: 1/1", "OBCHODNÉ PODIELY, podiel: 1/1", "ÚSPORY, podiel: 1/1", "PÔŽIČKA FYZICKEJ OSOBE, podiel: 1/1"], "obligations": [{"type": "PÔŽIČKA OD PRÁVNICKEJ OSOBY", "share": "1/1", "date": "02. 01. 2024"}, {"type": "BANKOVÝ ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 62654, "other": 0}, "new": {"public_function": 79234, "other": 0}, "old_total": 62654, "new_total": 79234, "delta": 16580, "delta_pct": 26.5}, {"field": "obligations", "old": [{"type": "BANKOVÝ ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}], "new": [{"type": "PÔŽIČKA OD PRÁVNICKEJ OSOBY", "share": "1/1", "date": "02. 01. 2024"}, {"type": "BANKOVÝ ÚVER", "share": "1/1", "date": "02. 02. 2017"}, {"type": "PÔŽIČKA OD FYZICKEJ OSOBY", "share": "1/1", "date": "23. 05. 2012"}], "old_count": 2, "new_count": 3}]}}], "total_changes": 19, "slug": "ing-daniel-guspan"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

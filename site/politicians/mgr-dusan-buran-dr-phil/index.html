@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,72 +38,92 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Mgr. Dušan BURAN, Dr.phil.</h1>
-    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA) · príjem 45 768 € · 2 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)</p>
+    <p class="detail-summary">príjem 45 768 € · 2 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Dusan.Buran" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>45 768 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>2</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>11</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>14 532 €</dd></div>
-        <div><dt>Iné</dt><dd>31 236 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Dusan.Buran">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>45 768 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>2</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>11</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>SLOVENSKÁ NÁRODNÁ GALÉRIA
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 2428 · Podiel: 1/1</span></li><li><strong>PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH DOMU</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 2428 · Podiel: 5834/204608</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>14 532 €</dd></div>
+          <div><dt>Iné</dt><dd>31 236 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>SLOVENSKÁ NÁRODNÁ GALÉRIA Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 2428 · Podiel: 1/1</span></li><li><strong>PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH DOMU</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 2428 · Podiel: 5834/204608</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>public_function; Príjmy: 42 860 € → 45 768 € (+2 908 €); Zamestnanie; Majetkové práva</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>public_function; Príjmy: 36 652 € → 42 860 € (+6 208 €); Zamestnanie; Majetkové práva</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 34 297 € → 36 652 € (+2 355 €); Majetkové práva</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>Príjmy: 0 € → 34 297 € (+34 297 €)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2020,2021">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2020</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Mgr. Dušan BURAN, Dr.phil.", "item": "/politicians/mgr-dusan-buran-dr-phil/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Mgr. Dušan BURAN, Dr.phil.", "description": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA) · príjem 45 768 € · 2 nehnuteľností · 1 záväzkov", "url": "/politicians/mgr-dusan-buran-dr-phil/", "jobTitle": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Dusan.Buran", "name": "Mgr. Dušan BURAN, Dr.phil.", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)", "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)", "years": [2020, 2021, 2022, 2023, 2024], "timeline": [{"year": 2020, "data": {"id": "ZC224892", "declaration_id": 23593, "name": "Mgr. DUŠAN BURAN, Dr. phil.", "year": 2020, "filed": "pri ujatí sa funkcie", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "SLOVENSKÁ NÁRODNÁ GALÉRIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2428", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH DOMU", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2428", "share": "5834/204608"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2021, "data": {"id": "ZC224892", "declaration_id": 23987, "name": "Mgr. DUŠAN BURAN, D.Phil.", "year": 2021, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)", "income": {"public_function": 11382, "other": 22915}, "incompatibility": true, "employment": "SLOVENSKÁ NÁRODNÁ GALÉRIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2428", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH DOMU", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2428", "share": "5834/204608"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 11382, "other": 22915}, "old_total": 0, "new_total": 34297, "delta": 34297}]}}, {"year": 2022, "data": {"id": "ZC224892", "declaration_id": 29249, "name": "Mgr. DUŠAN BURAN, Dr.phil.", "year": 2022, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)", "income": {"public_function": 13596, "other": 23056}, "incompatibility": true, "employment": "SLOVENSKÁ NÁRODNÁ GALÉRIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2428", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH DOMU", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2428", "share": "5834/204608"}], "movable_property": null, "property_rights": ["ÚSPORY, podiel: 1/1"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 11382, "other": 22915}, "new": {"public_function": 13596, "other": 23056}, "old_total": 34297, "new_total": 36652, "delta": 2355, "delta_pct": 6.9}, {"field": "property_rights", "old": null, "new": ["ÚSPORY, podiel: 1/1"]}]}}, {"year": 2023, "data": {"id": "ZC224892", "declaration_id": 33021, "name": "Mgr. DUŠAN BURAN, Dr. phil.", "year": 2023, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)", "income": {"public_function": 14532, "other": 28328}, "incompatibility": true, "employment": "HISTORICKÝ ÚSTAV SLOVENSKEJ AKADÉMIE VIED\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ NÁRODNÁ GALÉRIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2428", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH DOMU", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2428", "share": "5834/204608"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)"}, {"field": "income", "old": {"public_function": 13596, "other": 23056}, "new": {"public_function": 14532, "other": 28328}, "old_total": 36652, "new_total": 42860, "delta": 6208, "delta_pct": 16.9}, {"field": "employment", "old": "SLOVENSKÁ NÁRODNÁ GALÉRIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "new": "HISTORICKÝ ÚSTAV SLOVENSKEJ AKADÉMIE VIED\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ NÁRODNÁ GALÉRIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "property_rights", "old": ["ÚSPORY, podiel: 1/1"], "new": null}]}}, {"year": 2024, "data": {"id": "ZC224892", "declaration_id": 38369, "name": "Mgr. DUŠAN BURAN, Dr.phil.", "year": 2024, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)", "income": {"public_function": 14532, "other": 31236}, "incompatibility": true, "employment": "SLOVENSKÁ NÁRODNÁ GALÉRIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2428", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH DOMU", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2428", "share": "5834/204608"}], "movable_property": null, "property_rights": ["ÚSPORY, podiel: 1/1"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)"}, {"field": "income", "old": {"public_function": 14532, "other": 28328}, "new": {"public_function": 14532, "other": 31236}, "old_total": 42860, "new_total": 45768, "delta": 2908, "delta_pct": 6.8}, {"field": "employment", "old": "HISTORICKÝ ÚSTAV SLOVENSKEJ AKADÉMIE VIED\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ NÁRODNÁ GALÉRIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "new": "SLOVENSKÁ NÁRODNÁ GALÉRIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "property_rights", "old": null, "new": ["ÚSPORY, podiel: 1/1"]}]}}], "total_changes": 11, "slug": "mgr-dusan-buran-dr-phil"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

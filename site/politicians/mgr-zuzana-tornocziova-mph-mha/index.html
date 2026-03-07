@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,75 +38,98 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Mgr. Zuzana Tornócziová, MPH, MHA</h1>
-    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA SO SÍDLOM V BOJNICIACH ) · príjem 49 200 € · 2 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA SO SÍDLOM V BOJNICIACH )</p>
+    <p class="detail-summary">príjem 49 200 € · 2 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Zuzana.Tornocziova" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>49 200 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>2</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>15</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>49 200 €</dd></div>
-        <div><dt>Iné</dt><dd>0 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Zuzana.Tornocziova">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>49 200 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>2</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>15</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>Neuvedené</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>RODINNÝ DOM</strong><span>Kat. územie: NEDOŽERY - BREZANY · LV: 289 · Podiel: 1/1</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: NEDOŽERY - BREZANY · LV: 289 · Podiel: 1/1</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>49 200 €</dd></div>
+          <div><dt>Iné</dt><dd>0 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>Neuvedené</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>RODINNÝ DOM</strong><span>Kat. územie: NEDOŽERY - BREZANY · LV: 289 · Podiel: 1/1</span></li><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE</strong><span>Kat. územie: NEDOŽERY - BREZANY · LV: 289 · Podiel: 1/1</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>public_function; Príjmy: 56 032 € → 49 200 € (-6 832 €); Nehnuteľnosti: 2 → 2 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>public_function; Príjmy: 40 912 € → 56 032 € (+15 120 €)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>public_function; Príjmy: 46 552 € → 40 912 € (-5 640 €); Nehnuteľnosti: 1 → 2 (+1); Hnuteľný majetok: 1 → 1 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>public_function; Príjmy: 33 448 € → 46 552 € (+13 104 €); Nehnuteľnosti: 2 → 1 (-1); Hnuteľný majetok</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2020,2021">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2020</strong>
   <span>Príjmy: 0 € → 33 448 € (+33 448 €); Nehnuteľnosti: 2 → 2 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2019,2020">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2019</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Mgr. Zuzana Tornócziová, MPH, MHA", "item": "/politicians/mgr-zuzana-tornocziova-mph-mha/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Mgr. Zuzana Tornócziová, MPH, MHA", "description": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA SO SÍDLOM V BOJNICIACH ) · príjem 49 200 € · 2 nehnuteľností · 1 záväzkov", "url": "/politicians/mgr-zuzana-tornocziova-mph-mha/", "jobTitle": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA SO SÍDLOM V BOJNICIACH )"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Zuzana.Tornocziova", "name": "Mgr. Zuzana Tornócziová, MPH, MHA", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA SO SÍDLOM V BOJNICIACH )", "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA SO SÍDLOM V BOJNICIACH )", "years": [2019, 2020, 2021, 2022, 2023, 2024], "timeline": [{"year": 2019, "data": {"id": "ZC203422", "declaration_id": 16888, "name": "Mgr. ZUZANA TORNÓCZIOVÁ, MHA", "year": 2019, "filed": "pri ujatí sa funkcie", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "RODINNÝ DOM", "cadastral_territory": "NEDOŽERY - BREZANY", "lv_number": "289", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "NEDOŽERY - BREZANY", "lv_number": "289", "share": "1/1"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2020, "data": {"id": "ZC203422", "declaration_id": 20606, "name": "Mgr. ZUZANA TORNÓCZIOVÁ, MHA, MPH", "year": 2020, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA)", "income": {"public_function": 33448, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "RODINNÝ DOM", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 33448, "other": 0}, "old_total": 0, "new_total": 33448, "delta": 33448}, {"field": "real_estate", "old": [{"type": "RODINNÝ DOM", "cadastral_territory": "NEDOŽERY - BREZANY", "lv_number": "289", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "NEDOŽERY - BREZANY", "lv_number": "289", "share": "1/1"}], "new": [{"type": "RODINNÝ DOM", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}], "old_count": 2, "new_count": 2}]}}, {"year": 2021, "data": {"id": "ZC203422", "declaration_id": 25061, "name": "Mgr. ZUZANA TORNÓCZIOVÁ, MHA, MPH", "year": 2021, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V BOJNICIACH)", "income": {"public_function": 46552, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA", "cadastral_territory": "NEDOŽERY", "lv_number": "289", "share": "1/1"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "PEUGEOT", "year_of_manufacture": 2003, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V BOJNICIACH)"}, {"field": "income", "old": {"public_function": 33448, "other": 0}, "new": {"public_function": 46552, "other": 0}, "old_total": 33448, "new_total": 46552, "delta": 13104, "delta_pct": 39.2}, {"field": "real_estate", "old": [{"type": "RODINNÝ DOM", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}], "new": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA", "cadastral_territory": "NEDOŽERY", "lv_number": "289", "share": "1/1"}], "old_count": 2, "new_count": 1}, {"field": "movable_property", "old": null, "new": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "PEUGEOT", "year_of_manufacture": 2003, "share": "1/1"}]}]}}, {"year": 2022, "data": {"id": "ZC203422", "declaration_id": 28480, "name": "Mgr. ZUZANA TORNÓCZIOVÁ, MPH", "year": 2022, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA BOJNICE)", "income": {"public_function": 40912, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "RODINNÝ DOM", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "PEUGEOT", "year_of_manufacture": 2023, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V BOJNICIACH)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA BOJNICE)"}, {"field": "income", "old": {"public_function": 46552, "other": 0}, "new": {"public_function": 40912, "other": 0}, "old_total": 46552, "new_total": 40912, "delta": -5640, "delta_pct": -12.1}, {"field": "real_estate", "old": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA", "cadastral_territory": "NEDOŽERY", "lv_number": "289", "share": "1/1"}], "new": [{"type": "RODINNÝ DOM", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}], "old_count": 1, "new_count": 2}, {"field": "movable_property", "old": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "PEUGEOT", "year_of_manufacture": 2003, "share": "1/1"}], "new": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "PEUGEOT", "year_of_manufacture": 2023, "share": "1/1"}], "old_count": 1, "new_count": 1}]}}, {"year": 2023, "data": {"id": "ZC203422", "declaration_id": 33618, "name": "Mgr. ZUZANA TORNÓCZIOVÁ, MPH", "year": 2023, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA SO SÍDLOM V BOJNICIACH)", "income": {"public_function": 56032, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "RODINNÝ DOM", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "PEUGEOT", "year_of_manufacture": 2023, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA BOJNICE)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA SO SÍDLOM V BOJNICIACH)"}, {"field": "income", "old": {"public_function": 40912, "other": 0}, "new": {"public_function": 56032, "other": 0}, "old_total": 40912, "new_total": 56032, "delta": 15120, "delta_pct": 37.0}]}}, {"year": 2024, "data": {"id": "ZC203422", "declaration_id": 38036, "name": "Mgr. ZUZANA TORNÓCZIOVÁ, MPH, MHA", "year": 2024, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA SO SÍDLOM V BOJNICIACH )", "income": {"public_function": 49200, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "RODINNÝ DOM", "cadastral_territory": "NEDOŽERY - BREZANY", "lv_number": "289", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "NEDOŽERY - BREZANY", "lv_number": "289", "share": "1/1"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "PEUGEOT", "year_of_manufacture": 2023, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA SO SÍDLOM V BOJNICIACH)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PRIEVIDZA SO SÍDLOM V BOJNICIACH )"}, {"field": "income", "old": {"public_function": 56032, "other": 0}, "new": {"public_function": 49200, "other": 0}, "old_total": 56032, "new_total": 49200, "delta": -6832, "delta_pct": -12.2}, {"field": "real_estate", "old": [{"type": "RODINNÝ DOM", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "NEDOŽERY BREZANY", "lv_number": "289", "share": "1/1"}], "new": [{"type": "RODINNÝ DOM", "cadastral_territory": "NEDOŽERY - BREZANY", "lv_number": "289", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "NEDOŽERY - BREZANY", "lv_number": "289", "share": "1/1"}], "old_count": 2, "new_count": 2}]}}], "total_changes": 15, "slug": "mgr-zuzana-tornocziova-mph-mha"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

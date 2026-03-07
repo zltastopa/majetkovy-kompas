@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,60 +38,80 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Alojz Hlina</h1>
-    <p class="lede">poslanec Národnej rady Slovenskej republiky · príjem 48 912 € · 9 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">poslanec Národnej rady Slovenskej republiky</p>
+    <p class="detail-summary">príjem 48 912 € · 9 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Alojz.Hlina" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>48 912 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>9</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>4</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>48 912 €</dd></div>
-        <div><dt>Iné</dt><dd>0 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Alojz.Hlina">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>48 912 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>9</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>4</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>Neuvedené</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>DOM</strong><span>Kat. územie: STARÉ MESTO BRATISLAVA · LV: 799 · Podiel: BSM</span></li><li><strong>BYT</strong><span>Kat. územie: STARÉ MESTO BRATISLAVA · LV: 2900 · Podiel: 904/10000 BSM</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STARÉ MESTO BRATISLAVA · LV: 7558 · Podiel: 904/10000 BSM</span></li><li><strong>POZEMOK</strong><span>Kat. územie: SVÄTÝ JUR · LV: 2211 · Podiel: BSM</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STUPAVA · LV: 11444 · Podiel: BSM</span></li><li><strong>DOM</strong><span>Kat. územie: VINOHRADY NOVÉ MESTO BRATISLAVA · LV: 3543 · Podiel: BSM</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STARÉ MESTO BRATISLAVA · LV: 7559 · Podiel: 1582/1000 BSM</span></li><li><strong>DOM</strong><span>Kat. územie: BORINKA · LV: 1729 · Podiel: BSM</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STARÉ MESTO BRATISLAVA · LV: 7411 · Podiel: BSM</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>48 912 €</dd></div>
+          <div><dt>Iné</dt><dd>0 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>Neuvedené</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>DOM</strong><span>Kat. územie: STARÉ MESTO BRATISLAVA · LV: 799 · Podiel: BSM</span></li><li><strong>BYT</strong><span>Kat. územie: STARÉ MESTO BRATISLAVA · LV: 2900 · Podiel: 904/10000 BSM</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STARÉ MESTO BRATISLAVA · LV: 7558 · Podiel: 904/10000 BSM</span></li><li><strong>POZEMOK</strong><span>Kat. územie: SVÄTÝ JUR · LV: 2211 · Podiel: BSM</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STUPAVA · LV: 11444 · Podiel: BSM</span></li><li><strong>DOM</strong><span>Kat. územie: VINOHRADY NOVÉ MESTO BRATISLAVA · LV: 3543 · Podiel: BSM</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STARÉ MESTO BRATISLAVA · LV: 7559 · Podiel: 1582/1000 BSM</span></li><li><strong>DOM</strong><span>Kat. územie: BORINKA · LV: 1729 · Podiel: BSM</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STARÉ MESTO BRATISLAVA · LV: 7411 · Podiel: BSM</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 11 736 € → 48 912 € (+37 176 €)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 0 € → 11 736 € (+11 736 €); Nehnuteľnosti: 9 → 9 (0); Majetkové práva: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Alojz Hlina", "item": "/politicians/alojz-hlina/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Alojz Hlina", "description": "poslanec Národnej rady Slovenskej republiky · príjem 48 912 € · 9 nehnuteľností · 1 záväzkov", "url": "/politicians/alojz-hlina/", "jobTitle": "poslanec Národnej rady Slovenskej republiky"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Alojz.Hlina", "name": "Alojz Hlina", "public_function": "poslanec Národnej rady Slovenskej republiky", "role": "poslanec Národnej rady Slovenskej republiky", "years": [2022, 2023, 2024], "timeline": [{"year": 2022, "data": {"id": "B235418", "declaration_id": 29639, "name": "ALOJZ HLINA", "year": 2022, "filed": "pri ujatí sa funkcie", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "DOM", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "799", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "2900", "share": "BSM 904/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7558", "share": "904/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7559", "share": "1582/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7411", "share": "BSM"}, {"type": "DOM", "cadastral_territory": "BORINKA", "lv_number": "1729", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "BORINKA", "lv_number": "1376", "share": "1/13"}, {"type": "POZEMOK", "cadastral_territory": "SVÄTÝ JUR", "lv_number": "2211", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STUPAVA", "lv_number": "11444", "share": "BSM"}], "movable_property": [{"type": "VYBAVENIE DOMU", "share": "BSM"}, {"type": "UMELECKÉ DIELA", "share": "BSM"}], "property_rights": ["OBCHODNÉ PODIELY V S.R.O., podiel: 3X 100%", "PENIAZE A VKLADY V BANKE, podiel: 1/1", "CENNÉ PAPIERE, podiel: 1/1"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2023, "data": {"id": "B235418", "declaration_id": 32599, "name": "ALOJZ HLINA", "year": 2023, "filed": "k 30. aprílu", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 11736, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "DOM", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "799", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "2900", "share": "904/10000 BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7558", "share": "904/10000 BSM"}, {"type": "POZEMOK", "cadastral_territory": "SVÄTÝ JUR", "lv_number": "2211", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STUPAVA", "lv_number": "11444", "share": "BSM"}, {"type": "DOM", "cadastral_territory": "VINOHRADY NOVÉ MESTO BRATISLAVA", "lv_number": "3543", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7559", "share": "1582/1000 BSM"}, {"type": "DOM", "cadastral_territory": "BORINKA", "lv_number": "1729", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7411", "share": "BSM"}], "movable_property": [{"type": "VYBAVENIE DOMU", "share": "BSM"}, {"type": "UMELECKÉ DIELA", "share": "BSM"}], "property_rights": ["OBCHODNÉ PODIELY V S.R.O. 3X, podiel: 100%", "VKLADY V BANKE, podiel: 1/1", "CENNÉ PAPIERE, podiel: 1/1"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 11736, "other": 0}, "old_total": 0, "new_total": 11736, "delta": 11736}, {"field": "real_estate", "old": [{"type": "DOM", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "799", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "2900", "share": "BSM 904/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7558", "share": "904/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7559", "share": "1582/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7411", "share": "BSM"}, {"type": "DOM", "cadastral_territory": "BORINKA", "lv_number": "1729", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "BORINKA", "lv_number": "1376", "share": "1/13"}, {"type": "POZEMOK", "cadastral_territory": "SVÄTÝ JUR", "lv_number": "2211", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STUPAVA", "lv_number": "11444", "share": "BSM"}], "new": [{"type": "DOM", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "799", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "2900", "share": "904/10000 BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7558", "share": "904/10000 BSM"}, {"type": "POZEMOK", "cadastral_territory": "SVÄTÝ JUR", "lv_number": "2211", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STUPAVA", "lv_number": "11444", "share": "BSM"}, {"type": "DOM", "cadastral_territory": "VINOHRADY NOVÉ MESTO BRATISLAVA", "lv_number": "3543", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7559", "share": "1582/1000 BSM"}, {"type": "DOM", "cadastral_territory": "BORINKA", "lv_number": "1729", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7411", "share": "BSM"}], "old_count": 9, "new_count": 9}, {"field": "property_rights", "old": ["OBCHODNÉ PODIELY V S.R.O., podiel: 3X 100%", "PENIAZE A VKLADY V BANKE, podiel: 1/1", "CENNÉ PAPIERE, podiel: 1/1"], "new": ["OBCHODNÉ PODIELY V S.R.O. 3X, podiel: 100%", "VKLADY V BANKE, podiel: 1/1", "CENNÉ PAPIERE, podiel: 1/1"], "old_count": 3, "new_count": 3}]}}, {"year": 2024, "data": {"id": "B235418", "declaration_id": 38413, "name": "ALOJZ HLINA", "year": 2024, "filed": "k 30. aprílu", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 48912, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "DOM", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "799", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "2900", "share": "904/10000 BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7558", "share": "904/10000 BSM"}, {"type": "POZEMOK", "cadastral_territory": "SVÄTÝ JUR", "lv_number": "2211", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STUPAVA", "lv_number": "11444", "share": "BSM"}, {"type": "DOM", "cadastral_territory": "VINOHRADY NOVÉ MESTO BRATISLAVA", "lv_number": "3543", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7559", "share": "1582/1000 BSM"}, {"type": "DOM", "cadastral_territory": "BORINKA", "lv_number": "1729", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO BRATISLAVA", "lv_number": "7411", "share": "BSM"}], "movable_property": [{"type": "VYBAVENIE DOMU", "share": "BSM"}, {"type": "UMELECKÉ DIELA", "share": "BSM"}], "property_rights": ["OBCHODNÉ PODIELY V S.R.O. 3X, podiel: 100%", "VKLADY V BANKE, podiel: 1/1", "CENNÉ PAPIERE, podiel: 1/1"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 11736, "other": 0}, "new": {"public_function": 48912, "other": 0}, "old_total": 11736, "new_total": 48912, "delta": 37176, "delta_pct": 316.8}]}}], "total_changes": 4, "slug": "alojz-hlina"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

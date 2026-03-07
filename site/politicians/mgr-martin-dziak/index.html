@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,77 +38,98 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Mgr. Martin Dziak</h1>
-    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.) · príjem 57 564 € · 6 nehnuteľností · 2 záväzkov</p>
+    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)</p>
+    <p class="detail-summary">príjem 57 564 € · 6 nehnuteľností · 2 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Martin.Dziak" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>57 564 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>6</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>2</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>16</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
-        <div><dt>Iné</dt><dd>57 564 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Martin.Dziak">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>57 564 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>6</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>2</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>16</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: STARÉ MESTO · LV: 6121 · Podiel: 1/2</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STARÉ MESTO · LV: 6122 · Podiel: 109/10000</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STARÉ MESTO · LV: 6040 · Podiel: 59/20000</span></li><li><strong>POZEMOK</strong><span>Kat. územie: HORNÉ LOVČICE · LV: 23 · Podiel: 2/14</span></li><li><strong>BYT</strong><span>Kat. územie: STARÉMESTO · LV: 5825 · Podiel: BSM</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STARÉMESTO · LV: 5875 · Podiel: 5238/159375 - BSM</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/2 · Vznik: 18. 02. 2010</span></li><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/2 · Vznik: 30. 03. 2022</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
+          <div><dt>Iné</dt><dd>57 564 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: STARÉ MESTO · LV: 6121 · Podiel: 1/2</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STARÉ MESTO · LV: 6122 · Podiel: 109/10000</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STARÉ MESTO · LV: 6040 · Podiel: 59/20000</span></li><li><strong>POZEMOK</strong><span>Kat. územie: HORNÉ LOVČICE · LV: 23 · Podiel: 2/14</span></li><li><strong>BYT</strong><span>Kat. územie: STARÉMESTO · LV: 5825 · Podiel: BSM</span></li><li><strong>POZEMOK</strong><span>Kat. územie: STARÉMESTO · LV: 5875 · Podiel: 5238/159375 - BSM</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/2 · Vznik: 18. 02. 2010</span></li><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/2 · Vznik: 30. 03. 2022</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 52 709 € → 57 564 € (+4 855 €); Nehnuteľnosti: 6 → 6 (0); Záväzky: 2 → 2 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 41 893 € → 52 709 € (+10 816 €); Nehnuteľnosti: 6 → 6 (0); Záväzky: 2 → 2 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 37 733 € → 41 893 € (+4 160 €); Nehnuteľnosti: 4 → 6 (+2); Záväzky: 1 → 2 (+1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>public_function; Príjmy: 38 234 € → 37 733 € (-501 €); Nehnuteľnosti: 4 → 4 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2020,2021">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2020</strong>
   <span>public_function; Príjmy: 0 € → 38 234 € (+38 234 €); Nehnuteľnosti: 4 → 4 (0); Záväzky: 1 → 1 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2019,2020">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2019</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Mgr. Martin Dziak", "item": "/politicians/mgr-martin-dziak/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Mgr. Martin Dziak", "description": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.) · príjem 57 564 € · 6 nehnuteľností · 2 záväzkov", "url": "/politicians/mgr-martin-dziak/", "jobTitle": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Martin.Dziak", "name": "Mgr. Martin Dziak", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)", "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)", "years": [2019, 2020, 2021, 2022, 2023, 2024], "timeline": [{"year": 2019, "data": {"id": "ZC203101", "declaration_id": 16229, "name": "Mgr. MARTIN DZIAK", "year": 2019, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, s.r.o.)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "POZEMOK PARCELA", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/14"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "1/2"}, {"type": "POZEMOK PARCELA", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK PARCELA", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "18. 02. 2010"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2020, "data": {"id": "ZC203101", "declaration_id": 19908, "name": "Mgr. MARTIN DZIAK", "year": 2020, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENASKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)", "income": {"public_function": 0, "other": 38234}, "incompatibility": true, "employment": "MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "712 %"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}, {"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/74"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "18. 02. 2010"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, s.r.o.)", "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENASKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"}, {"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 0, "other": 38234}, "old_total": 0, "new_total": 38234, "delta": 38234}, {"field": "real_estate", "old": [{"type": "POZEMOK PARCELA", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/14"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "1/2"}, {"type": "POZEMOK PARCELA", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK PARCELA", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}], "new": [{"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "712 %"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}, {"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/74"}], "old_count": 4, "new_count": 4}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "18. 02. 2010"}], "new": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "18. 02. 2010"}], "old_count": 1, "new_count": 1}]}}, {"year": 2021, "data": {"id": "ZC203101", "declaration_id": 24148, "name": "Mgr. MARTIN DZIAK", "year": 2021, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)", "income": {"public_function": 0, "other": 37733}, "incompatibility": true, "employment": "MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/14"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "18. 02. 2010"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENASKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)", "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"}, {"field": "income", "old": {"public_function": 0, "other": 38234}, "new": {"public_function": 0, "other": 37733}, "old_total": 38234, "new_total": 37733, "delta": -501, "delta_pct": -1.3}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "712 %"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}, {"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/74"}], "new": [{"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/14"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}], "old_count": 4, "new_count": 4}]}}, {"year": 2022, "data": {"id": "ZC203101", "declaration_id": 29189, "name": "Mgr. MARTIN DZIAK", "year": 2022, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)", "income": {"public_function": 0, "other": 41893}, "incompatibility": true, "employment": "MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}, {"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/14"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "5825", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "5825", "share": "5238/159375 - BSM"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "18. 02. 2010"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "30. 03. 2022"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 37733}, "new": {"public_function": 0, "other": 41893}, "old_total": 37733, "new_total": 41893, "delta": 4160, "delta_pct": 11.0}, {"field": "real_estate", "old": [{"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/14"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}], "new": [{"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}, {"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/14"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "5825", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "5825", "share": "5238/159375 - BSM"}], "old_count": 4, "new_count": 6}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "18. 02. 2010"}], "new": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "18. 02. 2010"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "30. 03. 2022"}], "old_count": 1, "new_count": 2}]}}, {"year": 2023, "data": {"id": "ZC203101", "declaration_id": 33156, "name": "Mgr. MARTIN DZIAK", "year": 2023, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)", "income": {"public_function": 0, "other": 52709}, "incompatibility": true, "employment": "MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/14"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "5825", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "5825", "share": "5238/159375 BSM"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "18. 02. 2010"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "30. 03. 2022"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 41893}, "new": {"public_function": 0, "other": 52709}, "old_total": 41893, "new_total": 52709, "delta": 10816, "delta_pct": 25.8}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}, {"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/14"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "5825", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "5825", "share": "5238/159375 - BSM"}], "new": [{"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/14"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "5825", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "5825", "share": "5238/159375 BSM"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}], "old_count": 6, "new_count": 6}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "18. 02. 2010"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "30. 03. 2022"}], "new": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "18. 02. 2010"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "30. 03. 2022"}], "old_count": 2, "new_count": 2}]}}, {"year": 2024, "data": {"id": "ZC203101", "declaration_id": 38309, "name": "Mgr. MARTIN DZIAK", "year": 2024, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)", "income": {"public_function": 0, "other": 57564}, "incompatibility": true, "employment": "MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}, {"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/14"}, {"type": "BYT", "cadastral_territory": "STARÉMESTO", "lv_number": "5825", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉMESTO", "lv_number": "5875", "share": "5238/159375 - BSM"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "18. 02. 2010"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "30. 03. 2022"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 52709}, "new": {"public_function": 0, "other": 57564}, "old_total": 52709, "new_total": 57564, "delta": 4855, "delta_pct": 9.2}, {"field": "real_estate", "old": [{"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/14"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "5825", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "5825", "share": "5238/159375 BSM"}, {"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}], "new": [{"type": "BYT", "cadastral_territory": "STARÉ MESTO", "lv_number": "6121", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6122", "share": "109/10000"}, {"type": "POZEMOK", "cadastral_territory": "STARÉ MESTO", "lv_number": "6040", "share": "59/20000"}, {"type": "POZEMOK", "cadastral_territory": "HORNÉ LOVČICE", "lv_number": "23", "share": "2/14"}, {"type": "BYT", "cadastral_territory": "STARÉMESTO", "lv_number": "5825", "share": "BSM"}, {"type": "POZEMOK", "cadastral_territory": "STARÉMESTO", "lv_number": "5875", "share": "5238/159375 - BSM"}], "old_count": 6, "new_count": 6}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "18. 02. 2010"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "30. 03. 2022"}], "new": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "18. 02. 2010"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "30. 03. 2022"}], "old_count": 2, "new_count": 2}]}}], "total_changes": 16, "slug": "mgr-martin-dziak"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

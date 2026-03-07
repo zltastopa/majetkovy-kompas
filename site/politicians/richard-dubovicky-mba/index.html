@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,57 +38,74 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Richard Dubovický, MBA</h1>
-    <p class="lede">poslanec Národnej rady Slovenskej republiky · príjem 48 369 € · 2 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">poslanec Národnej rady Slovenskej republiky</p>
+    <p class="detail-summary">príjem 48 369 € · 2 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Richard.Dubovicky" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>48 369 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>2</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>4</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>43 992 €</dd></div>
-        <div><dt>Iné</dt><dd>4 377 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Richard.Dubovicky">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>48 369 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>2</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>4</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>SIEMENS HEALTHCARE S.R.O.
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-áno</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: PREŠOV · LV: 12430 · Podiel: 1/2</span></li><li><strong>BYT</strong><span>Kat. územie: PREŠOV · LV: 12084 · Podiel: 1/1</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/1 · Vznik: 25. 05. 2022</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>43 992 €</dd></div>
+          <div><dt>Iné</dt><dd>4 377 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>SIEMENS HEALTHCARE S.R.O. Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: áno</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: PREŠOV · LV: 12430 · Podiel: 1/2</span></li><li><strong>BYT</strong><span>Kat. územie: PREŠOV · LV: 12084 · Podiel: 1/1</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/1 · Vznik: 25. 05. 2022</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 0 € → 48 369 € (+48 369 €); Zamestnanie; Funkcie: 3 → 3 (0); Majetkové práva</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Richard Dubovický, MBA", "item": "/politicians/richard-dubovicky-mba/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Richard Dubovický, MBA", "description": "poslanec Národnej rady Slovenskej republiky · príjem 48 369 € · 2 nehnuteľností · 1 záväzkov", "url": "/politicians/richard-dubovicky-mba/", "jobTitle": "poslanec Národnej rady Slovenskej republiky"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Richard.Dubovicky", "name": "Richard Dubovický, MBA", "public_function": "poslanec Národnej rady Slovenskej republiky", "role": "poslanec Národnej rady Slovenskej republiky", "years": [2023, 2024], "timeline": [{"year": 2023, "data": {"id": "B245889", "declaration_id": 30237, "name": "RICHARD DUBOVICKÝ, MBA", "year": 2023, "filed": "pri ujatí sa funkcie", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "SIEMENS HEALTHCARE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno", "business_activity": null, "positions": [{"role": "POSLANEC MESTA PREŠOV", "organization": "MESTO PREŠOV", "benefits": "ODMENA"}, {"role": "ČLEN DOZORNEJ RADY", "organization": "MESTSKÝ PODNIK SLUŽIEB PREŠOV S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN DOZORNEJ RADY", "organization": "DOPRAVNÝ PODNIK MESTA PREŠOV A.S.", "benefits": "ŽIADNE"}], "real_estate": [{"type": "BYT", "cadastral_territory": "PREŠOV", "lv_number": "12430", "share": "1/2"}, {"type": "BYT", "cadastral_territory": "PREŠOV", "lv_number": "12084", "share": "1/1"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "25. 05. 2022"}], "use_of_others_real_estate": null, "vehicles": [{"type": "MOTOROVÉ VOZIDLO", "brand": "KIA", "year_of_manufacture": 2023}], "gifts": null}, "diff": {"type": "new"}}, {"year": 2024, "data": {"id": "B245889", "declaration_id": 37096, "name": "RICHARD DUBOVICKÝ, MBA", "year": 2024, "filed": "k 30. aprílu", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 43992, "other": 4377}, "incompatibility": true, "employment": "SIEMENS HEALTHCARE S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno", "business_activity": null, "positions": [{"role": "ČLEN DOZORNEJ RADY", "organization": "MESTSKÝ PODNIK SLUŽIEB PREŠOV, S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN DOZORNEJ RADY", "organization": "DOPRAVNÝ PODNIK MESTA PREŠOV, A.S.", "benefits": "ŽIADNE"}, {"role": "POSLANEC", "organization": "MESTO PREŠOV", "benefits": "ODMENA"}], "real_estate": [{"type": "BYT", "cadastral_territory": "PREŠOV", "lv_number": "12430", "share": "1/2"}, {"type": "BYT", "cadastral_territory": "PREŠOV", "lv_number": "12084", "share": "1/1"}], "movable_property": null, "property_rights": ["AKCIOVÉ FONDY, podiel: 1/1"], "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "25. 05. 2022"}], "use_of_others_real_estate": null, "vehicles": [{"type": "MOTOROVÉ VOZIDLO", "brand": "KIA", "year_of_manufacture": 2023}], "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 43992, "other": 4377}, "old_total": 0, "new_total": 48369, "delta": 48369}, {"field": "employment", "old": "SIEMENS HEALTHCARE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno", "new": "SIEMENS HEALTHCARE S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"}, {"field": "positions", "old": [{"role": "POSLANEC MESTA PREŠOV", "organization": "MESTO PREŠOV", "benefits": "ODMENA"}, {"role": "ČLEN DOZORNEJ RADY", "organization": "MESTSKÝ PODNIK SLUŽIEB PREŠOV S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN DOZORNEJ RADY", "organization": "DOPRAVNÝ PODNIK MESTA PREŠOV A.S.", "benefits": "ŽIADNE"}], "new": [{"role": "ČLEN DOZORNEJ RADY", "organization": "MESTSKÝ PODNIK SLUŽIEB PREŠOV, S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN DOZORNEJ RADY", "organization": "DOPRAVNÝ PODNIK MESTA PREŠOV, A.S.", "benefits": "ŽIADNE"}, {"role": "POSLANEC", "organization": "MESTO PREŠOV", "benefits": "ODMENA"}], "old_count": 3, "new_count": 3}, {"field": "property_rights", "old": null, "new": ["AKCIOVÉ FONDY, podiel: 1/1"]}]}}], "total_changes": 4, "slug": "richard-dubovicky-mba"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

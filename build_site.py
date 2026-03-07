@@ -64,15 +64,58 @@ SECTION_PAGES = {
         "intro": "Najvyššie celkové príjmy v poslednom dostupnom roku.",
     },
 }
+COMPARE_PAGE = {
+    "slug": "compare",
+    "title": "Porovnanie",
+    "intro": "Porovnajte 2 až 4 funkcionárov alebo si na detaile rozbaľte porovnanie rokov.",
+}
+ROLE_BREAK_KEYWORDS = (
+    "člen ",
+    "členka ",
+    "poslanec ",
+    "predseda ",
+    "podpredseda ",
+    "primátor ",
+    "starosta ",
+    "štatutárny orgán ",
+    "sudca ",
+    "sudkyňa ",
+    "prokurátor ",
+    "riaditeľ ",
+    "riaditeľka ",
+    "generálny ",
+    "guvernér ",
+    "prezident ",
+    "rektor ",
+    "dekan ",
+)
 
 
 def git(*args):
     return subprocess.check_output(["git", *args], text=True).strip()
 
 
+def git_ref_exists(ref):
+    return subprocess.run(
+        ["git", "rev-parse", "--verify", ref],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+        check=False,
+    ).returncode == 0
+
+
+def data_branch_ref():
+    if git_ref_exists(DATA_BRANCH):
+        return DATA_BRANCH
+    remote_ref = f"origin/{DATA_BRANCH}"
+    if git_ref_exists(remote_ref):
+        return remote_ref
+    raise RuntimeError(f"Missing git ref for data branch: {DATA_BRANCH}")
+
+
 def get_commits():
     """Get ordered list of (commit_hash, year) from data branch."""
-    hashes = git("rev-list", "--reverse", DATA_BRANCH).split("\n")
+    hashes = git("rev-list", "--reverse", data_branch_ref()).split("\n")
     commits = []
     for commit_hash in hashes:
         msg = git("log", "--format=%s", "-1", commit_hash)
@@ -166,6 +209,21 @@ def esc(value):
     return html.escape(str(value or ""))
 
 
+def normalize_whitespace(value):
+    return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def normalize_public_function(value):
+    text = normalize_whitespace(value)
+    for keyword in ROLE_BREAK_KEYWORDS:
+        text = re.sub(rf"(?<=[\w\)])(?={re.escape(keyword)})", " · ", text)
+    return text
+
+
+def display_role(value, fallback="Verejný funkcionár"):
+    return normalize_public_function(value) or fallback
+
+
 def strip_diacritics(value):
     normalized = unicodedata.normalize("NFKD", value)
     return "".join(ch for ch in normalized if not unicodedata.combining(ch))
@@ -228,6 +286,10 @@ def abs_url(path):
     return f"{SITE_URL}{path}"
 
 
+def json_for_script(data):
+    return json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+
+
 def meta_tags(title, description, path, *, image_path="", noindex=False):
     tags = [
         f"<title>{esc(title)}</title>",
@@ -258,6 +320,9 @@ def nav_links(prefix="", current=""):
         href = page_href(page["slug"], prefix)
         current_attr = ' aria-current="page"' if current == key else ""
         links.append(f'<a href="{esc(href)}"{current_attr}>{esc(page["title"])}</a>')
+    compare_href = page_href(COMPARE_PAGE["slug"], prefix)
+    compare_attr = ' aria-current="page"' if current == "compare" else ""
+    links.append(f'<a href="{esc(compare_href)}"{compare_attr}>{esc(COMPARE_PAGE["title"])}</a>')
     return "\n".join(links)
 
 
@@ -295,67 +360,73 @@ def shell(title, description, path, body, *, prefix="", current_nav="", json_ld=
 
 def stats_block(meta, stats):
     return f"""
-<section class="hero">
-  <div class="hero__copy">
-    <p class="eyebrow">Majetkové priznania verejných funkcionárov SR</p>
-    <h1>Prehľadávateľné majetkové priznania s vlastnými URL pre každého funkcionára.</h1>
-    <p class="lede">{SITE_DESCRIPTION} Dáta pokrývajú roky {meta["years"][0]} až {meta["years"][-1]}.</p>
-  </div>
-  <div class="stats-grid">
-    <div class="stat-card"><span>{fmt_int(meta["count"])}</span><small>funkcionárov</small></div>
-    <div class="stat-card"><span>{len(meta["years"])}</span><small>rokov dát</small></div>
-    <div class="stat-card"><span>{fmt_currency(stats["median_income"])}</span><small>medián príjmu funkcionárov</small></div>
-    <div class="stat-card"><span>{fmt_currency(SK_MEDIAN_INCOME[meta["years"][-1]])}</span><small>slovenský medián v poslednom roku</small></div>
-  </div>
+<section class="page-title page-title--home">
+  <p class="eyebrow">Majetkové priznania verejných funkcionárov SR</p>
+  <h1>Majetkové priznania s vlastnými URL pre každého funkcionára.</h1>
+  <p class="lede">{SITE_DESCRIPTION} Dáta pokrývajú roky {meta["years"][0]} až {meta["years"][-1]}.</p>
+  <dl class="metric-strip">
+    <div><dt>Funkcionárov</dt><dd>{fmt_int(meta["count"])}</dd></div>
+    <div><dt>Rokov dát</dt><dd>{len(meta["years"])}</dd></div>
+    <div><dt>Medián príjmu</dt><dd>{fmt_currency(stats["median_income"])}</dd></div>
+    <div><dt>Slovenský medián</dt><dd>{fmt_currency(SK_MEDIAN_INCOME[meta["years"][-1]])}</dd></div>
+  </dl>
 </section>
 """
 
 
-def featured_sections(prefix=""):
-    cards = []
-    for page in SECTION_PAGES.values():
-        cards.append(
-            f"""
-<a class="feature-card" href="{esc(page_href(page["slug"], prefix))}">
-  <h2>{esc(page["title"])}</h2>
-  <p>{esc(page["intro"])}</p>
-</a>
-"""
-        )
+def topic_row(page, prefix=""):
     return f"""
-<section class="section-block">
+<li class="topic-row">
+  <a href="{esc(page_href(page["slug"], prefix))}">
+    <strong>{esc(page["title"])}</strong>
+    <span>{esc(page["intro"])}</span>
+    <em>Otvoriť prehľad</em>
+  </a>
+</li>
+"""
+
+
+def featured_sections(prefix="", *, current=""):
+    rows = []
+    for key, page in SECTION_PAGES.items():
+        if key == current:
+            continue
+        rows.append(topic_row(page, prefix))
+    return f"""
+<section class="section-block section-block--tight">
   <div class="section-heading">
     <h2>Tematické stránky</h2>
     <p>Každý prehľad má vlastnú indexovateľnú stránku namiesto anchor navigácie.</p>
   </div>
-  <div class="feature-grid">
-    {''.join(cards)}
-  </div>
+  <ul class="topic-list">
+    {''.join(rows)}
+  </ul>
 </section>
 """
 
 
 def person_row(person):
     total = total_income(person["income"])
-    desc_parts = [person.get("public_function") or "Verejný funkcionár"]
-    if total:
-        desc_parts.append(f"príjem {fmt_currency(total)}")
+    role = display_role(person.get("public_function"))
+    summary_bits = []
     if person.get("n_properties"):
-        desc_parts.append(f"{person['n_properties']} nehnuteľností")
+        summary_bits.append(f"{person['n_properties']} nehnuteľností")
     if person.get("n_obligations"):
-        desc_parts.append(f"{person['n_obligations']} záväzkov")
+        summary_bits.append(f"{person['n_obligations']} záväzkov")
+    if person.get("total_changes"):
+        summary_bits.append(f"{person['total_changes']} zmien")
+    summary = " · ".join(summary_bits) or "Bez ďalších evidovaných zmien"
     return f"""
 <li class="person-row"
-    data-name="{esc(person['name']).lower()}"
-    data-function="{esc(person.get('public_function', '')).lower()}"
+    data-name="{esc(normalize_whitespace(person['name']).lower())}"
+    data-function="{esc(role.lower())}"
     data-income="{total}"
     data-properties="{person.get('n_properties', 0)}"
     data-changes="{person.get('total_changes', 0)}">
   <a class="person-row__link" href="{esc(person_href(person['slug']))}">
-    <span class="person-row__main">
-      <strong>{esc(person['name'])}</strong>
-      <small>{esc(' · '.join(desc_parts))}</small>
-    </span>
+    <strong class="person-row__name">{esc(person['name'])}</strong>
+    <small class="person-row__role">{esc(role)}</small>
+    <span class="person-row__summary">{esc(summary)}</span>
     <span class="person-row__meta">{fmt_currency(total) if total else 'Bez uvedeného príjmu'}</span>
   </a>
 </li>
@@ -379,29 +450,9 @@ def render_home(index, highlights, meta, stats):
             "transparentnosť",
         ],
     }
-    top_links = "".join(
-        f"""
-<li>
-  <a href="{esc(person_href(item['slug']))}">{esc(item['name'])}</a>
-  <span>{fmt_currency(item['income'])} v roku {latest_year}</span>
-</li>
-"""
-        for item in highlights["top_earners"][:8]
-    )
     body = f"""
 {stats_block(meta, stats)}
-{featured_sections()}
 <section class="section-block section-block--tight">
-  <div class="section-heading">
-    <h2>Najvyššie príjmy v roku {latest_year}</h2>
-    <p>Výber z funkcionárov s najvyššími celkovými príjmami.</p>
-  </div>
-  <ul class="compact-list">
-    {top_links}
-  </ul>
-  <p class="section-cta"><a href="{SECTION_PAGES['top_earners']['slug']}/">Otvoriť kompletný rebríček</a></p>
-</section>
-<section class="section-block">
   <div class="section-heading">
     <h2>Vyhľadávanie funkcionárov</h2>
     <p>Filtrovanie funguje bez zmeny URL, ale každý výsledok smeruje na samostatnú detailnú stránku.</p>
@@ -423,9 +474,32 @@ def render_home(index, highlights, meta, stats):
     </label>
   </div>
   <p id="result-count" class="result-count">{len(index)} funkcionárov</p>
+  <div class="results-head results-head--people">
+    <span>Meno</span>
+    <span>Funkcia</span>
+    <span>Prehľad</span>
+    <span>Príjem</span>
+  </div>
   <ul id="person-list" class="person-list">
     {''.join(person_row(person) for person in index)}
   </ul>
+</section>
+{featured_sections()}
+<section class="section-block section-block--tight">
+  <div class="section-heading">
+    <h2>Najvyššie príjmy v roku {latest_year}</h2>
+    <p>Výber z funkcionárov s najvyššími celkovými príjmami.</p>
+  </div>
+  <div class="results-head results-head--highlights">
+    <span>Meno</span>
+    <span>Funkcia</span>
+    <span>{highlight_metric_label('top_earners')}</span>
+    <span>Kontext</span>
+  </div>
+  <ul class="highlight-list">
+    {''.join(highlight_card(item, 'top_earners') for item in highlights["top_earners"][:8])}
+  </ul>
+  <p class="section-cta"><a href="{SECTION_PAGES['top_earners']['slug']}/">Otvoriť kompletný rebríček</a></p>
 </section>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 <script src="app.js"></script>
@@ -439,33 +513,39 @@ def render_home(index, highlights, meta, stats):
     )
 
 
-def highlight_card(item, kind):
+def highlight_metric_label(kind):
+    return {
+        "income_jumps": "Zmena",
+        "new_properties": "Prírastok",
+        "new_obligations": "Prírastok",
+        "top_earners": "Príjem",
+    }[kind]
+
+
+def highlight_card(item, kind, prefix=""):
+    role = display_role(item.get("function"), "Bez uvedenej funkcie")
     if kind == "income_jumps":
         sign = "+" if item["delta"] > 0 else ""
-        sub = f"{fmt_currency(item['old_total'])} → {fmt_currency(item['new_total'])}"
+        sub = f"{fmt_currency(item['old_total'])} → {fmt_currency(item['new_total'])} · rok {item['year']}"
         if item.get("delta_pct") is not None:
             sub += f" ({sign}{item['delta_pct']} %)"
         value = f"{sign}{fmt_currency(item['delta'])}"
-        extra = f"rok {item['year']}"
     elif kind == "new_properties":
         value = f"+{item['added']}"
-        sub = f"celkom {item['total']} nehnuteľností"
-        extra = f"rok {item['year']}"
+        sub = f"pribudli {item['added']} · celkom {item['total']} · rok {item['year']}"
     elif kind == "new_obligations":
         value = f"+{item['added']}"
-        sub = f"celkom {item['total']} záväzkov"
-        extra = f"rok {item['year']}"
+        sub = f"pribudli {item['added']} · celkom {item['total']} · rok {item['year']}"
     else:
         value = fmt_currency(item["income"])
-        sub = income_multiple_text(item["income"], 2024)
-        extra = "posledný dostupný rok"
+        sub = income_multiple_text(item["income"], item.get("year", 2024)) or f"rok {item.get('year', 2024)}"
     return f"""
 <li class="highlight-card">
-  <a href="{esc(person_href(item['slug'], '../'))}">
-    <strong>{esc(item['name'])}</strong>
-    <small>{esc(item.get('function') or extra)}</small>
-    <span>{esc(value)}</span>
-    <em>{esc(sub)}</em>
+  <a href="{esc(person_href(item['slug'], prefix))}">
+    <strong class="highlight-card__name">{esc(item['name'])}</strong>
+    <small class="highlight-card__role">{esc(role)}</small>
+    <span class="highlight-card__value">{esc(value)}</span>
+    <em class="highlight-card__detail">{esc(sub)}</em>
   </a>
 </li>
 """
@@ -486,14 +566,18 @@ def render_section_page(kind, page, items, meta):
     <h2>Výsledky</h2>
     <p>Každá položka smeruje na samostatnú detailnú stránku funkcionára.</p>
   </div>
+  <div class="results-head results-head--highlights">
+    <span>Meno</span>
+    <span>Funkcia</span>
+    <span>{highlight_metric_label(kind)}</span>
+    <span>Porovnanie</span>
+  </div>
   <ul class="highlight-list">
-    {''.join(highlight_card(item, kind) for item in items)}
+    {''.join(highlight_card(item, kind, '../') for item in items)}
   </ul>
 </section>
+{featured_sections('../', current=kind)}
 <section class="section-block section-block--tight">
-  <div class="section-heading">
-    <h2>Ďalšie prehľady</h2>
-  </div>
   <p class="section-cta"><a href="../">Späť na domovskú stránku</a> · <a href="../{SECTION_PAGES['top_earners']['slug']}/">Najvyššie príjmy {latest_year}</a></p>
 </section>
 """
@@ -504,6 +588,90 @@ def render_section_page(kind, page, items, meta):
         body,
         prefix="../",
         current_nav=kind,
+    )
+
+
+def render_compare_page(index, meta):
+    title = f"{COMPARE_PAGE['title']} | {SITE_NAME}"
+    description = "Porovnajte 2 až 4 verejných funkcionárov podľa príjmov, majetku, záväzkov a medziročných zmien."
+    body = f"""
+<section class="page-title">
+  <p class="eyebrow">Porovnávací nástroj</p>
+  <h1>{esc(COMPARE_PAGE['title'])}</h1>
+  <p class="lede">{esc(COMPARE_PAGE['intro'])}</p>
+</section>
+<section class="section-block section-block--tight">
+  <div class="section-heading">
+    <h2>Nastavenie porovnania</h2>
+    <p>Vyberte aspoň dvoch funkcionárov a rok, pre ktorý chcete porovnať posledný dostupný stav aj medziročnú zmenu.</p>
+  </div>
+  <div id="compare-tool" class="compare-tool" data-json-prefix="../politicians/">
+    <div class="compare-toolbar">
+      <label class="compare-field">
+        <span>Funkcionár 1</span>
+        <select data-compare-slot="0"></select>
+      </label>
+      <label class="compare-field">
+        <span>Funkcionár 2</span>
+        <select data-compare-slot="1"></select>
+      </label>
+      <label class="compare-field">
+        <span>Funkcionár 3</span>
+        <select data-compare-slot="2"></select>
+      </label>
+      <label class="compare-field">
+        <span>Funkcionár 4</span>
+        <select data-compare-slot="3"></select>
+      </label>
+      <label class="compare-field compare-field--year">
+        <span>Rok</span>
+        <select id="compare-year"></select>
+      </label>
+    </div>
+    <p id="compare-status" class="result-count">Vyberte aspoň dvoch funkcionárov.</p>
+    <div id="compare-results" hidden>
+      <section class="compare-section-block">
+        <div class="section-heading">
+          <h2>Rýchly prehľad</h2>
+          <p>Každá karta zobrazuje vybraný rok, zmenu oproti predchádzajúcemu priznaniu a odkaz na detail.</p>
+        </div>
+        <div id="compare-summary-grid" class="compare-summary-grid"></div>
+      </section>
+      <section class="compare-section-block">
+        <div class="section-heading">
+          <h2>Príjmový posun</h2>
+          <p>Dumbbell prehľad zobrazuje zmenu medzi predchádzajúcim rokom a vybraným priznaním.</p>
+        </div>
+        <div id="compare-dumbbells" class="compare-dumbbells"></div>
+      </section>
+      <section class="compare-section-block">
+        <div class="section-heading">
+          <h2>Porovnávacia tabuľka</h2>
+          <p>Najdôležitejšie metriky vedľa seba pre rýchle porovnanie.</p>
+        </div>
+        <div id="compare-table-wrap"></div>
+      </section>
+      <section class="compare-section-block">
+        <div class="section-heading">
+          <h2>Majetok a záväzky</h2>
+          <p>Podrobnejšie položky pre vybraný rok zoradené po osobách.</p>
+        </div>
+        <div id="compare-lists"></div>
+      </section>
+    </div>
+  </div>
+</section>
+<script type="application/json" id="compare-index-data">{json_for_script(index)}</script>
+<script type="application/json" id="compare-meta-data">{json_for_script(meta)}</script>
+<script src="../compare.js"></script>
+"""
+    return shell(
+        title,
+        description,
+        f"/{COMPARE_PAGE['slug']}/",
+        body,
+        prefix="../",
+        current_nav="compare",
     )
 
 
@@ -521,21 +689,21 @@ def join_parts(parts):
 
 def render_real_estate_item(item):
     return (
-        f"<strong>{esc(item.get('type'))}</strong>"
+        f"<strong>{esc(normalize_whitespace(item.get('type')))}</strong>"
         f"<span>{esc(join_parts([
-            f'Kat. územie: {item.get("cadastral_territory")}' if item.get('cadastral_territory') else '',
-            f'LV: {item.get("lv_number")}' if item.get('lv_number') else '',
-            f'Podiel: {item.get("share")}' if item.get('share') else '',
+            f'Kat. územie: {normalize_whitespace(item.get("cadastral_territory"))}' if item.get('cadastral_territory') else '',
+            f'LV: {normalize_whitespace(item.get("lv_number"))}' if item.get('lv_number') else '',
+            f'Podiel: {normalize_whitespace(item.get("share"))}' if item.get('share') else '',
         ]))}</span>"
     )
 
 
 def render_obligation_item(item):
     return (
-        f"<strong>{esc(item.get('type'))}</strong>"
+        f"<strong>{esc(normalize_whitespace(item.get('type')))}</strong>"
         f"<span>{esc(join_parts([
-            f'Podiel: {item.get("share")}' if item.get('share') else '',
-            f'Vznik: {item.get("date")}' if item.get('date') else '',
+            f'Podiel: {normalize_whitespace(item.get("share"))}' if item.get('share') else '',
+            f'Vznik: {normalize_whitespace(item.get("date"))}' if item.get('date') else '',
         ]))}</span>"
     )
 
@@ -569,30 +737,40 @@ def render_person_page(person, meta):
     income_detail = income_parts(latest)
     properties = count_items(latest, "real_estate")
     obligations = count_items(latest, "obligations")
-    description_parts = [person.get("public_function") or "Verejný funkcionár"]
+    role = display_role(person.get("public_function"))
+    summary_parts = []
     if income:
-        description_parts.append(f"príjem {fmt_currency(income)}")
+        summary_parts.append(f"príjem {fmt_currency(income)}")
     if properties:
-        description_parts.append(f"{properties} nehnuteľností")
+        summary_parts.append(f"{properties} nehnuteľností")
     if obligations:
-        description_parts.append(f"{obligations} záväzkov")
-    description = " · ".join(description_parts)
+        summary_parts.append(f"{obligations} záväzkov")
+    description = " · ".join([role, *summary_parts])
     title = f"{person['name']} | {SITE_NAME}"
 
     timeline_html = []
-    for entry in reversed(person["timeline"]):
+    for idx in range(len(person["timeline"]) - 1, -1, -1):
+        entry = person["timeline"][idx]
         diff = entry["diff"]
+        prev_year = person["timeline"][idx - 1]["year"] if idx > 0 else None
         if diff["type"] == "new":
             change_text = "Prvý dostupný záznam."
         elif diff["type"] == "unchanged":
             change_text = "Bez zmien oproti predchádzajúcemu roku."
         else:
             change_text = "; ".join(field_summary(change) for change in diff["changes"])
+        compare_link = ""
+        if prev_year is not None:
+            compare_link = (
+                f'<button type="button" class="timeline-compare-link" '
+                f'data-compare-years="{prev_year},{entry["year"]}">Porovnať roky</button>'
+            )
         timeline_html.append(
             f"""
 <li>
   <strong>{entry['year']}</strong>
   <span>{esc(change_text)}</span>
+  {compare_link}
 </li>
 """
         )
@@ -616,7 +794,7 @@ def render_person_page(person, meta):
         "name": person["name"],
         "description": description,
         "url": abs_url(f"/politicians/{person['slug']}/") or f"/politicians/{person['slug']}/",
-        "jobTitle": person.get("public_function") or "",
+        "jobTitle": role,
     }
 
     body = f"""
@@ -629,53 +807,70 @@ def render_person_page(person, meta):
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>{esc(person['name'])}</h1>
-    <p class="lede">{esc(description)}</p>
+    <p class="lede">{esc(role)}</p>
+    <p class="detail-summary">{esc(' · '.join(summary_parts))}</p>
     <p class="detail-links"><a href="{NRSR_DECL_URL}{person['user_id']}" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>{fmt_currency(income) if income else '—'}</span><small>celkový príjem ({latest_year})</small></div>
-    <div class="stat-card"><span>{properties or '—'}</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>{obligations or '—'}</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>{person['total_changes'] or '—'}</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>{fmt_currency(income_detail['public_function'])}</dd></div>
-        <div><dt>Iné</dt><dd>{fmt_currency(income_detail['other'])}</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../{COMPARE_PAGE['slug']}/?ids={esc(person['user_id'])}">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>{fmt_currency(income) if income else '—'}</span><small>celkový príjem ({latest_year})</small></div>
+      <div class="stat-card"><span>{properties or '—'}</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>{obligations or '—'}</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>{person['total_changes'] or '—'}</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>{esc(latest.get('employment') or 'Neuvedené')}</p>
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>{fmt_currency(income_detail['public_function'])}</dd></div>
+          <div><dt>Iné</dt><dd>{fmt_currency(income_detail['other'])}</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>{esc(normalize_whitespace(latest.get('employment') or 'Neuvedené'))}</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        {render_items(
+            latest.get("real_estate"),
+            render_real_estate_item,
+            "Bez uvedených nehnuteľností.",
+        )}
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        {render_items(
+            latest.get("obligations"),
+            render_obligation_item,
+            "Bez uvedených záväzkov.",
+        )}
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          {''.join(timeline_html)}
+        </ul>
+      </section>
     </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      {render_items(
-          latest.get("real_estate"),
-          render_real_estate_item,
-          "Bez uvedených nehnuteľností.",
-      )}
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      {render_items(
-          latest.get("obligations"),
-          render_obligation_item,
-          "Bez uvedených záväzkov.",
-      )}
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        {''.join(timeline_html)}
-      </ul>
-    </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{json.dumps(breadcrumb_ld, ensure_ascii=False)}</script>
 <script type="application/ld+json">{json.dumps(person_ld, ensure_ascii=False)}</script>
+<script type="application/json" id="person-compare-data">{json_for_script(person)}</script>
+<script src="../../compare.js"></script>
 """
     return shell(
         title,
@@ -795,6 +990,7 @@ def build():
             "user_id": user_id,
             "name": name,
             "public_function": latest.get("public_function"),
+            "role": display_role(latest.get("public_function")),
             "years": [entry["year"] for entry in timeline],
             "timeline": timeline,
             "total_changes": total_changes,
@@ -810,6 +1006,7 @@ def build():
                     "user_id": user_id,
                     "name": name,
                     "function": latest.get("public_function"),
+                    "year": timeline[-1]["year"],
                     "income": latest_income,
                 }
             )
@@ -869,6 +1066,7 @@ def build():
                 "name": politician["name"],
                 "slug": politician["slug"],
                 "public_function": politician["public_function"],
+                "role": politician["role"],
                 "years": politician["years"],
                 "income": latest.get("income"),
                 "n_properties": count_items(latest, "real_estate"),
@@ -902,6 +1100,13 @@ def build():
             encoding="utf-8",
         )
 
+    compare_dir = SITE_DIR / COMPARE_PAGE["slug"]
+    compare_dir.mkdir(exist_ok=True)
+    (compare_dir / "index.html").write_text(
+        render_compare_page(index, meta),
+        encoding="utf-8",
+    )
+
     detail_html_dir = SITE_DIR / "politicians"
     for child in detail_html_dir.iterdir():
         if child.is_dir():
@@ -916,6 +1121,7 @@ def build():
         sitemap_entries = [abs_url("/")]
         for page in SECTION_PAGES.values():
             sitemap_entries.append(abs_url(f"/{page['slug']}/"))
+        sitemap_entries.append(abs_url(f"/{COMPARE_PAGE['slug']}/"))
         for data in politicians.values():
             sitemap_entries.append(abs_url(f"/politicians/{data['slug']}/"))
         sitemap_xml = (

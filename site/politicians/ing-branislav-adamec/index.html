@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,67 +38,86 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Ing. Branislav Adamec</h1>
-    <p class="lede">primátor mesta · príjem 41 610 € · 1 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">primátor mesta</p>
+    <p class="detail-summary">príjem 41 610 € · 1 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Branislav.Adamec" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>41 610 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>8</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>41 610 €</dd></div>
-        <div><dt>Iné</dt><dd>0 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Branislav.Adamec">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>41 610 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>8</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>MESTO NOVÁKY
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT V BYTOVOM DOME</strong><span>Kat. územie: NOVÁKY · LV: 2428 · Podiel: 1/1</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER NA BYT</strong><span>Podiel: 1/1 · Vznik: 01. 04. 2018</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>41 610 €</dd></div>
+          <div><dt>Iné</dt><dd>0 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>MESTO NOVÁKY Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT V BYTOVOM DOME</strong><span>Kat. územie: NOVÁKY · LV: 2428 · Podiel: 1/1</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER NA BYT</strong><span>Podiel: 1/1 · Vznik: 01. 04. 2018</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 45 315 € → 41 610 € (-3 705 €); Zamestnanie; Záväzky: 1 → 1 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 500 € → 45 315 € (+44 815 €)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 0 € → 500 € (+500 €); Zamestnanie; Funkcie; Záväzky: 1 → 1 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Ing. Branislav Adamec", "item": "/politicians/ing-branislav-adamec/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ing. Branislav Adamec", "description": "primátor mesta · príjem 41 610 € · 1 nehnuteľností · 1 záväzkov", "url": "/politicians/ing-branislav-adamec/", "jobTitle": "primátor mesta"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Branislav.Adamec", "name": "Ing. Branislav Adamec", "public_function": "primátor mesta", "role": "primátor mesta", "years": [2021, 2022, 2023, 2024], "timeline": [{"year": 2021, "data": {"id": "P225129", "declaration_id": 25576, "name": "Ing. BRANISLAV ADAMEC", "year": 2021, "filed": "pri ujatí sa funkcie", "public_function": "primátor mesta", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "MINISTERSTVO VNÚTRA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno", "business_activity": null, "positions": [{"role": "POSLANEC, ČLEN MSR, PREDSEDA EK", "organization": "MESTO NOVÁKY", "benefits": "ODMENY V ZMYSLE ZÁSAD ODMEŇOVANIA"}], "real_estate": [{"type": "BYT V BYTOVOM DOME", "cadastral_territory": "NOVÁKY", "lv_number": "2428", "share": "1/1"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "RENAULT", "year_of_manufacture": 2009, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER NA BYT", "share": "1/1", "date": "01. 04. 2018"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2022, "data": {"id": "P225129", "declaration_id": 27977, "name": "Ing. BRANISLAV ADAMEC", "year": 2022, "filed": "k 30. aprílu", "public_function": "primátor mesta", "income": {"public_function": 500, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT V BYTOVOM DOME", "cadastral_territory": "NOVÁKY", "lv_number": "2428", "share": "1/1"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "RENAULT", "year_of_manufacture": 2009, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "01. 04. 2018"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 500, "other": 0}, "old_total": 0, "new_total": 500, "delta": 500}, {"field": "employment", "old": "MINISTERSTVO VNÚTRA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno", "new": null}, {"field": "positions", "old": [{"role": "POSLANEC, ČLEN MSR, PREDSEDA EK", "organization": "MESTO NOVÁKY", "benefits": "ODMENY V ZMYSLE ZÁSAD ODMEŇOVANIA"}], "new": null}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER NA BYT", "share": "1/1", "date": "01. 04. 2018"}], "new": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "01. 04. 2018"}], "old_count": 1, "new_count": 1}]}}, {"year": 2023, "data": {"id": "P225129", "declaration_id": 32842, "name": "Ing. BRANISLAV ADAMEC", "year": 2023, "filed": "k 30. aprílu", "public_function": "primátor mesta", "income": {"public_function": 45315, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT V BYTOVOM DOME", "cadastral_territory": "NOVÁKY", "lv_number": "2428", "share": "1/1"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "RENAULT", "year_of_manufacture": 2009, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "01. 04. 2018"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 500, "other": 0}, "new": {"public_function": 45315, "other": 0}, "old_total": 500, "new_total": 45315, "delta": 44815, "delta_pct": 8963.0}]}}, {"year": 2024, "data": {"id": "P225129", "declaration_id": 37186, "name": "Ing. BRANISLAV ADAMEC", "year": 2024, "filed": "k 30. aprílu", "public_function": "primátor mesta", "income": {"public_function": 41610, "other": 0}, "incompatibility": true, "employment": "MESTO NOVÁKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT V BYTOVOM DOME", "cadastral_territory": "NOVÁKY", "lv_number": "2428", "share": "1/1"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "RENAULT", "year_of_manufacture": 2009, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER NA BYT", "share": "1/1", "date": "01. 04. 2018"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 45315, "other": 0}, "new": {"public_function": 41610, "other": 0}, "old_total": 45315, "new_total": 41610, "delta": -3705, "delta_pct": -8.2}, {"field": "employment", "old": null, "new": "MESTO NOVÁKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "01. 04. 2018"}], "new": [{"type": "HYPOTEKÁRNY ÚVER NA BYT", "share": "1/1", "date": "01. 04. 2018"}], "old_count": 1, "new_count": 1}]}}], "total_changes": 8, "slug": "ing-branislav-adamec"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

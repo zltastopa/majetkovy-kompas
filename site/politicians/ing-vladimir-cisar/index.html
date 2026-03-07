@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,50 +38,68 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Ing. Vladimír Císar</h1>
-    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ HYDROMETEOROLOGICKÝ ÚSTAV) · 3 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ HYDROMETEOROLOGICKÝ ÚSTAV)</p>
+    <p class="detail-summary">3 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Vladimir.Cisar" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>—</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>—</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
-        <div><dt>Iné</dt><dd>0 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Vladimir.Cisar">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>—</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>—</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>Neuvedené</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT, 2-GARÁŽOVÉ STÁTIA</strong><span>Kat. územie: BRATISLAVA VINOHRADY · LV: 7427 · Podiel: 1/5</span></li><li><strong>BYT</strong><span>Kat. územie: TRNAVA · LV: 6823 · Podiel: 1/2</span></li><li><strong>CHATA</strong><span>Kat. územie: SENEC · LV: 6055 · Podiel: 1/1</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
+          <div><dt>Iné</dt><dd>0 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>Neuvedené</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT, 2-GARÁŽOVÉ STÁTIA</strong><span>Kat. územie: BRATISLAVA VINOHRADY · LV: 7427 · Podiel: 1/5</span></li><li><strong>BYT</strong><span>Kat. územie: TRNAVA · LV: 6823 · Podiel: 1/2</span></li><li><strong>CHATA</strong><span>Kat. územie: SENEC · LV: 6055 · Podiel: 1/1</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Ing. Vladimír Císar", "item": "/politicians/ing-vladimir-cisar/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ing. Vladimír Císar", "description": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ HYDROMETEOROLOGICKÝ ÚSTAV) · 3 nehnuteľností · 1 záväzkov", "url": "/politicians/ing-vladimir-cisar/", "jobTitle": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ HYDROMETEOROLOGICKÝ ÚSTAV)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Vladimir.Cisar", "name": "Ing. Vladimír Císar", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ HYDROMETEOROLOGICKÝ ÚSTAV)", "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ HYDROMETEOROLOGICKÝ ÚSTAV)", "years": [2024], "timeline": [{"year": 2024, "data": {"id": "ZC256535", "declaration_id": 36443, "name": "Ing. VLADIMÍR CÍSAR", "year": 2024, "filed": "pri ujatí sa funkcie", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ HYDROMETEOROLOGICKÝ ÚSTAV)", "income": {"public_function": 0, "other": 0}, "incompatibility": false, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT, 2-GARÁŽOVÉ STÁTIA", "cadastral_territory": "BRATISLAVA VINOHRADY", "lv_number": "7427", "share": "1/5"}, {"type": "BYT", "cadastral_territory": "TRNAVA", "lv_number": "6823", "share": "1/2"}, {"type": "CHATA", "cadastral_territory": "SENEC", "lv_number": "6055", "share": "1/1"}], "movable_property": [{"type": "MOTORKA", "brand": "YAHAHA", "year_of_manufacture": 2007, "share": "1/1"}], "property_rights": ["DOPLNKOVÉ DÔCHODKOVÉ SPORENIE, podiel: 1/1"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}], "total_changes": 0, "slug": "ing-vladimir-cisar"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

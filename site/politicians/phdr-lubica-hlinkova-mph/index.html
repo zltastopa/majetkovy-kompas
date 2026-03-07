@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,60 +38,80 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>PhDr. Ľubica Hlinková, MPH</h1>
-    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne · príjem 5 314 € · 4 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne</p>
+    <p class="detail-summary">príjem 5 314 € · 4 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Lubica.Hlinkova" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>5 314 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>4</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>9</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>5 314 €</dd></div>
-        <div><dt>Iné</dt><dd>0 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Lubica.Hlinkova">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>5 314 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>4</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>9</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>Neuvedené</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: KARLOVA VES · LV: 2418 · Podiel: 1/1</span></li><li><strong>RODINNÝ DOM</strong><span>Kat. územie: ČUŇOVO · LV: 1924 · Podiel: 1/1</span></li><li><strong>APARTMÁN</strong><span>Kat. územie: NOVALJA · LV: 952/377 · Podiel: 1/1</span></li><li><strong>POZEMOK</strong><span>Kat. územie: NOVALJA · LV: 952/509 · Podiel: 1/1</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER-REFINANC</strong><span>Podiel: 100% · Vznik: 10. 07. 2019</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>5 314 €</dd></div>
+          <div><dt>Iné</dt><dd>0 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>Neuvedené</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: KARLOVA VES · LV: 2418 · Podiel: 1/1</span></li><li><strong>RODINNÝ DOM</strong><span>Kat. územie: ČUŇOVO · LV: 1924 · Podiel: 1/1</span></li><li><strong>APARTMÁN</strong><span>Kat. územie: NOVALJA · LV: 952/377 · Podiel: 1/1</span></li><li><strong>POZEMOK</strong><span>Kat. územie: NOVALJA · LV: 952/509 · Podiel: 1/1</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER-REFINANC</strong><span>Podiel: 100% · Vznik: 10. 07. 2019</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 13 436 € → 5 314 € (-8 122 €); Nehnuteľnosti: 5 → 4 (-1); Majetkové práva: 3 → 3 (0); Záväzky: 2 → 1 (-1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 0 € → 13 436 € (+13 436 €); Zamestnanie; Nehnuteľnosti: 4 → 5 (+1); Majetkové práva: 3 → 3 (0); Záväzky: 2 → 2 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "PhDr. Ľubica Hlinková, MPH", "item": "/politicians/phdr-lubica-hlinkova-mph/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "PhDr. Ľubica Hlinková, MPH", "description": "štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne · príjem 5 314 € · 4 nehnuteľností · 1 záväzkov", "url": "/politicians/phdr-lubica-hlinkova-mph/", "jobTitle": "štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Lubica.Hlinkova", "name": "PhDr. Ľubica Hlinková, MPH", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne", "role": "štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne", "years": [2022, 2023, 2024], "timeline": [{"year": 2022, "data": {"id": "X235407", "declaration_id": 29660, "name": "PhDr. ĽUBICA HLINKOVÁ, MPH", "year": 2022, "filed": "pri ujatí sa funkcie", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne", "income": {"public_function": 0, "other": 0}, "incompatibility": false, "employment": "VŠEOBECNÁ ZDRAVOTNÁ POISŤOVŇA, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "APARTMÁN", "cadastral_territory": "NOVALJA/CHORVÁTSKO", "lv_number": "952/377", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "KARLOVA VES", "lv_number": "2418", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH DOMU", "cadastral_territory": "KARLOVA VES", "lv_number": "2418", "share": "8391/441152"}, {"type": "RODINNÝ DOM + ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ČUNOVO", "lv_number": "1924", "share": "1/1"}], "movable_property": null, "property_rights": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH, podiel: 100%", "II. PILIER, podiel: 100%", "III. PILIER (DOPLNKOVÉ DÔCHODKOVÉ SPORENIE), podiel: 100%"], "obligations": [{"type": "HYPOTEKÁRNY ÚVER - REFINANCOVANIE", "share": "100%", "date": "10. 07. 2019"}, {"type": "HYPOTEKÁRNY ÚVER - POZEMOK", "share": "100%", "date": "21. 07. 2015"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2023, "data": {"id": "X235407", "declaration_id": 33921, "name": "PhDr. ĽUBICA HLINKOVÁ , MPH", "year": 2023, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne", "income": {"public_function": 13436, "other": 0}, "incompatibility": false, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "KARLOVA VES", "lv_number": "2418", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH ČASTIACH", "cadastral_territory": "KARLOVA VES", "lv_number": "2418", "share": "8391/441152"}, {"type": "RODINNÝ DOM", "cadastral_territory": "ČUŇOVO", "lv_number": "1924", "share": "1/1"}, {"type": "APARTMÁN", "cadastral_territory": "NOVALJA CHORVÁTSKO", "lv_number": "952/377", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "NOVALJA CHORVÁTSKO", "lv_number": "952/509", "share": "1/1"}], "movable_property": null, "property_rights": ["FINANČNÉ PROSTRIEDKY, podiel: 100%", "II. PILIER , podiel: 100%", "III. PILIER , podiel: 100%"], "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "100%", "date": "21. 07. 2015"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "100%", "date": "17. 07. 2019"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 13436, "other": 0}, "old_total": 0, "new_total": 13436, "delta": 13436}, {"field": "employment", "old": "VŠEOBECNÁ ZDRAVOTNÁ POISŤOVŇA, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "new": null}, {"field": "real_estate", "old": [{"type": "APARTMÁN", "cadastral_territory": "NOVALJA/CHORVÁTSKO", "lv_number": "952/377", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "KARLOVA VES", "lv_number": "2418", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH DOMU", "cadastral_territory": "KARLOVA VES", "lv_number": "2418", "share": "8391/441152"}, {"type": "RODINNÝ DOM + ZASTAVANÁ PLOCHA A NÁDVORIE", "cadastral_territory": "ČUNOVO", "lv_number": "1924", "share": "1/1"}], "new": [{"type": "BYT", "cadastral_territory": "KARLOVA VES", "lv_number": "2418", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH ČASTIACH", "cadastral_territory": "KARLOVA VES", "lv_number": "2418", "share": "8391/441152"}, {"type": "RODINNÝ DOM", "cadastral_territory": "ČUŇOVO", "lv_number": "1924", "share": "1/1"}, {"type": "APARTMÁN", "cadastral_territory": "NOVALJA CHORVÁTSKO", "lv_number": "952/377", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "NOVALJA CHORVÁTSKO", "lv_number": "952/509", "share": "1/1"}], "old_count": 4, "new_count": 5}, {"field": "property_rights", "old": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH, podiel: 100%", "II. PILIER, podiel: 100%", "III. PILIER (DOPLNKOVÉ DÔCHODKOVÉ SPORENIE), podiel: 100%"], "new": ["FINANČNÉ PROSTRIEDKY, podiel: 100%", "II. PILIER , podiel: 100%", "III. PILIER , podiel: 100%"], "old_count": 3, "new_count": 3}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER - REFINANCOVANIE", "share": "100%", "date": "10. 07. 2019"}, {"type": "HYPOTEKÁRNY ÚVER - POZEMOK", "share": "100%", "date": "21. 07. 2015"}], "new": [{"type": "HYPOTEKÁRNY ÚVER", "share": "100%", "date": "21. 07. 2015"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "100%", "date": "17. 07. 2019"}], "old_count": 2, "new_count": 2}]}}, {"year": 2024, "data": {"id": "X235407", "declaration_id": 37733, "name": "PhDr. ĽUBICA HLINKOVÁ, MPH", "year": 2024, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne", "income": {"public_function": 5314, "other": 0}, "incompatibility": false, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "KARLOVA VES", "lv_number": "2418", "share": "1/1"}, {"type": "RODINNÝ DOM", "cadastral_territory": "ČUŇOVO", "lv_number": "1924", "share": "1/1"}, {"type": "APARTMÁN", "cadastral_territory": "NOVALJA", "lv_number": "952/377", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "NOVALJA", "lv_number": "952/509", "share": "1/1"}], "movable_property": null, "property_rights": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH, podiel: 100%", "II. PILIER, podiel: 100%", "II. PILIER, podiel: 100%"], "obligations": [{"type": "HYPOTEKÁRNY ÚVER-REFINANC", "share": "100%", "date": "10. 07. 2019"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 13436, "other": 0}, "new": {"public_function": 5314, "other": 0}, "old_total": 13436, "new_total": 5314, "delta": -8122, "delta_pct": -60.4}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "KARLOVA VES", "lv_number": "2418", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH ČASTIACH", "cadastral_territory": "KARLOVA VES", "lv_number": "2418", "share": "8391/441152"}, {"type": "RODINNÝ DOM", "cadastral_territory": "ČUŇOVO", "lv_number": "1924", "share": "1/1"}, {"type": "APARTMÁN", "cadastral_territory": "NOVALJA CHORVÁTSKO", "lv_number": "952/377", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "NOVALJA CHORVÁTSKO", "lv_number": "952/509", "share": "1/1"}], "new": [{"type": "BYT", "cadastral_territory": "KARLOVA VES", "lv_number": "2418", "share": "1/1"}, {"type": "RODINNÝ DOM", "cadastral_territory": "ČUŇOVO", "lv_number": "1924", "share": "1/1"}, {"type": "APARTMÁN", "cadastral_territory": "NOVALJA", "lv_number": "952/377", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "NOVALJA", "lv_number": "952/509", "share": "1/1"}], "old_count": 5, "new_count": 4}, {"field": "property_rights", "old": ["FINANČNÉ PROSTRIEDKY, podiel: 100%", "II. PILIER , podiel: 100%", "III. PILIER , podiel: 100%"], "new": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH, podiel: 100%", "II. PILIER, podiel: 100%", "II. PILIER, podiel: 100%"], "old_count": 3, "new_count": 3}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER", "share": "100%", "date": "21. 07. 2015"}, {"type": "HYPOTEKÁRNY ÚVER", "share": "100%", "date": "17. 07. 2019"}], "new": [{"type": "HYPOTEKÁRNY ÚVER-REFINANC", "share": "100%", "date": "10. 07. 2019"}], "old_count": 2, "new_count": 1}]}}], "total_changes": 9, "slug": "phdr-lubica-hlinkova-mph"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

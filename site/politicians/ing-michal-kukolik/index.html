@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,67 +38,86 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Ing. Michal Kukolík</h1>
-    <p class="lede">člen dozornej rady Sociálnej poisťovne · príjem 49 107 € · 3 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">člen dozornej rady Sociálnej poisťovne</p>
+    <p class="detail-summary">príjem 49 107 € · 3 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Michal.Kukolik" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>49 107 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>6</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>17 160 €</dd></div>
-        <div><dt>Iné</dt><dd>31 947 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Michal.Kukolik">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>49 107 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>6</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>ODBOROVÝ ZVÄZ KOVO
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: ŽILINA · LV: 5780 · Podiel: 1/2</span></li><li><strong>SPOLOČNÉ PRIESTORY DOMU</strong><span>Kat. územie: ŽILINA · LV: 5780 · Podiel: 76/4404</span></li><li><strong>ZÁHRADA, ZÁHRADNÁ CHATA A ZASTAVANÁ PLOCHA</strong><span>Kat. územie: DIVINA · LV: 1659 · Podiel: 1/2</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/2 · Vznik: 10. 06. 2021</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>17 160 €</dd></div>
+          <div><dt>Iné</dt><dd>31 947 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>ODBOROVÝ ZVÄZ KOVO Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: ŽILINA · LV: 5780 · Podiel: 1/2</span></li><li><strong>SPOLOČNÉ PRIESTORY DOMU</strong><span>Kat. územie: ŽILINA · LV: 5780 · Podiel: 76/4404</span></li><li><strong>ZÁHRADA, ZÁHRADNÁ CHATA A ZASTAVANÁ PLOCHA</strong><span>Kat. územie: DIVINA · LV: 1659 · Podiel: 1/2</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/2 · Vznik: 10. 06. 2021</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 44 775 € → 49 107 € (+4 332 €); Zamestnanie; Nehnuteľnosti: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 37 165 € → 44 775 € (+7 610 €); Nehnuteľnosti: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 0 € → 37 165 € (+37 165 €)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Ing. Michal Kukolík", "item": "/politicians/ing-michal-kukolik/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ing. Michal Kukolík", "description": "člen dozornej rady Sociálnej poisťovne · príjem 49 107 € · 3 nehnuteľností · 1 záväzkov", "url": "/politicians/ing-michal-kukolik/", "jobTitle": "člen dozornej rady Sociálnej poisťovne"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Michal.Kukolik", "name": "Ing. Michal Kukolík", "public_function": "člen dozornej rady Sociálnej poisťovne", "role": "člen dozornej rady Sociálnej poisťovne", "years": [2021, 2022, 2023, 2024], "timeline": [{"year": 2021, "data": {"id": "W224919", "declaration_id": 23527, "name": "Ing. MICHAL KUKOLÍK", "year": 2021, "filed": "pri ujatí sa funkcie", "public_function": "člen dozornej rady Sociálnej poisťovne", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "KONFEDERÁCIA ODBOROVÝCH ZVÄZOV SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nODBOROVÝ ZVÄZ KOVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5780", "share": "1/2"}, {"type": "SPOLOČNÉ PRIESTORY DOMU", "cadastral_territory": "ŽILINA", "lv_number": "5780", "share": "76/4404"}, {"type": "ZÁHRADA A ZÁHRADNÁ CHATA A ZASTAVANÁ PLOCHA", "cadastral_territory": "DIVINA", "lv_number": "1659", "share": "1/2"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "ŠKODA", "year_of_manufacture": 2013, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "10. 06. 2021"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2022, "data": {"id": "W224919", "declaration_id": 28347, "name": "Ing. MICHAL KUKOLÍK", "year": 2022, "filed": "k 30. aprílu", "public_function": "člen dozornej rady Sociálnej poisťovne", "income": {"public_function": 9297, "other": 27868}, "incompatibility": true, "employment": "KONFEDERÁCIA ODBOROVÝCH ZVÄZOV SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nODBOROVÝ ZVÄZ KOVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5780", "share": "1/2"}, {"type": "SPOLOČNÉ PRIESTORY DOMU", "cadastral_territory": "ŽILINA", "lv_number": "5780", "share": "76/4404"}, {"type": "ZÁHRADA A ZÁHRADNÁ CHATA A ZASTAVANÁ PLOCHA", "cadastral_territory": "DIVINA", "lv_number": "1659", "share": "1/2"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "ŠKODA", "year_of_manufacture": 2013, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "10. 06. 2021"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 9297, "other": 27868}, "old_total": 0, "new_total": 37165, "delta": 37165}]}}, {"year": 2023, "data": {"id": "W224919", "declaration_id": 32762, "name": "Ing. MICHAL KUKOLÍK", "year": 2023, "filed": "k 30. aprílu", "public_function": "člen dozornej rady Sociálnej poisťovne", "income": {"public_function": 15648, "other": 29127}, "incompatibility": true, "employment": "KONFEDERÁCIA ODBOROVÝCH ZVÄZOV SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nODBOROVÝ ZVÄZ KOVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5780", "share": "1/2"}, {"type": "SPOLOČNÉ PRIESTORY DOMU", "cadastral_territory": "ŽILINA", "lv_number": "570", "share": "76/4404"}, {"type": "ZÁHRADA, ZÁHRADNÁ CHATA A ZASTAVANÁ PLOCHA", "cadastral_territory": "DIVINA", "lv_number": "1659", "share": "1/2"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "ŠKODA", "year_of_manufacture": 2013, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "10. 06. 2021"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 9297, "other": 27868}, "new": {"public_function": 15648, "other": 29127}, "old_total": 37165, "new_total": 44775, "delta": 7610, "delta_pct": 20.5}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5780", "share": "1/2"}, {"type": "SPOLOČNÉ PRIESTORY DOMU", "cadastral_territory": "ŽILINA", "lv_number": "5780", "share": "76/4404"}, {"type": "ZÁHRADA A ZÁHRADNÁ CHATA A ZASTAVANÁ PLOCHA", "cadastral_territory": "DIVINA", "lv_number": "1659", "share": "1/2"}], "new": [{"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5780", "share": "1/2"}, {"type": "SPOLOČNÉ PRIESTORY DOMU", "cadastral_territory": "ŽILINA", "lv_number": "570", "share": "76/4404"}, {"type": "ZÁHRADA, ZÁHRADNÁ CHATA A ZASTAVANÁ PLOCHA", "cadastral_territory": "DIVINA", "lv_number": "1659", "share": "1/2"}], "old_count": 3, "new_count": 3}]}}, {"year": 2024, "data": {"id": "W224919", "declaration_id": 37101, "name": "Ing. MICHAL KUKOLÍK", "year": 2024, "filed": "k 30. aprílu", "public_function": "člen dozornej rady Sociálnej poisťovne", "income": {"public_function": 17160, "other": 31947}, "incompatibility": true, "employment": "ODBOROVÝ ZVÄZ KOVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5780", "share": "1/2"}, {"type": "SPOLOČNÉ PRIESTORY DOMU", "cadastral_territory": "ŽILINA", "lv_number": "5780", "share": "76/4404"}, {"type": "ZÁHRADA, ZÁHRADNÁ CHATA A ZASTAVANÁ PLOCHA", "cadastral_territory": "DIVINA", "lv_number": "1659", "share": "1/2"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "ŠKODA", "year_of_manufacture": 2013, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/2", "date": "10. 06. 2021"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 15648, "other": 29127}, "new": {"public_function": 17160, "other": 31947}, "old_total": 44775, "new_total": 49107, "delta": 4332, "delta_pct": 9.7}, {"field": "employment", "old": "KONFEDERÁCIA ODBOROVÝCH ZVÄZOV SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nODBOROVÝ ZVÄZ KOVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "new": "ODBOROVÝ ZVÄZ KOVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5780", "share": "1/2"}, {"type": "SPOLOČNÉ PRIESTORY DOMU", "cadastral_territory": "ŽILINA", "lv_number": "570", "share": "76/4404"}, {"type": "ZÁHRADA, ZÁHRADNÁ CHATA A ZASTAVANÁ PLOCHA", "cadastral_territory": "DIVINA", "lv_number": "1659", "share": "1/2"}], "new": [{"type": "BYT", "cadastral_territory": "ŽILINA", "lv_number": "5780", "share": "1/2"}, {"type": "SPOLOČNÉ PRIESTORY DOMU", "cadastral_territory": "ŽILINA", "lv_number": "5780", "share": "76/4404"}, {"type": "ZÁHRADA, ZÁHRADNÁ CHATA A ZASTAVANÁ PLOCHA", "cadastral_territory": "DIVINA", "lv_number": "1659", "share": "1/2"}], "old_count": 3, "new_count": 3}]}}], "total_changes": 6, "slug": "ing-michal-kukolik"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

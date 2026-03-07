@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,67 +38,86 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Ing. Andrea Boldišová</h1>
-    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ TRANSFÚZNA SLUŽBA SR) · príjem 43 071 € · 1 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ TRANSFÚZNA SLUŽBA SR)</p>
+    <p class="detail-summary">príjem 43 071 € · 1 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Andrea.Boldisova" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>43 071 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>8</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
-        <div><dt>Iné</dt><dd>43 071 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Andrea.Boldisova">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>43 071 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>8</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>MINISTERSTVO ZDRAVOTNÍCTVA SR
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: KARLOVA VES · LV: 2938 · Podiel: 1/1</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
+          <div><dt>Iné</dt><dd>43 071 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>MINISTERSTVO ZDRAVOTNÍCTVA SR Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: KARLOVA VES · LV: 2938 · Podiel: 1/1</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 42 886 € → 43 071 € (+185 €); Zamestnanie; Majetkové práva: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 38 534 € → 42 886 € (+4 352 €); Zamestnanie; Majetkové práva: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 0 € → 38 534 € (+38 534 €); Majetkové práva: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Ing. Andrea Boldišová", "item": "/politicians/ing-andrea-boldisova/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ing. Andrea Boldišová", "description": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ TRANSFÚZNA SLUŽBA SR) · príjem 43 071 € · 1 nehnuteľností · 1 záväzkov", "url": "/politicians/ing-andrea-boldisova/", "jobTitle": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ TRANSFÚZNA SLUŽBA SR)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Andrea.Boldisova", "name": "Ing. Andrea Boldišová", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ TRANSFÚZNA SLUŽBA SR)", "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ TRANSFÚZNA SLUŽBA SR)", "years": [2021, 2022, 2023, 2024], "timeline": [{"year": 2021, "data": {"id": "ZC224486", "declaration_id": 21669, "name": "Ing. ANDREA BOLDIŠOVÁ", "year": 2021, "filed": "pri ujatí sa funkcie", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ TRANSFÚZNA SLUŽBA SR)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "MINISTERSTVO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "KARLOVA VES", "lv_number": "2938", "share": "1/1"}], "movable_property": null, "property_rights": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH, podiel: 1/1", "ŽIVOTNÉ POISTENIE, podiel: 1/1", "INVESTÍCIA V PODIELOVÝCH FONDOCH, podiel: 1/1"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2022, "data": {"id": "ZC224486", "declaration_id": 28084, "name": "Ing. ANDREA BOLDIŠOVÁ", "year": 2022, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ TRANSFÚZNA SLUŽBA SR)", "income": {"public_function": 0, "other": 38534}, "incompatibility": true, "employment": "MINISTERSTVO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "KARLOVA VES", "lv_number": "2938", "share": "1/1"}], "movable_property": null, "property_rights": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH - ÚSPORY, podiel: 1/1", "ŽIVOTNÉ POISTENIE, podiel: 1/1", "INVESTÍCIA V PODIELOVÝCH FONDOCH, podiel: 1/1"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 0, "other": 38534}, "old_total": 0, "new_total": 38534, "delta": 38534}, {"field": "property_rights", "old": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH, podiel: 1/1", "ŽIVOTNÉ POISTENIE, podiel: 1/1", "INVESTÍCIA V PODIELOVÝCH FONDOCH, podiel: 1/1"], "new": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH - ÚSPORY, podiel: 1/1", "ŽIVOTNÉ POISTENIE, podiel: 1/1", "INVESTÍCIA V PODIELOVÝCH FONDOCH, podiel: 1/1"], "old_count": 3, "new_count": 3}]}}, {"year": 2023, "data": {"id": "ZC224486", "declaration_id": 34013, "name": "Ing. ANDREA BOLDIŠOVÁ", "year": 2023, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ TRANSFÚZNA SLUŽBA SR)", "income": {"public_function": 0, "other": 42886}, "incompatibility": true, "employment": "MINISTERSTVO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "KARLOVA VES", "lv_number": "2938", "share": "1/1"}], "movable_property": null, "property_rights": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH - ÚSPORY , podiel: 1/1", "ŽIVOTNÉ POISTENIE , podiel: 1/1", "INVESTÍCIA V PODIELOVÝCH FONDOCH , podiel: 1/1"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 38534}, "new": {"public_function": 0, "other": 42886}, "old_total": 38534, "new_total": 42886, "delta": 4352, "delta_pct": 11.3}, {"field": "employment", "old": "MINISTERSTVO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "new": "MINISTERSTVO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "property_rights", "old": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH - ÚSPORY, podiel: 1/1", "ŽIVOTNÉ POISTENIE, podiel: 1/1", "INVESTÍCIA V PODIELOVÝCH FONDOCH, podiel: 1/1"], "new": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH - ÚSPORY , podiel: 1/1", "ŽIVOTNÉ POISTENIE , podiel: 1/1", "INVESTÍCIA V PODIELOVÝCH FONDOCH , podiel: 1/1"], "old_count": 3, "new_count": 3}]}}, {"year": 2024, "data": {"id": "ZC224486", "declaration_id": 37433, "name": "Ing. ANDREA BOLDIŠOVÁ", "year": 2024, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ TRANSFÚZNA SLUŽBA SR)", "income": {"public_function": 0, "other": 43071}, "incompatibility": true, "employment": "MINISTERSTVO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "KARLOVA VES", "lv_number": "2938", "share": "1/1"}], "movable_property": null, "property_rights": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH - ÚSPORY, podiel: 1/1", "ŽIVOTNÉ POISTENIE, podiel: 1/1", "INVESTÍCIA V PODIELOVÝCH FONDOCH, podiel: 1/1"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 42886}, "new": {"public_function": 0, "other": 43071}, "old_total": 42886, "new_total": 43071, "delta": 185, "delta_pct": 0.4}, {"field": "employment", "old": "MINISTERSTVO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "new": "MINISTERSTVO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "property_rights", "old": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH - ÚSPORY , podiel: 1/1", "ŽIVOTNÉ POISTENIE , podiel: 1/1", "INVESTÍCIA V PODIELOVÝCH FONDOCH , podiel: 1/1"], "new": ["FINANČNÉ PROSTRIEDKY NA ÚČTOCH - ÚSPORY, podiel: 1/1", "ŽIVOTNÉ POISTENIE, podiel: 1/1", "INVESTÍCIA V PODIELOVÝCH FONDOCH, podiel: 1/1"], "old_count": 3, "new_count": 3}]}}], "total_changes": 8, "slug": "ing-andrea-boldisova"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

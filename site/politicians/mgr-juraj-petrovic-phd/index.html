@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,57 +38,74 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Mgr. Juraj Petrovič, PhD.</h1>
-    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ) · príjem 59 905 € · 1 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)</p>
+    <p class="detail-summary">príjem 59 905 € · 1 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Juraj.Petrovic" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>59 905 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>6</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
-        <div><dt>Iné</dt><dd>59 905 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Juraj.Petrovic">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>59 905 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>6</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>MINISTERSTVO ZDRAVOTNÍCTVA SR
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: NOVÉ MESTO BRATISLAVA III · LV: 2692 · Podiel: 1/1</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
+          <div><dt>Iné</dt><dd>59 905 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>MINISTERSTVO ZDRAVOTNÍCTVA SR Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: NOVÉ MESTO BRATISLAVA III · LV: 2692 · Podiel: 1/1</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>public_function; Príjmy: 0 € → 59 905 € (+59 905 €); Zamestnanie; Nehnuteľnosti: 1 → 1 (0); Hnuteľný majetok; Majetkové práva</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Mgr. Juraj Petrovič, PhD.", "item": "/politicians/mgr-juraj-petrovic-phd/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Mgr. Juraj Petrovič, PhD.", "description": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ) · príjem 59 905 € · 1 nehnuteľností · 1 záväzkov", "url": "/politicians/mgr-juraj-petrovic-phd/", "jobTitle": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Juraj.Petrovic", "name": "Mgr. Juraj Petrovič, PhD.", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)", "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)", "years": [2023, 2024], "timeline": [{"year": 2023, "data": {"id": "ZC246123", "declaration_id": 32017, "name": "Mgr. JURAJ PETROVIČ, PhD.", "year": 2023, "filed": "pri ujatí sa funkcie", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM V KOVÁČOVEJ)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "MINISTERSTVO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA III. - NOVÉ MESTO", "lv_number": "2692", "share": "1/1"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2024, "data": {"id": "ZC246123", "declaration_id": 37571, "name": "Mgr. JURAJ PETROVIČ, PhD.", "year": 2024, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)", "income": {"public_function": 0, "other": 59905}, "incompatibility": true, "employment": "MINISTERSTVO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "NOVÉ MESTO BRATISLAVA III", "lv_number": "2692", "share": "1/1"}], "movable_property": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "VOLVO", "year_of_manufacture": 2012, "share": "1/1"}, {"type": "MOTOCYKEL", "brand": "ČZ", "year_of_manufacture": 1968, "share": "1/1"}, {"type": "MOTOCYKEL", "brand": "JAWA", "year_of_manufacture": 1969, "share": "1/1"}], "property_rights": ["ÚSPORY, podiel: 1/1"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM V KOVÁČOVEJ)", "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)"}, {"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 0, "other": 59905}, "old_total": 0, "new_total": 59905, "delta": 59905}, {"field": "employment", "old": "MINISTERSTVO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "new": "MINISTERSTVO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "BRATISLAVA III. - NOVÉ MESTO", "lv_number": "2692", "share": "1/1"}], "new": [{"type": "BYT", "cadastral_territory": "NOVÉ MESTO BRATISLAVA III", "lv_number": "2692", "share": "1/1"}], "old_count": 1, "new_count": 1}, {"field": "movable_property", "old": null, "new": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "VOLVO", "year_of_manufacture": 2012, "share": "1/1"}, {"type": "MOTOCYKEL", "brand": "ČZ", "year_of_manufacture": 1968, "share": "1/1"}, {"type": "MOTOCYKEL", "brand": "JAWA", "year_of_manufacture": 1969, "share": "1/1"}]}, {"field": "property_rights", "old": null, "new": ["ÚSPORY, podiel: 1/1"]}]}}], "total_changes": 6, "slug": "mgr-juraj-petrovic-phd"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

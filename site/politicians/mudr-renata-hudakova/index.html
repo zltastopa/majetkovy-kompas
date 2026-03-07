@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,75 +38,98 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>MUDr. Renáta Hudáková</h1>
-    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V SPIŠSKEJ NOVEJ VSI) · príjem 48 700 € · 3 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V SPIŠSKEJ NOVEJ VSI)</p>
+    <p class="detail-summary">príjem 48 700 € · 3 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Renata.Hudakova" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>48 700 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>15</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>48 700 €</dd></div>
-        <div><dt>Iné</dt><dd>0 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Renata.Hudakova">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>48 700 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>15</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>Neuvedené</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE - RODINNÝ DOM</strong><span>Kat. územie: SPIŠSKÁ NOVÁ VES · LV: 5471 · Podiel: 1/1</span></li><li><strong>TRVALÝ TRÁVNATÝ PORAST</strong><span>Kat. územie: SPIŠSKÁ NOVÁ VES · LV: 5471 · Podiel: 1/1</span></li><li><strong>ORNÁ PÔDA</strong><span>Kat. územie: KOŠICE SEVER, SEVERNÉ MESTO · LV: 11767 · Podiel: 1/2</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>48 700 €</dd></div>
+          <div><dt>Iné</dt><dd>0 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>Neuvedené</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>ZASTAVANÁ PLOCHA A NÁDVORIE - RODINNÝ DOM</strong><span>Kat. územie: SPIŠSKÁ NOVÁ VES · LV: 5471 · Podiel: 1/1</span></li><li><strong>TRVALÝ TRÁVNATÝ PORAST</strong><span>Kat. územie: SPIŠSKÁ NOVÁ VES · LV: 5471 · Podiel: 1/1</span></li><li><strong>ORNÁ PÔDA</strong><span>Kat. územie: KOŠICE SEVER, SEVERNÉ MESTO · LV: 11767 · Podiel: 1/2</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>public_function; Príjmy: 49 500 € → 48 700 € (-800 €); Nehnuteľnosti: 6 → 3 (-3)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>public_function; Príjmy: 44 128 € → 49 500 € (+5 372 €); Nehnuteľnosti: 6 → 6 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>public_function; Príjmy: 47 725 € → 44 128 € (-3 597 €); Nehnuteľnosti: 6 → 6 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>public_function; Príjmy: 38 381 € → 47 725 € (+9 344 €); Nehnuteľnosti: 5 → 6 (+1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2020,2021">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2020</strong>
   <span>public_function; Príjmy: 0 € → 38 381 € (+38 381 €); Nehnuteľnosti: 5 → 5 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2019,2020">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2019</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "MUDr. Renáta Hudáková", "item": "/politicians/mudr-renata-hudakova/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "MUDr. Renáta Hudáková", "description": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V SPIŠSKEJ NOVEJ VSI) · príjem 48 700 € · 3 nehnuteľností · 1 záväzkov", "url": "/politicians/mudr-renata-hudakova/", "jobTitle": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V SPIŠSKEJ NOVEJ VSI)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Renata.Hudakova", "name": "MUDr. Renáta Hudáková", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V SPIŠSKEJ NOVEJ VSI)", "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V SPIŠSKEJ NOVEJ VSI)", "years": [2019, 2020, 2021, 2022, 2023, 2024], "timeline": [{"year": 2019, "data": {"id": "ZC203428", "declaration_id": 16581, "name": "MUDr. RENÁTA HUDÁKOVÁ", "year": 2019, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO\r\nZDRAVOTNÍCTVA)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA-RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE-SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": [{"type": "OSOBNÉ VOZIDLO", "brand": "OPEL", "year_of_manufacture": 2014}], "gifts": null}, "diff": {"type": "new"}}, {"year": 2020, "data": {"id": "ZC203428", "declaration_id": 20060, "name": "MUDr. RENÁTA HUDÁKOVÁ", "year": 2020, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SPIŠSKÁ NOVÁ VES)", "income": {"public_function": 38381, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA - RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "TRVALY TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE - SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": [{"type": "OSOBNÉ VOZIDLO", "brand": "OPEL", "year_of_manufacture": 2014}], "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO\r\nZDRAVOTNÍCTVA)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SPIŠSKÁ NOVÁ VES)"}, {"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 38381, "other": 0}, "old_total": 0, "new_total": 38381, "delta": 38381}, {"field": "real_estate", "old": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA-RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE-SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}], "new": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA - RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "TRVALY TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE - SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}], "old_count": 5, "new_count": 5}]}}, {"year": 2021, "data": {"id": "ZC203428", "declaration_id": 25026, "name": "MUDr. RENÁTA HUDÁKOVÁ", "year": 2021, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V SPIŠSKEJ NOVEJ VSI)", "income": {"public_function": 47725, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA -  RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE - SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÝ RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": [{"type": "OSOBNÉ VOZIDLO", "brand": "OPEL", "year_of_manufacture": 2014}], "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SPIŠSKÁ NOVÁ VES)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V SPIŠSKEJ NOVEJ VSI)"}, {"field": "income", "old": {"public_function": 38381, "other": 0}, "new": {"public_function": 47725, "other": 0}, "old_total": 38381, "new_total": 47725, "delta": 9344, "delta_pct": 24.3}, {"field": "real_estate", "old": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA - RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/1"}, {"type": "TRVALY TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE - SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}], "new": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA -  RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE - SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÝ RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}], "old_count": 5, "new_count": 6}]}}, {"year": 2022, "data": {"id": "ZC203428", "declaration_id": 28353, "name": "MUDr. RENÁTA HUDÁKOVÁ", "year": 2022, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA\r\nSPIŠSKÁ NOVÁ VES)", "income": {"public_function": 44128, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÝ RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIA - RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": [{"type": "OSOBNÉ VOZIDLO", "brand": "OPEL", "year_of_manufacture": 2014}], "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V SPIŠSKEJ NOVEJ VSI)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA\r\nSPIŠSKÁ NOVÁ VES)"}, {"field": "income", "old": {"public_function": 47725, "other": 0}, "new": {"public_function": 44128, "other": 0}, "old_total": 47725, "new_total": 44128, "delta": -3597, "delta_pct": -7.5}, {"field": "real_estate", "old": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA -  RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE - SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÝ RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}], "new": [{"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÝ RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIA - RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}], "old_count": 6, "new_count": 6}]}}, {"year": 2023, "data": {"id": "ZC203428", "declaration_id": 34143, "name": "MUDr. RENÁTA HUDÁKOVÁ", "year": 2023, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM SPIŠSKÁ NOVÁ VES)", "income": {"public_function": 49500, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA - RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE-SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÝ RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": [{"type": "OSOBNÉ VOZIDLO", "brand": "OPEL", "year_of_manufacture": 2014}], "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA\r\nSPIŠSKÁ NOVÁ VES)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM SPIŠSKÁ NOVÁ VES)"}, {"field": "income", "old": {"public_function": 44128, "other": 0}, "new": {"public_function": 49500, "other": 0}, "old_total": 44128, "new_total": 49500, "delta": 5372, "delta_pct": 12.2}, {"field": "real_estate", "old": [{"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÝ RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIA - RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}], "new": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA - RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE-SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÝ RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}], "old_count": 6, "new_count": 6}]}}, {"year": 2024, "data": {"id": "ZC203428", "declaration_id": 38284, "name": "MUDr. RENÁTA HUDÁKOVÁ", "year": 2024, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V SPIŠSKEJ NOVEJ VSI)", "income": {"public_function": 48700, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIE - RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": [{"type": "OSOBNÉ VOZIDLO", "brand": "OPEL", "year_of_manufacture": 2014}], "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM SPIŠSKÁ NOVÁ VES)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V SPIŠSKEJ NOVEJ VSI)"}, {"field": "income", "old": {"public_function": 49500, "other": 0}, "new": {"public_function": 48700, "other": 0}, "old_total": 49500, "new_total": 48700, "delta": -800, "delta_pct": -1.6}, {"field": "real_estate", "old": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIA - RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "ZÁHRADA", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "6614", "share": "1/2"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE-SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}, {"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÝ RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}], "new": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIE - RODINNÝ DOM", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "TRVALÝ TRÁVNATÝ PORAST", "cadastral_territory": "SPIŠSKÁ NOVÁ VES", "lv_number": "5471", "share": "1/1"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "KOŠICE SEVER, SEVERNÉ MESTO", "lv_number": "11767", "share": "1/2"}], "old_count": 6, "new_count": 3}]}}], "total_changes": 15, "slug": "mudr-renata-hudakova"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

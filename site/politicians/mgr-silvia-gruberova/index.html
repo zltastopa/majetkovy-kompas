@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,77 +38,98 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Mgr. Silvia Grúberová</h1>
-    <p class="lede">primátor mesta · príjem 51 400 € · 1 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">primátor mesta</p>
+    <p class="detail-summary">príjem 51 400 € · 1 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Silvia.Gruberova" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>51 400 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>15</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>51 400 €</dd></div>
-        <div><dt>Iné</dt><dd>0 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Silvia.Gruberova">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>51 400 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>15</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>MESTO ŽIAR NAD HRONOM
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-áno</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: HANDLOVÁ · LV: 3131 · Podiel: 2/3</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>ÚVER NA BÝVANIE</strong><span>Podiel: 100% · Vznik: 15. 10. 2014</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>51 400 €</dd></div>
+          <div><dt>Iné</dt><dd>0 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>MESTO ŽIAR NAD HRONOM Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: áno</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: HANDLOVÁ · LV: 3131 · Podiel: 2/3</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>ÚVER NA BÝVANIE</strong><span>Podiel: 100% · Vznik: 15. 10. 2014</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 37 753 € → 51 400 € (+13 647 €); Funkcie: 8 → 9 (+1); Hnuteľný majetok; Vozidlá</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 38 761 € → 37 753 € (-1 008 €); Funkcie: 8 → 8 (0); Záväzky: 2 → 1 (-1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 38 185 € → 38 761 € (+576 €); Funkcie: 8 → 8 (0); Nehnuteľnosti: 1 → 1 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>Príjmy: 36 695 € → 38 185 € (+1 490 €); Funkcie: 7 → 8 (+1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2020,2021">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2020</strong>
   <span>Príjmy: 34 053 € → 36 695 € (+2 642 €); Funkcie: 7 → 7 (0); Záväzky: 2 → 2 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2019,2020">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2019</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Mgr. Silvia Grúberová", "item": "/politicians/mgr-silvia-gruberova/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Mgr. Silvia Grúberová", "description": "primátor mesta · príjem 51 400 € · 1 nehnuteľností · 1 záväzkov", "url": "/politicians/mgr-silvia-gruberova/", "jobTitle": "primátor mesta"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Silvia.Gruberova", "name": "Mgr. Silvia Grúberová", "public_function": "primátor mesta", "role": "primátor mesta", "years": [2019, 2020, 2021, 2022, 2023, 2024], "timeline": [{"year": 2019, "data": {"id": "P202534", "declaration_id": 16762, "name": "Mgr. SILVIA GRÚBEROVÁ", "year": 2019, "filed": "k 30. aprílu", "public_function": "primátor mesta", "income": {"public_function": 34053, "other": 0}, "incompatibility": true, "employment": "MESTO ŽIAR NAD HRONOM\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno", "business_activity": null, "positions": [{"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVA A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ŽHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN.M.O.S. A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMÍN N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ, S.R.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIORCENTRUM N.O.", "benefits": "ŽIADNE"}], "real_estate": [{"type": "BYT", "cadastral_territory": "HANDLOVÁ", "lv_number": "3131", "share": "1/2"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "ÚVER NA BÝVANIE", "share": "1/1", "date": "15. 10. 2014"}, {"type": "SPOTREBITEĽSKÝ ÚVER", "share": "1/1", "date": "20. 07. 2019"}], "use_of_others_real_estate": null, "vehicles": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "SUZUKI", "year_of_manufacture": 2019}], "gifts": null}, "diff": {"type": "new"}}, {"year": 2020, "data": {"id": "P202534", "declaration_id": 20609, "name": "Mgr. SILVIA GRÚBEROVÁ", "year": 2020, "filed": "k 30. aprílu", "public_function": "primátor mesta", "income": {"public_function": 36695, "other": 0}, "incompatibility": true, "employment": "MESTO ŽIAR NAD HRONOM\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno", "business_activity": null, "positions": [{"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVÁ A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN.M.O.S. A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMÍN N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIOR CENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}], "real_estate": [{"type": "BYT", "cadastral_territory": "HANDLOVÁ", "lv_number": "3131", "share": "1/2"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "ÚVER NA BÝVANIE", "share": "100%", "date": "15. 10. 2014"}, {"type": "SPOTREBITEĽSKÝ ÚVER", "share": "100%", "date": "20. 07. 2019"}], "use_of_others_real_estate": null, "vehicles": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "SUZUKI", "year_of_manufacture": 2019}], "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 34053, "other": 0}, "new": {"public_function": 36695, "other": 0}, "old_total": 34053, "new_total": 36695, "delta": 2642, "delta_pct": 7.8}, {"field": "positions", "old": [{"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVA A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ŽHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN.M.O.S. A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMÍN N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ, S.R.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIORCENTRUM N.O.", "benefits": "ŽIADNE"}], "new": [{"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVÁ A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN.M.O.S. A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMÍN N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIOR CENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}], "old_count": 7, "new_count": 7}, {"field": "obligations", "old": [{"type": "ÚVER NA BÝVANIE", "share": "1/1", "date": "15. 10. 2014"}, {"type": "SPOTREBITEĽSKÝ ÚVER", "share": "1/1", "date": "20. 07. 2019"}], "new": [{"type": "ÚVER NA BÝVANIE", "share": "100%", "date": "15. 10. 2014"}, {"type": "SPOTREBITEĽSKÝ ÚVER", "share": "100%", "date": "20. 07. 2019"}], "old_count": 2, "new_count": 2}]}}, {"year": 2021, "data": {"id": "P202534", "declaration_id": 24417, "name": "Mgr. SILVIA GRÚBEROVÁ", "year": 2021, "filed": "k 30. aprílu", "public_function": "primátor mesta", "income": {"public_function": 38185, "other": 0}, "incompatibility": true, "employment": "MESTO ŽIAR NAD HRONOM\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno", "business_activity": null, "positions": [{"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVÁ, A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN. M. O. S A. S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMÍN N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIOR CENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN DOZORNEJ RADY", "organization": "HANDLOVSKÉ LESY N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ,  S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ, S.R.O.", "benefits": "ŽIADNE"}], "real_estate": [{"type": "BYT", "cadastral_territory": "HANDLOVÁ", "lv_number": "3131", "share": "1/2"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "ÚVER NA BÝVANIE", "share": "100%", "date": "15. 10. 2014"}, {"type": "SPOTREBITEĽSKÝ ÚVER", "share": "100%", "date": "20. 07. 2019"}], "use_of_others_real_estate": null, "vehicles": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "SUZUKI", "year_of_manufacture": 2019}], "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 36695, "other": 0}, "new": {"public_function": 38185, "other": 0}, "old_total": 36695, "new_total": 38185, "delta": 1490, "delta_pct": 4.1}, {"field": "positions", "old": [{"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVÁ A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN.M.O.S. A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMÍN N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIOR CENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}], "new": [{"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVÁ, A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN. M. O. S A. S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMÍN N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIOR CENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN DOZORNEJ RADY", "organization": "HANDLOVSKÉ LESY N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ,  S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ, S.R.O.", "benefits": "ŽIADNE"}], "old_count": 7, "new_count": 8}]}}, {"year": 2022, "data": {"id": "P202534", "declaration_id": 27915, "name": "Mgr. SILVIA GRÚBEROVÁ", "year": 2022, "filed": "k 30. aprílu", "public_function": "primátor mesta", "income": {"public_function": 38761, "other": 0}, "incompatibility": true, "employment": "MESTO ŽIAR NAD HRONOM\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno", "business_activity": null, "positions": [{"role": "ČLEN DOZORNEJ RADY", "organization": "HANDLOVSKÉ LESY N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIORCENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVA A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMIN N.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN. M.O.S. AS.", "benefits": "ŽIADNE"}], "real_estate": [{"type": "BYT", "cadastral_territory": "HANDLOVÁ", "lv_number": "3131", "share": "2/3"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "ÚVER NA BÝVANIE", "share": "100%", "date": "15. 10. 2014"}, {"type": "SPOTREBITEĽSKÝ ÚVER", "share": "100%", "date": "20. 07. 2019"}], "use_of_others_real_estate": null, "vehicles": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "SUZUKI", "year_of_manufacture": 2019}], "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 38185, "other": 0}, "new": {"public_function": 38761, "other": 0}, "old_total": 38185, "new_total": 38761, "delta": 576, "delta_pct": 1.5}, {"field": "positions", "old": [{"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVÁ, A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN. M. O. S A. S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMÍN N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIOR CENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN DOZORNEJ RADY", "organization": "HANDLOVSKÉ LESY N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ,  S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ, S.R.O.", "benefits": "ŽIADNE"}], "new": [{"role": "ČLEN DOZORNEJ RADY", "organization": "HANDLOVSKÉ LESY N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIORCENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVA A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMIN N.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN. M.O.S. AS.", "benefits": "ŽIADNE"}], "old_count": 8, "new_count": 8}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "HANDLOVÁ", "lv_number": "3131", "share": "1/2"}], "new": [{"type": "BYT", "cadastral_territory": "HANDLOVÁ", "lv_number": "3131", "share": "2/3"}], "old_count": 1, "new_count": 1}]}}, {"year": 2023, "data": {"id": "P202534", "declaration_id": 32871, "name": "Mgr. SILVIA GRÚBEROVÁ", "year": 2023, "filed": "k 30. aprílu", "public_function": "primátor mesta", "income": {"public_function": 37753, "other": 0}, "incompatibility": true, "employment": "MESTO ŽIAR NAD HRONOM\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno", "business_activity": null, "positions": [{"role": "ČLEN DOZORNEJ RADY", "organization": "HANDLOVSKÉ LESY N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIOR CENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVÁ A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMÍN N.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN. M.O.S. A.S.", "benefits": "ŽIADNE"}], "real_estate": [{"type": "BYT", "cadastral_territory": "HANDLOVÁ", "lv_number": "3131", "share": "2/3"}], "movable_property": null, "property_rights": null, "obligations": [{"type": "ÚVER NA BÝVANIE", "share": "100%", "date": "15. 10. 2014"}], "use_of_others_real_estate": null, "vehicles": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "SUZUKI", "year_of_manufacture": 2019}], "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 38761, "other": 0}, "new": {"public_function": 37753, "other": 0}, "old_total": 38761, "new_total": 37753, "delta": -1008, "delta_pct": -2.6}, {"field": "positions", "old": [{"role": "ČLEN DOZORNEJ RADY", "organization": "HANDLOVSKÉ LESY N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIORCENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVA A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMIN N.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN. M.O.S. AS.", "benefits": "ŽIADNE"}], "new": [{"role": "ČLEN DOZORNEJ RADY", "organization": "HANDLOVSKÉ LESY N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIOR CENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVÁ A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMÍN N.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN. M.O.S. A.S.", "benefits": "ŽIADNE"}], "old_count": 8, "new_count": 8}, {"field": "obligations", "old": [{"type": "ÚVER NA BÝVANIE", "share": "100%", "date": "15. 10. 2014"}, {"type": "SPOTREBITEĽSKÝ ÚVER", "share": "100%", "date": "20. 07. 2019"}], "new": [{"type": "ÚVER NA BÝVANIE", "share": "100%", "date": "15. 10. 2014"}], "old_count": 2, "new_count": 1}]}}, {"year": 2024, "data": {"id": "P202534", "declaration_id": 38164, "name": "Mgr. SILVIA GRÚBEROVÁ", "year": 2024, "filed": "k 30. aprílu", "public_function": "primátor mesta", "income": {"public_function": 51400, "other": 0}, "incompatibility": true, "employment": "MESTO ŽIAR NAD HRONOM\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno", "business_activity": null, "positions": [{"role": "ČLEN VALNÉHO ZHROHAŽDENIA", "organization": "KMET HANDLOVÁ A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN.M.O.S  A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMÍN N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIOR CENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN DOZORNEJ RADY", "organization": "HANDLOVSKÉ LESY N.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN DOZORNEJ RADY", "organization": "REGIÓN HORNÁ NITRA - BOJNICE OOCR N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}], "real_estate": [{"type": "BYT", "cadastral_territory": "HANDLOVÁ", "lv_number": "3131", "share": "2/3"}], "movable_property": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "SUZUKI", "year_of_manufacture": 2019, "share": "1/1"}], "property_rights": null, "obligations": [{"type": "ÚVER NA BÝVANIE", "share": "100%", "date": "15. 10. 2014"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 37753, "other": 0}, "new": {"public_function": 51400, "other": 0}, "old_total": 37753, "new_total": 51400, "delta": 13647, "delta_pct": 36.1}, {"field": "positions", "old": [{"role": "ČLEN DOZORNEJ RADY", "organization": "HANDLOVSKÉ LESY N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIOR CENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "KMET HANDLOVÁ A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMÍN N.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN. M.O.S. A.S.", "benefits": "ŽIADNE"}], "new": [{"role": "ČLEN VALNÉHO ZHROHAŽDENIA", "organization": "KMET HANDLOVÁ A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "HANDLOVSKÁ ENERGETIKA S.R.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN VALNÉHO ZHROMAŽDENIA", "organization": "FIN.M.O.S  A.S.", "benefits": "ŽIADNE"}, {"role": "ČLEN SPRÁVNEJ RADY", "organization": "JAZMÍN N.O.", "benefits": "ŽIADNE"}, {"role": "PREDSEDA SPRÁVNEJ RADY", "organization": "SENIOR CENTRUM HANDLOVÁ N.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN DOZORNEJ RADY", "organization": "HANDLOVSKÉ LESY N.O.", "benefits": "ŽIADNE"}, {"role": "ČLEN DOZORNEJ RADY", "organization": "REGIÓN HORNÁ NITRA - BOJNICE OOCR N.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "HATER HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}, {"role": "VALNÉ ZHROMAŽDENIE", "organization": "MESTSKÝ BYTOVÝ PODNIK HANDLOVÁ S.R.O.", "benefits": "ŽIADNE"}], "old_count": 8, "new_count": 9}, {"field": "movable_property", "old": null, "new": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "SUZUKI", "year_of_manufacture": 2019, "share": "1/1"}]}, {"field": "vehicles", "old": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "SUZUKI", "year_of_manufacture": 2019}], "new": null}]}}], "total_changes": 15, "slug": "mgr-silvia-gruberova"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

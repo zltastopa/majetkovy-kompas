@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,72 +38,92 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Ing. Dušan Butaš</h1>
-    <p class="lede">člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA) · príjem 54 467 € · 3 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)</p>
+    <p class="detail-summary">príjem 54 467 € · 3 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Dusan.Butas" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>54 467 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>9</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
-        <div><dt>Iné</dt><dd>54 467 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Dusan.Butas">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>54 467 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>9</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>ÚRAD PRE NORMALIZÁCIU METROLÓGIU A SKÚŠOBNÍCTVO
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>5- IZBOVÝ BYT</strong><span>Kat. územie: BRATISLAVA - KARLOVA VES · LV: 1988, 3343 · Podiel: BSM</span></li><li><strong>3- IZBOVÝ BYT</strong><span>Kat. územie: BRATISLAVA - KARLOVA VES · LV: 2525 · Podiel: BSM</span></li><li><strong>2- IZBOVÝ BYT</strong><span>Kat. územie: BRATISLAVA - VRAKUŇA · LV: 6530 · Podiel: BSM</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>HYPOTEKÁRNÝ ÚVER</strong><span>Podiel: BSM · Vznik: 05. 03. 2019</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
+          <div><dt>Iné</dt><dd>54 467 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>ÚRAD PRE NORMALIZÁCIU METROLÓGIU A SKÚŠOBNÍCTVO Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>5- IZBOVÝ BYT</strong><span>Kat. územie: BRATISLAVA - KARLOVA VES · LV: 1988, 3343 · Podiel: BSM</span></li><li><strong>3- IZBOVÝ BYT</strong><span>Kat. územie: BRATISLAVA - KARLOVA VES · LV: 2525 · Podiel: BSM</span></li><li><strong>2- IZBOVÝ BYT</strong><span>Kat. územie: BRATISLAVA - VRAKUŇA · LV: 6530 · Podiel: BSM</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>HYPOTEKÁRNÝ ÚVER</strong><span>Podiel: BSM · Vznik: 05. 03. 2019</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 53 197 € → 54 467 € (+1 270 €); Nehnuteľnosti: 3 → 3 (0); Záväzky: 1 → 1 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 41 468 € → 53 197 € (+11 729 €); Nehnuteľnosti: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 27 859 € → 41 468 € (+13 609 €); Nehnuteľnosti: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>Príjmy: 0 € → 27 859 € (+27 859 €); Nehnuteľnosti: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2020,2021">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2020</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Ing. Dušan Butaš", "item": "/politicians/ing-dusan-butas/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ing. Dušan Butaš", "description": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA) · príjem 54 467 € · 3 nehnuteľností · 1 záväzkov", "url": "/politicians/ing-dusan-butas/", "jobTitle": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Dusan.Butas", "name": "Ing. Dušan Butaš", "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "role": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "years": [2020, 2021, 2022, 2023, 2024], "timeline": [{"year": 2020, "data": {"id": "ZD214300", "declaration_id": 19129, "name": "Ing. DUŠAN BUTAŠ", "year": 2020, "filed": "pri ujatí sa funkcie", "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "ÚRAD PRE NORMALIZÁCIU METROLÓGIU A SKÚŠOBNÍCTVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "5-IZBOVÝ BYT", "cadastral_territory": "BRATISLAVA- KARLOVA VES", "lv_number": "1988,3343", "share": "BSM"}, {"type": "3-IZBOVÝ BYT", "cadastral_territory": "BRATISLAVA- KARLOVA VES", "lv_number": "2525", "share": "BSM"}, {"type": "1-IZBOVÝ BYT", "cadastral_territory": "BRATISLAVA-RUŽINOV", "lv_number": "4362", "share": "BSM"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "NISSAN", "year_of_manufacture": 2016, "share": "BSM"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "05. 03. 2019"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2021, "data": {"id": "ZD214300", "declaration_id": 24240, "name": "Ing. DUŠAN BUTAŠ", "year": 2021, "filed": "k 30. aprílu", "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "income": {"public_function": 0, "other": 27859}, "incompatibility": true, "employment": "ÚRAD PRE NORMALIZÁCIU METROLÓGIU A SKÚŠOBNÍCTVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "1988, 3343", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2525", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "4362", "share": "BSM"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "NISSAN", "year_of_manufacture": 2016, "share": "BSM"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "05. 03. 2019"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 0, "other": 27859}, "old_total": 0, "new_total": 27859, "delta": 27859}, {"field": "real_estate", "old": [{"type": "5-IZBOVÝ BYT", "cadastral_territory": "BRATISLAVA- KARLOVA VES", "lv_number": "1988,3343", "share": "BSM"}, {"type": "3-IZBOVÝ BYT", "cadastral_territory": "BRATISLAVA- KARLOVA VES", "lv_number": "2525", "share": "BSM"}, {"type": "1-IZBOVÝ BYT", "cadastral_territory": "BRATISLAVA-RUŽINOV", "lv_number": "4362", "share": "BSM"}], "new": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "1988, 3343", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2525", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "4362", "share": "BSM"}], "old_count": 3, "new_count": 3}]}}, {"year": 2022, "data": {"id": "ZD214300", "declaration_id": 28191, "name": "Ing. DUŠAN BUTAŠ", "year": 2022, "filed": "k 30. aprílu", "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "income": {"public_function": 0, "other": 41468}, "incompatibility": true, "employment": "ÚRAD PRE NORMALIZÁCIU METROLÓGIU A SKÚŠOBNÍCTVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA KARLOVA VES", "lv_number": "1988, 3343", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA KARLOVA VES", "lv_number": "2525", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA VRAKUŇA", "lv_number": "6530", "share": "BSM"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "NISSAN", "year_of_manufacture": 2016, "share": "BSM"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "05. 03. 2019"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 27859}, "new": {"public_function": 0, "other": 41468}, "old_total": 27859, "new_total": 41468, "delta": 13609, "delta_pct": 48.8}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "1988, 3343", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2525", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "4362", "share": "BSM"}], "new": [{"type": "BYT", "cadastral_territory": "BRATISLAVA KARLOVA VES", "lv_number": "1988, 3343", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA KARLOVA VES", "lv_number": "2525", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA VRAKUŇA", "lv_number": "6530", "share": "BSM"}], "old_count": 3, "new_count": 3}]}}, {"year": 2023, "data": {"id": "ZD214300", "declaration_id": 33362, "name": "Ing. DUŠAN BUTAŠ", "year": 2023, "filed": "k 30. aprílu", "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "income": {"public_function": 0, "other": 53197}, "incompatibility": true, "employment": "ÚRAD PRE NORMALIZÁCIU METROLÓGIU A SKÚŠOBNÍCTVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "1988, 3343", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2525", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - VRAKUŇA", "lv_number": "6530", "share": "BSM"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "NISSAN", "year_of_manufacture": 2016, "share": "BSM"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "05. 03. 2019"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 41468}, "new": {"public_function": 0, "other": 53197}, "old_total": 41468, "new_total": 53197, "delta": 11729, "delta_pct": 28.3}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "BRATISLAVA KARLOVA VES", "lv_number": "1988, 3343", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA KARLOVA VES", "lv_number": "2525", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA VRAKUŇA", "lv_number": "6530", "share": "BSM"}], "new": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "1988, 3343", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2525", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - VRAKUŇA", "lv_number": "6530", "share": "BSM"}], "old_count": 3, "new_count": 3}]}}, {"year": 2024, "data": {"id": "ZD214300", "declaration_id": 37892, "name": "Ing. DUŠAN BUTAŠ", "year": 2024, "filed": "k 30. aprílu", "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (SLOVENSKÁ NÁRODNÁ AKREDITAČNÁ SLUŽBA)", "income": {"public_function": 0, "other": 54467}, "incompatibility": true, "employment": "ÚRAD PRE NORMALIZÁCIU METROLÓGIU A SKÚŠOBNÍCTVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "5- IZBOVÝ BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "1988, 3343", "share": "BSM"}, {"type": "3- IZBOVÝ BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2525", "share": "BSM"}, {"type": "2- IZBOVÝ BYT", "cadastral_territory": "BRATISLAVA - VRAKUŇA", "lv_number": "6530", "share": "BSM"}], "movable_property": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "NISSAN", "year_of_manufacture": 2016, "share": "BSM"}], "property_rights": null, "obligations": [{"type": "HYPOTEKÁRNÝ ÚVER", "share": "BSM", "date": "05. 03. 2019"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 53197}, "new": {"public_function": 0, "other": 54467}, "old_total": 53197, "new_total": 54467, "delta": 1270, "delta_pct": 2.4}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "1988, 3343", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2525", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - VRAKUŇA", "lv_number": "6530", "share": "BSM"}], "new": [{"type": "5- IZBOVÝ BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "1988, 3343", "share": "BSM"}, {"type": "3- IZBOVÝ BYT", "cadastral_territory": "BRATISLAVA - KARLOVA VES", "lv_number": "2525", "share": "BSM"}, {"type": "2- IZBOVÝ BYT", "cadastral_territory": "BRATISLAVA - VRAKUŇA", "lv_number": "6530", "share": "BSM"}], "old_count": 3, "new_count": 3}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM", "date": "05. 03. 2019"}], "new": [{"type": "HYPOTEKÁRNÝ ÚVER", "share": "BSM", "date": "05. 03. 2019"}], "old_count": 1, "new_count": 1}]}}], "total_changes": 9, "slug": "ing-dusan-butas"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

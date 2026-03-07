@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,70 +38,92 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Ing. Andrej Ochotnický</h1>
-    <p class="lede">člen Regulačnej rady · príjem 68 640 € · 5 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">člen Regulačnej rady</p>
+    <p class="detail-summary">príjem 68 640 € · 5 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Andrej.Ochotnicky" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>68 640 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>5</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>15</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>68 640 €</dd></div>
-        <div><dt>Iné</dt><dd>0 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Andrej.Ochotnicky">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>68 640 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>5</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>15</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>Neuvedené</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 3862 · Podiel: 1/1</span></li><li><strong>PODIEL NA SPOLOČNÝCH PRIESTOROCH</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 3862 · Podiel: 1970/52335</span></li><li><strong>POZEMOK</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 2160 · Podiel: 1/1</span></li><li><strong>POZEMOK</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 3865 · Podiel: 18803/52335</span></li><li><strong>POZEMOK</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 3873 · Podiel: 1/3</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/1 · Vznik: 30. 03. 2022</span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>68 640 €</dd></div>
+          <div><dt>Iné</dt><dd>0 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>Neuvedené</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 3862 · Podiel: 1/1</span></li><li><strong>PODIEL NA SPOLOČNÝCH PRIESTOROCH</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 3862 · Podiel: 1970/52335</span></li><li><strong>POZEMOK</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 2160 · Podiel: 1/1</span></li><li><strong>POZEMOK</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 3865 · Podiel: 18803/52335</span></li><li><strong>POZEMOK</strong><span>Kat. územie: BRATISLAVA LAMAČ · LV: 3873 · Podiel: 1/3</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>HYPOTEKÁRNY ÚVER</strong><span>Podiel: 1/1 · Vznik: 30. 03. 2022</span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 62 592 € → 68 640 € (+6 048 €)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 58 128 € → 62 592 € (+4 464 €); Nehnuteľnosti: 5 → 5 (0); Majetkové práva: 7 → 7 (0); Záväzky: 1 → 1 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 36 256 € → 58 128 € (+21 872 €); Nehnuteľnosti: 5 → 5 (0); Majetkové práva: 6 → 7 (+1); Záväzky: 1 → 1 (0); use_of_others_real_estate</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>Príjmy: 0 € → 36 256 € (+36 256 €); Nehnuteľnosti: 5 → 5 (0); Majetkové práva: 8 → 6 (-2); use_of_others_real_estate; Vozidlá</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2020,2021">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2020</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Ing. Andrej Ochotnický", "item": "/politicians/ing-andrej-ochotnicky/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ing. Andrej Ochotnický", "description": "člen Regulačnej rady · príjem 68 640 € · 5 nehnuteľností · 1 záväzkov", "url": "/politicians/ing-andrej-ochotnicky/", "jobTitle": "člen Regulačnej rady"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Andrej.Ochotnicky", "name": "Ing. Andrej Ochotnický", "public_function": "člen Regulačnej rady", "role": "člen Regulačnej rady", "years": [2020, 2021, 2022, 2023, 2024], "timeline": [{"year": 2020, "data": {"id": "ZA214267", "declaration_id": 18844, "name": "Ing. ANDREJ OCHOTNICKÝ", "year": 2020, "filed": "pri ujatí sa funkcie", "public_function": "člen Regulačnej rady", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3862", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH", "cadastral_territory": "BRATISLAVA", "lv_number": "3862", "share": "1970/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2160", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3865", "share": "18803/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3873", "share": "1/3"}], "movable_property": null, "property_rights": ["OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 475/1000", "VKLADY V BANKÁCH, podiel: 1/1", "POHĽADÁVKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMOK, podiel: 1/6"], "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "17. 08. 2018"}], "use_of_others_real_estate": "POZEMKY, kat. územie BRATISLAVA LAMAČ, rok zač. užívania: 2015, spôsob užívania: NÁJOM", "vehicles": [{"type": "MOTOROVÉ VOZIDLO", "brand": "BMW", "year_of_manufacture": 2013}], "gifts": null}, "diff": {"type": "new"}}, {"year": 2021, "data": {"id": "ZA214267", "declaration_id": 23717, "name": "Ing. ANDREJ OCHOTNICKÝ", "year": 2021, "filed": "k 30. aprílu", "public_function": "člen Regulačnej rady", "income": {"public_function": 36256, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "3862", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "3862", "share": "1970/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "2160", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "3865", "share": "18803/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "3873", "share": "1/3"}], "movable_property": null, "property_rights": ["OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 475/1000", "VKLADY V BANKÁCH, podiel: 1/1", "POHĽADÁVKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMOK, podiel: 1/6", "PREDKUPNÉ PRÁVO NA POZEMKY, podiel: 1/1"], "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "17. 08. 2018"}], "use_of_others_real_estate": "POZEMKY, kat. územie BRATISLAVA - LAMAČ, rok zač. užívania: 2015, spôsob užívania: NÁJOM", "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 36256, "other": 0}, "old_total": 0, "new_total": 36256, "delta": 36256}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3862", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH", "cadastral_territory": "BRATISLAVA", "lv_number": "3862", "share": "1970/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2160", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3865", "share": "18803/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3873", "share": "1/3"}], "new": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "3862", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "3862", "share": "1970/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "2160", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "3865", "share": "18803/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "3873", "share": "1/3"}], "old_count": 5, "new_count": 5}, {"field": "property_rights", "old": ["OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 475/1000", "VKLADY V BANKÁCH, podiel: 1/1", "POHĽADÁVKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMOK, podiel: 1/6"], "new": ["OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 475/1000", "VKLADY V BANKÁCH, podiel: 1/1", "POHĽADÁVKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMOK, podiel: 1/6", "PREDKUPNÉ PRÁVO NA POZEMKY, podiel: 1/1"], "old_count": 8, "new_count": 6}, {"field": "use_of_others_real_estate", "old": "POZEMKY, kat. územie BRATISLAVA LAMAČ, rok zač. užívania: 2015, spôsob užívania: NÁJOM", "new": "POZEMKY, kat. územie BRATISLAVA - LAMAČ, rok zač. užívania: 2015, spôsob užívania: NÁJOM"}, {"field": "vehicles", "old": [{"type": "MOTOROVÉ VOZIDLO", "brand": "BMW", "year_of_manufacture": 2013}], "new": null}]}}, {"year": 2022, "data": {"id": "ZA214267", "declaration_id": 29090, "name": "Ing. ANDREJ OCHOTNICKÝ", "year": 2022, "filed": "k 30. aprílu", "public_function": "člen Regulačnej rady", "income": {"public_function": 58128, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3862", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH", "cadastral_territory": "BATISLAVA LAMAČ", "lv_number": "3862", "share": "1370/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2160", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3865", "share": "18803/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3873", "share": "1/3"}], "movable_property": null, "property_rights": ["VKLADY V BANKÁCH, podiel: 1/1", "POHĽADÁVKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMOK, podiel: 1/6", "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 475/1000", "OBCHODNÝ PODIEL V S.R.O., podiel: 85/100"], "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "30. 09. 2022"}], "use_of_others_real_estate": "POZEMKY, kat. územie BRATISLAVA LAMAČ, rok zač. užívania: 2015, spôsob užívania: NÁJOM", "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 36256, "other": 0}, "new": {"public_function": 58128, "other": 0}, "old_total": 36256, "new_total": 58128, "delta": 21872, "delta_pct": 60.3}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "3862", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "3862", "share": "1970/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "2160", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "3865", "share": "18803/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA - LAMAČ", "lv_number": "3873", "share": "1/3"}], "new": [{"type": "BYT", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3862", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH", "cadastral_territory": "BATISLAVA LAMAČ", "lv_number": "3862", "share": "1370/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2160", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3865", "share": "18803/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3873", "share": "1/3"}], "old_count": 5, "new_count": 5}, {"field": "property_rights", "old": ["OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 475/1000", "VKLADY V BANKÁCH, podiel: 1/1", "POHĽADÁVKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMOK, podiel: 1/6", "PREDKUPNÉ PRÁVO NA POZEMKY, podiel: 1/1"], "new": ["VKLADY V BANKÁCH, podiel: 1/1", "POHĽADÁVKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMOK, podiel: 1/6", "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 475/1000", "OBCHODNÝ PODIEL V S.R.O., podiel: 85/100"], "old_count": 6, "new_count": 7}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "17. 08. 2018"}], "new": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "30. 09. 2022"}], "old_count": 1, "new_count": 1}, {"field": "use_of_others_real_estate", "old": "POZEMKY, kat. územie BRATISLAVA - LAMAČ, rok zač. užívania: 2015, spôsob užívania: NÁJOM", "new": "POZEMKY, kat. územie BRATISLAVA LAMAČ, rok zač. užívania: 2015, spôsob užívania: NÁJOM"}]}}, {"year": 2023, "data": {"id": "ZA214267", "declaration_id": 32760, "name": "Ing. ANDREJ OCHOTNICKÝ", "year": 2023, "filed": "k 30. aprílu", "public_function": "člen Regulačnej rady", "income": {"public_function": 62592, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3862", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3862", "share": "1970/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2160", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3865", "share": "18803/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3873", "share": "1/3"}], "movable_property": null, "property_rights": ["OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 85/100", "OBCHODNÝ PODIEL V S.R.O., podiel: 475/1000", "VKLADY V BANKÁCH, podiel: 1/1", "POHĽADÁVKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMOK, podiel: 1/6"], "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "30. 03. 2022"}], "use_of_others_real_estate": "POZEMKY, kat. územie BRATISLAVA LAMAČ, rok zač. užívania: 2015, spôsob užívania: NÁJOM", "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 58128, "other": 0}, "new": {"public_function": 62592, "other": 0}, "old_total": 58128, "new_total": 62592, "delta": 4464, "delta_pct": 7.7}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3862", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH", "cadastral_territory": "BATISLAVA LAMAČ", "lv_number": "3862", "share": "1370/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2160", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3865", "share": "18803/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3873", "share": "1/3"}], "new": [{"type": "BYT", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3862", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3862", "share": "1970/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2160", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3865", "share": "18803/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3873", "share": "1/3"}], "old_count": 5, "new_count": 5}, {"field": "property_rights", "old": ["VKLADY V BANKÁCH, podiel: 1/1", "POHĽADÁVKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMOK, podiel: 1/6", "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 475/1000", "OBCHODNÝ PODIEL V S.R.O., podiel: 85/100"], "new": ["OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 85/100", "OBCHODNÝ PODIEL V S.R.O., podiel: 475/1000", "VKLADY V BANKÁCH, podiel: 1/1", "POHĽADÁVKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMOK, podiel: 1/6"], "old_count": 7, "new_count": 7}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "30. 09. 2022"}], "new": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "30. 03. 2022"}], "old_count": 1, "new_count": 1}]}}, {"year": 2024, "data": {"id": "ZA214267", "declaration_id": 37074, "name": "Ing. ANDREJ OCHOTNICKÝ", "year": 2024, "filed": "k 30. aprílu", "public_function": "člen Regulačnej rady", "income": {"public_function": 68640, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3862", "share": "1/1"}, {"type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3862", "share": "1970/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "2160", "share": "1/1"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3865", "share": "18803/52335"}, {"type": "POZEMOK", "cadastral_territory": "BRATISLAVA LAMAČ", "lv_number": "3873", "share": "1/3"}], "movable_property": null, "property_rights": ["OBCHODNÝ PODIEL V S.R.O., podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 85/100", "OBCHODNÝ PODIEL V S.R.O., podiel: 475/1000", "VKLADY V BANKÁCH, podiel: 1/1", "POHĽADÁVKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMKY, podiel: 1/1", "PREDKUPNÉ PRÁVO NA POZEMOK, podiel: 1/6"], "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "1/1", "date": "30. 03. 2022"}], "use_of_others_real_estate": "POZEMKY, kat. územie BRATISLAVA LAMAČ, rok zač. užívania: 2015, spôsob užívania: NÁJOM", "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 62592, "other": 0}, "new": {"public_function": 68640, "other": 0}, "old_total": 62592, "new_total": 68640, "delta": 6048, "delta_pct": 9.7}]}}], "total_changes": 15, "slug": "ing-andrej-ochotnicky"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

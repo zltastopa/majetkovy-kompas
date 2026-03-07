@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,77 +38,98 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Igor Polák</h1>
-    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA) · príjem 47 938 € · 3 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)</p>
+    <p class="detail-summary">príjem 47 938 € · 3 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Igor.Polak" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>47 938 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>22</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>7 200 €</dd></div>
-        <div><dt>Iné</dt><dd>40 738 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Igor.Polak">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>47 938 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>22</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>ŽELEZNICE SLOVENSKEJ REPUBLIKY
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA</strong><span>Kat. územie: ČEČEJOVCE · LV: 728, 1907 · Podiel: BSM</span></li><li><strong>BYT</strong><span>Kat. územie: KOŠICE · LV: 10754 · Podiel: BSM</span></li><li><strong>LES, ORNÁ PÔDA</strong><span>Kat. územie: PLEŠIVEC · LV: 553, 357, 3035 · Podiel: 1/12, 1/2, 1/1</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>7 200 €</dd></div>
+          <div><dt>Iné</dt><dd>40 738 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>ŽELEZNICE SLOVENSKEJ REPUBLIKY Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA</strong><span>Kat. územie: ČEČEJOVCE · LV: 728, 1907 · Podiel: BSM</span></li><li><strong>BYT</strong><span>Kat. územie: KOŠICE · LV: 10754 · Podiel: BSM</span></li><li><strong>LES, ORNÁ PÔDA</strong><span>Kat. územie: PLEŠIVEC · LV: 553, 357, 3035 · Podiel: 1/12, 1/2, 1/1</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>public_function; Príjmy: 70 610 € → 47 938 € (-22 672 €); Nehnuteľnosti: 3 → 3 (0); Majetkové práva: 3 → 1 (-2)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>public_function; Príjmy: 63 090 € → 70 610 € (+7 520 €); Nehnuteľnosti: 3 → 3 (0); Hnuteľný majetok: 2 → 1 (-1); Majetkové práva: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 65 994 € → 63 090 € (-2 904 €); Nehnuteľnosti: 3 → 3 (0); Hnuteľný majetok: 3 → 2 (-1); Majetkové práva: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>public_function; Príjmy: 68 272 € → 65 994 € (-2 278 €); Nehnuteľnosti: 3 → 3 (0); Hnuteľný majetok: 3 → 3 (0); Majetkové práva: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2020,2021">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2020</strong>
   <span>public_function; Príjmy: 77 853 € → 68 272 € (-9 581 €); Nehnuteľnosti: 2 → 3 (+1); Majetkové práva: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2019,2020">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2019</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Igor Polák", "item": "/politicians/igor-polak/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Igor Polák", "description": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA) · príjem 47 938 € · 3 nehnuteľností · 1 záväzkov", "url": "/politicians/igor-polak/", "jobTitle": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Igor.Polak", "name": "Igor Polák", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)", "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)", "years": [2019, 2020, 2021, 2022, 2023, 2024], "timeline": [{"year": 2019, "data": {"id": "ZH192309", "declaration_id": 16761, "name": "Ing. IGOR POLÁK", "year": 2019, "filed": "k 30. aprílu", "public_function": "generálny riaditeľ Železníc Slovenskej republiky", "income": {"public_function": 77853, "other": 0}, "incompatibility": true, "employment": "ŽELEZNICE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "ZASTAVANÁ PLOCHA, RODINNÝ DOM, ORNÁ PÔDA", "cadastral_territory": "ČEČEJOVCE", "lv_number": "728, 1907", "share": "BSM, 1/1"}, {"type": "LESNÝ POZEMOK, ORNÁ PÔDA, RODINNÝ DOM", "cadastral_territory": "PLEŠIVEC", "lv_number": "553, 3575, 3035, 1436", "share": "1/2, 1/2, 1/1, 1/2"}], "movable_property": [{"type": "OSOBNÉ VOZIDLO", "brand": "OPEL", "year_of_manufacture": 2006, "share": "1/1"}, {"type": "OSOBNÉ VOZIDLO", "brand": "KIA", "year_of_manufacture": 2013, "share": "1/1"}, {"type": "OSOBNÉ VOZIDLO", "brand": "PEUGEOT", "year_of_manufacture": 2016, "share": "1/1"}], "property_rights": ["DLHOPISY, podiel: 1/1", "VKLAD V BANKÁCH - OSOBNÝ ÚČET, podiel: BSM", "STAVEBNÉ SPORENIE, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2020, "data": {"id": "ZH192309", "declaration_id": 20652, "name": "Ing. IGOR POLÁK", "year": 2020, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)generálny riaditeľ Železníc Slovenskej republiky", "income": {"public_function": 35926, "other": 32346}, "incompatibility": true, "employment": "ŽELEZNICE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA", "cadastral_territory": "ČEČENOVCE", "lv_number": "728", "share": "BSM"}, {"type": "ZÁHRADA", "cadastral_territory": "ČEČENOVCE", "lv_number": "1907", "share": "1/1"}, {"type": "LESNÝ POZEMOK, ORNÁ PÔDA, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553,3575,3035", "share": "1/12,1/2,1/1"}], "movable_property": [{"type": "OSOBNÉ VOZIDLO", "brand": "OPEL", "year_of_manufacture": 2006, "share": "1/1"}, {"type": "OSOBNÉ VOZIDLO", "brand": "KIA", "year_of_manufacture": 2013, "share": "1/1"}, {"type": "OSOBNÉ VOZIDLO", "brand": "PEUGEOT", "year_of_manufacture": 2016, "share": "1/1"}], "property_rights": ["VKLAD V BANKE, podiel: 1/2", "DLHOPISY CCA 150KS, podiel: 1/2", "STAVEBNÉ SPORENIE, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "generálny riaditeľ Železníc Slovenskej republiky", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)generálny riaditeľ Železníc Slovenskej republiky"}, {"field": "income", "old": {"public_function": 77853, "other": 0}, "new": {"public_function": 35926, "other": 32346}, "old_total": 77853, "new_total": 68272, "delta": -9581, "delta_pct": -12.3}, {"field": "real_estate", "old": [{"type": "ZASTAVANÁ PLOCHA, RODINNÝ DOM, ORNÁ PÔDA", "cadastral_territory": "ČEČEJOVCE", "lv_number": "728, 1907", "share": "BSM, 1/1"}, {"type": "LESNÝ POZEMOK, ORNÁ PÔDA, RODINNÝ DOM", "cadastral_territory": "PLEŠIVEC", "lv_number": "553, 3575, 3035, 1436", "share": "1/2, 1/2, 1/1, 1/2"}], "new": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA", "cadastral_territory": "ČEČENOVCE", "lv_number": "728", "share": "BSM"}, {"type": "ZÁHRADA", "cadastral_territory": "ČEČENOVCE", "lv_number": "1907", "share": "1/1"}, {"type": "LESNÝ POZEMOK, ORNÁ PÔDA, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553,3575,3035", "share": "1/12,1/2,1/1"}], "old_count": 2, "new_count": 3}, {"field": "property_rights", "old": ["DLHOPISY, podiel: 1/1", "VKLAD V BANKÁCH - OSOBNÝ ÚČET, podiel: BSM", "STAVEBNÉ SPORENIE, podiel: BSM"], "new": ["VKLAD V BANKE, podiel: 1/2", "DLHOPISY CCA 150KS, podiel: 1/2", "STAVEBNÉ SPORENIE, podiel: BSM"], "old_count": 3, "new_count": 3}]}}, {"year": 2021, "data": {"id": "ZC203746", "declaration_id": 24323, "name": "Ing. IGOR POLÁK", "year": 2021, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)", "income": {"public_function": 5269, "other": 60725}, "incompatibility": true, "employment": "ŽELEZNICE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA, ZÁHRADA", "cadastral_territory": "ČEČEJOVCE", "lv_number": "728, 1907", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "KOŠICE", "lv_number": "10754", "share": "BSM"}, {"type": "LES, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553, 3575, 3035", "share": "1/12, 1/2, 1/1"}], "movable_property": [{"type": "OSOBNÉ AUTO", "brand": "OPEL", "year_of_manufacture": 2006, "share": "1/1"}, {"type": "OSOBNÉ AUTO", "brand": "KIA", "year_of_manufacture": 2013, "share": "1/1"}, {"type": "OSOBNÉ AUTO", "brand": "PEUGEOT", "year_of_manufacture": 2016, "share": "1/1"}], "property_rights": ["BANKOVÝ ÚČET, podiel: BSM", "DLHOPISY, podiel: BSM", "CENNÉ PAPIERE, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)generálny riaditeľ Železníc Slovenskej republiky", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"}, {"field": "income", "old": {"public_function": 35926, "other": 32346}, "new": {"public_function": 5269, "other": 60725}, "old_total": 68272, "new_total": 65994, "delta": -2278, "delta_pct": -3.3}, {"field": "real_estate", "old": [{"type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA", "cadastral_territory": "ČEČENOVCE", "lv_number": "728", "share": "BSM"}, {"type": "ZÁHRADA", "cadastral_territory": "ČEČENOVCE", "lv_number": "1907", "share": "1/1"}, {"type": "LESNÝ POZEMOK, ORNÁ PÔDA, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553,3575,3035", "share": "1/12,1/2,1/1"}], "new": [{"type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA, ZÁHRADA", "cadastral_territory": "ČEČEJOVCE", "lv_number": "728, 1907", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "KOŠICE", "lv_number": "10754", "share": "BSM"}, {"type": "LES, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553, 3575, 3035", "share": "1/12, 1/2, 1/1"}], "old_count": 3, "new_count": 3}, {"field": "movable_property", "old": [{"type": "OSOBNÉ VOZIDLO", "brand": "OPEL", "year_of_manufacture": 2006, "share": "1/1"}, {"type": "OSOBNÉ VOZIDLO", "brand": "KIA", "year_of_manufacture": 2013, "share": "1/1"}, {"type": "OSOBNÉ VOZIDLO", "brand": "PEUGEOT", "year_of_manufacture": 2016, "share": "1/1"}], "new": [{"type": "OSOBNÉ AUTO", "brand": "OPEL", "year_of_manufacture": 2006, "share": "1/1"}, {"type": "OSOBNÉ AUTO", "brand": "KIA", "year_of_manufacture": 2013, "share": "1/1"}, {"type": "OSOBNÉ AUTO", "brand": "PEUGEOT", "year_of_manufacture": 2016, "share": "1/1"}], "old_count": 3, "new_count": 3}, {"field": "property_rights", "old": ["VKLAD V BANKE, podiel: 1/2", "DLHOPISY CCA 150KS, podiel: 1/2", "STAVEBNÉ SPORENIE, podiel: BSM"], "new": ["BANKOVÝ ÚČET, podiel: BSM", "DLHOPISY, podiel: BSM", "CENNÉ PAPIERE, podiel: BSM"], "old_count": 3, "new_count": 3}]}}, {"year": 2022, "data": {"id": "ZC203746", "declaration_id": 28484, "name": "Ing. IGOR POLÁK", "year": 2022, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)", "income": {"public_function": 6480, "other": 56610}, "incompatibility": true, "employment": "ŽELEZNICE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA", "cadastral_territory": "ČEČEJOVCE", "lv_number": "728, 1907", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "KOŠICE", "lv_number": "10754", "share": "BSM"}, {"type": "LES, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553, 357, 3035", "share": "1/12, 1/2, 1/1"}], "movable_property": [{"type": "OSOBNÉ AUTO", "brand": "OPEL", "year_of_manufacture": 2006, "share": "1/1"}, {"type": "OSOBNÉ AUTO", "brand": "KIA", "year_of_manufacture": 2013, "share": "1/1"}], "property_rights": ["BANKOVÝ ÚČET, TERMÍNOVANÝ ÚČET, podiel: BSM", "DLHOPISY, podiel: BSM", "ETF FONDY, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 5269, "other": 60725}, "new": {"public_function": 6480, "other": 56610}, "old_total": 65994, "new_total": 63090, "delta": -2904, "delta_pct": -4.4}, {"field": "real_estate", "old": [{"type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA, ZÁHRADA", "cadastral_territory": "ČEČEJOVCE", "lv_number": "728, 1907", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "KOŠICE", "lv_number": "10754", "share": "BSM"}, {"type": "LES, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553, 3575, 3035", "share": "1/12, 1/2, 1/1"}], "new": [{"type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA", "cadastral_territory": "ČEČEJOVCE", "lv_number": "728, 1907", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "KOŠICE", "lv_number": "10754", "share": "BSM"}, {"type": "LES, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553, 357, 3035", "share": "1/12, 1/2, 1/1"}], "old_count": 3, "new_count": 3}, {"field": "movable_property", "old": [{"type": "OSOBNÉ AUTO", "brand": "OPEL", "year_of_manufacture": 2006, "share": "1/1"}, {"type": "OSOBNÉ AUTO", "brand": "KIA", "year_of_manufacture": 2013, "share": "1/1"}, {"type": "OSOBNÉ AUTO", "brand": "PEUGEOT", "year_of_manufacture": 2016, "share": "1/1"}], "new": [{"type": "OSOBNÉ AUTO", "brand": "OPEL", "year_of_manufacture": 2006, "share": "1/1"}, {"type": "OSOBNÉ AUTO", "brand": "KIA", "year_of_manufacture": 2013, "share": "1/1"}], "old_count": 3, "new_count": 2}, {"field": "property_rights", "old": ["BANKOVÝ ÚČET, podiel: BSM", "DLHOPISY, podiel: BSM", "CENNÉ PAPIERE, podiel: BSM"], "new": ["BANKOVÝ ÚČET, TERMÍNOVANÝ ÚČET, podiel: BSM", "DLHOPISY, podiel: BSM", "ETF FONDY, podiel: BSM"], "old_count": 3, "new_count": 3}]}}, {"year": 2023, "data": {"id": "ZC203746", "declaration_id": 33338, "name": "Ing. IGOR POLÁK", "year": 2023, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽPSV A.S. ČAŇA)", "income": {"public_function": 7200, "other": 63410}, "incompatibility": true, "employment": "ŽELEZNICE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA", "cadastral_territory": "ČEČEJOVCE", "lv_number": "728, 1907", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "KOŠICE", "lv_number": "10754", "share": "BSM"}, {"type": "LES, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553, 357, 3035", "share": "1/12 1/2 1/1"}], "movable_property": [{"type": "OSOBNÉ AUTO", "brand": "KIA", "year_of_manufacture": 2013, "share": "1/1"}], "property_rights": ["BANKOVÝ ÚČET, TERMÍNOVANÉ VKLADY, podiel: BSM", "DLHOPISY, podiel: BSM", "ETF FONDY, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)", "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"}, {"field": "income", "old": {"public_function": 6480, "other": 56610}, "new": {"public_function": 7200, "other": 63410}, "old_total": 63090, "new_total": 70610, "delta": 7520, "delta_pct": 11.9}, {"field": "real_estate", "old": [{"type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA", "cadastral_territory": "ČEČEJOVCE", "lv_number": "728, 1907", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "KOŠICE", "lv_number": "10754", "share": "BSM"}, {"type": "LES, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553, 357, 3035", "share": "1/12, 1/2, 1/1"}], "new": [{"type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA", "cadastral_territory": "ČEČEJOVCE", "lv_number": "728, 1907", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "KOŠICE", "lv_number": "10754", "share": "BSM"}, {"type": "LES, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553, 357, 3035", "share": "1/12 1/2 1/1"}], "old_count": 3, "new_count": 3}, {"field": "movable_property", "old": [{"type": "OSOBNÉ AUTO", "brand": "OPEL", "year_of_manufacture": 2006, "share": "1/1"}, {"type": "OSOBNÉ AUTO", "brand": "KIA", "year_of_manufacture": 2013, "share": "1/1"}], "new": [{"type": "OSOBNÉ AUTO", "brand": "KIA", "year_of_manufacture": 2013, "share": "1/1"}], "old_count": 2, "new_count": 1}, {"field": "property_rights", "old": ["BANKOVÝ ÚČET, TERMÍNOVANÝ ÚČET, podiel: BSM", "DLHOPISY, podiel: BSM", "ETF FONDY, podiel: BSM"], "new": ["BANKOVÝ ÚČET, TERMÍNOVANÉ VKLADY, podiel: BSM", "DLHOPISY, podiel: BSM", "ETF FONDY, podiel: BSM"], "old_count": 3, "new_count": 3}]}}, {"year": 2024, "data": {"id": "ZC203746", "declaration_id": 37538, "name": "IGOR POLÁK", "year": 2024, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)", "income": {"public_function": 7200, "other": 40738}, "incompatibility": true, "employment": "ŽELEZNICE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA", "cadastral_territory": "ČEČEJOVCE", "lv_number": "728, 1907", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "KOŠICE", "lv_number": "10754", "share": "BSM"}, {"type": "LES, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553, 357, 3035", "share": "1/12, 1/2, 1/1"}], "movable_property": [{"type": "OSOBNÉ AUTO", "brand": "KIA", "year_of_manufacture": 2013, "share": "1/1"}], "property_rights": ["BANKOVÝ ÚČET, FONDY, DLHOPISY, ETF FONDY, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽPSV A.S. ČAŇA)", "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"}, {"field": "income", "old": {"public_function": 7200, "other": 63410}, "new": {"public_function": 7200, "other": 40738}, "old_total": 70610, "new_total": 47938, "delta": -22672, "delta_pct": -32.1}, {"field": "real_estate", "old": [{"type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA", "cadastral_territory": "ČEČEJOVCE", "lv_number": "728, 1907", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "KOŠICE", "lv_number": "10754", "share": "BSM"}, {"type": "LES, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553, 357, 3035", "share": "1/12 1/2 1/1"}], "new": [{"type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA", "cadastral_territory": "ČEČEJOVCE", "lv_number": "728, 1907", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "KOŠICE", "lv_number": "10754", "share": "BSM"}, {"type": "LES, ORNÁ PÔDA", "cadastral_territory": "PLEŠIVEC", "lv_number": "553, 357, 3035", "share": "1/12, 1/2, 1/1"}], "old_count": 3, "new_count": 3}, {"field": "property_rights", "old": ["BANKOVÝ ÚČET, TERMÍNOVANÉ VKLADY, podiel: BSM", "DLHOPISY, podiel: BSM", "ETF FONDY, podiel: BSM"], "new": ["BANKOVÝ ÚČET, FONDY, DLHOPISY, ETF FONDY, podiel: BSM"], "old_count": 3, "new_count": 1}]}}], "total_changes": 22, "slug": "igor-polak"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

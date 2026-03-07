@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,52 +38,68 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Ing. JUDr. Mikuláš BODOR, PhD.</h1>
-    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA POPRAD, A.S.) · 1 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA POPRAD, A.S.)</p>
+    <p class="detail-summary">1 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Mikulas.Bodor" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>—</span><small>celkový príjem (2023)</small></div>
-    <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>—</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
-        <div><dt>Iné</dt><dd>0 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Mikulas.Bodor">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>—</span><small>celkový príjem (2023)</small></div>
+      <div class="stat-card"><span>1</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>—</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>INŠTITÚT VZDELÁVANIA, PORADENSTVA A INFORMATIZÁCIE
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>ORNÁ PÔDA</strong><span>Kat. územie: RUŽINÁ · LV: 1234 · Podiel: 1/1</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>0 €</dd></div>
+          <div><dt>Iné</dt><dd>0 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>INŠTITÚT VZDELÁVANIA, PORADENSTVA A INFORMATIZÁCIE Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>ORNÁ PÔDA</strong><span>Kat. územie: RUŽINÁ · LV: 1234 · Podiel: 1/1</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2023</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Ing. JUDr. Mikuláš BODOR, PhD.", "item": "/politicians/ing-judr-mikulas-bodor-phd/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ing. JUDr. Mikuláš BODOR, PhD.", "description": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA POPRAD, A.S.) · 1 nehnuteľností · 1 záväzkov", "url": "/politicians/ing-judr-mikulas-bodor-phd/", "jobTitle": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA POPRAD, A.S.)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Mikulas.Bodor", "name": "Ing. JUDr. Mikuláš BODOR, PhD.", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA POPRAD, A.S.)", "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA POPRAD, A.S.)", "years": [2023], "timeline": [{"year": 2023, "data": {"id": "ZC246169", "declaration_id": 32184, "name": "Ing. JUDr. MIKULÁŠ BODOR, PhD.", "year": 2023, "filed": "pri ujatí sa funkcie", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA POPRAD, A.S.)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "INŠTITÚT VZDELÁVANIA, PORADENSTVA A INFORMATIZÁCIE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": [{"role": "KONATEĽ", "organization": "BT SERVICES S. R. O.", "benefits": "ODMENA"}, {"role": "KONATEĽ", "organization": "INŠTITÚT VZDELÁVANIA, PORADENSTVA A INOVÁCIÍ S.R.O.", "benefits": "ŽIADNE"}, {"role": "POSLANEC", "organization": "OBEC RUŽINÁ", "benefits": "ODMENA"}], "real_estate": [{"type": "ORNÁ PÔDA", "cadastral_territory": "RUŽINÁ", "lv_number": "1234", "share": "1/1"}], "movable_property": null, "property_rights": ["ÚSPORY V BANKE NA BANKOVOM ÚČTE, podiel: 1/1", "OBCHODNÝ PODIEL V S.R.O., podiel: 50%", "OBCHODNÝ PODIEL V S.R.O., podiel: 50%", "OBCHODNÝ PODIEL V S.R.O., podiel: 50%"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": "RODINNÝ DOM, kat. územie RUŽINÁ, rok zač. užívania: 1988, spôsob užívania: TRVALÝ POBYT, OSOBNÉ UŽÍVANIE", "vehicles": [{"type": "OSOBNÉ MOTOROVÉ VOZIDLO", "brand": "BMW", "year_of_manufacture": 2022}], "gifts": null}, "diff": {"type": "new"}}], "total_changes": 0, "slug": "ing-judr-mikulas-bodor-phd"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

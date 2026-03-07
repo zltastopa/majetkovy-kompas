@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,77 +38,98 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>prof. Ing. Pavol Tanuška, PhD.</h1>
-    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND) · príjem 100 817 € · 3 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)</p>
+    <p class="detail-summary">príjem 100 817 € · 3 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Pavol.Tanuska" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>100 817 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>13</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>51 480 €</dd></div>
-        <div><dt>Iné</dt><dd>49 337 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Pavol.Tanuska">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>100 817 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>13</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>MATERIÁLOVOTECHNOLOGICKÁ FAKULTA STU
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>RODINNÝ DOM</strong><span>Kat. územie: BIELY KOSTOL · LV: 1061 · Podiel: 1/2</span></li><li><strong>GARÁŽ</strong><span>Kat. územie: BIELY KOSTOL · LV: 1061 · Podiel: 1/2</span></li><li><strong>BYTOVÝ DOM</strong><span>Kat. územie: TRNAVA · LV: 8275 · Podiel: 1/2</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>51 480 €</dd></div>
+          <div><dt>Iné</dt><dd>49 337 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>MATERIÁLOVOTECHNOLOGICKÁ FAKULTA STU Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>RODINNÝ DOM</strong><span>Kat. územie: BIELY KOSTOL · LV: 1061 · Podiel: 1/2</span></li><li><strong>GARÁŽ</strong><span>Kat. územie: BIELY KOSTOL · LV: 1061 · Podiel: 1/2</span></li><li><strong>BYTOVÝ DOM</strong><span>Kat. územie: TRNAVA · LV: 8275 · Podiel: 1/2</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 98 548 € → 100 817 € (+2 269 €); Funkcie</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Príjmy: 83 315 € → 98 548 € (+15 233 €); Nehnuteľnosti: 2 → 3 (+1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 82 452 € → 83 315 € (+863 €); Nehnuteľnosti: 4 → 2 (-2); Hnuteľný majetok: 2 → 2 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>Príjmy: 84 901 € → 82 452 € (-2 449 €); Nehnuteľnosti: 2 → 4 (+2); Hnuteľný majetok: 2 → 2 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2020,2021">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2020</strong>
   <span>Príjmy: 0 € → 84 901 € (+84 901 €); Nehnuteľnosti: 3 → 2 (-1); Hnuteľný majetok: 2 → 2 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2019,2020">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2019</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "prof. Ing. Pavol Tanuška, PhD.", "item": "/politicians/prof-ing-pavol-tanuska-phd/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "prof. Ing. Pavol Tanuška, PhD.", "description": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND) · príjem 100 817 € · 3 nehnuteľností · 1 záväzkov", "url": "/politicians/prof-ing-pavol-tanuska-phd/", "jobTitle": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Pavol.Tanuska", "name": "prof. Ing. Pavol Tanuška, PhD.", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)", "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)", "years": [2019, 2020, 2021, 2022, 2023, 2024], "timeline": [{"year": 2019, "data": {"id": "ZC203383", "declaration_id": 16861, "name": "prof. Ing. PAVOL TANUŠKA, PhD.", "year": 2019, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "MATERIÁLOVOTECHNOLOGICKÁ FAKULTA STU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "ZASTAVANÁ PLOCHA", "cadastral_territory": "802921 BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "802 921 BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "RODINNÝ DOM", "cadastral_territory": "802 921 BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}], "movable_property": [{"type": "OSOBNÉ VOZIDLO", "brand": "TOYOTA", "year_of_manufacture": 2015, "share": "1/2"}, {"type": "OSOBNÉ VOZIDLO", "brand": "MAZDA", "year_of_manufacture": 2017, "share": "1/2"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2020, "data": {"id": "ZC203383", "declaration_id": 20908, "name": "prof. Ing. PAVOL TANUŠKA, PhD.", "year": 2020, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)", "income": {"public_function": 39312, "other": 45589}, "incompatibility": true, "employment": "MATERIÁLOVOTECHNOLOGICKÁ FAKULTA STU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "RODINNÝ DOM", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}], "movable_property": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "VOLVO", "year_of_manufacture": 2020, "share": "1/2"}, {"type": "OSOBNÝ AUTOMOBIL", "brand": "MAZDA", "year_of_manufacture": 2017, "share": "1/2"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 39312, "other": 45589}, "old_total": 0, "new_total": 84901, "delta": 84901}, {"field": "real_estate", "old": [{"type": "ZASTAVANÁ PLOCHA", "cadastral_territory": "802921 BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "802 921 BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "RODINNÝ DOM", "cadastral_territory": "802 921 BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}], "new": [{"type": "RODINNÝ DOM", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}], "old_count": 3, "new_count": 2}, {"field": "movable_property", "old": [{"type": "OSOBNÉ VOZIDLO", "brand": "TOYOTA", "year_of_manufacture": 2015, "share": "1/2"}, {"type": "OSOBNÉ VOZIDLO", "brand": "MAZDA", "year_of_manufacture": 2017, "share": "1/2"}], "new": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "VOLVO", "year_of_manufacture": 2020, "share": "1/2"}, {"type": "OSOBNÝ AUTOMOBIL", "brand": "MAZDA", "year_of_manufacture": 2017, "share": "1/2"}], "old_count": 2, "new_count": 2}]}}, {"year": 2021, "data": {"id": "ZC203383", "declaration_id": 23975, "name": "prof. Ing. PAVOL TANUŠKA, PhD.", "year": 2021, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)", "income": {"public_function": 40788, "other": 41664}, "incompatibility": true, "employment": "MATERIÁLOVOTECHNOLOGICKÁ FAKULTA STU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYTOVÝ DOM", "cadastral_territory": "TRNAVA", "lv_number": "8275", "share": "1/2"}, {"type": "RODINNÝ DOM", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}], "movable_property": [{"type": "AUTOMOBIL", "brand": "VOLVO", "year_of_manufacture": 2020, "share": "1/2"}, {"type": "AUTOMOBIL", "brand": "MAZDA", "year_of_manufacture": 2017, "share": "1/2"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 39312, "other": 45589}, "new": {"public_function": 40788, "other": 41664}, "old_total": 84901, "new_total": 82452, "delta": -2449, "delta_pct": -2.9}, {"field": "real_estate", "old": [{"type": "RODINNÝ DOM", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}], "new": [{"type": "BYTOVÝ DOM", "cadastral_territory": "TRNAVA", "lv_number": "8275", "share": "1/2"}, {"type": "RODINNÝ DOM", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}], "old_count": 2, "new_count": 4}, {"field": "movable_property", "old": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "VOLVO", "year_of_manufacture": 2020, "share": "1/2"}, {"type": "OSOBNÝ AUTOMOBIL", "brand": "MAZDA", "year_of_manufacture": 2017, "share": "1/2"}], "new": [{"type": "AUTOMOBIL", "brand": "VOLVO", "year_of_manufacture": 2020, "share": "1/2"}, {"type": "AUTOMOBIL", "brand": "MAZDA", "year_of_manufacture": 2017, "share": "1/2"}], "old_count": 2, "new_count": 2}]}}, {"year": 2022, "data": {"id": "ZC203383", "declaration_id": 28984, "name": "prof. Ing. PAVOL TANUŠKA, PhD.", "year": 2022, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)", "income": {"public_function": 43596, "other": 39719}, "incompatibility": true, "employment": "MATERIÁLOVOTECHNOLOGICKÁ FAKULTA STU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "RODINNÝ DOM", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "TRNAVA", "lv_number": "8275", "share": "1/2"}], "movable_property": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "VOLVO", "year_of_manufacture": 2020, "share": "1/2"}, {"type": "OSOBNÝ AUTOMOBIL", "brand": "MAZDA", "year_of_manufacture": 2017, "share": "1/2"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 40788, "other": 41664}, "new": {"public_function": 43596, "other": 39719}, "old_total": 82452, "new_total": 83315, "delta": 863, "delta_pct": 1.0}, {"field": "real_estate", "old": [{"type": "BYTOVÝ DOM", "cadastral_territory": "TRNAVA", "lv_number": "8275", "share": "1/2"}, {"type": "RODINNÝ DOM", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "POZEMOK", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}], "new": [{"type": "RODINNÝ DOM", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "TRNAVA", "lv_number": "8275", "share": "1/2"}], "old_count": 4, "new_count": 2}, {"field": "movable_property", "old": [{"type": "AUTOMOBIL", "brand": "VOLVO", "year_of_manufacture": 2020, "share": "1/2"}, {"type": "AUTOMOBIL", "brand": "MAZDA", "year_of_manufacture": 2017, "share": "1/2"}], "new": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "VOLVO", "year_of_manufacture": 2020, "share": "1/2"}, {"type": "OSOBNÝ AUTOMOBIL", "brand": "MAZDA", "year_of_manufacture": 2017, "share": "1/2"}], "old_count": 2, "new_count": 2}]}}, {"year": 2023, "data": {"id": "ZC203383", "declaration_id": 33713, "name": "prof. Ing. PAVOL TANUŠKA, PhD.", "year": 2023, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)", "income": {"public_function": 46944, "other": 51604}, "incompatibility": true, "employment": "MATERIÁLOVOTECHNOLOGICKÁ FAKULTA STU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "RODINNÝ DOM", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "TRNAVA", "lv_number": "8275", "share": "1/2"}], "movable_property": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "VOLVO", "year_of_manufacture": 2020, "share": "1/2"}, {"type": "OSOBNÝ AUTOMOBIL", "brand": "MAZDA", "year_of_manufacture": 2017, "share": "1/2"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 43596, "other": 39719}, "new": {"public_function": 46944, "other": 51604}, "old_total": 83315, "new_total": 98548, "delta": 15233, "delta_pct": 18.3}, {"field": "real_estate", "old": [{"type": "RODINNÝ DOM", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "TRNAVA", "lv_number": "8275", "share": "1/2"}], "new": [{"type": "RODINNÝ DOM", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "TRNAVA", "lv_number": "8275", "share": "1/2"}], "old_count": 2, "new_count": 3}]}}, {"year": 2024, "data": {"id": "ZC203383", "declaration_id": 37262, "name": "prof. Ing. PAVOL TANUŠKA, PhD.", "year": 2024, "filed": "k 30. aprílu", "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)", "income": {"public_function": 51480, "other": 49337}, "incompatibility": true, "employment": "MATERIÁLOVOTECHNOLOGICKÁ FAKULTA STU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": [{"role": "ČLEN RADY SPRÁVCOV, SPRÁVCA PODÚČTU", "organization": "NÁRODNÝ JADROVÝ FOND", "benefits": "MESAČNÁ ODMENA"}], "real_estate": [{"type": "RODINNÝ DOM", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "GARÁŽ", "cadastral_territory": "BIELY KOSTOL", "lv_number": "1061", "share": "1/2"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "TRNAVA", "lv_number": "8275", "share": "1/2"}], "movable_property": [{"type": "OSOBNÝ AUTOMOBIL", "brand": "VOLVO", "year_of_manufacture": 2020, "share": "1/2"}, {"type": "OSOBNÝ AUTOMOBIL", "brand": "MAZDA", "year_of_manufacture": 2017, "share": "1/2"}], "property_rights": null, "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 46944, "other": 51604}, "new": {"public_function": 51480, "other": 49337}, "old_total": 98548, "new_total": 100817, "delta": 2269, "delta_pct": 2.3}, {"field": "positions", "old": null, "new": [{"role": "ČLEN RADY SPRÁVCOV, SPRÁVCA PODÚČTU", "organization": "NÁRODNÝ JADROVÝ FOND", "benefits": "MESAČNÁ ODMENA"}]}]}}], "total_changes": 13, "slug": "prof-ing-pavol-tanuska-phd"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

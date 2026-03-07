@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,77 +38,98 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Ing. Maroš Kondrót</h1>
-    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA) · príjem 23 875 € · 3 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA)</p>
+    <p class="detail-summary">príjem 23 875 € · 3 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=KondMaro" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>23 875 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>17</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>7 865 €</dd></div>
-        <div><dt>Iné</dt><dd>16 010 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=KondMaro">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>23 875 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>3</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>17</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>RESIDENCE COMPANY TT S.R.O.
-Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-nie</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: BRATISLAVA - RUŽINOV · LV: 1407 · Podiel: BSM</span></li><li><strong>BYT</strong><span>Kat. územie: BRATISLAVA - RUŽINOV · LV: 5898 · Podiel: BSM</span></li><li><strong>STAVEBNÝ POZEMOK</strong><span>Kat. územie: ZÁLESIE · LV: 588 · Podiel: BSM</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>7 865 €</dd></div>
+          <div><dt>Iné</dt><dd>16 010 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>RESIDENCE COMPANY TT S.R.O. Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce: nie</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>BYT</strong><span>Kat. územie: BRATISLAVA - RUŽINOV · LV: 1407 · Podiel: BSM</span></li><li><strong>BYT</strong><span>Kat. územie: BRATISLAVA - RUŽINOV · LV: 5898 · Podiel: BSM</span></li><li><strong>STAVEBNÝ POZEMOK</strong><span>Kat. územie: ZÁLESIE · LV: 588 · Podiel: BSM</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>public_function; Príjmy: 47 235 € → 23 875 € (-23 360 €); Zamestnanie; Majetkové práva: 4 → 5 (+1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>public_function; Príjmy: 39 240 € → 47 235 € (+7 995 €); Zamestnanie; Hnuteľný majetok: 2 → 1 (-1)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2022,2023">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2022</strong>
   <span>Príjmy: 36 720 € → 39 240 € (+2 520 €); Nehnuteľnosti: 3 → 3 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2021,2022">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2021</strong>
   <span>Príjmy: 39 478 € → 36 720 € (-2 758 €); Nehnuteľnosti: 3 → 3 (0); Majetkové práva: 4 → 4 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2020,2021">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2020</strong>
   <span>Príjmy: 37 464 € → 39 478 € (+2 014 €); Hnuteľný majetok: 3 → 2 (-1); Majetkové práva: 2 → 4 (+2); Záväzky: 1 → 1 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2019,2020">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2019</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Ing. Maroš Kondrót", "item": "/politicians/ing-maros-kondrot/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ing. Maroš Kondrót", "description": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA) · príjem 23 875 € · 3 nehnuteľností · 1 záväzkov", "url": "/politicians/ing-maros-kondrot/", "jobTitle": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "KondMaro", "name": "Ing. Maroš Kondrót", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA)", "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA)", "years": [2019, 2020, 2021, 2022, 2023, 2024], "timeline": [{"year": 2019, "data": {"id": "B0481", "declaration_id": 15448, "name": "Ing. MAROŠ KONDRÓT", "year": 2019, "filed": "k 30. aprílu", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 37464, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1407", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "RUŽINOV", "lv_number": "5898", "share": "BSM"}, {"type": "STAVEBNÝ POZEMOK ZÁLESIE", "cadastral_territory": "ZÁLESIE", "lv_number": "588", "share": "BSM"}], "movable_property": [{"type": "AUTOMOBIL", "brand": "AUDI", "year_of_manufacture": 2005, "share": "BSM"}, {"type": "AUTOMOBIL", "brand": "TOYOTA", "year_of_manufacture": 2009, "share": "BSM"}, {"type": "OBRAZY", "share": "1/2"}], "property_rights": ["POHĽADÁVKY VOČI TRETEJ OSOBE, podiel: BSM", "OBCHODNÝ PODIEL V S.R.O., podiel: 25%"], "obligations": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2020, "data": {"id": "B0481", "declaration_id": 19463, "name": "Ing. MAROŠ KONDRÓT", "year": 2020, "filed": "k 30. aprílu", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 39478, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1407", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "RUŽINOV", "lv_number": "5898", "share": "BSM"}, {"type": "STAVEBNÝ POZEMOK ZÁLESIE", "cadastral_territory": "ZÁLESIE", "lv_number": "588", "share": "BSM"}], "movable_property": [{"type": "AUTO", "brand": "AUDI", "year_of_manufacture": 2005, "share": "BSM"}, {"type": "OBRAZY", "share": "BSM"}], "property_rights": ["2x OBCHODNÝ PODIEL V S.R.O., podiel: 25%", "POHĽADÁVKY VOČI TRETEJ OSOBE, podiel: 50%", "OBCHODNÝ PODIEL V S.R.O., podiel: 100%", "OBCHODNÝ PODIEL V S.R.O., podiel: 30%"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 37464, "other": 0}, "new": {"public_function": 39478, "other": 0}, "old_total": 37464, "new_total": 39478, "delta": 2014, "delta_pct": 5.4}, {"field": "movable_property", "old": [{"type": "AUTOMOBIL", "brand": "AUDI", "year_of_manufacture": 2005, "share": "BSM"}, {"type": "AUTOMOBIL", "brand": "TOYOTA", "year_of_manufacture": 2009, "share": "BSM"}, {"type": "OBRAZY", "share": "1/2"}], "new": [{"type": "AUTO", "brand": "AUDI", "year_of_manufacture": 2005, "share": "BSM"}, {"type": "OBRAZY", "share": "BSM"}], "old_count": 3, "new_count": 2}, {"field": "property_rights", "old": ["POHĽADÁVKY VOČI TRETEJ OSOBE, podiel: BSM", "OBCHODNÝ PODIEL V S.R.O., podiel: 25%"], "new": ["2x OBCHODNÝ PODIEL V S.R.O., podiel: 25%", "POHĽADÁVKY VOČI TRETEJ OSOBE, podiel: 50%", "OBCHODNÝ PODIEL V S.R.O., podiel: 100%", "OBCHODNÝ PODIEL V S.R.O., podiel: 30%"], "old_count": 2, "new_count": 4}, {"field": "obligations", "old": [{"type": "HYPOTEKÁRNY ÚVER", "share": "BSM"}], "new": [{"type": "žiadny"}], "old_count": 1, "new_count": 1}]}}, {"year": 2021, "data": {"id": "B0481", "declaration_id": 24636, "name": "Ing. MAROŠ KONDRÓT", "year": 2021, "filed": "k 30. aprílu", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 36720, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1407", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA-RUŽINOV", "lv_number": "5898", "share": "BSM"}, {"type": "STAVEBNÝ POZEMOK", "cadastral_territory": "ZÁLESIE", "lv_number": "588", "share": "BSM"}], "movable_property": [{"type": "AUTO", "brand": "AUDI", "year_of_manufacture": 2005, "share": "BSM"}, {"type": "OBRAZY", "share": "BSM"}], "property_rights": ["OBCHODNÝ PODIEL V S.R.O., podiel: 25%", "POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 50%", "OBCHODNÝ PODIEL V S.R.O., podiel: BSM", "FINANČNÉ PROSTRIEDKY V BANKE, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 39478, "other": 0}, "new": {"public_function": 36720, "other": 0}, "old_total": 39478, "new_total": 36720, "delta": -2758, "delta_pct": -7.0}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1407", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "RUŽINOV", "lv_number": "5898", "share": "BSM"}, {"type": "STAVEBNÝ POZEMOK ZÁLESIE", "cadastral_territory": "ZÁLESIE", "lv_number": "588", "share": "BSM"}], "new": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1407", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA-RUŽINOV", "lv_number": "5898", "share": "BSM"}, {"type": "STAVEBNÝ POZEMOK", "cadastral_territory": "ZÁLESIE", "lv_number": "588", "share": "BSM"}], "old_count": 3, "new_count": 3}, {"field": "property_rights", "old": ["2x OBCHODNÝ PODIEL V S.R.O., podiel: 25%", "POHĽADÁVKY VOČI TRETEJ OSOBE, podiel: 50%", "OBCHODNÝ PODIEL V S.R.O., podiel: 100%", "OBCHODNÝ PODIEL V S.R.O., podiel: 30%"], "new": ["OBCHODNÝ PODIEL V S.R.O., podiel: 25%", "POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 50%", "OBCHODNÝ PODIEL V S.R.O., podiel: BSM", "FINANČNÉ PROSTRIEDKY V BANKE, podiel: BSM"], "old_count": 4, "new_count": 4}]}}, {"year": 2022, "data": {"id": "B0481", "declaration_id": 27703, "name": "Ing. MAROŠ KONDRÓT", "year": 2022, "filed": "k 30. aprílu", "public_function": "poslanec Národnej rady Slovenskej republiky", "income": {"public_function": 39240, "other": 0}, "incompatibility": true, "employment": null, "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1407", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "5898", "share": "BSM"}, {"type": "STAVEBNÝ POZEMOK", "cadastral_territory": "ZÁLESIE", "lv_number": "588", "share": "BSM"}], "movable_property": [{"type": "AUTO", "brand": "AUDI", "year_of_manufacture": 2005, "share": "BSM"}, {"type": "OBRAZY", "share": "BSM"}], "property_rights": ["OBCHODNÝ PODIEL V S.R.O., podiel: 25%", "POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 50%", "OBCHODNÝ PODIEL V S.R.O., podiel: BSM", "FINANČNÉ PROSTRIEDKY V BANKE, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 36720, "other": 0}, "new": {"public_function": 39240, "other": 0}, "old_total": 36720, "new_total": 39240, "delta": 2520, "delta_pct": 6.9}, {"field": "real_estate", "old": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1407", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA-RUŽINOV", "lv_number": "5898", "share": "BSM"}, {"type": "STAVEBNÝ POZEMOK", "cadastral_territory": "ZÁLESIE", "lv_number": "588", "share": "BSM"}], "new": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1407", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "5898", "share": "BSM"}, {"type": "STAVEBNÝ POZEMOK", "cadastral_territory": "ZÁLESIE", "lv_number": "588", "share": "BSM"}], "old_count": 3, "new_count": 3}]}}, {"year": 2023, "data": {"id": "B0481", "declaration_id": 32454, "name": "Ing. MAROŠ KONDRÓT", "year": 2023, "filed": "k 30. aprílu", "public_function": "poslanec Národnej rady Slovenskej republikyčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)", "income": {"public_function": 47235, "other": 0}, "incompatibility": true, "employment": "RESIDENCE COMPANY TT, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1407", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "5898", "share": "BSM"}, {"type": "STAVEBNÝ POZEMOK", "cadastral_territory": "ZÁLESIE", "lv_number": "588", "share": "BSM"}], "movable_property": [{"type": "OBRAZY", "share": "BSM"}], "property_rights": ["OBCHODNÝ PODIEL V S.R.O., podiel: 25%", "POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 50%", "OBCHODNÝ PODIEL V S.R.O., podiel: BSM", "FINANČNÉ PROSTRIEDKY V BANKE, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "poslanec Národnej rady Slovenskej republiky", "new": "poslanec Národnej rady Slovenskej republikyčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"}, {"field": "income", "old": {"public_function": 39240, "other": 0}, "new": {"public_function": 47235, "other": 0}, "old_total": 39240, "new_total": 47235, "delta": 7995, "delta_pct": 20.4}, {"field": "employment", "old": null, "new": "RESIDENCE COMPANY TT, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "movable_property", "old": [{"type": "AUTO", "brand": "AUDI", "year_of_manufacture": 2005, "share": "BSM"}, {"type": "OBRAZY", "share": "BSM"}], "new": [{"type": "OBRAZY", "share": "BSM"}], "old_count": 2, "new_count": 1}]}}, {"year": 2024, "data": {"id": "ZC246006", "declaration_id": 37625, "name": "Ing. MAROŠ KONDRÓT", "year": 2024, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA)", "income": {"public_function": 7865, "other": 16010}, "incompatibility": true, "employment": "RESIDENCE COMPANY TT S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": null, "positions": null, "real_estate": [{"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "1407", "share": "BSM"}, {"type": "BYT", "cadastral_territory": "BRATISLAVA - RUŽINOV", "lv_number": "5898", "share": "BSM"}, {"type": "STAVEBNÝ POZEMOK", "cadastral_territory": "ZÁLESIE", "lv_number": "588", "share": "BSM"}], "movable_property": [{"type": "OBRAZY", "share": "BSM"}], "property_rights": ["OBCHODNÝ PODIEL V S.R.O., podiel: 25%", "POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 50%", "OBCHODNÝ PODIEL V S.R.O., podiel: BSM", "OBCHODNÝ PODIEL V S.R.O., podiel: BSM", "FINANČNÉ PROSTRIEDKY V BANKE, podiel: BSM"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "public_function", "old": "poslanec Národnej rady Slovenskej republikyčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)", "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA)"}, {"field": "income", "old": {"public_function": 47235, "other": 0}, "new": {"public_function": 7865, "other": 16010}, "old_total": 47235, "new_total": 23875, "delta": -23360, "delta_pct": -49.5}, {"field": "employment", "old": "RESIDENCE COMPANY TT, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "new": "RESIDENCE COMPANY TT S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"}, {"field": "property_rights", "old": ["OBCHODNÝ PODIEL V S.R.O., podiel: 25%", "POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 50%", "OBCHODNÝ PODIEL V S.R.O., podiel: BSM", "FINANČNÉ PROSTRIEDKY V BANKE, podiel: BSM"], "new": ["OBCHODNÝ PODIEL V S.R.O., podiel: 25%", "POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 50%", "OBCHODNÝ PODIEL V S.R.O., podiel: BSM", "OBCHODNÝ PODIEL V S.R.O., podiel: BSM", "FINANČNÉ PROSTRIEDKY V BANKE, podiel: BSM"], "old_count": 4, "new_count": 5}]}}], "total_changes": 17, "slug": "ing-maros-kondrot"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">

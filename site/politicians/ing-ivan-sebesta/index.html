@@ -23,6 +23,7 @@
 <a href="../../nove-nehnutelnosti/">Nové nehnuteľnosti</a>
 <a href="../../nove-zavazky/">Nové záväzky</a>
 <a href="../../najvyssie-prijmy/">Najvyššie príjmy</a>
+<a href="../../compare/">Porovnanie</a>
       </nav>
     </div>
   </header>
@@ -37,55 +38,74 @@
   <header class="detail-hero">
     <p class="eyebrow">Detail funkcionára</p>
     <h1>Ing. Ivan Šebesta</h1>
-    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ESCO SLOVENSKO A.S.) · príjem 37 777 € · 11 nehnuteľností · 1 záväzkov</p>
+    <p class="lede">člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ESCO SLOVENSKO A.S.)</p>
+    <p class="detail-summary">príjem 37 777 € · 11 nehnuteľností · 1 záväzkov</p>
     <p class="detail-links"><a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Ivan.Sebesta" target="_blank" rel="noreferrer">Originál na nrsr.sk</a></p>
   </header>
-  <section class="stats-grid stats-grid--detail">
-    <div class="stat-card"><span>37 777 €</span><small>celkový príjem (2024)</small></div>
-    <div class="stat-card"><span>11</span><small>nehnuteľností</small></div>
-    <div class="stat-card"><span>1</span><small>záväzkov</small></div>
-    <div class="stat-card"><span>4</span><small>zaznamenaných zmien</small></div>
-  </section>
-  <section class="detail-grid">
-    <section class="card">
-      <h2>Príjmy</h2>
-      <dl class="facts">
-        <div><dt>Z verejnej funkcie</dt><dd>24 533 €</dd></div>
-        <div><dt>Iné</dt><dd>13 244 €</dd></div>
-      </dl>
+  <div class="detail-switch">
+    <button type="button" class="detail-switch__button is-active" data-detail-mode="profile">Profil</button>
+    <button type="button" class="detail-switch__button" data-detail-mode="compare">Porovnanie rokov</button>
+    <a class="detail-switch__link" href="../../compare/?ids=Ivan.Sebesta">Porovnať s ďalšími</a>
+  </div>
+  <div class="detail-mode detail-mode--active" id="detail-profile" data-detail-panel="profile">
+    <section class="stats-grid stats-grid--detail">
+      <div class="stat-card"><span>37 777 €</span><small>celkový príjem (2024)</small></div>
+      <div class="stat-card"><span>11</span><small>nehnuteľností</small></div>
+      <div class="stat-card"><span>1</span><small>záväzkov</small></div>
+      <div class="stat-card"><span>4</span><small>zaznamenaných zmien</small></div>
     </section>
-    <section class="card">
-      <h2>Zamestnanie</h2>
-      <p>Neuvedené</p>
-    </section>
-    <section class="card">
-      <h2>Nehnuteľnosti</h2>
-      <ul class="detail-list"><li><strong>CHATA</strong><span>Kat. územie: KOŠICKÉ HÁMRE · LV: 274 · Podiel: 1/1</span></li><li><strong>OSTATNÁ PLOCHA</strong><span>Kat. územie: KOŠICKÉ HÁMRE · LV: 274 · Podiel: 1/1</span></li><li><strong>LESNÝ POZEMOK</strong><span>Kat. územie: MATIAŠOVCE · LV: 2097 · Podiel: 121/216</span></li><li><strong>ORNÁ PÔDA</strong><span>Kat. územie: MATIAŠOVCE · LV: 2098 · Podiel: 1/1</span></li><li><strong>BYT</strong><span>Kat. územie: LETNÁ · LV: 12162 · Podiel: 1/1</span></li><li><strong>DOM</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 12156 · Podiel: 1/1</span></li><li><strong>ZÁHRADA</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 12162 · Podiel: 1/1</span></li><li><strong>GARÁŽ</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 12983 · Podiel: 1/1</span></li><li><strong>GARÁŽ</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 13973 · Podiel: 1/1</span></li><li><strong>BYTOVÝ DOM</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 2977 · Podiel: 2/6</span></li><li><strong>ZÁHRADA</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 2977 · Podiel: 2/6</span></li></ul>
-    </section>
-    <section class="card">
-      <h2>Záväzky</h2>
-      <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
-    </section>
-    <section class="card card--wide">
-      <h2>Zmeny v čase</h2>
-      <ul class="timeline-list">
-        
+    <section class="detail-grid">
+      <section class="card">
+        <h2>Príjmy</h2>
+        <dl class="facts">
+          <div><dt>Z verejnej funkcie</dt><dd>24 533 €</dd></div>
+          <div><dt>Iné</dt><dd>13 244 €</dd></div>
+        </dl>
+      </section>
+      <section class="card">
+        <h2>Zamestnanie</h2>
+        <p>Neuvedené</p>
+      </section>
+      <section class="card">
+        <h2>Nehnuteľnosti</h2>
+        <ul class="detail-list"><li><strong>CHATA</strong><span>Kat. územie: KOŠICKÉ HÁMRE · LV: 274 · Podiel: 1/1</span></li><li><strong>OSTATNÁ PLOCHA</strong><span>Kat. územie: KOŠICKÉ HÁMRE · LV: 274 · Podiel: 1/1</span></li><li><strong>LESNÝ POZEMOK</strong><span>Kat. územie: MATIAŠOVCE · LV: 2097 · Podiel: 121/216</span></li><li><strong>ORNÁ PÔDA</strong><span>Kat. územie: MATIAŠOVCE · LV: 2098 · Podiel: 1/1</span></li><li><strong>BYT</strong><span>Kat. územie: LETNÁ · LV: 12162 · Podiel: 1/1</span></li><li><strong>DOM</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 12156 · Podiel: 1/1</span></li><li><strong>ZÁHRADA</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 12162 · Podiel: 1/1</span></li><li><strong>GARÁŽ</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 12983 · Podiel: 1/1</span></li><li><strong>GARÁŽ</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 13973 · Podiel: 1/1</span></li><li><strong>BYTOVÝ DOM</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 2977 · Podiel: 2/6</span></li><li><strong>ZÁHRADA</strong><span>Kat. územie: SEVERNÉ MESTO · LV: 2977 · Podiel: 2/6</span></li></ul>
+      </section>
+      <section class="card">
+        <h2>Záväzky</h2>
+        <ul class="detail-list"><li><strong>žiadny</strong><span></span></li></ul>
+      </section>
+      <section class="card card--wide">
+        <h2>Zmeny v čase</h2>
+        <ul class="timeline-list">
+          
 <li>
   <strong>2024</strong>
   <span>Príjmy: 0 € → 37 777 € (+37 777 €); Zamestnanie; Nehnuteľnosti: 11 → 11 (0); Majetkové práva: 6 → 6 (0)</span>
+  <button type="button" class="timeline-compare-link" data-compare-years="2023,2024">Porovnať roky</button>
 </li>
 
 <li>
   <strong>2023</strong>
   <span>Prvý dostupný záznam.</span>
+  
 </li>
 
-      </ul>
+        </ul>
+      </section>
     </section>
+  </div>
+  <section class="section-block section-block--tight compare-shell" id="detail-compare" data-detail-panel="compare" hidden>
+    <div class="section-heading">
+      <h2>Porovnanie rokov</h2>
+      <p>Vyberte dve priznania a porovnajte príjmy, funkcie, majetok a záväzky.</p>
+    </div>
+    <div id="person-compare-panel"></div>
   </section>
 </article>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Majetkový kompas", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Ing. Ivan Šebesta", "item": "/politicians/ing-ivan-sebesta/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ing. Ivan Šebesta", "description": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ESCO SLOVENSKO A.S.) · príjem 37 777 € · 11 nehnuteľností · 1 záväzkov", "url": "/politicians/ing-ivan-sebesta/", "jobTitle": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ESCO SLOVENSKO A.S.)"}</script>
+<script type="application/json" id="person-compare-data">{"user_id": "Ivan.Sebesta", "name": "Ing. Ivan Šebesta", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ESCO SLOVENSKO A.S.)", "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ESCO SLOVENSKO A.S.)", "years": [2023, 2024], "timeline": [{"year": 2023, "data": {"id": "ZC245910", "declaration_id": 30288, "name": "Ing. IVAN ŠEBESTA", "year": 2023, "filed": "pri ujatí sa funkcie", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ESCO SLOVENSKO A.S.)", "income": {"public_function": 0, "other": 0}, "incompatibility": true, "employment": "ENERGY SUPPORT S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "business_activity": "KONATEĽ(ENERGY SUPPORT S.R.O.)", "positions": null, "real_estate": [{"type": "CHATA", "cadastral_territory": "KOŠICKÉ HÁMRE", "lv_number": "274", "share": "1/1"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "KOŠICKÉ HÁMRE", "lv_number": "274", "share": "1/1"}, {"type": "LESNÝ POZEMOK", "cadastral_territory": "MATIAŠOVCE", "lv_number": "2097", "share": "121/216"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "MATIAŠOVCE", "lv_number": "2098", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "LETNÁ", "lv_number": "12162", "share": "1/1"}, {"type": "DOM", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12156", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12156", "share": "1/1"}, {"type": "GARÁŽ", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12983", "share": "1/1"}, {"type": "GARÁŽ", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "13973", "share": "1/1"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "2977", "share": "2/6"}, {"type": "ZÁHRADA", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "2977", "share": "2/6"}], "movable_property": [{"type": "ELEKTRONIKA", "share": "1/1"}], "property_rights": ["POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 1/1", "PODIEL V PRÁVNICKEJ OSOBE, podiel: 50%", "FINANČNÉ ÚSPORY, podiel: 1/1", "FINANČNÉ PROSTRIEDKY - DEDIČSTVO, podiel: 1/1", "CENNÉ PAPIERE, podiel: 1/1", "PODIEL V PRÁVNICKEJ OSOBE S.R.O, podiel: 100%"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "new"}}, {"year": 2024, "data": {"id": "ZC245910", "declaration_id": 37569, "name": "Ing. IVAN ŠEBESTA", "year": 2024, "filed": "k 30. aprílu", "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ESCO SLOVENSKO A.S.)", "income": {"public_function": 24533, "other": 13244}, "incompatibility": true, "employment": null, "business_activity": "KONATEĽ(ENERGY SUPPORT S.R.O.)", "positions": null, "real_estate": [{"type": "CHATA", "cadastral_territory": "KOŠICKÉ HÁMRE", "lv_number": "274", "share": "1/1"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "KOŠICKÉ HÁMRE", "lv_number": "274", "share": "1/1"}, {"type": "LESNÝ POZEMOK", "cadastral_territory": "MATIAŠOVCE", "lv_number": "2097", "share": "121/216"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "MATIAŠOVCE", "lv_number": "2098", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "LETNÁ", "lv_number": "12162", "share": "1/1"}, {"type": "DOM", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12156", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12162", "share": "1/1"}, {"type": "GARÁŽ", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12983", "share": "1/1"}, {"type": "GARÁŽ", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "13973", "share": "1/1"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "2977", "share": "2/6"}, {"type": "ZÁHRADA", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "2977", "share": "2/6"}], "movable_property": [{"type": "ELEKTRONIKA", "share": "1/1"}], "property_rights": ["POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 1/1", "PODIEL V PRÁVNICKEJ OSOBE, podiel: 50%", "FINANČNÉ ÚSPORY, podiel: 1/1", "FINANČNÉ PROSTRIEDKY - DEDIČSTVO, podiel: 1/1", "CENNÉ PAPIERE, podiel: 1/1", "PODIEL V S.R.O., podiel: 100%"], "obligations": [{"type": "žiadny"}], "use_of_others_real_estate": null, "vehicles": null, "gifts": null}, "diff": {"type": "changed", "changes": [{"field": "income", "old": {"public_function": 0, "other": 0}, "new": {"public_function": 24533, "other": 13244}, "old_total": 0, "new_total": 37777, "delta": 37777}, {"field": "employment", "old": "ENERGY SUPPORT S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie", "new": null}, {"field": "real_estate", "old": [{"type": "CHATA", "cadastral_territory": "KOŠICKÉ HÁMRE", "lv_number": "274", "share": "1/1"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "KOŠICKÉ HÁMRE", "lv_number": "274", "share": "1/1"}, {"type": "LESNÝ POZEMOK", "cadastral_territory": "MATIAŠOVCE", "lv_number": "2097", "share": "121/216"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "MATIAŠOVCE", "lv_number": "2098", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "LETNÁ", "lv_number": "12162", "share": "1/1"}, {"type": "DOM", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12156", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12156", "share": "1/1"}, {"type": "GARÁŽ", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12983", "share": "1/1"}, {"type": "GARÁŽ", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "13973", "share": "1/1"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "2977", "share": "2/6"}, {"type": "ZÁHRADA", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "2977", "share": "2/6"}], "new": [{"type": "CHATA", "cadastral_territory": "KOŠICKÉ HÁMRE", "lv_number": "274", "share": "1/1"}, {"type": "OSTATNÁ PLOCHA", "cadastral_territory": "KOŠICKÉ HÁMRE", "lv_number": "274", "share": "1/1"}, {"type": "LESNÝ POZEMOK", "cadastral_territory": "MATIAŠOVCE", "lv_number": "2097", "share": "121/216"}, {"type": "ORNÁ PÔDA", "cadastral_territory": "MATIAŠOVCE", "lv_number": "2098", "share": "1/1"}, {"type": "BYT", "cadastral_territory": "LETNÁ", "lv_number": "12162", "share": "1/1"}, {"type": "DOM", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12156", "share": "1/1"}, {"type": "ZÁHRADA", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12162", "share": "1/1"}, {"type": "GARÁŽ", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "12983", "share": "1/1"}, {"type": "GARÁŽ", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "13973", "share": "1/1"}, {"type": "BYTOVÝ DOM", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "2977", "share": "2/6"}, {"type": "ZÁHRADA", "cadastral_territory": "SEVERNÉ MESTO", "lv_number": "2977", "share": "2/6"}], "old_count": 11, "new_count": 11}, {"field": "property_rights", "old": ["POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 1/1", "PODIEL V PRÁVNICKEJ OSOBE, podiel: 50%", "FINANČNÉ ÚSPORY, podiel: 1/1", "FINANČNÉ PROSTRIEDKY - DEDIČSTVO, podiel: 1/1", "CENNÉ PAPIERE, podiel: 1/1", "PODIEL V PRÁVNICKEJ OSOBE S.R.O, podiel: 100%"], "new": ["POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 1/1", "PODIEL V PRÁVNICKEJ OSOBE, podiel: 50%", "FINANČNÉ ÚSPORY, podiel: 1/1", "FINANČNÉ PROSTRIEDKY - DEDIČSTVO, podiel: 1/1", "CENNÉ PAPIERE, podiel: 1/1", "PODIEL V S.R.O., podiel: 100%"], "old_count": 6, "new_count": 6}]}}], "total_changes": 4, "slug": "ing-ivan-sebesta"}</script>
+<script src="../../compare.js"></script>
 
   </main>
   <footer class="site-footer">
