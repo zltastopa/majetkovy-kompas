@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Majetkový kompas</title>
+<style>
+:root {
+  --bg: #f8f9fa; --fg: #1a1a2e; --muted: #64748b; --border: #e2e8f0;
+  --accent: #2563eb; --green: #16a34a; --red: #dc2626; --orange: #ea580c;
+  --card-bg: #fff; --diff-add: #dcfce7; --diff-rm: #fee2e2; --diff-add-border: #86efac;
+  --radius: 10px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, system-ui, 'Segoe UI', sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.container { max-width: 1000px; margin: 0 auto; padding: 1rem 1.25rem; }
+
+/* Header */
+header { padding: 2rem 0 1rem; }
+header h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; }
+header .subtitle { color: var(--muted); font-size: 0.9rem; margin-top: 0.15rem; }
+header .stats { display: flex; gap: 1.5rem; margin-top: 1rem; font-size: 0.85rem; }
+header .stat { display: flex; flex-direction: column; }
+header .stat-value { font-size: 1.4rem; font-weight: 700; color: var(--accent); }
+header .stat-label { color: var(--muted); font-size: 0.75rem; }
+
+/* Tabs for landing page sections */
+.landing-tabs { display: flex; gap: 0.25rem; border-bottom: 2px solid var(--border); margin: 1.5rem 0 1rem; overflow-x: auto; }
+.landing-tabs button {
+  padding: 0.5rem 1rem; border: none; background: none; cursor: pointer;
+  font-size: 0.85rem; color: var(--muted); border-bottom: 2px solid transparent;
+  margin-bottom: -2px; white-space: nowrap; font-weight: 500;
+}
+.landing-tabs button.active { color: var(--accent); border-bottom-color: var(--accent); }
+.landing-tabs button:hover:not(.active) { color: var(--fg); }
+.landing-section { display: none; }
+.landing-section.active { display: block; }
+
+/* Highlight cards */
+.highlight-list { display: flex; flex-direction: column; gap: 0.5rem; }
+.highlight-card {
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 0.75rem 1rem; cursor: pointer; display: flex; justify-content: space-between;
+  align-items: center; transition: border-color 0.15s;
+}
+.highlight-card:hover { border-color: var(--accent); }
+.hl-left { flex: 1; min-width: 0; }
+.hl-name { font-weight: 600; font-size: 0.95rem; }
+.hl-meta { font-size: 0.8rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hl-right { text-align: right; flex-shrink: 0; margin-left: 1rem; }
+.hl-big { font-size: 1.1rem; font-weight: 700; }
+.hl-big.positive { color: var(--green); }
+.hl-big.negative { color: var(--red); }
+.hl-big.neutral { color: var(--fg); }
+.hl-small { font-size: 0.75rem; color: var(--muted); }
+.hl-badge {
+  display: inline-block; font-size: 0.7rem; padding: 1px 6px; border-radius: 4px;
+  font-weight: 600; margin-left: 0.5rem;
+}
+.badge-up { background: #dcfce7; color: #15803d; }
+.badge-down { background: #fee2e2; color: #b91c1c; }
+.badge-year { background: #e0e7ff; color: #3730a3; }
+
+/* Search & sort */
+.controls { display: flex; gap: 0.75rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.search-box { flex: 1; min-width: 200px; }
+.search-box input {
+  width: 100%; padding: 0.65rem 1rem; font-size: 0.95rem;
+  border: 1px solid var(--border); border-radius: var(--radius); background: var(--card-bg);
+}
+.search-box input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+.sort-select select {
+  padding: 0.65rem 0.75rem; border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--card-bg); font-size: 0.85rem; cursor: pointer;
+}
+.result-count { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.5rem; }
+
+/* Politician list */
+.politician-list { list-style: none; }
+.politician-list li {
+  padding: 0.65rem 1rem; border: 1px solid var(--border); border-radius: var(--radius);
+  margin-bottom: 0.4rem; background: var(--card-bg); cursor: pointer;
+  display: grid; grid-template-columns: 1fr auto; align-items: center;
+  transition: border-color 0.15s;
+}
+.politician-list li:hover { border-color: var(--accent); }
+.pol-name { font-weight: 600; font-size: 0.95rem; }
+.pol-meta { font-size: 0.78rem; color: var(--muted); }
+.pol-right { text-align: right; }
+.pol-income { font-size: 0.95rem; font-weight: 600; }
+.pol-indicators { display: flex; gap: 0.75rem; font-size: 0.72rem; color: var(--muted); justify-content: flex-end; margin-top: 2px; }
+
+/* Detail view */
+#detail { display: none; }
+.back-link { display: inline-block; margin-bottom: 0.75rem; font-size: 0.85rem; }
+.detail-header { margin-bottom: 1.25rem; }
+.detail-header h2 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.01em; }
+.detail-header .function { color: var(--muted); font-size: 0.9rem; }
+.detail-header .source-link { font-size: 0.8rem; margin-top: 0.25rem; }
+
+/* Year tabs */
+.year-tabs { display: flex; gap: 0.4rem; margin-bottom: 1.25rem; flex-wrap: wrap; }
+.year-tabs button {
+  padding: 0.35rem 0.75rem; border: 1px solid var(--border); border-radius: 6px;
+  background: var(--card-bg); cursor: pointer; font-size: 0.85rem; font-weight: 500;
+}
+.year-tabs button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* Sections */
+.section { margin-bottom: 1.25rem; }
+.section h3 {
+  font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--muted); margin-bottom: 0.4rem; font-weight: 600;
+}
+.section-card {
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 0.85rem 1rem; font-size: 0.875rem;
+}
+.section-empty { font-style: italic; color: var(--muted); }
+
+/* Data rows */
+.data-row { display: flex; padding: 0.3rem 0; border-bottom: 1px solid #f1f5f9; }
+.data-row:last-child { border-bottom: none; }
+.data-label { width: 180px; flex-shrink: 0; color: var(--muted); font-size: 0.8rem; }
+.data-value { flex: 1; }
+.data-value.changed { position: relative; }
+.data-old { color: var(--red); text-decoration: line-through; font-size: 0.8rem; margin-right: 0.5rem; }
+
+/* Items list */
+.items-list { list-style: none; }
+.items-list li { padding: 0.35rem 0; border-bottom: 1px solid #f1f5f9; }
+.items-list li:last-child { border-bottom: none; }
+.items-list li.added { background: var(--diff-add); margin: 0 -0.5rem; padding-left: 0.5rem; padding-right: 0.5rem; border-radius: 4px; }
+.items-list li.removed { background: var(--diff-rm); margin: 0 -0.5rem; padding-left: 0.5rem; padding-right: 0.5rem; border-radius: 4px; text-decoration: line-through; opacity: 0.7; }
+.item-role { font-weight: 500; font-size: 0.875rem; }
+.item-detail { font-size: 0.78rem; color: var(--muted); }
+
+/* Income chart */
+.income-chart { display: flex; align-items: flex-end; gap: 0.5rem; height: 140px; padding-top: 10px; }
+.income-bar-group { display: flex; flex-direction: column; align-items: center; flex: 1; height: 100%; justify-content: flex-end; }
+.bar-stack { display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 56px; margin: 0 auto; }
+.income-bar {
+  width: 100%; max-width: 56px; border-radius: 4px 4px 0 0;
+  min-height: 3px; transition: height 0.3s;
+}
+.income-bar.pub { background: var(--accent); }
+.income-bar.other { background: #93c5fd; border-radius: 4px 4px 0 0; }
+.income-bar-label { font-size: 0.72rem; color: var(--muted); margin-top: 4px; font-weight: 500; }
+.income-bar-value { font-size: 0.7rem; font-weight: 600; margin-bottom: 3px; }
+
+/* Timeline */
+.timeline-entry { padding: 0.6rem 0; border-bottom: 1px solid #f1f5f9; }
+.timeline-entry:last-child { border-bottom: none; }
+.timeline-year { font-weight: 700; font-size: 0.9rem; }
+.timeline-badge {
+  display: inline-block; font-size: 0.7rem; padding: 1px 8px; border-radius: 4px;
+  margin-left: 0.4rem; font-weight: 600;
+}
+.badge-new { background: #dcfce7; color: #15803d; }
+.badge-changed { background: #fef3c7; color: #92400e; }
+.badge-unchanged { background: #f1f5f9; color: var(--muted); }
+.change-detail { font-size: 0.8rem; margin-top: 0.3rem; color: var(--fg); }
+.change-detail .field-name { font-weight: 500; }
+.change-detail .old-val { color: var(--red); }
+.change-detail .new-val { color: var(--green); }
+
+@media (max-width: 640px) {
+  .data-row { flex-direction: column; }
+  .data-label { width: auto; }
+  .controls { flex-direction: column; }
+  header .stats { flex-wrap: wrap; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Majetkový kompas</h1>
+    <div class="subtitle">Majetkové priznania verejných funkcionárov SR · dáta z <a href="https://www.nrsr.sk/web/?sid=oznamenia_funkcionarov" target="_blank">NR SR</a> · 2019 – 2024</div>
+    <div class="stats" id="header-stats"></div>
+  </header>
+
+  <div id="list-view">
+    <div class="landing-tabs" id="landing-tabs">
+      <button class="active" data-tab="search">Vyhľadávanie</button>
+      <button data-tab="income_jumps">Najväčšie zmeny príjmov</button>
+      <button data-tab="new_properties">Nové nehnuteľnosti</button>
+      <button data-tab="new_obligations">Nové záväzky</button>
+      <button data-tab="top_earners">Najvyššie príjmy</button>
+    </div>
+
+    <div class="landing-section active" id="tab-search">
+      <div class="controls">
+        <div class="search-box">
+          <input type="text" id="search" placeholder="Hľadať meno, funkciu...">
+        </div>
+        <div class="sort-select">
+          <select id="sort">
+            <option value="name">Meno A–Z</option>
+            <option value="income_desc">Príjem ↓</option>
+            <option value="income_asc">Príjem ↑</option>
+            <option value="properties">Nehnuteľnosti ↓</option>
+            <option value="changes">Zmeny ↓</option>
+          </select>
+        </div>
+      </div>
+      <div class="result-count" id="result-count"></div>
+      <ul class="politician-list" id="politician-list"></ul>
+    </div>
+
+    <div class="landing-section" id="tab-income_jumps">
+      <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.75rem">Najväčšie medziročné zmeny celkových príjmov (2019–2024)</p>
+      <div class="highlight-list" id="hl-income-jumps"></div>
+    </div>
+    <div class="landing-section" id="tab-new_properties">
+      <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.75rem">Funkcionári, ktorým pribudli nehnuteľnosti</p>
+      <div class="highlight-list" id="hl-new-properties"></div>
+    </div>
+    <div class="landing-section" id="tab-new_obligations">
+      <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.75rem">Nové úvery a hypotéky</p>
+      <div class="highlight-list" id="hl-new-obligations"></div>
+    </div>
+    <div class="landing-section" id="tab-top_earners">
+      <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.75rem">Najvyššie celkové príjmy v roku 2024</p>
+      <div class="highlight-list" id="hl-top-earners"></div>
+    </div>
+  </div>
+
+  <div id="detail">
+    <a href="#" class="back-link" id="back-link">&larr; Späť na zoznam</a>
+    <div class="detail-header">
+      <h2 id="detail-name"></h2>
+      <div class="function" id="detail-function"></div>
+      <div class="source-link" id="detail-source"></div>
+    </div>
+    <div class="year-tabs" id="year-tabs"></div>
+    <div id="detail-content"></div>
+    <div class="section" id="income-section">
+      <h3>Vývoj príjmov</h3>
+      <div class="section-card"><div class="income-chart" id="income-chart"></div></div>
+    </div>
+    <div class="section" id="timeline-section">
+      <h3>Zmeny v čase</h3>
+      <div class="section-card"><div id="timeline"></div></div>
+    </div>
+  </div>
+</div>
+
+<script>
+let indexData = [], highlights = {}, currentDetail = null;
+
+async function init() {
+  const [idx, hl, meta] = await Promise.all([
+    fetch('index.json').then(r => r.json()),
+    fetch('highlights.json').then(r => r.json()),
+    fetch('meta.json').then(r => r.json()),
+  ]);
+  indexData = idx;
+  highlights = hl;
+
+  document.getElementById('header-stats').innerHTML = `
+    <div class="stat"><span class="stat-value">${meta.count.toLocaleString('sk')}</span><span class="stat-label">funkcionárov</span></div>
+    <div class="stat"><span class="stat-value">${meta.years.length}</span><span class="stat-label">rokov dát</span></div>
+    <div class="stat"><span class="stat-value">${meta.years[0]}–${meta.years[meta.years.length-1]}</span><span class="stat-label">obdobie</span></div>
+  `;
+
+  renderList(indexData);
+  renderHighlights();
+  setupTabs();
+  document.getElementById('search').addEventListener('input', onSearch);
+  document.getElementById('sort').addEventListener('change', onSearch);
+  document.getElementById('back-link').addEventListener('click', e => { e.preventDefault(); showList(); });
+  window.addEventListener('hashchange', onHash);
+  onHash();
+}
+
+function setupTabs() {
+  document.querySelectorAll('.landing-tabs button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.landing-tabs button').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.landing-section').forEach(s => s.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    });
+  });
+}
+
+function renderHighlights() {
+  // Income jumps
+  const ijEl = document.getElementById('hl-income-jumps');
+  ijEl.innerHTML = highlights.income_jumps.map(h => {
+    const sign = h.delta > 0 ? '+' : '';
+    const cls = h.delta > 0 ? 'positive' : 'negative';
+    const badge = h.delta > 0 ? 'badge-up' : 'badge-down';
+    const pct = h.delta_pct != null ? ` (${sign}${h.delta_pct}%)` : '';
+    return `<div class="highlight-card" onclick="showDetail('${h.user_id}')">
+      <div class="hl-left">
+        <div class="hl-name">${esc(h.name)} <span class="hl-badge badge-year">${h.year}</span></div>
+        <div class="hl-meta">${esc(h.function || '')}</div>
+      </div>
+      <div class="hl-right">
+        <div class="hl-big ${cls}">${sign}${fmt(h.delta)} €</div>
+        <div class="hl-small">${fmt(h.old_total)} → ${fmt(h.new_total)} €${pct}</div>
+      </div>
+    </div>`;
+  }).join('');
+
+  // New properties
+  const npEl = document.getElementById('hl-new-properties');
+  npEl.innerHTML = highlights.new_properties.map(h =>
+    `<div class="highlight-card" onclick="showDetail('${h.user_id}')">
+      <div class="hl-left">
+        <div class="hl-name">${esc(h.name)} <span class="hl-badge badge-year">${h.year}</span></div>
+        <div class="hl-meta">${esc(h.function || '')}</div>
+      </div>
+      <div class="hl-right">
+        <div class="hl-big positive">+${h.added}</div>
+        <div class="hl-small">celkom ${h.total} nehnuteľností</div>
+      </div>
+    </div>`
+  ).join('');
+
+  // New obligations
+  const noEl = document.getElementById('hl-new-obligations');
+  noEl.innerHTML = highlights.new_obligations.map(h =>
+    `<div class="highlight-card" onclick="showDetail('${h.user_id}')">
+      <div class="hl-left">
+        <div class="hl-name">${esc(h.name)} <span class="hl-badge badge-year">${h.year}</span></div>
+        <div class="hl-meta">${esc(h.function || '')}</div>
+      </div>
+      <div class="hl-right">
+        <div class="hl-big negative">+${h.added}</div>
+        <div class="hl-small">celkom ${h.total} záväzkov</div>
+      </div>
+    </div>`
+  ).join('');
+
+  // Top earners
+  const teEl = document.getElementById('hl-top-earners');
+  teEl.innerHTML = highlights.top_earners.map(h =>
+    `<div class="highlight-card" onclick="showDetail('${h.user_id}')">
+      <div class="hl-left">
+        <div class="hl-name">${esc(h.name)}</div>
+        <div class="hl-meta">${esc(h.function || '')}</div>
+      </div>
+      <div class="hl-right">
+        <div class="hl-big neutral">${fmt(h.income)} €</div>
+      </div>
+    </div>`
+  ).join('');
+}
+
+function totalIncome(inc) {
+  if (!inc || typeof inc !== 'object') return 0;
+  return (inc.public_function || 0) + (inc.other || 0);
+}
+
+function sortData(data) {
+  const sort = document.getElementById('sort').value;
+  const copy = [...data];
+  switch (sort) {
+    case 'income_desc': return copy.sort((a, b) => totalIncome(b.income) - totalIncome(a.income));
+    case 'income_asc': return copy.sort((a, b) => totalIncome(a.income) - totalIncome(b.income));
+    case 'properties': return copy.sort((a, b) => (b.n_properties || 0) - (a.n_properties || 0));
+    case 'changes': return copy.sort((a, b) => (b.total_changes || 0) - (a.total_changes || 0));
+    default: return copy;
+  }
+}
+
+function onSearch() {
+  const q = document.getElementById('search').value.toLowerCase();
+  let filtered = indexData;
+  if (q) filtered = filtered.filter(p => p.name.toLowerCase().includes(q) || (p.public_function || '').toLowerCase().includes(q));
+  renderList(sortData(filtered));
+}
+
+function renderList(data) {
+  const ul = document.getElementById('politician-list');
+  const countEl = document.getElementById('result-count');
+  countEl.textContent = `${data.length} funkcionárov`;
+  const show = data.slice(0, 200);
+
+  ul.innerHTML = show.map(p => {
+    const total = totalIncome(p.income);
+    return `<li onclick="showDetail('${p.user_id}')">
+      <div>
+        <div class="pol-name">${esc(p.name)}</div>
+        <div class="pol-meta">${esc(p.public_function || '')}</div>
+      </div>
+      <div class="pol-right">
+        <div class="pol-income">${total > 0 ? fmt(total) + ' €' : ''}</div>
+        <div class="pol-indicators">
+          ${p.n_properties ? `<span title="nehnuteľnosti">${p.n_properties} neh.</span>` : ''}
+          ${p.n_obligations ? `<span title="záväzky">${p.n_obligations} záv.</span>` : ''}
+          ${p.total_changes ? `<span title="zmeny">${p.total_changes} zmien</span>` : ''}
+        </div>
+      </div>
+    </li>`;
+  }).join('');
+
+  if (data.length > 200) {
+    ul.innerHTML += `<li style="justify-content:center;color:var(--muted);cursor:default;display:block;text-align:center">
+      ...a ${data.length - 200} ďalších — upresnite hľadanie
+    </li>`;
+  }
+}
+
+async function showDetail(userId) { window.location.hash = userId; }
+function showList() { window.location.hash = ''; }
+
+function onHash() {
+  const hash = window.location.hash.slice(1);
+  if (hash) {
+    document.getElementById('list-view').style.display = 'none';
+    document.getElementById('detail').style.display = 'block';
+    loadDetail(hash);
+  } else {
+    document.getElementById('list-view').style.display = 'block';
+    document.getElementById('detail').style.display = 'none';
+  }
+}
+
+async function loadDetail(userId) {
+  const resp = await fetch(`politicians/${userId}.json`);
+  currentDetail = await resp.json();
+  const d = currentDetail;
+  document.getElementById('detail-name').textContent = d.name;
+  document.getElementById('detail-function').textContent = d.public_function || '';
+  document.getElementById('detail-source').innerHTML =
+    `<a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=${userId}" target="_blank">→ Originál na nrsr.sk</a>`;
+  renderYearTabs(d);
+  renderYearData(d, d.years[d.years.length - 1]);
+  renderIncomeChart(d);
+  renderTimeline(d);
+  window.scrollTo(0, 0);
+}
+
+function renderYearTabs(detail) {
+  const el = document.getElementById('year-tabs');
+  const latest = detail.years[detail.years.length - 1];
+  el.innerHTML = detail.years.map(y =>
+    `<button onclick="renderYearData(currentDetail,${y})" class="${y===latest?'active':''}">${y}</button>`
+  ).join('');
+}
+
+function renderYearData(detail, year) {
+  document.querySelectorAll('.year-tabs button').forEach(b => b.classList.toggle('active', b.textContent==year));
+  const entry = detail.timeline.find(t => t.year === year);
+  if (!entry) return;
+  const d = entry.data;
+  const diff = entry.diff;
+  const changedMap = {};
+  if (diff && diff.changes) diff.changes.forEach(c => { changedMap[c.field] = c; });
+
+  let html = '';
+
+  // Income with old→new
+  html += section('Príjmy', () => {
+    if (!d.income) return empty();
+    const ic = changedMap['income'];
+    let pubHtml = `${fmt(d.income.public_function || 0)} €`;
+    let otherHtml = `${fmt(d.income.other || 0)} €`;
+    if (ic && ic.old && typeof ic.old === 'object') {
+      const oldPub = ic.old.public_function || 0;
+      const oldOther = ic.old.other || 0;
+      if (oldPub !== (d.income.public_function || 0))
+        pubHtml = `<span class="data-old">${fmt(oldPub)} €</span> → <strong>${fmt(d.income.public_function||0)} €</strong>`;
+      if (oldOther !== (d.income.other || 0))
+        otherHtml = `<span class="data-old">${fmt(oldOther)} €</span> → <strong>${fmt(d.income.other||0)} €</strong>`;
+    }
+    return row('Z verejnej funkcie', pubHtml) + row('Iné', otherHtml);
+  });
+
+  html += section('Zamestnanie', () =>
+    d.employment ? `<div>${esc(d.employment).replace(/\n/g,'<br>')}</div>` : empty('nevykonáva'));
+
+  html += section('Funkcie', () => {
+    if (!d.positions || !d.positions.length) return empty('žiadne');
+    return itemsList(d.positions, p =>
+      `<div class="item-role">${esc(p.role)}</div>
+       ${p.organization ? `<div class="item-detail">${esc(p.organization)}</div>` : ''}
+       ${p.benefits && p.benefits !== 'ŽIADNE' ? `<div class="item-detail">Požitky: ${esc(p.benefits)}</div>` : ''}`
+    );
+  });
+
+  html += section('Nehnuteľnosti', () => {
+    if (!d.real_estate) return empty('nevlastní');
+    return itemsList(d.real_estate, r =>
+      `<div class="item-role">${esc(r.type)}</div>
+       <div class="item-detail">${[r.cadastral_territory ? `Kat. územie: ${esc(r.cadastral_territory)}` : '',
+         r.lv_number ? `LV: ${esc(r.lv_number)}` : '',
+         r.share ? `Podiel: ${esc(r.share)}` : ''].filter(Boolean).join(' · ')}</div>`
+    );
+  });
+
+  html += section('Hnuteľný majetok', () => {
+    if (!d.movable_property) return empty('nevlastní');
+    if (typeof d.movable_property === 'string') return esc(d.movable_property);
+    return itemsList(d.movable_property, v =>
+      `<div class="item-role">${esc(v.type || '')}</div>
+       <div class="item-detail">${[v.brand, v.year_of_manufacture ? `(${v.year_of_manufacture})` : '', v.share ? `Podiel: ${v.share}` : ''].filter(Boolean).join(' ')}</div>`
+    );
+  });
+
+  if (d.vehicles) {
+    html += section('Užívanie vozidiel', () => itemsList(d.vehicles, v =>
+      `<div class="item-role">${esc(v.type || 'MOTOROVÉ VOZIDLO')}</div>
+       <div class="item-detail">${[v.brand, v.year_of_manufacture ? `(${v.year_of_manufacture})` : ''].filter(Boolean).join(' ')}</div>`
+    ));
+  }
+
+  html += section('Záväzky', () => {
+    if (!d.obligations) return empty('žiadne');
+    return itemsList(d.obligations, o =>
+      `<div class="item-role">${esc(o.type)}</div>
+       <div class="item-detail">${[o.share ? `Podiel: ${esc(o.share)}` : '', o.date ? `Vznik: ${esc(o.date)}` : ''].filter(Boolean).join(' · ')}</div>`
+    );
+  });
+
+  if (d.property_rights) {
+    html += section('Majetkové práva', () => itemsList(d.property_rights, r =>
+      typeof r === 'string' ? r : JSON.stringify(r)
+    ));
+  }
+
+  html += section('Dary', () => d.gifts ? esc(d.gifts) : empty('žiadne'));
+
+  document.getElementById('detail-content').innerHTML = html;
+}
+
+function renderIncomeChart(detail) {
+  const el = document.getElementById('income-chart');
+  const incomes = detail.timeline.map(t => ({
+    year: t.year,
+    pub: t.data.income ? (t.data.income.public_function || 0) : 0,
+    other: t.data.income ? (t.data.income.other || 0) : 0,
+  }));
+  const maxI = Math.max(...incomes.map(i => i.pub + i.other), 1);
+
+  el.innerHTML = incomes.map(i => {
+    const total = i.pub + i.other;
+    const totalPct = (total / maxI * 100);
+    const otherShare = total > 0 ? (i.other / total * 100) : 0;
+    const barH = Math.max(totalPct, 3);
+    return `<div class="income-bar-group">
+      <div class="income-bar-value">${fmt(total)} €</div>
+      <div class="bar-stack" style="height:${barH}%">
+        ${i.other > 0 ? `<div class="income-bar other" style="flex:${otherShare}"></div>` : ''}
+        <div class="income-bar pub" style="flex:${100-otherShare}"></div>
+      </div>
+      <div class="income-bar-label">${i.year}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderTimeline(detail) {
+  const el = document.getElementById('timeline');
+  el.innerHTML = detail.timeline.map(t => {
+    const diff = t.diff;
+    let badge, details = '';
+    if (diff.type === 'new') {
+      badge = '<span class="timeline-badge badge-new">nový záznam</span>';
+    } else if (diff.type === 'unchanged') {
+      badge = '<span class="timeline-badge badge-unchanged">bez zmien</span>';
+    } else if (diff.type === 'changed') {
+      badge = `<span class="timeline-badge badge-changed">${diff.changes.length} ${diff.changes.length === 1 ? 'zmena' : 'zmien'}</span>`;
+      details = '<div class="change-detail">' + diff.changes.map(c => {
+        const label = fieldLabel(c.field);
+        if (c.field === 'income' && c.old_total != null) {
+          const sign = c.delta > 0 ? '+' : '';
+          return `<div><span class="field-name">${label}:</span> <span class="old-val">${fmt(c.old_total)} €</span> → <span class="new-val">${fmt(c.new_total)} €</span> (${sign}${fmt(c.delta)} €)</div>`;
+        }
+        if (c.old_count != null) {
+          const d = c.new_count - c.old_count;
+          if (d === 0) return ''; // skip if count didn't change (only content changed)
+          const sign = d > 0 ? '+' : '';
+          return `<div><span class="field-name">${label}:</span> ${c.old_count} → ${c.new_count} (${sign}${d})</div>`;
+        }
+        return `<div><span class="field-name">${label}</span></div>`;
+      }).filter(Boolean).join('') + '</div>';
+    }
+    return `<div class="timeline-entry"><span class="timeline-year">${t.year}</span>${badge}${details}</div>`;
+  }).join('');
+}
+
+// Helpers
+function esc(s) { const el = document.createElement('span'); el.textContent = s || ''; return el.innerHTML; }
+function fmt(n) { return n != null ? n.toLocaleString('sk-SK') : ''; }
+function row(label, value) { return `<div class="data-row"><div class="data-label">${label}</div><div class="data-value">${value}</div></div>`; }
+function section(title, fn) { return `<div class="section"><h3>${title}</h3><div class="section-card">${fn()}</div></div>`; }
+function empty(text) { return `<span class="section-empty">${text || 'neuvedené'}</span>`; }
+function itemsList(items, renderFn) {
+  return `<ul class="items-list">${items.map(i => `<li>${renderFn(i)}</li>`).join('')}</ul>`;
+}
+function fieldLabel(key) {
+  return {income:'príjmy',employment:'zamestnanie',business_activity:'podnikanie',positions:'funkcie',
+    real_estate:'nehnuteľnosti',movable_property:'hnuteľný majetok',obligations:'záväzky',
+    vehicles:'vozidlá',gifts:'dary',property_rights:'majetkové práva',public_function:'verejná funkcia',
+    incompatibility:'nezlučiteľnosť',use_of_others_real_estate:'užívanie nehnuteľností'}[key] || key;
+}
+
+init();
+</script>
+</body>
+</html>
