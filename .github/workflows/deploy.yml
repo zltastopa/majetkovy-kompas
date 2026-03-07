@@ -20,7 +20,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # full history needed for data branch
+          fetch-depth: 0
+
+      - name: Fetch data branch
+        run: git fetch origin data:data
 
       - uses: astral-sh/setup-uv@v5
 
