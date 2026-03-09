@@ -2,6 +2,9 @@
   "user_id": "Juraj.Kralik",
   "name": "Mgr.art. Juraj Králik",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ GALÉRIA)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ GALÉRIA)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ GALÉRIA)",
   "years": [
     2024
@@ -16,6 +19,9 @@
         "year": 2024,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ GALÉRIA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ NÁRODNÁ GALÉRIA)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -25,6 +31,12 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
+          {
+            "type": "POLYFUNKČNÝ OBJEKT",
+            "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+            "lv_number": "6292",
+            "share": "1/1"
+          },
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "STARÉ MESTO BRATISLAVA",
@@ -36,12 +48,6 @@
             "cadastral_territory": "STARÉ MESTO BRATISLAVA",
             "lv_number": "4792",
             "share": "1/8"
-          },
-          {
-            "type": "POLYFUNKČNÝ OBJEKT",
-            "cadastral_territory": "BRATISLAVA STARÉ MESTO",
-            "lv_number": "6292",
-            "share": "1/1"
           }
         ],
         "movable_property": null,
@@ -62,15 +68,15 @@
   ],
   "total_changes": 0,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Kralik.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Kralik.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Juraj.Kralik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Juraj.Kralik.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
@@ -82,7 +88,7 @@
     "obligations": 1,
     "income_percentile": 0,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0

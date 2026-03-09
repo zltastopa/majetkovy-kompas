@@ -1,8 +1,12 @@
 {
   "user_id": "Zuzana.FoldesovaMotajova",
   "name": "Mgr. Zuzana Földesová Motajová, MSc.",
-  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)",
-  "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)",
+  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)",
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)"
+  ],
+  "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)",
   "years": [
     2020,
     2021,
@@ -19,7 +23,11 @@
         "name": "Mgr. ZUZANA FÖLDESOVÁ MOTAJOVÁ, MSC.",
         "year": 2020,
         "filed": "pri ujatí sa funkcie",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S,)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VYCHODOSLOVENSKÝ ÚSTAV SRDCOVÝCH\r\nA CIEVNYCH CHORÔB, A.S.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S,)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VYCHODOSLOVENSKÝ ÚSTAV SRDCOVÝCH A CIEVNYCH CHORÔB, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S,)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VYCHODOSLOVENSKÝ ÚSTAV SRDCOVÝCH A CIEVNYCH CHORÔB, A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -42,16 +50,16 @@
             "share": "1/1 (BSM)"
           },
           {
-            "type": "POZEMOK,NA KTOROM JE POSTAVENÁ BYTOVÁ BUDOVA",
-            "cadastral_territory": "BRATISLAVA IV, BRATISLAVA-LAMAČ, LAMAČ",
-            "lv_number": "2179",
-            "share": "3410/100000 BSM"
-          },
-          {
             "type": "DOM A ZÁHRADA",
             "cadastral_territory": "MYJAVA,KOŠARISKÁ,KOŠARISKÁ",
             "lv_number": "113",
             "share": "1/1 (BSM)"
+          },
+          {
+            "type": "POZEMOK,NA KTOROM JE POSTAVENÁ BYTOVÁ BUDOVA",
+            "cadastral_territory": "BRATISLAVA IV, BRATISLAVA-LAMAČ, LAMAČ",
+            "lv_number": "2179",
+            "share": "3410/100000 BSM"
           }
         ],
         "movable_property": null,
@@ -80,6 +88,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)"
+        ],
         "income": {
           "public_function": 0,
           "other": 65428
@@ -132,8 +143,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S,)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VYCHODOSLOVENSKÝ ÚSTAV SRDCOVÝCH\r\nA CIEVNYCH CHORÔB, A.S.)",
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S,)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VYCHODOSLOVENSKÝ ÚSTAV SRDCOVÝCH A CIEVNYCH CHORÔB, A.S.)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S,)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VYCHODOSLOVENSKÝ ÚSTAV SRDCOVÝCH A CIEVNYCH CHORÔB, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)"
+            ],
+            "old_count": 2,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -178,16 +201,16 @@
                 "share": "1/1 (BSM)"
               },
               {
-                "type": "POZEMOK,NA KTOROM JE POSTAVENÁ BYTOVÁ BUDOVA",
-                "cadastral_territory": "BRATISLAVA IV, BRATISLAVA-LAMAČ, LAMAČ",
-                "lv_number": "2179",
-                "share": "3410/100000 BSM"
-              },
-              {
                 "type": "DOM A ZÁHRADA",
                 "cadastral_territory": "MYJAVA,KOŠARISKÁ,KOŠARISKÁ",
                 "lv_number": "113",
                 "share": "1/1 (BSM)"
+              },
+              {
+                "type": "POZEMOK,NA KTOROM JE POSTAVENÁ BYTOVÁ BUDOVA",
+                "cadastral_territory": "BRATISLAVA IV, BRATISLAVA-LAMAČ, LAMAČ",
+                "lv_number": "2179",
+                "share": "3410/100000 BSM"
               }
             ],
             "new": [
@@ -225,6 +248,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)"
+        ],
         "income": {
           "public_function": 0,
           "other": 64331
@@ -306,7 +332,11 @@
         "name": "Mgr. ZUZANA FÖLDESOVÁ MOTAJOVÁ, MSc.",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)"
+        ],
         "income": {
           "public_function": 0,
           "other": 55615
@@ -360,7 +390,19 @@
           {
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)"
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -412,7 +454,11 @@
         "name": "Mgr. ZUZANA FÖLDESOVÁ MOTAJOVÁ, MSc.",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PHILIPPA PINELA)"
+        ],
         "income": {
           "public_function": 0,
           "other": 58519
@@ -487,44 +533,19 @@
       }
     }
   ],
-  "total_changes": 12,
+  "total_changes": 14,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zuzana.FoldesovaMotajova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zuzana.FoldesovaMotajova.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Zuzana.FoldesovaMotajova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Zuzana.FoldesovaMotajova.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 55615
-          },
-          "new": {
-            "public_function": 0,
-            "other": 58519
-          },
-          "old_total": 55615,
-          "new_total": 58519,
-          "delta": 2904,
-          "delta_pct": 5.2
-        },
-        {
-          "field": "employment",
-          "old": "MINISTERSTVO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "MINISTERSTVO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 55 615 € → 58 519 € (+2 904 €)",
-      "Zamestnanie"
-    ]
+    "summary": []
   },
   "slug": "mgr-zuzana-foldesova-motajova-msc",
   "context": {
@@ -534,7 +555,7 @@
     "obligations": 1,
     "income_percentile": 60,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.3

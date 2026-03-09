@@ -1,7 +1,10 @@
 {
   "user_id": "Matej.Ovciarka",
   "name": "Ing. Matej Ovčiarka",
-  "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.\r\n)",
+  "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S. )",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S. )"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S. )",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -54,8 +60,8 @@
           }
         ],
         "property_rights": [
-          "ZMENKA, podiel: BSM",
-          "PÔŽIČKA, podiel: BSM"
+          "PÔŽIČKA, podiel: BSM",
+          "ZMENKA, podiel: BSM"
         ],
         "obligations": [
           {
@@ -80,7 +86,10 @@
         "name": "Ing. MATEJ OVČIARKA",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.\r\n)",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S. )",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S. )"
+        ],
         "income": {
           "public_function": 0,
           "other": 83014
@@ -97,16 +106,16 @@
             "share": "BSM"
           },
           {
-            "type": "REKREAČNÁ CHATA",
-            "cadastral_territory": "MÝTO POD ĎUMBIEROM",
-            "lv_number": "194",
-            "share": "BSM"
-          },
-          {
             "type": "BYT A NEBYTOVÝ PRIESTOR",
             "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
             "lv_number": "6459",
             "share": "1/1"
+          },
+          {
+            "type": "REKREAČNÁ CHATA",
+            "cadastral_territory": "MÝTO POD ĎUMBIEROM",
+            "lv_number": "194",
+            "share": "BSM"
           },
           {
             "type": "RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -124,8 +133,8 @@
           }
         ],
         "property_rights": [
-          "ZMENKA, podiel: BSM",
-          "PÔŽIČKA, podiel: BSM"
+          "PÔŽIČKA, podiel: BSM",
+          "ZMENKA, podiel: BSM"
         ],
         "obligations": [
           {
@@ -144,7 +153,18 @@
           {
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)",
-            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.\r\n)"
+            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S. )"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S. )"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -195,16 +215,16 @@
                 "share": "BSM"
               },
               {
-                "type": "REKREAČNÁ CHATA",
-                "cadastral_territory": "MÝTO POD ĎUMBIEROM",
-                "lv_number": "194",
-                "share": "BSM"
-              },
-              {
                 "type": "BYT A NEBYTOVÝ PRIESTOR",
                 "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
                 "lv_number": "6459",
                 "share": "1/1"
+              },
+              {
+                "type": "REKREAČNÁ CHATA",
+                "cadastral_territory": "MÝTO POD ĎUMBIEROM",
+                "lv_number": "194",
+                "share": "BSM"
               },
               {
                 "type": "RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -220,101 +240,19 @@
       }
     }
   ],
-  "total_changes": 4,
+  "total_changes": 5,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Matej.Ovciarka.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Matej.Ovciarka.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Matej.Ovciarka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Matej.Ovciarka.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.\r\n)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 0,
-            "other": 83014
-          },
-          "old_total": 0,
-          "new_total": 83014,
-          "delta": 83014
-        },
-        {
-          "field": "employment",
-          "old": "MINISTERSTVO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "MINISTERSTVO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT A NEBYTOVÝ PRIESTOR",
-              "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
-              "lv_number": "5772",
-              "share": "BSM"
-            },
-            {
-              "type": "BYT A NEBYTOVÝ PRIESTOR",
-              "cadastral_territory": "STARÉ MESTO BRATISLAVA",
-              "lv_number": "6459",
-              "share": "1/1"
-            },
-            {
-              "type": "REKREAČNÁ CHATA",
-              "cadastral_territory": "MÝTO POD ĎUMBIEROM",
-              "lv_number": "194",
-              "share": "BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT A NEBYTOVÝ PRIESTOR",
-              "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
-              "lv_number": "5772",
-              "share": "BSM"
-            },
-            {
-              "type": "REKREAČNÁ CHATA",
-              "cadastral_territory": "MÝTO POD ĎUMBIEROM",
-              "lv_number": "194",
-              "share": "BSM"
-            },
-            {
-              "type": "BYT A NEBYTOVÝ PRIESTOR",
-              "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
-              "lv_number": "6459",
-              "share": "1/1"
-            },
-            {
-              "type": "RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "LIPTOVSKÁ KOKAVA",
-              "lv_number": "461",
-              "share": "1/12"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 4
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 83 014 € (+83 014 €)",
-      "Zamestnanie",
-      "Nehnuteľnosti: 3 → 4 (+1)"
-    ]
+    "summary": []
   },
   "slug": "ing-matej-ovciarka",
   "context": {
@@ -324,7 +262,7 @@
     "obligations": 1,
     "income_percentile": 80,
     "property_percentile": 60,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.6

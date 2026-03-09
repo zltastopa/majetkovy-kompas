@@ -2,6 +2,9 @@
   "user_id": "Jozef.Rozbora",
   "name": "JUDr. Jozef Rozbora",
   "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, ŠTÁTNY PODNIK)",
+  "public_functions": [
+    "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, ŠTÁTNY PODNIK)"
+  ],
   "role": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, ŠTÁTNY PODNIK)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, Š.P.)",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, Š.P.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -62,6 +68,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, ŠTÁTNY PODNIK)",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, ŠTÁTNY PODNIK)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -104,6 +113,17 @@
             "field": "public_function",
             "old": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, Š.P.)",
             "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, ŠTÁTNY PODNIK)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, Š.P.)"
+            ],
+            "new": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, ŠTÁTNY PODNIK)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "business_activity",
@@ -166,91 +186,19 @@
       }
     }
   ],
-  "total_changes": 7,
+  "total_changes": 8,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Rozbora.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Rozbora.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jozef.Rozbora.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jozef.Rozbora.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, Š.P.)",
-          "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, ŠTÁTNY PODNIK)"
-        },
-        {
-          "field": "business_activity",
-          "old": "SZČO(JOZEF ROZBORA - PARTNER SECURITY)",
-          "new": null
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "PREDSEDA",
-              "organization": "ROZLUKA O.Z.",
-              "benefits": "ŽIADNE"
-            }
-          ],
-          "new": null
-        },
-        {
-          "field": "movable_property",
-          "old": null,
-          "new": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "CUPRA",
-              "year_of_manufacture": 2021,
-              "share": "1/1"
-            },
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "DACIA",
-              "year_of_manufacture": 2019,
-              "share": "1/1"
-            }
-          ]
-        },
-        {
-          "field": "property_rights",
-          "old": null,
-          "new": [
-            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1"
-          ]
-        },
-        {
-          "field": "use_of_others_real_estate",
-          "old": "RODINNÝ DOM, kat. územie ZLATÉ MORAVCE, rok zač. užívania: 2000, spôsob užívania: BÝVANIE",
-          "new": null
-        },
-        {
-          "field": "vehicles",
-          "old": [
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "CUPRA",
-              "year_of_manufacture": 2021
-            }
-          ],
-          "new": null
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Podnikanie",
-      "Funkcie",
-      "Hnuteľný majetok",
-      "Majetkové práva",
-      "Užívanie nehnuteľností",
-      "Vozidlá"
-    ]
+    "summary": []
   },
   "slug": "judr-jozef-rozbora",
   "context": {
@@ -260,7 +208,7 @@
     "obligations": 1,
     "income_percentile": 0,
     "property_percentile": 9,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0

@@ -1,7 +1,11 @@
 {
   "user_id": "LichIgor",
   "name": "Ing. Igor Lichnovský",
-  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE A.S.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE A.S.)\nčlen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE A.S.)",
+    "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE A.S.) · člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
   "years": [
     2019,
@@ -20,7 +24,11 @@
         "name": "Ing. IGOR LICHNOVSKÝ",
         "year": 2019,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV  BRATISLAVA)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -37,6 +45,12 @@
         ],
         "real_estate": [
           {
+            "type": "2X ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "VAJNORY",
+            "lv_number": "2102",
+            "share": "10%"
+          },
+          {
             "type": "INÁ STAVBA",
             "cadastral_territory": "VAJNORY",
             "lv_number": "2102",
@@ -51,12 +65,6 @@
           {
             "type": "ZÁHRADA",
             "cadastral_territory": "BRATISLAVA VAJNORY",
-            "lv_number": "2102",
-            "share": "10%"
-          },
-          {
-            "type": "2X ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "VAJNORY",
             "lv_number": "2102",
             "share": "10%"
           }
@@ -99,7 +107,11 @@
         "name": "Ing. IGOR LICHNOVSKÝ",
         "year": 2020,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, BRATISLAVA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATONAL DEVELOPMENT FUND II.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, BRATISLAVA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATONAL DEVELOPMENT FUND II.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, BRATISLAVA)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATONAL DEVELOPMENT FUND II.)"
+        ],
         "income": {
           "public_function": 10029,
           "other": 9558
@@ -116,19 +128,13 @@
         ],
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "VAJNORY, BRATISLAVA",
-            "lv_number": "2102",
-            "share": "10%"
-          },
-          {
             "type": "INÁ STAVBA",
             "cadastral_territory": "VAJNORY, BRATISLAVA",
             "lv_number": "2102",
             "share": "10%"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "RODINNÝ DOM",
             "cadastral_territory": "VAJNORY, BRATISLAVA",
             "lv_number": "2102",
             "share": "10%"
@@ -136,6 +142,12 @@
           {
             "type": "ZASTAVANÁ PLOCHA",
             "cadastral_territory": "VAJNORY BRATISLAVA",
+            "lv_number": "2102",
+            "share": "10%"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "VAJNORY, BRATISLAVA",
             "lv_number": "2102",
             "share": "10%"
           }
@@ -171,8 +183,21 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV  BRATISLAVA)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, BRATISLAVA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATONAL DEVELOPMENT FUND II.)"
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)",
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, BRATISLAVA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATONAL DEVELOPMENT FUND II.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, BRATISLAVA)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATONAL DEVELOPMENT FUND II.)"
+            ],
+            "old_count": 2,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -192,6 +217,12 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "2X ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VAJNORY",
+                "lv_number": "2102",
+                "share": "10%"
+              },
+              {
                 "type": "INÁ STAVBA",
                 "cadastral_territory": "VAJNORY",
                 "lv_number": "2102",
@@ -206,31 +237,19 @@
               {
                 "type": "ZÁHRADA",
                 "cadastral_territory": "BRATISLAVA VAJNORY",
-                "lv_number": "2102",
-                "share": "10%"
-              },
-              {
-                "type": "2X ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VAJNORY",
                 "lv_number": "2102",
                 "share": "10%"
               }
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "VAJNORY, BRATISLAVA",
-                "lv_number": "2102",
-                "share": "10%"
-              },
-              {
                 "type": "INÁ STAVBA",
                 "cadastral_territory": "VAJNORY, BRATISLAVA",
                 "lv_number": "2102",
                 "share": "10%"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "VAJNORY, BRATISLAVA",
                 "lv_number": "2102",
                 "share": "10%"
@@ -238,6 +257,12 @@
               {
                 "type": "ZASTAVANÁ PLOCHA",
                 "cadastral_territory": "VAJNORY BRATISLAVA",
+                "lv_number": "2102",
+                "share": "10%"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "VAJNORY, BRATISLAVA",
                 "lv_number": "2102",
                 "share": "10%"
               }
@@ -289,7 +314,11 @@
         "name": "Ing. IGOR LICHNOVSKÝ",
         "year": 2021,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)"
+        ],
         "income": {
           "public_function": 10027,
           "other": 11100
@@ -300,12 +329,12 @@
         "positions": [
           {
             "role": "ČLEN DOZORNEJ RADY",
-            "organization": "OMNIA HOLDING",
+            "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SR",
             "benefits": "TANTIÉMY"
           },
           {
             "role": "ČLEN DOZORNEJ RADY",
-            "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SR",
+            "organization": "OMNIA HOLDING",
             "benefits": "TANTIÉMY"
           }
         ],
@@ -348,8 +377,21 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, BRATISLAVA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATONAL DEVELOPMENT FUND II.)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)"
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, BRATISLAVA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATONAL DEVELOPMENT FUND II.)",
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, BRATISLAVA)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATONAL DEVELOPMENT FUND II.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)"
+            ],
+            "old_count": 2,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -378,12 +420,12 @@
             "new": [
               {
                 "role": "ČLEN DOZORNEJ RADY",
-                "organization": "OMNIA HOLDING",
+                "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SR",
                 "benefits": "TANTIÉMY"
               },
               {
                 "role": "ČLEN DOZORNEJ RADY",
-                "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SR",
+                "organization": "OMNIA HOLDING",
                 "benefits": "TANTIÉMY"
               }
             ],
@@ -394,19 +436,13 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "VAJNORY, BRATISLAVA",
-                "lv_number": "2102",
-                "share": "10%"
-              },
-              {
                 "type": "INÁ STAVBA",
                 "cadastral_territory": "VAJNORY, BRATISLAVA",
                 "lv_number": "2102",
                 "share": "10%"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "VAJNORY, BRATISLAVA",
                 "lv_number": "2102",
                 "share": "10%"
@@ -414,6 +450,12 @@
               {
                 "type": "ZASTAVANÁ PLOCHA",
                 "cadastral_territory": "VAJNORY BRATISLAVA",
+                "lv_number": "2102",
+                "share": "10%"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "VAJNORY, BRATISLAVA",
                 "lv_number": "2102",
                 "share": "10%"
               }
@@ -474,6 +516,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)"
+        ],
         "income": {
           "public_function": 10032,
           "other": 11644
@@ -484,12 +529,12 @@
         "positions": [
           {
             "role": "ČLEN DOZORNEJ RADY",
-            "organization": "OMNIA HOLDING SE",
+            "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SR, A.S.",
             "benefits": "TANTIÉMY"
           },
           {
             "role": "ČLEN DOZORNEJ RADY",
-            "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SR, A.S.",
+            "organization": "OMNIA HOLDING SE",
             "benefits": "TANTIÉMY"
           }
         ],
@@ -525,8 +570,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)",
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)"
+            ],
+            "old_count": 2,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -548,24 +605,24 @@
             "old": [
               {
                 "role": "ČLEN DOZORNEJ RADY",
-                "organization": "OMNIA HOLDING",
+                "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SR",
                 "benefits": "TANTIÉMY"
               },
               {
                 "role": "ČLEN DOZORNEJ RADY",
-                "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SR",
+                "organization": "OMNIA HOLDING",
                 "benefits": "TANTIÉMY"
               }
             ],
             "new": [
               {
                 "role": "ČLEN DOZORNEJ RADY",
-                "organization": "OMNIA HOLDING SE",
+                "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SR, A.S.",
                 "benefits": "TANTIÉMY"
               },
               {
                 "role": "ČLEN DOZORNEJ RADY",
-                "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SR, A.S.",
+                "organization": "OMNIA HOLDING SE",
                 "benefits": "TANTIÉMY"
               }
             ],
@@ -628,7 +685,11 @@
         "name": "Ing. IGOR LICHNOVSKÝ",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, A.S.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, A.S.)\nčlen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, A.S.)",
+          "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+        ],
         "income": {
           "public_function": 14833,
           "other": 23887
@@ -639,12 +700,12 @@
         "positions": [
           {
             "role": "ČLEN DOZORNEJ RADY",
-            "organization": "OMNIA HOLDING SE",
+            "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV",
             "benefits": "TANTIÉMY"
           },
           {
             "role": "ČLEN DOZORNEJ RADY",
-            "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV",
+            "organization": "OMNIA HOLDING SE",
             "benefits": "TANTIÉMY"
           }
         ],
@@ -682,7 +743,19 @@
           {
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, A.S.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, A.S.)\nčlen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV BRATISLAVA)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, A.S.)",
+              "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -704,24 +777,24 @@
             "old": [
               {
                 "role": "ČLEN DOZORNEJ RADY",
-                "organization": "OMNIA HOLDING SE",
+                "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SR, A.S.",
                 "benefits": "TANTIÉMY"
               },
               {
                 "role": "ČLEN DOZORNEJ RADY",
-                "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SR, A.S.",
+                "organization": "OMNIA HOLDING SE",
                 "benefits": "TANTIÉMY"
               }
             ],
             "new": [
               {
                 "role": "ČLEN DOZORNEJ RADY",
-                "organization": "OMNIA HOLDING SE",
+                "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV",
                 "benefits": "TANTIÉMY"
               },
               {
                 "role": "ČLEN DOZORNEJ RADY",
-                "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV",
+                "organization": "OMNIA HOLDING SE",
                 "benefits": "TANTIÉMY"
               }
             ],
@@ -784,7 +857,11 @@
         "name": "Ing. IGOR LICHNOVSKÝ",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE A.S.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE A.S.)\nčlen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE A.S.)",
+          "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+        ],
         "income": {
           "public_function": 53264,
           "other": 91039
@@ -842,8 +919,21 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, A.S.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE A.S.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, A.S.)\nčlen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE A.S.)\nčlen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, A.S.)",
+              "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE A.S.)",
+              "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+            ],
+            "old_count": 2,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -865,12 +955,12 @@
             "old": [
               {
                 "role": "ČLEN DOZORNEJ RADY",
-                "organization": "OMNIA HOLDING SE",
+                "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV",
                 "benefits": "TANTIÉMY"
               },
               {
                 "role": "ČLEN DOZORNEJ RADY",
-                "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV",
+                "organization": "OMNIA HOLDING SE",
                 "benefits": "TANTIÉMY"
               }
             ],
@@ -898,79 +988,19 @@
       }
     }
   ],
-  "total_changes": 22,
+  "total_changes": 27,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/LichIgor.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/LichIgor.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/LichIgor.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/LichIgor.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV, A.S.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
-          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE A.S.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 14833,
-            "other": 23887
-          },
-          "new": {
-            "public_function": 53264,
-            "other": 91039
-          },
-          "old_total": 38720,
-          "new_total": 144303,
-          "delta": 105583,
-          "delta_pct": 272.7
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "ČLEN DOZORNEJ RADY",
-              "organization": "OMNIA HOLDING SE",
-              "benefits": "TANTIÉMY"
-            },
-            {
-              "role": "ČLEN DOZORNEJ RADY",
-              "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV",
-              "benefits": "TANTIÉMY"
-            }
-          ],
-          "new": [
-            {
-              "role": "ČLEN DOZORNEJ RADY",
-              "organization": "CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV ",
-              "benefits": "TANTIÉMY"
-            },
-            {
-              "role": "ČLEN DOZORNEJ RADY",
-              "organization": "OMNIA HOLDING SE",
-              "benefits": "TANTIÉMY"
-            },
-            {
-              "role": "ČLEN GOVERNANCE ROAD",
-              "organization": "LAT NITROGEN GMBH",
-              "benefits": "TANTIÉMY"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 3
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 38 720 € → 144 303 € (+105 583 €)",
-      "Funkcie: 2 → 3 (+1)"
-    ]
+    "summary": []
   },
   "slug": "ing-igor-lichnovsky",
   "context": {
@@ -980,7 +1010,7 @@
     "obligations": 1,
     "income_percentile": 94,
     "property_percentile": 9,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 8.0

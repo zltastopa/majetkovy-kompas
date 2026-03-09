@@ -2,6 +2,9 @@
   "user_id": "Juraj.Bochna",
   "name": "Mgr.art. Juraj Bochňa, ArtD.",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (KÚPEĽNO-LIEČEBNÝ ÚSTAV MINISTERSTVA VNÚTRA SLOVENSKEJ REPUBLIKY DRUŽBA)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (KÚPEĽNO-LIEČEBNÝ ÚSTAV MINISTERSTVA VNÚTRA SLOVENSKEJ REPUBLIKY DRUŽBA)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (KÚPEĽNO-LIEČEBNÝ ÚSTAV MINISTERSTVA VNÚTRA SLOVENSKEJ REPUBLIKY DRUŽBA)",
   "years": [
     2024
@@ -16,6 +19,9 @@
         "year": 2024,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (KÚPEĽNO-LIEČEBNÝ ÚSTAV MINISTERSTVA VNÚTRA SLOVENSKEJ REPUBLIKY DRUŽBA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (KÚPEĽNO-LIEČEBNÝ ÚSTAV MINISTERSTVA VNÚTRA SLOVENSKEJ REPUBLIKY DRUŽBA)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -43,15 +49,45 @@
             "share": "1/1"
           },
           {
+            "type": "CHATA",
+            "cadastral_territory": "BARDEJOV",
+            "lv_number": "4360",
+            "share": "1/1"
+          },
+          {
             "type": "DOM",
             "cadastral_territory": "BARDEJOV",
             "lv_number": "4360",
             "share": "1/1"
           },
           {
-            "type": "CHATA",
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "BARDEJOV",
+            "lv_number": "10401",
+            "share": "2X 2107/152304"
+          },
+          {
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "BARDEJOV",
             "lv_number": "4360",
+            "share": "1/1"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "BARDEJOV",
+            "lv_number": "7103",
+            "share": "1/1"
+          },
+          {
+            "type": "TRVALÉ TRÁVNATÉ PORASTY",
+            "cadastral_territory": "BARDEJOV",
+            "lv_number": "4360",
+            "share": "1/1"
+          },
+          {
+            "type": "TRVALÉ TRÁVNE PORASTY",
+            "cadastral_territory": "BARDEJOV",
+            "lv_number": "10401",
             "share": "1/1"
           },
           {
@@ -67,42 +103,6 @@
             "share": "1/2 + 1/6"
           },
           {
-            "type": "TRVALÉ TRÁVNE PORASTY",
-            "cadastral_territory": "BARDEJOV",
-            "lv_number": "10401",
-            "share": "1/1"
-          },
-          {
-            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
-            "cadastral_territory": "BARDEJOV",
-            "lv_number": "4360",
-            "share": "1/1"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "BARDEJOV",
-            "lv_number": "10401",
-            "share": "2X 2107/152304"
-          },
-          {
-            "type": "TRVALÉ TRÁVNATÉ PORASTY",
-            "cadastral_territory": "BARDEJOV",
-            "lv_number": "4360",
-            "share": "1/1"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "BARDEJOV",
-            "lv_number": "4360",
-            "share": "1/1"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "BARDEJOV",
-            "lv_number": "7103",
-            "share": "1/1"
-          },
-          {
             "type": "TRVALÝ TRÁVNATÝ PORAST",
             "cadastral_territory": "BARDEJOV",
             "lv_number": "5528",
@@ -112,6 +112,12 @@
             "type": "TRVALÝ TRÁVNATÝ PORAST",
             "cadastral_territory": "BARDEJOV",
             "lv_number": "5531",
+            "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+            "cadastral_territory": "BARDEJOV",
+            "lv_number": "4360",
             "share": "1/1"
           }
         ],
@@ -124,8 +130,50 @@
           },
           {
             "type": "AUTO",
+            "brand": "AVIA",
+            "year_of_manufacture": 1957,
+            "share": "1/1"
+          },
+          {
+            "type": "AUTO",
+            "brand": "AVIA",
+            "year_of_manufacture": 1957,
+            "share": "1/1"
+          },
+          {
+            "type": "AUTO",
+            "brand": "AVIA",
+            "year_of_manufacture": 1958,
+            "share": "1/1"
+          },
+          {
+            "type": "AUTO",
+            "brand": "CADILLAC",
+            "year_of_manufacture": 1976,
+            "share": "1/1"
+          },
+          {
+            "type": "AUTO",
             "brand": "CITROEN",
             "year_of_manufacture": 1998,
+            "share": "1/1"
+          },
+          {
+            "type": "AUTO",
+            "brand": "JAWA",
+            "year_of_manufacture": 1958,
+            "share": "1/1"
+          },
+          {
+            "type": "AUTO",
+            "brand": "TATRA",
+            "year_of_manufacture": 1968,
+            "share": "1/1"
+          },
+          {
+            "type": "AUTO",
+            "brand": "ŠKODA",
+            "year_of_manufacture": 1947,
             "share": "1/1"
           },
           {
@@ -147,6 +195,18 @@
             "share": "1/1"
           },
           {
+            "type": "ODŤAHOVÝ ŠPECIÁL",
+            "brand": "BARKAS",
+            "year_of_manufacture": 1978,
+            "share": "1/1"
+          },
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "MERCEDES",
+            "year_of_manufacture": 2004,
+            "share": "1/1"
+          },
+          {
             "type": "PRÍVES",
             "brand": "MTX",
             "year_of_manufacture": 1990,
@@ -155,67 +215,13 @@
           {
             "type": "PRÍVES NÁKLADNÝ",
             "brand": "SPORT YACHT",
-            "year_of_manufacture": 1992,
+            "year_of_manufacture": 1990,
             "share": "1/1"
           },
           {
             "type": "PRÍVES NÁKLADNÝ",
             "brand": "SPORT YACHT",
-            "year_of_manufacture": 1990,
-            "share": "1/1"
-          },
-          {
-            "type": "ODŤAHOVÝ ŠPECIÁL",
-            "brand": "BARKAS",
-            "year_of_manufacture": 1978,
-            "share": "1/1"
-          },
-          {
-            "type": "AUTO",
-            "brand": "AVIA",
-            "year_of_manufacture": 1958,
-            "share": "1/1"
-          },
-          {
-            "type": "AUTO",
-            "brand": "AVIA",
-            "year_of_manufacture": 1957,
-            "share": "1/1"
-          },
-          {
-            "type": "AUTO",
-            "brand": "AVIA",
-            "year_of_manufacture": 1957,
-            "share": "1/1"
-          },
-          {
-            "type": "AUTO",
-            "brand": "ŠKODA",
-            "year_of_manufacture": 1947,
-            "share": "1/1"
-          },
-          {
-            "type": "AUTO",
-            "brand": "CADILLAC",
-            "year_of_manufacture": 1976,
-            "share": "1/1"
-          },
-          {
-            "type": "AUTO",
-            "brand": "TATRA",
-            "year_of_manufacture": 1968,
-            "share": "1/1"
-          },
-          {
-            "type": "AUTO",
-            "brand": "JAWA",
-            "year_of_manufacture": 1958,
-            "share": "1/1"
-          },
-          {
-            "type": "OSOBNÝ AUTOMOBIL",
-            "brand": "MERCEDES",
-            "year_of_manufacture": 2004,
+            "year_of_manufacture": 1992,
             "share": "1/1"
           }
         ],
@@ -236,15 +242,15 @@
   ],
   "total_changes": 0,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Bochna.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Bochna.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Juraj.Bochna.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Juraj.Bochna.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
@@ -256,7 +262,7 @@
     "obligations": 1,
     "income_percentile": 0,
     "property_percentile": 88,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0

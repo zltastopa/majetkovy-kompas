@@ -2,6 +2,9 @@
   "user_id": "Veronika.Molcanova",
   "name": "Mgr. Veronika Molčanová",
   "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA, Š.P.)",
+  "public_functions": [
+    "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA, Š.P.)"
+  ],
   "role": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA, Š.P.)",
   "years": [
     2022,
@@ -18,6 +21,9 @@
         "year": 2022,
         "filed": "pri ujatí sa funkcie",
         "public_function": "riaditeľ štátneho podniku (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA, ŠTÁTNY PODNIK)",
+        "public_functions": [
+          "riaditeľ štátneho podniku (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA, ŠTÁTNY PODNIK)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -72,6 +78,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA Š. P. )",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA Š. P. )"
+        ],
         "income": {
           "public_function": 7700,
           "other": 39998
@@ -118,6 +127,17 @@
             "field": "public_function",
             "old": "riaditeľ štátneho podniku (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA, ŠTÁTNY PODNIK)",
             "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA Š. P. )"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "riaditeľ štátneho podniku (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA, ŠTÁTNY PODNIK)"
+            ],
+            "new": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA Š. P. )"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -207,6 +227,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA, Š.P.)",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA, Š.P.)"
+        ],
         "income": {
           "public_function": 13200,
           "other": 51763
@@ -259,6 +282,17 @@
             "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA, Š.P.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA Š. P. )"
+            ],
+            "new": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA, Š.P.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 7700,
@@ -301,70 +335,19 @@
       }
     }
   ],
-  "total_changes": 8,
+  "total_changes": 10,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Veronika.Molcanova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Veronika.Molcanova.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Veronika.Molcanova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Veronika.Molcanova.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA Š. P. )",
-          "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA, Š.P.)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 7700,
-            "other": 39998
-          },
-          "new": {
-            "public_function": 13200,
-            "other": 51763
-          },
-          "old_total": 47698,
-          "new_total": 64963,
-          "delta": 17265,
-          "delta_pct": 36.2
-        },
-        {
-          "field": "property_rights",
-          "old": null,
-          "new": [
-            "PODIELOVÉ FONDY, podiel: BSM"
-          ]
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "žiadny"
-            }
-          ],
-          "new": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "BSM",
-              "date": "23. 06. 2022"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 47 698 € → 64 963 € (+17 265 €)",
-      "Majetkové práva",
-      "Záväzky: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "mgr-veronika-molcanova",
   "context": {
@@ -374,7 +357,7 @@
     "obligations": 1,
     "income_percentile": 67,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.6

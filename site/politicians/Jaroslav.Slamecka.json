@@ -2,6 +2,9 @@
   "user_id": "Jaroslav.Slamecka",
   "name": "doc. Ing. Jaroslav Slamečka, CSc.",
   "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠTÁTNY ŽREBČÍN TOPOĽČIANKY)",
+  "public_functions": [
+    "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠTÁTNY ŽREBČÍN TOPOĽČIANKY)"
+  ],
   "role": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠTÁTNY ŽREBČÍN TOPOĽČIANKY)",
   "years": [
     2021,
@@ -19,6 +22,9 @@
         "year": 2021,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (NÁRODNÝ ŽREBČÍN TOPOĽČIANKY)",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (NÁRODNÝ ŽREBČÍN TOPOĽČIANKY)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -29,16 +35,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "VINICA, ZÁHRADA, ZASTAVNÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "NITRA ZOBOR",
-            "lv_number": "2530",
-            "share": "1/1"
-          },
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "NITRA ZOBOR",
-            "lv_number": "2530",
-            "share": "1/1"
+            "type": "BYT V BYTOVOM DOME",
+            "cadastral_territory": "NITRA",
+            "lv_number": "5222",
+            "share": "1/2"
           },
           {
             "type": "BYT V BYTOVOM DOME",
@@ -48,9 +48,9 @@
           },
           {
             "type": "BYT V BYTOVOM DOME",
-            "cadastral_territory": "NITRA",
-            "lv_number": "5222",
-            "share": "1/2"
+            "cadastral_territory": "ŽILINA",
+            "lv_number": "4967",
+            "share": "1/1"
           },
           {
             "type": "RODINNÝ DOM",
@@ -59,9 +59,15 @@
             "share": "1/2"
           },
           {
-            "type": "BYT V BYTOVOM DOME",
-            "cadastral_territory": "ŽILINA",
-            "lv_number": "4967",
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "NITRA ZOBOR",
+            "lv_number": "2530",
+            "share": "1/1"
+          },
+          {
+            "type": "VINICA, ZÁHRADA, ZASTAVNÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "NITRA ZOBOR",
+            "lv_number": "2530",
             "share": "1/1"
           }
         ],
@@ -96,6 +102,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠTÁTNY ŽREBČÍN TOPOĽČIANKY)",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠTÁTNY ŽREBČÍN TOPOĽČIANKY)"
+        ],
         "income": {
           "public_function": 800,
           "other": 36298
@@ -106,28 +115,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM S POZEMKOM",
-            "cadastral_territory": "DOLNÁ LEHOTA",
-            "lv_number": "41",
-            "share": "1/2"
-          },
-          {
             "type": "BYT V BYTOVOM DOME",
-            "cadastral_territory": "ŽILINA",
-            "lv_number": "4967",
-            "share": "1/1"
-          },
-          {
-            "type": "VINICE",
-            "cadastral_territory": "VEĽKÝ CETÍN",
-            "lv_number": "1683",
+            "cadastral_territory": "NITRA",
+            "lv_number": "5222",
             "share": "1/2"
-          },
-          {
-            "type": "RODINNÝ DOM S POZEMKOM",
-            "cadastral_territory": "NITRA ZOBOR",
-            "lv_number": "2530",
-            "share": "1/1"
           },
           {
             "type": "BYT V BYTOVOM DOME",
@@ -137,8 +128,26 @@
           },
           {
             "type": "BYT V BYTOVOM DOME",
-            "cadastral_territory": "NITRA",
-            "lv_number": "5222",
+            "cadastral_territory": "ŽILINA",
+            "lv_number": "4967",
+            "share": "1/1"
+          },
+          {
+            "type": "RODINNÝ DOM S POZEMKOM",
+            "cadastral_territory": "DOLNÁ LEHOTA",
+            "lv_number": "41",
+            "share": "1/2"
+          },
+          {
+            "type": "RODINNÝ DOM S POZEMKOM",
+            "cadastral_territory": "NITRA ZOBOR",
+            "lv_number": "2530",
+            "share": "1/1"
+          },
+          {
+            "type": "VINICE",
+            "cadastral_territory": "VEĽKÝ CETÍN",
+            "lv_number": "1683",
             "share": "1/2"
           }
         ],
@@ -169,6 +178,17 @@
             "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠTÁTNY ŽREBČÍN TOPOĽČIANKY)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (NÁRODNÝ ŽREBČÍN TOPOĽČIANKY)"
+            ],
+            "new": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠTÁTNY ŽREBČÍN TOPOĽČIANKY)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 0,
@@ -191,16 +211,10 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "VINICA, ZÁHRADA, ZASTAVNÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "NITRA ZOBOR",
-                "lv_number": "2530",
-                "share": "1/1"
-              },
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "NITRA ZOBOR",
-                "lv_number": "2530",
-                "share": "1/1"
+                "type": "BYT V BYTOVOM DOME",
+                "cadastral_territory": "NITRA",
+                "lv_number": "5222",
+                "share": "1/2"
               },
               {
                 "type": "BYT V BYTOVOM DOME",
@@ -210,9 +224,9 @@
               },
               {
                 "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "NITRA",
-                "lv_number": "5222",
-                "share": "1/2"
+                "cadastral_territory": "ŽILINA",
+                "lv_number": "4967",
+                "share": "1/1"
               },
               {
                 "type": "RODINNÝ DOM",
@@ -221,13 +235,37 @@
                 "share": "1/2"
               },
               {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4967",
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "NITRA ZOBOR",
+                "lv_number": "2530",
+                "share": "1/1"
+              },
+              {
+                "type": "VINICA, ZÁHRADA, ZASTAVNÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "NITRA ZOBOR",
+                "lv_number": "2530",
                 "share": "1/1"
               }
             ],
             "new": [
+              {
+                "type": "BYT V BYTOVOM DOME",
+                "cadastral_territory": "NITRA",
+                "lv_number": "5222",
+                "share": "1/2"
+              },
+              {
+                "type": "BYT V BYTOVOM DOME",
+                "cadastral_territory": "NITRA",
+                "lv_number": "5330",
+                "share": "1/1"
+              },
+              {
+                "type": "BYT V BYTOVOM DOME",
+                "cadastral_territory": "ŽILINA",
+                "lv_number": "4967",
+                "share": "1/1"
+              },
               {
                 "type": "RODINNÝ DOM S POZEMKOM",
                 "cadastral_territory": "DOLNÁ LEHOTA",
@@ -235,33 +273,15 @@
                 "share": "1/2"
               },
               {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4967",
+                "type": "RODINNÝ DOM S POZEMKOM",
+                "cadastral_territory": "NITRA ZOBOR",
+                "lv_number": "2530",
                 "share": "1/1"
               },
               {
                 "type": "VINICE",
                 "cadastral_territory": "VEĽKÝ CETÍN",
                 "lv_number": "1683",
-                "share": "1/2"
-              },
-              {
-                "type": "RODINNÝ DOM S POZEMKOM",
-                "cadastral_territory": "NITRA ZOBOR",
-                "lv_number": "2530",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "NITRA",
-                "lv_number": "5330",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "NITRA",
-                "lv_number": "5222",
                 "share": "1/2"
               }
             ],
@@ -280,6 +300,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠTÁTNY ŽREBČÍN TOPOĽČIANKY)",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠTÁTNY ŽREBČÍN TOPOĽČIANKY)"
+        ],
         "income": {
           "public_function": 1200,
           "other": 25541
@@ -290,10 +313,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM S POZEMKOM",
-            "cadastral_territory": "NITRA ZOBOR",
-            "lv_number": "2530",
-            "share": "1/1"
+            "type": "BYT V BYTOVOM DOME",
+            "cadastral_territory": "NITRA",
+            "lv_number": "5222",
+            "share": "1/2"
           },
           {
             "type": "BYT V BYTOVOM DOME",
@@ -303,9 +326,9 @@
           },
           {
             "type": "BYT V BYTOVOM DOME",
-            "cadastral_territory": "NITRA",
-            "lv_number": "5222",
-            "share": "1/2"
+            "cadastral_territory": "ŽILINA",
+            "lv_number": "4967",
+            "share": "1/1"
           },
           {
             "type": "RODINNÝ DOM S POZEMKOM",
@@ -314,9 +337,9 @@
             "share": "1/2"
           },
           {
-            "type": "BYT V BYTOVOM DOME",
-            "cadastral_territory": "ŽILINA",
-            "lv_number": "4967",
+            "type": "RODINNÝ DOM S POZEMKOM",
+            "cadastral_territory": "NITRA ZOBOR",
+            "lv_number": "2530",
             "share": "1/1"
           },
           {
@@ -366,87 +389,6 @@
             "field": "employment",
             "old": "SLOVENSKÁ POĽNOHOSPODÁRSKA UNIVERZITA V NITRE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNÁRODNÉ POĽNOHOSPODÁRSKE A POTRAVINOVÉ CENTRUM\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
             "new": "SLOVENSKÁ POĽNOHOSPODÁRSKA UNIVERZITA V NITRE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSOŠ VETERINÁRNA NITRA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nCENTRUM SPOLOČNÝCH ČINNOSTÍ SLOVENSKEJ AKADÉMIE VIED\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-          },
-          {
-            "field": "real_estate",
-            "old": [
-              {
-                "type": "RODINNÝ DOM S POZEMKOM",
-                "cadastral_territory": "DOLNÁ LEHOTA",
-                "lv_number": "41",
-                "share": "1/2"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4967",
-                "share": "1/1"
-              },
-              {
-                "type": "VINICE",
-                "cadastral_territory": "VEĽKÝ CETÍN",
-                "lv_number": "1683",
-                "share": "1/2"
-              },
-              {
-                "type": "RODINNÝ DOM S POZEMKOM",
-                "cadastral_territory": "NITRA ZOBOR",
-                "lv_number": "2530",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "NITRA",
-                "lv_number": "5330",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "NITRA",
-                "lv_number": "5222",
-                "share": "1/2"
-              }
-            ],
-            "new": [
-              {
-                "type": "RODINNÝ DOM S POZEMKOM",
-                "cadastral_territory": "NITRA ZOBOR",
-                "lv_number": "2530",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "NITRA",
-                "lv_number": "5330",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "NITRA",
-                "lv_number": "5222",
-                "share": "1/2"
-              },
-              {
-                "type": "RODINNÝ DOM S POZEMKOM",
-                "cadastral_territory": "DOLNÁ LEHOTA",
-                "lv_number": "41",
-                "share": "1/2"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4967",
-                "share": "1/1"
-              },
-              {
-                "type": "VINICE",
-                "cadastral_territory": "VEĽKÝ CETÍN",
-                "lv_number": "1683",
-                "share": "1/2"
-              }
-            ],
-            "old_count": 6,
-            "new_count": 6
           }
         ]
       }
@@ -460,6 +402,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠTÁTNY ŽREBČÍN TOPOĽČIANKY)",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠTÁTNY ŽREBČÍN TOPOĽČIANKY)"
+        ],
         "income": {
           "public_function": 800,
           "other": 27832
@@ -470,28 +415,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM S POZEMKOM",
-            "cadastral_territory": "DOLNÁ LEHOTA",
-            "lv_number": "41",
-            "share": "1/2"
-          },
-          {
             "type": "BYT V BYTOVOM DOME",
-            "cadastral_territory": "ŽILINA",
-            "lv_number": "4967",
-            "share": "1/1"
-          },
-          {
-            "type": "VINICE",
-            "cadastral_territory": "VEĽKÝ CETÍN",
-            "lv_number": "1683",
+            "cadastral_territory": "NITRA",
+            "lv_number": "5222",
             "share": "1/2"
-          },
-          {
-            "type": "RODINÝ DOM S POZEMKOM",
-            "cadastral_territory": "NITRA ZOBOR",
-            "lv_number": "2530",
-            "share": "1/1"
           },
           {
             "type": "BYT V BYTOVOM DOME",
@@ -501,8 +428,26 @@
           },
           {
             "type": "BYT V BYTOVOM DOME",
-            "cadastral_territory": "NITRA",
-            "lv_number": "5222",
+            "cadastral_territory": "ŽILINA",
+            "lv_number": "4967",
+            "share": "1/1"
+          },
+          {
+            "type": "RODINNÝ DOM S POZEMKOM",
+            "cadastral_territory": "DOLNÁ LEHOTA",
+            "lv_number": "41",
+            "share": "1/2"
+          },
+          {
+            "type": "RODINÝ DOM S POZEMKOM",
+            "cadastral_territory": "NITRA ZOBOR",
+            "lv_number": "2530",
+            "share": "1/1"
+          },
+          {
+            "type": "VINICE",
+            "cadastral_territory": "VEĽKÝ CETÍN",
+            "lv_number": "1683",
             "share": "1/2"
           }
         ],
@@ -551,10 +496,10 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM S POZEMKOM",
-                "cadastral_territory": "NITRA ZOBOR",
-                "lv_number": "2530",
-                "share": "1/1"
+                "type": "BYT V BYTOVOM DOME",
+                "cadastral_territory": "NITRA",
+                "lv_number": "5222",
+                "share": "1/2"
               },
               {
                 "type": "BYT V BYTOVOM DOME",
@@ -564,9 +509,9 @@
               },
               {
                 "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "NITRA",
-                "lv_number": "5222",
-                "share": "1/2"
+                "cadastral_territory": "ŽILINA",
+                "lv_number": "4967",
+                "share": "1/1"
               },
               {
                 "type": "RODINNÝ DOM S POZEMKOM",
@@ -575,9 +520,9 @@
                 "share": "1/2"
               },
               {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4967",
+                "type": "RODINNÝ DOM S POZEMKOM",
+                "cadastral_territory": "NITRA ZOBOR",
+                "lv_number": "2530",
                 "share": "1/1"
               },
               {
@@ -589,28 +534,10 @@
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM S POZEMKOM",
-                "cadastral_territory": "DOLNÁ LEHOTA",
-                "lv_number": "41",
-                "share": "1/2"
-              },
-              {
                 "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4967",
-                "share": "1/1"
-              },
-              {
-                "type": "VINICE",
-                "cadastral_territory": "VEĽKÝ CETÍN",
-                "lv_number": "1683",
+                "cadastral_territory": "NITRA",
+                "lv_number": "5222",
                 "share": "1/2"
-              },
-              {
-                "type": "RODINÝ DOM S POZEMKOM",
-                "cadastral_territory": "NITRA ZOBOR",
-                "lv_number": "2530",
-                "share": "1/1"
               },
               {
                 "type": "BYT V BYTOVOM DOME",
@@ -620,8 +547,26 @@
               },
               {
                 "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "NITRA",
-                "lv_number": "5222",
+                "cadastral_territory": "ŽILINA",
+                "lv_number": "4967",
+                "share": "1/1"
+              },
+              {
+                "type": "RODINNÝ DOM S POZEMKOM",
+                "cadastral_territory": "DOLNÁ LEHOTA",
+                "lv_number": "41",
+                "share": "1/2"
+              },
+              {
+                "type": "RODINÝ DOM S POZEMKOM",
+                "cadastral_territory": "NITRA ZOBOR",
+                "lv_number": "2530",
+                "share": "1/1"
+              },
+              {
+                "type": "VINICE",
+                "cadastral_territory": "VEĽKÝ CETÍN",
+                "lv_number": "1683",
                 "share": "1/2"
               }
             ],
@@ -634,124 +579,17 @@
   ],
   "total_changes": 10,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jaroslav.Slamecka.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jaroslav.Slamecka.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jaroslav.Slamecka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jaroslav.Slamecka.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 1200,
-            "other": 25541
-          },
-          "new": {
-            "public_function": 800,
-            "other": 27832
-          },
-          "old_total": 26741,
-          "new_total": 28632,
-          "delta": 1891,
-          "delta_pct": 7.1
-        },
-        {
-          "field": "employment",
-          "old": "SLOVENSKÁ POĽNOHOSPODÁRSKA UNIVERZITA V NITRE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSOŠ VETERINÁRNA NITRA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nCENTRUM SPOLOČNÝCH ČINNOSTÍ SLOVENSKEJ AKADÉMIE VIED\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "SLOVENSKÁ POĽNOHOSPODÁRSKA UNIVERZITA V NITRE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "RODINNÝ DOM S POZEMKOM",
-              "cadastral_territory": "NITRA ZOBOR",
-              "lv_number": "2530",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT V BYTOVOM DOME",
-              "cadastral_territory": "NITRA",
-              "lv_number": "5330",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT V BYTOVOM DOME",
-              "cadastral_territory": "NITRA",
-              "lv_number": "5222",
-              "share": "1/2"
-            },
-            {
-              "type": "RODINNÝ DOM S POZEMKOM",
-              "cadastral_territory": "DOLNÁ LEHOTA",
-              "lv_number": "41",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT V BYTOVOM DOME",
-              "cadastral_territory": "ŽILINA",
-              "lv_number": "4967",
-              "share": "1/1"
-            },
-            {
-              "type": "VINICE",
-              "cadastral_territory": "VEĽKÝ CETÍN",
-              "lv_number": "1683",
-              "share": "1/2"
-            }
-          ],
-          "new": [
-            {
-              "type": "RODINNÝ DOM S POZEMKOM",
-              "cadastral_territory": "DOLNÁ LEHOTA",
-              "lv_number": "41",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT V BYTOVOM DOME",
-              "cadastral_territory": "ŽILINA",
-              "lv_number": "4967",
-              "share": "1/1"
-            },
-            {
-              "type": "VINICE",
-              "cadastral_territory": "VEĽKÝ CETÍN",
-              "lv_number": "1683",
-              "share": "1/2"
-            },
-            {
-              "type": "RODINÝ DOM S POZEMKOM",
-              "cadastral_territory": "NITRA ZOBOR",
-              "lv_number": "2530",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT V BYTOVOM DOME",
-              "cadastral_territory": "NITRA",
-              "lv_number": "5330",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT V BYTOVOM DOME",
-              "cadastral_territory": "NITRA",
-              "lv_number": "5222",
-              "share": "1/2"
-            }
-          ],
-          "old_count": 6,
-          "new_count": 6
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 26 741 € → 28 632 € (+1 891 €)",
-      "Zamestnanie",
-      "Nehnuteľnosti: 6 → 6 (0)"
-    ]
+    "summary": []
   },
   "slug": "doc-ing-jaroslav-slamecka-csc",
   "context": {
@@ -761,7 +599,7 @@
     "obligations": 1,
     "income_percentile": 28,
     "property_percentile": 72,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.6

@@ -2,6 +2,9 @@
   "user_id": "Matus.Vallo",
   "name": "Ing. arch. Matúš Vallo",
   "public_function": "primátor mesta",
+  "public_functions": [
+    "primátor mesta"
+  ],
   "role": "primátor mesta",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 65017,
           "other": 36225
@@ -30,11 +36,6 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "ČLEN SPRÁVNEJ RADY",
-            "organization": "FOND ARCHITEKTA WEINWURMA N.F.",
-            "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
-          },
-          {
             "role": "ČLEN",
             "organization": "OZ MY SME MESTO",
             "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
@@ -43,9 +44,20 @@
             "role": "ČLEN",
             "organization": "OZ PLATFORMA PRE BRATISLAVU",
             "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
+          },
+          {
+            "role": "ČLEN SPRÁVNEJ RADY",
+            "organization": "FOND ARCHITEKTA WEINWURMA N.F.",
+            "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
           }
         ],
         "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+            "lv_number": "5225",
+            "share": "100% BSM"
+          },
           {
             "type": "DOM A POZEMKY POD STAVBOU",
             "cadastral_territory": "BRATISLAVA STARÉ MESTO",
@@ -56,12 +68,6 @@
             "type": "GARÁŽ A POZEMKY",
             "cadastral_territory": "BRATISLAVA STARÉ MESTO",
             "lv_number": "9757",
-            "share": "100% BSM"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "BRATISLAVA STARÉ MESTO",
-            "lv_number": "5225",
             "share": "100% BSM"
           }
         ],
@@ -74,12 +80,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "100% BSM",
-            "date": "21. 06. 2017"
+            "date": "07. 01. 2020"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "100% BSM",
-            "date": "07. 01. 2020"
+            "date": "21. 06. 2017"
           }
         ],
         "use_of_others_real_estate": null,
@@ -105,6 +111,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 75265,
           "other": 1100
@@ -115,6 +124,11 @@
         "positions": [
           {
             "role": "ČLEN",
+            "organization": "OZ MY SME MESTO",
+            "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
+          },
+          {
+            "role": "ČLEN",
             "organization": "OZ PLATFORMA PRE BRATISLAVU",
             "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
           },
@@ -122,14 +136,15 @@
             "role": "ČLEN SPRÁVNEJ RADY",
             "organization": "FOND ARCHITEKTA WEINNURMA N.F.",
             "benefits": "ŽIADNE FUNKČNE ANI INÉ POŽITKY"
-          },
-          {
-            "role": "ČLEN",
-            "organization": "OZ MY SME MESTO",
-            "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
           }
         ],
         "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+            "lv_number": "2697",
+            "share": "100% BSM"
+          },
           {
             "type": "DOM, POZEMKY POD STAVBOU",
             "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
@@ -147,12 +162,6 @@
             "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
             "lv_number": "5225",
             "share": "100% BSM"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-            "lv_number": "2697",
-            "share": "100% BSM"
           }
         ],
         "movable_property": null,
@@ -161,12 +170,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "100% BSM",
-            "date": "21. 06. 2017"
+            "date": "07. 01. 2020"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "100% BSM",
-            "date": "07. 01. 2020"
+            "date": "21. 06. 2017"
           }
         ],
         "use_of_others_real_estate": null,
@@ -206,11 +215,6 @@
             "field": "positions",
             "old": [
               {
-                "role": "ČLEN SPRÁVNEJ RADY",
-                "organization": "FOND ARCHITEKTA WEINWURMA N.F.",
-                "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
-              },
-              {
                 "role": "ČLEN",
                 "organization": "OZ MY SME MESTO",
                 "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
@@ -219,9 +223,19 @@
                 "role": "ČLEN",
                 "organization": "OZ PLATFORMA PRE BRATISLAVU",
                 "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
+              },
+              {
+                "role": "ČLEN SPRÁVNEJ RADY",
+                "organization": "FOND ARCHITEKTA WEINWURMA N.F.",
+                "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
               }
             ],
             "new": [
+              {
+                "role": "ČLEN",
+                "organization": "OZ MY SME MESTO",
+                "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
+              },
               {
                 "role": "ČLEN",
                 "organization": "OZ PLATFORMA PRE BRATISLAVU",
@@ -231,11 +245,6 @@
                 "role": "ČLEN SPRÁVNEJ RADY",
                 "organization": "FOND ARCHITEKTA WEINNURMA N.F.",
                 "benefits": "ŽIADNE FUNKČNE ANI INÉ POŽITKY"
-              },
-              {
-                "role": "ČLEN",
-                "organization": "OZ MY SME MESTO",
-                "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
               }
             ],
             "old_count": 3,
@@ -244,6 +253,12 @@
           {
             "field": "real_estate",
             "old": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+                "lv_number": "5225",
+                "share": "100% BSM"
+              },
               {
                 "type": "DOM A POZEMKY POD STAVBOU",
                 "cadastral_territory": "BRATISLAVA STARÉ MESTO",
@@ -255,15 +270,15 @@
                 "cadastral_territory": "BRATISLAVA STARÉ MESTO",
                 "lv_number": "9757",
                 "share": "100% BSM"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "BRATISLAVA STARÉ MESTO",
-                "lv_number": "5225",
-                "share": "100% BSM"
               }
             ],
             "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+                "lv_number": "2697",
+                "share": "100% BSM"
+              },
               {
                 "type": "DOM, POZEMKY POD STAVBOU",
                 "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
@@ -280,12 +295,6 @@
                 "type": "POZEMOK",
                 "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
                 "lv_number": "5225",
-                "share": "100% BSM"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-                "lv_number": "2697",
                 "share": "100% BSM"
               }
             ],
@@ -312,6 +321,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 75318,
           "other": 0
@@ -322,16 +334,22 @@
         "positions": [
           {
             "role": "ČLEN",
-            "organization": "OZ PLATFORMA PRE BRATISLAVU",
+            "organization": "OZ MY SME MESTO",
             "benefits": "ŽIADNE"
           },
           {
             "role": "ČLEN",
-            "organization": "OZ MY SME MESTO",
+            "organization": "OZ PLATFORMA PRE BRATISLAVU",
             "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+            "lv_number": "2697",
+            "share": "100% BSM"
+          },
           {
             "type": "DOM, POZEMKY POD STAVBOU",
             "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
@@ -349,12 +367,6 @@
             "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
             "lv_number": "5225",
             "share": "100% BSM"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-            "lv_number": "2697",
-            "share": "100% BSM"
           }
         ],
         "movable_property": null,
@@ -363,12 +375,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "100% BSM",
-            "date": "21. 06. 2017"
+            "date": "07. 01. 2020"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "100% BSM",
-            "date": "07. 01. 2020"
+            "date": "21. 06. 2017"
           }
         ],
         "use_of_others_real_estate": null,
@@ -404,6 +416,11 @@
             "old": [
               {
                 "role": "ČLEN",
+                "organization": "OZ MY SME MESTO",
+                "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
+              },
+              {
+                "role": "ČLEN",
                 "organization": "OZ PLATFORMA PRE BRATISLAVU",
                 "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
               },
@@ -411,22 +428,17 @@
                 "role": "ČLEN SPRÁVNEJ RADY",
                 "organization": "FOND ARCHITEKTA WEINNURMA N.F.",
                 "benefits": "ŽIADNE FUNKČNE ANI INÉ POŽITKY"
-              },
-              {
-                "role": "ČLEN",
-                "organization": "OZ MY SME MESTO",
-                "benefits": "ŽIADNE FUNKČNÉ ANI INÉ POŽITKY"
               }
             ],
             "new": [
               {
                 "role": "ČLEN",
-                "organization": "OZ PLATFORMA PRE BRATISLAVU",
+                "organization": "OZ MY SME MESTO",
                 "benefits": "ŽIADNE"
               },
               {
                 "role": "ČLEN",
-                "organization": "OZ MY SME MESTO",
+                "organization": "OZ PLATFORMA PRE BRATISLAVU",
                 "benefits": "ŽIADNE"
               }
             ],
@@ -436,6 +448,12 @@
           {
             "field": "real_estate",
             "old": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+                "lv_number": "2697",
+                "share": "100% BSM"
+              },
               {
                 "type": "DOM, POZEMKY POD STAVBOU",
                 "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
@@ -453,15 +471,15 @@
                 "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
                 "lv_number": "5225",
                 "share": "100% BSM"
-              },
+              }
+            ],
+            "new": [
               {
                 "type": "BYT",
                 "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
                 "lv_number": "2697",
                 "share": "100% BSM"
-              }
-            ],
-            "new": [
+              },
               {
                 "type": "DOM, POZEMKY POD STAVBOU",
                 "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
@@ -478,12 +496,6 @@
                 "type": "POZEMOK",
                 "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
                 "lv_number": "5225",
-                "share": "100% BSM"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-                "lv_number": "2697",
                 "share": "100% BSM"
               }
             ],
@@ -502,6 +514,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 80392,
           "other": 15130
@@ -523,6 +538,12 @@
         ],
         "real_estate": [
           {
+            "type": "BYT",
+            "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+            "lv_number": "2697",
+            "share": "100% BSM"
+          },
+          {
             "type": "DOM A POZEMKY POD STAVBOU",
             "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
             "lv_number": "3550",
@@ -539,12 +560,6 @@
             "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
             "lv_number": "5225",
             "share": "100% BSM"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-            "lv_number": "2697",
-            "share": "100% BSM"
           }
         ],
         "movable_property": null,
@@ -553,12 +568,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "100% BSM",
-            "date": "21. 06. 2017"
+            "date": "07. 01. 2020"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "100% BSM",
-            "date": "07. 01. 2020"
+            "date": "21. 06. 2017"
           }
         ],
         "use_of_others_real_estate": null,
@@ -599,12 +614,12 @@
             "old": [
               {
                 "role": "ČLEN",
-                "organization": "OZ PLATFORMA PRE BRATISLAVU",
+                "organization": "OZ MY SME MESTO",
                 "benefits": "ŽIADNE"
               },
               {
                 "role": "ČLEN",
-                "organization": "OZ MY SME MESTO",
+                "organization": "OZ PLATFORMA PRE BRATISLAVU",
                 "benefits": "ŽIADNE"
               }
             ],
@@ -627,6 +642,12 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "BYT",
+                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+                "lv_number": "2697",
+                "share": "100% BSM"
+              },
+              {
                 "type": "DOM, POZEMKY POD STAVBOU",
                 "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
                 "lv_number": "3550",
@@ -643,15 +664,15 @@
                 "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
                 "lv_number": "5225",
                 "share": "100% BSM"
-              },
+              }
+            ],
+            "new": [
               {
                 "type": "BYT",
                 "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
                 "lv_number": "2697",
                 "share": "100% BSM"
-              }
-            ],
-            "new": [
+              },
               {
                 "type": "DOM A POZEMKY POD STAVBOU",
                 "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
@@ -668,12 +689,6 @@
                 "type": "POZEMOK",
                 "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
                 "lv_number": "5225",
-                "share": "100% BSM"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-                "lv_number": "2697",
                 "share": "100% BSM"
               }
             ],
@@ -692,6 +707,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 86733,
           "other": 6455
@@ -702,17 +720,17 @@
         "positions": [
           {
             "role": "PREDSEDA",
+            "organization": "TEAM BRATISLAVA",
+            "benefits": "ŽIADNE"
+          },
+          {
+            "role": "PREDSEDA",
             "organization": "ZDRUŽENIE K8",
             "benefits": "ŽIADNE"
           },
           {
             "role": "VICEPREZIDENT",
             "organization": "ÚNIA MIEST SLOVENSKA",
-            "benefits": "ŽIADNE"
-          },
-          {
-            "role": "PREDSEDA",
-            "organization": "TEAM BRATISLAVA",
             "benefits": "ŽIADNE"
           }
         ],
@@ -748,12 +766,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "100% BSM",
-            "date": "21. 06. 2017"
+            "date": "07. 01. 2020"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "100% BSM",
-            "date": "07. 01. 2020"
+            "date": "21. 06. 2017"
           }
         ],
         "use_of_others_real_estate": null,
@@ -806,6 +824,11 @@
             "new": [
               {
                 "role": "PREDSEDA",
+                "organization": "TEAM BRATISLAVA",
+                "benefits": "ŽIADNE"
+              },
+              {
+                "role": "PREDSEDA",
                 "organization": "ZDRUŽENIE K8",
                 "benefits": "ŽIADNE"
               },
@@ -813,72 +836,10 @@
                 "role": "VICEPREZIDENT",
                 "organization": "ÚNIA MIEST SLOVENSKA",
                 "benefits": "ŽIADNE"
-              },
-              {
-                "role": "PREDSEDA",
-                "organization": "TEAM BRATISLAVA",
-                "benefits": "ŽIADNE"
               }
             ],
             "old_count": 2,
             "new_count": 3
-          },
-          {
-            "field": "real_estate",
-            "old": [
-              {
-                "type": "DOM A POZEMKY POD STAVBOU",
-                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-                "lv_number": "3550",
-                "share": "100% BSM"
-              },
-              {
-                "type": "GARÁŽ A POZEMKY",
-                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-                "lv_number": "9757",
-                "share": "100% BSM"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-                "lv_number": "5225",
-                "share": "100% BSM"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-                "lv_number": "2697",
-                "share": "100% BSM"
-              }
-            ],
-            "new": [
-              {
-                "type": "BYT",
-                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-                "lv_number": "2697",
-                "share": "100% BSM"
-              },
-              {
-                "type": "DOM A POZEMKY POD STAVBOU",
-                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-                "lv_number": "3550",
-                "share": "100% BSM"
-              },
-              {
-                "type": "GARÁŽ A POZEMKY",
-                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-                "lv_number": "9757",
-                "share": "100% BSM"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-                "lv_number": "5225",
-                "share": "100% BSM"
-              }
-            ],
-            "old_count": 4,
-            "new_count": 4
           }
         ]
       }
@@ -892,6 +853,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 95061,
           "other": 39133
@@ -901,6 +865,11 @@
         "business_activity": null,
         "positions": [
           {
+            "role": "CHAIR",
+            "organization": "OECD CHAMPION MAYORS FOR INCLUSIVE GROWTH",
+            "benefits": "ŽIADNE"
+          },
+          {
             "role": "PREDSEDA",
             "organization": "TEAM BRATISLAVA",
             "benefits": "ŽIADNE"
@@ -909,14 +878,15 @@
             "role": "VICEPREZIDENT",
             "organization": "ÚNIA MIEST SLOVENSKA",
             "benefits": "ŽIADNE"
-          },
-          {
-            "role": "CHAIR",
-            "organization": "OECD CHAMPION MAYORS FOR INCLUSIVE GROWTH",
-            "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
+            "lv_number": "2697",
+            "share": "BSM"
+          },
           {
             "type": "DOM A POZEMKY POD STAVBOU",
             "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
@@ -934,12 +904,6 @@
             "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
             "lv_number": "5225",
             "share": "BSM"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
-            "lv_number": "2697",
-            "share": "BSM"
           }
         ],
         "movable_property": null,
@@ -948,12 +912,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "BSM",
-            "date": "21. 06. 2017"
+            "date": "04. 01. 2020"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "BSM",
-            "date": "04. 01. 2020"
+            "date": "21. 06. 2017"
           }
         ],
         "use_of_others_real_estate": null,
@@ -994,6 +958,11 @@
             "old": [
               {
                 "role": "PREDSEDA",
+                "organization": "TEAM BRATISLAVA",
+                "benefits": "ŽIADNE"
+              },
+              {
+                "role": "PREDSEDA",
                 "organization": "ZDRUŽENIE K8",
                 "benefits": "ŽIADNE"
               },
@@ -1001,14 +970,14 @@
                 "role": "VICEPREZIDENT",
                 "organization": "ÚNIA MIEST SLOVENSKA",
                 "benefits": "ŽIADNE"
-              },
-              {
-                "role": "PREDSEDA",
-                "organization": "TEAM BRATISLAVA",
-                "benefits": "ŽIADNE"
               }
             ],
             "new": [
+              {
+                "role": "CHAIR",
+                "organization": "OECD CHAMPION MAYORS FOR INCLUSIVE GROWTH",
+                "benefits": "ŽIADNE"
+              },
               {
                 "role": "PREDSEDA",
                 "organization": "TEAM BRATISLAVA",
@@ -1017,11 +986,6 @@
               {
                 "role": "VICEPREZIDENT",
                 "organization": "ÚNIA MIEST SLOVENSKA",
-                "benefits": "ŽIADNE"
-              },
-              {
-                "role": "CHAIR",
-                "organization": "OECD CHAMPION MAYORS FOR INCLUSIVE GROWTH",
                 "benefits": "ŽIADNE"
               }
             ],
@@ -1058,6 +1022,12 @@
             ],
             "new": [
               {
+                "type": "BYT",
+                "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
+                "lv_number": "2697",
+                "share": "BSM"
+              },
+              {
                 "type": "DOM A POZEMKY POD STAVBOU",
                 "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
                 "lv_number": "3550",
@@ -1074,12 +1044,6 @@
                 "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
                 "lv_number": "5225",
                 "share": "BSM"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
-                "lv_number": "2697",
-                "share": "BSM"
               }
             ],
             "old_count": 4,
@@ -1091,24 +1055,24 @@
               {
                 "type": "HYPOTEKÁRNY ÚVER",
                 "share": "100% BSM",
-                "date": "21. 06. 2017"
+                "date": "07. 01. 2020"
               },
               {
                 "type": "HYPOTEKÁRNY ÚVER",
                 "share": "100% BSM",
-                "date": "07. 01. 2020"
+                "date": "21. 06. 2017"
               }
             ],
             "new": [
               {
                 "type": "HYPOTEKÁRNY ÚVER",
                 "share": "BSM",
-                "date": "21. 06. 2017"
+                "date": "04. 01. 2020"
               },
               {
                 "type": "HYPOTEKÁRNY ÚVER",
                 "share": "BSM",
-                "date": "04. 01. 2020"
+                "date": "21. 06. 2017"
               }
             ],
             "old_count": 2,
@@ -1137,192 +1101,19 @@
       }
     }
   ],
-  "total_changes": 22,
+  "total_changes": 21,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Matus.Vallo.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Matus.Vallo.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Matus.Vallo.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Matus.Vallo.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 86733,
-            "other": 6455
-          },
-          "new": {
-            "public_function": 95061,
-            "other": 39133
-          },
-          "old_total": 93188,
-          "new_total": 134194,
-          "delta": 41006,
-          "delta_pct": 44.0
-        },
-        {
-          "field": "employment",
-          "old": null,
-          "new": "MESTSKÉ KULTÚRNE CENTRUM\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nZAŽI V TRNAVE- MESTSKÉ KULTÚRNE S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMESTO NOVÁ BAŇA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nOBEC ŠINTAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nATMOSFÉRA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nZDRUŽENIE KRIAK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMSKS MESTA PIEŠŤANY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nHRABĚ INDUSTRIES S.R.O\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMESTO ŽILINA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "PREDSEDA",
-              "organization": "ZDRUŽENIE K8",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "VICEPREZIDENT",
-              "organization": "ÚNIA MIEST SLOVENSKA",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "PREDSEDA",
-              "organization": "TEAM BRATISLAVA",
-              "benefits": "ŽIADNE"
-            }
-          ],
-          "new": [
-            {
-              "role": "PREDSEDA",
-              "organization": "TEAM BRATISLAVA",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "VICEPREZIDENT",
-              "organization": "ÚNIA MIEST SLOVENSKA",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "CHAIR",
-              "organization": "OECD CHAMPION MAYORS FOR INCLUSIVE GROWTH",
-              "benefits": "ŽIADNE"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 3
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-              "lv_number": "2697",
-              "share": "100% BSM"
-            },
-            {
-              "type": "DOM A POZEMKY POD STAVBOU",
-              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-              "lv_number": "3550",
-              "share": "100% BSM"
-            },
-            {
-              "type": "GARÁŽ A POZEMKY",
-              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-              "lv_number": "9757",
-              "share": "100% BSM"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-              "lv_number": "5225",
-              "share": "100% BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "DOM A POZEMKY POD STAVBOU",
-              "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
-              "lv_number": "3550",
-              "share": "BSM"
-            },
-            {
-              "type": "GARÁŽ A POZEMKY",
-              "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
-              "lv_number": "9457",
-              "share": "BSM"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
-              "lv_number": "5225",
-              "share": "BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
-              "lv_number": "2697",
-              "share": "BSM"
-            }
-          ],
-          "old_count": 4,
-          "new_count": 4
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "100% BSM",
-              "date": "21. 06. 2017"
-            },
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "100% BSM",
-              "date": "07. 01. 2020"
-            }
-          ],
-          "new": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "BSM",
-              "date": "21. 06. 2017"
-            },
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "BSM",
-              "date": "04. 01. 2020"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        },
-        {
-          "field": "vehicles",
-          "old": [
-            {
-              "type": "AUTOMOBIL",
-              "brand": "VOLVO",
-              "year_of_manufacture": 2019
-            }
-          ],
-          "new": [
-            {
-              "type": "AMTOMOBIL",
-              "brand": "VOLVO",
-              "year_of_manufacture": 2019
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 93 188 € → 134 194 € (+41 006 €)",
-      "Zamestnanie",
-      "Funkcie: 3 → 3 (0)",
-      "Nehnuteľnosti: 4 → 4 (0)",
-      "Záväzky: 2 → 2 (0)",
-      "Vozidlá: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-arch-matus-vallo",
   "context": {
@@ -1332,7 +1123,7 @@
     "obligations": 2,
     "income_percentile": 93,
     "property_percentile": 60,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 7.5

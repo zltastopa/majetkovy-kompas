@@ -2,6 +2,9 @@
   "user_id": "coxandre",
   "name": "Mgr. Andrea COX Kontrová",
   "public_function": "člen Rady pre vysielanie a retransmisiu",
+  "public_functions": [
+    "člen Rady pre vysielanie a retransmisiu"
+  ],
   "role": "člen Rady pre vysielanie a retransmisiu",
   "years": [
     2022,
@@ -18,6 +21,9 @@
         "year": 2022,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen Rady pre vysielanie a retransmisiu",
+        "public_functions": [
+          "člen Rady pre vysielanie a retransmisiu"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -71,6 +77,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen Rady pre vysielanie a retransmisiu",
+        "public_functions": [
+          "člen Rady pre vysielanie a retransmisiu"
+        ],
         "income": {
           "public_function": 17877,
           "other": 21511
@@ -96,14 +105,14 @@
         "movable_property": [
           {
             "type": "OSOBNÉ VOZIDLO",
-            "brand": "HYUNDAI",
-            "year_of_manufacture": 2013,
+            "brand": "CITROËN",
+            "year_of_manufacture": 2007,
             "share": "1/1"
           },
           {
             "type": "OSOBNÉ VOZIDLO",
-            "brand": "CITROËN",
-            "year_of_manufacture": 2007,
+            "brand": "HYUNDAI",
+            "year_of_manufacture": 2013,
             "share": "1/1"
           }
         ],
@@ -181,14 +190,14 @@
             "new": [
               {
                 "type": "OSOBNÉ VOZIDLO",
-                "brand": "HYUNDAI",
-                "year_of_manufacture": 2013,
+                "brand": "CITROËN",
+                "year_of_manufacture": 2007,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÉ VOZIDLO",
-                "brand": "CITROËN",
-                "year_of_manufacture": 2007,
+                "brand": "HYUNDAI",
+                "year_of_manufacture": 2013,
                 "share": "1/1"
               }
             ],
@@ -207,6 +216,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen Rady pre vysielanie a retransmisiu",
+        "public_functions": [
+          "člen Rady pre vysielanie a retransmisiu"
+        ],
         "income": {
           "public_function": 24530,
           "other": 19050
@@ -223,29 +235,29 @@
         ],
         "real_estate": [
           {
-            "type": "ZASTAVANÁ PLOCHA, RODINNÝ DOM",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "6285",
-            "share": "3/4"
-          },
-          {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, 3X ZÁHRADA, RODINNÝ DOM",
             "cadastral_territory": "SASOVÁ",
             "lv_number": "932",
             "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA, RODINNÝ DOM",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "6285",
+            "share": "3/4"
           }
         ],
         "movable_property": [
           {
             "type": "OSOBNÉ VOZIDLO",
-            "brand": "HYUNDAI",
-            "year_of_manufacture": 2013,
+            "brand": "CITROËN",
+            "year_of_manufacture": 2007,
             "share": "1/1"
           },
           {
             "type": "OSOBNÉ VOZIDLO",
-            "brand": "CITROËN",
-            "year_of_manufacture": 2007,
+            "brand": "HYUNDAI",
+            "year_of_manufacture": 2013,
             "share": "1/1"
           }
         ],
@@ -313,16 +325,16 @@
             ],
             "new": [
               {
-                "type": "ZASTAVANÁ PLOCHA, RODINNÝ DOM",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "6285",
-                "share": "3/4"
-              },
-              {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, 3X ZÁHRADA, RODINNÝ DOM",
                 "cadastral_territory": "SASOVÁ",
                 "lv_number": "932",
                 "share": "1/1"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA, RODINNÝ DOM",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "6285",
+                "share": "3/4"
               }
             ],
             "old_count": 1,
@@ -334,90 +346,17 @@
   ],
   "total_changes": 10,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/coxandre.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/coxandre.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/coxandre.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/coxandre.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 17877,
-            "other": 21511
-          },
-          "new": {
-            "public_function": 24530,
-            "other": 19050
-          },
-          "old_total": 39388,
-          "new_total": 43580,
-          "delta": 4192,
-          "delta_pct": 10.6
-        },
-        {
-          "field": "employment",
-          "old": "MINISTERSTVO INVESTÍCIÍ, REGIONÁLNEHO ROZVOJA A INFORMATIZÁCIE SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNÁRODNÝ INŠTITÚT VZDELÁVANIA A MLÁDEŽE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO VNÚTRA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nÚSTREDIE PRÁCE, SOCIÁLNYCH VECÍ A RODINY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "MINISTERSTVO INVESTÍCIÍ, REGIONÁLNEHO ROZVOJA A INFORMATIZÁCIE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO PRÁCE, SOCIÁLNYCH VECÍ A RODINY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNÁRODNÝ INŠTITÚT VZDELÁVANIA A MLÁDEŽE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "RIADITEĽKA",
-              "organization": "DIGITÁLNA INTELIGENCIA",
-              "benefits": "ŽIADNE"
-            }
-          ],
-          "new": [
-            {
-              "role": "ŠTATUTÁRNY ORGÁN + RIADITEĽKA",
-              "organization": "DIGITÁLNA INTELIGENCIA",
-              "benefits": "PRÍJEM ZO VZDELÁVACEJ ČINNOSTI"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "6285",
-              "share": "3/4"
-            }
-          ],
-          "new": [
-            {
-              "type": "ZASTAVANÁ PLOCHA, RODINNÝ DOM",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "6285",
-              "share": "3/4"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, 3X ZÁHRADA, RODINNÝ DOM",
-              "cadastral_territory": "SASOVÁ",
-              "lv_number": "932",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 39 388 € → 43 580 € (+4 192 €)",
-      "Zamestnanie",
-      "Funkcie: 1 → 1 (0)",
-      "Nehnuteľnosti: 1 → 2 (+1)"
-    ]
+    "summary": []
   },
   "slug": "mgr-andrea-cox-kontrova",
   "context": {
@@ -427,7 +366,7 @@
     "obligations": 1,
     "income_percentile": 39,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.4

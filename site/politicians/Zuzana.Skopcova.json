@@ -2,6 +2,9 @@
   "user_id": "Zuzana.Skopcova",
   "name": "dipl. Ing. Zuzana Škopcová",
   "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -47,6 +53,10 @@
         ],
         "movable_property": [
           {
+            "type": "OSOBNÝ MAJETOK",
+            "share": "100%"
+          },
+          {
             "type": "UMELECKÉ DIELA A OBRAZY",
             "share": "100%"
           },
@@ -55,18 +65,14 @@
             "share": "100%"
           },
           {
-            "type": "OSOBNÝ MAJETOK",
-            "share": "100%"
-          },
-          {
             "type": "ŠPERKY A NÁRAMKOVÉ HODINKY",
             "share": "100%"
           }
         ],
         "property_rights": [
+          "PEŇAŽNÁ HOTOVOSŤ NA BANKOVOM ÚČTE, podiel: 100%",
           "PEŇAŽNÁ HOTOVOSŤ, podiel: 100%",
-          "PÔŽIČKY, podiel: 100%",
-          "PEŇAŽNÁ HOTOVOSŤ NA BANKOVOM ÚČTE, podiel: 100%"
+          "PÔŽIČKY, podiel: 100%"
         ],
         "obligations": [
           {
@@ -98,6 +104,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)"
+        ],
         "income": {
           "public_function": 9303,
           "other": 86619
@@ -128,6 +137,10 @@
         ],
         "movable_property": [
           {
+            "type": "OSOBNÝ MAJETOK",
+            "share": "100%"
+          },
+          {
             "type": "UMELECKÉ DIELA A OBRAZY",
             "share": "100%"
           },
@@ -136,18 +149,14 @@
             "share": "100%"
           },
           {
-            "type": "OSOBNÝ MAJETOK",
-            "share": "100%"
-          },
-          {
             "type": "ŠPERKY A NÁRAMKOVÉ HODINKY",
             "share": "100%"
           }
         ],
         "property_rights": [
+          "PEŇAŽNÁ HOTOVOSŤ NA BANKOVOM ÚČTE, podiel: 100%",
           "PEŇAŽNÁ HOTOVOSŤ, podiel: 100%",
-          "PÔŽIČKY, podiel: 100%",
-          "PEŇAŽNÁ HOTOVOSŤ NA BANKOVOM ÚČTE, podiel: 100%"
+          "PÔŽIČKY, podiel: 100%"
         ],
         "obligations": [
           {
@@ -232,81 +241,17 @@
   ],
   "total_changes": 4,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zuzana.Skopcova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zuzana.Skopcova.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Zuzana.Skopcova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Zuzana.Skopcova.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 9303,
-            "other": 86619
-          },
-          "old_total": 0,
-          "new_total": 95922,
-          "delta": 95922
-        },
-        {
-          "field": "employment",
-          "old": null,
-          "new": "SLOVENSKÁ NÁRODNÁ STRANA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "business_activity",
-          "old": "ŽIVNOSTNÍK(dipl.Ing. ZUZANA ŠKOPCOVÁ)",
-          "new": "KONATEĽ(MEDIACHECK SYSTEM, S.R.O.)ŽIVNOSTNÍK DO 23.02.2024(dipl. Ing. ZUZANA ŠKOPCOVÁ)"
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "3 X ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "MILOSLAVOV",
-              "lv_number": "1761",
-              "share": "1/1"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "MILOSLAVOV",
-              "lv_number": "1761",
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "3X ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "MILOSLAVOV",
-              "lv_number": "1761",
-              "share": "1/1"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "MILOSLAVOV",
-              "lv_number": "1761",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 95 922 € (+95 922 €)",
-      "Zamestnanie",
-      "Podnikanie",
-      "Nehnuteľnosti: 2 → 2 (0)"
-    ]
+    "summary": []
   },
   "slug": "dipl-ing-zuzana-skopcova",
   "context": {
@@ -316,7 +261,7 @@
     "obligations": 1,
     "income_percentile": 85,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 5.3

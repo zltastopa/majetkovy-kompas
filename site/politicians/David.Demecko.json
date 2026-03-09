@@ -2,6 +2,9 @@
   "user_id": "David.Demecko",
   "name": "PaedDr. Dávid Demečko, PhD.",
   "public_function": "poslanec Národnej rady Slovenskej republiky",
+  "public_functions": [
+    "poslanec Národnej rady Slovenskej republiky"
+  ],
   "role": "poslanec Národnej rady Slovenskej republiky",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -31,8 +37,8 @@
             "benefits": "NOTEBOOK, MOBILNÝ TELEFÓN, ODMENA"
           },
           {
-            "role": "ČLEN PREDSTAVENSTVA",
-            "organization": "EMKOBEL, A.S.",
+            "role": "POSLANEC",
+            "organization": "MESTO SPIŠSKÁ NOVÁ VES",
             "benefits": "ODMENA"
           },
           {
@@ -41,12 +47,24 @@
             "benefits": "ODMENA"
           },
           {
-            "role": "POSLANEC",
-            "organization": "MESTO SPIŠSKÁ NOVÁ VES",
+            "role": "ČLEN PREDSTAVENSTVA",
+            "organization": "EMKOBEL, A.S.",
             "benefits": "ODMENA"
           }
         ],
         "real_estate": [
+          {
+            "type": "DOM",
+            "cadastral_territory": "PORÁČ",
+            "lv_number": "1088",
+            "share": "1/1"
+          },
+          {
+            "type": "DOM - HOSPODÁRSKA ČASŤ",
+            "cadastral_territory": "PORÁČ",
+            "lv_number": "1088",
+            "share": "1/1"
+          },
           {
             "type": "RODINNÝ DOM",
             "cadastral_territory": "SPIŠSKÁ NOVÁ VES",
@@ -64,18 +82,6 @@
             "cadastral_territory": "SPIŠSKÁ NOVÁ VES",
             "lv_number": "141",
             "share": "1/1 BSM"
-          },
-          {
-            "type": "DOM - HOSPODÁRSKA ČASŤ",
-            "cadastral_territory": "PORÁČ",
-            "lv_number": "1088",
-            "share": "1/1"
-          },
-          {
-            "type": "DOM",
-            "cadastral_territory": "PORÁČ",
-            "lv_number": "1088",
-            "share": "1/1"
           }
         ],
         "movable_property": null,
@@ -104,6 +110,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 36003,
           "other": 29656
@@ -130,6 +139,18 @@
         ],
         "real_estate": [
           {
+            "type": "DOM",
+            "cadastral_territory": "PORÁČ",
+            "lv_number": "1088",
+            "share": "1/1"
+          },
+          {
+            "type": "DOM - HOSPODÁRSKA ČASŤ",
+            "cadastral_territory": "PORÁČ",
+            "lv_number": "1088",
+            "share": "1/1"
+          },
+          {
             "type": "RODINNÝ DOM",
             "cadastral_territory": "SPIŠSKÁ NOVÁ VES",
             "lv_number": "141",
@@ -146,18 +167,6 @@
             "cadastral_territory": "SPIŠSKÁ NOVÁ VES",
             "lv_number": "141",
             "share": "1/1 BSM"
-          },
-          {
-            "type": "DOM - HOSPODÁRSKA ČASŤ",
-            "cadastral_territory": "PORÁČ",
-            "lv_number": "1088",
-            "share": "1/1"
-          },
-          {
-            "type": "DOM",
-            "cadastral_territory": "PORÁČ",
-            "lv_number": "1088",
-            "share": "1/1"
           }
         ],
         "movable_property": null,
@@ -204,8 +213,8 @@
                 "benefits": "NOTEBOOK, MOBILNÝ TELEFÓN, ODMENA"
               },
               {
-                "role": "ČLEN PREDSTAVENSTVA",
-                "organization": "EMKOBEL, A.S.",
+                "role": "POSLANEC",
+                "organization": "MESTO SPIŠSKÁ NOVÁ VES",
                 "benefits": "ODMENA"
               },
               {
@@ -214,8 +223,8 @@
                 "benefits": "ODMENA"
               },
               {
-                "role": "POSLANEC",
-                "organization": "MESTO SPIŠSKÁ NOVÁ VES",
+                "role": "ČLEN PREDSTAVENSTVA",
+                "organization": "EMKOBEL, A.S.",
                 "benefits": "ODMENA"
               }
             ],
@@ -245,86 +254,17 @@
   ],
   "total_changes": 3,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/David.Demecko.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/David.Demecko.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/David.Demecko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/David.Demecko.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 36003,
-            "other": 29656
-          },
-          "old_total": 0,
-          "new_total": 65659,
-          "delta": 65659
-        },
-        {
-          "field": "employment",
-          "old": "SPOJENÁ ŠKOLA MAXIMILIÁNA MÁRIA KOLBEHO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSANIMED S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
-          "new": "SANIMED S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "POSLANEC",
-              "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
-              "benefits": "NOTEBOOK, MOBILNÝ TELEFÓN, ODMENA"
-            },
-            {
-              "role": "ČLEN PREDSTAVENSTVA",
-              "organization": "EMKOBEL, A.S.",
-              "benefits": "ODMENA"
-            },
-            {
-              "role": "ZÁSTUPCA PRIMÁTORA MESTA",
-              "organization": "MESTO SPIŠSKÁ NOVÁ VES",
-              "benefits": "ODMENA"
-            },
-            {
-              "role": "POSLANEC",
-              "organization": "MESTO SPIŠSKÁ NOVÁ VES",
-              "benefits": "ODMENA"
-            }
-          ],
-          "new": [
-            {
-              "role": "POSLANEC",
-              "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
-              "benefits": "NOTEBOOK, MOBILNÝ TELEFÓN, ODMENA"
-            },
-            {
-              "role": "POSLANEC",
-              "organization": "MESTO SPIŠSKÁ NOVÁ VES",
-              "benefits": "ODMENA"
-            },
-            {
-              "role": "ZÁSTUPCA PRIMÁTORA MESTA",
-              "organization": "MESTO SPIŠSKÁ NOVÁ VES",
-              "benefits": "PLAT"
-            }
-          ],
-          "old_count": 4,
-          "new_count": 3
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 65 659 € (+65 659 €)",
-      "Zamestnanie",
-      "Funkcie: 4 → 3 (-1)"
-    ]
+    "summary": []
   },
   "slug": "paeddr-david-demecko-phd",
   "context": {
@@ -334,7 +274,7 @@
     "obligations": 1,
     "income_percentile": 68,
     "property_percentile": 66,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.6

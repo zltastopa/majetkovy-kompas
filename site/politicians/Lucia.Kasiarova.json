@@ -2,6 +2,9 @@
   "user_id": "Lucia.Kasiarova",
   "name": "Ing. Lucia Kašiarová",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚRAD PRE DOHĽAD NAD VÝKONOM AUDITU)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚRAD PRE DOHĽAD NAD VÝKONOM AUDITU)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚRAD PRE DOHĽAD NAD VÝKONOM AUDITU)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚRAD PRE DOHĽAD NAD VÝKONOM AUDITU)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚRAD PRE DOHĽAD NAD VÝKONOM AUDITU)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -27,34 +33,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "LESNÝ POZEMOK. ORNÁ PÔDA",
-            "cadastral_territory": "LIESKOVEC",
-            "lv_number": "1345",
-            "share": "63/22176, 630/221760"
-          },
-          {
-            "type": "OSTATNÁ PLOCHA",
-            "cadastral_territory": "LIESKOVEC",
-            "lv_number": "476",
-            "share": "1/4"
-          },
-          {
-            "type": "TRVALÝ TRÁVNY PORAST",
-            "cadastral_territory": "LIESKOVEC",
-            "lv_number": "501",
-            "share": "1/2"
-          },
-          {
             "type": "LESNÝ POZEMOK",
             "cadastral_territory": "LIESKOVEC",
             "lv_number": "1330",
             "share": "63/22176, 630/221760"
-          },
-          {
-            "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
-            "cadastral_territory": "LIESKOVEC",
-            "lv_number": "1331",
-            "share": "945/212940"
           },
           {
             "type": "LESNÝ POZEMOK",
@@ -63,46 +45,16 @@
             "share": "63/22176, 630/221760"
           },
           {
-            "type": "OSTATNÁ PLOCHA",
-            "cadastral_territory": "VEĽKÝ SLAVKOV",
-            "lv_number": "436",
-            "share": "1/20 V BSM"
-          },
-          {
             "type": "LESNÝ POZEMOK",
             "cadastral_territory": "LIESKOVEC",
             "lv_number": "934",
             "share": "45/10080"
           },
           {
-            "type": "OSTATNÁ PLOCHA, LESNÝ POZEMOK, ORNÁ PÔDA",
+            "type": "LESNÝ POZEMOK",
             "cadastral_territory": "LIESKOVEC",
-            "lv_number": "935",
-            "share": "45/10080"
-          },
-          {
-            "type": "ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM",
-            "cadastral_territory": "VINIČNÉ",
-            "lv_number": "2180",
-            "share": "BSM"
-          },
-          {
-            "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE, DOM",
-            "cadastral_territory": "BARCA",
-            "lv_number": "2411",
-            "share": "1/4"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÁ STAVBA",
-            "cadastral_territory": "VEĽKÝ SLAVKOV",
-            "lv_number": "1107",
-            "share": "BSM"
-          },
-          {
-            "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
-            "cadastral_territory": "LIESKOVEC",
-            "lv_number": "946",
-            "share": "1080/215996"
+            "lv_number": "944",
+            "share": "SPOLUVL. PODIEL"
           },
           {
             "type": "LESNÝ POZEMOK",
@@ -117,10 +69,10 @@
             "share": "1/1"
           },
           {
-            "type": "ORNÁ PÔDA, ZÁHRADA, OSTATNÁ PLOCHA",
+            "type": "LESNÝ POZEMOK. ORNÁ PÔDA",
             "cadastral_territory": "LIESKOVEC",
-            "lv_number": "942",
-            "share": "37800/58060800 25200/58080800"
+            "lv_number": "1345",
+            "share": "63/22176, 630/221760"
           },
           {
             "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA, TRVALÝ TRÁVNY PORAST",
@@ -129,10 +81,64 @@
             "share": "37800/58060800 25200/58080800"
           },
           {
-            "type": "LESNÝ POZEMOK",
+            "type": "ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM",
+            "cadastral_territory": "VINIČNÉ",
+            "lv_number": "2180",
+            "share": "BSM"
+          },
+          {
+            "type": "ORNÁ PÔDA, ZÁHRADA, OSTATNÁ PLOCHA",
             "cadastral_territory": "LIESKOVEC",
-            "lv_number": "944",
-            "share": "SPOLUVL. PODIEL"
+            "lv_number": "942",
+            "share": "37800/58060800 25200/58080800"
+          },
+          {
+            "type": "OSTATNÁ PLOCHA",
+            "cadastral_territory": "LIESKOVEC",
+            "lv_number": "476",
+            "share": "1/4"
+          },
+          {
+            "type": "OSTATNÁ PLOCHA",
+            "cadastral_territory": "VEĽKÝ SLAVKOV",
+            "lv_number": "436",
+            "share": "1/20 V BSM"
+          },
+          {
+            "type": "OSTATNÁ PLOCHA, LESNÝ POZEMOK, ORNÁ PÔDA",
+            "cadastral_territory": "LIESKOVEC",
+            "lv_number": "935",
+            "share": "45/10080"
+          },
+          {
+            "type": "TRVALÝ TRÁVNY PORAST",
+            "cadastral_territory": "LIESKOVEC",
+            "lv_number": "501",
+            "share": "1/2"
+          },
+          {
+            "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+            "cadastral_territory": "LIESKOVEC",
+            "lv_number": "1331",
+            "share": "945/212940"
+          },
+          {
+            "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+            "cadastral_territory": "LIESKOVEC",
+            "lv_number": "946",
+            "share": "1080/215996"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÁ STAVBA",
+            "cadastral_territory": "VEĽKÝ SLAVKOV",
+            "lv_number": "1107",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE, DOM",
+            "cadastral_territory": "BARCA",
+            "lv_number": "2411",
+            "share": "1/4"
           }
         ],
         "movable_property": null,
@@ -163,6 +169,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚRAD PRE DOHĽAD NAD VÝKONOM AUDITU)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚRAD PRE DOHĽAD NAD VÝKONOM AUDITU)"
+        ],
         "income": {
           "public_function": 19224,
           "other": 25800
@@ -173,28 +182,28 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "ORNÁ PÔDA, ZÁHRADA, OSTATNÁ PLOCHA",
+            "type": "LESNÝ POZEMOK",
             "cadastral_territory": "LIESKOVEC",
-            "lv_number": "942",
-            "share": "SPOLUVLASTNÍCKY PODIEL"
+            "lv_number": "1330",
+            "share": "63/22176, 630/221760"
           },
           {
-            "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA, TRVALÝ TRÁVNY PORAST",
+            "type": "LESNÝ POZEMOK",
             "cadastral_territory": "LIESKOVEC",
-            "lv_number": "943",
-            "share": "SPOLUVLASTNÍCKY PODIEL"
+            "lv_number": "1344",
+            "share": "63/22176, 630/221760"
+          },
+          {
+            "type": "LESNÝ POZEMOK",
+            "cadastral_territory": "LIESKOVEC",
+            "lv_number": "934",
+            "share": "45/10080"
           },
           {
             "type": "LESNÝ POZEMOK",
             "cadastral_territory": "LIESKOVEC",
             "lv_number": "944",
             "share": "SPOLUVLASTNÍCKY PODIEL"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "VEĽKÝ SLAVKOV",
-            "lv_number": "1107",
-            "share": "BSM"
           },
           {
             "type": "LESNÝ POZEMOK",
@@ -209,40 +218,16 @@
             "share": "1/1"
           },
           {
-            "type": "LESNÝ POZEMOK",
-            "cadastral_territory": "LIESKOVEC",
-            "lv_number": "1330",
-            "share": "63/22176, 630/221760"
-          },
-          {
-            "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
-            "cadastral_territory": "LIESKOVEC",
-            "lv_number": "1331",
-            "share": "945/212940"
-          },
-          {
-            "type": "LESNÝ POZEMOK",
-            "cadastral_territory": "LIESKOVEC",
-            "lv_number": "1344",
-            "share": "63/22176, 630/221760"
-          },
-          {
             "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
             "cadastral_territory": "LIESKOVEC",
             "lv_number": "1345",
             "share": "63/22176, 630/221760"
           },
           {
-            "type": "OSTATNÁ PLOCHA",
+            "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA, TRVALÝ TRÁVNY PORAST",
             "cadastral_territory": "LIESKOVEC",
-            "lv_number": "476",
-            "share": "1/4"
-          },
-          {
-            "type": "TRVALÝ TRÁVNY PORAST",
-            "cadastral_territory": "LIESKOVEC",
-            "lv_number": "501",
-            "share": "1/2"
+            "lv_number": "943",
+            "share": "SPOLUVLASTNÍCKY PODIEL"
           },
           {
             "type": "ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM",
@@ -251,16 +236,16 @@
             "share": "BSM"
           },
           {
-            "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE, DOM",
-            "cadastral_territory": "BARCA",
-            "lv_number": "2411",
-            "share": "1/4"
+            "type": "ORNÁ PÔDA, ZÁHRADA, OSTATNÁ PLOCHA",
+            "cadastral_territory": "LIESKOVEC",
+            "lv_number": "942",
+            "share": "SPOLUVLASTNÍCKY PODIEL"
           },
           {
-            "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+            "type": "OSTATNÁ PLOCHA",
             "cadastral_territory": "LIESKOVEC",
-            "lv_number": "946",
-            "share": "1080/215996"
+            "lv_number": "476",
+            "share": "1/4"
           },
           {
             "type": "OSTATNÁ PLOCHA",
@@ -269,16 +254,40 @@
             "share": "1/20 BSM"
           },
           {
-            "type": "LESNÝ POZEMOK",
-            "cadastral_territory": "LIESKOVEC",
-            "lv_number": "934",
-            "share": "45/10080"
-          },
-          {
             "type": "OSTATNÁ PLOCHA, LESNÝ POZEMOK, ORNÁ PÔDA",
             "cadastral_territory": "LIESKOVEC",
             "lv_number": "935",
             "share": "45/10080"
+          },
+          {
+            "type": "TRVALÝ TRÁVNY PORAST",
+            "cadastral_territory": "LIESKOVEC",
+            "lv_number": "501",
+            "share": "1/2"
+          },
+          {
+            "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+            "cadastral_territory": "LIESKOVEC",
+            "lv_number": "1331",
+            "share": "945/212940"
+          },
+          {
+            "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+            "cadastral_territory": "LIESKOVEC",
+            "lv_number": "946",
+            "share": "1080/215996"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "VEĽKÝ SLAVKOV",
+            "lv_number": "1107",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE, DOM",
+            "cadastral_territory": "BARCA",
+            "lv_number": "2411",
+            "share": "1/4"
           }
         ],
         "movable_property": null,
@@ -322,40 +331,70 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "LESNÝ POZEMOK. ORNÁ PÔDA",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "1345",
-                "share": "63/22176, 630/221760"
-              },
-              {
-                "type": "OSTATNÁ PLOCHA",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "476",
-                "share": "1/4"
-              },
-              {
-                "type": "TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "501",
-                "share": "1/2"
-              },
-              {
                 "type": "LESNÝ POZEMOK",
                 "cadastral_territory": "LIESKOVEC",
                 "lv_number": "1330",
                 "share": "63/22176, 630/221760"
               },
               {
-                "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "1331",
-                "share": "945/212940"
-              },
-              {
                 "type": "LESNÝ POZEMOK",
                 "cadastral_territory": "LIESKOVEC",
                 "lv_number": "1344",
                 "share": "63/22176, 630/221760"
+              },
+              {
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "934",
+                "share": "45/10080"
+              },
+              {
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "944",
+                "share": "SPOLUVL. PODIEL"
+              },
+              {
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "955",
+                "share": "SPOLUVL. PODIEL"
+              },
+              {
+                "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "1206",
+                "share": "1/1"
+              },
+              {
+                "type": "LESNÝ POZEMOK. ORNÁ PÔDA",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "1345",
+                "share": "63/22176, 630/221760"
+              },
+              {
+                "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA, TRVALÝ TRÁVNY PORAST",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "943",
+                "share": "37800/58060800 25200/58080800"
+              },
+              {
+                "type": "ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM",
+                "cadastral_territory": "VINIČNÉ",
+                "lv_number": "2180",
+                "share": "BSM"
+              },
+              {
+                "type": "ORNÁ PÔDA, ZÁHRADA, OSTATNÁ PLOCHA",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "942",
+                "share": "37800/58060800 25200/58080800"
+              },
+              {
+                "type": "OSTATNÁ PLOCHA",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "476",
+                "share": "1/4"
               },
               {
                 "type": "OSTATNÁ PLOCHA",
@@ -364,138 +403,10 @@
                 "share": "1/20 V BSM"
               },
               {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "934",
-                "share": "45/10080"
-              },
-              {
                 "type": "OSTATNÁ PLOCHA, LESNÝ POZEMOK, ORNÁ PÔDA",
                 "cadastral_territory": "LIESKOVEC",
                 "lv_number": "935",
                 "share": "45/10080"
-              },
-              {
-                "type": "ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM",
-                "cadastral_territory": "VINIČNÉ",
-                "lv_number": "2180",
-                "share": "BSM"
-              },
-              {
-                "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE, DOM",
-                "cadastral_territory": "BARCA",
-                "lv_number": "2411",
-                "share": "1/4"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÁ STAVBA",
-                "cadastral_territory": "VEĽKÝ SLAVKOV",
-                "lv_number": "1107",
-                "share": "BSM"
-              },
-              {
-                "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "946",
-                "share": "1080/215996"
-              },
-              {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "955",
-                "share": "SPOLUVL. PODIEL"
-              },
-              {
-                "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "1206",
-                "share": "1/1"
-              },
-              {
-                "type": "ORNÁ PÔDA, ZÁHRADA, OSTATNÁ PLOCHA",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "942",
-                "share": "37800/58060800 25200/58080800"
-              },
-              {
-                "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA, TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "943",
-                "share": "37800/58060800 25200/58080800"
-              },
-              {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "944",
-                "share": "SPOLUVL. PODIEL"
-              }
-            ],
-            "new": [
-              {
-                "type": "ORNÁ PÔDA, ZÁHRADA, OSTATNÁ PLOCHA",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "942",
-                "share": "SPOLUVLASTNÍCKY PODIEL"
-              },
-              {
-                "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA, TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "943",
-                "share": "SPOLUVLASTNÍCKY PODIEL"
-              },
-              {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "944",
-                "share": "SPOLUVLASTNÍCKY PODIEL"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VEĽKÝ SLAVKOV",
-                "lv_number": "1107",
-                "share": "BSM"
-              },
-              {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "955",
-                "share": "SPOLUVLASTNÍCKY PODIEL"
-              },
-              {
-                "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "1206",
-                "share": "1/1"
-              },
-              {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "1330",
-                "share": "63/22176, 630/221760"
-              },
-              {
-                "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "1331",
-                "share": "945/212940"
-              },
-              {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "1344",
-                "share": "63/22176, 630/221760"
-              },
-              {
-                "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "1345",
-                "share": "63/22176, 630/221760"
-              },
-              {
-                "type": "OSTATNÁ PLOCHA",
-                "cadastral_territory": "LIESKOVEC",
-                "lv_number": "476",
-                "share": "1/4"
               },
               {
                 "type": "TRVALÝ TRÁVNY PORAST",
@@ -504,16 +415,10 @@
                 "share": "1/2"
               },
               {
-                "type": "ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM",
-                "cadastral_territory": "VINIČNÉ",
-                "lv_number": "2180",
-                "share": "BSM"
-              },
-              {
-                "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE, DOM",
-                "cadastral_territory": "BARCA",
-                "lv_number": "2411",
-                "share": "1/4"
+                "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "1331",
+                "share": "945/212940"
               },
               {
                 "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
@@ -522,10 +427,30 @@
                 "share": "1080/215996"
               },
               {
-                "type": "OSTATNÁ PLOCHA",
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÁ STAVBA",
                 "cadastral_territory": "VEĽKÝ SLAVKOV",
-                "lv_number": "436",
-                "share": "1/20 BSM"
+                "lv_number": "1107",
+                "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE, DOM",
+                "cadastral_territory": "BARCA",
+                "lv_number": "2411",
+                "share": "1/4"
+              }
+            ],
+            "new": [
+              {
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "1330",
+                "share": "63/22176, 630/221760"
+              },
+              {
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "1344",
+                "share": "63/22176, 630/221760"
               },
               {
                 "type": "LESNÝ POZEMOK",
@@ -534,10 +459,94 @@
                 "share": "45/10080"
               },
               {
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "944",
+                "share": "SPOLUVLASTNÍCKY PODIEL"
+              },
+              {
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "955",
+                "share": "SPOLUVLASTNÍCKY PODIEL"
+              },
+              {
+                "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "1206",
+                "share": "1/1"
+              },
+              {
+                "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "1345",
+                "share": "63/22176, 630/221760"
+              },
+              {
+                "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA, TRVALÝ TRÁVNY PORAST",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "943",
+                "share": "SPOLUVLASTNÍCKY PODIEL"
+              },
+              {
+                "type": "ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM",
+                "cadastral_territory": "VINIČNÉ",
+                "lv_number": "2180",
+                "share": "BSM"
+              },
+              {
+                "type": "ORNÁ PÔDA, ZÁHRADA, OSTATNÁ PLOCHA",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "942",
+                "share": "SPOLUVLASTNÍCKY PODIEL"
+              },
+              {
+                "type": "OSTATNÁ PLOCHA",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "476",
+                "share": "1/4"
+              },
+              {
+                "type": "OSTATNÁ PLOCHA",
+                "cadastral_territory": "VEĽKÝ SLAVKOV",
+                "lv_number": "436",
+                "share": "1/20 BSM"
+              },
+              {
                 "type": "OSTATNÁ PLOCHA, LESNÝ POZEMOK, ORNÁ PÔDA",
                 "cadastral_territory": "LIESKOVEC",
                 "lv_number": "935",
                 "share": "45/10080"
+              },
+              {
+                "type": "TRVALÝ TRÁVNY PORAST",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "501",
+                "share": "1/2"
+              },
+              {
+                "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "1331",
+                "share": "945/212940"
+              },
+              {
+                "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+                "cadastral_territory": "LIESKOVEC",
+                "lv_number": "946",
+                "share": "1080/215996"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VEĽKÝ SLAVKOV",
+                "lv_number": "1107",
+                "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE, DOM",
+                "cadastral_territory": "BARCA",
+                "lv_number": "2411",
+                "share": "1/4"
               }
             ],
             "old_count": 18,
@@ -549,267 +558,17 @@
   ],
   "total_changes": 3,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lucia.Kasiarova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lucia.Kasiarova.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Lucia.Kasiarova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Lucia.Kasiarova.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 19224,
-            "other": 25800
-          },
-          "old_total": 0,
-          "new_total": 45024,
-          "delta": 45024
-        },
-        {
-          "field": "employment",
-          "old": "MINISTERSTVO INVESTÍCIÍ, REGIONÁLNEHO ROZVOJA A INFORMATIZÁCIE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "LESNÝ POZEMOK. ORNÁ PÔDA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "1345",
-              "share": "63/22176, 630/221760"
-            },
-            {
-              "type": "OSTATNÁ PLOCHA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "476",
-              "share": "1/4"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "501",
-              "share": "1/2"
-            },
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "1330",
-              "share": "63/22176, 630/221760"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "1331",
-              "share": "945/212940"
-            },
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "1344",
-              "share": "63/22176, 630/221760"
-            },
-            {
-              "type": "OSTATNÁ PLOCHA",
-              "cadastral_territory": "VEĽKÝ SLAVKOV",
-              "lv_number": "436",
-              "share": "1/20 V BSM"
-            },
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "934",
-              "share": "45/10080"
-            },
-            {
-              "type": "OSTATNÁ PLOCHA, LESNÝ POZEMOK, ORNÁ PÔDA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "935",
-              "share": "45/10080"
-            },
-            {
-              "type": "ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM",
-              "cadastral_territory": "VINIČNÉ",
-              "lv_number": "2180",
-              "share": "BSM"
-            },
-            {
-              "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE, DOM",
-              "cadastral_territory": "BARCA",
-              "lv_number": "2411",
-              "share": "1/4"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ROZOSTAVANÁ STAVBA",
-              "cadastral_territory": "VEĽKÝ SLAVKOV",
-              "lv_number": "1107",
-              "share": "BSM"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "946",
-              "share": "1080/215996"
-            },
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "955",
-              "share": "SPOLUVL. PODIEL"
-            },
-            {
-              "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "1206",
-              "share": "1/1"
-            },
-            {
-              "type": "ORNÁ PÔDA, ZÁHRADA, OSTATNÁ PLOCHA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "942",
-              "share": "37800/58060800 25200/58080800"
-            },
-            {
-              "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA, TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "943",
-              "share": "37800/58060800 25200/58080800"
-            },
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "944",
-              "share": "SPOLUVL. PODIEL"
-            }
-          ],
-          "new": [
-            {
-              "type": "ORNÁ PÔDA, ZÁHRADA, OSTATNÁ PLOCHA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "942",
-              "share": "SPOLUVLASTNÍCKY PODIEL"
-            },
-            {
-              "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA, TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "943",
-              "share": "SPOLUVLASTNÍCKY PODIEL"
-            },
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "944",
-              "share": "SPOLUVLASTNÍCKY PODIEL"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "VEĽKÝ SLAVKOV",
-              "lv_number": "1107",
-              "share": "BSM"
-            },
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "955",
-              "share": "SPOLUVLASTNÍCKY PODIEL"
-            },
-            {
-              "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "1206",
-              "share": "1/1"
-            },
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "1330",
-              "share": "63/22176, 630/221760"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "1331",
-              "share": "945/212940"
-            },
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "1344",
-              "share": "63/22176, 630/221760"
-            },
-            {
-              "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "1345",
-              "share": "63/22176, 630/221760"
-            },
-            {
-              "type": "OSTATNÁ PLOCHA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "476",
-              "share": "1/4"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "501",
-              "share": "1/2"
-            },
-            {
-              "type": "ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM",
-              "cadastral_territory": "VINIČNÉ",
-              "lv_number": "2180",
-              "share": "BSM"
-            },
-            {
-              "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE, DOM",
-              "cadastral_territory": "BARCA",
-              "lv_number": "2411",
-              "share": "1/4"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "946",
-              "share": "1080/215996"
-            },
-            {
-              "type": "OSTATNÁ PLOCHA",
-              "cadastral_territory": "VEĽKÝ SLAVKOV",
-              "lv_number": "436",
-              "share": "1/20 BSM"
-            },
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "934",
-              "share": "45/10080"
-            },
-            {
-              "type": "OSTATNÁ PLOCHA, LESNÝ POZEMOK, ORNÁ PÔDA",
-              "cadastral_territory": "LIESKOVEC",
-              "lv_number": "935",
-              "share": "45/10080"
-            }
-          ],
-          "old_count": 18,
-          "new_count": 18
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 45 024 € (+45 024 €)",
-      "Zamestnanie",
-      "Nehnuteľnosti: 18 → 18 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-lucia-kasiarova",
   "context": {
@@ -819,7 +578,7 @@
     "obligations": 1,
     "income_percentile": 40,
     "property_percentile": 92,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.5

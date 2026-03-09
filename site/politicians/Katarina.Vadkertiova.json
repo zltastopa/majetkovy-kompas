@@ -1,7 +1,10 @@
 {
   "user_id": "Katarina.Vadkertiova",
   "name": "Mgr. Katarína Vadkertiová, MBA, MPH",
-  "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ TRANSPLANTAČNÁ ORGANIZÁCIA\r\n)",
+  "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ TRANSPLANTAČNÁ ORGANIZÁCIA )",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ TRANSPLANTAČNÁ ORGANIZÁCIA )"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ TRANSPLANTAČNÁ ORGANIZÁCIA )",
   "years": [
     2023,
@@ -16,7 +19,10 @@
         "name": "Mgr. KATARÍNA VADKERTIOVÁ, MBA, MPH",
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ TRANSPLANTAČNÁ ORGANIZÁCIA\r\n)",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ TRANSPLANTAČNÁ ORGANIZÁCIA )",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ TRANSPLANTAČNÁ ORGANIZÁCIA )"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -26,12 +32,6 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "DVORY NAD ŽITAVOU",
-            "lv_number": "5087",
-            "share": "1/2"
-          },
           {
             "type": "OSTATNÉ PLOCHY",
             "cadastral_territory": "DVORY NAD ŽITAVOU",
@@ -43,12 +43,18 @@
             "cadastral_territory": "DVORY NAD ŽITAVOU",
             "lv_number": "5271",
             "share": "1/1"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "DVORY NAD ŽITAVOU",
+            "lv_number": "5087",
+            "share": "1/2"
           }
         ],
         "movable_property": null,
         "property_rights": [
-          "MEDIKOSIHY S.R.O., podiel: 50%",
-          "KOSIHY SPOL. S R.O., podiel: 45%"
+          "KOSIHY SPOL. S R.O., podiel: 45%",
+          "MEDIKOSIHY S.R.O., podiel: 50%"
         ],
         "obligations": [
           {
@@ -71,7 +77,10 @@
         "name": "Mgr. KATARÍNA VADKERTIOVÁ, MBA, MPH",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ TRANSPLANTAČNÁ ORGANIZÁCIA\r\n)",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ TRANSPLANTAČNÁ ORGANIZÁCIA )",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ TRANSPLANTAČNÁ ORGANIZÁCIA )"
+        ],
         "income": {
           "public_function": 5900,
           "other": 4881
@@ -81,12 +90,6 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "DVORY NAD ŽITAVOU",
-            "lv_number": "5087",
-            "share": "1/2"
-          },
           {
             "type": "OSTATNÉ PLOCHY",
             "cadastral_territory": "DVORY NAD ŽITAVOU",
@@ -98,12 +101,18 @@
             "cadastral_territory": "DVORY NAD ŽITAVOU",
             "lv_number": "5271",
             "share": "1/1"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "DVORY NAD ŽITAVOU",
+            "lv_number": "5087",
+            "share": "1/2"
           }
         ],
         "movable_property": null,
         "property_rights": [
-          "PODIEL V S.R.O., podiel: 50%",
-          "PODIEL V S.R.O., podiel: 45%"
+          "PODIEL V S.R.O., podiel: 45%",
+          "PODIEL V S.R.O., podiel: 50%"
         ],
         "obligations": [
           {
@@ -139,12 +148,12 @@
           {
             "field": "property_rights",
             "old": [
-              "MEDIKOSIHY S.R.O., podiel: 50%",
-              "KOSIHY SPOL. S R.O., podiel: 45%"
+              "KOSIHY SPOL. S R.O., podiel: 45%",
+              "MEDIKOSIHY S.R.O., podiel: 50%"
             ],
             "new": [
-              "PODIEL V S.R.O., podiel: 50%",
-              "PODIEL V S.R.O., podiel: 45%"
+              "PODIEL V S.R.O., podiel: 45%",
+              "PODIEL V S.R.O., podiel: 50%"
             ],
             "old_count": 2,
             "new_count": 2
@@ -155,55 +164,17 @@
   ],
   "total_changes": 3,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Katarina.Vadkertiova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Katarina.Vadkertiova.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Katarina.Vadkertiova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Katarina.Vadkertiova.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 5900,
-            "other": 4881
-          },
-          "old_total": 0,
-          "new_total": 10781,
-          "delta": 10781
-        },
-        {
-          "field": "employment",
-          "old": null,
-          "new": "KOSIHY SPOL. S R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "MEDIKOSIHY S.R.O., podiel: 50%",
-            "KOSIHY SPOL. S R.O., podiel: 45%"
-          ],
-          "new": [
-            "PODIEL V S.R.O., podiel: 50%",
-            "PODIEL V S.R.O., podiel: 45%"
-          ],
-          "old_count": 2,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 10 781 € (+10 781 €)",
-      "Zamestnanie",
-      "Majetkové práva: 2 → 2 (0)"
-    ]
+    "summary": []
   },
   "slug": "mgr-katarina-vadkertiova-mba-mph",
   "context": {
@@ -213,7 +184,7 @@
     "obligations": 1,
     "income_percentile": 20,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0.6

@@ -2,6 +2,9 @@
   "user_id": "Patricia.Valuchova",
   "name": "Ing. Patrícia Valuchová",
   "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND PRE PODPORU UMENIA)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND PRE PODPORU UMENIA)"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND PRE PODPORU UMENIA)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND PRE PODPORU UMENIA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND PRE PODPORU UMENIA)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -78,6 +84,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND PRE PODPORU UMENIA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND PRE PODPORU UMENIA)"
+        ],
         "income": {
           "public_function": 1211,
           "other": 0
@@ -92,6 +101,24 @@
             "cadastral_territory": "ŽARNOVICA",
             "lv_number": "2187",
             "share": "1/2"
+          },
+          {
+            "type": "OSTATNÁ PLOCHA",
+            "cadastral_territory": "NOVÁ BAŇA",
+            "lv_number": "5842",
+            "share": "2/52 BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "NOVÁ BAŇA",
+            "lv_number": "5831",
+            "share": "BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "NOVÁ BAŇA",
+            "lv_number": "5842",
+            "share": "2/52 BSM"
           },
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -110,24 +137,6 @@
             "cadastral_territory": "NOVÁ BAŇA",
             "lv_number": "5831",
             "share": "BSM"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "NOVÁ BAŇA",
-            "lv_number": "5831",
-            "share": "BSM"
-          },
-          {
-            "type": "OSTATNÁ PLOCHA",
-            "cadastral_territory": "NOVÁ BAŇA",
-            "lv_number": "5842",
-            "share": "2/52 BSM"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "NOVÁ BAŇA",
-            "lv_number": "5842",
-            "share": "2/52 BSM"
           },
           {
             "type": "ZÁHRADA",
@@ -203,6 +212,24 @@
                 "share": "1/2"
               },
               {
+                "type": "OSTATNÁ PLOCHA",
+                "cadastral_territory": "NOVÁ BAŇA",
+                "lv_number": "5842",
+                "share": "2/52 BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "NOVÁ BAŇA",
+                "lv_number": "5831",
+                "share": "BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "NOVÁ BAŇA",
+                "lv_number": "5842",
+                "share": "2/52 BSM"
+              },
+              {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "ŽARNOVICA",
                 "lv_number": "2187",
@@ -221,24 +248,6 @@
                 "share": "BSM"
               },
               {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "NOVÁ BAŇA",
-                "lv_number": "5831",
-                "share": "BSM"
-              },
-              {
-                "type": "OSTATNÁ PLOCHA",
-                "cadastral_territory": "NOVÁ BAŇA",
-                "lv_number": "5842",
-                "share": "2/52 BSM"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "NOVÁ BAŇA",
-                "lv_number": "5842",
-                "share": "2/52 BSM"
-              },
-              {
                 "type": "ZÁHRADA",
                 "cadastral_territory": "NOVÁ BAŇA",
                 "lv_number": "5842",
@@ -254,111 +263,17 @@
   ],
   "total_changes": 2,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Patricia.Valuchova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Patricia.Valuchova.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Patricia.Valuchova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Patricia.Valuchova.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 1211,
-            "other": 0
-          },
-          "old_total": 0,
-          "new_total": 1211,
-          "delta": 1211
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "ŽARNOVICA",
-              "lv_number": "2187",
-              "share": "1/2"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "ŽARNOVICA",
-              "lv_number": "2187",
-              "share": "7851/328992"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "NOVÁ BAŇA",
-              "lv_number": "5830",
-              "share": "BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "ŽARNOVICA",
-              "lv_number": "2187",
-              "share": "1/2"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "ŽARNOVICA",
-              "lv_number": "2187",
-              "share": "7851/328992"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "NOVÁ BAŇA",
-              "lv_number": "5830",
-              "share": "BSM"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "NOVÁ BAŇA",
-              "lv_number": "5831",
-              "share": "BSM"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "NOVÁ BAŇA",
-              "lv_number": "5831",
-              "share": "BSM"
-            },
-            {
-              "type": "OSTATNÁ PLOCHA",
-              "cadastral_territory": "NOVÁ BAŇA",
-              "lv_number": "5842",
-              "share": "2/52 BSM"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "NOVÁ BAŇA",
-              "lv_number": "5842",
-              "share": "2/52 BSM"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "NOVÁ BAŇA",
-              "lv_number": "5842",
-              "share": "2/52 BSM"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 8
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 1 211 € (+1 211 €)",
-      "Nehnuteľnosti: 3 → 8 (+5)"
-    ]
+    "summary": []
   },
   "slug": "ing-patricia-valuchova",
   "context": {
@@ -368,7 +283,7 @@
     "obligations": 1,
     "income_percentile": 16,
     "property_percentile": 79,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0.1

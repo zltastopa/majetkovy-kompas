@@ -1,8 +1,12 @@
 {
   "user_id": "Ladislav.Slobodnik",
   "name": "MUDr. Ladislav Slobodník, MBA",
-  "public_function": "štátny tajomníkčlen dozornej rady Všeobecnej zdravotnej poisťovne",
-  "role": "štátny tajomník · člen dozornej rady Všeobecnej zdravotnej poisťovne",
+  "public_function": "člen dozornej rady Všeobecnej zdravotnej poisťovne\nštátny tajomník",
+  "public_functions": [
+    "člen dozornej rady Všeobecnej zdravotnej poisťovne",
+    "štátny tajomník"
+  ],
+  "role": "člen dozornej rady Všeobecnej zdravotnej poisťovne · štátny tajomník",
   "years": [
     2022,
     2023,
@@ -18,6 +22,9 @@
         "year": 2022,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štátny tajomník",
+        "public_functions": [
+          "štátny tajomník"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -28,33 +35,33 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "SELCE",
-            "lv_number": "2561",
-            "share": "1/1 BSM"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "BANSKÁ BYSTRICA",
             "lv_number": "4213",
             "share": "1/1"
           },
           {
-            "type": "GARÁŽOVÉ STÁTIE",
-            "cadastral_territory": "BANSKÁ BYSTRICA",
-            "lv_number": "4213",
-            "share": "1/14 BSM"
-          },
-          {
-            "type": "GARÁŽOVÉ STÁTIE",
-            "cadastral_territory": "BANSKÁ BYSTRICA",
-            "lv_number": "4213",
-            "share": "1/14 BSM"
-          },
-          {
             "type": "GARÁŽ PRIESTOR",
             "cadastral_territory": "BANSKÁ BYSTRICA",
             "lv_number": "5395",
+            "share": "1/1 BSM"
+          },
+          {
+            "type": "GARÁŽOVÉ STÁTIE",
+            "cadastral_territory": "BANSKÁ BYSTRICA",
+            "lv_number": "4213",
+            "share": "1/14 BSM"
+          },
+          {
+            "type": "GARÁŽOVÉ STÁTIE",
+            "cadastral_territory": "BANSKÁ BYSTRICA",
+            "lv_number": "4213",
+            "share": "1/14 BSM"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "SELCE",
+            "lv_number": "2561",
             "share": "1/1 BSM"
           },
           {
@@ -95,7 +102,11 @@
         "name": "MUDr. LADISLAV SLOBODNÍK, MBA",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "štátny tajomníkčlen dozornej rady Všeobecnej zdravotnej poisťovne",
+        "public_function": "člen dozornej rady Všeobecnej zdravotnej poisťovne\nštátny tajomník",
+        "public_functions": [
+          "člen dozornej rady Všeobecnej zdravotnej poisťovne",
+          "štátny tajomník"
+        ],
         "income": {
           "public_function": 8958,
           "other": 0
@@ -105,12 +116,6 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "SELCE",
-            "lv_number": "2561",
-            "share": "1/1 BSM"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "BANSKÁ VYSTRICA",
@@ -146,6 +151,12 @@
             "cadastral_territory": "SELCE",
             "lv_number": "2561",
             "share": "1/1 BSM"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "SELCE",
+            "lv_number": "2561",
+            "share": "1/1 BSM"
           }
         ],
         "movable_property": null,
@@ -167,7 +178,19 @@
           {
             "field": "public_function",
             "old": "štátny tajomník",
-            "new": "štátny tajomníkčlen dozornej rady Všeobecnej zdravotnej poisťovne"
+            "new": "člen dozornej rady Všeobecnej zdravotnej poisťovne\nštátny tajomník"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štátny tajomník"
+            ],
+            "new": [
+              "člen dozornej rady Všeobecnej zdravotnej poisťovne",
+              "štátny tajomník"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -192,33 +215,33 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "SELCE",
-                "lv_number": "2561",
-                "share": "1/1 BSM"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "BANSKÁ BYSTRICA",
                 "lv_number": "4213",
                 "share": "1/1"
               },
               {
-                "type": "GARÁŽOVÉ STÁTIE",
-                "cadastral_territory": "BANSKÁ BYSTRICA",
-                "lv_number": "4213",
-                "share": "1/14 BSM"
-              },
-              {
-                "type": "GARÁŽOVÉ STÁTIE",
-                "cadastral_territory": "BANSKÁ BYSTRICA",
-                "lv_number": "4213",
-                "share": "1/14 BSM"
-              },
-              {
                 "type": "GARÁŽ PRIESTOR",
                 "cadastral_territory": "BANSKÁ BYSTRICA",
                 "lv_number": "5395",
+                "share": "1/1 BSM"
+              },
+              {
+                "type": "GARÁŽOVÉ STÁTIE",
+                "cadastral_territory": "BANSKÁ BYSTRICA",
+                "lv_number": "4213",
+                "share": "1/14 BSM"
+              },
+              {
+                "type": "GARÁŽOVÉ STÁTIE",
+                "cadastral_territory": "BANSKÁ BYSTRICA",
+                "lv_number": "4213",
+                "share": "1/14 BSM"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "SELCE",
+                "lv_number": "2561",
                 "share": "1/1 BSM"
               },
               {
@@ -235,12 +258,6 @@
               }
             ],
             "new": [
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "SELCE",
-                "lv_number": "2561",
-                "share": "1/1 BSM"
-              },
               {
                 "type": "BYT",
                 "cadastral_territory": "BANSKÁ VYSTRICA",
@@ -276,6 +293,12 @@
                 "cadastral_territory": "SELCE",
                 "lv_number": "2561",
                 "share": "1/1 BSM"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "SELCE",
+                "lv_number": "2561",
+                "share": "1/1 BSM"
               }
             ],
             "old_count": 7,
@@ -297,7 +320,11 @@
         "name": "MUDr. LADISLAV SLOBODNÍK, MBA",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "štátny tajomníkčlen dozornej rady Všeobecnej zdravotnej poisťovne",
+        "public_function": "člen dozornej rady Všeobecnej zdravotnej poisťovne\nštátny tajomník",
+        "public_functions": [
+          "člen dozornej rady Všeobecnej zdravotnej poisťovne",
+          "štátny tajomník"
+        ],
         "income": {
           "public_function": 63646,
           "other": 0
@@ -307,12 +334,6 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "SELCE",
-            "lv_number": "2561",
-            "share": "1/1 BSM"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "BANSKÁ BYSTRICA",
@@ -335,6 +356,12 @@
             "type": "GARÁŽOVÝ PRIESTOR Č. K/1",
             "cadastral_territory": "BANSKÁ BYSTRICA",
             "lv_number": "5395",
+            "share": "1/1 BSM"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "SELCE",
+            "lv_number": "2561",
             "share": "1/1 BSM"
           },
           {
@@ -385,12 +412,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "SELCE",
-                "lv_number": "2561",
-                "share": "1/1 BSM"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "BANSKÁ VYSTRICA",
                 "lv_number": "4213",
@@ -425,15 +446,15 @@
                 "cadastral_territory": "SELCE",
                 "lv_number": "2561",
                 "share": "1/1 BSM"
-              }
-            ],
-            "new": [
+              },
               {
                 "type": "ZÁHRADA",
                 "cadastral_territory": "SELCE",
                 "lv_number": "2561",
                 "share": "1/1 BSM"
-              },
+              }
+            ],
+            "new": [
               {
                 "type": "BYT",
                 "cadastral_territory": "BANSKÁ BYSTRICA",
@@ -469,6 +490,12 @@
                 "cadastral_territory": "SELCE",
                 "lv_number": "2561",
                 "share": "1/1 BSM"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "SELCE",
+                "lv_number": "2561",
+                "share": "1/1 BSM"
               }
             ],
             "old_count": 7,
@@ -478,132 +505,19 @@
       }
     }
   ],
-  "total_changes": 7,
+  "total_changes": 8,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ladislav.Slobodnik.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ladislav.Slobodnik.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Ladislav.Slobodnik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Ladislav.Slobodnik.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 8958,
-            "other": 0
-          },
-          "new": {
-            "public_function": 63646,
-            "other": 0
-          },
-          "old_total": 8958,
-          "new_total": 63646,
-          "delta": 54688,
-          "delta_pct": 610.5
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "SELCE",
-              "lv_number": "2561",
-              "share": "1/1 BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "BANSKÁ VYSTRICA",
-              "lv_number": "4213",
-              "share": "1/1"
-            },
-            {
-              "type": "GARÁŽOVÉ STÁTIE PRIESTOR Č.6",
-              "cadastral_territory": "BANSKÁ BYSTRICA",
-              "lv_number": "4213",
-              "share": "1/14 BSM"
-            },
-            {
-              "type": "GARÁŽOVÉ STÁTIE PRIESTOR Č.7",
-              "cadastral_territory": "BANSKÁ BYSTRICA",
-              "lv_number": "4213",
-              "share": "1/14 BSM"
-            },
-            {
-              "type": "GARÁŽOVÝ PRIESTOR Č.K/1",
-              "cadastral_territory": "BANSKÁ BYSTRICA",
-              "lv_number": "5395",
-              "share": "1/1 BSM"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "SELCE",
-              "lv_number": "2561",
-              "share": "1/1 BSM"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "SELCE",
-              "lv_number": "2561",
-              "share": "1/1 BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "SELCE",
-              "lv_number": "2561",
-              "share": "1/1 BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "BANSKÁ BYSTRICA",
-              "lv_number": "4213",
-              "share": "1/1"
-            },
-            {
-              "type": "GARÁŽOVÉ STÁTIE Č.6",
-              "cadastral_territory": "BANSKÁ BYSTRICA",
-              "lv_number": "4213",
-              "share": "1/14 BSM"
-            },
-            {
-              "type": "GARÁŽOVÉ STÁTIE Č.7",
-              "cadastral_territory": "BANSKÁ BYSTRICA",
-              "lv_number": "4213",
-              "share": "1/14 BSM"
-            },
-            {
-              "type": "GARÁŽOVÝ PRIESTOR Č. K/1",
-              "cadastral_territory": "BANSKÁ BYSTRICA",
-              "lv_number": "5395",
-              "share": "1/1 BSM"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "SELCE",
-              "lv_number": "2561",
-              "share": "1/1 BSM"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "SELCE",
-              "lv_number": "2561",
-              "share": "1/1 BSM"
-            }
-          ],
-          "old_count": 7,
-          "new_count": 7
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 8 958 € → 63 646 € (+54 688 €)",
-      "Nehnuteľnosti: 7 → 7 (0)"
-    ]
+    "summary": []
   },
   "slug": "mudr-ladislav-slobodnik-mba",
   "context": {
@@ -613,7 +527,7 @@
     "obligations": 1,
     "income_percentile": 66,
     "property_percentile": 77,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.5

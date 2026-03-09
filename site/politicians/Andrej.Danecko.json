@@ -2,6 +2,9 @@
   "user_id": "Andrej.Danecko",
   "name": "Ing. Andrej Danečko",
   "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ, A.S.)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ, A.S.)"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ, A.S.)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -72,6 +78,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ, A.S.)"
+        ],
         "income": {
           "public_function": 5373,
           "other": 27886
@@ -123,6 +132,17 @@
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ, A.S.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ, A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 0,
@@ -166,71 +186,19 @@
       }
     }
   ],
-  "total_changes": 4,
+  "total_changes": 5,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Andrej.Danecko.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Andrej.Danecko.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Andrej.Danecko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Andrej.Danecko.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ A.S.)",
-          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ, A.S.)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 5373,
-            "other": 27886
-          },
-          "old_total": 0,
-          "new_total": 33259,
-          "delta": 33259
-        },
-        {
-          "field": "business_activity",
-          "old": "KONATEĽ(P.A. KOŠICE S.R.O.)",
-          "new": "KONATEĽ(P.A.KOŠICE S.R.O.)"
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "VOLKSWAGEN",
-              "year_of_manufacture": 2010,
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "VOLSWAGEN",
-              "year_of_manufacture": 2010,
-              "share": "1/1"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 33 259 € (+33 259 €)",
-      "Podnikanie",
-      "Hnuteľný majetok: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-andrej-danecko",
   "context": {
@@ -240,7 +208,7 @@
     "obligations": 1,
     "income_percentile": 30,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.8

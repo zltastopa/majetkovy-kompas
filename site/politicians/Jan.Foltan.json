@@ -2,6 +2,9 @@
   "user_id": "Jan.Foltan",
   "name": "Mgr. JÁN Foltán",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -32,21 +38,33 @@
         "real_estate": [
           {
             "type": "BYT",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "100%"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "100%"
+          },
+          {
+            "type": "BYT",
             "cadastral_territory": "RUŽINOV",
             "lv_number": "4462",
             "share": "100%"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "100%"
+            "type": "DOM",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "100%"
+            "type": "DOM",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
           },
           {
             "type": "GARÁŽ",
@@ -55,58 +73,10 @@
             "share": "100%"
           },
           {
-            "type": "DOM",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
-            "type": "DOM",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3675",
-            "share": "1/142"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "4177",
-            "share": "100%"
-          },
-          {
-            "type": "ZAHRADA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
             "type": "LESNÝ POZEMOK",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "1631",
             "share": "3825/520225"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
-            "type": "TRVALÉ TRÁVNATÉ PORASTY",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "560",
-            "share": "25%"
           },
           {
             "type": "ORNÁ PÔDA",
@@ -121,10 +91,40 @@
             "share": "197/12587"
           },
           {
-            "type": "TRVALÝ TRÁVNATÝ PORAST",
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "564",
+            "lv_number": "1715",
             "share": "25%"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "560",
+            "share": "25%"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3675",
+            "share": "1/142"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "4177",
+            "share": "100%"
+          },
+          {
+            "type": "TRVALÉ TRÁVNATÉ PORASTY",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
           },
           {
             "type": "TRVALÝ TRÁVNATÝ PORAST",
@@ -133,10 +133,16 @@
             "share": "25%"
           },
           {
-            "type": "ORNÁ PÔDA",
+            "type": "TRVALÝ TRÁVNATÝ PORAST",
             "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "1715",
+            "lv_number": "564",
             "share": "25%"
+          },
+          {
+            "type": "ZAHRADA",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
           }
         ],
         "movable_property": null,
@@ -165,6 +171,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)"
+        ],
         "income": {
           "public_function": 1600,
           "other": 49568
@@ -176,21 +185,33 @@
         "real_estate": [
           {
             "type": "BYT",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "100%"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "100%"
+          },
+          {
+            "type": "BYT",
             "cadastral_territory": "RUŽINOV",
             "lv_number": "4462",
             "share": "100%"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "100%"
+            "type": "DOM",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "100%"
+            "type": "DOM",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
           },
           {
             "type": "GARÁŽ",
@@ -199,58 +220,10 @@
             "share": "100%"
           },
           {
-            "type": "DOM",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
-            "type": "DOM",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3675",
-            "share": "1/142"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "4177",
-            "share": "100%"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
             "type": "LESNÝ POZEMOK",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "1631",
             "share": "3825/520225"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
-            "type": "TRVALÉ TRAVNATÉ PORASTY",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "560",
-            "share": "25%"
           },
           {
             "type": "ORNÁ PÔDA",
@@ -265,10 +238,40 @@
             "share": "197/12587"
           },
           {
-            "type": "TRVALÝ TRÁVNATÝ PORAST",
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "564",
+            "lv_number": "1715",
             "share": "25%"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "560",
+            "share": "25%"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3675",
+            "share": "1/142"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "4177",
+            "share": "100%"
+          },
+          {
+            "type": "TRVALÉ TRAVNATÉ PORASTY",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
           },
           {
             "type": "TRVALÝ TRÁVNATÝ PORAST",
@@ -277,16 +280,22 @@
             "share": "25%"
           },
           {
-            "type": "ORNÁ PÔDA",
+            "type": "TRVALÝ TRÁVNATÝ PORAST",
             "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "1715",
+            "lv_number": "564",
             "share": "25%"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
           }
         ],
         "movable_property": null,
         "property_rights": [
-          "ÚSPORY, podiel: 100%",
-          "CENNÉ PAPIERE, podiel: 100%"
+          "CENNÉ PAPIERE, podiel: 100%",
+          "ÚSPORY, podiel: 100%"
         ],
         "obligations": [
           {
@@ -319,21 +328,33 @@
             "old": [
               {
                 "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
+              },
+              {
+                "type": "BYT",
                 "cadastral_territory": "RUŽINOV",
                 "lv_number": "4462",
                 "share": "100%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               },
               {
                 "type": "GARÁŽ",
@@ -342,16 +363,40 @@
                 "share": "100%"
               },
               {
-                "type": "DOM",
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1631",
+                "share": "3825/520225"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1005",
+                "share": "25%"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1149",
+                "share": "197/12587"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1715",
+                "share": "25%"
+              },
+              {
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "418",
                 "share": "33%"
               },
               {
-                "type": "DOM",
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
+                "lv_number": "560",
+                "share": "25%"
               },
               {
                 "type": "POZEMOK",
@@ -364,24 +409,6 @@
                 "cadastral_territory": "PETRŽALKA",
                 "lv_number": "4177",
                 "share": "100%"
-              },
-              {
-                "type": "ZAHRADA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1631",
-                "share": "3825/520225"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
               },
               {
                 "type": "TRVALÉ TRÁVNATÉ PORASTY",
@@ -390,10 +417,66 @@
                 "share": "33%"
               },
               {
-                "type": "ORNÁ PÔDA",
+                "type": "TRVALÝ TRÁVNATÝ PORAST",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "560",
+                "lv_number": "1006",
                 "share": "25%"
+              },
+              {
+                "type": "TRVALÝ TRÁVNATÝ PORAST",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "564",
+                "share": "25%"
+              },
+              {
+                "type": "ZAHRADA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
+              }
+            ],
+            "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "RUŽINOV",
+                "lv_number": "4462",
+                "share": "100%"
+              },
+              {
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
+              },
+              {
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
+              },
+              {
+                "type": "GARÁŽ",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
+              },
+              {
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1631",
+                "share": "3825/520225"
               },
               {
                 "type": "ORNÁ PÔDA",
@@ -408,60 +491,22 @@
                 "share": "197/12587"
               },
               {
-                "type": "TRVALÝ TRÁVNATÝ PORAST",
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "564",
-                "share": "25%"
-              },
-              {
-                "type": "TRVALÝ TRÁVNATÝ PORAST",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1006",
+                "lv_number": "1715",
                 "share": "25%"
               },
               {
                 "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1715",
+                "lv_number": "418",
+                "share": "33%"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "560",
                 "share": "25%"
-              }
-            ],
-            "new": [
-              {
-                "type": "BYT",
-                "cadastral_territory": "RUŽINOV",
-                "lv_number": "4462",
-                "share": "100%"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
-              },
-              {
-                "type": "DOM",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "DOM",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
               },
               {
                 "type": "POZEMOK",
@@ -476,52 +521,10 @@
                 "share": "100%"
               },
               {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1631",
-                "share": "3825/520225"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
                 "type": "TRVALÉ TRAVNATÉ PORASTY",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "418",
                 "share": "33%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "560",
-                "share": "25%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1005",
-                "share": "25%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1149",
-                "share": "197/12587"
-              },
-              {
-                "type": "TRVALÝ TRÁVNATÝ PORAST",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "564",
-                "share": "25%"
               },
               {
                 "type": "TRVALÝ TRÁVNATÝ PORAST",
@@ -530,10 +533,16 @@
                 "share": "25%"
               },
               {
-                "type": "ORNÁ PÔDA",
+                "type": "TRVALÝ TRÁVNATÝ PORAST",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1715",
+                "lv_number": "564",
                 "share": "25%"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               }
             ],
             "old_count": 18,
@@ -545,8 +554,8 @@
               "ÚSPORY, podiel: 100%"
             ],
             "new": [
-              "ÚSPORY, podiel: 100%",
-              "CENNÉ PAPIERE, podiel: 100%"
+              "CENNÉ PAPIERE, podiel: 100%",
+              "ÚSPORY, podiel: 100%"
             ],
             "old_count": 1,
             "new_count": 2
@@ -563,6 +572,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)"
+        ],
         "income": {
           "public_function": 1600,
           "other": 51530
@@ -574,38 +586,74 @@
         "real_estate": [
           {
             "type": "BYT",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "1/1"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "1/1"
+          },
+          {
+            "type": "BYT",
             "cadastral_territory": "RUŽINOV",
             "lv_number": "4462",
             "share": "1/1"
           },
           {
-            "type": "BYT",
+            "type": "DOM",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "1/3"
+          },
+          {
+            "type": "DOM",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "1/3"
+          },
+          {
+            "type": "GARÁŽ",
             "cadastral_territory": "PETRŽALKA",
             "lv_number": "3822",
             "share": "1/1"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "1/1"
+            "type": "LESNÝ POZEMOK",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "1631",
+            "share": "3825/520225"
           },
           {
-            "type": "TRVALÝ  TRÁVNATÝ PORAST",
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "564",
-            "share": "1/4"
-          },
-          {
-            "type": "TRVALÝ TRÁVNATÝ PORAST",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "1006",
+            "lv_number": "1005",
             "share": "1/4"
           },
           {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "1149",
+            "share": "197/12587"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "PRESTAVLKY",
             "lv_number": "1715",
+            "share": "1/4"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "1/3"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "560",
             "share": "1/4"
           },
           {
@@ -621,61 +669,25 @@
             "share": "1/1"
           },
           {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "1/3"
-          },
-          {
-            "type": "LESNÝ POZEMOK",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "1631",
-            "share": "3825/520225"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "1/3"
-          },
-          {
             "type": "TRVALÉ TRÁVNATÉ PORASTY",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "418",
             "share": "1/3"
           },
           {
-            "type": "ORNÁ PÔDA",
+            "type": "TRVALÝ  TRÁVNATÝ PORAST",
             "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "560",
+            "lv_number": "564",
             "share": "1/4"
           },
           {
-            "type": "ORNÁ PÔDA",
+            "type": "TRVALÝ TRÁVNATÝ PORAST",
             "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "1005",
+            "lv_number": "1006",
             "share": "1/4"
           },
           {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "1149",
-            "share": "197/12587"
-          },
-          {
-            "type": "GARÁŽ",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "1/1"
-          },
-          {
-            "type": "DOM",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "1/3"
-          },
-          {
-            "type": "DOM",
+            "type": "ZÁHRADA",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "418",
             "share": "1/3"
@@ -683,8 +695,8 @@
         ],
         "movable_property": null,
         "property_rights": [
-          "ÚSPORY, podiel: 100%",
-          "CENNÉ PAPIERE, podiel: 100%"
+          "CENNÉ PAPIERE, podiel: 100%",
+          "ÚSPORY, podiel: 100%"
         ],
         "obligations": [
           {
@@ -718,21 +730,33 @@
             "old": [
               {
                 "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
+              },
+              {
+                "type": "BYT",
                 "cadastral_territory": "RUŽINOV",
                 "lv_number": "4462",
                 "share": "100%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               },
               {
                 "type": "GARÁŽ",
@@ -741,58 +765,10 @@
                 "share": "100%"
               },
               {
-                "type": "DOM",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "DOM",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3675",
-                "share": "1/142"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "4177",
-                "share": "100%"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
                 "type": "LESNÝ POZEMOK",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "1631",
                 "share": "3825/520225"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "TRVALÉ TRAVNATÉ PORASTY",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "560",
-                "share": "25%"
               },
               {
                 "type": "ORNÁ PÔDA",
@@ -807,10 +783,40 @@
                 "share": "197/12587"
               },
               {
-                "type": "TRVALÝ TRÁVNATÝ PORAST",
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "564",
+                "lv_number": "1715",
                 "share": "25%"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "560",
+                "share": "25%"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3675",
+                "share": "1/142"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "4177",
+                "share": "100%"
+              },
+              {
+                "type": "TRVALÉ TRAVNATÉ PORASTY",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               },
               {
                 "type": "TRVALÝ TRÁVNATÝ PORAST",
@@ -819,13 +825,31 @@
                 "share": "25%"
               },
               {
-                "type": "ORNÁ PÔDA",
+                "type": "TRVALÝ TRÁVNATÝ PORAST",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1715",
+                "lv_number": "564",
                 "share": "25%"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               }
             ],
             "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "1/1"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "1/1"
+              },
               {
                 "type": "BYT",
                 "cadastral_territory": "RUŽINOV",
@@ -833,16 +857,76 @@
                 "share": "1/1"
               },
               {
-                "type": "BYT",
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "1/3"
+              },
+              {
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "1/3"
+              },
+              {
+                "type": "GARÁŽ",
                 "cadastral_territory": "PETRŽALKA",
                 "lv_number": "3822",
                 "share": "1/1"
               },
               {
-                "type": "BYT",
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1631",
+                "share": "3825/520225"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1005",
+                "share": "1/4"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1149",
+                "share": "197/12587"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1715",
+                "share": "1/4"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "1/3"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "560",
+                "share": "1/4"
+              },
+              {
+                "type": "POZEMOK",
                 "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
+                "lv_number": "3675",
+                "share": "1/142"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "4177",
                 "share": "1/1"
+              },
+              {
+                "type": "TRVALÉ TRÁVNATÉ PORASTY",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "1/3"
               },
               {
                 "type": "TRVALÝ  TRÁVNATÝ PORAST",
@@ -857,79 +941,7 @@
                 "share": "1/4"
               },
               {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1715",
-                "share": "1/4"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3675",
-                "share": "1/142"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "4177",
-                "share": "1/1"
-              },
-              {
                 "type": "ZÁHRADA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "1/3"
-              },
-              {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1631",
-                "share": "3825/520225"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "1/3"
-              },
-              {
-                "type": "TRVALÉ TRÁVNATÉ PORASTY",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "1/3"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "560",
-                "share": "1/4"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1005",
-                "share": "1/4"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1149",
-                "share": "197/12587"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "1/1"
-              },
-              {
-                "type": "DOM",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "1/3"
-              },
-              {
-                "type": "DOM",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "418",
                 "share": "1/3"
@@ -950,6 +962,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)"
+        ],
         "income": {
           "public_function": 1260,
           "other": 52172
@@ -960,28 +975,46 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "LESNÝ POZEMOK",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "1631",
-            "share": "3825/520225"
+            "type": "BYT",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "100%"
           },
           {
-            "type": "ORNÁ PÔDA",
+            "type": "BYT",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "100%"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "RUŽINOV",
+            "lv_number": "4462",
+            "share": "100%"
+          },
+          {
+            "type": "DOM",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "418",
             "share": "33%"
           },
           {
-            "type": "TRVALÉ TRÁVNATÉ PORATY",
+            "type": "DOM",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "418",
-            "share": "1/3"
+            "share": "33%"
           },
           {
-            "type": "ORNÁ PÔDA",
+            "type": "GARÁŽ",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "100%"
+          },
+          {
+            "type": "LESNÝ POZEMOK",
             "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "560",
-            "share": "25%"
+            "lv_number": "1631",
+            "share": "3825/520225"
           },
           {
             "type": "ORNÁ PÔDA",
@@ -996,52 +1029,22 @@
             "share": "197/12587"
           },
           {
-            "type": "TRVALÝ TRÁVNATÝ PORASTY",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "564",
-            "share": "25%"
-          },
-          {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "1715",
             "share": "25%"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "RUŽINOV",
-            "lv_number": "4462",
-            "share": "100%"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "100%"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "100%"
-          },
-          {
-            "type": "GARÁŽ",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "100%"
-          },
-          {
-            "type": "DOM",
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "418",
             "share": "33%"
           },
           {
-            "type": "DOM",
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
+            "lv_number": "560",
+            "share": "25%"
           },
           {
             "type": "POZEMOK",
@@ -1056,6 +1059,18 @@
             "share": "100%"
           },
           {
+            "type": "TRVALÉ TRÁVNATÉ PORATY",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "1/3"
+          },
+          {
+            "type": "TRVALÝ TRÁVNATÝ PORASTY",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "564",
+            "share": "25%"
+          },
+          {
             "type": "ZÁHRADA",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "418",
@@ -1064,8 +1079,8 @@
         ],
         "movable_property": null,
         "property_rights": [
-          "ÚSPORY, podiel: 1/1",
-          "CENNÉ PAPIERE, podiel: 1/1"
+          "CENNÉ PAPIERE, podiel: 1/1",
+          "ÚSPORY, podiel: 1/1"
         ],
         "obligations": [
           {
@@ -1104,21 +1119,93 @@
             "old": [
               {
                 "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "1/1"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "1/1"
+              },
+              {
+                "type": "BYT",
                 "cadastral_territory": "RUŽINOV",
                 "lv_number": "4462",
                 "share": "1/1"
               },
               {
-                "type": "BYT",
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "1/3"
+              },
+              {
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "1/3"
+              },
+              {
+                "type": "GARÁŽ",
                 "cadastral_territory": "PETRŽALKA",
                 "lv_number": "3822",
                 "share": "1/1"
               },
               {
-                "type": "BYT",
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1631",
+                "share": "3825/520225"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1005",
+                "share": "1/4"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1149",
+                "share": "197/12587"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1715",
+                "share": "1/4"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "1/3"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "560",
+                "share": "1/4"
+              },
+              {
+                "type": "POZEMOK",
                 "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
+                "lv_number": "3675",
+                "share": "1/142"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "4177",
                 "share": "1/1"
+              },
+              {
+                "type": "TRVALÉ TRÁVNATÉ PORASTY",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "1/3"
               },
               {
                 "type": "TRVALÝ  TRÁVNATÝ PORAST",
@@ -1133,79 +1220,7 @@
                 "share": "1/4"
               },
               {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1715",
-                "share": "1/4"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3675",
-                "share": "1/142"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "4177",
-                "share": "1/1"
-              },
-              {
                 "type": "ZÁHRADA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "1/3"
-              },
-              {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1631",
-                "share": "3825/520225"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "1/3"
-              },
-              {
-                "type": "TRVALÉ TRÁVNATÉ PORASTY",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "1/3"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "560",
-                "share": "1/4"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1005",
-                "share": "1/4"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1149",
-                "share": "197/12587"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "1/1"
-              },
-              {
-                "type": "DOM",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "1/3"
-              },
-              {
-                "type": "DOM",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "418",
                 "share": "1/3"
@@ -1213,52 +1228,16 @@
             ],
             "new": [
               {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1631",
-                "share": "3825/520225"
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
               },
               {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "TRVALÉ TRÁVNATÉ PORATY",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "1/3"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "560",
-                "share": "25%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1005",
-                "share": "25%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1149",
-                "share": "197/12587"
-              },
-              {
-                "type": "TRVALÝ TRÁVNATÝ PORASTY",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "564",
-                "share": "25%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1715",
-                "share": "25%"
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
               },
               {
                 "type": "BYT",
@@ -1267,16 +1246,16 @@
                 "share": "100%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               },
               {
                 "type": "GARÁŽ",
@@ -1285,16 +1264,40 @@
                 "share": "100%"
               },
               {
-                "type": "DOM",
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1631",
+                "share": "3825/520225"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1005",
+                "share": "25%"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1149",
+                "share": "197/12587"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1715",
+                "share": "25%"
+              },
+              {
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "418",
                 "share": "33%"
               },
               {
-                "type": "DOM",
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
+                "lv_number": "560",
+                "share": "25%"
               },
               {
                 "type": "POZEMOK",
@@ -1307,6 +1310,18 @@
                 "cadastral_territory": "PETRŽALKA",
                 "lv_number": "4177",
                 "share": "100%"
+              },
+              {
+                "type": "TRVALÉ TRÁVNATÉ PORATY",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "1/3"
+              },
+              {
+                "type": "TRVALÝ TRÁVNATÝ PORASTY",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "564",
+                "share": "25%"
               },
               {
                 "type": "ZÁHRADA",
@@ -1321,12 +1336,12 @@
           {
             "field": "property_rights",
             "old": [
-              "ÚSPORY, podiel: 100%",
-              "CENNÉ PAPIERE, podiel: 100%"
+              "CENNÉ PAPIERE, podiel: 100%",
+              "ÚSPORY, podiel: 100%"
             ],
             "new": [
-              "ÚSPORY, podiel: 1/1",
-              "CENNÉ PAPIERE, podiel: 1/1"
+              "CENNÉ PAPIERE, podiel: 1/1",
+              "ÚSPORY, podiel: 1/1"
             ],
             "old_count": 2,
             "new_count": 2
@@ -1343,6 +1358,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)"
+        ],
         "income": {
           "public_function": 1680,
           "other": 55606
@@ -1354,21 +1372,33 @@
         "real_estate": [
           {
             "type": "BYT",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "100%"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "100%"
+          },
+          {
+            "type": "BYT",
             "cadastral_territory": "RUŽINOV",
             "lv_number": "4462",
             "share": "100%"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "100%"
+            "type": "DOM",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "100%"
+            "type": "DOM",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
           },
           {
             "type": "GARÁŽ",
@@ -1377,58 +1407,10 @@
             "share": "100%"
           },
           {
-            "type": "DOM",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
-            "type": "DOM",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3675",
-            "share": "1/142"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "4177",
-            "share": "100%"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
             "type": "LESNÝ POZEMOK",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "1631",
             "share": "3825/520225"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
-            "type": "TRVALÉ TRÁVNATÉ PORASTY",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "33%"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "560",
-            "share": "25%"
           },
           {
             "type": "ORNÁ PÔDA",
@@ -1443,10 +1425,40 @@
             "share": "197/12587"
           },
           {
-            "type": "TRVALÝ TRÁVNATÝ PORAST",
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "564",
+            "lv_number": "1715",
             "share": "25%"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "560",
+            "share": "25%"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3675",
+            "share": "1/142"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "4177",
+            "share": "100%"
+          },
+          {
+            "type": "TRVALÉ TRÁVNATÉ PORASTY",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
           },
           {
             "type": "TRVALÝ TRÁVNATÝ PORAST",
@@ -1455,19 +1467,25 @@
             "share": "25%"
           },
           {
-            "type": "ORNÁ PÔDA",
+            "type": "TRVALÝ TRÁVNATÝ PORAST",
             "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "1715",
+            "lv_number": "564",
             "share": "25%"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "33%"
           }
         ],
         "movable_property": [
           {
-            "type": "PENIAZE NA ÚČTE",
+            "type": "CENNÉ PAPIERE",
             "share": "1/1"
           },
           {
-            "type": "CENNÉ PAPIERE",
+            "type": "PENIAZE NA ÚČTE",
             "share": "1/1"
           }
         ],
@@ -1508,28 +1526,46 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1631",
-                "share": "3825/520225"
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
               },
               {
-                "type": "ORNÁ PÔDA",
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "RUŽINOV",
+                "lv_number": "4462",
+                "share": "100%"
+              },
+              {
+                "type": "DOM",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "418",
                 "share": "33%"
               },
               {
-                "type": "TRVALÉ TRÁVNATÉ PORATY",
+                "type": "DOM",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "418",
-                "share": "1/3"
+                "share": "33%"
               },
               {
-                "type": "ORNÁ PÔDA",
+                "type": "GARÁŽ",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
+              },
+              {
+                "type": "LESNÝ POZEMOK",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "560",
-                "share": "25%"
+                "lv_number": "1631",
+                "share": "3825/520225"
               },
               {
                 "type": "ORNÁ PÔDA",
@@ -1544,52 +1580,22 @@
                 "share": "197/12587"
               },
               {
-                "type": "TRVALÝ TRÁVNATÝ PORASTY",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "564",
-                "share": "25%"
-              },
-              {
                 "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "1715",
                 "share": "25%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "RUŽINOV",
-                "lv_number": "4462",
-                "share": "100%"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
-              },
-              {
-                "type": "DOM",
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "418",
                 "share": "33%"
               },
               {
-                "type": "DOM",
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
+                "lv_number": "560",
+                "share": "25%"
               },
               {
                 "type": "POZEMOK",
@@ -1602,6 +1608,18 @@
                 "cadastral_territory": "PETRŽALKA",
                 "lv_number": "4177",
                 "share": "100%"
+              },
+              {
+                "type": "TRVALÉ TRÁVNATÉ PORATY",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "1/3"
+              },
+              {
+                "type": "TRVALÝ TRÁVNATÝ PORASTY",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "564",
+                "share": "25%"
               },
               {
                 "type": "ZÁHRADA",
@@ -1613,21 +1631,33 @@
             "new": [
               {
                 "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
+              },
+              {
+                "type": "BYT",
                 "cadastral_territory": "RUŽINOV",
                 "lv_number": "4462",
                 "share": "100%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               },
               {
                 "type": "GARÁŽ",
@@ -1636,58 +1666,10 @@
                 "share": "100%"
               },
               {
-                "type": "DOM",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "DOM",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3675",
-                "share": "1/142"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "4177",
-                "share": "100%"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
                 "type": "LESNÝ POZEMOK",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "1631",
                 "share": "3825/520225"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "TRVALÉ TRÁVNATÉ PORASTY",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "560",
-                "share": "25%"
               },
               {
                 "type": "ORNÁ PÔDA",
@@ -1702,10 +1684,40 @@
                 "share": "197/12587"
               },
               {
-                "type": "TRVALÝ TRÁVNATÝ PORAST",
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "564",
+                "lv_number": "1715",
                 "share": "25%"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "560",
+                "share": "25%"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3675",
+                "share": "1/142"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "4177",
+                "share": "100%"
+              },
+              {
+                "type": "TRVALÉ TRÁVNATÉ PORASTY",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               },
               {
                 "type": "TRVALÝ TRÁVNATÝ PORAST",
@@ -1714,10 +1726,16 @@
                 "share": "25%"
               },
               {
-                "type": "ORNÁ PÔDA",
+                "type": "TRVALÝ TRÁVNATÝ PORAST",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1715",
+                "lv_number": "564",
                 "share": "25%"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               }
             ],
             "old_count": 17,
@@ -1728,11 +1746,11 @@
             "old": null,
             "new": [
               {
-                "type": "PENIAZE NA ÚČTE",
+                "type": "CENNÉ PAPIERE",
                 "share": "1/1"
               },
               {
-                "type": "CENNÉ PAPIERE",
+                "type": "PENIAZE NA ÚČTE",
                 "share": "1/1"
               }
             ]
@@ -1740,8 +1758,8 @@
           {
             "field": "property_rights",
             "old": [
-              "ÚSPORY, podiel: 1/1",
-              "CENNÉ PAPIERE, podiel: 1/1"
+              "CENNÉ PAPIERE, podiel: 1/1",
+              "ÚSPORY, podiel: 1/1"
             ],
             "new": null
           }
@@ -1757,6 +1775,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)"
+        ],
         "income": {
           "public_function": 1680,
           "other": 58914
@@ -1767,28 +1788,46 @@
         "positions": null,
         "real_estate": [
           {
+            "type": "BYT",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "100%"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "100%"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "RUŽINOV",
+            "lv_number": "4462",
+            "share": "100%"
+          },
+          {
+            "type": "DOM",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "1/3"
+          },
+          {
+            "type": "DOM",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "1/3"
+          },
+          {
+            "type": "GARÁŽ",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "3822",
+            "share": "100%"
+          },
+          {
             "type": "LESNÝ POZEMOK",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "1631",
             "share": "3825/520225"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "1/3"
-          },
-          {
-            "type": "TRVALÉ TRÁVNATÉ PORASTY",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "1/3"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "560",
-            "share": "1/4"
           },
           {
             "type": "ORNÁ PÔDA",
@@ -1803,58 +1842,22 @@
             "share": "197/12587"
           },
           {
-            "type": "TRVALÝ TRÁVNATÝ PORAST",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "564",
-            "share": "1/4"
-          },
-          {
-            "type": "TRVALÝ TRÁVNATÝ PORAST",
-            "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "1006",
-            "share": "1/4"
-          },
-          {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "1715",
             "share": "1/4"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "RUŽINOV",
-            "lv_number": "4462",
-            "share": "100%"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "100%"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "100%"
-          },
-          {
-            "type": "GARÁŽ",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "3822",
-            "share": "100%"
-          },
-          {
-            "type": "DOM",
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "418",
             "share": "1/3"
           },
           {
-            "type": "DOM",
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "PRESTAVLKY",
-            "lv_number": "418",
-            "share": "1/3"
+            "lv_number": "560",
+            "share": "1/4"
           },
           {
             "type": "POZEMOK",
@@ -1869,6 +1872,24 @@
             "share": "100%"
           },
           {
+            "type": "TRVALÉ TRÁVNATÉ PORASTY",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "418",
+            "share": "1/3"
+          },
+          {
+            "type": "TRVALÝ TRÁVNATÝ PORAST",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "1006",
+            "share": "1/4"
+          },
+          {
+            "type": "TRVALÝ TRÁVNATÝ PORAST",
+            "cadastral_territory": "PRESTAVLKY",
+            "lv_number": "564",
+            "share": "1/4"
+          },
+          {
             "type": "ZÁHRADA",
             "cadastral_territory": "PRESTAVLKY",
             "lv_number": "418",
@@ -1877,8 +1898,8 @@
         ],
         "movable_property": null,
         "property_rights": [
-          "PENIAZE NA ÚČTE, podiel: 100%",
-          "CENNÉ PAPIERE, podiel: 100%"
+          "CENNÉ PAPIERE, podiel: 100%",
+          "PENIAZE NA ÚČTE, podiel: 100%"
         ],
         "obligations": [
           {
@@ -1912,21 +1933,33 @@
             "old": [
               {
                 "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
+              },
+              {
+                "type": "BYT",
                 "cadastral_territory": "RUŽINOV",
                 "lv_number": "4462",
                 "share": "100%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
               },
               {
                 "type": "GARÁŽ",
@@ -1935,16 +1968,40 @@
                 "share": "100%"
               },
               {
-                "type": "DOM",
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1631",
+                "share": "3825/520225"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1005",
+                "share": "25%"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1149",
+                "share": "197/12587"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1715",
+                "share": "25%"
+              },
+              {
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "418",
                 "share": "33%"
               },
               {
-                "type": "DOM",
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
+                "lv_number": "560",
+                "share": "25%"
               },
               {
                 "type": "POZEMOK",
@@ -1957,122 +2014,44 @@
                 "cadastral_territory": "PETRŽALKA",
                 "lv_number": "4177",
                 "share": "100%"
+              },
+              {
+                "type": "TRVALÉ TRÁVNATÉ PORASTY",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "33%"
+              },
+              {
+                "type": "TRVALÝ TRÁVNATÝ PORAST",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1006",
+                "share": "25%"
+              },
+              {
+                "type": "TRVALÝ TRÁVNATÝ PORAST",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "564",
+                "share": "25%"
               },
               {
                 "type": "ZÁHRADA",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "418",
                 "share": "33%"
-              },
-              {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1631",
-                "share": "3825/520225"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "TRVALÉ TRÁVNATÉ PORASTY",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "33%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "560",
-                "share": "25%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1005",
-                "share": "25%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1149",
-                "share": "197/12587"
-              },
-              {
-                "type": "TRVALÝ TRÁVNATÝ PORAST",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "564",
-                "share": "25%"
-              },
-              {
-                "type": "TRVALÝ TRÁVNATÝ PORAST",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1006",
-                "share": "25%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1715",
-                "share": "25%"
               }
             ],
             "new": [
               {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1631",
-                "share": "3825/520225"
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
               },
               {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "1/3"
-              },
-              {
-                "type": "TRVALÉ TRÁVNATÉ PORASTY",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "1/3"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "560",
-                "share": "1/4"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1005",
-                "share": "1/4"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1149",
-                "share": "197/12587"
-              },
-              {
-                "type": "TRVALÝ TRÁVNATÝ PORAST",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "564",
-                "share": "1/4"
-              },
-              {
-                "type": "TRVALÝ TRÁVNATÝ PORAST",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1006",
-                "share": "1/4"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "1715",
-                "share": "1/4"
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "3822",
+                "share": "100%"
               },
               {
                 "type": "BYT",
@@ -2081,16 +2060,16 @@
                 "share": "100%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "1/3"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "3822",
-                "share": "100%"
+                "type": "DOM",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "1/3"
               },
               {
                 "type": "GARÁŽ",
@@ -2099,16 +2078,40 @@
                 "share": "100%"
               },
               {
-                "type": "DOM",
+                "type": "LESNÝ POZEMOK",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1631",
+                "share": "3825/520225"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1005",
+                "share": "1/4"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1149",
+                "share": "197/12587"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1715",
+                "share": "1/4"
+              },
+              {
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
                 "lv_number": "418",
                 "share": "1/3"
               },
               {
-                "type": "DOM",
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "PRESTAVLKY",
-                "lv_number": "418",
-                "share": "1/3"
+                "lv_number": "560",
+                "share": "1/4"
               },
               {
                 "type": "POZEMOK",
@@ -2121,6 +2124,24 @@
                 "cadastral_territory": "PETRŽALKA",
                 "lv_number": "4177",
                 "share": "100%"
+              },
+              {
+                "type": "TRVALÉ TRÁVNATÉ PORASTY",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "418",
+                "share": "1/3"
+              },
+              {
+                "type": "TRVALÝ TRÁVNATÝ PORAST",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "1006",
+                "share": "1/4"
+              },
+              {
+                "type": "TRVALÝ TRÁVNATÝ PORAST",
+                "cadastral_territory": "PRESTAVLKY",
+                "lv_number": "564",
+                "share": "1/4"
               },
               {
                 "type": "ZÁHRADA",
@@ -2136,11 +2157,11 @@
             "field": "movable_property",
             "old": [
               {
-                "type": "PENIAZE NA ÚČTE",
+                "type": "CENNÉ PAPIERE",
                 "share": "1/1"
               },
               {
-                "type": "CENNÉ PAPIERE",
+                "type": "PENIAZE NA ÚČTE",
                 "share": "1/1"
               }
             ],
@@ -2150,8 +2171,8 @@
             "field": "property_rights",
             "old": null,
             "new": [
-              "PENIAZE NA ÚČTE, podiel: 100%",
-              "CENNÉ PAPIERE, podiel: 100%"
+              "CENNÉ PAPIERE, podiel: 100%",
+              "PENIAZE NA ÚČTE, podiel: 100%"
             ]
           }
         ]
@@ -2160,286 +2181,17 @@
   ],
   "total_changes": 18,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jan.Foltan.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jan.Foltan.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jan.Foltan.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jan.Foltan.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 1680,
-            "other": 55606
-          },
-          "new": {
-            "public_function": 1680,
-            "other": 58914
-          },
-          "old_total": 57286,
-          "new_total": 60594,
-          "delta": 3308,
-          "delta_pct": 5.8
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "RUŽINOV",
-              "lv_number": "4462",
-              "share": "100%"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "3822",
-              "share": "100%"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "3822",
-              "share": "100%"
-            },
-            {
-              "type": "GARÁŽ",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "3822",
-              "share": "100%"
-            },
-            {
-              "type": "DOM",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "418",
-              "share": "33%"
-            },
-            {
-              "type": "DOM",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "418",
-              "share": "33%"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "3675",
-              "share": "1/142"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "4177",
-              "share": "100%"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "418",
-              "share": "33%"
-            },
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "1631",
-              "share": "3825/520225"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "418",
-              "share": "33%"
-            },
-            {
-              "type": "TRVALÉ TRÁVNATÉ PORASTY",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "418",
-              "share": "33%"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "560",
-              "share": "25%"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "1005",
-              "share": "25%"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "1149",
-              "share": "197/12587"
-            },
-            {
-              "type": "TRVALÝ TRÁVNATÝ PORAST",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "564",
-              "share": "25%"
-            },
-            {
-              "type": "TRVALÝ TRÁVNATÝ PORAST",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "1006",
-              "share": "25%"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "1715",
-              "share": "25%"
-            }
-          ],
-          "new": [
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "1631",
-              "share": "3825/520225"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "418",
-              "share": "1/3"
-            },
-            {
-              "type": "TRVALÉ TRÁVNATÉ PORASTY",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "418",
-              "share": "1/3"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "560",
-              "share": "1/4"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "1005",
-              "share": "1/4"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "1149",
-              "share": "197/12587"
-            },
-            {
-              "type": "TRVALÝ TRÁVNATÝ PORAST",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "564",
-              "share": "1/4"
-            },
-            {
-              "type": "TRVALÝ TRÁVNATÝ PORAST",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "1006",
-              "share": "1/4"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "1715",
-              "share": "1/4"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "RUŽINOV",
-              "lv_number": "4462",
-              "share": "100%"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "3822",
-              "share": "100%"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "3822",
-              "share": "100%"
-            },
-            {
-              "type": "GARÁŽ",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "3822",
-              "share": "100%"
-            },
-            {
-              "type": "DOM",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "418",
-              "share": "1/3"
-            },
-            {
-              "type": "DOM",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "418",
-              "share": "1/3"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "3675",
-              "share": "1/142"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "4177",
-              "share": "100%"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "PRESTAVLKY",
-              "lv_number": "418",
-              "share": "1/3"
-            }
-          ],
-          "old_count": 18,
-          "new_count": 18
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "PENIAZE NA ÚČTE",
-              "share": "1/1"
-            },
-            {
-              "type": "CENNÉ PAPIERE",
-              "share": "1/1"
-            }
-          ],
-          "new": null
-        },
-        {
-          "field": "property_rights",
-          "old": null,
-          "new": [
-            "PENIAZE NA ÚČTE, podiel: 100%",
-            "CENNÉ PAPIERE, podiel: 100%"
-          ]
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 57 286 € → 60 594 € (+3 308 €)",
-      "Nehnuteľnosti: 18 → 18 (0)",
-      "Hnuteľný majetok",
-      "Majetkové práva"
-    ]
+    "summary": []
   },
   "slug": "mgr-jan-foltan",
   "context": {
@@ -2449,7 +2201,7 @@
     "obligations": 1,
     "income_percentile": 63,
     "property_percentile": 92,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.4

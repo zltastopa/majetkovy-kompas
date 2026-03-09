@@ -2,6 +2,9 @@
   "user_id": "Jaromir.Miklas",
   "name": "Ing. Jaromír Miklas",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV )",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV )"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV )",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -52,6 +58,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV )",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV )"
+        ],
         "income": {
           "public_function": 17700,
           "other": 40951
@@ -81,6 +90,17 @@
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV)",
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV )"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV )"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -121,67 +141,19 @@
       }
     }
   ],
-  "total_changes": 5,
+  "total_changes": 6,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jaromir.Miklas.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jaromir.Miklas.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jaromir.Miklas.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jaromir.Miklas.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV )"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 17700,
-            "other": 40951
-          },
-          "old_total": 0,
-          "new_total": 58651,
-          "delta": 58651
-        },
-        {
-          "field": "incompatibility",
-          "old": false,
-          "new": true
-        },
-        {
-          "field": "employment",
-          "old": null,
-          "new": "AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "ÚSPORY, podiel: 1/1"
-          ],
-          "new": [
-            "FINANČNÉ ÚSPORY, podiel: 1/1"
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 58 651 € (+58 651 €)",
-      "Nezlučiteľnosť",
-      "Zamestnanie",
-      "Majetkové práva: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-jaromir-miklas",
   "context": {
@@ -191,7 +163,7 @@
     "obligations": 1,
     "income_percentile": 61,
     "property_percentile": 9,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.3

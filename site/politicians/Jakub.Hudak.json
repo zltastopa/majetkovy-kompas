@@ -2,6 +2,9 @@
   "user_id": "Jakub.Hudak",
   "name": "JUDr. Jakub Hudák",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA A.S.)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA A.S.)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA A.S.)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA, A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -59,6 +65,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA A.S.)"
+        ],
         "income": {
           "public_function": 37401,
           "other": 22664
@@ -107,6 +116,17 @@
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA, A.S.)",
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA, A.S.)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -193,115 +213,19 @@
       }
     }
   ],
-  "total_changes": 7,
+  "total_changes": 8,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jakub.Hudak.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jakub.Hudak.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jakub.Hudak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jakub.Hudak.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA, A.S.)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA A.S.)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 37401,
-            "other": 22664
-          },
-          "old_total": 0,
-          "new_total": 60065,
-          "delta": 60065
-        },
-        {
-          "field": "employment",
-          "old": "NÁRODNÁ DIALNIČNÁ SPOLOČNOSŤ, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "NÁRODNÁ DIAĽNIČNÁ SPOLOČNOSŤ A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "positions",
-          "old": null,
-          "new": [
-            {
-              "role": "ŠTATUTÁRNY ZÁSTUPCA - PREDSEDA",
-              "organization": "POĽOVNÍCKA SPOLOČNOSŤ DIANA ČIERNA HORA",
-              "benefits": "ŽIADNE"
-            }
-          ]
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT - 3 IZBOVÝ",
-              "cadastral_territory": "KOŠICE GRUNT",
-              "lv_number": "2861",
-              "share": "BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "GRUNT",
-              "lv_number": "2861",
-              "share": "1/1 BSM"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "HYPOTÉKA",
-              "share": "BSM",
-              "date": "14. 07. 2022"
-            }
-          ],
-          "new": [
-            {
-              "type": "HYPOTÉKA",
-              "share": "1/2",
-              "date": "14. 07. 2022"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "vehicles",
-          "old": null,
-          "new": [
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "NISSAN",
-              "year_of_manufacture": 2024
-            }
-          ]
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 60 065 € (+60 065 €)",
-      "Zamestnanie",
-      "Funkcie",
-      "Nehnuteľnosti: 1 → 1 (0)",
-      "Záväzky: 1 → 1 (0)",
-      "Vozidlá"
-    ]
+    "summary": []
   },
   "slug": "judr-jakub-hudak",
   "context": {
@@ -311,7 +235,7 @@
     "obligations": 1,
     "income_percentile": 62,
     "property_percentile": 20,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.3

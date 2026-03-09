@@ -1,7 +1,11 @@
 {
   "user_id": "Ivan.Kubas",
   "name": "Ing. Ivan Kubaš",
-  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A.S.)",
+  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A.S.)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)",
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A.S.)"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A.S.)",
   "years": [
     2022,
@@ -17,6 +21,9 @@
         "year": 2022,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -34,14 +41,14 @@
         "real_estate": [
           {
             "type": "BYT",
-            "cadastral_territory": "BRATISLAVA VINOHRADY",
-            "lv_number": "2524",
+            "cadastral_territory": "BRATISLAVA NIVY",
+            "lv_number": "4602",
             "share": "50%"
           },
           {
             "type": "BYT",
-            "cadastral_territory": "BRATISLAVA NIVY",
-            "lv_number": "4602",
+            "cadastral_territory": "BRATISLAVA VINOHRADY",
+            "lv_number": "2524",
             "share": "50%"
           },
           {
@@ -88,7 +95,11 @@
         "name": "Ing. IVAN KUBAŠ",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A.S.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A.S.)"
+        ],
         "income": {
           "public_function": 1301,
           "other": 0
@@ -106,14 +117,14 @@
         "real_estate": [
           {
             "type": "BYT",
-            "cadastral_territory": "BRATISLAVA VINOHRADY",
-            "lv_number": "7524",
+            "cadastral_territory": "BRATISLAVA NIVY",
+            "lv_number": "4602",
             "share": "50%"
           },
           {
             "type": "BYT",
-            "cadastral_territory": "BRATISLAVA NIVY",
-            "lv_number": "4602",
+            "cadastral_territory": "BRATISLAVA VINOHRADY",
+            "lv_number": "7524",
             "share": "50%"
           },
           {
@@ -154,7 +165,19 @@
           {
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A.S.)"
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -175,14 +198,14 @@
             "old": [
               {
                 "type": "BYT",
-                "cadastral_territory": "BRATISLAVA VINOHRADY",
-                "lv_number": "2524",
+                "cadastral_territory": "BRATISLAVA NIVY",
+                "lv_number": "4602",
                 "share": "50%"
               },
               {
                 "type": "BYT",
-                "cadastral_territory": "BRATISLAVA NIVY",
-                "lv_number": "4602",
+                "cadastral_territory": "BRATISLAVA VINOHRADY",
+                "lv_number": "2524",
                 "share": "50%"
               },
               {
@@ -195,14 +218,14 @@
             "new": [
               {
                 "type": "BYT",
-                "cadastral_territory": "BRATISLAVA VINOHRADY",
-                "lv_number": "7524",
+                "cadastral_territory": "BRATISLAVA NIVY",
+                "lv_number": "4602",
                 "share": "50%"
               },
               {
                 "type": "BYT",
-                "cadastral_territory": "BRATISLAVA NIVY",
-                "lv_number": "4602",
+                "cadastral_territory": "BRATISLAVA VINOHRADY",
+                "lv_number": "7524",
                 "share": "50%"
               },
               {
@@ -219,17 +242,17 @@
       }
     }
   ],
-  "total_changes": 3,
+  "total_changes": 4,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ivan.Kubas.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ivan.Kubas.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Ivan.Kubas.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Ivan.Kubas.yaml",
     "diff": {
-      "type": "removed"
+      "type": "unchanged"
     },
     "summary": []
   },
@@ -241,7 +264,7 @@
     "obligations": 2,
     "income_percentile": 16,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 17200,
     "slovak_income_multiple": 0.1

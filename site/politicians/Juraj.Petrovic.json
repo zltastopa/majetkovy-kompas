@@ -2,6 +2,9 @@
   "user_id": "Juraj.Petrovic",
   "name": "Mgr. Juraj Petrovič, PhD.",
   "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM V KOVÁČOVEJ)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM V KOVÁČOVEJ)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -57,6 +63,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)"
+        ],
         "income": {
           "public_function": 0,
           "other": 59905
@@ -75,9 +84,9 @@
         ],
         "movable_property": [
           {
-            "type": "OSOBNÝ AUTOMOBIL",
-            "brand": "VOLVO",
-            "year_of_manufacture": 2012,
+            "type": "MOTOCYKEL",
+            "brand": "JAWA",
+            "year_of_manufacture": 1969,
             "share": "1/1"
           },
           {
@@ -87,9 +96,9 @@
             "share": "1/1"
           },
           {
-            "type": "MOTOCYKEL",
-            "brand": "JAWA",
-            "year_of_manufacture": 1969,
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "VOLVO",
+            "year_of_manufacture": 2012,
             "share": "1/1"
           }
         ],
@@ -112,6 +121,17 @@
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM V KOVÁČOVEJ)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM V KOVÁČOVEJ)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -158,9 +178,9 @@
             "old": null,
             "new": [
               {
-                "type": "OSOBNÝ AUTOMOBIL",
-                "brand": "VOLVO",
-                "year_of_manufacture": 2012,
+                "type": "MOTOCYKEL",
+                "brand": "JAWA",
+                "year_of_manufacture": 1969,
                 "share": "1/1"
               },
               {
@@ -170,9 +190,9 @@
                 "share": "1/1"
               },
               {
-                "type": "MOTOCYKEL",
-                "brand": "JAWA",
-                "year_of_manufacture": 1969,
+                "type": "OSOBNÝ AUTOMOBIL",
+                "brand": "VOLVO",
+                "year_of_manufacture": 2012,
                 "share": "1/1"
               }
             ]
@@ -188,104 +208,19 @@
       }
     }
   ],
-  "total_changes": 6,
+  "total_changes": 7,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Petrovic.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Petrovic.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Juraj.Petrovic.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Juraj.Petrovic.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM V KOVÁČOVEJ)",
-          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 0,
-            "other": 59905
-          },
-          "old_total": 0,
-          "new_total": 59905,
-          "delta": 59905
-        },
-        {
-          "field": "employment",
-          "old": "MINISTERSTVO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "MINISTERSTVO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "BRATISLAVA III. - NOVÉ MESTO",
-              "lv_number": "2692",
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "NOVÉ MESTO BRATISLAVA III",
-              "lv_number": "2692",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "movable_property",
-          "old": null,
-          "new": [
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "VOLVO",
-              "year_of_manufacture": 2012,
-              "share": "1/1"
-            },
-            {
-              "type": "MOTOCYKEL",
-              "brand": "ČZ",
-              "year_of_manufacture": 1968,
-              "share": "1/1"
-            },
-            {
-              "type": "MOTOCYKEL",
-              "brand": "JAWA",
-              "year_of_manufacture": 1969,
-              "share": "1/1"
-            }
-          ]
-        },
-        {
-          "field": "property_rights",
-          "old": null,
-          "new": [
-            "ÚSPORY, podiel: 1/1"
-          ]
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 59 905 € (+59 905 €)",
-      "Zamestnanie",
-      "Nehnuteľnosti: 1 → 1 (0)",
-      "Hnuteľný majetok",
-      "Majetkové práva"
-    ]
+    "summary": []
   },
   "slug": "mgr-juraj-petrovic-phd",
   "context": {
@@ -295,7 +230,7 @@
     "obligations": 1,
     "income_percentile": 62,
     "property_percentile": 20,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.3

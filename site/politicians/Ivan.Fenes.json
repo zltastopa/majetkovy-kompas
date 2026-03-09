@@ -2,6 +2,9 @@
   "user_id": "Ivan.Fenes",
   "name": "PhDr. Iván FENES, LL.M, MBA",
   "public_function": "primátor mesta",
+  "public_functions": [
+    "primátor mesta"
+  ],
   "role": "primátor mesta",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 42344,
           "other": 9104
@@ -37,16 +43,28 @@
         ],
         "real_estate": [
           {
+            "type": "BYT",
+            "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
+            "lv_number": "PARC. Č. 4438/A/21",
+            "share": "100%"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "2371",
+            "share": "2,5%(1/20)"
+          },
+          {
+            "type": "ORNÁ PÔDA, LESNÝ POZEMOK, TRVALÉ TRÁVNE PORASTY",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "4513, 4514",
+            "share": "12,5%(1/4)"
+          },
+          {
             "type": "OSTATNÉ PLOCHY",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "3293",
             "share": "100%"
-          },
-          {
-            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "1753",
-            "share": "100 %"
           },
           {
             "type": "VODNÉ PLOCHY",
@@ -61,28 +79,16 @@
             "share": "50%"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
-            "lv_number": "PARC. Č. 4438/A/21",
-            "share": "100%"
+            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "1753",
+            "share": "100 %"
           },
           {
             "type": "ZÁHRADA",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2661",
             "share": "100%"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "2371",
-            "share": "2,5%(1/20)"
-          },
-          {
-            "type": "ORNÁ PÔDA, LESNÝ POZEMOK, TRVALÉ TRÁVNE PORASTY",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "4513, 4514",
-            "share": "12,5%(1/4)"
           }
         ],
         "movable_property": [
@@ -93,7 +99,7 @@
             "share": "50%"
           },
           {
-            "type": "ZLATNÍCKE VYROBKY",
+            "type": "STROJE",
             "share": "50%"
           },
           {
@@ -101,7 +107,7 @@
             "share": "50%"
           },
           {
-            "type": "STROJE",
+            "type": "ZARIADENIE DOMÁCNOSTI",
             "share": "50%"
           },
           {
@@ -109,17 +115,17 @@
             "share": "100%"
           },
           {
-            "type": "ZARIADENIE DOMÁCNOSTI",
-            "share": "50%"
-          },
-          {
             "type": "ZBRANE",
             "share": "100%"
+          },
+          {
+            "type": "ZLATNÍCKE VYROBKY",
+            "share": "50%"
           }
         ],
         "property_rights": [
-          "PEŇAŽNÉ PROSTRIEDKY, podiel: 50%",
-          "CENNÉ PAPIERE, podiel: 50%"
+          "CENNÉ PAPIERE, podiel: 50%",
+          "PEŇAŽNÉ PROSTRIEDKY, podiel: 50%"
         ],
         "obligations": [
           {
@@ -143,6 +149,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 44187,
           "other": 9840
@@ -159,39 +168,9 @@
         ],
         "real_estate": [
           {
-            "type": "OSTATNÉ PLOCHY",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "3293",
-            "share": "100%"
-          },
-          {
-            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "1753",
-            "share": "100%"
-          },
-          {
-            "type": "VODNÉ PLOCHY",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "2921",
-            "share": "50%"
-          },
-          {
-            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA- RODINNÝ DOM",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "1989",
-            "share": "50%"
-          },
-          {
             "type": "BYT - ROZLOHA 55 M2",
             "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
             "lv_number": "PARC. Č. 4438/A/21",
-            "share": "100%"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "2661",
             "share": "100%"
           },
           {
@@ -205,9 +184,43 @@
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "4513, 4514",
             "share": "12,5% (1/4)"
+          },
+          {
+            "type": "OSTATNÉ PLOCHY",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "3293",
+            "share": "100%"
+          },
+          {
+            "type": "VODNÉ PLOCHY",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "2921",
+            "share": "50%"
+          },
+          {
+            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "1753",
+            "share": "100%"
+          },
+          {
+            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA- RODINNÝ DOM",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "1989",
+            "share": "50%"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "2661",
+            "share": "100%"
           }
         ],
         "movable_property": [
+          {
+            "type": "CENNÉ PAPIERE",
+            "share": "50%"
+          },
           {
             "type": "OSOBNÉ AUTO",
             "brand": "MERCEDES BENZ",
@@ -219,11 +232,7 @@
             "share": "50%"
           },
           {
-            "type": "CENNÉ PAPIERE",
-            "share": "50%"
-          },
-          {
-            "type": "ZLATNÍCKE VÝROBKY",
+            "type": "STROJE",
             "share": "50%"
           },
           {
@@ -231,7 +240,7 @@
             "share": "50%"
           },
           {
-            "type": "STROJE",
+            "type": "ZARIADENIE DOMÁCNOSTI",
             "share": "50%"
           },
           {
@@ -239,7 +248,7 @@
             "share": "100%"
           },
           {
-            "type": "ZARIADENIE DOMÁCNOSTI",
+            "type": "ZLATNÍCKE VÝROBKY",
             "share": "50%"
           }
         ],
@@ -280,16 +289,28 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "BYT",
+                "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
+                "lv_number": "PARC. Č. 4438/A/21",
+                "share": "100%"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2371",
+                "share": "2,5%(1/20)"
+              },
+              {
+                "type": "ORNÁ PÔDA, LESNÝ POZEMOK, TRVALÉ TRÁVNE PORASTY",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "4513, 4514",
+                "share": "12,5%(1/4)"
+              },
+              {
                 "type": "OSTATNÉ PLOCHY",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "3293",
                 "share": "100%"
-              },
-              {
-                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1753",
-                "share": "100 %"
               },
               {
                 "type": "VODNÉ PLOCHY",
@@ -304,65 +325,23 @@
                 "share": "50%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
-                "lv_number": "PARC. Č. 4438/A/21",
-                "share": "100%"
+                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1753",
+                "share": "100 %"
               },
               {
                 "type": "ZÁHRADA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2661",
                 "share": "100%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2371",
-                "share": "2,5%(1/20)"
-              },
-              {
-                "type": "ORNÁ PÔDA, LESNÝ POZEMOK, TRVALÉ TRÁVNE PORASTY",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "4513, 4514",
-                "share": "12,5%(1/4)"
               }
             ],
             "new": [
               {
-                "type": "OSTATNÉ PLOCHY",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "3293",
-                "share": "100%"
-              },
-              {
-                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1753",
-                "share": "100%"
-              },
-              {
-                "type": "VODNÉ PLOCHY",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2921",
-                "share": "50%"
-              },
-              {
-                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA- RODINNÝ DOM",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1989",
-                "share": "50%"
-              },
-              {
                 "type": "BYT - ROZLOHA 55 M2",
                 "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
                 "lv_number": "PARC. Č. 4438/A/21",
-                "share": "100%"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2661",
                 "share": "100%"
               },
               {
@@ -376,6 +355,36 @@
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "4513, 4514",
                 "share": "12,5% (1/4)"
+              },
+              {
+                "type": "OSTATNÉ PLOCHY",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "3293",
+                "share": "100%"
+              },
+              {
+                "type": "VODNÉ PLOCHY",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2921",
+                "share": "50%"
+              },
+              {
+                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1753",
+                "share": "100%"
+              },
+              {
+                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA- RODINNÝ DOM",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1989",
+                "share": "50%"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2661",
+                "share": "100%"
               }
             ],
             "old_count": 8,
@@ -391,7 +400,7 @@
                 "share": "50%"
               },
               {
-                "type": "ZLATNÍCKE VYROBKY",
+                "type": "STROJE",
                 "share": "50%"
               },
               {
@@ -399,7 +408,7 @@
                 "share": "50%"
               },
               {
-                "type": "STROJE",
+                "type": "ZARIADENIE DOMÁCNOSTI",
                 "share": "50%"
               },
               {
@@ -407,15 +416,19 @@
                 "share": "100%"
               },
               {
-                "type": "ZARIADENIE DOMÁCNOSTI",
-                "share": "50%"
-              },
-              {
                 "type": "ZBRANE",
                 "share": "100%"
+              },
+              {
+                "type": "ZLATNÍCKE VYROBKY",
+                "share": "50%"
               }
             ],
             "new": [
+              {
+                "type": "CENNÉ PAPIERE",
+                "share": "50%"
+              },
               {
                 "type": "OSOBNÉ AUTO",
                 "brand": "MERCEDES BENZ",
@@ -427,11 +440,7 @@
                 "share": "50%"
               },
               {
-                "type": "CENNÉ PAPIERE",
-                "share": "50%"
-              },
-              {
-                "type": "ZLATNÍCKE VÝROBKY",
+                "type": "STROJE",
                 "share": "50%"
               },
               {
@@ -439,7 +448,7 @@
                 "share": "50%"
               },
               {
-                "type": "STROJE",
+                "type": "ZARIADENIE DOMÁCNOSTI",
                 "share": "50%"
               },
               {
@@ -447,7 +456,7 @@
                 "share": "100%"
               },
               {
-                "type": "ZARIADENIE DOMÁCNOSTI",
+                "type": "ZLATNÍCKE VÝROBKY",
                 "share": "50%"
               }
             ],
@@ -457,8 +466,8 @@
           {
             "field": "property_rights",
             "old": [
-              "PEŇAŽNÉ PROSTRIEDKY, podiel: 50%",
-              "CENNÉ PAPIERE, podiel: 50%"
+              "CENNÉ PAPIERE, podiel: 50%",
+              "PEŇAŽNÉ PROSTRIEDKY, podiel: 50%"
             ],
             "new": null
           }
@@ -474,6 +483,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 58702,
           "other": 10356
@@ -490,15 +502,27 @@
         ],
         "real_estate": [
           {
-            "type": "OSTATNÉ PLOCHY",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "3293",
+            "type": "BYT",
+            "cadastral_territory": "GYÖR - MAĎARSKÁ REPUBLIKA",
+            "lv_number": "PARC. Č. 4438/A/21",
             "share": "100%"
           },
           {
-            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "1753",
+            "lv_number": "2371",
+            "share": "2,5% (1/20)"
+          },
+          {
+            "type": "ORNÁ PÔDA, LESNÝ POZEMOK, TRVALÉ TRÁVNE PORASTY",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "4513, 4514",
+            "share": "12,5%(1/4)"
+          },
+          {
+            "type": "OSTATNÉ PLOCHY",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "3293",
             "share": "100%"
           },
           {
@@ -514,9 +538,9 @@
             "share": "50%"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "GYÖR - MAĎARSKÁ REPUBLIKA",
-            "lv_number": "PARC. Č. 4438/A/21",
+            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "1753",
             "share": "100%"
           },
           {
@@ -524,21 +548,13 @@
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2661",
             "share": "100%"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "2371",
-            "share": "2,5% (1/20)"
-          },
-          {
-            "type": "ORNÁ PÔDA, LESNÝ POZEMOK, TRVALÉ TRÁVNE PORASTY",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "4513, 4514",
-            "share": "12,5%(1/4)"
           }
         ],
         "movable_property": [
+          {
+            "type": "CENNÉ PAPIERE",
+            "share": "50%"
+          },
           {
             "type": "OSOBNÉ AUTO",
             "brand": "MERCEDES - BENZ",
@@ -550,11 +566,7 @@
             "share": "50%"
           },
           {
-            "type": "CENNÉ PAPIERE",
-            "share": "50%"
-          },
-          {
-            "type": "ZLATNÍCKE VÝROBKY",
+            "type": "STROJE",
             "share": "50%"
           },
           {
@@ -562,7 +574,7 @@
             "share": "50%"
           },
           {
-            "type": "STROJE",
+            "type": "ZARIADENIE DOMÁCNOSTI",
             "share": "50%"
           },
           {
@@ -570,7 +582,7 @@
             "share": "100%"
           },
           {
-            "type": "ZARIADENIE DOMÁCNOSTI",
+            "type": "ZLATNÍCKE VÝROBKY",
             "share": "50%"
           }
         ],
@@ -606,39 +618,9 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "OSTATNÉ PLOCHY",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "3293",
-                "share": "100%"
-              },
-              {
-                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1753",
-                "share": "100%"
-              },
-              {
-                "type": "VODNÉ PLOCHY",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2921",
-                "share": "50%"
-              },
-              {
-                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA- RODINNÝ DOM",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1989",
-                "share": "50%"
-              },
-              {
                 "type": "BYT - ROZLOHA 55 M2",
                 "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
                 "lv_number": "PARC. Č. 4438/A/21",
-                "share": "100%"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2661",
                 "share": "100%"
               },
               {
@@ -652,9 +634,7 @@
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "4513, 4514",
                 "share": "12,5% (1/4)"
-              }
-            ],
-            "new": [
+              },
               {
                 "type": "OSTATNÉ PLOCHY",
                 "cadastral_territory": "GABČÍKOVO",
@@ -662,9 +642,53 @@
                 "share": "100%"
               },
               {
+                "type": "VODNÉ PLOCHY",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2921",
+                "share": "50%"
+              },
+              {
                 "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "1753",
+                "share": "100%"
+              },
+              {
+                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA- RODINNÝ DOM",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1989",
+                "share": "50%"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2661",
+                "share": "100%"
+              }
+            ],
+            "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "GYÖR - MAĎARSKÁ REPUBLIKA",
+                "lv_number": "PARC. Č. 4438/A/21",
+                "share": "100%"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2371",
+                "share": "2,5% (1/20)"
+              },
+              {
+                "type": "ORNÁ PÔDA, LESNÝ POZEMOK, TRVALÉ TRÁVNE PORASTY",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "4513, 4514",
+                "share": "12,5%(1/4)"
+              },
+              {
+                "type": "OSTATNÉ PLOCHY",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "3293",
                 "share": "100%"
               },
               {
@@ -680,9 +704,9 @@
                 "share": "50%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "GYÖR - MAĎARSKÁ REPUBLIKA",
-                "lv_number": "PARC. Č. 4438/A/21",
+                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1753",
                 "share": "100%"
               },
               {
@@ -690,18 +714,6 @@
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2661",
                 "share": "100%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2371",
-                "share": "2,5% (1/20)"
-              },
-              {
-                "type": "ORNÁ PÔDA, LESNÝ POZEMOK, TRVALÉ TRÁVNE PORASTY",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "4513, 4514",
-                "share": "12,5%(1/4)"
               }
             ],
             "old_count": 8,
@@ -710,6 +722,10 @@
           {
             "field": "movable_property",
             "old": [
+              {
+                "type": "CENNÉ PAPIERE",
+                "share": "50%"
+              },
               {
                 "type": "OSOBNÉ AUTO",
                 "brand": "MERCEDES BENZ",
@@ -721,11 +737,7 @@
                 "share": "50%"
               },
               {
-                "type": "CENNÉ PAPIERE",
-                "share": "50%"
-              },
-              {
-                "type": "ZLATNÍCKE VÝROBKY",
+                "type": "STROJE",
                 "share": "50%"
               },
               {
@@ -733,7 +745,7 @@
                 "share": "50%"
               },
               {
-                "type": "STROJE",
+                "type": "ZARIADENIE DOMÁCNOSTI",
                 "share": "50%"
               },
               {
@@ -741,11 +753,15 @@
                 "share": "100%"
               },
               {
-                "type": "ZARIADENIE DOMÁCNOSTI",
+                "type": "ZLATNÍCKE VÝROBKY",
                 "share": "50%"
               }
             ],
             "new": [
+              {
+                "type": "CENNÉ PAPIERE",
+                "share": "50%"
+              },
               {
                 "type": "OSOBNÉ AUTO",
                 "brand": "MERCEDES - BENZ",
@@ -757,11 +773,7 @@
                 "share": "50%"
               },
               {
-                "type": "CENNÉ PAPIERE",
-                "share": "50%"
-              },
-              {
-                "type": "ZLATNÍCKE VÝROBKY",
+                "type": "STROJE",
                 "share": "50%"
               },
               {
@@ -769,7 +781,7 @@
                 "share": "50%"
               },
               {
-                "type": "STROJE",
+                "type": "ZARIADENIE DOMÁCNOSTI",
                 "share": "50%"
               },
               {
@@ -777,7 +789,7 @@
                 "share": "100%"
               },
               {
-                "type": "ZARIADENIE DOMÁCNOSTI",
+                "type": "ZLATNÍCKE VÝROBKY",
                 "share": "50%"
               }
             ],
@@ -796,6 +808,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 50985,
           "other": 10632
@@ -811,6 +826,12 @@
           }
         ],
         "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
+            "lv_number": "PARCELA Č. 4438/A/21",
+            "share": "100%"
+          },
           {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "GABČÍKOVO",
@@ -830,12 +851,6 @@
             "share": "100%"
           },
           {
-            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "1753",
-            "share": "100%"
-          },
-          {
             "type": "VODNÉ PLOCHY",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2921",
@@ -848,9 +863,9 @@
             "share": "50%"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
-            "lv_number": "PARCELA Č. 4438/A/21",
+            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "1753",
             "share": "100%"
           },
           {
@@ -872,7 +887,7 @@
             "share": "50%"
           },
           {
-            "type": "ZLATNÍCKE VÝROBKY",
+            "type": "STROJE",
             "share": "50%"
           },
           {
@@ -880,7 +895,7 @@
             "share": "50%"
           },
           {
-            "type": "STROJE",
+            "type": "ZARIADENIE DOMÁCNOSTI",
             "share": "50%"
           },
           {
@@ -888,7 +903,7 @@
             "share": "100%"
           },
           {
-            "type": "ZARIADENIE DOMÁCNOSTI",
+            "type": "ZLATNÍCKE VÝROBKY",
             "share": "50%"
           }
         ],
@@ -926,15 +941,27 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "OSTATNÉ PLOCHY",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "3293",
+                "type": "BYT",
+                "cadastral_territory": "GYÖR - MAĎARSKÁ REPUBLIKA",
+                "lv_number": "PARC. Č. 4438/A/21",
                 "share": "100%"
               },
               {
-                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
+                "type": "ORNÁ PÔDA",
                 "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1753",
+                "lv_number": "2371",
+                "share": "2,5% (1/20)"
+              },
+              {
+                "type": "ORNÁ PÔDA, LESNÝ POZEMOK, TRVALÉ TRÁVNE PORASTY",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "4513, 4514",
+                "share": "12,5%(1/4)"
+              },
+              {
+                "type": "OSTATNÉ PLOCHY",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "3293",
                 "share": "100%"
               },
               {
@@ -950,9 +977,9 @@
                 "share": "50%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "GYÖR - MAĎARSKÁ REPUBLIKA",
-                "lv_number": "PARC. Č. 4438/A/21",
+                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1753",
                 "share": "100%"
               },
               {
@@ -960,21 +987,15 @@
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2661",
                 "share": "100%"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2371",
-                "share": "2,5% (1/20)"
-              },
-              {
-                "type": "ORNÁ PÔDA, LESNÝ POZEMOK, TRVALÉ TRÁVNE PORASTY",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "4513, 4514",
-                "share": "12,5%(1/4)"
               }
             ],
             "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
+                "lv_number": "PARCELA Č. 4438/A/21",
+                "share": "100%"
+              },
               {
                 "type": "ORNÁ PÔDA",
                 "cadastral_territory": "GABČÍKOVO",
@@ -994,12 +1015,6 @@
                 "share": "100%"
               },
               {
-                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1753",
-                "share": "100%"
-              },
-              {
                 "type": "VODNÉ PLOCHY",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2921",
@@ -1012,9 +1027,9 @@
                 "share": "50%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
-                "lv_number": "PARCELA Č. 4438/A/21",
+                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1753",
                 "share": "100%"
               },
               {
@@ -1031,6 +1046,10 @@
             "field": "movable_property",
             "old": [
               {
+                "type": "CENNÉ PAPIERE",
+                "share": "50%"
+              },
+              {
                 "type": "OSOBNÉ AUTO",
                 "brand": "MERCEDES - BENZ",
                 "year_of_manufacture": 2010,
@@ -1041,11 +1060,7 @@
                 "share": "50%"
               },
               {
-                "type": "CENNÉ PAPIERE",
-                "share": "50%"
-              },
-              {
-                "type": "ZLATNÍCKE VÝROBKY",
+                "type": "STROJE",
                 "share": "50%"
               },
               {
@@ -1053,7 +1068,7 @@
                 "share": "50%"
               },
               {
-                "type": "STROJE",
+                "type": "ZARIADENIE DOMÁCNOSTI",
                 "share": "50%"
               },
               {
@@ -1061,7 +1076,7 @@
                 "share": "100%"
               },
               {
-                "type": "ZARIADENIE DOMÁCNOSTI",
+                "type": "ZLATNÍCKE VÝROBKY",
                 "share": "50%"
               }
             ],
@@ -1077,7 +1092,7 @@
                 "share": "50%"
               },
               {
-                "type": "ZLATNÍCKE VÝROBKY",
+                "type": "STROJE",
                 "share": "50%"
               },
               {
@@ -1085,7 +1100,7 @@
                 "share": "50%"
               },
               {
-                "type": "STROJE",
+                "type": "ZARIADENIE DOMÁCNOSTI",
                 "share": "50%"
               },
               {
@@ -1093,7 +1108,7 @@
                 "share": "100%"
               },
               {
-                "type": "ZARIADENIE DOMÁCNOSTI",
+                "type": "ZLATNÍCKE VÝROBKY",
                 "share": "50%"
               }
             ],
@@ -1119,6 +1134,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 66559,
           "other": 11280
@@ -1135,16 +1153,16 @@
         ],
         "real_estate": [
           {
+            "type": "BYT",
+            "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
+            "lv_number": "PARCELA Č. 4438/A/21",
+            "share": "100%"
+          },
+          {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2371",
             "share": "25%"
-          },
-          {
-            "type": "VODNÉ PLOCHY",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "2921",
-            "share": "50%"
           },
           {
             "type": "ORNÁ PÔDA",
@@ -1159,16 +1177,16 @@
             "share": "12,5%"
           },
           {
+            "type": "VODNÉ PLOCHY",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "2921",
+            "share": "50%"
+          },
+          {
             "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - RODINNÝ DOM",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "1989",
             "share": "50%"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
-            "lv_number": "PARCELA Č. 4438/A/21",
-            "share": "100%"
           },
           {
             "type": "ZÁHRADA",
@@ -1178,6 +1196,10 @@
           }
         ],
         "movable_property": [
+          {
+            "type": "CENNÉ PAPIERE",
+            "share": "50%"
+          },
           {
             "type": "OSOBNÉ AUTO",
             "brand": "MERCEDES BENZ",
@@ -1189,11 +1211,7 @@
             "share": "50%"
           },
           {
-            "type": "CENNÉ PAPIERE",
-            "share": "50%"
-          },
-          {
-            "type": "ZLATNÍCKE VÝROBKY",
+            "type": "STROJE",
             "share": "50%"
           },
           {
@@ -1201,7 +1219,7 @@
             "share": "50%"
           },
           {
-            "type": "STROJE",
+            "type": "ZARIADENIE DOMÁCNOSTI",
             "share": "50%"
           },
           {
@@ -1209,7 +1227,7 @@
             "share": "100%"
           },
           {
-            "type": "ZARIADENIE DOMÁCNOSTI",
+            "type": "ZLATNÍCKE VÝROBKY",
             "share": "50%"
           }
         ],
@@ -1245,6 +1263,12 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "BYT",
+                "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
+                "lv_number": "PARCELA Č. 4438/A/21",
+                "share": "100%"
+              },
+              {
                 "type": "ORNÁ PÔDA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2371",
@@ -1263,12 +1287,6 @@
                 "share": "100%"
               },
               {
-                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1753",
-                "share": "100%"
-              },
-              {
                 "type": "VODNÉ PLOCHY",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2921",
@@ -1281,9 +1299,9 @@
                 "share": "50%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
-                "lv_number": "PARCELA Č. 4438/A/21",
+                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - VEDĽAJŠIA STAVBA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1753",
                 "share": "100%"
               },
               {
@@ -1295,16 +1313,16 @@
             ],
             "new": [
               {
+                "type": "BYT",
+                "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
+                "lv_number": "PARCELA Č. 4438/A/21",
+                "share": "100%"
+              },
+              {
                 "type": "ORNÁ PÔDA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2371",
                 "share": "25%"
-              },
-              {
-                "type": "VODNÉ PLOCHY",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2921",
-                "share": "50%"
               },
               {
                 "type": "ORNÁ PÔDA",
@@ -1319,16 +1337,16 @@
                 "share": "12,5%"
               },
               {
+                "type": "VODNÉ PLOCHY",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2921",
+                "share": "50%"
+              },
+              {
                 "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - RODINNÝ DOM",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "1989",
                 "share": "50%"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
-                "lv_number": "PARCELA Č. 4438/A/21",
-                "share": "100%"
               },
               {
                 "type": "ZÁHRADA",
@@ -1354,7 +1372,7 @@
                 "share": "50%"
               },
               {
-                "type": "ZLATNÍCKE VÝROBKY",
+                "type": "STROJE",
                 "share": "50%"
               },
               {
@@ -1362,7 +1380,7 @@
                 "share": "50%"
               },
               {
-                "type": "STROJE",
+                "type": "ZARIADENIE DOMÁCNOSTI",
                 "share": "50%"
               },
               {
@@ -1370,11 +1388,15 @@
                 "share": "100%"
               },
               {
-                "type": "ZARIADENIE DOMÁCNOSTI",
+                "type": "ZLATNÍCKE VÝROBKY",
                 "share": "50%"
               }
             ],
             "new": [
+              {
+                "type": "CENNÉ PAPIERE",
+                "share": "50%"
+              },
               {
                 "type": "OSOBNÉ AUTO",
                 "brand": "MERCEDES BENZ",
@@ -1386,11 +1408,7 @@
                 "share": "50%"
               },
               {
-                "type": "CENNÉ PAPIERE",
-                "share": "50%"
-              },
-              {
-                "type": "ZLATNÍCKE VÝROBKY",
+                "type": "STROJE",
                 "share": "50%"
               },
               {
@@ -1398,7 +1416,7 @@
                 "share": "50%"
               },
               {
-                "type": "STROJE",
+                "type": "ZARIADENIE DOMÁCNOSTI",
                 "share": "50%"
               },
               {
@@ -1406,7 +1424,7 @@
                 "share": "100%"
               },
               {
-                "type": "ZARIADENIE DOMÁCNOSTI",
+                "type": "ZLATNÍCKE VÝROBKY",
                 "share": "50%"
               }
             ],
@@ -1432,6 +1450,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 67447,
           "other": 11880
@@ -1448,16 +1469,16 @@
         ],
         "real_estate": [
           {
+            "type": "BYT",
+            "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
+            "lv_number": "PARC 4438/A/21",
+            "share": "100%"
+          },
+          {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2371",
             "share": "2,5% (1/20)"
-          },
-          {
-            "type": "VODNÉ PLOCHY",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "2921",
-            "share": "50%"
           },
           {
             "type": "ORNÁ PÔDA",
@@ -1472,16 +1493,16 @@
             "share": "12,5%, 1/4"
           },
           {
+            "type": "VODNÉ PLOCHY",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "2921",
+            "share": "50%"
+          },
+          {
             "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - RODINNÝ DOM",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "1989",
             "share": "50%"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
-            "lv_number": "PARC 4438/A/21",
-            "share": "100%"
           },
           {
             "type": "ZÁHRADA",
@@ -1491,6 +1512,10 @@
           }
         ],
         "movable_property": [
+          {
+            "type": "CENNÉ PAPIERE",
+            "share": "50%"
+          },
           {
             "type": "OSOBNÉ AUTO",
             "brand": "MERCEDES BENZ",
@@ -1502,11 +1527,7 @@
             "share": "50%"
           },
           {
-            "type": "CENNÉ PAPIERE",
-            "share": "50%"
-          },
-          {
-            "type": "ZLATNÍCKE VÝROBKY",
+            "type": "STROJE",
             "share": "50%"
           },
           {
@@ -1514,7 +1535,7 @@
             "share": "50%"
           },
           {
-            "type": "STROJE",
+            "type": "ZARIADENIE DOMÁCNOSTI",
             "share": "50%"
           },
           {
@@ -1522,7 +1543,7 @@
             "share": "100%"
           },
           {
-            "type": "ZARIADENIE DOMÁCNOSTI",
+            "type": "ZLATNÍCKE VÝROBKY",
             "share": "50%"
           }
         ],
@@ -1558,16 +1579,16 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "BYT",
+                "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
+                "lv_number": "PARCELA Č. 4438/A/21",
+                "share": "100%"
+              },
+              {
                 "type": "ORNÁ PÔDA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2371",
                 "share": "25%"
-              },
-              {
-                "type": "VODNÉ PLOCHY",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2921",
-                "share": "50%"
               },
               {
                 "type": "ORNÁ PÔDA",
@@ -1582,16 +1603,16 @@
                 "share": "12,5%"
               },
               {
+                "type": "VODNÉ PLOCHY",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2921",
+                "share": "50%"
+              },
+              {
                 "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - RODINNÝ DOM",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "1989",
                 "share": "50%"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
-                "lv_number": "PARCELA Č. 4438/A/21",
-                "share": "100%"
               },
               {
                 "type": "ZÁHRADA",
@@ -1602,16 +1623,16 @@
             ],
             "new": [
               {
+                "type": "BYT",
+                "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
+                "lv_number": "PARC 4438/A/21",
+                "share": "100%"
+              },
+              {
                 "type": "ORNÁ PÔDA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2371",
                 "share": "2,5% (1/20)"
-              },
-              {
-                "type": "VODNÉ PLOCHY",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2921",
-                "share": "50%"
               },
               {
                 "type": "ORNÁ PÔDA",
@@ -1626,16 +1647,16 @@
                 "share": "12,5%, 1/4"
               },
               {
+                "type": "VODNÉ PLOCHY",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2921",
+                "share": "50%"
+              },
+              {
                 "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - RODINNÝ DOM",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "1989",
                 "share": "50%"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
-                "lv_number": "PARC 4438/A/21",
-                "share": "100%"
               },
               {
                 "type": "ZÁHRADA",
@@ -1653,130 +1674,17 @@
   ],
   "total_changes": 18,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ivan.Fenes.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ivan.Fenes.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Ivan.Fenes.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Ivan.Fenes.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 66559,
-            "other": 11280
-          },
-          "new": {
-            "public_function": 67447,
-            "other": 11880
-          },
-          "old_total": 77839,
-          "new_total": 79327,
-          "delta": 1488,
-          "delta_pct": 1.9
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "2371",
-              "share": "25%"
-            },
-            {
-              "type": "VODNÉ PLOCHY",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "2921",
-              "share": "50%"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "6120",
-              "share": "1/8"
-            },
-            {
-              "type": "ORNÁ PÔDA, LESNÝ POZEMOK, TRVALÉ TRÁVNE PORASTY",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "4513, 4514",
-              "share": "12,5%"
-            },
-            {
-              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - RODINNÝ DOM",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "1989",
-              "share": "50%"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
-              "lv_number": "PARCELA Č. 4438/A/21",
-              "share": "100%"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "2661",
-              "share": "100%"
-            }
-          ],
-          "new": [
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "2371",
-              "share": "2,5% (1/20)"
-            },
-            {
-              "type": "VODNÉ PLOCHY",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "2921",
-              "share": "50%"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "6120",
-              "share": "1/8"
-            },
-            {
-              "type": "ORNÁ PÔDA, LESNÝ POZEMOK, TRVALÉ TRÁVNE PORASTY",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "4513, 4514",
-              "share": "12,5%, 1/4"
-            },
-            {
-              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - RODINNÝ DOM",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "1989",
-              "share": "50%"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "GYŐR - MAĎARSKÁ REPUBLIKA",
-              "lv_number": "PARC 4438/A/21",
-              "share": "100%"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "2661",
-              "share": "100 %"
-            }
-          ],
-          "old_count": 7,
-          "new_count": 7
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 77 839 € → 79 327 € (+1 488 €)",
-      "Nehnuteľnosti: 7 → 7 (0)"
-    ]
+    "summary": []
   },
   "slug": "phdr-ivan-fenes-ll-m-mba",
   "context": {
@@ -1786,7 +1694,7 @@
     "obligations": 1,
     "income_percentile": 78,
     "property_percentile": 77,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.4

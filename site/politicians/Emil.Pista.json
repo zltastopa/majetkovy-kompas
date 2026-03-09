@@ -1,8 +1,14 @@
 {
   "user_id": "Emil.Pista",
   "name": "Ing. Emil Pišta",
-  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK CAPITAL MANAGEMENT, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ\r\nBANKA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)",
-  "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK CAPITAL MANAGEMENT, A.S.) · štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)",
+  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK CAPITAL MANAGEMENT, A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)",
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)",
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK CAPITAL MANAGEMENT, A.S.)",
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+  ],
+  "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK CAPITAL MANAGEMENT, A.S.) · štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
   "years": [
     2022,
     2023,
@@ -18,6 +24,9 @@
         "year": 2022,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -28,21 +37,15 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
-            "lv_number": "1061",
-            "share": "BSM"
-          },
-          {
-            "type": "ZÁHRADY A ZASTAVANÉ PLOCHY",
-            "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
-            "lv_number": "1061",
+            "type": "BYT",
+            "cadastral_territory": "ROVINKA",
+            "lv_number": "3281",
             "share": "BSM"
           },
           {
             "type": "BYT",
-            "cadastral_territory": "ROVINKA",
-            "lv_number": "3281",
+            "cadastral_territory": "RUŽINOV",
+            "lv_number": "9325",
             "share": "BSM"
           },
           {
@@ -58,12 +61,6 @@
             "share": "BSM"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "RUŽINOV",
-            "lv_number": "9325",
-            "share": "BSM"
-          },
-          {
             "type": "PARKOVACIE MIESTO",
             "cadastral_territory": "RUŽINOV",
             "lv_number": "9325",
@@ -74,18 +71,30 @@
             "cadastral_territory": "RUŽINOV",
             "lv_number": "9325",
             "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
+            "lv_number": "1061",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADY A ZASTAVANÉ PLOCHY",
+            "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
+            "lv_number": "1061",
+            "share": "BSM"
           }
         ],
         "movable_property": [
           {
             "type": "MOTOROVÉ VOZIDLO",
-            "brand": "MERCEDES BENZ",
+            "brand": "BMW",
             "year_of_manufacture": 2018,
             "share": "BSM"
           },
           {
             "type": "MOTOROVÉ VOZIDLO",
-            "brand": "BMW",
+            "brand": "MERCEDES BENZ",
             "year_of_manufacture": 2018,
             "share": "BSM"
           },
@@ -95,9 +104,9 @@
           }
         ],
         "property_rights": [
-          "ÚČTY V BANKÁCH, podiel: BSM",
+          "DÔCHODKOVÉ SPORENIE, podiel: BSM",
           "FINANČNÁ HOTOVOSŤ, podiel: BSM",
-          "DÔCHODKOVÉ SPORENIE, podiel: BSM"
+          "ÚČTY V BANKÁCH, podiel: BSM"
         ],
         "obligations": [
           {
@@ -120,7 +129,12 @@
         "name": "Ing. EMIL PIŠTA",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+        ],
         "income": {
           "public_function": 2282,
           "other": 3920
@@ -131,21 +145,15 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
-            "lv_number": "1061",
-            "share": "BSM"
-          },
-          {
-            "type": "ZÁHRADY A ZASTAVANÉ PLOCHY",
-            "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
-            "lv_number": "1061",
+            "type": "BYT",
+            "cadastral_territory": "ROVINKA",
+            "lv_number": "3281",
             "share": "BSM"
           },
           {
             "type": "BYT",
-            "cadastral_territory": "ROVINKA",
-            "lv_number": "3281",
+            "cadastral_territory": "RUŽINOV",
+            "lv_number": "9325",
             "share": "BSM"
           },
           {
@@ -161,12 +169,6 @@
             "share": "BSM"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "RUŽINOV",
-            "lv_number": "9325",
-            "share": "BSM"
-          },
-          {
             "type": "PARKOVACIE MIESTO",
             "cadastral_territory": "RUŽINOV",
             "lv_number": "9325",
@@ -177,18 +179,30 @@
             "cadastral_territory": "RUŽINOV",
             "lv_number": "9325",
             "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
+            "lv_number": "1061",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADY A ZASTAVANÉ PLOCHY",
+            "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
+            "lv_number": "1061",
+            "share": "BSM"
           }
         ],
         "movable_property": [
           {
             "type": "MOTOROVÉ VOZIDLO",
-            "brand": "MERCEDES BENZ",
+            "brand": "BMW",
             "year_of_manufacture": 2018,
             "share": "BSM"
           },
           {
             "type": "MOTOROVÉ VOZIDLO",
-            "brand": "BMW",
+            "brand": "MERCEDES BENZ",
             "year_of_manufacture": 2018,
             "share": "BSM"
           },
@@ -198,9 +212,9 @@
           }
         ],
         "property_rights": [
-          "ÚČTY V BANKÁCH, podiel: BSM",
+          "DÔCHODKOVÉ SPORENIE, podiel: BSM",
           "FINANČNÁ HOTOVOSŤ, podiel: BSM",
-          "DÔCHODKOVÉ SPORENIE, podiel: BSM"
+          "ÚČTY V BANKÁCH, podiel: BSM"
         ],
         "obligations": [
           {
@@ -217,7 +231,20 @@
           {
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 3
           },
           {
             "field": "income",
@@ -249,7 +276,13 @@
         "name": "Ing. EMIL PIŠTA",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK CAPITAL MANAGEMENT, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ\r\nBANKA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK CAPITAL MANAGEMENT, A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK CAPITAL MANAGEMENT, A.S.)",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+        ],
         "income": {
           "public_function": 49858,
           "other": 113381
@@ -260,21 +293,15 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
-            "lv_number": "1061",
-            "share": "BSM"
-          },
-          {
-            "type": "ZÁHRADY A ZASTAVANÉ PLOCHY",
-            "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
-            "lv_number": "1061",
+            "type": "BYT",
+            "cadastral_territory": "ROVINKA",
+            "lv_number": "3281",
             "share": "BSM"
           },
           {
             "type": "BYT",
-            "cadastral_territory": "ROVINKA",
-            "lv_number": "3281",
+            "cadastral_territory": "RUŽINOV",
+            "lv_number": "9325",
             "share": "BSM"
           },
           {
@@ -290,12 +317,6 @@
             "share": "BSM"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "RUŽINOV",
-            "lv_number": "9325",
-            "share": "BSM"
-          },
-          {
             "type": "PARKOVACIE MIESTO",
             "cadastral_territory": "RUŽINOV",
             "lv_number": "9325",
@@ -306,18 +327,30 @@
             "cadastral_territory": "RUŽINOV",
             "lv_number": "9325",
             "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
+            "lv_number": "1061",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADY A ZASTAVANÉ PLOCHY",
+            "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
+            "lv_number": "1061",
+            "share": "BSM"
           }
         ],
         "movable_property": [
           {
             "type": "MOTOROVÉ VOZIDLO",
-            "brand": "MERCEDES BENZ",
+            "brand": "BMW",
             "year_of_manufacture": 2018,
             "share": "BSM"
           },
           {
             "type": "MOTOROVÉ VOZIDLO",
-            "brand": "BMW",
+            "brand": "MERCEDES BENZ",
             "year_of_manufacture": 2018,
             "share": "BSM"
           },
@@ -327,9 +360,9 @@
           }
         ],
         "property_rights": [
-          "ÚČTY V BANKÁCH, podiel: BSM",
+          "DÔCHODKOVÉ SPORENIE, podiel: BSM",
           "FINANČNÁ HOTOVOSŤ, podiel: BSM",
-          "DÔCHODKOVÉ SPORENIE, podiel: BSM"
+          "ÚČTY V BANKÁCH, podiel: BSM"
         ],
         "obligations": [
           {
@@ -345,8 +378,24 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK CAPITAL MANAGEMENT, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ\r\nBANKA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)"
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK CAPITAL MANAGEMENT, A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK CAPITAL MANAGEMENT, A.S.)",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+            ],
+            "old_count": 3,
+            "new_count": 4
           },
           {
             "field": "income",
@@ -367,21 +416,15 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
-                "lv_number": "1061",
-                "share": "BSM"
-              },
-              {
-                "type": "ZÁHRADY A ZASTAVANÉ PLOCHY",
-                "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
-                "lv_number": "1061",
+                "type": "BYT",
+                "cadastral_territory": "ROVINKA",
+                "lv_number": "3281",
                 "share": "BSM"
               },
               {
                 "type": "BYT",
-                "cadastral_territory": "ROVINKA",
-                "lv_number": "3281",
+                "cadastral_territory": "RUŽINOV",
+                "lv_number": "9325",
                 "share": "BSM"
               },
               {
@@ -394,12 +437,6 @@
                 "type": "OSTATNÉ PLOCHY (1/2 PODIEL)",
                 "cadastral_territory": "ROVINKA",
                 "lv_number": "4513",
-                "share": "BSM"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "RUŽINOV",
-                "lv_number": "9325",
                 "share": "BSM"
               },
               {
@@ -413,9 +450,7 @@
                 "cadastral_territory": "RUŽINOV",
                 "lv_number": "9325",
                 "share": "BSM"
-              }
-            ],
-            "new": [
+              },
               {
                 "type": "RODINNÝ DOM",
                 "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
@@ -427,11 +462,19 @@
                 "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
                 "lv_number": "1061",
                 "share": "BSM"
-              },
+              }
+            ],
+            "new": [
               {
                 "type": "BYT",
                 "cadastral_territory": "ROVINKA",
                 "lv_number": "3281",
+                "share": "BSM"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "RUŽINOV",
+                "lv_number": "9325",
                 "share": "BSM"
               },
               {
@@ -447,12 +490,6 @@
                 "share": "BSM"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "RUŽINOV",
-                "lv_number": "9325",
-                "share": "BSM"
-              },
-              {
                 "type": "PARKOVACIE MIESTO",
                 "cadastral_territory": "RUŽINOV",
                 "lv_number": "9325",
@@ -463,6 +500,18 @@
                 "cadastral_territory": "RUŽINOV",
                 "lv_number": "9325",
                 "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
+                "lv_number": "1061",
+                "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADY A ZASTAVANÉ PLOCHY",
+                "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
+                "lv_number": "1061",
+                "share": "BSM"
               }
             ],
             "old_count": 8,
@@ -472,150 +521,19 @@
       }
     }
   ],
-  "total_changes": 6,
+  "total_changes": 8,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Emil.Pista.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Emil.Pista.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Emil.Pista.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Emil.Pista.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
-          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK CAPITAL MANAGEMENT, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ\r\nBANKA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 2282,
-            "other": 3920
-          },
-          "new": {
-            "public_function": 49858,
-            "other": 113381
-          },
-          "old_total": 6202,
-          "new_total": 163239,
-          "delta": 157037,
-          "delta_pct": 2532.0
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
-              "lv_number": "1061",
-              "share": "BSM"
-            },
-            {
-              "type": "ZÁHRADY A ZASTAVANÉ PLOCHY",
-              "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
-              "lv_number": "1061",
-              "share": "BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "ROVINKA",
-              "lv_number": "3281",
-              "share": "BSM"
-            },
-            {
-              "type": "OSTATNÉ PLOCHY",
-              "cadastral_territory": "ROVINKA",
-              "lv_number": "4564",
-              "share": "BSM"
-            },
-            {
-              "type": "OSTATNÉ PLOCHY (1/2 PODIEL)",
-              "cadastral_territory": "ROVINKA",
-              "lv_number": "4513",
-              "share": "BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "RUŽINOV",
-              "lv_number": "9325",
-              "share": "BSM"
-            },
-            {
-              "type": "PARKOVACIE MIESTO",
-              "cadastral_territory": "RUŽINOV",
-              "lv_number": "9325",
-              "share": "BSM"
-            },
-            {
-              "type": "PODIEL SPOLOČNÉ PRIESTORY A POZEMOK",
-              "cadastral_territory": "RUŽINOV",
-              "lv_number": "9325",
-              "share": "BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
-              "lv_number": "1061",
-              "share": "BSM"
-            },
-            {
-              "type": "ZÁHRADY A ZASTAVANÉ PLOCHY",
-              "cadastral_territory": "DUNAJSKÁ LUŽNÁ",
-              "lv_number": "1061",
-              "share": "BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "ROVINKA",
-              "lv_number": "3281",
-              "share": "BSM"
-            },
-            {
-              "type": "OSTATNÉ PLOCHY",
-              "cadastral_territory": "ROVINKA",
-              "lv_number": "4564",
-              "share": "BSM"
-            },
-            {
-              "type": "OSTATNÉ PLOCHY (1/2 PODIEL)",
-              "cadastral_territory": "ROVINKA",
-              "lv_number": "4513",
-              "share": "BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "RUŽINOV",
-              "lv_number": "9325",
-              "share": "BSM"
-            },
-            {
-              "type": "PARKOVACIE MIESTO",
-              "cadastral_territory": "RUŽINOV",
-              "lv_number": "9325",
-              "share": "BSM"
-            },
-            {
-              "type": "PODIEL - SPOLOČNÉ PRIESTORY A POZEMOK",
-              "cadastral_territory": "RUŽINOV",
-              "lv_number": "9325",
-              "share": "BSM"
-            }
-          ],
-          "old_count": 8,
-          "new_count": 8
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 6 202 € → 163 239 € (+157 037 €)",
-      "Nehnuteľnosti: 8 → 8 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-emil-pista",
   "context": {
@@ -625,7 +543,7 @@
     "obligations": 1,
     "income_percentile": 96,
     "property_percentile": 79,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 9.1

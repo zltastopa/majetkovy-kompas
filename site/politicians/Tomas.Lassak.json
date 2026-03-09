@@ -2,6 +2,9 @@
   "user_id": "Tomas.Lassak",
   "name": "Mgr. Tomáš Laššák",
   "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -82,6 +88,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OKTE, A.S.)"
+        ],
         "income": {
           "public_function": 9303,
           "other": 413
@@ -205,100 +214,17 @@
   ],
   "total_changes": 5,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tomas.Lassak.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tomas.Lassak.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Tomas.Lassak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Tomas.Lassak.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 9303,
-            "other": 413
-          },
-          "old_total": 0,
-          "new_total": 9716,
-          "delta": 9716
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "ŠTATUTÁR",
-              "organization": "DIR - PUBLIKUM O.Z.",
-              "benefits": "ŽIADNE"
-            }
-          ],
-          "new": [
-            {
-              "role": "ŠTATUTÁR",
-              "organization": "DIR-PUBLIKUM O.Z.",
-              "benefits": "ŽIADNE"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÉ VOZIDLO",
-              "brand": "ŠKODA",
-              "year_of_manufacture": 2008,
-              "share": "1/1"
-            },
-            {
-              "type": "OSOBNÉ VOZIDLO",
-              "brand": "ŠKODA",
-              "year_of_manufacture": 2011,
-              "share": "1/1"
-            }
-          ],
-          "new": null
-        },
-        {
-          "field": "use_of_others_real_estate",
-          "old": "BYT, kat. územie RAKÚSKO, rok zač. užívania: 2008, spôsob užívania: NÁJOM",
-          "new": "BYT, kat. územie RAKÚSKO, rok zač. užívania: 2008, spôsob užívania: NÁJOMBYT, kat. územie BELGICKO, rok zač. užívania: 2024, spôsob užívania: NÁJOM"
-        },
-        {
-          "field": "vehicles",
-          "old": [
-            {
-              "type": "OSOBNÉ VOZIDLO",
-              "brand": "ŠKODA",
-              "year_of_manufacture": 2020
-            }
-          ],
-          "new": [
-            {
-              "type": "MOTOROVÉ VOZIDLO",
-              "brand": "ŠKODA",
-              "year_of_manufacture": 2020
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 9 716 € (+9 716 €)",
-      "Funkcie: 1 → 1 (0)",
-      "Hnuteľný majetok",
-      "Užívanie nehnuteľností",
-      "Vozidlá: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "mgr-tomas-lassak",
   "context": {
@@ -308,7 +234,7 @@
     "obligations": 1,
     "income_percentile": 19,
     "property_percentile": 20,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0.5

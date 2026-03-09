@@ -1,7 +1,11 @@
 {
   "user_id": "Zdenka.Macicova",
   "name": "Mgr. Zdenka Mačicová",
-  "public_function": "poslanec Národnej rady Slovenskej republikystarosta obce",
+  "public_function": "poslanec Národnej rady Slovenskej republiky\nstarosta obce",
+  "public_functions": [
+    "poslanec Národnej rady Slovenskej republiky",
+    "starosta obce"
+  ],
   "role": "poslanec Národnej rady Slovenskej republiky · starosta obce",
   "years": [
     2022,
@@ -18,6 +22,9 @@
         "year": 2022,
         "filed": "pri ujatí sa funkcie",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -70,6 +77,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 6179,
           "other": 49796
@@ -156,7 +166,11 @@
         "name": "Mgr. ZDENKA MAČICOVÁ",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "poslanec Národnej rady Slovenskej republikystarosta obce",
+        "public_function": "poslanec Národnej rady Slovenskej republiky\nstarosta obce",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky",
+          "starosta obce"
+        ],
         "income": {
           "public_function": 48912,
           "other": 12198
@@ -202,7 +216,19 @@
           {
             "field": "public_function",
             "old": "poslanec Národnej rady Slovenskej republiky",
-            "new": "poslanec Národnej rady Slovenskej republikystarosta obce"
+            "new": "poslanec Národnej rady Slovenskej republiky\nstarosta obce"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "poslanec Národnej rady Slovenskej republiky"
+            ],
+            "new": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "starosta obce"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -242,64 +268,19 @@
       }
     }
   ],
-  "total_changes": 5,
+  "total_changes": 6,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zdenka.Macicova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zdenka.Macicova.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Zdenka.Macicova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Zdenka.Macicova.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "poslanec Národnej rady Slovenskej republiky",
-          "new": "poslanec Národnej rady Slovenskej republikystarosta obce"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 6179,
-            "other": 49796
-          },
-          "new": {
-            "public_function": 48912,
-            "other": 12198
-          },
-          "old_total": 55975,
-          "new_total": 61110,
-          "delta": 5135,
-          "delta_pct": 9.2
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "STAROSTA OBCE",
-              "organization": "OBEC KOŠÚTY",
-              "benefits": "ODMENA"
-            }
-          ],
-          "new": [
-            {
-              "role": "STAROSTKA",
-              "organization": "OBEC KOŠÚTY",
-              "benefits": "PLAT"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 55 975 € → 61 110 € (+5 135 €)",
-      "Funkcie: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "mgr-zdenka-macicova",
   "context": {
@@ -309,7 +290,7 @@
     "obligations": 1,
     "income_percentile": 63,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.4

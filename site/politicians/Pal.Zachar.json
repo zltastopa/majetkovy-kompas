@@ -2,6 +2,9 @@
   "user_id": "Pal.Zachar",
   "name": "Ing. PÁL Zachar",
   "public_function": "primátor mesta",
+  "public_functions": [
+    "primátor mesta"
+  ],
   "role": "primátor mesta",
   "years": [
     2021,
@@ -19,6 +22,9 @@
         "year": 2021,
         "filed": "pri ujatí sa funkcie",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -40,24 +46,6 @@
         ],
         "real_estate": [
           {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "TEŠMÁK",
-            "lv_number": "2584",
-            "share": "100% BSM"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "TEŠMÁK",
-            "lv_number": "2584",
-            "share": "100% BSM"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "TEŠMÁK",
-            "lv_number": "2584",
-            "share": "100% BSM"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "ŠAHY",
             "lv_number": "1652",
@@ -71,6 +59,24 @@
           },
           {
             "type": "SKLAD NÁRADIA",
+            "cadastral_territory": "TEŠMÁK",
+            "lv_number": "2584",
+            "share": "100% BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "TEŠMÁK",
+            "lv_number": "2584",
+            "share": "100% BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "TEŠMÁK",
+            "lv_number": "2584",
+            "share": "100% BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "TEŠMÁK",
             "lv_number": "2584",
             "share": "100% BSM"
@@ -113,6 +119,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 5727,
           "other": 711
@@ -122,35 +131,17 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "PREDSEDA",
-            "organization": "SAAGSCOUTING",
-            "benefits": "ŽIADNE"
-          },
-          {
             "role": "POSLANEC",
             "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
             "benefits": "ODMENA"
+          },
+          {
+            "role": "PREDSEDA",
+            "organization": "SAAGSCOUTING",
+            "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "TEŠMÁK",
-            "lv_number": "2584",
-            "share": "100% BSM"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "TEŠMÁK",
-            "lv_number": "2584",
-            "share": "100% BSM"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "TEŠMÁK",
-            "lv_number": "2584",
-            "share": "100% BSM"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "ŠAHY",
@@ -164,16 +155,34 @@
             "share": "100% BSM"
           },
           {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "VYŠKOVCE NAD IPĽOM",
+            "lv_number": "1024",
+            "share": "9/12"
+          },
+          {
             "type": "SKLAD NÁRADIA",
             "cadastral_territory": "TEŠMÁK",
             "lv_number": "2584",
             "share": "100% BSM"
           },
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "VYŠKOVCE NAD IPĽOM",
-            "lv_number": "1024",
-            "share": "9/12"
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "TEŠMÁK",
+            "lv_number": "2584",
+            "share": "100% BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "TEŠMÁK",
+            "lv_number": "2584",
+            "share": "100% BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "TEŠMÁK",
+            "lv_number": "2584",
+            "share": "100% BSM"
           },
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -234,56 +243,9 @@
             "new": null
           },
           {
-            "field": "positions",
-            "old": [
-              {
-                "role": "POSLANEC",
-                "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
-                "benefits": "ODMENA"
-              },
-              {
-                "role": "PREDSEDA",
-                "organization": "SAAGSCOUTING",
-                "benefits": "ŽIADNE"
-              }
-            ],
-            "new": [
-              {
-                "role": "PREDSEDA",
-                "organization": "SAAGSCOUTING",
-                "benefits": "ŽIADNE"
-              },
-              {
-                "role": "POSLANEC",
-                "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
-                "benefits": "ODMENA"
-              }
-            ],
-            "old_count": 2,
-            "new_count": 2
-          },
-          {
             "field": "real_estate",
             "old": [
               {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "2584",
-                "share": "100% BSM"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "2584",
-                "share": "100% BSM"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "2584",
-                "share": "100% BSM"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "ŠAHY",
                 "lv_number": "1652",
@@ -297,6 +259,24 @@
               },
               {
                 "type": "SKLAD NÁRADIA",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "2584",
+                "share": "100% BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "2584",
+                "share": "100% BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "2584",
+                "share": "100% BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "TEŠMÁK",
                 "lv_number": "2584",
                 "share": "100% BSM"
@@ -304,24 +284,6 @@
             ],
             "new": [
               {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "2584",
-                "share": "100% BSM"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "2584",
-                "share": "100% BSM"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "2584",
-                "share": "100% BSM"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "ŠAHY",
                 "lv_number": "1652",
@@ -329,12 +291,6 @@
               },
               {
                 "type": "RODINNÝ DOM",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "2584",
-                "share": "100% BSM"
-              },
-              {
-                "type": "SKLAD NÁRADIA",
                 "cadastral_territory": "TEŠMÁK",
                 "lv_number": "2584",
                 "share": "100% BSM"
@@ -344,6 +300,30 @@
                 "cadastral_territory": "VYŠKOVCE NAD IPĽOM",
                 "lv_number": "1024",
                 "share": "9/12"
+              },
+              {
+                "type": "SKLAD NÁRADIA",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "2584",
+                "share": "100% BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "2584",
+                "share": "100% BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "2584",
+                "share": "100% BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "2584",
+                "share": "100% BSM"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -367,6 +347,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 65044,
           "other": 6876
@@ -376,35 +359,17 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "PREDSEDA",
-            "organization": "SAAGSCOUTING",
-            "benefits": "ŽIADNE"
-          },
-          {
             "role": "POSLANEC",
             "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
             "benefits": "ODMENA"
+          },
+          {
+            "role": "PREDSEDA",
+            "organization": "SAAGSCOUTING",
+            "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "TEŠMÁK",
-            "lv_number": "2584",
-            "share": "100% BSM"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "TEŠMÁK",
-            "lv_number": "2584",
-            "share": "100% BSM"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "TEŠMÁK",
-            "lv_number": "2584",
-            "share": "100% BSM"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "ŠAHY",
@@ -418,16 +383,34 @@
             "share": "100% BSM"
           },
           {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "VYŠKOVCE NAD IPĽOM",
+            "lv_number": "1024",
+            "share": "9/12"
+          },
+          {
             "type": "SKLAD NÁRADIA",
             "cadastral_territory": "TEŠMÁK",
             "lv_number": "2584",
             "share": "100% BSM"
           },
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "VYŠKOVCE NAD IPĽOM",
-            "lv_number": "1024",
-            "share": "9/12"
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "TEŠMÁK",
+            "lv_number": "2584",
+            "share": "100% BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "TEŠMÁK",
+            "lv_number": "2584",
+            "share": "100% BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "TEŠMÁK",
+            "lv_number": "2584",
+            "share": "100% BSM"
           },
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -490,6 +473,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 71135,
           "other": 9000
@@ -499,35 +485,17 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "PREDSEDA",
-            "organization": "SAAGSCOUTING",
-            "benefits": "ŽIADNE"
-          },
-          {
             "role": "POSLANEC",
             "organization": "NITRIANSKY SAMOSPRAVNY KRAJ",
             "benefits": "ODMENA"
+          },
+          {
+            "role": "PREDSEDA",
+            "organization": "SAAGSCOUTING",
+            "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "TEŠMÁK",
-            "lv_number": "2584",
-            "share": "100%BSM"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "TEŠMÁK",
-            "lv_number": "2584",
-            "share": "100%BSM"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "TEŠMÁK",
-            "lv_number": "2584",
-            "share": "100%BSM"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "ŠAHY",
@@ -541,16 +509,34 @@
             "share": "100%BSM"
           },
           {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "VYŠKOVCE NAD IPLOM",
+            "lv_number": "1024",
+            "share": "9/12"
+          },
+          {
             "type": "SKLAD NÁRADIA",
             "cadastral_territory": "TEŠMÁK",
             "lv_number": "2584",
             "share": "100%BSM"
           },
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "VYŠKOVCE NAD IPLOM",
-            "lv_number": "1024",
-            "share": "9/12"
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "TEŠMÁK",
+            "lv_number": "2584",
+            "share": "100%BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "TEŠMÁK",
+            "lv_number": "2584",
+            "share": "100%BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "TEŠMÁK",
+            "lv_number": "2584",
+            "share": "100%BSM"
           },
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -605,26 +591,26 @@
             "field": "positions",
             "old": [
               {
-                "role": "PREDSEDA",
-                "organization": "SAAGSCOUTING",
-                "benefits": "ŽIADNE"
-              },
-              {
                 "role": "POSLANEC",
                 "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
                 "benefits": "ODMENA"
+              },
+              {
+                "role": "PREDSEDA",
+                "organization": "SAAGSCOUTING",
+                "benefits": "ŽIADNE"
               }
             ],
             "new": [
               {
-                "role": "PREDSEDA",
-                "organization": "SAAGSCOUTING",
-                "benefits": "ŽIADNE"
-              },
-              {
                 "role": "POSLANEC",
                 "organization": "NITRIANSKY SAMOSPRAVNY KRAJ",
                 "benefits": "ODMENA"
+              },
+              {
+                "role": "PREDSEDA",
+                "organization": "SAAGSCOUTING",
+                "benefits": "ŽIADNE"
               }
             ],
             "old_count": 2,
@@ -634,24 +620,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "2584",
-                "share": "100% BSM"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "2584",
-                "share": "100% BSM"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "2584",
-                "share": "100% BSM"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "ŠAHY",
                 "lv_number": "1652",
@@ -664,16 +632,34 @@
                 "share": "100% BSM"
               },
               {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "VYŠKOVCE NAD IPĽOM",
+                "lv_number": "1024",
+                "share": "9/12"
+              },
+              {
                 "type": "SKLAD NÁRADIA",
                 "cadastral_territory": "TEŠMÁK",
                 "lv_number": "2584",
                 "share": "100% BSM"
               },
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "VYŠKOVCE NAD IPĽOM",
-                "lv_number": "1024",
-                "share": "9/12"
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "2584",
+                "share": "100% BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "2584",
+                "share": "100% BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "2584",
+                "share": "100% BSM"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -684,24 +670,6 @@
             ],
             "new": [
               {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "2584",
-                "share": "100%BSM"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "2584",
-                "share": "100%BSM"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "2584",
-                "share": "100%BSM"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "ŠAHY",
                 "lv_number": "1652",
@@ -714,16 +682,34 @@
                 "share": "100%BSM"
               },
               {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "VYŠKOVCE NAD IPLOM",
+                "lv_number": "1024",
+                "share": "9/12"
+              },
+              {
                 "type": "SKLAD NÁRADIA",
                 "cadastral_territory": "TEŠMÁK",
                 "lv_number": "2584",
                 "share": "100%BSM"
               },
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "VYŠKOVCE NAD IPLOM",
-                "lv_number": "1024",
-                "share": "9/12"
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "2584",
+                "share": "100%BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "2584",
+                "share": "100%BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "2584",
+                "share": "100%BSM"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -739,174 +725,19 @@
       }
     }
   ],
-  "total_changes": 9,
+  "total_changes": 8,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Pal.Zachar.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Pal.Zachar.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Pal.Zachar.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Pal.Zachar.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 65044,
-            "other": 6876
-          },
-          "new": {
-            "public_function": 71135,
-            "other": 9000
-          },
-          "old_total": 71920,
-          "new_total": 80135,
-          "delta": 8215,
-          "delta_pct": 11.4
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "PREDSEDA",
-              "organization": "SAAGSCOUTING",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "POSLANEC",
-              "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
-              "benefits": "ODMENA"
-            }
-          ],
-          "new": [
-            {
-              "role": "PREDSEDA",
-              "organization": "SAAGSCOUTING",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "POSLANEC",
-              "organization": "NITRIANSKY SAMOSPRAVNY KRAJ",
-              "benefits": "ODMENA"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "TEŠMÁK",
-              "lv_number": "2584",
-              "share": "100% BSM"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "TEŠMÁK",
-              "lv_number": "2584",
-              "share": "100% BSM"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "TEŠMÁK",
-              "lv_number": "2584",
-              "share": "100% BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "ŠAHY",
-              "lv_number": "1652",
-              "share": "100%"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "TEŠMÁK",
-              "lv_number": "2584",
-              "share": "100% BSM"
-            },
-            {
-              "type": "SKLAD NÁRADIA",
-              "cadastral_territory": "TEŠMÁK",
-              "lv_number": "2584",
-              "share": "100% BSM"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "VYŠKOVCE NAD IPĽOM",
-              "lv_number": "1024",
-              "share": "9/12"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "VYŠKOVCE NAD IPĽOM",
-              "lv_number": "1024",
-              "share": "9/12"
-            }
-          ],
-          "new": [
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "TEŠMÁK",
-              "lv_number": "2584",
-              "share": "100%BSM"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "TEŠMÁK",
-              "lv_number": "2584",
-              "share": "100%BSM"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "TEŠMÁK",
-              "lv_number": "2584",
-              "share": "100%BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "ŠAHY",
-              "lv_number": "1652",
-              "share": "100%"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "TEŠMÁK",
-              "lv_number": "2584",
-              "share": "100%BSM"
-            },
-            {
-              "type": "SKLAD NÁRADIA",
-              "cadastral_territory": "TEŠMÁK",
-              "lv_number": "2584",
-              "share": "100%BSM"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "VYŠKOVCE NAD IPLOM",
-              "lv_number": "1024",
-              "share": "9/12"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "VYŠKOVCE NAD IPLOM",
-              "lv_number": "1024",
-              "share": "9/12"
-            }
-          ],
-          "old_count": 8,
-          "new_count": 8
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 71 920 € → 80 135 € (+8 215 €)",
-      "Funkcie: 2 → 2 (0)",
-      "Nehnuteľnosti: 8 → 8 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-pal-zachar",
   "context": {
@@ -916,7 +747,7 @@
     "obligations": 2,
     "income_percentile": 79,
     "property_percentile": 79,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.5

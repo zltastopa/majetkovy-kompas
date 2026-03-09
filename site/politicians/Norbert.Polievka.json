@@ -2,6 +2,9 @@
   "user_id": "Norbert.Polievka",
   "name": "Mgr. Norbert Polievka, MA MBA",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A. S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A. S.)"
+        ],
         "income": {
           "public_function": 32696,
           "other": 103117
@@ -31,9 +37,9 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "TAJOV",
-            "lv_number": "1504",
+            "type": "BYTČ",
+            "cadastral_territory": "SÁSOVÁ",
+            "lv_number": "1676",
             "share": "BSM"
           },
           {
@@ -43,9 +49,9 @@
             "share": "BSM"
           },
           {
-            "type": "BYTČ",
-            "cadastral_territory": "SÁSOVÁ",
-            "lv_number": "1676",
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "TAJOV",
+            "lv_number": "1504",
             "share": "BSM"
           }
         ],
@@ -61,8 +67,8 @@
         ],
         "property_rights": [
           "CENNÉ PAPIERE, podiel: BSM",
-          "PENIAZE NA ÚČTOCH, podiel: BSM",
-          "OPCIE, podiel: BSM"
+          "OPCIE, podiel: BSM",
+          "PENIAZE NA ÚČTOCH, podiel: BSM"
         ],
         "obligations": [
           {
@@ -94,6 +100,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA, A. S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA, A. S.)"
+        ],
         "income": {
           "public_function": 35135,
           "other": 42825
@@ -104,9 +113,9 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "TAJOV",
-            "lv_number": "1504",
+            "type": "BYT",
+            "cadastral_territory": "SÁSOVÁ",
+            "lv_number": "1676",
             "share": "BSM"
           },
           {
@@ -116,9 +125,9 @@
             "share": "BSM"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "SÁSOVÁ",
-            "lv_number": "1676",
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "TAJOV",
+            "lv_number": "1504",
             "share": "BSM"
           }
         ],
@@ -134,8 +143,8 @@
         ],
         "property_rights": [
           "CENNÉ PAPIERE, podiel: BSM",
-          "PENIAZE NA ÚČTOCH, podiel: BSM",
-          "OPCIE, podiel: BSM"
+          "OPCIE, podiel: BSM",
+          "PENIAZE NA ÚČTOCH, podiel: BSM"
         ],
         "obligations": [
           {
@@ -163,6 +172,17 @@
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA, A. S.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A. S.)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA, A. S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 32696,
@@ -186,9 +206,9 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "TAJOV",
-                "lv_number": "1504",
+                "type": "BYTČ",
+                "cadastral_territory": "SÁSOVÁ",
+                "lv_number": "1676",
                 "share": "BSM"
               },
               {
@@ -198,17 +218,17 @@
                 "share": "BSM"
               },
               {
-                "type": "BYTČ",
-                "cadastral_territory": "SÁSOVÁ",
-                "lv_number": "1676",
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "TAJOV",
+                "lv_number": "1504",
                 "share": "BSM"
               }
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "TAJOV",
-                "lv_number": "1504",
+                "type": "BYT",
+                "cadastral_territory": "SÁSOVÁ",
+                "lv_number": "1676",
                 "share": "BSM"
               },
               {
@@ -218,9 +238,9 @@
                 "share": "BSM"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "SÁSOVÁ",
-                "lv_number": "1676",
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "TAJOV",
+                "lv_number": "1504",
                 "share": "BSM"
               }
             ],
@@ -239,6 +259,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A. S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A. S.)"
+        ],
         "income": {
           "public_function": 37312,
           "other": 38151
@@ -249,13 +272,13 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
+            "type": "POZEMKY",
             "cadastral_territory": "TAJOV",
             "lv_number": "1504",
             "share": "BSM"
           },
           {
-            "type": "POZEMKY",
+            "type": "RODINNÝ DOM",
             "cadastral_territory": "TAJOV",
             "lv_number": "1504",
             "share": "BSM"
@@ -273,8 +296,8 @@
         ],
         "property_rights": [
           "CENNÉ PAPIERE, podiel: BSM",
-          "PENIAZE NA ÚČTOCH, podiel: BSM",
-          "OPCIE, podiel: BSM"
+          "OPCIE, podiel: BSM",
+          "PENIAZE NA ÚČTOCH, podiel: BSM"
         ],
         "obligations": [
           {
@@ -300,6 +323,17 @@
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A. S.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA, A. S.)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A. S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 35135,
@@ -323,9 +357,9 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "TAJOV",
-                "lv_number": "1504",
+                "type": "BYT",
+                "cadastral_territory": "SÁSOVÁ",
+                "lv_number": "1676",
                 "share": "BSM"
               },
               {
@@ -335,21 +369,21 @@
                 "share": "BSM"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "SÁSOVÁ",
-                "lv_number": "1676",
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "TAJOV",
+                "lv_number": "1504",
                 "share": "BSM"
               }
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM",
+                "type": "POZEMKY",
                 "cadastral_territory": "TAJOV",
                 "lv_number": "1504",
                 "share": "BSM"
               },
               {
-                "type": "POZEMKY",
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "TAJOV",
                 "lv_number": "1504",
                 "share": "BSM"
@@ -406,6 +440,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A. S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A. S.)"
+        ],
         "income": {
           "public_function": 37751,
           "other": 43420
@@ -416,13 +453,13 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
+            "type": "POZEMKY",
             "cadastral_territory": "TAJOV",
             "lv_number": "1504",
             "share": "BSM"
           },
           {
-            "type": "POZEMKY",
+            "type": "RODINNÝ DOM",
             "cadastral_territory": "TAJOV",
             "lv_number": "1504",
             "share": "BSM"
@@ -440,8 +477,8 @@
         ],
         "property_rights": [
           "CENNÉ PAPIERE, podiel: BSM",
-          "PENIAZE NA ÚČTOCH, podiel: BSM",
-          "OPCIE, podiel: BSM"
+          "OPCIE, podiel: BSM",
+          "PENIAZE NA ÚČTOCH, podiel: BSM"
         ],
         "obligations": [
           {
@@ -492,7 +529,11 @@
         "name": "Mgr. NORBERT POLIEVKA, MA",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA)",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)"
+        ],
         "income": {
           "public_function": 43586,
           "other": 111679
@@ -503,13 +544,13 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
+            "type": "POZEMKY",
             "cadastral_territory": "TAJOV",
             "lv_number": "1504",
             "share": "BSM"
           },
           {
-            "type": "POZEMKY",
+            "type": "RODINNÝ DOM",
             "cadastral_territory": "TAJOV",
             "lv_number": "1504",
             "share": "BSM"
@@ -517,24 +558,24 @@
         ],
         "movable_property": [
           {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "BMW",
+            "year_of_manufacture": 2022,
+            "share": "BSM"
+          },
+          {
             "type": "UMELECKÉ PREDMETY",
             "share": "BSM"
           },
           {
             "type": "ŠPERKY",
             "share": "BSM"
-          },
-          {
-            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-            "brand": "BMW",
-            "year_of_manufacture": 2022,
-            "share": "BSM"
           }
         ],
         "property_rights": [
           "CENNÉ PAPIERE, podiel: BSM",
-          "PENIAZE NA ÚČTOCH, podiel: BSM",
-          "OPCIE, podiel: BSM"
+          "OPCIE, podiel: BSM",
+          "PENIAZE NA ÚČTOCH, podiel: BSM"
         ],
         "obligations": [
           {
@@ -551,7 +592,19 @@
           {
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A. S.)",
-            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)"
+            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A. S.)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA)",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -587,17 +640,17 @@
             ],
             "new": [
               {
+                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+                "brand": "BMW",
+                "year_of_manufacture": 2022,
+                "share": "BSM"
+              },
+              {
                 "type": "UMELECKÉ PREDMETY",
                 "share": "BSM"
               },
               {
                 "type": "ŠPERKY",
-                "share": "BSM"
-              },
-              {
-                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "BMW",
-                "year_of_manufacture": 2022,
                 "share": "BSM"
               }
             ],
@@ -627,6 +680,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)"
+        ],
         "income": {
           "public_function": 70000,
           "other": 0
@@ -637,13 +693,13 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
+            "type": "POZEMKY",
             "cadastral_territory": "TAJOV",
             "lv_number": "1504",
             "share": "BSM"
           },
           {
-            "type": "POZEMKY",
+            "type": "RODINNÝ DOM",
             "cadastral_territory": "TAJOV",
             "lv_number": "1504",
             "share": "BSM"
@@ -651,24 +707,24 @@
         ],
         "movable_property": [
           {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "BMW",
+            "year_of_manufacture": 2022,
+            "share": "BSM"
+          },
+          {
             "type": "UMELECKÉ PREDMETY",
             "share": "BSM"
           },
           {
             "type": "ŠPERKY",
             "share": "BSM"
-          },
-          {
-            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-            "brand": "BMW",
-            "year_of_manufacture": 2022,
-            "share": "BSM"
           }
         ],
         "property_rights": [
           "CENNÉ PAPIERE, podiel: BSM",
-          "PENIAZE NA ÚČTOCH, podiel: BSM",
-          "OPCIE, podiel: BSM"
+          "OPCIE, podiel: BSM",
+          "PENIAZE NA ÚČTOCH, podiel: BSM"
         ],
         "obligations": [
           {
@@ -684,8 +740,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)",
+            "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)",
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA)",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)"
+            ],
+            "old_count": 2,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -711,50 +779,19 @@
       }
     }
   ],
-  "total_changes": 20,
+  "total_changes": 24,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Norbert.Polievka.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Norbert.Polievka.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Norbert.Polievka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Norbert.Polievka.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ SPRÁVA CIEST)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 43586,
-            "other": 111679
-          },
-          "new": {
-            "public_function": 70000,
-            "other": 0
-          },
-          "old_total": 155265,
-          "new_total": 70000,
-          "delta": -85265,
-          "delta_pct": -54.9
-        },
-        {
-          "field": "employment",
-          "old": "SLOVENSKÁ SPRÁVA CIEST\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ POŠTA, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSKPAY, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": null
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 155 265 € → 70 000 € (-85 265 €)",
-      "Zamestnanie"
-    ]
+    "summary": []
   },
   "slug": "mgr-norbert-polievka-ma-mba",
   "context": {
@@ -764,7 +801,7 @@
     "obligations": 1,
     "income_percentile": 72,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.9

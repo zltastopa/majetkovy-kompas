@@ -1,8 +1,12 @@
 {
   "user_id": "Horvmila",
   "name": "Ing. Milan Horváth",
-  "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
-  "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.) · člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+  "public_function": "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)",
+  "public_functions": [
+    "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+  ],
+  "role": "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky · štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)",
   "years": [
     2019,
     2020,
@@ -21,6 +25,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne"
+        ],
         "income": {
           "public_function": 67877,
           "other": 61961
@@ -37,14 +44,14 @@
         ],
         "real_estate": [
           {
-            "type": "INÉ POZEMKY",
-            "cadastral_territory": "846813 PLAVECKÝ ŠTVRTOK",
-            "lv_number": "1230",
+            "type": "BYT",
+            "cadastral_territory": "804274 NIVY",
+            "lv_number": "2286",
             "share": "50%"
           },
           {
-            "type": "REKREAČNÁ CHATA",
-            "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
+            "type": "INÉ POZEMKY",
+            "cadastral_territory": "846813 PLAVECKÝ ŠTVRTOK",
             "lv_number": "1230",
             "share": "50%"
           },
@@ -55,9 +62,9 @@
             "share": "100%"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "804274 NIVY",
-            "lv_number": "2286",
+            "type": "REKREAČNÁ CHATA",
+            "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
+            "lv_number": "1230",
             "share": "50%"
           }
         ],
@@ -65,13 +72,13 @@
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
             "brand": "OPEL",
-            "year_of_manufacture": 2019,
+            "year_of_manufacture": 2007,
             "share": "50%"
           },
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
             "brand": "OPEL",
-            "year_of_manufacture": 2007,
+            "year_of_manufacture": 2019,
             "share": "50%"
           },
           {
@@ -107,6 +114,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE,A.S.,BRATISLAVA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE,A.S.,BRATISLAVA)"
+        ],
         "income": {
           "public_function": 25385,
           "other": 62293
@@ -123,6 +133,17 @@
             "share": "50%"
           },
           {
+            "type": "INÉ POZEMKY",
+            "cadastral_territory": "PLAVECKÝ ŠTVROK",
+            "lv_number": "1230",
+            "share": "50%"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR GARÁŽOVÉ PARKOVACIE STÁTIE",
+            "cadastral_territory": "NIVY",
+            "share": "50% (SPOLUVLASTNÍCKY PODIEL)"
+          },
+          {
             "type": "REKREAČNÁ CHATA",
             "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
             "lv_number": "1230",
@@ -133,30 +154,19 @@
             "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
             "lv_number": "1284",
             "share": "100%"
-          },
-          {
-            "type": "INÉ POZEMKY",
-            "cadastral_territory": "PLAVECKÝ ŠTVROK",
-            "lv_number": "1230",
-            "share": "50%"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR GARÁŽOVÉ PARKOVACIE STÁTIE",
-            "cadastral_territory": "NIVY",
-            "share": "50% (SPOLUVLASTNÍCKY PODIEL)"
           }
         ],
         "movable_property": [
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
             "brand": "OPEL",
-            "year_of_manufacture": 2019,
+            "year_of_manufacture": 2007,
             "share": "50%"
           },
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
             "brand": "OPEL",
-            "year_of_manufacture": 2007,
+            "year_of_manufacture": 2019,
             "share": "50%"
           },
           {
@@ -186,6 +196,17 @@
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne",
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE,A.S.,BRATISLAVA)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE,A.S.,BRATISLAVA)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -222,14 +243,14 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "INÉ POZEMKY",
-                "cadastral_territory": "846813 PLAVECKÝ ŠTVRTOK",
-                "lv_number": "1230",
+                "type": "BYT",
+                "cadastral_territory": "804274 NIVY",
+                "lv_number": "2286",
                 "share": "50%"
               },
               {
-                "type": "REKREAČNÁ CHATA",
-                "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
+                "type": "INÉ POZEMKY",
+                "cadastral_territory": "846813 PLAVECKÝ ŠTVRTOK",
                 "lv_number": "1230",
                 "share": "50%"
               },
@@ -240,9 +261,9 @@
                 "share": "100%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "804274 NIVY",
-                "lv_number": "2286",
+                "type": "REKREAČNÁ CHATA",
+                "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
+                "lv_number": "1230",
                 "share": "50%"
               }
             ],
@@ -254,6 +275,17 @@
                 "share": "50%"
               },
               {
+                "type": "INÉ POZEMKY",
+                "cadastral_territory": "PLAVECKÝ ŠTVROK",
+                "lv_number": "1230",
+                "share": "50%"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR GARÁŽOVÉ PARKOVACIE STÁTIE",
+                "cadastral_territory": "NIVY",
+                "share": "50% (SPOLUVLASTNÍCKY PODIEL)"
+              },
+              {
                 "type": "REKREAČNÁ CHATA",
                 "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
                 "lv_number": "1230",
@@ -264,17 +296,6 @@
                 "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
                 "lv_number": "1284",
                 "share": "100%"
-              },
-              {
-                "type": "INÉ POZEMKY",
-                "cadastral_territory": "PLAVECKÝ ŠTVROK",
-                "lv_number": "1230",
-                "share": "50%"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR GARÁŽOVÉ PARKOVACIE STÁTIE",
-                "cadastral_territory": "NIVY",
-                "share": "50% (SPOLUVLASTNÍCKY PODIEL)"
               }
             ],
             "old_count": 4,
@@ -310,6 +331,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S. BRATISLAVA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S. BRATISLAVA)"
+        ],
         "income": {
           "public_function": 59329,
           "other": 80208
@@ -326,12 +350,6 @@
             "share": "50%"
           },
           {
-            "type": "REKREAČNÁ CHATA",
-            "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
-            "lv_number": "1230",
-            "share": "50%"
-          },
-          {
             "type": "INÉ POZEMKY",
             "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
             "lv_number": "1230",
@@ -342,25 +360,31 @@
             "cadastral_territory": "NIVY, SPOLUVLASTNÍCKY PODIEL",
             "lv_number": "PARC. Č. 11244/71,76,77,78,79,81,82,84,85,86/PARK.STÁTIE",
             "share": "50%"
+          },
+          {
+            "type": "REKREAČNÁ CHATA",
+            "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
+            "lv_number": "1230",
+            "share": "50%"
           }
         ],
         "movable_property": [
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
             "brand": "OPEL",
-            "year_of_manufacture": 2019,
-            "share": "50%"
-          },
-          {
-            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-            "brand": "OPEL",
-            "year_of_manufacture": 2019,
-            "share": "50%"
-          },
-          {
-            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-            "brand": "OPEL",
             "year_of_manufacture": 2007,
+            "share": "50%"
+          },
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "OPEL",
+            "year_of_manufacture": 2019,
+            "share": "50%"
+          },
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "OPEL",
+            "year_of_manufacture": 2019,
             "share": "50%"
           }
         ],
@@ -384,6 +408,17 @@
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE,A.S.,BRATISLAVA)",
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S. BRATISLAVA)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE,A.S.,BRATISLAVA)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S. BRATISLAVA)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -415,6 +450,17 @@
                 "share": "50%"
               },
               {
+                "type": "INÉ POZEMKY",
+                "cadastral_territory": "PLAVECKÝ ŠTVROK",
+                "lv_number": "1230",
+                "share": "50%"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR GARÁŽOVÉ PARKOVACIE STÁTIE",
+                "cadastral_territory": "NIVY",
+                "share": "50% (SPOLUVLASTNÍCKY PODIEL)"
+              },
+              {
                 "type": "REKREAČNÁ CHATA",
                 "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
                 "lv_number": "1230",
@@ -425,17 +471,6 @@
                 "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
                 "lv_number": "1284",
                 "share": "100%"
-              },
-              {
-                "type": "INÉ POZEMKY",
-                "cadastral_territory": "PLAVECKÝ ŠTVROK",
-                "lv_number": "1230",
-                "share": "50%"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR GARÁŽOVÉ PARKOVACIE STÁTIE",
-                "cadastral_territory": "NIVY",
-                "share": "50% (SPOLUVLASTNÍCKY PODIEL)"
               }
             ],
             "new": [
@@ -443,12 +478,6 @@
                 "type": "BYT",
                 "cadastral_territory": "NIVY",
                 "lv_number": "2286",
-                "share": "50%"
-              },
-              {
-                "type": "REKREAČNÁ CHATA",
-                "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
-                "lv_number": "1230",
                 "share": "50%"
               },
               {
@@ -462,55 +491,16 @@
                 "cadastral_territory": "NIVY, SPOLUVLASTNÍCKY PODIEL",
                 "lv_number": "PARC. Č. 11244/71,76,77,78,79,81,82,84,85,86/PARK.STÁTIE",
                 "share": "50%"
+              },
+              {
+                "type": "REKREAČNÁ CHATA",
+                "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
+                "lv_number": "1230",
+                "share": "50%"
               }
             ],
             "old_count": 5,
             "new_count": 4
-          },
-          {
-            "field": "movable_property",
-            "old": [
-              {
-                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "OPEL",
-                "year_of_manufacture": 2019,
-                "share": "50%"
-              },
-              {
-                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "OPEL",
-                "year_of_manufacture": 2007,
-                "share": "50%"
-              },
-              {
-                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "OPEL",
-                "year_of_manufacture": 2019,
-                "share": "50%"
-              }
-            ],
-            "new": [
-              {
-                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "OPEL",
-                "year_of_manufacture": 2019,
-                "share": "50%"
-              },
-              {
-                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "OPEL",
-                "year_of_manufacture": 2019,
-                "share": "50%"
-              },
-              {
-                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "OPEL",
-                "year_of_manufacture": 2007,
-                "share": "50%"
-              }
-            ],
-            "old_count": 3,
-            "new_count": 3
           },
           {
             "field": "property_rights",
@@ -542,6 +532,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+        ],
         "income": {
           "public_function": 79351,
           "other": 123110
@@ -558,12 +551,6 @@
             "share": "50%"
           },
           {
-            "type": "REKREAČNÁ CHATA",
-            "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
-            "lv_number": "1230",
-            "share": "50%"
-          },
-          {
             "type": "INÉ POZEMKY",
             "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
             "lv_number": "1230",
@@ -576,13 +563,19 @@
             "share": "50%"
           },
           {
-            "type": "ZASTAVANÁ PLOCHA",
+            "type": "OSTATNÁ PLOCHA",
             "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
             "lv_number": "949",
             "share": "50%"
           },
           {
-            "type": "OSTATNÁ PLOCHA",
+            "type": "REKREAČNÁ CHATA",
+            "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
+            "lv_number": "1230",
+            "share": "50%"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA",
             "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
             "lv_number": "949",
             "share": "50%"
@@ -624,6 +617,17 @@
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S. BRATISLAVA)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 59329,
@@ -653,12 +657,6 @@
                 "share": "50%"
               },
               {
-                "type": "REKREAČNÁ CHATA",
-                "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
-                "lv_number": "1230",
-                "share": "50%"
-              },
-              {
                 "type": "INÉ POZEMKY",
                 "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
                 "lv_number": "1230",
@@ -669,6 +667,12 @@
                 "cadastral_territory": "NIVY, SPOLUVLASTNÍCKY PODIEL",
                 "lv_number": "PARC. Č. 11244/71,76,77,78,79,81,82,84,85,86/PARK.STÁTIE",
                 "share": "50%"
+              },
+              {
+                "type": "REKREAČNÁ CHATA",
+                "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
+                "lv_number": "1230",
+                "share": "50%"
               }
             ],
             "new": [
@@ -676,12 +680,6 @@
                 "type": "BYT",
                 "cadastral_territory": "NIVY",
                 "lv_number": "2286",
-                "share": "50%"
-              },
-              {
-                "type": "REKREAČNÁ CHATA",
-                "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
-                "lv_number": "1230",
                 "share": "50%"
               },
               {
@@ -697,13 +695,19 @@
                 "share": "50%"
               },
               {
-                "type": "ZASTAVANÁ PLOCHA",
+                "type": "OSTATNÁ PLOCHA",
                 "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
                 "lv_number": "949",
                 "share": "50%"
               },
               {
-                "type": "OSTATNÁ PLOCHA",
+                "type": "REKREAČNÁ CHATA",
+                "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
+                "lv_number": "1230",
+                "share": "50%"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA",
                 "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
                 "lv_number": "949",
                 "share": "50%"
@@ -718,19 +722,19 @@
               {
                 "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
                 "brand": "OPEL",
-                "year_of_manufacture": 2019,
-                "share": "50%"
-              },
-              {
-                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "OPEL",
-                "year_of_manufacture": 2019,
-                "share": "50%"
-              },
-              {
-                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "OPEL",
                 "year_of_manufacture": 2007,
+                "share": "50%"
+              },
+              {
+                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+                "brand": "OPEL",
+                "year_of_manufacture": 2019,
+                "share": "50%"
+              },
+              {
+                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+                "brand": "OPEL",
+                "year_of_manufacture": 2019,
                 "share": "50%"
               }
             ],
@@ -780,7 +784,11 @@
         "name": "Ing. MILAN HORVÁTH",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S. )člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+        "public_function": "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S. )",
+        "public_functions": [
+          "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S. )"
+        ],
         "income": {
           "public_function": 55312,
           "other": 74884
@@ -797,14 +805,14 @@
             "share": "50%"
           },
           {
-            "type": "REKREAČNÁ CHATA",
-            "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
+            "type": "INÉ POZEMKY",
+            "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
             "lv_number": "1230",
             "share": "50%"
           },
           {
-            "type": "INÉ POZEMKY",
-            "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
+            "type": "REKREAČNÁ CHATA",
+            "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
             "lv_number": "1230",
             "share": "50%"
           }
@@ -842,7 +850,19 @@
           {
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)",
-            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S. )člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+            "new": "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S. )"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+            ],
+            "new": [
+              "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S. )"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -874,12 +894,6 @@
                 "share": "50%"
               },
               {
-                "type": "REKREAČNÁ CHATA",
-                "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
-                "lv_number": "1230",
-                "share": "50%"
-              },
-              {
                 "type": "INÉ POZEMKY",
                 "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
                 "lv_number": "1230",
@@ -892,13 +906,19 @@
                 "share": "50%"
               },
               {
-                "type": "ZASTAVANÁ PLOCHA",
+                "type": "OSTATNÁ PLOCHA",
                 "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
                 "lv_number": "949",
                 "share": "50%"
               },
               {
-                "type": "OSTATNÁ PLOCHA",
+                "type": "REKREAČNÁ CHATA",
+                "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
+                "lv_number": "1230",
+                "share": "50%"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA",
                 "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
                 "lv_number": "949",
                 "share": "50%"
@@ -912,14 +932,14 @@
                 "share": "50%"
               },
               {
-                "type": "REKREAČNÁ CHATA",
-                "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
+                "type": "INÉ POZEMKY",
+                "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
                 "lv_number": "1230",
                 "share": "50%"
               },
               {
-                "type": "INÉ POZEMKY",
-                "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
+                "type": "REKREAČNÁ CHATA",
+                "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
                 "lv_number": "1230",
                 "share": "50%"
               }
@@ -951,7 +971,11 @@
         "name": "Ing. MILAN HORVÁTH",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+        "public_function": "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)",
+        "public_functions": [
+          "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+        ],
         "income": {
           "public_function": 139339,
           "other": 0
@@ -968,14 +992,14 @@
             "share": "50%"
           },
           {
-            "type": "REKREAČNÁ CHATA",
-            "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
+            "type": "INÉ POZEMKY",
+            "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
             "lv_number": "1230",
             "share": "50%"
           },
           {
-            "type": "INÉ POZEMKY",
-            "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
+            "type": "REKREAČNÁ CHATA",
+            "cadastral_territory": "PLAVECKÝ ŠTVRTOK I.",
             "lv_number": "1230",
             "share": "50%"
           }
@@ -1012,8 +1036,21 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S. )člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
-            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+            "old": "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S. )",
+            "new": "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S. )"
+            ],
+            "new": [
+              "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+            ],
+            "old_count": 2,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -1047,58 +1084,19 @@
       }
     }
   ],
-  "total_changes": 29,
+  "total_changes": 33,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Horvmila.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Horvmila.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Horvmila.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Horvmila.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S. )člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 55312,
-            "other": 74884
-          },
-          "new": {
-            "public_function": 139339,
-            "other": 0
-          },
-          "old_total": 130196,
-          "new_total": 139339,
-          "delta": 9143,
-          "delta_pct": 7.0
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "VKLADY V BANKE, BEŽNÝ ÚČET, PODIELOVÉ FONDY V BANKE., podiel: 50%",
-            "ŽIVOTNÉ POISTENIE OSOBNÉ, ŽIVOTNÉ POISTENIE MANŽELKY,, podiel: 50%"
-          ],
-          "new": [
-            "VKLADY V BANKE, BEŽNÝ ÚČET, PODIELOVÉ FONDY V BANKE,\r\nASSET MANAGEMENT V BANKE, podiel: 50%",
-            "ŽIVOTNÉ POISTENIE OSOBNÉ, ŽIVOTNÉ POISTENIE MANŽELKY,\r\nDOPLNKOVÉ DÔCHODKOVÉ SPORENIE, podiel: 50%"
-          ],
-          "old_count": 2,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 130 196 € → 139 339 € (+9 143 €)",
-      "Majetkové práva: 2 → 2 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-milan-horvath",
   "context": {
@@ -1108,7 +1106,7 @@
     "obligations": 1,
     "income_percentile": 94,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 7.7

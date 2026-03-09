@@ -2,6 +2,9 @@
   "user_id": "Stanislav.Sisulak",
   "name": "doc.Ing. Stanislav Šišulák, PhD.MBA",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AKADÉMIA POLICAJNÉHO ZBORU V BRATISLAVE)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AKADÉMIA POLICAJNÉHO ZBORU V BRATISLAVE)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AKADÉMIA POLICAJNÉHO ZBORU V BRATISLAVE)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AKADÉMIA POLICAJNÉHO ZBORU V BRATISLAVE)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AKADÉMIA POLICAJNÉHO ZBORU V BRATISLAVE)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -27,13 +33,13 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "BYT Č.9",
+            "type": "BYT Č.10",
             "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
             "lv_number": "6349",
             "share": "1/1"
           },
           {
-            "type": "BYT Č.10",
+            "type": "BYT Č.9",
             "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
             "lv_number": "6349",
             "share": "1/1"
@@ -63,6 +69,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AKADÉMIA POLICAJNÉHO ZBORU V BRATISLAVE)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AKADÉMIA POLICAJNÉHO ZBORU V BRATISLAVE)"
+        ],
         "income": {
           "public_function": 48508,
           "other": 6771
@@ -122,13 +131,13 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "BYT Č.9",
+                "type": "BYT Č.10",
                 "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
                 "lv_number": "6349",
                 "share": "1/1"
               },
               {
-                "type": "BYT Č.10",
+                "type": "BYT Č.9",
                 "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
                 "lv_number": "6349",
                 "share": "1/1"
@@ -157,75 +166,17 @@
   ],
   "total_changes": 3,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Stanislav.Sisulak.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Stanislav.Sisulak.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Stanislav.Sisulak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Stanislav.Sisulak.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 48508,
-            "other": 6771
-          },
-          "old_total": 0,
-          "new_total": 55279,
-          "delta": 55279
-        },
-        {
-          "field": "employment",
-          "old": "AKADÉMIA POLICAJNÉHO ZBORU V BRATISLAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "UNIVERZITA KOMENSKÉHO V BRATISLAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO INVESTÍCIÍ, REGIONÁLNEHO ROZVOJA A INFORMATIZÁCIE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT Č.9",
-              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-              "lv_number": "6349",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT Č.10",
-              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-              "lv_number": "6349",
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-              "lv_number": "6349",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-              "lv_number": "6349",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 55 279 € (+55 279 €)",
-      "Zamestnanie",
-      "Nehnuteľnosti: 2 → 2 (0)"
-    ]
+    "summary": []
   },
   "slug": "doc-ing-stanislav-sisulak-phd-mba",
   "context": {
@@ -235,7 +186,7 @@
     "obligations": 1,
     "income_percentile": 56,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.1

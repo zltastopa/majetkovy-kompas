@@ -2,6 +2,9 @@
   "user_id": "Richard.Smida",
   "name": "JUDr. Richard Šmída",
   "public_function": "generálny riaditeľ Slovenského pozemkového fondu",
+  "public_functions": [
+    "generálny riaditeľ Slovenského pozemkového fondu"
+  ],
   "role": "generálny riaditeľ Slovenského pozemkového fondu",
   "years": [
     2021,
@@ -19,6 +22,9 @@
         "year": 2021,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen Rady Slovenského pozemkového fondu",
+        "public_functions": [
+          "člen Rady Slovenského pozemkového fondu"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -59,6 +65,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen Rady Slovenského pozemkového fondu",
+        "public_functions": [
+          "člen Rady Slovenského pozemkového fondu"
+        ],
         "income": {
           "public_function": 5124,
           "other": 0
@@ -69,13 +78,13 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
+            "type": "POZEMKY",
             "cadastral_territory": "SOKOĽ",
             "lv_number": "1042",
             "share": "1/1 BSM"
           },
           {
-            "type": "POZEMKY",
+            "type": "RODINNÝ DOM",
             "cadastral_territory": "SOKOĽ",
             "lv_number": "1042",
             "share": "1/1 BSM"
@@ -121,13 +130,13 @@
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM",
+                "type": "POZEMKY",
                 "cadastral_territory": "SOKOĽ",
                 "lv_number": "1042",
                 "share": "1/1 BSM"
               },
               {
-                "type": "POZEMKY",
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "SOKOĽ",
                 "lv_number": "1042",
                 "share": "1/1 BSM"
@@ -148,6 +157,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "generálny riaditeľ Slovenského pozemkového fondu",
+        "public_functions": [
+          "generálny riaditeľ Slovenského pozemkového fondu"
+        ],
         "income": {
           "public_function": 15613,
           "other": 0
@@ -158,13 +170,13 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
+            "type": "POZEMKY",
             "cadastral_territory": "SOKOĽ",
             "lv_number": "1042",
             "share": "1/1 BSM"
           },
           {
-            "type": "POZEMKY",
+            "type": "RODINNÝ DOM",
             "cadastral_territory": "SOKOĽ",
             "lv_number": "1042",
             "share": "1/1 BSM"
@@ -188,6 +200,17 @@
             "field": "public_function",
             "old": "člen Rady Slovenského pozemkového fondu",
             "new": "generálny riaditeľ Slovenského pozemkového fondu"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen Rady Slovenského pozemkového fondu"
+            ],
+            "new": [
+              "generálny riaditeľ Slovenského pozemkového fondu"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -216,6 +239,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "generálny riaditeľ Slovenského pozemkového fondu",
+        "public_functions": [
+          "generálny riaditeľ Slovenského pozemkového fondu"
+        ],
         "income": {
           "public_function": 77118,
           "other": 0
@@ -280,13 +306,13 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
+                "type": "POZEMKY",
                 "cadastral_territory": "SOKOĽ",
                 "lv_number": "1042",
                 "share": "1/1 BSM"
               },
               {
-                "type": "POZEMKY",
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "SOKOĽ",
                 "lv_number": "1042",
                 "share": "1/1 BSM"
@@ -342,103 +368,19 @@
       }
     }
   ],
-  "total_changes": 8,
+  "total_changes": 9,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Richard.Smida.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Richard.Smida.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Richard.Smida.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Richard.Smida.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 15613,
-            "other": 0
-          },
-          "new": {
-            "public_function": 77118,
-            "other": 0
-          },
-          "old_total": 15613,
-          "new_total": 77118,
-          "delta": 61505,
-          "delta_pct": 393.9
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "SOKOĽ",
-              "lv_number": "1042",
-              "share": "1/1 BSM"
-            },
-            {
-              "type": "POZEMKY",
-              "cadastral_territory": "SOKOĽ",
-              "lv_number": "1042",
-              "share": "1/1 BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "SOKOĽ",
-              "lv_number": "1042",
-              "share": "1/1"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "ŠAMORÍN",
-              "lv_number": "4626",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        },
-        {
-          "field": "movable_property",
-          "old": null,
-          "new": [
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "BMW",
-              "year_of_manufacture": 2015,
-              "share": "1/1"
-            }
-          ]
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "žiadny"
-            }
-          ],
-          "new": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "1/1",
-              "date": "30. 08. 2024"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 15 613 € → 77 118 € (+61 505 €)",
-      "Nehnuteľnosti: 2 → 2 (0)",
-      "Hnuteľný majetok",
-      "Záväzky: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "judr-richard-smida",
   "context": {
@@ -448,7 +390,7 @@
     "obligations": 1,
     "income_percentile": 77,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.3

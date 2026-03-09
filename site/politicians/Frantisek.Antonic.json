@@ -2,6 +2,9 @@
   "user_id": "Frantisek.Antonic",
   "name": "JUDr. František Antonič",
   "public_function": "člen Rady Slovenského pozemkového fondu",
+  "public_functions": [
+    "člen Rady Slovenského pozemkového fondu"
+  ],
   "role": "člen Rady Slovenského pozemkového fondu",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen Rady Slovenského pozemkového fondu",
+        "public_functions": [
+          "člen Rady Slovenského pozemkového fondu"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -26,12 +32,6 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
-          {
-            "type": "RODINNÝ DOM A PRIĽAHLÉ POZEMKY",
-            "cadastral_territory": "MICHALOVCE",
-            "lv_number": "2128",
-            "share": "4/10"
-          },
           {
             "type": "BYT A PRIĽAHLÉ POZEMKY",
             "cadastral_territory": "STRÁŇANY",
@@ -43,6 +43,12 @@
             "cadastral_territory": "STRÁŇANY",
             "lv_number": "7746",
             "share": "1/1 V BSM"
+          },
+          {
+            "type": "RODINNÝ DOM A PRIĽAHLÉ POZEMKY",
+            "cadastral_territory": "MICHALOVCE",
+            "lv_number": "2128",
+            "share": "4/10"
           }
         ],
         "movable_property": [
@@ -82,6 +88,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen Rady Slovenského pozemkového fondu",
+        "public_functions": [
+          "člen Rady Slovenského pozemkového fondu"
+        ],
         "income": {
           "public_function": 10356,
           "other": 0
@@ -91,12 +100,6 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
-          {
-            "type": "RODINNÝ DOM A PRIĽAHLÉ POZEMKY",
-            "cadastral_territory": "MICHALOVCE",
-            "lv_number": "2128",
-            "share": "4/10"
-          },
           {
             "type": "BYT A PRIĽAHLÉ POZEMKY",
             "cadastral_territory": "STRÁŇANY",
@@ -108,6 +111,12 @@
             "cadastral_territory": "STRÁŇANY",
             "lv_number": "7746",
             "share": "1/1 V BSM"
+          },
+          {
+            "type": "RODINNÝ DOM A PRIĽAHLÉ POZEMKY",
+            "cadastral_territory": "MICHALOVCE",
+            "lv_number": "2128",
+            "share": "4/10"
           }
         ],
         "movable_property": [
@@ -176,55 +185,17 @@
   ],
   "total_changes": 2,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Frantisek.Antonic.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Frantisek.Antonic.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Frantisek.Antonic.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Frantisek.Antonic.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 10356,
-            "other": 0
-          },
-          "old_total": 0,
-          "new_total": 10356,
-          "delta": 10356
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "ZÁLOŽNÉ PRÁVO V PROSPECH BANKY",
-              "share": "1/1 BSM",
-              "date": "28. 03. 2022"
-            }
-          ],
-          "new": [
-            {
-              "type": "ZÁLOŽNÉ PRÁVO V PROSPECH BANKY",
-              "share": "1/1 V BSM",
-              "date": "28. 03. 2022"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 10 356 € (+10 356 €)",
-      "Záväzky: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "judr-frantisek-antonic",
   "context": {
@@ -234,7 +205,7 @@
     "obligations": 1,
     "income_percentile": 20,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0.6

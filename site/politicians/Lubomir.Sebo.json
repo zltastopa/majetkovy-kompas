@@ -2,6 +2,9 @@
   "user_id": "Lubomir.Sebo",
   "name": "Ing. Ľubomír Šebo",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S. DUBNICA NAD VÁHOM)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S. DUBNICA NAD VÁHOM)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S. DUBNICA NAD VÁHOM)",
   "years": [
     2020,
@@ -20,6 +23,9 @@
         "year": 2020,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S. DUBNICA NAD VÁHOM)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S. DUBNICA NAD VÁHOM)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -83,6 +89,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING A.S. DUBNICA NAD VÁHOM)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING A.S. DUBNICA NAD VÁHOM)"
+        ],
         "income": {
           "public_function": 2490,
           "other": 0
@@ -142,6 +151,17 @@
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING A.S. DUBNICA NAD VÁHOM)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S. DUBNICA NAD VÁHOM)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING A.S. DUBNICA NAD VÁHOM)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 0,
@@ -167,6 +187,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S., DUBNICA NAD VÁHOM)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S., DUBNICA NAD VÁHOM)"
+        ],
         "income": {
           "public_function": 16041,
           "other": 0
@@ -177,10 +200,22 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "TRVALÝ TRÁVNY PORAST",
+            "type": "BYT",
+            "cadastral_territory": "ŽILINA",
+            "lv_number": "4700",
+            "share": "BSM 1/1"
+          },
+          {
+            "type": "DOM",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "961",
-            "share": "1/160"
+            "lv_number": "229",
+            "share": "5/200"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "HORNÉ LEFANTOVCE",
+            "lv_number": "1086",
+            "share": "3/8"
           },
           {
             "type": "ORNÁ PÔDA",
@@ -207,70 +242,34 @@
             "share": "5/200"
           },
           {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "HORNÉ LEFANTOVCE",
+            "lv_number": "300",
+            "share": "5/200"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "HORNÉ LEFANTOVCE",
+            "lv_number": "300",
+            "share": "5/200"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "HORNÉ LEFANTOVCE",
+            "lv_number": "300",
+            "share": "5/200"
+          },
+          {
             "type": "TRVALÝ TRÁVNY PORAST",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
             "lv_number": "300",
             "share": "5/200"
           },
           {
-            "type": "ORNÁ PÔDA",
+            "type": "TRVALÝ TRÁVNY PORAST",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "1086",
-            "share": "3/8"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "229",
-            "share": "5/200"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "229",
-            "share": "5/200"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "ŽILINA",
-            "lv_number": "4700",
-            "share": "BSM 1/1"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE V PODIELE 460/10000",
-            "cadastral_territory": "ŽILINA",
-            "lv_number": "4700",
-            "share": "BSM 1/1"
-          },
-          {
-            "type": "ZÁHRADNÁ CHATKA",
-            "cadastral_territory": "TRNOVÉ",
-            "lv_number": "2072",
-            "share": "1/1"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "300",
-            "share": "5/200"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "300",
-            "share": "5/200"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "300",
-            "share": "5/200"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁVORIE",
-            "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "229",
-            "share": "5/200"
+            "lv_number": "961",
+            "share": "1/160"
           },
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -279,10 +278,34 @@
             "share": "5/200"
           },
           {
-            "type": "DOM",
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE V PODIELE 460/10000",
+            "cadastral_territory": "ŽILINA",
+            "lv_number": "4700",
+            "share": "BSM 1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁVORIE",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
             "lv_number": "229",
             "share": "5/200"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "HORNÉ LEFANTOVCE",
+            "lv_number": "229",
+            "share": "5/200"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "HORNÉ LEFANTOVCE",
+            "lv_number": "229",
+            "share": "5/200"
+          },
+          {
+            "type": "ZÁHRADNÁ CHATKA",
+            "cadastral_territory": "TRNOVÉ",
+            "lv_number": "2072",
+            "share": "1/1"
           }
         ],
         "movable_property": null,
@@ -307,6 +330,17 @@
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING A.S. DUBNICA NAD VÁHOM)",
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S., DUBNICA NAD VÁHOM)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING A.S. DUBNICA NAD VÁHOM)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S., DUBNICA NAD VÁHOM)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -341,10 +375,22 @@
             ],
             "new": [
               {
-                "type": "TRVALÝ TRÁVNY PORAST",
+                "type": "BYT",
+                "cadastral_territory": "ŽILINA",
+                "lv_number": "4700",
+                "share": "BSM 1/1"
+              },
+              {
+                "type": "DOM",
                 "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "961",
-                "share": "1/160"
+                "lv_number": "229",
+                "share": "5/200"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "1086",
+                "share": "3/8"
               },
               {
                 "type": "ORNÁ PÔDA",
@@ -371,70 +417,34 @@
                 "share": "5/200"
               },
               {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "300",
+                "share": "5/200"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "300",
+                "share": "5/200"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "300",
+                "share": "5/200"
+              },
+              {
                 "type": "TRVALÝ TRÁVNY PORAST",
                 "cadastral_territory": "HORNÉ LEFANTOVCE",
                 "lv_number": "300",
                 "share": "5/200"
               },
               {
-                "type": "ORNÁ PÔDA",
+                "type": "TRVALÝ TRÁVNY PORAST",
                 "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "1086",
-                "share": "3/8"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4700",
-                "share": "BSM 1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE V PODIELE 460/10000",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4700",
-                "share": "BSM 1/1"
-              },
-              {
-                "type": "ZÁHRADNÁ CHATKA",
-                "cadastral_territory": "TRNOVÉ",
-                "lv_number": "2072",
-                "share": "1/1"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁVORIE",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
+                "lv_number": "961",
+                "share": "1/160"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -443,10 +453,34 @@
                 "share": "5/200"
               },
               {
-                "type": "DOM",
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE V PODIELE 460/10000",
+                "cadastral_territory": "ŽILINA",
+                "lv_number": "4700",
+                "share": "BSM 1/1"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁVORIE",
                 "cadastral_territory": "HORNÉ LEFANTOVCE",
                 "lv_number": "229",
                 "share": "5/200"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "229",
+                "share": "5/200"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "229",
+                "share": "5/200"
+              },
+              {
+                "type": "ZÁHRADNÁ CHATKA",
+                "cadastral_territory": "TRNOVÉ",
+                "lv_number": "2072",
+                "share": "1/1"
               }
             ],
             "old_count": 2,
@@ -482,6 +516,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S.)"
+        ],
         "income": {
           "public_function": 20000,
           "other": 0
@@ -498,16 +535,10 @@
             "share": "BSM 1/1"
           },
           {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE V PODIELE 460/10000",
-            "cadastral_territory": "ŽILINA",
-            "lv_number": "4700",
-            "share": "BSM 1/1"
-          },
-          {
-            "type": "ZÁHRADNÁ CHATKA",
-            "cadastral_territory": "TRNOVÉ",
-            "lv_number": "2072",
-            "share": "1/1"
+            "type": "DOM",
+            "cadastral_territory": "HORNÉ LEFANTOVCE",
+            "lv_number": "229",
+            "share": "5/200"
           },
           {
             "type": "ORNÁ PÔDA",
@@ -516,34 +547,16 @@
             "share": "3/8"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "229",
-            "share": "5/200"
+            "lv_number": "1086",
+            "share": "3/8"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "229",
-            "share": "5/200"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁVORIE",
-            "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "229",
-            "share": "5/200"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "229",
-            "share": "5/200"
-          },
-          {
-            "type": "DOM",
-            "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "229",
-            "share": "5/200"
+            "lv_number": "1218",
+            "share": "1/4"
           },
           {
             "type": "ORNÁ PÔDA",
@@ -588,16 +601,40 @@
             "share": "1/160"
           },
           {
-            "type": "ORNÁ PÔDA",
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "1086",
-            "share": "3/8"
+            "lv_number": "229",
+            "share": "5/200"
           },
           {
-            "type": "ORNÁ PÔDA",
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE V PODIELE 460/10000",
+            "cadastral_territory": "ŽILINA",
+            "lv_number": "4700",
+            "share": "BSM 1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁVORIE",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "1218",
-            "share": "1/4"
+            "lv_number": "229",
+            "share": "5/200"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "HORNÉ LEFANTOVCE",
+            "lv_number": "229",
+            "share": "5/200"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "HORNÉ LEFANTOVCE",
+            "lv_number": "229",
+            "share": "5/200"
+          },
+          {
+            "type": "ZÁHRADNÁ CHATKA",
+            "cadastral_territory": "TRNOVÉ",
+            "lv_number": "2072",
+            "share": "1/1"
           }
         ],
         "movable_property": null,
@@ -624,6 +661,17 @@
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S., DUBNICA NAD VÁHOM)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 16041,
@@ -637,231 +685,6 @@
             "new_total": 20000,
             "delta": 3959,
             "delta_pct": 24.7
-          },
-          {
-            "field": "real_estate",
-            "old": [
-              {
-                "type": "TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "961",
-                "share": "1/160"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "1086",
-                "share": "3/8"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "1218",
-                "share": "1/4"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "1086",
-                "share": "3/8"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4700",
-                "share": "BSM 1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE V PODIELE 460/10000",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4700",
-                "share": "BSM 1/1"
-              },
-              {
-                "type": "ZÁHRADNÁ CHATKA",
-                "cadastral_territory": "TRNOVÉ",
-                "lv_number": "2072",
-                "share": "1/1"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁVORIE",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
-              },
-              {
-                "type": "DOM",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
-              }
-            ],
-            "new": [
-              {
-                "type": "BYT",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4700",
-                "share": "BSM 1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE V PODIELE 460/10000",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4700",
-                "share": "BSM 1/1"
-              },
-              {
-                "type": "ZÁHRADNÁ CHATKA",
-                "cadastral_territory": "TRNOVÉ",
-                "lv_number": "2072",
-                "share": "1/1"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "1086",
-                "share": "3/8"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁVORIE",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
-              },
-              {
-                "type": "DOM",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "961",
-                "share": "1/160"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "1086",
-                "share": "3/8"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "1218",
-                "share": "1/4"
-              }
-            ],
-            "old_count": 18,
-            "new_count": 18
           },
           {
             "field": "obligations",
@@ -894,6 +717,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S. DUBNICA NAD VÁHOM)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S. DUBNICA NAD VÁHOM)"
+        ],
         "income": {
           "public_function": 28450,
           "other": 0
@@ -904,10 +730,22 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "TRVALÝ TRÁVNY PORAST",
+            "type": "BYT",
+            "cadastral_territory": "ŽILINA",
+            "lv_number": "4700",
+            "share": "BSM 1/1"
+          },
+          {
+            "type": "DOM",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "961",
-            "share": "1/160"
+            "lv_number": "229",
+            "share": "5/200"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "HORNÉ LEFANTOVCE",
+            "lv_number": "1086",
+            "share": "3/8"
           },
           {
             "type": "ORNÁ PÔDA",
@@ -934,7 +772,7 @@
             "share": "5/200"
           },
           {
-            "type": "TRVALÝ TRÁVNY PORAST",
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
             "lv_number": "300",
             "share": "5/200"
@@ -942,26 +780,32 @@
           {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "1086",
-            "share": "3/8"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "229",
+            "lv_number": "300",
             "share": "5/200"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "ORNÁ PÔDA",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "229",
+            "lv_number": "300",
             "share": "5/200"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "ŽILINA",
-            "lv_number": "4700",
-            "share": "BSM 1/1"
+            "type": "TRVALÝ TRÁVNY PORAST",
+            "cadastral_territory": "HORNÉ LEFANTOVCE",
+            "lv_number": "300",
+            "share": "5/200"
+          },
+          {
+            "type": "TRVALÝ TRÁVNY PORAST",
+            "cadastral_territory": "HORNÉ LEFANTOVCE",
+            "lv_number": "961",
+            "share": "1/160"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "HORNÉ LEFANTOVCE",
+            "lv_number": "229",
+            "share": "5/200"
           },
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -970,46 +814,28 @@
             "share": "BSM 460/10000"
           },
           {
-            "type": "ZÁHRADNÁ CHATKA",
-            "cadastral_territory": "TRNOVÉ",
-            "lv_number": "2072",
-            "share": "1/1"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "300",
-            "share": "5/200"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "300",
-            "share": "5/200"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "HORNÉ LEFANTOVCE",
-            "lv_number": "300",
-            "share": "5/200"
-          },
-          {
             "type": "ZASTAVANÁ PLOCHA A NÁVORIE",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
             "lv_number": "229",
             "share": "5/200"
           },
           {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "type": "ZÁHRADA",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
             "lv_number": "229",
             "share": "5/200"
           },
           {
-            "type": "DOM",
+            "type": "ZÁHRADA",
             "cadastral_territory": "HORNÉ LEFANTOVCE",
             "lv_number": "229",
             "share": "5/200"
+          },
+          {
+            "type": "ZÁHRADNÁ CHATKA",
+            "cadastral_territory": "TRNOVÉ",
+            "lv_number": "2072",
+            "share": "1/1"
           }
         ],
         "movable_property": null,
@@ -1036,6 +862,17 @@
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S. DUBNICA NAD VÁHOM)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S.)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S. DUBNICA NAD VÁHOM)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 20000,
@@ -1060,16 +897,10 @@
                 "share": "BSM 1/1"
               },
               {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE V PODIELE 460/10000",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4700",
-                "share": "BSM 1/1"
-              },
-              {
-                "type": "ZÁHRADNÁ CHATKA",
-                "cadastral_territory": "TRNOVÉ",
-                "lv_number": "2072",
-                "share": "1/1"
+                "type": "DOM",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "229",
+                "share": "5/200"
               },
               {
                 "type": "ORNÁ PÔDA",
@@ -1078,16 +909,70 @@
                 "share": "3/8"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "1086",
+                "share": "3/8"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "1218",
+                "share": "1/4"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "300",
+                "share": "5/200"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "300",
+                "share": "5/200"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "300",
+                "share": "5/200"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "300",
+                "share": "5/200"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "300",
+                "share": "5/200"
+              },
+              {
+                "type": "TRVALÝ TRÁVNY PORAST",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "300",
+                "share": "5/200"
+              },
+              {
+                "type": "TRVALÝ TRÁVNY PORAST",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "961",
+                "share": "1/160"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "HORNÉ LEFANTOVCE",
                 "lv_number": "229",
                 "share": "5/200"
               },
               {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE V PODIELE 460/10000",
+                "cadastral_territory": "ŽILINA",
+                "lv_number": "4700",
+                "share": "BSM 1/1"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁVORIE",
@@ -1096,10 +981,30 @@
                 "share": "5/200"
               },
               {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "type": "ZÁHRADA",
                 "cadastral_territory": "HORNÉ LEFANTOVCE",
                 "lv_number": "229",
                 "share": "5/200"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "229",
+                "share": "5/200"
+              },
+              {
+                "type": "ZÁHRADNÁ CHATKA",
+                "cadastral_territory": "TRNOVÉ",
+                "lv_number": "2072",
+                "share": "1/1"
+              }
+            ],
+            "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "ŽILINA",
+                "lv_number": "4700",
+                "share": "BSM 1/1"
               },
               {
                 "type": "DOM",
@@ -1110,6 +1015,24 @@
               {
                 "type": "ORNÁ PÔDA",
                 "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "1086",
+                "share": "3/8"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "1086",
+                "share": "3/8"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
+                "lv_number": "1218",
+                "share": "1/4"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "HORNÉ LEFANTOVCE",
                 "lv_number": "300",
                 "share": "5/200"
               },
@@ -1150,78 +1073,10 @@
                 "share": "1/160"
               },
               {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "1086",
-                "share": "3/8"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "1218",
-                "share": "1/4"
-              }
-            ],
-            "new": [
-              {
-                "type": "TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "961",
-                "share": "1/160"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "1086",
-                "share": "3/8"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "1218",
-                "share": "1/4"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "1086",
-                "share": "3/8"
-              },
-              {
-                "type": "ZÁHRADA",
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "HORNÉ LEFANTOVCE",
                 "lv_number": "229",
                 "share": "5/200"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "229",
-                "share": "5/200"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "ŽILINA",
-                "lv_number": "4700",
-                "share": "BSM 1/1"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -1230,46 +1085,28 @@
                 "share": "BSM 460/10000"
               },
               {
-                "type": "ZÁHRADNÁ CHATKA",
-                "cadastral_territory": "TRNOVÉ",
-                "lv_number": "2072",
-                "share": "1/1"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "HORNÉ LEFANTOVCE",
-                "lv_number": "300",
-                "share": "5/200"
-              },
-              {
                 "type": "ZASTAVANÁ PLOCHA A NÁVORIE",
                 "cadastral_territory": "HORNÉ LEFANTOVCE",
                 "lv_number": "229",
                 "share": "5/200"
               },
               {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "type": "ZÁHRADA",
                 "cadastral_territory": "HORNÉ LEFANTOVCE",
                 "lv_number": "229",
                 "share": "5/200"
               },
               {
-                "type": "DOM",
+                "type": "ZÁHRADA",
                 "cadastral_territory": "HORNÉ LEFANTOVCE",
                 "lv_number": "229",
                 "share": "5/200"
+              },
+              {
+                "type": "ZÁHRADNÁ CHATKA",
+                "cadastral_territory": "TRNOVÉ",
+                "lv_number": "2072",
+                "share": "1/1"
               }
             ],
             "old_count": 18,
@@ -1309,302 +1146,19 @@
       }
     }
   ],
-  "total_changes": 15,
+  "total_changes": 18,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lubomir.Sebo.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lubomir.Sebo.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Lubomir.Sebo.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Lubomir.Sebo.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S.)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZVS HOLDING, A.S. DUBNICA NAD VÁHOM)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 20000,
-            "other": 0
-          },
-          "new": {
-            "public_function": 28450,
-            "other": 0
-          },
-          "old_total": 20000,
-          "new_total": 28450,
-          "delta": 8450,
-          "delta_pct": 42.2
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "ŽILINA",
-              "lv_number": "4700",
-              "share": "BSM 1/1"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE V PODIELE 460/10000",
-              "cadastral_territory": "ŽILINA",
-              "lv_number": "4700",
-              "share": "BSM 1/1"
-            },
-            {
-              "type": "ZÁHRADNÁ CHATKA",
-              "cadastral_territory": "TRNOVÉ",
-              "lv_number": "2072",
-              "share": "1/1"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "1086",
-              "share": "3/8"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "229",
-              "share": "5/200"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "229",
-              "share": "5/200"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁVORIE",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "229",
-              "share": "5/200"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "229",
-              "share": "5/200"
-            },
-            {
-              "type": "DOM",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "229",
-              "share": "5/200"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "300",
-              "share": "5/200"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "300",
-              "share": "5/200"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "300",
-              "share": "5/200"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "300",
-              "share": "5/200"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "300",
-              "share": "5/200"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "300",
-              "share": "5/200"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "961",
-              "share": "1/160"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "1086",
-              "share": "3/8"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "1218",
-              "share": "1/4"
-            }
-          ],
-          "new": [
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "961",
-              "share": "1/160"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "1086",
-              "share": "3/8"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "1218",
-              "share": "1/4"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "300",
-              "share": "5/200"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "300",
-              "share": "5/200"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "300",
-              "share": "5/200"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "1086",
-              "share": "3/8"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "229",
-              "share": "5/200"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "229",
-              "share": "5/200"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "ŽILINA",
-              "lv_number": "4700",
-              "share": "BSM 1/1"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "ŽILINA",
-              "lv_number": "4700",
-              "share": "BSM 460/10000"
-            },
-            {
-              "type": "ZÁHRADNÁ CHATKA",
-              "cadastral_territory": "TRNOVÉ",
-              "lv_number": "2072",
-              "share": "1/1"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "300",
-              "share": "5/200"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "300",
-              "share": "5/200"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "300",
-              "share": "5/200"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁVORIE",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "229",
-              "share": "5/200"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "229",
-              "share": "5/200"
-            },
-            {
-              "type": "DOM",
-              "cadastral_territory": "HORNÉ LEFANTOVCE",
-              "lv_number": "229",
-              "share": "5/200"
-            }
-          ],
-          "old_count": 18,
-          "new_count": 18
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "PODIELOVÉ FONDY, podiel: BSM 1/1"
-          ],
-          "new": [
-            "OBCHODNÝ PODIEL V S.R.O., podiel: BSM 1/1"
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "ÚVER",
-              "share": "BSM 1/1",
-              "date": "02. 03. 2021"
-            }
-          ],
-          "new": [
-            {
-              "type": "ÚVER NA BYT",
-              "share": "BSM 1/1",
-              "date": "02. 03. 2021"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 20 000 € → 28 450 € (+8 450 €)",
-      "Nehnuteľnosti: 18 → 18 (0)",
-      "Majetkové práva: 1 → 1 (0)",
-      "Záväzky: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-lubomir-sebo",
   "context": {
@@ -1614,7 +1168,7 @@
     "obligations": 1,
     "income_percentile": 28,
     "property_percentile": 92,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.6

@@ -2,6 +2,9 @@
   "user_id": "Peter.Samko",
   "name": "JUDr. Peter Šamko",
   "public_function": "člen Súdnej rady Slovenskej republiky",
+  "public_functions": [
+    "člen Súdnej rady Slovenskej republiky"
+  ],
   "role": "člen Súdnej rady Slovenskej republiky",
   "years": [
     2022,
@@ -18,6 +21,9 @@
         "year": 2022,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen Súdnej rady Slovenskej republiky",
+        "public_functions": [
+          "člen Súdnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -74,6 +80,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen Súdnej rady Slovenskej republiky",
+        "public_functions": [
+          "člen Súdnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 0,
           "other": 83106
@@ -146,6 +155,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen Súdnej rady Slovenskej republiky",
+        "public_functions": [
+          "člen Súdnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 0,
           "other": 94455
@@ -155,18 +167,6 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
-          {
-            "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
-            "cadastral_territory": "STARÁ HUTA",
-            "lv_number": "118",
-            "share": "1/1"
-          },
-          {
-            "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
-            "cadastral_territory": "STARÁ HUTA",
-            "lv_number": "1",
-            "share": "1/1"
-          },
           {
             "type": "DOM",
             "cadastral_territory": "STUPAVA",
@@ -184,6 +184,18 @@
             "cadastral_territory": "STARÁ HUTA",
             "lv_number": "1564",
             "share": "1/8"
+          },
+          {
+            "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+            "cadastral_territory": "STARÁ HUTA",
+            "lv_number": "1",
+            "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+            "cadastral_territory": "STARÁ HUTA",
+            "lv_number": "118",
+            "share": "1/1"
           }
         ],
         "movable_property": null,
@@ -243,18 +255,6 @@
             ],
             "new": [
               {
-                "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
-                "cadastral_territory": "STARÁ HUTA",
-                "lv_number": "118",
-                "share": "1/1"
-              },
-              {
-                "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
-                "cadastral_territory": "STARÁ HUTA",
-                "lv_number": "1",
-                "share": "1/1"
-              },
-              {
                 "type": "DOM",
                 "cadastral_territory": "STUPAVA",
                 "lv_number": "187",
@@ -271,6 +271,18 @@
                 "cadastral_territory": "STARÁ HUTA",
                 "lv_number": "1564",
                 "share": "1/8"
+              },
+              {
+                "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+                "cadastral_territory": "STARÁ HUTA",
+                "lv_number": "1",
+                "share": "1/1"
+              },
+              {
+                "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+                "cadastral_territory": "STARÁ HUTA",
+                "lv_number": "118",
+                "share": "1/1"
               }
             ],
             "old_count": 3,
@@ -282,94 +294,17 @@
   ],
   "total_changes": 3,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Samko.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Samko.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Peter.Samko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Peter.Samko.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 83106
-          },
-          "new": {
-            "public_function": 0,
-            "other": 94455
-          },
-          "old_total": 83106,
-          "new_total": 94455,
-          "delta": 11349,
-          "delta_pct": 13.7
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "DOM",
-              "cadastral_territory": "STUPAVA",
-              "lv_number": "187",
-              "share": "1/2"
-            },
-            {
-              "type": "TRVALÉ TRÁVNATÉ PORASTY",
-              "cadastral_territory": "STARÁ HUTA",
-              "lv_number": "322",
-              "share": "1/4"
-            },
-            {
-              "type": "ZASTAVANÉ PLOCHY",
-              "cadastral_territory": "STARÁ HUTA",
-              "lv_number": "1564",
-              "share": "1/8"
-            }
-          ],
-          "new": [
-            {
-              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
-              "cadastral_territory": "STARÁ HUTA",
-              "lv_number": "118",
-              "share": "1/1"
-            },
-            {
-              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
-              "cadastral_territory": "STARÁ HUTA",
-              "lv_number": "1",
-              "share": "1/1"
-            },
-            {
-              "type": "DOM",
-              "cadastral_territory": "STUPAVA",
-              "lv_number": "187",
-              "share": "1/2"
-            },
-            {
-              "type": "TRVALÉ TRÁVNATÉ PORASTY",
-              "cadastral_territory": "STARÁ HUTA",
-              "lv_number": "322",
-              "share": "1/4"
-            },
-            {
-              "type": "ZASTAVANÉ PLOCHY",
-              "cadastral_territory": "STARÁ HUTA",
-              "lv_number": "1564",
-              "share": "1/8"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 5
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 83 106 € → 94 455 € (+11 349 €)",
-      "Nehnuteľnosti: 3 → 5 (+2)"
-    ]
+    "summary": []
   },
   "slug": "judr-peter-samko",
   "context": {
@@ -379,7 +314,7 @@
     "obligations": 1,
     "income_percentile": 85,
     "property_percentile": 66,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 5.2

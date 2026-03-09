@@ -2,6 +2,9 @@
   "user_id": "Peter.Kmec",
   "name": "JUDr. Peter Kmec",
   "public_function": "člen vlády Slovenskej republiky",
+  "public_functions": [
+    "člen vlády Slovenskej republiky"
+  ],
   "role": "člen vlády Slovenskej republiky",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "pri ujatí sa funkcie",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -68,6 +74,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 33528,
           "other": 0
@@ -169,6 +178,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 37914,
           "other": 0
@@ -244,6 +256,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 40639,
           "other": 0
@@ -318,7 +333,11 @@
         "name": "JUDr. PETER KMEC",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky",
+        "public_function": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky",
+          "člen vlády Slovenskej republiky"
+        ],
         "income": {
           "public_function": 54774,
           "other": 0
@@ -365,7 +384,19 @@
           {
             "field": "public_function",
             "old": "poslanec Národnej rady Slovenskej republiky",
-            "new": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky"
+            "new": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "poslanec Národnej rady Slovenskej republiky"
+            ],
+            "new": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "člen vlády Slovenskej republiky"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -399,6 +430,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen vlády Slovenskej republiky",
+        "public_functions": [
+          "člen vlády Slovenskej republiky"
+        ],
         "income": {
           "public_function": 62839,
           "other": 0
@@ -444,8 +478,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky",
+            "old": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky",
             "new": "člen vlády Slovenskej republiky"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "člen vlády Slovenskej republiky"
+            ],
+            "new": [
+              "člen vlády Slovenskej republiky"
+            ],
+            "old_count": 2,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -471,50 +517,19 @@
       }
     }
   ],
-  "total_changes": 13,
+  "total_changes": 15,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Kmec.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Kmec.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Peter.Kmec.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Peter.Kmec.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky",
-          "new": "člen vlády Slovenskej republiky"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 54774,
-            "other": 0
-          },
-          "new": {
-            "public_function": 62839,
-            "other": 0
-          },
-          "old_total": 54774,
-          "new_total": 62839,
-          "delta": 8065,
-          "delta_pct": 14.7
-        },
-        {
-          "field": "employment",
-          "old": "MINISTERSTVO ZAHRANIČNÝCH VECÍ A EURÓPSKYCH ZÁLEŽITOSTÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
-          "new": null
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 54 774 € → 62 839 € (+8 065 €)",
-      "Zamestnanie"
-    ]
+    "summary": []
   },
   "slug": "judr-peter-kmec",
   "context": {
@@ -524,7 +539,7 @@
     "obligations": 1,
     "income_percentile": 66,
     "property_percentile": 20,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.5

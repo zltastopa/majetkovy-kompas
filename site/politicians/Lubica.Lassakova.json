@@ -2,6 +2,9 @@
   "user_id": "Lubica.Lassakova",
   "name": "PhDr. Ľubica Laššáková",
   "public_function": "poslanec Národnej rady Slovenskej republiky",
+  "public_functions": [
+    "poslanec Národnej rady Slovenskej republiky"
+  ],
   "role": "poslanec Národnej rady Slovenskej republiky",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "člen vlády Slovenskej republiky",
+        "public_functions": [
+          "člen vlády Slovenskej republiky"
+        ],
         "income": {
           "public_function": 55229,
           "other": 0
@@ -62,7 +68,11 @@
         "name": "PhDr. ĽUBICA LAŠŠÁKOVÁ",
         "year": 2020,
         "filed": "k 30. aprílu",
-        "public_function": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky",
+        "public_function": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky",
+          "člen vlády Slovenskej republiky"
+        ],
         "income": {
           "public_function": 43825,
           "other": 0
@@ -98,7 +108,19 @@
           {
             "field": "public_function",
             "old": "člen vlády Slovenskej republiky",
-            "new": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky"
+            "new": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen vlády Slovenskej republiky"
+            ],
+            "new": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "člen vlády Slovenskej republiky"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -127,6 +149,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 36720,
           "other": 0
@@ -161,8 +186,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky",
+            "old": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky",
             "new": "poslanec Národnej rady Slovenskej republiky"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "člen vlády Slovenskej republiky"
+            ],
+            "new": [
+              "poslanec Národnej rady Slovenskej republiky"
+            ],
+            "old_count": 2,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -191,6 +228,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 34205,
           "other": 0
@@ -269,6 +309,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 47129,
           "other": 0
@@ -356,6 +399,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 50037,
           "other": 0
@@ -435,60 +481,19 @@
       }
     }
   ],
-  "total_changes": 10,
+  "total_changes": 12,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lubica.Lassakova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lubica.Lassakova.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Lubica.Lassakova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Lubica.Lassakova.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 47129,
-            "other": 0
-          },
-          "new": {
-            "public_function": 50037,
-            "other": 0
-          },
-          "old_total": 47129,
-          "new_total": 50037,
-          "delta": 2908,
-          "delta_pct": 6.2
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÉ",
-              "brand": "TOYOTA",
-              "year_of_manufacture": 2021,
-              "share": "BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "OSOBNÉ AUTO",
-              "brand": "TOYOTA",
-              "year_of_manufacture": 2021,
-              "share": "BSM"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 47 129 € → 50 037 € (+2 908 €)",
-      "Hnuteľný majetok: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "phdr-lubica-lassakova",
   "context": {
@@ -498,7 +503,7 @@
     "obligations": 1,
     "income_percentile": 49,
     "property_percentile": 20,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.8

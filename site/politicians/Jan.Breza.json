@@ -1,7 +1,10 @@
 {
   "user_id": "Jan.Breza",
   "name": "doc. MUDr. Ing. JÁN BREZA, PhD. MPH",
-  "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT,  A.S.)",
+  "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT,A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT,A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -37,16 +43,46 @@
         ],
         "real_estate": [
           {
+            "type": "BYT",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "1/1"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "1/163"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1/80"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1/80"
+          },
+          {
             "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
             "share": "1/2"
           },
           {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "1460/372810"
+            "share": "1/2"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1/2"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR - ZARIADENE ZDRAVOTNEJ  A SOCIÁLNEJ STAROSTLIVOSTI",
@@ -55,60 +91,6 @@
             "share": "1/2"
           },
           {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "13640/372810"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1/2"
-          },
-          {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1400/372810"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1/2"
-          },
-          {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1650/372810"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1/80"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1/80"
-          },
-          {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "111870/372810"
-          },
-          {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "111870/372810"
-          },
-          {
             "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7488",
@@ -125,12 +107,6 @@
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7488",
             "share": "1/2"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "1/1"
           },
           {
             "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
@@ -139,10 +115,40 @@
             "share": "6102/1830034"
           },
           {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "1/163"
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "13640/372810"
+          },
+          {
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1400/372810"
+          },
+          {
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1460/372810"
+          },
+          {
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1650/372810"
+          },
+          {
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "111870/372810"
+          },
+          {
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "111870/372810"
           },
           {
             "type": "SPOLOČNÝ PODIEL PRISLÚCHAJŮCI K NEBYTOVÉMU PRIESTORU (GARÁŽ)",
@@ -158,12 +164,12 @@
           }
         ],
         "property_rights": [
-          "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1",
-          "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽICKE, podiel: 1/1",
           "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
           "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
           "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-          "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+          "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+          "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽICKE, podiel: 1/1",
+          "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1"
         ],
         "obligations": [
           {
@@ -187,6 +193,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)"
+        ],
         "income": {
           "public_function": 13104,
           "other": 60895
@@ -203,16 +212,16 @@
         ],
         "real_estate": [
           {
-            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1/2"
+            "type": "BYT",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "1/1"
           },
           {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1650/372810"
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "1/163"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
@@ -221,10 +230,10 @@
             "share": "1/80"
           },
           {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "13640 / 372810"
+            "share": "1/80"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -233,22 +242,16 @@
             "share": "1/2"
           },
           {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1400/372810"
-          },
-          {
             "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
             "share": "1/2"
           },
           {
-            "type": "SPOLOČNÝPODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "1460/372810"
+            "share": "1/2"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR - ZARIADNEIA ZDRAVOTNEJ A SOCIALNEJ STAROSTLIVOSTI",
@@ -257,22 +260,28 @@
             "share": "1/2"
           },
           {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1/80"
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "6102/1830034"
           },
           {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "111870/372810"
+            "share": "13640 / 372810"
           },
           {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "111870/372810"
+            "share": "1400/372810"
+          },
+          {
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1650/372810"
           },
           {
             "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
@@ -281,22 +290,22 @@
             "share": "424800/1830034"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "1/1"
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "111870/372810"
           },
           {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "6102/1830034"
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "111870/372810"
           },
           {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "1/163"
+            "type": "SPOLOČNÝPODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1460/372810"
           },
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -324,12 +333,12 @@
           }
         ],
         "property_rights": [
-          "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU, podiel: 1/1",
-          "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
           "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
           "OBCHODNY PODIEL V S.R.O., podiel: 1/1",
           "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-          "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+          "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+          "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
+          "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU, podiel: 1/1"
         ],
         "obligations": [
           {
@@ -347,6 +356,17 @@
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT,A.S.)",
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT,A.S.)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -390,16 +410,46 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "BYT",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/1"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/163"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1/80"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1/80"
+              },
+              {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
                 "share": "1/2"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1460/372810"
+                "share": "1/2"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1/2"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - ZARIADENE ZDRAVOTNEJ  A SOCIÁLNEJ STAROSTLIVOSTI",
@@ -408,60 +458,6 @@
                 "share": "1/2"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "13640/372810"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
-              },
-              {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1400/372810"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
-              },
-              {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1650/372810"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/80"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/80"
-              },
-              {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "111870/372810"
-              },
-              {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "111870/372810"
-              },
-              {
                 "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7488",
@@ -478,12 +474,6 @@
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7488",
                 "share": "1/2"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/1"
               },
               {
                 "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
@@ -492,10 +482,40 @@
                 "share": "6102/1830034"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/163"
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "13640/372810"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1400/372810"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1460/372810"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1650/372810"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "111870/372810"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "111870/372810"
               },
               {
                 "type": "SPOLOČNÝ PODIEL PRISLÚCHAJŮCI K NEBYTOVÉMU PRIESTORU (GARÁŽ)",
@@ -506,16 +526,16 @@
             ],
             "new": [
               {
-                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
+                "type": "BYT",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/1"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1650/372810"
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/163"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
@@ -524,10 +544,10 @@
                 "share": "1/80"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "13640 / 372810"
+                "share": "1/80"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -536,22 +556,16 @@
                 "share": "1/2"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1400/372810"
-              },
-              {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
                 "share": "1/2"
               },
               {
-                "type": "SPOLOČNÝPODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1460/372810"
+                "share": "1/2"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - ZARIADNEIA ZDRAVOTNEJ A SOCIALNEJ STAROSTLIVOSTI",
@@ -560,22 +574,28 @@
                 "share": "1/2"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/80"
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "6102/1830034"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "111870/372810"
+                "share": "13640 / 372810"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "111870/372810"
+                "share": "1400/372810"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1650/372810"
               },
               {
                 "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
@@ -584,22 +604,22 @@
                 "share": "424800/1830034"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/1"
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "111870/372810"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "6102/1830034"
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "111870/372810"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/163"
+                "type": "SPOLOČNÝPODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1460/372810"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -626,20 +646,20 @@
           {
             "field": "property_rights",
             "old": [
-              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1",
-              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽICKE, podiel: 1/1",
               "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽICKE, podiel: 1/1",
+              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1"
             ],
             "new": [
-              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU, podiel: 1/1",
-              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
               "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
               "OBCHODNY PODIEL V S.R.O., podiel: 1/1",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
+              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU, podiel: 1/1"
             ],
             "old_count": 6,
             "new_count": 6
@@ -661,6 +681,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)"
+        ],
         "income": {
           "public_function": 32818,
           "other": 96753
@@ -677,16 +700,10 @@
         ],
         "real_estate": [
           {
-            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1/2"
-          },
-          {
-            "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1650/372810"
+            "type": "BYT",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "1/1"
           },
           {
             "type": "NEBYOVÝ PRIESTOR - PODIEL NA GARÁŽI",
@@ -695,10 +712,16 @@
             "share": "1/80"
           },
           {
-            "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "7123",
+            "share": "1/163"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "13640/372810"
+            "share": "1/80"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -707,22 +730,16 @@
             "share": "1/2"
           },
           {
-            "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1400/372810"
-          },
-          {
             "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
             "share": "1/2"
           },
           {
-            "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "1460/372810"
+            "share": "1/2"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR - ZARIADENIE ZDRAVOTNEJ \r\nA SOCIÁLNEJ STAROSTLIVOSTI",
@@ -731,10 +748,34 @@
             "share": "1/2"
           },
           {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "type": "PODIEL PRISLÚCHAJÚCI K BYTU",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "7123",
+            "share": "6102/1830034"
+          },
+          {
+            "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "1/80"
+            "share": "13640/372810"
+          },
+          {
+            "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1400/372810"
+          },
+          {
+            "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1460/372810"
+          },
+          {
+            "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1650/372810"
           },
           {
             "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽ)",
@@ -753,24 +794,6 @@
             "cadastral_territory": "KARLOVA VES",
             "lv_number": "7123",
             "share": "424800/1830034"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "1/1"
-          },
-          {
-            "type": "PODIEL PRISLÚCHAJÚCI K BYTU",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "7123",
-            "share": "6102/1830034"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "7123",
-            "share": "1/163"
           },
           {
             "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -798,12 +821,12 @@
           }
         ],
         "property_rights": [
-          "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1",
-          "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
           "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
           "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
           "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-          "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+          "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+          "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
+          "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1"
         ],
         "obligations": [
           {
@@ -860,16 +883,16 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
+                "type": "BYT",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/1"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1650/372810"
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/163"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
@@ -878,10 +901,10 @@
                 "share": "1/80"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "13640 / 372810"
+                "share": "1/80"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -890,22 +913,16 @@
                 "share": "1/2"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1400/372810"
-              },
-              {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
                 "share": "1/2"
               },
               {
-                "type": "SPOLOČNÝPODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1460/372810"
+                "share": "1/2"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - ZARIADNEIA ZDRAVOTNEJ A SOCIALNEJ STAROSTLIVOSTI",
@@ -914,22 +931,28 @@
                 "share": "1/2"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/80"
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "6102/1830034"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "111870/372810"
+                "share": "13640 / 372810"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "111870/372810"
+                "share": "1400/372810"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1650/372810"
               },
               {
                 "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
@@ -938,22 +961,22 @@
                 "share": "424800/1830034"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/1"
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "111870/372810"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "6102/1830034"
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "111870/372810"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/163"
+                "type": "SPOLOČNÝPODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1460/372810"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -976,16 +999,10 @@
             ],
             "new": [
               {
-                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
-              },
-              {
-                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1650/372810"
+                "type": "BYT",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/1"
               },
               {
                 "type": "NEBYOVÝ PRIESTOR - PODIEL NA GARÁŽI",
@@ -994,10 +1011,16 @@
                 "share": "1/80"
               },
               {
-                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "7123",
+                "share": "1/163"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "13640/372810"
+                "share": "1/80"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -1006,22 +1029,16 @@
                 "share": "1/2"
               },
               {
-                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1400/372810"
-              },
-              {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
                 "share": "1/2"
               },
               {
-                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1460/372810"
+                "share": "1/2"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - ZARIADENIE ZDRAVOTNEJ \r\nA SOCIÁLNEJ STAROSTLIVOSTI",
@@ -1030,10 +1047,34 @@
                 "share": "1/2"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "type": "PODIEL PRISLÚCHAJÚCI K BYTU",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "7123",
+                "share": "6102/1830034"
+              },
+              {
+                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1/80"
+                "share": "13640/372810"
+              },
+              {
+                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1400/372810"
+              },
+              {
+                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1460/372810"
+              },
+              {
+                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1650/372810"
               },
               {
                 "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽ)",
@@ -1052,24 +1093,6 @@
                 "cadastral_territory": "KARLOVA VES",
                 "lv_number": "7123",
                 "share": "424800/1830034"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/1"
-              },
-              {
-                "type": "PODIEL PRISLÚCHAJÚCI K BYTU",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "7123",
-                "share": "6102/1830034"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "7123",
-                "share": "1/163"
               },
               {
                 "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -1096,20 +1119,20 @@
           {
             "field": "property_rights",
             "old": [
-              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU, podiel: 1/1",
-              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
               "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
               "OBCHODNY PODIEL V S.R.O., podiel: 1/1",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
+              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU, podiel: 1/1"
             ],
             "new": [
-              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1",
-              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
               "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
+              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1"
             ],
             "old_count": 6,
             "new_count": 6
@@ -1126,6 +1149,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)"
+        ],
         "income": {
           "public_function": 42337,
           "other": 109218
@@ -1142,16 +1168,16 @@
         ],
         "real_estate": [
           {
-            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1/2"
+            "type": "BYT",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "1/1"
           },
           {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1650/372810"
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "1/163"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
@@ -1160,10 +1186,10 @@
             "share": "1/80"
           },
           {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "13640/372810"
+            "share": "1/80"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -1172,22 +1198,16 @@
             "share": "1/2"
           },
           {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1400/372810"
-          },
-          {
             "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
             "share": "1/2"
           },
           {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "1460/372810"
+            "share": "1/2"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR - ZARIADENIE ZDRAVOTNEJ A SOCIÁLNEJ STAROSTLIVOSTI",
@@ -1196,10 +1216,52 @@
             "share": "1/2"
           },
           {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7488",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7488",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7488",
+            "share": "1/2"
+          },
+          {
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "6102/1830034"
+          },
+          {
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "1/80"
+            "share": "13640/372810"
+          },
+          {
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1400/372810"
+          },
+          {
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1460/372810"
+          },
+          {
+            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1650/372810"
           },
           {
             "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
@@ -1218,42 +1280,6 @@
             "cadastral_territory": "KARLOVA VES",
             "lv_number": "4123",
             "share": "424800/1830034"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "1/1"
-          },
-          {
-            "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "6102/1830034"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "1/163"
-          },
-          {
-            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7488",
-            "share": "1/2"
-          },
-          {
-            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7488",
-            "share": "1/2"
-          },
-          {
-            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7488",
-            "share": "1/2"
           }
         ],
         "movable_property": [
@@ -1263,12 +1289,12 @@
           }
         ],
         "property_rights": [
-          "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU\r\nPODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1",
-          "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV\r\nZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
           "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
           "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
           "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-          "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+          "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+          "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV\r\nZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
+          "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU\r\nPODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1"
         ],
         "obligations": [
           {
@@ -1320,16 +1346,10 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
-              },
-              {
-                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1650/372810"
+                "type": "BYT",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/1"
               },
               {
                 "type": "NEBYOVÝ PRIESTOR - PODIEL NA GARÁŽI",
@@ -1338,10 +1358,16 @@
                 "share": "1/80"
               },
               {
-                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "7123",
+                "share": "1/163"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "13640/372810"
+                "share": "1/80"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -1350,22 +1376,16 @@
                 "share": "1/2"
               },
               {
-                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1400/372810"
-              },
-              {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
                 "share": "1/2"
               },
               {
-                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1460/372810"
+                "share": "1/2"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - ZARIADENIE ZDRAVOTNEJ \r\nA SOCIÁLNEJ STAROSTLIVOSTI",
@@ -1374,10 +1394,34 @@
                 "share": "1/2"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "type": "PODIEL PRISLÚCHAJÚCI K BYTU",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "7123",
+                "share": "6102/1830034"
+              },
+              {
+                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1/80"
+                "share": "13640/372810"
+              },
+              {
+                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1400/372810"
+              },
+              {
+                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1460/372810"
+              },
+              {
+                "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1650/372810"
               },
               {
                 "type": "PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽ)",
@@ -1398,24 +1442,6 @@
                 "share": "424800/1830034"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/1"
-              },
-              {
-                "type": "PODIEL PRISLÚCHAJÚCI K BYTU",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "7123",
-                "share": "6102/1830034"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "7123",
-                "share": "1/163"
-              },
-              {
                 "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7488",
@@ -1436,16 +1462,16 @@
             ],
             "new": [
               {
-                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
+                "type": "BYT",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/1"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1650/372810"
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/163"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
@@ -1454,10 +1480,10 @@
                 "share": "1/80"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "13640/372810"
+                "share": "1/80"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -1466,22 +1492,16 @@
                 "share": "1/2"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1400/372810"
-              },
-              {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
                 "share": "1/2"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1460/372810"
+                "share": "1/2"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - ZARIADENIE ZDRAVOTNEJ A SOCIÁLNEJ STAROSTLIVOSTI",
@@ -1490,10 +1510,52 @@
                 "share": "1/2"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
+                "share": "1/2"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "6102/1830034"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1/80"
+                "share": "13640/372810"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1400/372810"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1460/372810"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1650/372810"
               },
               {
                 "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
@@ -1512,42 +1574,6 @@
                 "cadastral_territory": "KARLOVA VES",
                 "lv_number": "4123",
                 "share": "424800/1830034"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/1"
-              },
-              {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "6102/1830034"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/163"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
               }
             ],
             "old_count": 19,
@@ -1556,20 +1582,20 @@
           {
             "field": "property_rights",
             "old": [
-              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1",
-              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
               "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
+              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1"
             ],
             "new": [
-              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU\r\nPODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1",
-              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV\r\nZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
               "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV\r\nZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
+              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU\r\nPODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1"
             ],
             "old_count": 6,
             "new_count": 6
@@ -1586,6 +1612,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)"
+        ],
         "income": {
           "public_function": 76066,
           "other": 94012
@@ -1602,16 +1631,16 @@
         ],
         "real_estate": [
           {
-            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1/2"
+            "type": "BYT",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "1/1"
           },
           {
-            "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1650/372810"
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "1/163"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
@@ -1620,10 +1649,10 @@
             "share": "1/80"
           },
           {
-            "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "13640/372810"
+            "share": "1/80"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -1632,15 +1661,39 @@
             "share": "1/2"
           },
           {
-            "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "1400/372810"
+            "share": "1/2"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
+            "share": "1/2"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR - ZARIADENIE ZDRAVOTNEJ A SOCIÁLNEJ STAROSTLIVOSTI",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7488",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7488",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7488",
             "share": "1/2"
           },
           {
@@ -1650,16 +1703,28 @@
             "share": "1460/372810"
           },
           {
-            "type": "NEBYTOVÝ PRIESTOR - ZARIADENIE ZDRAVOTNEJ A SOCIÁLNEJ STAROSTLIVOSTI",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1/2"
+            "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K BYTU",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "6102/1830034"
           },
           {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "1/80"
+            "share": "13640/372810"
+          },
+          {
+            "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1400/372810"
+          },
+          {
+            "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1650/372810"
           },
           {
             "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
@@ -1678,42 +1743,6 @@
             "cadastral_territory": "KARLOVA VES",
             "lv_number": "4123",
             "share": "424800/1830034"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "1/1"
-          },
-          {
-            "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K BYTU",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "6102/1830034"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "1/163"
-          },
-          {
-            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7488",
-            "share": "1/2"
-          },
-          {
-            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7488",
-            "share": "1/2"
-          },
-          {
-            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7488",
-            "share": "1/2"
           }
         ],
         "movable_property": [
@@ -1723,12 +1752,12 @@
           }
         ],
         "property_rights": [
-          "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU\r\nPODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1",
-          "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV\r\nZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
           "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
           "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
           "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-          "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+          "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+          "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV\r\nZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
+          "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU\r\nPODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1"
         ],
         "obligations": [
           {
@@ -1766,16 +1795,16 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
+                "type": "BYT",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/1"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1650/372810"
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/163"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
@@ -1784,10 +1813,10 @@
                 "share": "1/80"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "13640/372810"
+                "share": "1/80"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -1796,22 +1825,16 @@
                 "share": "1/2"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1400/372810"
-              },
-              {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
                 "share": "1/2"
               },
               {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1460/372810"
+                "share": "1/2"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - ZARIADENIE ZDRAVOTNEJ A SOCIÁLNEJ STAROSTLIVOSTI",
@@ -1820,10 +1843,52 @@
                 "share": "1/2"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
+                "share": "1/2"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "6102/1830034"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1/80"
+                "share": "13640/372810"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1400/372810"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1460/372810"
+              },
+              {
+                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1650/372810"
               },
               {
                 "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
@@ -1842,18 +1907,14 @@
                 "cadastral_territory": "KARLOVA VES",
                 "lv_number": "4123",
                 "share": "424800/1830034"
-              },
+              }
+            ],
+            "new": [
               {
                 "type": "BYT",
                 "cadastral_territory": "KARLOVA VES",
                 "lv_number": "4123",
                 "share": "1/1"
-              },
-              {
-                "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K BYTU",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "6102/1830034"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
@@ -1862,36 +1923,10 @@
                 "share": "1/163"
               },
               {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
-              }
-            ],
-            "new": [
-              {
-                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1/2"
-              },
-              {
-                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1650/372810"
+                "share": "1/80"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
@@ -1900,10 +1935,10 @@
                 "share": "1/80"
               },
               {
-                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "13640/372810"
+                "share": "1/2"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -1912,15 +1947,33 @@
                 "share": "1/2"
               },
               {
-                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1400/372810"
-              },
-              {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
+                "share": "1/2"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR - ZARIADENIE ZDRAVOTNEJ A SOCIÁLNEJ STAROSTLIVOSTI",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
                 "share": "1/2"
               },
               {
@@ -1930,16 +1983,28 @@
                 "share": "1460/372810"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - ZARIADENIE ZDRAVOTNEJ A SOCIÁLNEJ STAROSTLIVOSTI",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
+                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K BYTU",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "6102/1830034"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1/80"
+                "share": "13640/372810"
+              },
+              {
+                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1400/372810"
+              },
+              {
+                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1650/372810"
               },
               {
                 "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
@@ -1958,42 +2023,6 @@
                 "cadastral_territory": "KARLOVA VES",
                 "lv_number": "4123",
                 "share": "424800/1830034"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/1"
-              },
-              {
-                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K BYTU",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "6102/1830034"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/163"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
               }
             ],
             "old_count": 19,
@@ -2010,7 +2039,10 @@
         "name": "doc. MUDr. Ing. JÁN BREZA, PhD. MPH",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT,  A.S.)",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)"
+        ],
         "income": {
           "public_function": 47995,
           "other": 171447
@@ -2027,33 +2059,9 @@
         ],
         "real_estate": [
           {
-            "type": "SPOL. PODIEL PRISLÚCHAJÚCI K BYTU 2",
-            "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "8440",
-            "share": "12251/42011"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR",
-            "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "8440",
-            "share": "3334/42011"
-          },
-          {
-            "type": "POZEMOK - ZÁHRADA",
-            "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "709",
-            "share": "1/1"
-          },
-          {
-            "type": "POZEMOK -  ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "709",
-            "share": "1/1"
-          },
-          {
-            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "709",
+            "type": "BYT",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
             "share": "1/1"
           },
           {
@@ -2063,16 +2071,34 @@
             "share": "1/1"
           },
           {
-            "type": "SPOL. PODIEL PRISLÚCHAJÚCI K BYTU 1",
-            "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "8440",
-            "share": "26426/42011"
-          },
-          {
             "type": "BYT 2",
             "cadastral_territory": "STARÉ MESTO",
             "lv_number": "8440",
             "share": "1/1"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "8440",
+            "share": "3334/42011"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "1/163"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1/80"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7383",
+            "share": "1/80"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -2081,22 +2107,82 @@
             "share": "1/2"
           },
           {
-            "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "1650/372810"
+            "share": "1/2"
           },
           {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "1/80"
+            "share": "1/2"
           },
           {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+            "type": "NEBYTOVÝ PRIESTOR ZAR. ZDRAV. A SOC. STAROSTLIVOSTI",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
-            "share": "1/80"
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK -  ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "709",
+            "share": "1/1"
+          },
+          {
+            "type": "POZEMOK -  ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7488",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "709",
+            "share": "1/1"
+          },
+          {
+            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7488",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK - ZATAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "7488",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK - ZÁHRADA",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "709",
+            "share": "1/1"
+          },
+          {
+            "type": "SPOL. PODIEL PRISLÚCHAJÚCI K BYTU 1",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "8440",
+            "share": "26426/42011"
+          },
+          {
+            "type": "SPOL. PODIEL PRISLÚCHAJÚCI K BYTU 2",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "8440",
+            "share": "12251/42011"
+          },
+          {
+            "type": "SPOL. PODIEL PRISLÚCHAJÚCI K NEBYT. PRIESTOU (GARÁŽI)",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "424800/1830034"
+          },
+          {
+            "type": "SPOL.PODIEL PRISLÚCHAJÚCI K BYTU",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4123",
+            "share": "6102/1830034"
           },
           {
             "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYT. PRIESTORU (GARÁŽI)",
@@ -2111,34 +2197,10 @@
             "share": "111870/372810"
           },
           {
-            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1/2"
-          },
-          {
-            "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1460/372810"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR ZAR. ZDRAV. A SOC. STAROSTLIVOSTI",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1/2"
-          },
-          {
             "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "7383",
             "share": "13640/372810"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7383",
-            "share": "1/2"
           },
           {
             "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
@@ -2147,46 +2209,16 @@
             "share": "1400/372810"
           },
           {
-            "type": "SPOL. PODIEL PRISLÚCHAJÚCI K NEBYT. PRIESTOU (GARÁŽI)",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "424800/1830034"
-          },
-          {
-            "type": "POZEMOK -  ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
             "cadastral_territory": "VINOHRADY",
-            "lv_number": "7488",
-            "share": "1/2"
+            "lv_number": "7383",
+            "share": "1460/372810"
           },
           {
-            "type": "POZEMOK - ZATAVANÁ PLOCHA A NÁDVORIE",
+            "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
             "cadastral_territory": "VINOHRADY",
-            "lv_number": "7488",
-            "share": "1/2"
-          },
-          {
-            "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "7488",
-            "share": "1/2"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "1/1"
-          },
-          {
-            "type": "SPOL.PODIEL PRISLÚCHAJÚCI K BYTU",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "6102/1830034"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-            "cadastral_territory": "KARLOVA VES",
-            "lv_number": "4123",
-            "share": "1/163"
+            "lv_number": "7383",
+            "share": "1650/372810"
           }
         ],
         "movable_property": [
@@ -2196,12 +2228,12 @@
           }
         ],
         "property_rights": [
-          "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE , podiel: 1/1",
-          "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
           "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
           "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
           "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-          "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+          "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+          "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
+          "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE , podiel: 1/1"
         ],
         "obligations": [
           {
@@ -2215,11 +2247,6 @@
       "diff": {
         "type": "changed",
         "changes": [
-          {
-            "field": "public_function",
-            "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)",
-            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT,  A.S.)"
-          },
           {
             "field": "income",
             "old": {
@@ -2263,16 +2290,16 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
+                "type": "BYT",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/1"
               },
               {
-                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1650/372810"
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/163"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
@@ -2281,10 +2308,10 @@
                 "share": "1/80"
               },
               {
-                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "13640/372810"
+                "share": "1/80"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -2293,15 +2320,39 @@
                 "share": "1/2"
               },
               {
-                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1400/372810"
+                "share": "1/2"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
+                "share": "1/2"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR - ZARIADENIE ZDRAVOTNEJ A SOCIÁLNEJ STAROSTLIVOSTI",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
                 "share": "1/2"
               },
               {
@@ -2311,16 +2362,28 @@
                 "share": "1460/372810"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - ZARIADENIE ZDRAVOTNEJ A SOCIÁLNEJ STAROSTLIVOSTI",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
+                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K BYTU",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "6102/1830034"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1/80"
+                "share": "13640/372810"
+              },
+              {
+                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1400/372810"
+              },
+              {
+                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1650/372810"
               },
               {
                 "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
@@ -2339,73 +2402,13 @@
                 "cadastral_territory": "KARLOVA VES",
                 "lv_number": "4123",
                 "share": "424800/1830034"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/1"
-              },
-              {
-                "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K BYTU",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "6102/1830034"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/163"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
               }
             ],
             "new": [
               {
-                "type": "SPOL. PODIEL PRISLÚCHAJÚCI K BYTU 2",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "8440",
-                "share": "12251/42011"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "8440",
-                "share": "3334/42011"
-              },
-              {
-                "type": "POZEMOK - ZÁHRADA",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "709",
-                "share": "1/1"
-              },
-              {
-                "type": "POZEMOK -  ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "709",
-                "share": "1/1"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "709",
+                "type": "BYT",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
                 "share": "1/1"
               },
               {
@@ -2415,16 +2418,34 @@
                 "share": "1/1"
               },
               {
-                "type": "SPOL. PODIEL PRISLÚCHAJÚCI K BYTU 1",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "8440",
-                "share": "26426/42011"
-              },
-              {
                 "type": "BYT 2",
                 "cadastral_territory": "STARÉ MESTO",
                 "lv_number": "8440",
                 "share": "1/1"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "8440",
+                "share": "3334/42011"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "1/163"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1/80"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7383",
+                "share": "1/80"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
@@ -2433,22 +2454,82 @@
                 "share": "1/2"
               },
               {
-                "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
+                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1650/372810"
+                "share": "1/2"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1/80"
+                "share": "1/2"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
+                "type": "NEBYTOVÝ PRIESTOR ZAR. ZDRAV. A SOC. STAROSTLIVOSTI",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
-                "share": "1/80"
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK -  ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "709",
+                "share": "1/1"
+              },
+              {
+                "type": "POZEMOK -  ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "709",
+                "share": "1/1"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZATAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "7488",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZÁHRADA",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "709",
+                "share": "1/1"
+              },
+              {
+                "type": "SPOL. PODIEL PRISLÚCHAJÚCI K BYTU 1",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "8440",
+                "share": "26426/42011"
+              },
+              {
+                "type": "SPOL. PODIEL PRISLÚCHAJÚCI K BYTU 2",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "8440",
+                "share": "12251/42011"
+              },
+              {
+                "type": "SPOL. PODIEL PRISLÚCHAJÚCI K NEBYT. PRIESTOU (GARÁŽI)",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "424800/1830034"
+              },
+              {
+                "type": "SPOL.PODIEL PRISLÚCHAJÚCI K BYTU",
+                "cadastral_territory": "KARLOVA VES",
+                "lv_number": "4123",
+                "share": "6102/1830034"
               },
               {
                 "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYT. PRIESTORU (GARÁŽI)",
@@ -2463,34 +2544,10 @@
                 "share": "111870/372810"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
-              },
-              {
-                "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1460/372810"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR ZAR. ZDRAV. A SOC. STAROSTLIVOSTI",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
-              },
-              {
                 "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "7383",
                 "share": "13640/372810"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7383",
-                "share": "1/2"
               },
               {
                 "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
@@ -2499,46 +2556,16 @@
                 "share": "1400/372810"
               },
               {
-                "type": "SPOL. PODIEL PRISLÚCHAJÚCI K NEBYT. PRIESTOU (GARÁŽI)",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "424800/1830034"
-              },
-              {
-                "type": "POZEMOK -  ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
                 "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
+                "lv_number": "7383",
+                "share": "1460/372810"
               },
               {
-                "type": "POZEMOK - ZATAVANÁ PLOCHA A NÁDVORIE",
+                "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
                 "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "7488",
-                "share": "1/2"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/1"
-              },
-              {
-                "type": "SPOL.PODIEL PRISLÚCHAJÚCI K BYTU",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "6102/1830034"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-                "cadastral_territory": "KARLOVA VES",
-                "lv_number": "4123",
-                "share": "1/163"
+                "lv_number": "7383",
+                "share": "1650/372810"
               }
             ],
             "old_count": 19,
@@ -2547,20 +2574,20 @@
           {
             "field": "property_rights",
             "old": [
-              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU\r\nPODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1",
-              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV\r\nZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
               "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV\r\nZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
+              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU\r\nPODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1"
             ],
             "new": [
-              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE , podiel: 1/1",
-              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
               "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
               "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
+              "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+              "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
+              "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE , podiel: 1/1"
             ],
             "old_count": 6,
             "new_count": 6
@@ -2571,376 +2598,17 @@
   ],
   "total_changes": 25,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jan.Breza.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jan.Breza.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jan.Breza.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jan.Breza.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT, A.S.)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BIONT,  A.S.)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 76066,
-            "other": 94012
-          },
-          "new": {
-            "public_function": 47995,
-            "other": 171447
-          },
-          "old_total": 170078,
-          "new_total": 219442,
-          "delta": 49364,
-          "delta_pct": 29.0
-        },
-        {
-          "field": "employment",
-          "old": "UNIVERZITA KOMENSKÉHO V BRATISLAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nBIONT, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITNÁ NEMOCNICA BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNÁRODNÝ ÚSTAV DETSKÝCH CHORÔB\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "UNIVERZITA KOMENSKÉHO V BRATISLAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nBIONT, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNÁRODNÝ ÚSTAV DETSKÝCH CHORÓB\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITA VETERINÁRNEHO LEKÁRSTVA A FARMÁCIE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITNÁ NEMOCNICA BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "PREZIDENT OBČIANSKEHO ZDRUŽENIA",
-              "organization": "ZDRAVOTNÍCTVO PRE KAŽDÉHO O.Z.",
-              "benefits": "NIE"
-            }
-          ],
-          "new": [
-            {
-              "role": "PREZIDENT OBČIANSKÉHO ZDRUŽENIA",
-              "organization": "ZDRAVOTNÍCTVO PRE KAŽDÉHO O.Z.",
-              "benefits": "NIE"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1/2"
-            },
-            {
-              "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1650/372810"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1/80"
-            },
-            {
-              "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "13640/372810"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1/2"
-            },
-            {
-              "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1400/372810"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1/2"
-            },
-            {
-              "type": "SPOLOČNÝ PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1460/372810"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - ZARIADENIE ZDRAVOTNEJ A SOCIÁLNEJ STAROSTLIVOSTI",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1/2"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1/80"
-            },
-            {
-              "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "111870/372810"
-            },
-            {
-              "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU (GARÁŽI)",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "111870/372810"
-            },
-            {
-              "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTOU (GARÁŽI)",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "4123",
-              "share": "424800/1830034"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "4123",
-              "share": "1/1"
-            },
-            {
-              "type": "SPOLUVLASTNÍCKY PODIEL PRISLÚCHAJÚCI K BYTU",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "4123",
-              "share": "6102/1830034"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "4123",
-              "share": "1/163"
-            },
-            {
-              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7488",
-              "share": "1/2"
-            },
-            {
-              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7488",
-              "share": "1/2"
-            },
-            {
-              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7488",
-              "share": "1/2"
-            }
-          ],
-          "new": [
-            {
-              "type": "SPOL. PODIEL PRISLÚCHAJÚCI K BYTU 2",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "8440",
-              "share": "12251/42011"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "8440",
-              "share": "3334/42011"
-            },
-            {
-              "type": "POZEMOK - ZÁHRADA",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "709",
-              "share": "1/1"
-            },
-            {
-              "type": "POZEMOK -  ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "709",
-              "share": "1/1"
-            },
-            {
-              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "709",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT 1",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "8440",
-              "share": "1/1"
-            },
-            {
-              "type": "SPOL. PODIEL PRISLÚCHAJÚCI K BYTU 1",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "8440",
-              "share": "26426/42011"
-            },
-            {
-              "type": "BYT 2",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "8440",
-              "share": "1/1"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1/2"
-            },
-            {
-              "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1650/372810"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1/80"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1/80"
-            },
-            {
-              "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYT. PRIESTORU (GARÁŽI)",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "111870/372810"
-            },
-            {
-              "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYT.PRIESTORU (GARÁŽI)",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "111870/372810"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1/2"
-            },
-            {
-              "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1460/372810"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR ZAR. ZDRAV. A SOC. STAROSTLIVOSTI",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1/2"
-            },
-            {
-              "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "13640/372810"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1/2"
-            },
-            {
-              "type": "SPOL.PODIEL PRISLÚCHAJÚCI K NEBYTOVÉMU PRIESTORU",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7383",
-              "share": "1400/372810"
-            },
-            {
-              "type": "SPOL. PODIEL PRISLÚCHAJÚCI K NEBYT. PRIESTOU (GARÁŽI)",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "4123",
-              "share": "424800/1830034"
-            },
-            {
-              "type": "POZEMOK -  ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7488",
-              "share": "1/2"
-            },
-            {
-              "type": "POZEMOK - ZATAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7488",
-              "share": "1/2"
-            },
-            {
-              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "7488",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "4123",
-              "share": "1/1"
-            },
-            {
-              "type": "SPOL.PODIEL PRISLÚCHAJÚCI K BYTU",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "4123",
-              "share": "6102/1830034"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - PODIEL NA GARÁŽI",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "4123",
-              "share": "1/163"
-            }
-          ],
-          "old_count": 19,
-          "new_count": 27
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU\r\nPODĽA ZMLUVY O BUDÚCEJ ZMLUVE, podiel: 1/1",
-            "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV\r\nZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
-            "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
-            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-            "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
-          ],
-          "new": [
-            "PRÁVO NA NADOBUDNUTIE BYTU A PODIELU NA POZEMKU PODĽA ZMLUVY O BUDÚCEJ ZMLUVE , podiel: 1/1",
-            "POHĽADÁVKA NA VRÁTENIE FINANČNÝCH PROSTRIEDKOV ZO ZMLUVY O PÔŽIČKE, podiel: 1/1",
-            "FINANČNÉ ÚSPORY V BANKÁCH, podiel: BSM",
-            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
-            "OBCHODNÝ PODIEL V S.R.O., podiel: BSM"
-          ],
-          "old_count": 6,
-          "new_count": 6
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 170 078 € → 219 442 € (+49 364 €)",
-      "Zamestnanie",
-      "Funkcie: 1 → 1 (0)",
-      "Nehnuteľnosti: 19 → 27 (+8)",
-      "Majetkové práva: 6 → 6 (0)"
-    ]
+    "summary": []
   },
   "slug": "doc-mudr-ing-jan-breza-phd-mph",
   "context": {
@@ -2950,7 +2618,7 @@
     "obligations": 1,
     "income_percentile": 98,
     "property_percentile": 95,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 12.2

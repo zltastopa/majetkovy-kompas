@@ -2,6 +2,9 @@
   "user_id": "KoliMari",
   "name": "Mgr. Mária Kolíková",
   "public_function": "poslanec Národnej rady Slovenskej republiky",
+  "public_functions": [
+    "poslanec Národnej rady Slovenskej republiky"
+  ],
   "role": "poslanec Národnej rady Slovenskej republiky",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen vlády Slovenskej republiky",
+        "public_functions": [
+          "člen vlády Slovenskej republiky"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -34,13 +40,13 @@
             "type": "BYT V BYTOVOM DOME",
             "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
             "lv_number": "9659",
-            "share": "25%"
+            "share": "100%"
           },
           {
             "type": "BYT V BYTOVOM DOME",
             "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
             "lv_number": "9659",
-            "share": "100%"
+            "share": "25%"
           },
           {
             "type": "POZEMOK-OSTATNÉ PLOCHY",
@@ -49,25 +55,25 @@
             "share": "25%"
           },
           {
+            "type": "POZEMOK-OSTATNÉ PLOCHY",
+            "cadastral_territory": "ĽUBIETOVÁ",
+            "lv_number": "1686",
+            "share": "25%"
+          },
+          {
             "type": "POZEMOK-ZASTAVANÉ PLOCHY A NÁDVORIA",
             "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
             "lv_number": "9659",
+            "share": "25%"
+          },
+          {
+            "type": "POZEMOK-ZASTAVANÉ PLOCHY A NÁDVORIA",
+            "cadastral_territory": "ĽUBIETOVÁ",
+            "lv_number": "1686",
             "share": "25%"
           },
           {
             "type": "REKREAČNÝ DOM",
-            "cadastral_territory": "ĽUBIETOVÁ",
-            "lv_number": "1686",
-            "share": "25%"
-          },
-          {
-            "type": "POZEMOK-ZASTAVANÉ PLOCHY A NÁDVORIA",
-            "cadastral_territory": "ĽUBIETOVÁ",
-            "lv_number": "1686",
-            "share": "25%"
-          },
-          {
-            "type": "POZEMOK-OSTATNÉ PLOCHY",
             "cadastral_territory": "ĽUBIETOVÁ",
             "lv_number": "1686",
             "share": "25%"
@@ -99,7 +105,11 @@
         "name": "Mgr. MÁRIA KOLÍKOVÁ",
         "year": 2020,
         "filed": "k 30. aprílu",
-        "public_function": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky",
+        "public_function": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky",
+          "člen vlády Slovenskej republiky"
+        ],
         "income": {
           "public_function": 51254,
           "other": 0
@@ -113,13 +123,13 @@
             "type": "BYT V BYTOVOM DOME",
             "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
             "lv_number": "9659",
-            "share": "1/4"
+            "share": "1/1"
           },
           {
             "type": "BYT V BYTOVOM DOME",
             "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
             "lv_number": "9659",
-            "share": "1/1"
+            "share": "1/4"
           },
           {
             "type": "POZEMOK - OSTATNÉ PLOCHY",
@@ -128,9 +138,21 @@
             "share": "1/4"
           },
           {
+            "type": "POZEMOK - OSTATNÉ PLOCHY",
+            "cadastral_territory": "ĽUBIETOVÁ",
+            "lv_number": "1686",
+            "share": "1/4"
+          },
+          {
             "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
             "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
             "lv_number": "567",
+            "share": "1/4"
+          },
+          {
+            "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+            "cadastral_territory": "ĽUBIETOVÁ",
+            "lv_number": "1686",
             "share": "1/4"
           },
           {
@@ -138,24 +160,12 @@
             "cadastral_territory": "ĽUBIETOVÁ",
             "lv_number": "1686",
             "share": "1/4"
-          },
-          {
-            "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-            "cadastral_territory": "ĽUBIETOVÁ",
-            "lv_number": "1686",
-            "share": "1/4"
-          },
-          {
-            "type": "POZEMOK - OSTATNÉ PLOCHY",
-            "cadastral_territory": "ĽUBIETOVÁ",
-            "lv_number": "1686",
-            "share": "1/4"
           }
         ],
         "movable_property": null,
         "property_rights": [
-          "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/5",
-          "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2"
+          "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2",
+          "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/5"
         ],
         "obligations": [
           {
@@ -172,7 +182,19 @@
           {
             "field": "public_function",
             "old": "člen vlády Slovenskej republiky",
-            "new": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky"
+            "new": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen vlády Slovenskej republiky"
+            ],
+            "new": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "člen vlády Slovenskej republiky"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -195,13 +217,13 @@
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
-                "share": "25%"
+                "share": "100%"
               },
               {
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
-                "share": "100%"
+                "share": "25%"
               },
               {
                 "type": "POZEMOK-OSTATNÉ PLOCHY",
@@ -210,25 +232,25 @@
                 "share": "25%"
               },
               {
+                "type": "POZEMOK-OSTATNÉ PLOCHY",
+                "cadastral_territory": "ĽUBIETOVÁ",
+                "lv_number": "1686",
+                "share": "25%"
+              },
+              {
                 "type": "POZEMOK-ZASTAVANÉ PLOCHY A NÁDVORIA",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
+                "share": "25%"
+              },
+              {
+                "type": "POZEMOK-ZASTAVANÉ PLOCHY A NÁDVORIA",
+                "cadastral_territory": "ĽUBIETOVÁ",
+                "lv_number": "1686",
                 "share": "25%"
               },
               {
                 "type": "REKREAČNÝ DOM",
-                "cadastral_territory": "ĽUBIETOVÁ",
-                "lv_number": "1686",
-                "share": "25%"
-              },
-              {
-                "type": "POZEMOK-ZASTAVANÉ PLOCHY A NÁDVORIA",
-                "cadastral_territory": "ĽUBIETOVÁ",
-                "lv_number": "1686",
-                "share": "25%"
-              },
-              {
-                "type": "POZEMOK-OSTATNÉ PLOCHY",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "25%"
@@ -239,13 +261,13 @@
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
-                "share": "1/4"
+                "share": "1/1"
               },
               {
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
-                "share": "1/1"
+                "share": "1/4"
               },
               {
                 "type": "POZEMOK - OSTATNÉ PLOCHY",
@@ -254,25 +276,25 @@
                 "share": "1/4"
               },
               {
+                "type": "POZEMOK - OSTATNÉ PLOCHY",
+                "cadastral_territory": "ĽUBIETOVÁ",
+                "lv_number": "1686",
+                "share": "1/4"
+              },
+              {
                 "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "567",
+                "share": "1/4"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+                "cadastral_territory": "ĽUBIETOVÁ",
+                "lv_number": "1686",
                 "share": "1/4"
               },
               {
                 "type": "REKREAĆNÝ DOM",
-                "cadastral_territory": "ĽUBIETOVÁ",
-                "lv_number": "1686",
-                "share": "1/4"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-                "cadastral_territory": "ĽUBIETOVÁ",
-                "lv_number": "1686",
-                "share": "1/4"
-              },
-              {
-                "type": "POZEMOK - OSTATNÉ PLOCHY",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
@@ -288,8 +310,8 @@
               "OBCHODNÝ PODIEL SPOLOČNÍKA V SPOLOČNOSTI, podiel: 50%"
             ],
             "new": [
-              "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/5",
-              "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2"
+              "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2",
+              "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/5"
             ],
             "old_count": 2,
             "new_count": 2
@@ -305,7 +327,11 @@
         "name": "Mgr. MÁRIA KOLÍKOVÁ",
         "year": 2021,
         "filed": "k 30. aprílu",
-        "public_function": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky",
+        "public_function": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky",
+          "člen vlády Slovenskej republiky"
+        ],
         "income": {
           "public_function": 54672,
           "other": 0
@@ -316,33 +342,39 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "POZEMOK - OSTATNÉ PLOCHY",
-            "cadastral_territory": "ĽUBIETOVÁ",
-            "lv_number": "1686",
-            "share": "1/4"
-          },
-          {
-            "type": "BYT V BYTOVOM DOME",
-            "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
-            "lv_number": "9659",
-            "share": "1/4"
-          },
-          {
             "type": "BYT V BYTOVOM DOME",
             "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
             "lv_number": "9659",
             "share": "1/1"
           },
           {
+            "type": "BYT V BYTOVOM DOME",
+            "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
+            "lv_number": "9659",
+            "share": "1/4"
+          },
+          {
             "type": "POZEMOK - OSTATNÉ PLOCHY",
             "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
             "lv_number": "567",
             "share": "1/4"
           },
           {
+            "type": "POZEMOK - OSTATNÉ PLOCHY",
+            "cadastral_territory": "ĽUBIETOVÁ",
+            "lv_number": "1686",
+            "share": "1/4"
+          },
+          {
             "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
             "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
             "lv_number": "567",
+            "share": "1/4"
+          },
+          {
+            "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+            "cadastral_territory": "ĽUBIETOVÁ",
+            "lv_number": "1686",
             "share": "1/4"
           },
           {
@@ -350,18 +382,12 @@
             "cadastral_territory": "ĽUBIETOVÁ",
             "lv_number": "1686",
             "share": "1/4"
-          },
-          {
-            "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-            "cadastral_territory": "ĽUBIETOVÁ",
-            "lv_number": "1686",
-            "share": "1/4"
           }
         ],
         "movable_property": null,
         "property_rights": [
-          "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2",
-          "FINANČNÉ PROSTRIEDKY V BANKE, podiel: 1/1"
+          "FINANČNÉ PROSTRIEDKY V BANKE, podiel: 1/1",
+          "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2"
         ],
         "obligations": [
           {
@@ -397,13 +423,13 @@
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
-                "share": "1/4"
+                "share": "1/1"
               },
               {
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
-                "share": "1/1"
+                "share": "1/4"
               },
               {
                 "type": "POZEMOK - OSTATNÉ PLOCHY",
@@ -412,9 +438,21 @@
                 "share": "1/4"
               },
               {
+                "type": "POZEMOK - OSTATNÉ PLOCHY",
+                "cadastral_territory": "ĽUBIETOVÁ",
+                "lv_number": "1686",
+                "share": "1/4"
+              },
+              {
                 "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "567",
+                "share": "1/4"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+                "cadastral_territory": "ĽUBIETOVÁ",
+                "lv_number": "1686",
                 "share": "1/4"
               },
               {
@@ -422,33 +460,9 @@
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
-              },
-              {
-                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-                "cadastral_territory": "ĽUBIETOVÁ",
-                "lv_number": "1686",
-                "share": "1/4"
-              },
-              {
-                "type": "POZEMOK - OSTATNÉ PLOCHY",
-                "cadastral_territory": "ĽUBIETOVÁ",
-                "lv_number": "1686",
-                "share": "1/4"
               }
             ],
             "new": [
-              {
-                "type": "POZEMOK - OSTATNÉ PLOCHY",
-                "cadastral_territory": "ĽUBIETOVÁ",
-                "lv_number": "1686",
-                "share": "1/4"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
-                "lv_number": "9659",
-                "share": "1/4"
-              },
               {
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
@@ -456,25 +470,37 @@
                 "share": "1/1"
               },
               {
+                "type": "BYT V BYTOVOM DOME",
+                "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
+                "lv_number": "9659",
+                "share": "1/4"
+              },
+              {
                 "type": "POZEMOK - OSTATNÉ PLOCHY",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "567",
                 "share": "1/4"
               },
               {
-                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-                "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
-                "lv_number": "567",
-                "share": "1/4"
-              },
-              {
-                "type": "REKREAČNÝ DOM",
+                "type": "POZEMOK - OSTATNÉ PLOCHY",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
               },
               {
                 "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+                "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
+                "lv_number": "567",
+                "share": "1/4"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+                "cadastral_territory": "ĽUBIETOVÁ",
+                "lv_number": "1686",
+                "share": "1/4"
+              },
+              {
+                "type": "REKREAČNÝ DOM",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
@@ -486,12 +512,12 @@
           {
             "field": "property_rights",
             "old": [
-              "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/5",
-              "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2"
+              "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2",
+              "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/5"
             ],
             "new": [
-              "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2",
-              "FINANČNÉ PROSTRIEDKY V BANKE, podiel: 1/1"
+              "FINANČNÉ PROSTRIEDKY V BANKE, podiel: 1/1",
+              "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2"
             ],
             "old_count": 2,
             "new_count": 2
@@ -507,7 +533,11 @@
         "name": "Mgr. MÁRIA KOLÍKOVÁ",
         "year": 2022,
         "filed": "k 30. aprílu",
-        "public_function": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky",
+        "public_function": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky",
+          "člen vlády Slovenskej republiky"
+        ],
         "income": {
           "public_function": 51223,
           "other": 0
@@ -518,22 +548,16 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "POZEMOK-OSTATNÉ PLOCHY",
-            "cadastral_territory": "ĽUBIETOVÁ",
-            "lv_number": "1686",
-            "share": "1/4"
-          },
-          {
-            "type": "BYT V BYTOVOM DOME",
-            "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
-            "lv_number": "9659",
-            "share": "1/4"
-          },
-          {
             "type": "BYT V BYTOVOM DOME",
             "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
             "lv_number": "9659",
             "share": "1/1"
+          },
+          {
+            "type": "BYT V BYTOVOM DOME",
+            "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
+            "lv_number": "9659",
+            "share": "1/4"
           },
           {
             "type": "POZEMOK - OSTATNÉ PLOCHY",
@@ -548,13 +572,19 @@
             "share": "1/4"
           },
           {
-            "type": "REKREAČNÝ DOM",
+            "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
             "cadastral_territory": "ĽUBIETOVÁ",
             "lv_number": "1686",
             "share": "1/4"
           },
           {
-            "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+            "type": "POZEMOK-OSTATNÉ PLOCHY",
+            "cadastral_territory": "ĽUBIETOVÁ",
+            "lv_number": "1686",
+            "share": "1/4"
+          },
+          {
+            "type": "REKREAČNÝ DOM",
             "cadastral_territory": "ĽUBIETOVÁ",
             "lv_number": "1686",
             "share": "1/4"
@@ -562,8 +592,8 @@
         ],
         "movable_property": null,
         "property_rights": [
-          "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2",
-          "FINANČNÉ PROSTRIEDKY V BANKE, podiel: 1/1"
+          "FINANČNÉ PROSTRIEDKY V BANKE, podiel: 1/1",
+          "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2"
         ],
         "obligations": [
           {
@@ -596,43 +626,43 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "POZEMOK - OSTATNÉ PLOCHY",
-                "cadastral_territory": "ĽUBIETOVÁ",
-                "lv_number": "1686",
-                "share": "1/4"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
-                "lv_number": "9659",
-                "share": "1/4"
-              },
-              {
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
                 "share": "1/1"
               },
               {
+                "type": "BYT V BYTOVOM DOME",
+                "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
+                "lv_number": "9659",
+                "share": "1/4"
+              },
+              {
                 "type": "POZEMOK - OSTATNÉ PLOCHY",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "567",
                 "share": "1/4"
               },
               {
-                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-                "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
-                "lv_number": "567",
-                "share": "1/4"
-              },
-              {
-                "type": "REKREAČNÝ DOM",
+                "type": "POZEMOK - OSTATNÉ PLOCHY",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
               },
               {
                 "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+                "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
+                "lv_number": "567",
+                "share": "1/4"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+                "cadastral_territory": "ĽUBIETOVÁ",
+                "lv_number": "1686",
+                "share": "1/4"
+              },
+              {
+                "type": "REKREAČNÝ DOM",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
@@ -640,22 +670,16 @@
             ],
             "new": [
               {
-                "type": "POZEMOK-OSTATNÉ PLOCHY",
-                "cadastral_territory": "ĽUBIETOVÁ",
-                "lv_number": "1686",
-                "share": "1/4"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
-                "lv_number": "9659",
-                "share": "1/4"
-              },
-              {
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
                 "share": "1/1"
+              },
+              {
+                "type": "BYT V BYTOVOM DOME",
+                "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
+                "lv_number": "9659",
+                "share": "1/4"
               },
               {
                 "type": "POZEMOK - OSTATNÉ PLOCHY",
@@ -670,13 +694,19 @@
                 "share": "1/4"
               },
               {
-                "type": "REKREAČNÝ DOM",
+                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
               },
               {
-                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+                "type": "POZEMOK-OSTATNÉ PLOCHY",
+                "cadastral_territory": "ĽUBIETOVÁ",
+                "lv_number": "1686",
+                "share": "1/4"
+              },
+              {
+                "type": "REKREAČNÝ DOM",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
@@ -697,6 +727,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 47313,
           "other": 0
@@ -710,13 +743,13 @@
             "type": "BYT V BYTOVOM DOME",
             "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
             "lv_number": "9659",
-            "share": "1/4"
+            "share": "1/1"
           },
           {
             "type": "BYT V BYTOVOM DOME",
             "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
             "lv_number": "9659",
-            "share": "1/1"
+            "share": "1/4"
           },
           {
             "type": "POZEMOK -  OSTATNÉ PLOCHY",
@@ -725,25 +758,25 @@
             "share": "1/4"
           },
           {
+            "type": "POZEMOK - OSTATNÉ PLOCHY",
+            "cadastral_territory": "ĽUBIETOVÁ",
+            "lv_number": "1686",
+            "share": "1/4"
+          },
+          {
             "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
             "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
             "lv_number": "567",
             "share": "1/4"
           },
           {
-            "type": "REKREAČNÝ DOM",
-            "cadastral_territory": "ĽUBIETOVÁ",
-            "lv_number": "1686",
-            "share": "1/4"
-          },
-          {
             "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
             "cadastral_territory": "ĽUBIETOVÁ",
             "lv_number": "1686",
             "share": "1/4"
           },
           {
-            "type": "POZEMOK - OSTATNÉ PLOCHY",
+            "type": "REKREAČNÝ DOM",
             "cadastral_territory": "ĽUBIETOVÁ",
             "lv_number": "1686",
             "share": "1/4"
@@ -767,8 +800,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky",
+            "old": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky",
             "new": "poslanec Národnej rady Slovenskej republiky"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "člen vlády Slovenskej republiky"
+            ],
+            "new": [
+              "poslanec Národnej rady Slovenskej republiky"
+            ],
+            "old_count": 2,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -789,22 +834,16 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "POZEMOK-OSTATNÉ PLOCHY",
-                "cadastral_territory": "ĽUBIETOVÁ",
-                "lv_number": "1686",
-                "share": "1/4"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
-                "lv_number": "9659",
-                "share": "1/4"
-              },
-              {
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
                 "share": "1/1"
+              },
+              {
+                "type": "BYT V BYTOVOM DOME",
+                "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
+                "lv_number": "9659",
+                "share": "1/4"
               },
               {
                 "type": "POZEMOK - OSTATNÉ PLOCHY",
@@ -819,13 +858,19 @@
                 "share": "1/4"
               },
               {
-                "type": "REKREAČNÝ DOM",
+                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
               },
               {
-                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+                "type": "POZEMOK-OSTATNÉ PLOCHY",
+                "cadastral_territory": "ĽUBIETOVÁ",
+                "lv_number": "1686",
+                "share": "1/4"
+              },
+              {
+                "type": "REKREAČNÝ DOM",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
@@ -836,13 +881,13 @@
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
-                "share": "1/4"
+                "share": "1/1"
               },
               {
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
-                "share": "1/1"
+                "share": "1/4"
               },
               {
                 "type": "POZEMOK -  OSTATNÉ PLOCHY",
@@ -851,25 +896,25 @@
                 "share": "1/4"
               },
               {
+                "type": "POZEMOK - OSTATNÉ PLOCHY",
+                "cadastral_territory": "ĽUBIETOVÁ",
+                "lv_number": "1686",
+                "share": "1/4"
+              },
+              {
                 "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "567",
                 "share": "1/4"
               },
               {
-                "type": "REKREAČNÝ DOM",
-                "cadastral_territory": "ĽUBIETOVÁ",
-                "lv_number": "1686",
-                "share": "1/4"
-              },
-              {
                 "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
               },
               {
-                "type": "POZEMOK - OSTATNÉ PLOCHY",
+                "type": "REKREAČNÝ DOM",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
@@ -881,8 +926,8 @@
           {
             "field": "property_rights",
             "old": [
-              "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2",
-              "FINANČNÉ PROSTRIEDKY V BANKE, podiel: 1/1"
+              "FINANČNÉ PROSTRIEDKY V BANKE, podiel: 1/1",
+              "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2"
             ],
             "new": [
               "OBCHODNÝ PODIEL SPOLOČNÍKA V S.R.O., podiel: 1/2"
@@ -902,6 +947,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 49891,
           "other": 0
@@ -912,43 +960,43 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "POZEMOK - OSTATNÉ PLOCHY",
-            "cadastral_territory": "ĽUBIETOVÁ",
-            "lv_number": "1686",
-            "share": "1/4"
-          },
-          {
-            "type": "BYT V BYTOVOM DOME",
-            "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
-            "lv_number": "9659",
-            "share": "1/4"
-          },
-          {
             "type": "BYT V BYTOVOM DOME",
             "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
             "lv_number": "9659",
             "share": "1/1"
           },
           {
+            "type": "BYT V BYTOVOM DOME",
+            "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
+            "lv_number": "9659",
+            "share": "1/4"
+          },
+          {
             "type": "POZEMOK - OSTATNÉ PLOCHY",
             "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
             "lv_number": "567",
             "share": "1/4"
           },
           {
-            "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-            "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
-            "lv_number": "567",
-            "share": "1/4"
-          },
-          {
-            "type": "REKREAČNÝ DOM",
+            "type": "POZEMOK - OSTATNÉ PLOCHY",
             "cadastral_territory": "ĽUBIETOVÁ",
             "lv_number": "1686",
             "share": "1/4"
           },
           {
             "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+            "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
+            "lv_number": "567",
+            "share": "1/4"
+          },
+          {
+            "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+            "cadastral_territory": "ĽUBIETOVÁ",
+            "lv_number": "1686",
+            "share": "1/4"
+          },
+          {
+            "type": "REKREAČNÝ DOM",
             "cadastral_territory": "ĽUBIETOVÁ",
             "lv_number": "1686",
             "share": "1/4"
@@ -992,13 +1040,13 @@
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
-                "share": "1/4"
+                "share": "1/1"
               },
               {
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "9659",
-                "share": "1/1"
+                "share": "1/4"
               },
               {
                 "type": "POZEMOK -  OSTATNÉ PLOCHY",
@@ -1007,25 +1055,25 @@
                 "share": "1/4"
               },
               {
+                "type": "POZEMOK - OSTATNÉ PLOCHY",
+                "cadastral_territory": "ĽUBIETOVÁ",
+                "lv_number": "1686",
+                "share": "1/4"
+              },
+              {
                 "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
                 "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
                 "lv_number": "567",
                 "share": "1/4"
               },
               {
-                "type": "REKREAČNÝ DOM",
-                "cadastral_territory": "ĽUBIETOVÁ",
-                "lv_number": "1686",
-                "share": "1/4"
-              },
-              {
                 "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
               },
               {
-                "type": "POZEMOK - OSTATNÉ PLOCHY",
+                "type": "REKREAČNÝ DOM",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
@@ -1033,43 +1081,43 @@
             ],
             "new": [
               {
-                "type": "POZEMOK - OSTATNÉ PLOCHY",
-                "cadastral_territory": "ĽUBIETOVÁ",
-                "lv_number": "1686",
-                "share": "1/4"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
-                "lv_number": "9659",
-                "share": "1/4"
-              },
-              {
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
                 "lv_number": "9659",
                 "share": "1/1"
               },
               {
+                "type": "BYT V BYTOVOM DOME",
+                "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
+                "lv_number": "9659",
+                "share": "1/4"
+              },
+              {
                 "type": "POZEMOK - OSTATNÉ PLOCHY",
                 "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
                 "lv_number": "567",
                 "share": "1/4"
               },
               {
-                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-                "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
-                "lv_number": "567",
-                "share": "1/4"
-              },
-              {
-                "type": "REKREAČNÝ DOM",
+                "type": "POZEMOK - OSTATNÉ PLOCHY",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
               },
               {
                 "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+                "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
+                "lv_number": "567",
+                "share": "1/4"
+              },
+              {
+                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+                "cadastral_territory": "ĽUBIETOVÁ",
+                "lv_number": "1686",
+                "share": "1/4"
+              },
+              {
+                "type": "REKREAČNÝ DOM",
                 "cadastral_territory": "ĽUBIETOVÁ",
                 "lv_number": "1686",
                 "share": "1/4"
@@ -1082,132 +1130,19 @@
       }
     }
   ],
-  "total_changes": 15,
+  "total_changes": 17,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/KoliMari.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/KoliMari.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/KoliMari.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/KoliMari.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 47313,
-            "other": 0
-          },
-          "new": {
-            "public_function": 49891,
-            "other": 0
-          },
-          "old_total": 47313,
-          "new_total": 49891,
-          "delta": 2578,
-          "delta_pct": 5.4
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT V BYTOVOM DOME",
-              "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
-              "lv_number": "9659",
-              "share": "1/4"
-            },
-            {
-              "type": "BYT V BYTOVOM DOME",
-              "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
-              "lv_number": "9659",
-              "share": "1/1"
-            },
-            {
-              "type": "POZEMOK -  OSTATNÉ PLOCHY",
-              "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
-              "lv_number": "567",
-              "share": "1/4"
-            },
-            {
-              "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-              "cadastral_territory": "STARÉ MESTO (BRATISLAVA)",
-              "lv_number": "567",
-              "share": "1/4"
-            },
-            {
-              "type": "REKREAČNÝ DOM",
-              "cadastral_territory": "ĽUBIETOVÁ",
-              "lv_number": "1686",
-              "share": "1/4"
-            },
-            {
-              "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-              "cadastral_territory": "ĽUBIETOVÁ",
-              "lv_number": "1686",
-              "share": "1/4"
-            },
-            {
-              "type": "POZEMOK - OSTATNÉ PLOCHY",
-              "cadastral_territory": "ĽUBIETOVÁ",
-              "lv_number": "1686",
-              "share": "1/4"
-            }
-          ],
-          "new": [
-            {
-              "type": "POZEMOK - OSTATNÉ PLOCHY",
-              "cadastral_territory": "ĽUBIETOVÁ",
-              "lv_number": "1686",
-              "share": "1/4"
-            },
-            {
-              "type": "BYT V BYTOVOM DOME",
-              "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
-              "lv_number": "9659",
-              "share": "1/4"
-            },
-            {
-              "type": "BYT V BYTOVOM DOME",
-              "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
-              "lv_number": "9659",
-              "share": "1/1"
-            },
-            {
-              "type": "POZEMOK - OSTATNÉ PLOCHY",
-              "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
-              "lv_number": "567",
-              "share": "1/4"
-            },
-            {
-              "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-              "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
-              "lv_number": "567",
-              "share": "1/4"
-            },
-            {
-              "type": "REKREAČNÝ DOM",
-              "cadastral_territory": "ĽUBIETOVÁ",
-              "lv_number": "1686",
-              "share": "1/4"
-            },
-            {
-              "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-              "cadastral_territory": "ĽUBIETOVÁ",
-              "lv_number": "1686",
-              "share": "1/4"
-            }
-          ],
-          "old_count": 7,
-          "new_count": 7
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 47 313 € → 49 891 € (+2 578 €)",
-      "Nehnuteľnosti: 7 → 7 (0)"
-    ]
+    "summary": []
   },
   "slug": "mgr-maria-kolikova",
   "context": {
@@ -1217,7 +1152,7 @@
     "obligations": 1,
     "income_percentile": 49,
     "property_percentile": 77,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.8

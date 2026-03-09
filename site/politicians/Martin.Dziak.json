@@ -2,6 +2,9 @@
   "user_id": "Martin.Dziak",
   "name": "Mgr. Martin Dziak",
   "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, s.r.o.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, s.r.o.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -31,12 +37,6 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "POZEMOK PARCELA",
-            "cadastral_territory": "HORNÉ LOVČICE",
-            "lv_number": "23",
-            "share": "2/14"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "STARÉ MESTO",
             "lv_number": "6121",
@@ -44,15 +44,21 @@
           },
           {
             "type": "POZEMOK PARCELA",
-            "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "6122",
-            "share": "109/10000"
+            "cadastral_territory": "HORNÉ LOVČICE",
+            "lv_number": "23",
+            "share": "2/14"
           },
           {
             "type": "POZEMOK PARCELA",
             "cadastral_territory": "STARÉ MESTO",
             "lv_number": "6040",
             "share": "59/20000"
+          },
+          {
+            "type": "POZEMOK PARCELA",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "6122",
+            "share": "109/10000"
           }
         ],
         "movable_property": null,
@@ -81,6 +87,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENASKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENASKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 38234
@@ -98,9 +107,9 @@
           },
           {
             "type": "POZEMOK",
-            "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "6122",
-            "share": "109/10000"
+            "cadastral_territory": "HORNÉ LOVČICE",
+            "lv_number": "23",
+            "share": "2/74"
           },
           {
             "type": "POZEMOK",
@@ -110,9 +119,9 @@
           },
           {
             "type": "POZEMOK",
-            "cadastral_territory": "HORNÉ LOVČICE",
-            "lv_number": "23",
-            "share": "2/74"
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "6122",
+            "share": "109/10000"
           }
         ],
         "movable_property": null,
@@ -137,6 +146,17 @@
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENASKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, s.r.o.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENASKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 0,
@@ -154,12 +174,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "POZEMOK PARCELA",
-                "cadastral_territory": "HORNÉ LOVČICE",
-                "lv_number": "23",
-                "share": "2/14"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "STARÉ MESTO",
                 "lv_number": "6121",
@@ -167,15 +181,21 @@
               },
               {
                 "type": "POZEMOK PARCELA",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "6122",
-                "share": "109/10000"
+                "cadastral_territory": "HORNÉ LOVČICE",
+                "lv_number": "23",
+                "share": "2/14"
               },
               {
                 "type": "POZEMOK PARCELA",
                 "cadastral_territory": "STARÉ MESTO",
                 "lv_number": "6040",
                 "share": "59/20000"
+              },
+              {
+                "type": "POZEMOK PARCELA",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "6122",
+                "share": "109/10000"
               }
             ],
             "new": [
@@ -187,9 +207,9 @@
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "6122",
-                "share": "109/10000"
+                "cadastral_territory": "HORNÉ LOVČICE",
+                "lv_number": "23",
+                "share": "2/74"
               },
               {
                 "type": "POZEMOK",
@@ -199,9 +219,9 @@
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "HORNÉ LOVČICE",
-                "lv_number": "23",
-                "share": "2/74"
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "6122",
+                "share": "109/10000"
               }
             ],
             "old_count": 4,
@@ -238,6 +258,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 37733
@@ -248,12 +271,6 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "POZEMOK",
-            "cadastral_territory": "HORNÉ LOVČICE",
-            "lv_number": "23",
-            "share": "2/14"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "STARÉ MESTO",
             "lv_number": "6121",
@@ -261,15 +278,21 @@
           },
           {
             "type": "POZEMOK",
-            "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "6122",
-            "share": "109/10000"
+            "cadastral_territory": "HORNÉ LOVČICE",
+            "lv_number": "23",
+            "share": "2/14"
           },
           {
             "type": "POZEMOK",
             "cadastral_territory": "STARÉ MESTO",
             "lv_number": "6040",
             "share": "59/20000"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "6122",
+            "share": "109/10000"
           }
         ],
         "movable_property": null,
@@ -292,6 +315,17 @@
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENASKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENASKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -319,9 +353,9 @@
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "6122",
-                "share": "109/10000"
+                "cadastral_territory": "HORNÉ LOVČICE",
+                "lv_number": "23",
+                "share": "2/74"
               },
               {
                 "type": "POZEMOK",
@@ -331,18 +365,12 @@
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "HORNÉ LOVČICE",
-                "lv_number": "23",
-                "share": "2/74"
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "6122",
+                "share": "109/10000"
               }
             ],
             "new": [
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "HORNÉ LOVČICE",
-                "lv_number": "23",
-                "share": "2/14"
-              },
               {
                 "type": "BYT",
                 "cadastral_territory": "STARÉ MESTO",
@@ -351,15 +379,21 @@
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "6122",
-                "share": "109/10000"
+                "cadastral_territory": "HORNÉ LOVČICE",
+                "lv_number": "23",
+                "share": "2/14"
               },
               {
                 "type": "POZEMOK",
                 "cadastral_territory": "STARÉ MESTO",
                 "lv_number": "6040",
                 "share": "59/20000"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "6122",
+                "share": "109/10000"
               }
             ],
             "old_count": 4,
@@ -377,6 +411,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 41893
@@ -389,14 +426,26 @@
           {
             "type": "BYT",
             "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "5825",
+            "share": "BSM"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "STARÉ MESTO",
             "lv_number": "6121",
             "share": "1/2"
           },
           {
             "type": "POZEMOK",
+            "cadastral_territory": "HORNÉ LOVČICE",
+            "lv_number": "23",
+            "share": "2/14"
+          },
+          {
+            "type": "POZEMOK",
             "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "6122",
-            "share": "109/10000"
+            "lv_number": "5825",
+            "share": "5238/159375 - BSM"
           },
           {
             "type": "POZEMOK",
@@ -406,21 +455,9 @@
           },
           {
             "type": "POZEMOK",
-            "cadastral_territory": "HORNÉ LOVČICE",
-            "lv_number": "23",
-            "share": "2/14"
-          },
-          {
-            "type": "BYT",
             "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "5825",
-            "share": "BSM"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "5825",
-            "share": "5238/159375 - BSM"
+            "lv_number": "6122",
+            "share": "109/10000"
           }
         ],
         "movable_property": null,
@@ -463,12 +500,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "HORNÉ LOVČICE",
-                "lv_number": "23",
-                "share": "2/14"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "STARÉ MESTO",
                 "lv_number": "6121",
@@ -476,42 +507,24 @@
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "6122",
-                "share": "109/10000"
+                "cadastral_territory": "HORNÉ LOVČICE",
+                "lv_number": "23",
+                "share": "2/14"
               },
               {
                 "type": "POZEMOK",
                 "cadastral_territory": "STARÉ MESTO",
                 "lv_number": "6040",
                 "share": "59/20000"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "6122",
+                "share": "109/10000"
               }
             ],
             "new": [
-              {
-                "type": "BYT",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "6121",
-                "share": "1/2"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "6122",
-                "share": "109/10000"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "6040",
-                "share": "59/20000"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "HORNÉ LOVČICE",
-                "lv_number": "23",
-                "share": "2/14"
-              },
               {
                 "type": "BYT",
                 "cadastral_territory": "STARÉ MESTO",
@@ -519,10 +532,34 @@
                 "share": "BSM"
               },
               {
+                "type": "BYT",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "6121",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "HORNÉ LOVČICE",
+                "lv_number": "23",
+                "share": "2/14"
+              },
+              {
                 "type": "POZEMOK",
                 "cadastral_territory": "STARÉ MESTO",
                 "lv_number": "5825",
                 "share": "5238/159375 - BSM"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "6040",
+                "share": "59/20000"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "6122",
+                "share": "109/10000"
               }
             ],
             "old_count": 4,
@@ -564,6 +601,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 52709
@@ -574,22 +614,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "POZEMOK",
-            "cadastral_territory": "HORNÉ LOVČICE",
-            "lv_number": "23",
-            "share": "2/14"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "STARÉ MESTO",
             "lv_number": "5825",
             "share": "BSM"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "5825",
-            "share": "5238/159375 BSM"
           },
           {
             "type": "BYT",
@@ -599,15 +627,27 @@
           },
           {
             "type": "POZEMOK",
+            "cadastral_territory": "HORNÉ LOVČICE",
+            "lv_number": "23",
+            "share": "2/14"
+          },
+          {
+            "type": "POZEMOK",
             "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "6122",
-            "share": "109/10000"
+            "lv_number": "5825",
+            "share": "5238/159375 BSM"
           },
           {
             "type": "POZEMOK",
             "cadastral_territory": "STARÉ MESTO",
             "lv_number": "6040",
             "share": "59/20000"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "6122",
+            "share": "109/10000"
           }
         ],
         "movable_property": null,
@@ -652,14 +692,26 @@
               {
                 "type": "BYT",
                 "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "5825",
+                "share": "BSM"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "STARÉ MESTO",
                 "lv_number": "6121",
                 "share": "1/2"
               },
               {
                 "type": "POZEMOK",
+                "cadastral_territory": "HORNÉ LOVČICE",
+                "lv_number": "23",
+                "share": "2/14"
+              },
+              {
+                "type": "POZEMOK",
                 "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "6122",
-                "share": "109/10000"
+                "lv_number": "5825",
+                "share": "5238/159375 - BSM"
               },
               {
                 "type": "POZEMOK",
@@ -669,35 +721,29 @@
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "HORNÉ LOVČICE",
-                "lv_number": "23",
-                "share": "2/14"
-              },
-              {
-                "type": "BYT",
                 "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "5825",
-                "share": "BSM"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "5825",
-                "share": "5238/159375 - BSM"
+                "lv_number": "6122",
+                "share": "109/10000"
               }
             ],
             "new": [
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "HORNÉ LOVČICE",
-                "lv_number": "23",
-                "share": "2/14"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "STARÉ MESTO",
                 "lv_number": "5825",
                 "share": "BSM"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "6121",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "HORNÉ LOVČICE",
+                "lv_number": "23",
+                "share": "2/14"
               },
               {
                 "type": "POZEMOK",
@@ -706,22 +752,16 @@
                 "share": "5238/159375 BSM"
               },
               {
-                "type": "BYT",
+                "type": "POZEMOK",
                 "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "6121",
-                "share": "1/2"
+                "lv_number": "6040",
+                "share": "59/20000"
               },
               {
                 "type": "POZEMOK",
                 "cadastral_territory": "STARÉ MESTO",
                 "lv_number": "6122",
                 "share": "109/10000"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "6040",
-                "share": "59/20000"
               }
             ],
             "old_count": 6,
@@ -768,6 +808,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ REŠTRUKTURALIZAČNÁ, S.R.O.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 57564
@@ -784,10 +827,16 @@
             "share": "1/2"
           },
           {
+            "type": "BYT",
+            "cadastral_territory": "STARÉMESTO",
+            "lv_number": "5825",
+            "share": "BSM"
+          },
+          {
             "type": "POZEMOK",
-            "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "6122",
-            "share": "109/10000"
+            "cadastral_territory": "HORNÉ LOVČICE",
+            "lv_number": "23",
+            "share": "2/14"
           },
           {
             "type": "POZEMOK",
@@ -797,15 +846,9 @@
           },
           {
             "type": "POZEMOK",
-            "cadastral_territory": "HORNÉ LOVČICE",
-            "lv_number": "23",
-            "share": "2/14"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "STARÉMESTO",
-            "lv_number": "5825",
-            "share": "BSM"
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "6122",
+            "share": "109/10000"
           },
           {
             "type": "POZEMOK",
@@ -854,22 +897,10 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "HORNÉ LOVČICE",
-                "lv_number": "23",
-                "share": "2/14"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "STARÉ MESTO",
                 "lv_number": "5825",
                 "share": "BSM"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "5825",
-                "share": "5238/159375 BSM"
               },
               {
                 "type": "BYT",
@@ -879,15 +910,27 @@
               },
               {
                 "type": "POZEMOK",
+                "cadastral_territory": "HORNÉ LOVČICE",
+                "lv_number": "23",
+                "share": "2/14"
+              },
+              {
+                "type": "POZEMOK",
                 "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "6122",
-                "share": "109/10000"
+                "lv_number": "5825",
+                "share": "5238/159375 BSM"
               },
               {
                 "type": "POZEMOK",
                 "cadastral_territory": "STARÉ MESTO",
                 "lv_number": "6040",
                 "share": "59/20000"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "6122",
+                "share": "109/10000"
               }
             ],
             "new": [
@@ -898,10 +941,16 @@
                 "share": "1/2"
               },
               {
+                "type": "BYT",
+                "cadastral_territory": "STARÉMESTO",
+                "lv_number": "5825",
+                "share": "BSM"
+              },
+              {
                 "type": "POZEMOK",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "6122",
-                "share": "109/10000"
+                "cadastral_territory": "HORNÉ LOVČICE",
+                "lv_number": "23",
+                "share": "2/14"
               },
               {
                 "type": "POZEMOK",
@@ -911,15 +960,9 @@
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "HORNÉ LOVČICE",
-                "lv_number": "23",
-                "share": "2/14"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "STARÉMESTO",
-                "lv_number": "5825",
-                "share": "BSM"
+                "cadastral_territory": "STARÉ MESTO",
+                "lv_number": "6122",
+                "share": "109/10000"
               },
               {
                 "type": "POZEMOK",
@@ -964,150 +1007,19 @@
       }
     }
   ],
-  "total_changes": 16,
+  "total_changes": 18,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Dziak.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Dziak.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Martin.Dziak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Martin.Dziak.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 52709
-          },
-          "new": {
-            "public_function": 0,
-            "other": 57564
-          },
-          "old_total": 52709,
-          "new_total": 57564,
-          "delta": 4855,
-          "delta_pct": 9.2
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "HORNÉ LOVČICE",
-              "lv_number": "23",
-              "share": "2/14"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "5825",
-              "share": "BSM"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "5825",
-              "share": "5238/159375 BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "6121",
-              "share": "1/2"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "6122",
-              "share": "109/10000"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "6040",
-              "share": "59/20000"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "6121",
-              "share": "1/2"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "6122",
-              "share": "109/10000"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "6040",
-              "share": "59/20000"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "HORNÉ LOVČICE",
-              "lv_number": "23",
-              "share": "2/14"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "STARÉMESTO",
-              "lv_number": "5825",
-              "share": "BSM"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "STARÉMESTO",
-              "lv_number": "5875",
-              "share": "5238/159375 - BSM"
-            }
-          ],
-          "old_count": 6,
-          "new_count": 6
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "BSM",
-              "date": "18. 02. 2010"
-            },
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "BSM",
-              "date": "30. 03. 2022"
-            }
-          ],
-          "new": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "1/2",
-              "date": "18. 02. 2010"
-            },
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "1/2",
-              "date": "30. 03. 2022"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 52 709 € → 57 564 € (+4 855 €)",
-      "Nehnuteľnosti: 6 → 6 (0)",
-      "Záväzky: 2 → 2 (0)"
-    ]
+    "summary": []
   },
   "slug": "mgr-martin-dziak",
   "context": {
@@ -1117,7 +1029,7 @@
     "obligations": 2,
     "income_percentile": 59,
     "property_percentile": 72,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.2

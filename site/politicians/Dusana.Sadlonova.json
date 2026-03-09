@@ -2,6 +2,9 @@
   "user_id": "Dusana.Sadlonova",
   "name": "JUDr. Dušana Sadloňová",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A. S.)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A. S.)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A. S.)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -52,12 +58,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "BSM",
-            "date": "26. 04. 2022"
+            "date": "22. 05. 2013"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "BSM",
-            "date": "22. 05. 2013"
+            "date": "26. 04. 2022"
           }
         ],
         "use_of_others_real_estate": null,
@@ -77,6 +83,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A. S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A. S.)"
+        ],
         "income": {
           "public_function": 2500,
           "other": 25445
@@ -112,12 +121,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "BSM",
-            "date": "26. 04. 2022"
+            "date": "22. 05. 2013"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "BSM",
-            "date": "22. 05. 2013"
+            "date": "26. 04. 2022"
           }
         ],
         "use_of_others_real_estate": null,
@@ -131,6 +140,17 @@
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A.S.)",
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A. S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A.S.)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A. S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -188,83 +208,19 @@
       }
     }
   ],
-  "total_changes": 4,
+  "total_changes": 5,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Dusana.Sadlonova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Dusana.Sadlonova.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Dusana.Sadlonova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Dusana.Sadlonova.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A.S.)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A. S.)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 2500,
-            "other": 25445
-          },
-          "old_total": 0,
-          "new_total": 27945,
-          "delta": 27945
-        },
-        {
-          "field": "employment",
-          "old": "TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A. S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "2X ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "855316 STREDNÝ ČEPEŇ",
-              "lv_number": "3277",
-              "share": "BSM"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "855316 STREDNÝ ČEPEŇ",
-              "lv_number": "3277",
-              "share": "BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "2X ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "STREDNÝ ČEPEŇ",
-              "lv_number": "3277",
-              "share": "BSM"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "STREDNÝ ČEPEŇ",
-              "lv_number": "3277",
-              "share": "BSM"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 27 945 € (+27 945 €)",
-      "Zamestnanie",
-      "Nehnuteľnosti: 2 → 2 (0)"
-    ]
+    "summary": []
   },
   "slug": "judr-dusana-sadlonova",
   "context": {
@@ -274,7 +230,7 @@
     "obligations": 2,
     "income_percentile": 28,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.6

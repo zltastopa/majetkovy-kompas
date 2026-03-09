@@ -2,6 +2,9 @@
   "user_id": "Tomas.Novansky",
   "name": "Ing. Tomáš Novanský",
   "public_function": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRIEMYSELNÉHO VLASTNÍCTVA SR)",
+  "public_functions": [
+    "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRIEMYSELNÉHO VLASTNÍCTVA SR)"
+  ],
   "role": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRIEMYSELNÉHO VLASTNÍCTVA SR)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRIEMYSELNÉHO VLASTNÍCTVA SLOVENSKEJ REPUBLIKY)",
+        "public_functions": [
+          "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRIEMYSELNÉHO VLASTNÍCTVA SLOVENSKEJ REPUBLIKY)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -27,29 +33,29 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM - VRÁTANE ZASTAVANÝCH PLÔCH A ZÁHRADY",
-            "cadastral_territory": "SÁSOVÁ",
-            "lv_number": "2712",
-            "share": "1/2"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "BRATISLAVA - NIVY",
             "lv_number": "3888",
+            "share": "1/2"
+          },
+          {
+            "type": "RODINNÝ DOM - VRÁTANE ZASTAVANÝCH PLÔCH A ZÁHRADY",
+            "cadastral_territory": "SÁSOVÁ",
+            "lv_number": "2712",
             "share": "1/2"
           }
         ],
         "movable_property": [
           {
             "type": "OSOBNÝ AUTOMOBIL",
-            "brand": "MERCEDES BENZ",
-            "year_of_manufacture": 2013,
+            "brand": "BMW",
+            "year_of_manufacture": 2015,
             "share": "1/1"
           },
           {
             "type": "OSOBNÝ AUTOMOBIL",
-            "brand": "BMW",
-            "year_of_manufacture": 2015,
+            "brand": "MERCEDES BENZ",
+            "year_of_manufacture": 2013,
             "share": "1/1"
           }
         ],
@@ -76,6 +82,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRIEMYSELNÉHO VLASTNÍCTVA SR)",
+        "public_functions": [
+          "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRIEMYSELNÉHO VLASTNÍCTVA SR)"
+        ],
         "income": {
           "public_function": 49844,
           "other": 16025
@@ -86,14 +95,14 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM PLUS ZÁHRADY",
-            "cadastral_territory": "BANSKÁ BYSTRICA",
-            "lv_number": "2712",
+            "type": "2 IZBOVÝ BYT BRATISLAVA",
+            "cadastral_territory": "BRATISLAVA - RUŽINOV",
             "share": "1/2"
           },
           {
-            "type": "2 IZBOVÝ BYT BRATISLAVA",
-            "cadastral_territory": "BRATISLAVA - RUŽINOV",
+            "type": "RODINNÝ DOM PLUS ZÁHRADY",
+            "cadastral_territory": "BANSKÁ BYSTRICA",
+            "lv_number": "2712",
             "share": "1/2"
           }
         ],
@@ -130,6 +139,17 @@
             "new": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRIEMYSELNÉHO VLASTNÍCTVA SR)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRIEMYSELNÉHO VLASTNÍCTVA SLOVENSKEJ REPUBLIKY)"
+            ],
+            "new": [
+              "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRIEMYSELNÉHO VLASTNÍCTVA SR)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 0,
@@ -152,28 +172,28 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM - VRÁTANE ZASTAVANÝCH PLÔCH A ZÁHRADY",
-                "cadastral_territory": "SÁSOVÁ",
-                "lv_number": "2712",
-                "share": "1/2"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "BRATISLAVA - NIVY",
                 "lv_number": "3888",
+                "share": "1/2"
+              },
+              {
+                "type": "RODINNÝ DOM - VRÁTANE ZASTAVANÝCH PLÔCH A ZÁHRADY",
+                "cadastral_territory": "SÁSOVÁ",
+                "lv_number": "2712",
                 "share": "1/2"
               }
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM PLUS ZÁHRADY",
-                "cadastral_territory": "BANSKÁ BYSTRICA",
-                "lv_number": "2712",
+                "type": "2 IZBOVÝ BYT BRATISLAVA",
+                "cadastral_territory": "BRATISLAVA - RUŽINOV",
                 "share": "1/2"
               },
               {
-                "type": "2 IZBOVÝ BYT BRATISLAVA",
-                "cadastral_territory": "BRATISLAVA - RUŽINOV",
+                "type": "RODINNÝ DOM PLUS ZÁHRADY",
+                "cadastral_territory": "BANSKÁ BYSTRICA",
+                "lv_number": "2712",
                 "share": "1/2"
               }
             ],
@@ -185,14 +205,14 @@
             "old": [
               {
                 "type": "OSOBNÝ AUTOMOBIL",
-                "brand": "MERCEDES BENZ",
-                "year_of_manufacture": 2013,
+                "brand": "BMW",
+                "year_of_manufacture": 2015,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÝ AUTOMOBIL",
-                "brand": "BMW",
-                "year_of_manufacture": 2015,
+                "brand": "MERCEDES BENZ",
+                "year_of_manufacture": 2013,
                 "share": "1/1"
               }
             ],
@@ -217,116 +237,19 @@
       }
     }
   ],
-  "total_changes": 5,
+  "total_changes": 6,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tomas.Novansky.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tomas.Novansky.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Tomas.Novansky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Tomas.Novansky.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRIEMYSELNÉHO VLASTNÍCTVA SLOVENSKEJ REPUBLIKY)",
-          "new": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRIEMYSELNÉHO VLASTNÍCTVA SR)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 49844,
-            "other": 16025
-          },
-          "old_total": 0,
-          "new_total": 65869,
-          "delta": 65869
-        },
-        {
-          "field": "employment",
-          "old": null,
-          "new": "BANSKOBYSTRICKÁ REGIONÁLNA SPRÁVA CIEST A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "RODINNÝ DOM - VRÁTANE ZASTAVANÝCH PLÔCH A ZÁHRADY",
-              "cadastral_territory": "SÁSOVÁ",
-              "lv_number": "2712",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "BRATISLAVA - NIVY",
-              "lv_number": "3888",
-              "share": "1/2"
-            }
-          ],
-          "new": [
-            {
-              "type": "RODINNÝ DOM PLUS ZÁHRADY",
-              "cadastral_territory": "BANSKÁ BYSTRICA",
-              "lv_number": "2712",
-              "share": "1/2"
-            },
-            {
-              "type": "2 IZBOVÝ BYT BRATISLAVA",
-              "cadastral_territory": "BRATISLAVA - RUŽINOV",
-              "share": "1/2"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "MERCEDES BENZ",
-              "year_of_manufacture": 2013,
-              "share": "1/1"
-            },
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "BMW",
-              "year_of_manufacture": 2015,
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "MOTOROVÉ VOZIDLO",
-              "brand": "BMW",
-              "year_of_manufacture": 2015,
-              "share": "1/1"
-            },
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "MERCEDES",
-              "year_of_manufacture": 2014,
-              "share": "1/1"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 65 869 € (+65 869 €)",
-      "Zamestnanie",
-      "Nehnuteľnosti: 2 → 2 (0)",
-      "Hnuteľný majetok: 2 → 2 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-tomas-novansky",
   "context": {
@@ -336,7 +259,7 @@
     "obligations": 1,
     "income_percentile": 68,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.7

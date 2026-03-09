@@ -2,6 +2,9 @@
   "user_id": "KaliVlas",
   "name": "Ing. Vlastimil Kalinec",
   "public_function": "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)",
+  "public_functions": [
+    "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)"
+  ],
   "role": "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)",
+        "public_functions": [
+          "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)"
+        ],
         "income": {
           "public_function": 68003,
           "other": 25158
@@ -58,6 +64,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "riaditeľ štátneho podniku (MINCOVŇA KREMNICA, Š.P.)",
+        "public_functions": [
+          "riaditeľ štátneho podniku (MINCOVŇA KREMNICA, Š.P.)"
+        ],
         "income": {
           "public_function": 68093,
           "other": 7085
@@ -91,6 +100,17 @@
             "new": "riaditeľ štátneho podniku (MINCOVŇA KREMNICA, Š.P.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)"
+            ],
+            "new": [
+              "riaditeľ štátneho podniku (MINCOVŇA KREMNICA, Š.P.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 68003,
@@ -117,6 +137,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)",
+        "public_functions": [
+          "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)"
+        ],
         "income": {
           "public_function": 41650,
           "other": 6655
@@ -127,16 +150,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
-            "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
-            "lv_number": "77, 1184",
-            "share": "50%"
-          },
-          {
-            "type": "REKREAČNÝ DOM",
-            "cadastral_territory": "OČOVÁ",
-            "lv_number": "2126",
-            "share": "50%"
+            "type": "BYT",
+            "cadastral_territory": "DETVA",
+            "lv_number": "8550",
+            "share": "100%"
           },
           {
             "type": "GARÁŽ",
@@ -145,13 +162,23 @@
             "share": "100%"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "DETVA",
-            "lv_number": "8550",
-            "share": "100%"
+            "type": "REKREAČNÝ DOM",
+            "cadastral_territory": "OČOVÁ",
+            "lv_number": "2126",
+            "share": "50%"
+          },
+          {
+            "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
+            "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
+            "lv_number": "77, 1184",
+            "share": "50%"
           }
         ],
         "movable_property": [
+          {
+            "type": "BYTOVÉ ZARIADENIE",
+            "share": "100%"
+          },
           {
             "type": "OSOBNÝ AUTOMOBIL",
             "brand": "TOYOTA",
@@ -160,10 +187,6 @@
           },
           {
             "type": "ZBERATEĽSKÉ MINCE A MEDAILY",
-            "share": "100%"
-          },
-          {
-            "type": "BYTOVÉ ZARIADENIE",
             "share": "100%"
           }
         ],
@@ -187,6 +210,17 @@
             "field": "public_function",
             "old": "riaditeľ štátneho podniku (MINCOVŇA KREMNICA, Š.P.)",
             "new": "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "riaditeľ štátneho podniku (MINCOVŇA KREMNICA, Š.P.)"
+            ],
+            "new": [
+              "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -213,16 +247,10 @@
             "old": null,
             "new": [
               {
-                "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
-                "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
-                "lv_number": "77, 1184",
-                "share": "50%"
-              },
-              {
-                "type": "REKREAČNÝ DOM",
-                "cadastral_territory": "OČOVÁ",
-                "lv_number": "2126",
-                "share": "50%"
+                "type": "BYT",
+                "cadastral_territory": "DETVA",
+                "lv_number": "8550",
+                "share": "100%"
               },
               {
                 "type": "GARÁŽ",
@@ -231,10 +259,16 @@
                 "share": "100%"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "DETVA",
-                "lv_number": "8550",
-                "share": "100%"
+                "type": "REKREAČNÝ DOM",
+                "cadastral_territory": "OČOVÁ",
+                "lv_number": "2126",
+                "share": "50%"
+              },
+              {
+                "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
+                "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
+                "lv_number": "77, 1184",
+                "share": "50%"
               }
             ]
           },
@@ -243,6 +277,10 @@
             "old": null,
             "new": [
               {
+                "type": "BYTOVÉ ZARIADENIE",
+                "share": "100%"
+              },
+              {
                 "type": "OSOBNÝ AUTOMOBIL",
                 "brand": "TOYOTA",
                 "year_of_manufacture": 1994,
@@ -250,10 +288,6 @@
               },
               {
                 "type": "ZBERATEĽSKÉ MINCE A MEDAILY",
-                "share": "100%"
-              },
-              {
-                "type": "BYTOVÉ ZARIADENIE",
                 "share": "100%"
               }
             ]
@@ -284,6 +318,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)",
+        "public_functions": [
+          "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)"
+        ],
         "income": {
           "public_function": 66346,
           "other": 0
@@ -300,10 +337,10 @@
             "share": "100%"
           },
           {
-            "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
-            "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
-            "lv_number": "77, 1184",
-            "share": "50%"
+            "type": "GARÁŽ",
+            "cadastral_territory": "DETVA",
+            "lv_number": "1687",
+            "share": "100%"
           },
           {
             "type": "REKREAČNÝ DOM",
@@ -312,10 +349,10 @@
             "share": "50%"
           },
           {
-            "type": "GARÁŽ",
-            "cadastral_territory": "DETVA",
-            "lv_number": "1687",
-            "share": "100%"
+            "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
+            "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
+            "lv_number": "77, 1184",
+            "share": "50%"
           }
         ],
         "movable_property": [
@@ -326,11 +363,11 @@
             "share": "100%"
           },
           {
-            "type": "ZBIERKA MINCÍ A MEDAILÍ",
+            "type": "BYTOVÉ ZARIADENIE",
             "share": "100%"
           },
           {
-            "type": "BYTOVÉ ZARIADENIE",
+            "type": "ZBIERKA MINCÍ A MEDAILÍ",
             "share": "100%"
           }
         ],
@@ -365,65 +402,12 @@
             "delta_pct": 37.3
           },
           {
-            "field": "real_estate",
-            "old": [
-              {
-                "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
-                "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
-                "lv_number": "77, 1184",
-                "share": "50%"
-              },
-              {
-                "type": "REKREAČNÝ DOM",
-                "cadastral_territory": "OČOVÁ",
-                "lv_number": "2126",
-                "share": "50%"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "DETVA",
-                "lv_number": "1687",
-                "share": "100%"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "DETVA",
-                "lv_number": "8550",
-                "share": "100%"
-              }
-            ],
-            "new": [
-              {
-                "type": "BYT",
-                "cadastral_territory": "DETVA",
-                "lv_number": "8550",
-                "share": "100%"
-              },
-              {
-                "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
-                "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
-                "lv_number": "77, 1184",
-                "share": "50%"
-              },
-              {
-                "type": "REKREAČNÝ DOM",
-                "cadastral_territory": "OČOVÁ",
-                "lv_number": "2126",
-                "share": "50%"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "DETVA",
-                "lv_number": "1687",
-                "share": "100%"
-              }
-            ],
-            "old_count": 4,
-            "new_count": 4
-          },
-          {
             "field": "movable_property",
             "old": [
+              {
+                "type": "BYTOVÉ ZARIADENIE",
+                "share": "100%"
+              },
               {
                 "type": "OSOBNÝ AUTOMOBIL",
                 "brand": "TOYOTA",
@@ -432,10 +416,6 @@
               },
               {
                 "type": "ZBERATEĽSKÉ MINCE A MEDAILY",
-                "share": "100%"
-              },
-              {
-                "type": "BYTOVÉ ZARIADENIE",
                 "share": "100%"
               }
             ],
@@ -447,11 +427,11 @@
                 "share": "100%"
               },
               {
-                "type": "ZBIERKA MINCÍ A MEDAILÍ",
+                "type": "BYTOVÉ ZARIADENIE",
                 "share": "100%"
               },
               {
-                "type": "BYTOVÉ ZARIADENIE",
+                "type": "ZBIERKA MINCÍ A MEDAILÍ",
                 "share": "100%"
               }
             ],
@@ -482,6 +462,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)",
+        "public_functions": [
+          "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)"
+        ],
         "income": {
           "public_function": 78927,
           "other": 0
@@ -492,16 +475,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
-            "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
-            "lv_number": "77, 1184",
-            "share": "50%"
-          },
-          {
-            "type": "REKREAČNÝ DOM",
-            "cadastral_territory": "OČOVÁ",
-            "lv_number": "2126",
-            "share": "50%"
+            "type": "BYT",
+            "cadastral_territory": "DETVA",
+            "lv_number": "8550",
+            "share": "BSM"
           },
           {
             "type": "GARÁŽ",
@@ -510,10 +487,16 @@
             "share": "BSM"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "DETVA",
-            "lv_number": "8550",
-            "share": "BSM"
+            "type": "REKREAČNÝ DOM",
+            "cadastral_territory": "OČOVÁ",
+            "lv_number": "2126",
+            "share": "50%"
+          },
+          {
+            "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
+            "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
+            "lv_number": "77, 1184",
+            "share": "50%"
           }
         ],
         "movable_property": [
@@ -525,8 +508,8 @@
           }
         ],
         "property_rights": [
-          "BYTOVÉ ZARIADENIE, podiel: BSM",
           "BANKOVÉ ÚČTY, CENNÉ PAPIERE A HOTOVOSŤ, podiel: BSM",
+          "BYTOVÉ ZARIADENIE, podiel: BSM",
           "ZBIERKA MINCÍ A MEDAILÍ, podiel: BSM"
         ],
         "obligations": [
@@ -566,30 +549,10 @@
                 "share": "100%"
               },
               {
-                "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
-                "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
-                "lv_number": "77, 1184",
-                "share": "50%"
-              },
-              {
-                "type": "REKREAČNÝ DOM",
-                "cadastral_territory": "OČOVÁ",
-                "lv_number": "2126",
-                "share": "50%"
-              },
-              {
                 "type": "GARÁŽ",
                 "cadastral_territory": "DETVA",
                 "lv_number": "1687",
                 "share": "100%"
-              }
-            ],
-            "new": [
-              {
-                "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
-                "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
-                "lv_number": "77, 1184",
-                "share": "50%"
               },
               {
                 "type": "REKREAČNÝ DOM",
@@ -598,16 +561,36 @@
                 "share": "50%"
               },
               {
-                "type": "GARÁŽ",
-                "cadastral_territory": "DETVA",
-                "lv_number": "1687",
-                "share": "BSM"
-              },
+                "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
+                "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
+                "lv_number": "77, 1184",
+                "share": "50%"
+              }
+            ],
+            "new": [
               {
                 "type": "BYT",
                 "cadastral_territory": "DETVA",
                 "lv_number": "8550",
                 "share": "BSM"
+              },
+              {
+                "type": "GARÁŽ",
+                "cadastral_territory": "DETVA",
+                "lv_number": "1687",
+                "share": "BSM"
+              },
+              {
+                "type": "REKREAČNÝ DOM",
+                "cadastral_territory": "OČOVÁ",
+                "lv_number": "2126",
+                "share": "50%"
+              },
+              {
+                "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
+                "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
+                "lv_number": "77, 1184",
+                "share": "50%"
               }
             ],
             "old_count": 4,
@@ -623,11 +606,11 @@
                 "share": "100%"
               },
               {
-                "type": "ZBIERKA MINCÍ A MEDAILÍ",
+                "type": "BYTOVÉ ZARIADENIE",
                 "share": "100%"
               },
               {
-                "type": "BYTOVÉ ZARIADENIE",
+                "type": "ZBIERKA MINCÍ A MEDAILÍ",
                 "share": "100%"
               }
             ],
@@ -648,8 +631,8 @@
               "BANKOVÉ ÚČTY,\r\nCENNÉ PAPIERE A HOTOVOSŤ, podiel: 100%"
             ],
             "new": [
-              "BYTOVÉ ZARIADENIE, podiel: BSM",
               "BANKOVÉ ÚČTY, CENNÉ PAPIERE A HOTOVOSŤ, podiel: BSM",
+              "BYTOVÉ ZARIADENIE, podiel: BSM",
               "ZBIERKA MINCÍ A MEDAILÍ, podiel: BSM"
             ],
             "old_count": 1,
@@ -667,6 +650,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)",
+        "public_functions": [
+          "riaditeľ štátneho podniku (MINCOVŇA KREMNICA Š.P.)"
+        ],
         "income": {
           "public_function": 80304,
           "other": 0
@@ -677,16 +663,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
-            "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
-            "lv_number": "77, 1184",
-            "share": "50%"
-          },
-          {
-            "type": "REKREAČNÝ DOM",
-            "cadastral_territory": "OČOVÁ",
-            "lv_number": "2126",
-            "share": "50%"
+            "type": "BYT",
+            "cadastral_territory": "DETVA",
+            "lv_number": "8550",
+            "share": "BSM"
           },
           {
             "type": "GARÁŽ",
@@ -695,10 +675,16 @@
             "share": "BSM"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "DETVA",
-            "lv_number": "8550",
-            "share": "BSM"
+            "type": "REKREAČNÝ DOM",
+            "cadastral_territory": "OČOVÁ",
+            "lv_number": "2126",
+            "share": "50%"
+          },
+          {
+            "type": "RODINNÝ DOM S PRÍSLUŠENSTVOM",
+            "cadastral_territory": "NOVÝ HROZENKOV, ČESKÁ REPUBLIKA",
+            "lv_number": "77, 1184",
+            "share": "50%"
           }
         ],
         "movable_property": [
@@ -710,8 +696,8 @@
           }
         ],
         "property_rights": [
-          "BYTOVÉ ZARIADENIE, podiel: BSM",
           "BANKOVÉ ÚČTY, CENNÉ PAPIERE A HOTOVOSŤ, podiel: BSM",
+          "BYTOVÉ ZARIADENIE, podiel: BSM",
           "ZBIERKA MINCÍ A MEDAILÍ, podiel: BSM"
         ],
         "obligations": [
@@ -745,38 +731,19 @@
       }
     }
   ],
-  "total_changes": 17,
+  "total_changes": 18,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/KaliVlas.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/KaliVlas.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/KaliVlas.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/KaliVlas.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 78927,
-            "other": 0
-          },
-          "new": {
-            "public_function": 80304,
-            "other": 0
-          },
-          "old_total": 78927,
-          "new_total": 80304,
-          "delta": 1377,
-          "delta_pct": 1.7
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 78 927 € → 80 304 € (+1 377 €)"
-    ]
+    "summary": []
   },
   "slug": "ing-vlastimil-kalinec",
   "context": {
@@ -786,7 +753,7 @@
     "obligations": 1,
     "income_percentile": 79,
     "property_percentile": 60,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.5

@@ -2,6 +2,9 @@
   "user_id": "Peter.Soder",
   "name": "Mgr. Peter Šóder",
   "public_function": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)",
+  "public_functions": [
+    "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)"
+  ],
   "role": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)",
   "years": [
     2020,
@@ -20,6 +23,9 @@
         "year": 2020,
         "filed": "pri ujatí sa funkcie",
         "public_function": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š. P.)",
+        "public_functions": [
+          "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š. P.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -30,16 +36,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "ŠAHY",
-            "lv_number": "2747",
-            "share": "1/1"
-          },
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "HORNÁ SEČ",
-            "lv_number": "113",
-            "share": "1/1"
+            "type": "BYT",
+            "cadastral_territory": "LEVICE",
+            "lv_number": "7678",
+            "share": "1/2"
           },
           {
             "type": "PREVÁDZKOVÁ BUDOVA",
@@ -48,15 +48,21 @@
             "share": "1/2"
           },
           {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "HORNÁ SEČ",
+            "lv_number": "113",
+            "share": "1/1"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "ŠAHY",
+            "lv_number": "2747",
+            "share": "1/1"
+          },
+          {
             "type": "VINIČNÝ DOMČEK",
             "cadastral_territory": "TEŠMÁK",
             "lv_number": "132",
-            "share": "1/2"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "LEVICE",
-            "lv_number": "7678",
             "share": "1/2"
           }
         ],
@@ -91,6 +97,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)",
+        "public_functions": [
+          "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)"
+        ],
         "income": {
           "public_function": 12987,
           "other": 0
@@ -101,16 +110,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "ŠAHY",
-            "lv_number": "2747",
-            "share": "1/1"
-          },
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "HORNÁ SEČ",
-            "lv_number": "113",
-            "share": "1/1"
+            "type": "BYT V BYTOVOM DOME",
+            "cadastral_territory": "LEVICE",
+            "lv_number": "7678",
+            "share": "1/2"
           },
           {
             "type": "PREVÁDZKOVÁ BUDOVA",
@@ -119,15 +122,21 @@
             "share": "1/2"
           },
           {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "HORNÁ SEČ",
+            "lv_number": "113",
+            "share": "1/1"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "ŠAHY",
+            "lv_number": "2747",
+            "share": "1/1"
+          },
+          {
             "type": "VINÁRSKY DOMČEK",
             "cadastral_territory": "TEŠMÁK",
             "lv_number": "132",
-            "share": "1/2"
-          },
-          {
-            "type": "BYT V BYTOVOM DOME",
-            "cadastral_territory": "LEVICE",
-            "lv_number": "7678",
             "share": "1/2"
           }
         ],
@@ -153,6 +162,17 @@
             "new": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š. P.)"
+            ],
+            "new": [
+              "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 0,
@@ -170,10 +190,16 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
+                "type": "BYT",
+                "cadastral_territory": "LEVICE",
+                "lv_number": "7678",
+                "share": "1/2"
+              },
+              {
+                "type": "PREVÁDZKOVÁ BUDOVA",
                 "cadastral_territory": "ŠAHY",
-                "lv_number": "2747",
-                "share": "1/1"
+                "lv_number": "3397",
+                "share": "1/2"
               },
               {
                 "type": "RODINNÝ DOM",
@@ -182,36 +208,24 @@
                 "share": "1/1"
               },
               {
-                "type": "PREVÁDZKOVÁ BUDOVA",
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "ŠAHY",
-                "lv_number": "3397",
-                "share": "1/2"
+                "lv_number": "2747",
+                "share": "1/1"
               },
               {
                 "type": "VINIČNÝ DOMČEK",
                 "cadastral_territory": "TEŠMÁK",
                 "lv_number": "132",
                 "share": "1/2"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "LEVICE",
-                "lv_number": "7678",
-                "share": "1/2"
               }
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "ŠAHY",
-                "lv_number": "2747",
-                "share": "1/1"
-              },
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "HORNÁ SEČ",
-                "lv_number": "113",
-                "share": "1/1"
+                "type": "BYT V BYTOVOM DOME",
+                "cadastral_territory": "LEVICE",
+                "lv_number": "7678",
+                "share": "1/2"
               },
               {
                 "type": "PREVÁDZKOVÁ BUDOVA",
@@ -220,15 +234,21 @@
                 "share": "1/2"
               },
               {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "HORNÁ SEČ",
+                "lv_number": "113",
+                "share": "1/1"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "ŠAHY",
+                "lv_number": "2747",
+                "share": "1/1"
+              },
+              {
                 "type": "VINÁRSKY DOMČEK",
                 "cadastral_territory": "TEŠMÁK",
                 "lv_number": "132",
-                "share": "1/2"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "LEVICE",
-                "lv_number": "7678",
                 "share": "1/2"
               }
             ],
@@ -271,6 +291,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)",
+        "public_functions": [
+          "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)"
+        ],
         "income": {
           "public_function": 44374,
           "other": 0
@@ -281,16 +304,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "ŠAHY",
-            "lv_number": "2747",
-            "share": "1/1"
-          },
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "HORNÁ SEČ",
-            "lv_number": "113",
-            "share": "1/1"
+            "type": "BYT V BYTOVOM DOME",
+            "cadastral_territory": "LEVICE",
+            "lv_number": "7678",
+            "share": "1/2"
           },
           {
             "type": "PREVÁDZKOVÁ BUDOVA",
@@ -299,15 +316,21 @@
             "share": "1/2"
           },
           {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "HORNÁ SEČ",
+            "lv_number": "113",
+            "share": "1/1"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "ŠAHY",
+            "lv_number": "2747",
+            "share": "1/1"
+          },
+          {
             "type": "VINIČNÝ DOMČEK",
             "cadastral_territory": "TEŠMÁK",
             "lv_number": "132",
-            "share": "1/2"
-          },
-          {
-            "type": "BYT V BYTOVOM DOME",
-            "cadastral_territory": "LEVICE",
-            "lv_number": "7678",
             "share": "1/2"
           }
         ],
@@ -344,10 +367,16 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
+                "type": "BYT V BYTOVOM DOME",
+                "cadastral_territory": "LEVICE",
+                "lv_number": "7678",
+                "share": "1/2"
+              },
+              {
+                "type": "PREVÁDZKOVÁ BUDOVA",
                 "cadastral_territory": "ŠAHY",
-                "lv_number": "2747",
-                "share": "1/1"
+                "lv_number": "3397",
+                "share": "1/2"
               },
               {
                 "type": "RODINNÝ DOM",
@@ -356,36 +385,24 @@
                 "share": "1/1"
               },
               {
-                "type": "PREVÁDZKOVÁ BUDOVA",
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "ŠAHY",
-                "lv_number": "3397",
-                "share": "1/2"
+                "lv_number": "2747",
+                "share": "1/1"
               },
               {
                 "type": "VINÁRSKY DOMČEK",
                 "cadastral_territory": "TEŠMÁK",
                 "lv_number": "132",
                 "share": "1/2"
-              },
+              }
+            ],
+            "new": [
               {
                 "type": "BYT V BYTOVOM DOME",
                 "cadastral_territory": "LEVICE",
                 "lv_number": "7678",
                 "share": "1/2"
-              }
-            ],
-            "new": [
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "ŠAHY",
-                "lv_number": "2747",
-                "share": "1/1"
-              },
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "HORNÁ SEČ",
-                "lv_number": "113",
-                "share": "1/1"
               },
               {
                 "type": "PREVÁDZKOVÁ BUDOVA",
@@ -394,15 +411,21 @@
                 "share": "1/2"
               },
               {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "HORNÁ SEČ",
+                "lv_number": "113",
+                "share": "1/1"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "ŠAHY",
+                "lv_number": "2747",
+                "share": "1/1"
+              },
+              {
                 "type": "VINIČNÝ DOMČEK",
                 "cadastral_territory": "TEŠMÁK",
                 "lv_number": "132",
-                "share": "1/2"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "LEVICE",
-                "lv_number": "7678",
                 "share": "1/2"
               }
             ],
@@ -438,6 +461,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P. )",
+        "public_functions": [
+          "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P. )"
+        ],
         "income": {
           "public_function": 45812,
           "other": 0
@@ -454,16 +480,16 @@
             "share": "1/2"
           },
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "ŠAHY",
-            "lv_number": "2747",
-            "share": "1/1"
-          },
-          {
             "type": "PREVÁDZKOVÁ BUDOVA",
             "cadastral_territory": "ŠAHY",
             "lv_number": "3397",
             "share": "1/2"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "ŠAHY",
+            "lv_number": "2747",
+            "share": "1/1"
           },
           {
             "type": "VINIČNÝ DOMČEK",
@@ -492,6 +518,17 @@
             "new": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P. )"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)"
+            ],
+            "new": [
+              "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P. )"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 44374,
@@ -510,16 +547,10 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "ŠAHY",
-                "lv_number": "2747",
-                "share": "1/1"
-              },
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "HORNÁ SEČ",
-                "lv_number": "113",
-                "share": "1/1"
+                "type": "BYT V BYTOVOM DOME",
+                "cadastral_territory": "LEVICE",
+                "lv_number": "7678",
+                "share": "1/2"
               },
               {
                 "type": "PREVÁDZKOVÁ BUDOVA",
@@ -528,15 +559,21 @@
                 "share": "1/2"
               },
               {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "HORNÁ SEČ",
+                "lv_number": "113",
+                "share": "1/1"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "ŠAHY",
+                "lv_number": "2747",
+                "share": "1/1"
+              },
+              {
                 "type": "VINIČNÝ DOMČEK",
                 "cadastral_territory": "TEŠMÁK",
                 "lv_number": "132",
-                "share": "1/2"
-              },
-              {
-                "type": "BYT V BYTOVOM DOME",
-                "cadastral_territory": "LEVICE",
-                "lv_number": "7678",
                 "share": "1/2"
               }
             ],
@@ -548,16 +585,16 @@
                 "share": "1/2"
               },
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "ŠAHY",
-                "lv_number": "2747",
-                "share": "1/1"
-              },
-              {
                 "type": "PREVÁDZKOVÁ BUDOVA",
                 "cadastral_territory": "ŠAHY",
                 "lv_number": "3397",
                 "share": "1/2"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "ŠAHY",
+                "lv_number": "2747",
+                "share": "1/1"
               },
               {
                 "type": "VINIČNÝ DOMČEK",
@@ -581,6 +618,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)",
+        "public_functions": [
+          "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)"
+        ],
         "income": {
           "public_function": 45972,
           "other": 0
@@ -603,16 +643,16 @@
             "share": "1/2"
           },
           {
-            "type": "VINIČNÝ DOMČEK",
-            "cadastral_territory": "TEŠMÁK",
-            "lv_number": "132",
-            "share": "1/2"
-          },
-          {
             "type": "RODINNÝ DOM",
             "cadastral_territory": "ŠAHY",
             "lv_number": "2747",
             "share": "1/1"
+          },
+          {
+            "type": "VINIČNÝ DOMČEK",
+            "cadastral_territory": "TEŠMÁK",
+            "lv_number": "132",
+            "share": "1/2"
           }
         ],
         "movable_property": null,
@@ -633,6 +673,17 @@
             "field": "public_function",
             "old": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P. )",
             "new": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P. )"
+            ],
+            "new": [
+              "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -659,16 +710,16 @@
                 "share": "1/2"
               },
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "ŠAHY",
-                "lv_number": "2747",
-                "share": "1/1"
-              },
-              {
                 "type": "PREVÁDZKOVÁ BUDOVA",
                 "cadastral_territory": "ŠAHY",
                 "lv_number": "3397",
                 "share": "1/2"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "ŠAHY",
+                "lv_number": "2747",
+                "share": "1/1"
               },
               {
                 "type": "VINIČNÝ DOMČEK",
@@ -691,16 +742,16 @@
                 "share": "1/2"
               },
               {
-                "type": "VINIČNÝ DOMČEK",
-                "cadastral_territory": "TEŠMÁK",
-                "lv_number": "132",
-                "share": "1/2"
-              },
-              {
                 "type": "RODINNÝ DOM",
                 "cadastral_territory": "ŠAHY",
                 "lv_number": "2747",
                 "share": "1/1"
+              },
+              {
+                "type": "VINIČNÝ DOMČEK",
+                "cadastral_territory": "TEŠMÁK",
+                "lv_number": "132",
+                "share": "1/2"
               }
             ],
             "old_count": 4,
@@ -710,102 +761,19 @@
       }
     }
   ],
-  "total_changes": 13,
+  "total_changes": 16,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Soder.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Soder.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Peter.Soder.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Peter.Soder.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P. )",
-          "new": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 45812,
-            "other": 0
-          },
-          "new": {
-            "public_function": 45972,
-            "other": 0
-          },
-          "old_total": 45812,
-          "new_total": 45972,
-          "delta": 160,
-          "delta_pct": 0.3
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT V BYTOVOM DOME",
-              "cadastral_territory": "LEVICE",
-              "lv_number": "7678",
-              "share": "1/2"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "ŠAHY",
-              "lv_number": "2747",
-              "share": "1/1"
-            },
-            {
-              "type": "PREVÁDZKOVÁ BUDOVA",
-              "cadastral_territory": "ŠAHY",
-              "lv_number": "3397",
-              "share": "1/2"
-            },
-            {
-              "type": "VINIČNÝ DOMČEK",
-              "cadastral_territory": "TEŠMÁK",
-              "lv_number": "7678",
-              "share": "1/2"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT V BYTOVOM DOME",
-              "cadastral_territory": "LEVICE",
-              "lv_number": "7678",
-              "share": "1/2"
-            },
-            {
-              "type": "PREVÁDZKOVÁ BUDOVA",
-              "cadastral_territory": "ŠAHY",
-              "lv_number": "3397",
-              "share": "1/2"
-            },
-            {
-              "type": "VINIČNÝ DOMČEK",
-              "cadastral_territory": "TEŠMÁK",
-              "lv_number": "132",
-              "share": "1/2"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "ŠAHY",
-              "lv_number": "2747",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 4,
-          "new_count": 4
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 45 812 € → 45 972 € (+160 €)",
-      "Nehnuteľnosti: 4 → 4 (0)"
-    ]
+    "summary": []
   },
   "slug": "mgr-peter-soder",
   "context": {
@@ -815,7 +783,7 @@
     "obligations": 1,
     "income_percentile": 41,
     "property_percentile": 60,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.6

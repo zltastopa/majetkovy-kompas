@@ -2,6 +2,9 @@
   "user_id": "MiklAnna",
   "name": "Mgr. Anna Miklovičová",
   "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -37,29 +43,29 @@
             "share": "BSM"
           },
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "OLEŠNÁ",
-            "lv_number": "2250, 684",
-            "share": "1/1"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "RUŽINOV 80556",
             "lv_number": "15630",
             "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "OLEŠNÁ",
+            "lv_number": "2250, 684",
+            "share": "1/1"
           }
         ],
         "movable_property": [
           {
-            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-            "brand": "TOYOTA",
-            "year_of_manufacture": 2019,
-            "share": "1/1"
-          },
-          {
             "type": "OSOBNE MOTOROVÉ VOZIDLO",
             "brand": "ŠKODA",
             "year_of_manufacture": 2009,
+            "share": "1/1"
+          },
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "TOYOTA",
+            "year_of_manufacture": 2019,
             "share": "1/1"
           }
         ],
@@ -86,6 +92,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)"
+        ],
         "income": {
           "public_function": 8100,
           "other": 55887
@@ -102,16 +111,16 @@
             "share": "BSM"
           },
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "OLEŠNÁ",
-            "lv_number": "2250,684",
-            "share": "1/1"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "RUŽINOV-BRATISLAVA",
             "lv_number": "5255",
             "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "OLEŠNÁ",
+            "lv_number": "2250,684",
+            "share": "1/1"
           }
         ],
         "movable_property": [
@@ -124,13 +133,13 @@
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
             "brand": "ŠKODA",
-            "year_of_manufacture": 2009,
+            "year_of_manufacture": 2007,
             "share": "1/1"
           },
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
             "brand": "ŠKODA",
-            "year_of_manufacture": 2007,
+            "year_of_manufacture": 2009,
             "share": "1/1"
           }
         ],
@@ -151,6 +160,17 @@
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -181,16 +201,16 @@
                 "share": "BSM"
               },
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "OLEŠNÁ",
-                "lv_number": "2250, 684",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "RUŽINOV 80556",
                 "lv_number": "15630",
                 "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "OLEŠNÁ",
+                "lv_number": "2250, 684",
+                "share": "1/1"
               }
             ],
             "new": [
@@ -201,16 +221,16 @@
                 "share": "BSM"
               },
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "OLEŠNÁ",
-                "lv_number": "2250,684",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "RUŽINOV-BRATISLAVA",
                 "lv_number": "5255",
                 "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "OLEŠNÁ",
+                "lv_number": "2250,684",
+                "share": "1/1"
               }
             ],
             "old_count": 3,
@@ -220,15 +240,15 @@
             "field": "movable_property",
             "old": [
               {
-                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "TOYOTA",
-                "year_of_manufacture": 2019,
-                "share": "1/1"
-              },
-              {
                 "type": "OSOBNE MOTOROVÉ VOZIDLO",
                 "brand": "ŠKODA",
                 "year_of_manufacture": 2009,
+                "share": "1/1"
+              },
+              {
+                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+                "brand": "TOYOTA",
+                "year_of_manufacture": 2019,
                 "share": "1/1"
               }
             ],
@@ -242,13 +262,13 @@
               {
                 "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
                 "brand": "ŠKODA",
-                "year_of_manufacture": 2009,
+                "year_of_manufacture": 2007,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
                 "brand": "ŠKODA",
-                "year_of_manufacture": 2007,
+                "year_of_manufacture": 2009,
                 "share": "1/1"
               }
             ],
@@ -267,6 +287,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)"
+        ],
         "income": {
           "public_function": 8736,
           "other": 48052
@@ -283,16 +306,16 @@
             "share": "BSM"
           },
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "OLEŠNÁ",
-            "lv_number": "2250, 684",
-            "share": "1/1"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "RUŽINOV -  BRATISLAVA",
             "lv_number": "5255",
             "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "OLEŠNÁ",
+            "lv_number": "2250, 684",
+            "share": "1/1"
           }
         ],
         "movable_property": [
@@ -305,13 +328,13 @@
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
             "brand": "ŠKODA",
-            "year_of_manufacture": 2009,
+            "year_of_manufacture": 2007,
             "share": "1/1"
           },
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
             "brand": "ŠKODA",
-            "year_of_manufacture": 2007,
+            "year_of_manufacture": 2009,
             "share": "1/1"
           }
         ],
@@ -353,16 +376,16 @@
                 "share": "BSM"
               },
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "OLEŠNÁ",
-                "lv_number": "2250,684",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "RUŽINOV-BRATISLAVA",
                 "lv_number": "5255",
                 "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "OLEŠNÁ",
+                "lv_number": "2250,684",
+                "share": "1/1"
               }
             ],
             "new": [
@@ -373,16 +396,16 @@
                 "share": "BSM"
               },
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "OLEŠNÁ",
-                "lv_number": "2250, 684",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "RUŽINOV -  BRATISLAVA",
                 "lv_number": "5255",
                 "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "OLEŠNÁ",
+                "lv_number": "2250, 684",
+                "share": "1/1"
               }
             ],
             "old_count": 3,
@@ -400,6 +423,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)"
+        ],
         "income": {
           "public_function": 9060,
           "other": 49790
@@ -416,16 +442,16 @@
             "share": "BSM"
           },
           {
-            "type": "RODINNY DOM",
-            "cadastral_territory": "OLEŠNÁ",
-            "lv_number": "2250, 684",
-            "share": "1/1"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "RUŽINOV - BRATISLAVA",
             "lv_number": "5255",
             "share": "BSM"
+          },
+          {
+            "type": "RODINNY DOM",
+            "cadastral_territory": "OLEŠNÁ",
+            "lv_number": "2250, 684",
+            "share": "1/1"
           }
         ],
         "movable_property": [
@@ -438,13 +464,13 @@
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
             "brand": "ŠKODA",
-            "year_of_manufacture": 2009,
+            "year_of_manufacture": 2007,
             "share": "1/1"
           },
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
             "brand": "ŠKODA",
-            "year_of_manufacture": 2007,
+            "year_of_manufacture": 2009,
             "share": "1/1"
           }
         ],
@@ -486,16 +512,16 @@
                 "share": "BSM"
               },
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "OLEŠNÁ",
-                "lv_number": "2250, 684",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "RUŽINOV -  BRATISLAVA",
                 "lv_number": "5255",
                 "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "OLEŠNÁ",
+                "lv_number": "2250, 684",
+                "share": "1/1"
               }
             ],
             "new": [
@@ -506,16 +532,16 @@
                 "share": "BSM"
               },
               {
-                "type": "RODINNY DOM",
-                "cadastral_territory": "OLEŠNÁ",
-                "lv_number": "2250, 684",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "RUŽINOV - BRATISLAVA",
                 "lv_number": "5255",
                 "share": "BSM"
+              },
+              {
+                "type": "RODINNY DOM",
+                "cadastral_territory": "OLEŠNÁ",
+                "lv_number": "2250, 684",
+                "share": "1/1"
               }
             ],
             "old_count": 3,
@@ -533,6 +559,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)"
+        ],
         "income": {
           "public_function": 9684,
           "other": 58219
@@ -549,16 +578,16 @@
             "share": "BSM"
           },
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "OLEŠNÁ",
-            "lv_number": "2250,684",
-            "share": "1/1"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "RUŽINOV - BRATISLAVA",
             "lv_number": "5255",
             "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "OLEŠNÁ",
+            "lv_number": "2250,684",
+            "share": "1/1"
           }
         ],
         "movable_property": [
@@ -571,13 +600,13 @@
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
             "brand": "ŠKODA",
-            "year_of_manufacture": 2009,
+            "year_of_manufacture": 2007,
             "share": "1/1"
           },
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
             "brand": "ŠKODA",
-            "year_of_manufacture": 2007,
+            "year_of_manufacture": 2009,
             "share": "1/1"
           }
         ],
@@ -619,16 +648,16 @@
                 "share": "BSM"
               },
               {
-                "type": "RODINNY DOM",
-                "cadastral_territory": "OLEŠNÁ",
-                "lv_number": "2250, 684",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "RUŽINOV - BRATISLAVA",
                 "lv_number": "5255",
                 "share": "BSM"
+              },
+              {
+                "type": "RODINNY DOM",
+                "cadastral_territory": "OLEŠNÁ",
+                "lv_number": "2250, 684",
+                "share": "1/1"
               }
             ],
             "new": [
@@ -639,16 +668,16 @@
                 "share": "BSM"
               },
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "OLEŠNÁ",
-                "lv_number": "2250,684",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "RUŽINOV - BRATISLAVA",
                 "lv_number": "5255",
                 "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "OLEŠNÁ",
+                "lv_number": "2250,684",
+                "share": "1/1"
               }
             ],
             "old_count": 3,
@@ -666,6 +695,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)"
+        ],
         "income": {
           "public_function": 9684,
           "other": 64695
@@ -682,16 +714,16 @@
             "share": "BSM"
           },
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "OLEŠNÁ",
-            "lv_number": "2250, 684",
-            "share": "1/1"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "RUŽINOV - BRATISLAVA",
             "lv_number": "5255",
             "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "OLEŠNÁ",
+            "lv_number": "2250, 684",
+            "share": "1/1"
           }
         ],
         "movable_property": [
@@ -746,16 +778,16 @@
                 "share": "BSM"
               },
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "OLEŠNÁ",
-                "lv_number": "2250,684",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "RUŽINOV - BRATISLAVA",
                 "lv_number": "5255",
                 "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "OLEŠNÁ",
+                "lv_number": "2250,684",
+                "share": "1/1"
               }
             ],
             "new": [
@@ -766,16 +798,16 @@
                 "share": "BSM"
               },
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "OLEŠNÁ",
-                "lv_number": "2250, 684",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "RUŽINOV - BRATISLAVA",
                 "lv_number": "5255",
                 "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "OLEŠNÁ",
+                "lv_number": "2250, 684",
+                "share": "1/1"
               }
             ],
             "old_count": 3,
@@ -793,13 +825,13 @@
               {
                 "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
                 "brand": "ŠKODA",
-                "year_of_manufacture": 2009,
+                "year_of_manufacture": 2007,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
                 "brand": "ŠKODA",
-                "year_of_manufacture": 2007,
+                "year_of_manufacture": 2009,
                 "share": "1/1"
               }
             ],
@@ -824,124 +856,19 @@
       }
     }
   ],
-  "total_changes": 14,
+  "total_changes": 15,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/MiklAnna.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/MiklAnna.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/MiklAnna.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/MiklAnna.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 9684,
-            "other": 58219
-          },
-          "new": {
-            "public_function": 9684,
-            "other": 64695
-          },
-          "old_total": 67903,
-          "new_total": 74379,
-          "delta": 6476,
-          "delta_pct": 9.5
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "KARLOVA VES BRATISLAVA",
-              "lv_number": "2576",
-              "share": "BSM"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "OLEŠNÁ",
-              "lv_number": "2250,684",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "RUŽINOV - BRATISLAVA",
-              "lv_number": "5255",
-              "share": "BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "KARLOVA VES - BRATISLAVA",
-              "lv_number": "2576",
-              "share": "BSM"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "OLEŠNÁ",
-              "lv_number": "2250, 684",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "RUŽINOV - BRATISLAVA",
-              "lv_number": "5255",
-              "share": "BSM"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 3
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "TOYOTA",
-              "year_of_manufacture": 2019,
-              "share": "1/1"
-            },
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "ŠKODA",
-              "year_of_manufacture": 2009,
-              "share": "1/1"
-            },
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "ŠKODA",
-              "year_of_manufacture": 2007,
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "TOYOTA",
-              "year_of_manufacture": 2019,
-              "share": "1/1"
-            },
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "ŠKODA",
-              "year_of_manufacture": 2009,
-              "share": "1/1"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 67 903 € → 74 379 € (+6 476 €)",
-      "Nehnuteľnosti: 3 → 3 (0)",
-      "Hnuteľný majetok: 3 → 2 (-1)"
-    ]
+    "summary": []
   },
   "slug": "mgr-anna-miklovicova",
   "context": {
@@ -951,7 +878,7 @@
     "obligations": 1,
     "income_percentile": 75,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.1

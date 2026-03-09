@@ -1,8 +1,12 @@
 {
   "user_id": "Paulina.Szentesi",
   "name": "Mgr. Paulína Szentesi",
-  "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA N.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
-  "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA N.O.) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA N.O.)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA N.O.)"
+  ],
+  "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA) · štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA N.O.)",
   "years": [
     2019,
     2020,
@@ -21,6 +25,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -31,15 +38,15 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "BÁHOŇ",
-            "lv_number": "546",
-            "share": "50%"
-          },
-          {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "BUDMERICE",
             "lv_number": "1583, PARCELA Č. 2378/6",
+            "share": "50%"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "BÁHOŇ",
+            "lv_number": "546",
             "share": "50%"
           }
         ],
@@ -71,6 +78,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ PRIEMYSELNÁ STAVEBNÁ VÝROBA, A.S. ČAŇA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ PRIEMYSELNÁ STAVEBNÁ VÝROBA, A.S. ČAŇA)"
+        ],
         "income": {
           "public_function": 10389,
           "other": 24518
@@ -81,15 +91,15 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "BÁHOŇ",
-            "lv_number": "546",
-            "share": "50%"
-          },
-          {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "BUDMERICE",
             "lv_number": "1583 PARCELA Č. 2378/6",
+            "share": "50%"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "BÁHOŇ",
+            "lv_number": "546",
             "share": "50%"
           }
         ],
@@ -116,6 +126,17 @@
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ PRIEMYSELNÁ STAVEBNÁ VÝROBA, A.S. ČAŇA)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ PRIEMYSELNÁ STAVEBNÁ VÝROBA, A.S. ČAŇA)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 0,
@@ -133,29 +154,29 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "BÁHOŇ",
-                "lv_number": "546",
-                "share": "50%"
-              },
-              {
                 "type": "ORNÁ PÔDA",
                 "cadastral_territory": "BUDMERICE",
                 "lv_number": "1583, PARCELA Č. 2378/6",
+                "share": "50%"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "BÁHOŇ",
+                "lv_number": "546",
                 "share": "50%"
               }
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "BÁHOŇ",
-                "lv_number": "546",
-                "share": "50%"
-              },
-              {
                 "type": "ORNÁ PÔDA",
                 "cadastral_territory": "BUDMERICE",
                 "lv_number": "1583 PARCELA Č. 2378/6",
+                "share": "50%"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "BÁHOŇ",
+                "lv_number": "546",
                 "share": "50%"
               }
             ],
@@ -192,6 +213,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+        ],
         "income": {
           "public_function": 1356,
           "other": 37425
@@ -208,15 +232,15 @@
         ],
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "BÁHOŇ",
-            "lv_number": "546",
-            "share": "50%"
-          },
-          {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "BUDMERICE",
             "lv_number": "1583",
+            "share": "50%"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "BÁHOŇ",
+            "lv_number": "546",
             "share": "50%"
           }
         ],
@@ -242,6 +266,17 @@
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ PRIEMYSELNÁ STAVEBNÁ VÝROBA, A.S. ČAŇA)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ PRIEMYSELNÁ STAVEBNÁ VÝROBA, A.S. ČAŇA)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -278,29 +313,29 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "BÁHOŇ",
-                "lv_number": "546",
-                "share": "50%"
-              },
-              {
                 "type": "ORNÁ PÔDA",
                 "cadastral_territory": "BUDMERICE",
                 "lv_number": "1583 PARCELA Č. 2378/6",
+                "share": "50%"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "BÁHOŇ",
+                "lv_number": "546",
                 "share": "50%"
               }
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "BÁHOŇ",
-                "lv_number": "546",
-                "share": "50%"
-              },
-              {
                 "type": "ORNÁ PÔDA",
                 "cadastral_territory": "BUDMERICE",
                 "lv_number": "1583",
+                "share": "50%"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "BÁHOŇ",
+                "lv_number": "546",
                 "share": "50%"
               }
             ],
@@ -337,6 +372,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+        ],
         "income": {
           "public_function": 2266,
           "other": 74149
@@ -347,15 +385,15 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "BÁHOŇ",
-            "lv_number": "546",
-            "share": "50%"
-          },
-          {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "BUDMERICE",
             "lv_number": "1583",
+            "share": "50%"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "BÁHOŇ",
+            "lv_number": "546",
             "share": "50%"
           }
         ],
@@ -381,6 +419,17 @@
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -443,7 +492,11 @@
         "name": "Mgr. PAULÍNA SZENTESI",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA, N. O. )štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA, N. O. )\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA, N. O. )",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+        ],
         "income": {
           "public_function": 2422,
           "other": 64400
@@ -454,15 +507,15 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "BÁHOŇ",
-            "lv_number": "546",
-            "share": "50%"
-          },
-          {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "BUDMERICE",
             "lv_number": "1583",
+            "share": "50%"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "BÁHOŇ",
+            "lv_number": "546",
             "share": "50%"
           }
         ],
@@ -485,7 +538,19 @@
           {
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA, N. O. )štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA, N. O. )\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA, N. O. )",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -535,7 +600,11 @@
         "name": "Mgr. PAULÍNA SZENTESI",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA N.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA N.O.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA N.O.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 67404
@@ -546,15 +615,15 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "BÁHOŇ",
-            "lv_number": "546",
-            "share": "50%"
-          },
-          {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "BUDMERICE",
             "lv_number": "1583",
+            "share": "50%"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "BÁHOŇ",
+            "lv_number": "546",
             "share": "50%"
           }
         ],
@@ -576,8 +645,21 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA, N. O. )štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
-            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA N.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA, N. O. )\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA N.O.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA, N. O. )",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA N.O.)"
+            ],
+            "old_count": 2,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -603,50 +685,19 @@
       }
     }
   ],
-  "total_changes": 22,
+  "total_changes": 27,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Paulina.Szentesi.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Paulina.Szentesi.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Paulina.Szentesi.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Paulina.Szentesi.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA, N. O. )štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA N.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 2422,
-            "other": 64400
-          },
-          "new": {
-            "public_function": 0,
-            "other": 67404
-          },
-          "old_total": 66822,
-          "new_total": 67404,
-          "delta": 582,
-          "delta_pct": 0.9
-        },
-        {
-          "field": "employment",
-          "old": "MINISTERSTVO KULTÚRY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nAUDIOVIZUÁLNY FOND\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "MINISTERSTVO KULTÚRY SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 66 822 € → 67 404 € (+582 €)",
-      "Zamestnanie"
-    ]
+    "summary": []
   },
   "slug": "mgr-paulina-szentesi",
   "context": {
@@ -656,7 +707,7 @@
     "obligations": 1,
     "income_percentile": 70,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.7

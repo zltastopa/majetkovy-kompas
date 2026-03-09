@@ -2,6 +2,9 @@
   "user_id": "Peter.Rusnak1",
   "name": "Ing. Peter Rusňák, PhD.",
   "public_function": "riaditeľ štátneho podniku (HYDROMELIORÁCIE Š.P.)",
+  "public_functions": [
+    "riaditeľ štátneho podniku (HYDROMELIORÁCIE Š.P.)"
+  ],
   "role": "riaditeľ štátneho podniku (HYDROMELIORÁCIE Š.P.)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (HYDROMELIORÁCIE, Š.P.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (HYDROMELIORÁCIE, Š.P.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -27,12 +33,6 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-            "cadastral_territory": "MALACKY",
-            "lv_number": "8182",
-            "share": "BSM"
-          },
-          {
             "type": "POLYFUNKČNÝ DOM",
             "cadastral_territory": "VEĽKÉ LEVÁRE",
             "lv_number": "1907",
@@ -40,9 +40,9 @@
           },
           {
             "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-            "cadastral_territory": "VEĽKÉ LEVÁRE",
-            "lv_number": "1907",
-            "share": "1/1"
+            "cadastral_territory": "MALACKY",
+            "lv_number": "8182",
+            "share": "BSM"
           },
           {
             "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
@@ -51,19 +51,25 @@
             "share": "BSM"
           },
           {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "MALACKY",
-            "lv_number": "8182",
-            "share": "BSM"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "MALACKY",
-            "lv_number": "8182",
-            "share": "BSM"
+            "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+            "cadastral_territory": "VEĽKÉ LEVÁRE",
+            "lv_number": "1907",
+            "share": "1/1"
           },
           {
             "type": "RODINNÝ DOM",
+            "cadastral_territory": "MALACKY",
+            "lv_number": "8182",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "MALACKY",
+            "lv_number": "8182",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA",
             "cadastral_territory": "MALACKY",
             "lv_number": "8182",
             "share": "BSM"
@@ -100,6 +106,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "riaditeľ štátneho podniku (HYDROMELIORÁCIE Š.P.)",
+        "public_functions": [
+          "riaditeľ štátneho podniku (HYDROMELIORÁCIE Š.P.)"
+        ],
         "income": {
           "public_function": 40271,
           "other": 0
@@ -110,19 +119,13 @@
         "positions": null,
         "real_estate": [
           {
+            "type": "POLYFUNKČNÝ DOM",
+            "cadastral_territory": "VEĽKÉ LEVÁRE",
+            "lv_number": "1907",
+            "share": "1/1"
+          },
+          {
             "type": "POZEMOK  ZASTAVANÉ PLOCHY A NÁDVORIA",
-            "cadastral_territory": "MALACKY",
-            "lv_number": "8182",
-            "share": "BSM"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "MALACKY",
-            "lv_number": "8182",
-            "share": "BSM"
-          },
-          {
-            "type": "ZÁHRADA",
             "cadastral_territory": "MALACKY",
             "lv_number": "8182",
             "share": "BSM"
@@ -134,12 +137,6 @@
             "share": "BSM"
           },
           {
-            "type": "POLYFUNKČNÝ DOM",
-            "cadastral_territory": "VEĽKÉ LEVÁRE",
-            "lv_number": "1907",
-            "share": "1/1"
-          },
-          {
             "type": "POZEMOK ZASTAVANÉ PLOCHY A NÁDVORIA",
             "cadastral_territory": "VEĽKÉ LEVÁRE",
             "lv_number": "1907",
@@ -147,6 +144,18 @@
           },
           {
             "type": "RODINNÝ DOM",
+            "cadastral_territory": "MALACKY",
+            "lv_number": "8182",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "MALACKY",
+            "lv_number": "8182",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA",
             "cadastral_territory": "MALACKY",
             "lv_number": "8182",
             "share": "BSM"
@@ -179,6 +188,17 @@
             "new": "riaditeľ štátneho podniku (HYDROMELIORÁCIE Š.P.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (HYDROMELIORÁCIE, Š.P.)"
+            ],
+            "new": [
+              "riaditeľ štátneho podniku (HYDROMELIORÁCIE Š.P.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 0,
@@ -201,12 +221,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-                "cadastral_territory": "MALACKY",
-                "lv_number": "8182",
-                "share": "BSM"
-              },
-              {
                 "type": "POLYFUNKČNÝ DOM",
                 "cadastral_territory": "VEĽKÉ LEVÁRE",
                 "lv_number": "1907",
@@ -214,9 +228,9 @@
               },
               {
                 "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-                "cadastral_territory": "VEĽKÉ LEVÁRE",
-                "lv_number": "1907",
-                "share": "1/1"
+                "cadastral_territory": "MALACKY",
+                "lv_number": "8182",
+                "share": "BSM"
               },
               {
                 "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
@@ -225,19 +239,25 @@
                 "share": "BSM"
               },
               {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "MALACKY",
-                "lv_number": "8182",
-                "share": "BSM"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "MALACKY",
-                "lv_number": "8182",
-                "share": "BSM"
+                "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
+                "cadastral_territory": "VEĽKÉ LEVÁRE",
+                "lv_number": "1907",
+                "share": "1/1"
               },
               {
                 "type": "RODINNÝ DOM",
+                "cadastral_territory": "MALACKY",
+                "lv_number": "8182",
+                "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "MALACKY",
+                "lv_number": "8182",
+                "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADA",
                 "cadastral_territory": "MALACKY",
                 "lv_number": "8182",
                 "share": "BSM"
@@ -245,19 +265,13 @@
             ],
             "new": [
               {
+                "type": "POLYFUNKČNÝ DOM",
+                "cadastral_territory": "VEĽKÉ LEVÁRE",
+                "lv_number": "1907",
+                "share": "1/1"
+              },
+              {
                 "type": "POZEMOK  ZASTAVANÉ PLOCHY A NÁDVORIA",
-                "cadastral_territory": "MALACKY",
-                "lv_number": "8182",
-                "share": "BSM"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "MALACKY",
-                "lv_number": "8182",
-                "share": "BSM"
-              },
-              {
-                "type": "ZÁHRADA",
                 "cadastral_territory": "MALACKY",
                 "lv_number": "8182",
                 "share": "BSM"
@@ -269,12 +283,6 @@
                 "share": "BSM"
               },
               {
-                "type": "POLYFUNKČNÝ DOM",
-                "cadastral_territory": "VEĽKÉ LEVÁRE",
-                "lv_number": "1907",
-                "share": "1/1"
-              },
-              {
                 "type": "POZEMOK ZASTAVANÉ PLOCHY A NÁDVORIA",
                 "cadastral_territory": "VEĽKÉ LEVÁRE",
                 "lv_number": "1907",
@@ -282,6 +290,18 @@
               },
               {
                 "type": "RODINNÝ DOM",
+                "cadastral_territory": "MALACKY",
+                "lv_number": "8182",
+                "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "MALACKY",
+                "lv_number": "8182",
+                "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADA",
                 "cadastral_territory": "MALACKY",
                 "lv_number": "8182",
                 "share": "BSM"
@@ -323,173 +343,19 @@
       }
     }
   ],
-  "total_changes": 5,
+  "total_changes": 6,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Rusnak1.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Rusnak1.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Peter.Rusnak1.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Peter.Rusnak1.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (HYDROMELIORÁCIE, Š.P.)",
-          "new": "riaditeľ štátneho podniku (HYDROMELIORÁCIE Š.P.)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 40271,
-            "other": 0
-          },
-          "old_total": 0,
-          "new_total": 40271,
-          "delta": 40271
-        },
-        {
-          "field": "incompatibility",
-          "old": false,
-          "new": true
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-              "cadastral_territory": "MALACKY",
-              "lv_number": "8182",
-              "share": "BSM"
-            },
-            {
-              "type": "POLYFUNKČNÝ DOM",
-              "cadastral_territory": "VEĽKÉ LEVÁRE",
-              "lv_number": "1907",
-              "share": "1/1"
-            },
-            {
-              "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-              "cadastral_territory": "VEĽKÉ LEVÁRE",
-              "lv_number": "1907",
-              "share": "1/1"
-            },
-            {
-              "type": "POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA",
-              "cadastral_territory": "MALACKY",
-              "lv_number": "8182",
-              "share": "BSM"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "MALACKY",
-              "lv_number": "8182",
-              "share": "BSM"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "MALACKY",
-              "lv_number": "8182",
-              "share": "BSM"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "MALACKY",
-              "lv_number": "8182",
-              "share": "BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "POZEMOK  ZASTAVANÉ PLOCHY A NÁDVORIA",
-              "cadastral_territory": "MALACKY",
-              "lv_number": "8182",
-              "share": "BSM"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "MALACKY",
-              "lv_number": "8182",
-              "share": "BSM"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "MALACKY",
-              "lv_number": "8182",
-              "share": "BSM"
-            },
-            {
-              "type": "POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIA",
-              "cadastral_territory": "MALACKY",
-              "lv_number": "8182",
-              "share": "BSM"
-            },
-            {
-              "type": "POLYFUNKČNÝ DOM",
-              "cadastral_territory": "VEĽKÉ LEVÁRE",
-              "lv_number": "1907",
-              "share": "1/1"
-            },
-            {
-              "type": "POZEMOK ZASTAVANÉ PLOCHY A NÁDVORIA",
-              "cadastral_territory": "VEĽKÉ LEVÁRE",
-              "lv_number": "1907",
-              "share": "1/1"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "MALACKY",
-              "lv_number": "8182",
-              "share": "BSM"
-            }
-          ],
-          "old_count": 7,
-          "new_count": 7
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "BSM",
-              "date": "12. 04. 2022"
-            },
-            {
-              "type": "ŠTÁTNY FOND ROZVOJA BÝVANIA",
-              "share": "BSM",
-              "date": "17. 12. 2002"
-            }
-          ],
-          "new": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "BSM",
-              "date": "12. 04. 2022"
-            },
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "BSM",
-              "date": "17. 12. 2007"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 40 271 € (+40 271 €)",
-      "Nezlučiteľnosť",
-      "Nehnuteľnosti: 7 → 7 (0)",
-      "Záväzky: 2 → 2 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-peter-rusnak-phd",
   "context": {
@@ -499,7 +365,7 @@
     "obligations": 2,
     "income_percentile": 35,
     "property_percentile": 77,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.2

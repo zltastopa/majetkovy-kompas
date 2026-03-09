@@ -2,6 +2,9 @@
   "user_id": "Libor.Dula",
   "name": "JUDr. Libor Duľa",
   "public_function": "sudca Ústavného súdu Slovenskej republiky",
+  "public_functions": [
+    "sudca Ústavného súdu Slovenskej republiky"
+  ],
   "role": "sudca Ústavného súdu Slovenskej republiky",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "sudca Ústavného súdu Slovenskej republiky",
+        "public_functions": [
+          "sudca Ústavného súdu Slovenskej republiky"
+        ],
         "income": {
           "public_function": 11852,
           "other": 1346
@@ -76,6 +82,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "sudca Ústavného súdu Slovenskej republiky",
+        "public_functions": [
+          "sudca Ústavného súdu Slovenskej republiky"
+        ],
         "income": {
           "public_function": 51106,
           "other": 166
@@ -193,6 +202,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "sudca Ústavného súdu Slovenskej republiky",
+        "public_functions": [
+          "sudca Ústavného súdu Slovenskej republiky"
+        ],
         "income": {
           "public_function": 55016,
           "other": 360
@@ -309,6 +321,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "sudca Ústavného súdu Slovenskej republiky",
+        "public_functions": [
+          "sudca Ústavného súdu Slovenskej republiky"
+        ],
         "income": {
           "public_function": 56675,
           "other": 956
@@ -399,6 +414,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "sudca Ústavného súdu Slovenskej republiky",
+        "public_functions": [
+          "sudca Ústavného súdu Slovenskej republiky"
+        ],
         "income": {
           "public_function": 61027,
           "other": 559
@@ -477,6 +495,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "sudca Ústavného súdu Slovenskej republiky",
+        "public_functions": [
+          "sudca Ústavného súdu Slovenskej republiky"
+        ],
         "income": {
           "public_function": 68954,
           "other": 262
@@ -589,76 +610,17 @@
   ],
   "total_changes": 12,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Libor.Dula.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Libor.Dula.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Libor.Dula.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Libor.Dula.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 61027,
-            "other": 559
-          },
-          "new": {
-            "public_function": 68954,
-            "other": 262
-          },
-          "old_total": 61586,
-          "new_total": 69216,
-          "delta": 7630,
-          "delta_pct": 12.4
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "KOŠICE HUŠŤÁKY",
-              "lv_number": "13223",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "KOŠICE HUŠŤÁKY",
-              "lv_number": "13237",
-              "share": "1/2"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "KOŠICE HUŠŤÁKY",
-              "lv_number": "13223",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "KOŠICE HUŠŤÁKY",
-              "lv_number": "13237",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "TERASA",
-              "lv_number": "13608",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 3
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 61 586 € → 69 216 € (+7 630 €)",
-      "Nehnuteľnosti: 2 → 3 (+1)"
-    ]
+    "summary": []
   },
   "slug": "judr-libor-dula",
   "context": {
@@ -668,7 +630,7 @@
     "obligations": 1,
     "income_percentile": 71,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.8

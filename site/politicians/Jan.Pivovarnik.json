@@ -1,8 +1,12 @@
 {
   "user_id": "Jan.Pivovarnik",
   "name": "Ing. Mgr. JÁN Pivovarník, PhD.",
-  "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (ČLEN SPRÁVNEJ RADY FONDU NA PODPORU ŠPORTU)",
-  "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (ČLEN SPRÁVNEJ RADY FONDU NA PODPORU ŠPORTU)",
+  "public_function": "verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (ČLEN SPRÁVNEJ RADY FONDU NA PODPORU ŠPORTU)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
+  "public_functions": [
+    "verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (ČLEN SPRÁVNEJ RADY FONDU NA PODPORU ŠPORTU)",
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)"
+  ],
+  "role": "verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (ČLEN SPRÁVNEJ RADY FONDU NA PODPORU ŠPORTU) · štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
   "years": [
     2022,
     2023,
@@ -18,6 +22,9 @@
         "year": 2022,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -51,6 +58,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)"
+        ],
         "income": {
           "public_function": 978,
           "other": 17644
@@ -99,7 +109,11 @@
         "name": "Ing. Mgr. JÁN PIVOVARNÍK, PhD.",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (ČLEN SPRÁVNEJ RADY FONDU NA PODPORU ŠPORTU)",
+        "public_function": "verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (ČLEN SPRÁVNEJ RADY FONDU NA PODPORU ŠPORTU)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
+        "public_functions": [
+          "verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (ČLEN SPRÁVNEJ RADY FONDU NA PODPORU ŠPORTU)",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)"
+        ],
         "income": {
           "public_function": 12681,
           "other": 18660
@@ -126,7 +140,19 @@
           {
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
-            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (ČLEN SPRÁVNEJ RADY FONDU NA PODPORU ŠPORTU)"
+            "new": "verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (ČLEN SPRÁVNEJ RADY FONDU NA PODPORU ŠPORTU)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)"
+            ],
+            "new": [
+              "verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (ČLEN SPRÁVNEJ RADY FONDU NA PODPORU ŠPORTU)",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -147,44 +173,19 @@
       }
     }
   ],
-  "total_changes": 3,
+  "total_changes": 4,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jan.Pivovarnik.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jan.Pivovarnik.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jan.Pivovarnik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jan.Pivovarnik.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (ČLEN SPRÁVNEJ RADY FONDU NA PODPORU ŠPORTU)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 978,
-            "other": 17644
-          },
-          "new": {
-            "public_function": 12681,
-            "other": 18660
-          },
-          "old_total": 18622,
-          "new_total": 31341,
-          "delta": 12719,
-          "delta_pct": 68.3
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 18 622 € → 31 341 € (+12 719 €)"
-    ]
+    "summary": []
   },
   "slug": "ing-mgr-jan-pivovarnik-phd",
   "context": {
@@ -194,7 +195,7 @@
     "obligations": 1,
     "income_percentile": 29,
     "property_percentile": 9,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.7

@@ -2,6 +2,9 @@
   "user_id": "Tatiana.Janeckova",
   "name": "Mgr. Ing. Tatiana Janečková",
   "public_function": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)",
+  "public_functions": [
+    "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)"
+  ],
   "role": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)",
+        "public_functions": [
+          "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -26,12 +32,6 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
-          {
-            "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "SUCHÁ NAD PARNOU",
-            "lv_number": "739",
-            "share": "1/1"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "BRATISLAVA RAČA",
@@ -48,6 +48,12 @@
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "LEHNICE",
             "lv_number": "1335",
+            "share": "1/1"
+          },
+          {
+            "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "SUCHÁ NAD PARNOU",
+            "lv_number": "739",
             "share": "1/1"
           }
         ],
@@ -88,6 +94,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)",
+        "public_functions": [
+          "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)"
+        ],
         "income": {
           "public_function": 32528,
           "other": 0
@@ -98,15 +107,15 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "ZÁHRADNÁ CHATA A ZÁHRADA",
-            "cadastral_territory": "SUCHÁ NAD PARNOU",
-            "lv_number": "739",
-            "share": "1/1"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "BRATISLAVA - RAČA",
             "lv_number": "4827",
+            "share": "1/1"
+          },
+          {
+            "type": "DVOJGARZÓNKA",
+            "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+            "lv_number": "2265",
             "share": "1/1"
           },
           {
@@ -116,9 +125,9 @@
             "share": "1/1"
           },
           {
-            "type": "DVOJGARZÓNKA",
-            "cadastral_territory": "BRATISLAVA - PETRŽALKA",
-            "lv_number": "2265",
+            "type": "ZÁHRADNÁ CHATA A ZÁHRADA",
+            "cadastral_territory": "SUCHÁ NAD PARNOU",
+            "lv_number": "739",
             "share": "1/1"
           }
         ],
@@ -167,12 +176,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "SUCHÁ NAD PARNOU",
-                "lv_number": "739",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "BRATISLAVA RAČA",
                 "lv_number": "4827",
@@ -189,19 +192,25 @@
                 "cadastral_territory": "LEHNICE",
                 "lv_number": "1335",
                 "share": "1/1"
+              },
+              {
+                "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "SUCHÁ NAD PARNOU",
+                "lv_number": "739",
+                "share": "1/1"
               }
             ],
             "new": [
               {
-                "type": "ZÁHRADNÁ CHATA A ZÁHRADA",
-                "cadastral_territory": "SUCHÁ NAD PARNOU",
-                "lv_number": "739",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "BRATISLAVA - RAČA",
                 "lv_number": "4827",
+                "share": "1/1"
+              },
+              {
+                "type": "DVOJGARZÓNKA",
+                "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+                "lv_number": "2265",
                 "share": "1/1"
               },
               {
@@ -211,9 +220,9 @@
                 "share": "1/1"
               },
               {
-                "type": "DVOJGARZÓNKA",
-                "cadastral_territory": "BRATISLAVA - PETRŽALKA",
-                "lv_number": "2265",
+                "type": "ZÁHRADNÁ CHATA A ZÁHRADA",
+                "cadastral_territory": "SUCHÁ NAD PARNOU",
+                "lv_number": "739",
                 "share": "1/1"
               }
             ],
@@ -241,109 +250,17 @@
   ],
   "total_changes": 3,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tatiana.Janeckova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tatiana.Janeckova.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Tatiana.Janeckova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Tatiana.Janeckova.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 32528,
-            "other": 0
-          },
-          "old_total": 0,
-          "new_total": 32528,
-          "delta": 32528
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "SUCHÁ NAD PARNOU",
-              "lv_number": "739",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "BRATISLAVA RAČA",
-              "lv_number": "4827",
-              "share": "1/1"
-            },
-            {
-              "type": "DVOJGARZÓNKA",
-              "cadastral_territory": "BRATISLAVA PETRŽALKA",
-              "lv_number": "2265",
-              "share": "1/1"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "LEHNICE",
-              "lv_number": "1335",
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "ZÁHRADNÁ CHATA A ZÁHRADA",
-              "cadastral_territory": "SUCHÁ NAD PARNOU",
-              "lv_number": "739",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "BRATISLAVA - RAČA",
-              "lv_number": "4827",
-              "share": "1/1"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "LEHNICE - SÁSA",
-              "lv_number": "1335",
-              "share": "1/1"
-            },
-            {
-              "type": "DVOJGARZÓNKA",
-              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
-              "lv_number": "2265",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 4,
-          "new_count": 4
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "INVESTIČNÉ MINCE, podiel: 1/1",
-            "PEŇAŽNÉ PROSTRIEDKY V BANKE, podiel: 1/1",
-            "ŽIVOTNÉ POISTENIE, podiel: 1/1"
-          ],
-          "new": [
-            "INVESTIČNÉ A ZBERATEĽSKÉ MINCE, podiel: 1/1",
-            "PEŇAŽNÉ PROSTRIEDKY V BANKE, podiel: 1/1",
-            "ŽIVOTNÉ POISTENIE, podiel: 1/1"
-          ],
-          "old_count": 3,
-          "new_count": 3
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 32 528 € (+32 528 €)",
-      "Nehnuteľnosti: 4 → 4 (0)",
-      "Majetkové práva: 3 → 3 (0)"
-    ]
+    "summary": []
   },
   "slug": "mgr-ing-tatiana-janeckova",
   "context": {
@@ -353,7 +270,7 @@
     "obligations": 1,
     "income_percentile": 30,
     "property_percentile": 60,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.8

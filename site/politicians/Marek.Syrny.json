@@ -2,6 +2,9 @@
   "user_id": "Marek.Syrny",
   "name": "doc. PhDr. Marek SYRNÝ, PhD.",
   "public_function": "člen správnej rady Ústavu pamäti národa",
+  "public_functions": [
+    "člen správnej rady Ústavu pamäti národa"
+  ],
   "role": "člen správnej rady Ústavu pamäti národa",
   "years": [
     2020,
@@ -20,6 +23,9 @@
         "year": 2020,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen správnej rady Ústavu pamäti národa",
+        "public_functions": [
+          "člen správnej rady Ústavu pamäti národa"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -30,29 +36,29 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "RADVAŇ",
-            "lv_number": "7520",
-            "share": "50%"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "SÁSOVÁ",
             "lv_number": "2342",
+            "share": "50%"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "RADVAŇ",
+            "lv_number": "7520",
             "share": "50%"
           }
         ],
         "movable_property": [
           {
             "type": "OSOBNÝ AUTOMOBIL",
-            "brand": "SUBARU",
-            "year_of_manufacture": 2016,
+            "brand": "CITROEN",
+            "year_of_manufacture": 2008,
             "share": "100%"
           },
           {
             "type": "OSOBNÝ AUTOMOBIL",
-            "brand": "CITROEN",
-            "year_of_manufacture": 2008,
+            "brand": "SUBARU",
+            "year_of_manufacture": 2016,
             "share": "100%"
           }
         ],
@@ -79,6 +85,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "člen správnej rady Ústavu pamäti národa",
+        "public_functions": [
+          "člen správnej rady Ústavu pamäti národa"
+        ],
         "income": {
           "public_function": 9064,
           "other": 26388
@@ -146,72 +155,6 @@
             "field": "employment",
             "old": "UNIVERZITA MATEJA BELA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMÚZEUM SLOVENSKÉHO NÁRODNÉHO POVSTANIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
             "new": "UNIVERZITA MATEJA BELA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-          },
-          {
-            "field": "real_estate",
-            "old": [
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "RADVAŇ",
-                "lv_number": "7520",
-                "share": "50%"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "SÁSOVÁ",
-                "lv_number": "2342",
-                "share": "50%"
-              }
-            ],
-            "new": [
-              {
-                "type": "BYT",
-                "cadastral_territory": "SÁSOVÁ",
-                "lv_number": "2342",
-                "share": "50%"
-              },
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "RADVAŇ",
-                "lv_number": "7520",
-                "share": "50%"
-              }
-            ],
-            "old_count": 2,
-            "new_count": 2
-          },
-          {
-            "field": "movable_property",
-            "old": [
-              {
-                "type": "OSOBNÝ AUTOMOBIL",
-                "brand": "SUBARU",
-                "year_of_manufacture": 2016,
-                "share": "100%"
-              },
-              {
-                "type": "OSOBNÝ AUTOMOBIL",
-                "brand": "CITROEN",
-                "year_of_manufacture": 2008,
-                "share": "100%"
-              }
-            ],
-            "new": [
-              {
-                "type": "OSOBNÝ AUTOMOBIL",
-                "brand": "CITROEN",
-                "year_of_manufacture": 2008,
-                "share": "100%"
-              },
-              {
-                "type": "OSOBNÝ AUTOMOBIL",
-                "brand": "SUBARU",
-                "year_of_manufacture": 2016,
-                "share": "100%"
-              }
-            ],
-            "old_count": 2,
-            "new_count": 2
           }
         ]
       }
@@ -225,6 +168,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen správnej rady Ústavu pamäti národa",
+        "public_functions": [
+          "člen správnej rady Ústavu pamäti národa"
+        ],
         "income": {
           "public_function": 14532,
           "other": 19201
@@ -334,6 +280,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen správnej rady Ústavu pamäti národa",
+        "public_functions": [
+          "člen správnej rady Ústavu pamäti národa"
+        ],
         "income": {
           "public_function": 15648,
           "other": 20398
@@ -443,6 +392,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen správnej rady Ústavu pamäti národa",
+        "public_functions": [
+          "člen správnej rady Ústavu pamäti národa"
+        ],
         "income": {
           "public_function": 17160,
           "other": 23354
@@ -544,72 +496,19 @@
       }
     }
   ],
-  "total_changes": 10,
+  "total_changes": 8,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marek.Syrny.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marek.Syrny.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Marek.Syrny.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Marek.Syrny.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 15648,
-            "other": 20398
-          },
-          "new": {
-            "public_function": 17160,
-            "other": 23354
-          },
-          "old_total": 36046,
-          "new_total": 40514,
-          "delta": 4468,
-          "delta_pct": 12.4
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "CITROEN",
-              "year_of_manufacture": 2008,
-              "share": "100%"
-            },
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "SUBARU",
-              "year_of_manufacture": 2016,
-              "share": "100%"
-            }
-          ],
-          "new": [
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "CITROËN",
-              "year_of_manufacture": 2008,
-              "share": "100%"
-            },
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "SUBARU",
-              "year_of_manufacture": 2016,
-              "share": "100%"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 36 046 € → 40 514 € (+4 468 €)",
-      "Hnuteľný majetok: 2 → 2 (0)"
-    ]
+    "summary": []
   },
   "slug": "doc-phdr-marek-syrny-phd",
   "context": {
@@ -619,7 +518,7 @@
     "obligations": 1,
     "income_percentile": 36,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.3

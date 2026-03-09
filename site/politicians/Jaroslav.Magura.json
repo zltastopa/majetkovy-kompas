@@ -2,6 +2,9 @@
   "user_id": "Jaroslav.Magura",
   "name": "JUDr. Jaroslav Magura",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (HLAVNÝ KONTROLÓR ŠPORTU - MINISTERSTVO ŠKOLSTVA, VÝSKUMU, VÝVOJA A MLÁDEŽE SLOVENSKEJ REPUBLIKY)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (HLAVNÝ KONTROLÓR ŠPORTU - MINISTERSTVO ŠKOLSTVA, VÝSKUMU, VÝVOJA A MLÁDEŽE SLOVENSKEJ REPUBLIKY)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (HLAVNÝ KONTROLÓR ŠPORTU - MINISTERSTVO ŠKOLSTVA, VÝSKUMU, VÝVOJA A MLÁDEŽE SLOVENSKEJ REPUBLIKY)",
   "years": [
     2024
@@ -16,6 +19,9 @@
         "year": 2024,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (HLAVNÝ KONTROLÓR ŠPORTU - MINISTERSTVO ŠKOLSTVA, VÝSKUMU, VÝVOJA A MLÁDEŽE SLOVENSKEJ REPUBLIKY)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (HLAVNÝ KONTROLÓR ŠPORTU - MINISTERSTVO ŠKOLSTVA, VÝSKUMU, VÝVOJA A MLÁDEŽE SLOVENSKEJ REPUBLIKY)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -25,6 +31,11 @@
         "business_activity": null,
         "positions": [
           {
+            "role": "POSLANEC OBECNÉHO ZASTUPITEĽSTVA",
+            "organization": "OBEC LIPTOVSKÁ SIELNICA",
+            "benefits": "ODMENA"
+          },
+          {
             "role": "PREDSEDA DISCIPLINÁRNEJ KOMISIE",
             "organization": "SLOVENSKÝ RYBÁRSKY ZVÄZ MSO LIPTOVSKÝ MIKULÁŠ",
             "benefits": "ŽIADNE"
@@ -33,25 +44,14 @@
             "role": "ZÁSTUPCA STAROSTU",
             "organization": "OBEC LIPTOVSKÁ SIELNICA",
             "benefits": "PLAT"
-          },
-          {
-            "role": "POSLANEC OBECNÉHO ZASTUPITEĽSTVA",
-            "organization": "OBEC LIPTOVSKÁ SIELNICA",
-            "benefits": "ODMENA"
           }
         ],
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "LIPTOVSKÁ SIELNICA",
-            "lv_number": "509",
-            "share": "BSM"
-          },
-          {
-            "type": "POZEMOK ZASTAVANÁ POLOCHA A NÁDVORIE",
-            "cadastral_territory": "LIPTOVSKÁ SIELNICA",
-            "lv_number": "509",
-            "share": "BSM"
+            "type": "POZEMOK",
+            "cadastral_territory": "OKOLIČNÉ",
+            "lv_number": "736",
+            "share": "1/2"
           },
           {
             "type": "POZEMOK 2X OSTATNÁ PLOCHA",
@@ -60,19 +60,25 @@
             "share": "BSM"
           },
           {
-            "type": "POZEMOK",
-            "cadastral_territory": "OKOLIČNÉ",
-            "lv_number": "736",
-            "share": "1/2"
-          },
-          {
-            "type": "RODINNÝ DOM",
+            "type": "POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "NIŽNÁ",
             "lv_number": "16",
             "share": "1/1"
           },
           {
-            "type": "POZEMOK ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "type": "POZEMOK ZASTAVANÁ POLOCHA A NÁDVORIE",
+            "cadastral_territory": "LIPTOVSKÁ SIELNICA",
+            "lv_number": "509",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "LIPTOVSKÁ SIELNICA",
+            "lv_number": "509",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
             "cadastral_territory": "NIŽNÁ",
             "lv_number": "16",
             "share": "1/1"
@@ -80,9 +86,9 @@
         ],
         "movable_property": [
           {
-            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-            "brand": "MERCEDES",
-            "year_of_manufacture": 2014,
+            "type": "OBYTNÝ PRÍVES",
+            "brand": "ADRIA",
+            "year_of_manufacture": 2006,
             "share": "BSM"
           },
           {
@@ -92,9 +98,9 @@
             "share": "BSM"
           },
           {
-            "type": "OBYTNÝ PRÍVES",
-            "brand": "ADRIA",
-            "year_of_manufacture": 2006,
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "MERCEDES",
+            "year_of_manufacture": 2014,
             "share": "BSM"
           }
         ],
@@ -115,15 +121,15 @@
   ],
   "total_changes": 0,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jaroslav.Magura.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jaroslav.Magura.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jaroslav.Magura.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jaroslav.Magura.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
@@ -135,7 +141,7 @@
     "obligations": 1,
     "income_percentile": 0,
     "property_percentile": 72,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0

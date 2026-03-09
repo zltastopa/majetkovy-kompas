@@ -2,6 +2,9 @@
   "user_id": "Martin.Vojtasovic",
   "name": "JUDr. Martin Vojtašovič, LL.M.",
   "public_function": "štátny tajomník",
+  "public_functions": [
+    "štátny tajomník"
+  ],
   "role": "štátny tajomník",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štátny tajomník",
+        "public_functions": [
+          "štátny tajomník"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -44,10 +50,10 @@
             "share": "1/1"
           },
           {
-            "type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
+            "type": "GARÁŽE - SINOKVETNÁ",
             "cadastral_territory": "RUŽINOV",
-            "lv_number": "3978",
-            "share": "689/23024"
+            "lv_number": "3646",
+            "share": "1/32"
           },
           {
             "type": "GARÁŽOVÝ BOX",
@@ -56,10 +62,10 @@
             "share": "1/1"
           },
           {
-            "type": "GARÁŽE - SINOKVETNÁ",
+            "type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
             "cadastral_territory": "RUŽINOV",
-            "lv_number": "3646",
-            "share": "1/32"
+            "lv_number": "3978",
+            "share": "689/23024"
           }
         ],
         "movable_property": [
@@ -95,6 +101,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štátny tajomník",
+        "public_functions": [
+          "štátny tajomník"
+        ],
         "income": {
           "public_function": 66406,
           "other": 0
@@ -116,15 +125,21 @@
         ],
         "real_estate": [
           {
+            "type": "BYT",
+            "cadastral_territory": "BRATISLAVA - RUŽINOV",
+            "lv_number": "3978",
+            "share": "1/1"
+          },
+          {
             "type": "GARÁŽE",
             "cadastral_territory": "BRATISLAVA - RUŽINOV",
             "lv_number": "3646",
             "share": "1/32"
           },
           {
-            "type": "BYT",
+            "type": "GARÁŽOVÝ BOX",
             "cadastral_territory": "BRATISLAVA - RUŽINOV",
-            "lv_number": "3978",
+            "lv_number": "3659",
             "share": "1/1"
           },
           {
@@ -132,12 +147,6 @@
             "cadastral_territory": "RUŽINOV",
             "lv_number": "3978",
             "share": "689/23024"
-          },
-          {
-            "type": "GARÁŽOVÝ BOX",
-            "cadastral_territory": "BRATISLAVA - RUŽINOV",
-            "lv_number": "3659",
-            "share": "1/1"
           }
         ],
         "movable_property": [
@@ -185,10 +194,10 @@
                 "share": "1/1"
               },
               {
-                "type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
+                "type": "GARÁŽE - SINOKVETNÁ",
                 "cadastral_territory": "RUŽINOV",
-                "lv_number": "3978",
-                "share": "689/23024"
+                "lv_number": "3646",
+                "share": "1/32"
               },
               {
                 "type": "GARÁŽOVÝ BOX",
@@ -197,19 +206,13 @@
                 "share": "1/1"
               },
               {
-                "type": "GARÁŽE - SINOKVETNÁ",
+                "type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
                 "cadastral_territory": "RUŽINOV",
-                "lv_number": "3646",
-                "share": "1/32"
+                "lv_number": "3978",
+                "share": "689/23024"
               }
             ],
             "new": [
-              {
-                "type": "GARÁŽE",
-                "cadastral_territory": "BRATISLAVA - RUŽINOV",
-                "lv_number": "3646",
-                "share": "1/32"
-              },
               {
                 "type": "BYT",
                 "cadastral_territory": "BRATISLAVA - RUŽINOV",
@@ -217,16 +220,22 @@
                 "share": "1/1"
               },
               {
-                "type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
-                "cadastral_territory": "RUŽINOV",
-                "lv_number": "3978",
-                "share": "689/23024"
+                "type": "GARÁŽE",
+                "cadastral_territory": "BRATISLAVA - RUŽINOV",
+                "lv_number": "3646",
+                "share": "1/32"
               },
               {
                 "type": "GARÁŽOVÝ BOX",
                 "cadastral_territory": "BRATISLAVA - RUŽINOV",
                 "lv_number": "3659",
                 "share": "1/1"
+              },
+              {
+                "type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
+                "cadastral_territory": "RUŽINOV",
+                "lv_number": "3978",
+                "share": "689/23024"
               }
             ],
             "old_count": 4,
@@ -255,111 +264,17 @@
   ],
   "total_changes": 3,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Vojtasovic.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Vojtasovic.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Martin.Vojtasovic.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Martin.Vojtasovic.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 66406,
-            "other": 0
-          },
-          "old_total": 0,
-          "new_total": 66406,
-          "delta": 66406
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "RUŽINOV",
-              "lv_number": "3978",
-              "share": "1/1"
-            },
-            {
-              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
-              "cadastral_territory": "RUŽINOV",
-              "lv_number": "3978",
-              "share": "689/23024"
-            },
-            {
-              "type": "GARÁŽOVÝ BOX",
-              "cadastral_territory": "RUŽINOV",
-              "lv_number": "3659",
-              "share": "1/1"
-            },
-            {
-              "type": "GARÁŽE - SINOKVETNÁ",
-              "cadastral_territory": "RUŽINOV",
-              "lv_number": "3646",
-              "share": "1/32"
-            }
-          ],
-          "new": [
-            {
-              "type": "GARÁŽE",
-              "cadastral_territory": "BRATISLAVA - RUŽINOV",
-              "lv_number": "3646",
-              "share": "1/32"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "BRATISLAVA - RUŽINOV",
-              "lv_number": "3978",
-              "share": "1/1"
-            },
-            {
-              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
-              "cadastral_territory": "RUŽINOV",
-              "lv_number": "3978",
-              "share": "689/23024"
-            },
-            {
-              "type": "GARÁŽOVÝ BOX",
-              "cadastral_territory": "BRATISLAVA - RUŽINOV",
-              "lv_number": "3659",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 4,
-          "new_count": 4
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "BSM",
-              "date": "28. 09. 2021"
-            }
-          ],
-          "new": [
-            {
-              "type": "žiadny"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 66 406 € (+66 406 €)",
-      "Nehnuteľnosti: 4 → 4 (0)",
-      "Záväzky: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "judr-martin-vojtasovic-ll-m",
   "context": {
@@ -369,7 +284,7 @@
     "obligations": 1,
     "income_percentile": 68,
     "property_percentile": 60,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.7

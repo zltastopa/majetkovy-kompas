@@ -2,6 +2,9 @@
   "user_id": "MichLubo",
   "name": "Mgr. Ľuboš Micheľ",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VSE A.S. - VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VSE A.S. - VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -32,6 +38,12 @@
           }
         ],
         "real_estate": [
+          {
+            "type": "ADMINISTRATÍVNA BUDOVA A SKLADY",
+            "cadastral_territory": "PREŠOV",
+            "lv_number": "13704",
+            "share": "1/2"
+          },
           {
             "type": "BYT",
             "cadastral_territory": "PREŠOV",
@@ -51,21 +63,15 @@
             "share": "1/2"
           },
           {
-            "type": "ADMINISTRATÍVNA BUDOVA A SKLADY",
-            "cadastral_territory": "PREŠOV",
-            "lv_number": "13704",
+            "type": "REKREAČNÁ CHATA",
+            "cadastral_territory": "BŽANY - VALKOV",
+            "lv_number": "928",
             "share": "1/2"
           },
           {
             "type": "REKREAČNÝ APARTMÁNOVÝ DOM",
             "cadastral_territory": "STARÁ LESNÁ",
             "lv_number": "1667",
-            "share": "1/2"
-          },
-          {
-            "type": "REKREAČNÁ CHATA",
-            "cadastral_territory": "BŽANY - VALKOV",
-            "lv_number": "928",
             "share": "1/2"
           },
           {
@@ -79,25 +85,25 @@
           {
             "type": "OSOBNÉ AUTO",
             "brand": "BMW",
-            "year_of_manufacture": 2023,
-            "share": "1/2"
-          },
-          {
-            "type": "OSOBNÉ AUTO",
-            "brand": "BMW",
             "year_of_manufacture": 2022,
             "share": "1/2"
           },
           {
             "type": "OSOBNÉ AUTO",
-            "brand": "OPEL",
-            "year_of_manufacture": 2019,
+            "brand": "BMW",
+            "year_of_manufacture": 2023,
             "share": "1/2"
           },
           {
             "type": "OSOBNÉ AUTO",
             "brand": "MAZDA",
             "year_of_manufacture": 2079,
+            "share": "1/2"
+          },
+          {
+            "type": "OSOBNÉ AUTO",
+            "brand": "OPEL",
+            "year_of_manufacture": 2019,
             "share": "1/2"
           },
           {
@@ -132,6 +138,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)"
+        ],
         "income": {
           "public_function": 4384,
           "other": 17758
@@ -151,6 +160,12 @@
           {
             "type": "AUTO",
             "brand": "BMW",
+            "year_of_manufacture": 2020,
+            "share": "BSM"
+          },
+          {
+            "type": "AUTO",
+            "brand": "BMW",
             "year_of_manufacture": 2022,
             "share": "BSM"
           },
@@ -158,12 +173,6 @@
             "type": "AUTO",
             "brand": "BMW",
             "year_of_manufacture": 2024,
-            "share": "BSM"
-          },
-          {
-            "type": "AUTO",
-            "brand": "BMW",
-            "year_of_manufacture": 2020,
             "share": "BSM"
           },
           {
@@ -192,6 +201,17 @@
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VSE A.S. - VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)",
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VSE A.S. - VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -235,6 +255,12 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "ADMINISTRATÍVNA BUDOVA A SKLADY",
+                "cadastral_territory": "PREŠOV",
+                "lv_number": "13704",
+                "share": "1/2"
+              },
+              {
                 "type": "BYT",
                 "cadastral_territory": "PREŠOV",
                 "lv_number": "17522",
@@ -253,21 +279,15 @@
                 "share": "1/2"
               },
               {
-                "type": "ADMINISTRATÍVNA BUDOVA A SKLADY",
-                "cadastral_territory": "PREŠOV",
-                "lv_number": "13704",
+                "type": "REKREAČNÁ CHATA",
+                "cadastral_territory": "BŽANY - VALKOV",
+                "lv_number": "928",
                 "share": "1/2"
               },
               {
                 "type": "REKREAČNÝ APARTMÁNOVÝ DOM",
                 "cadastral_territory": "STARÁ LESNÁ",
                 "lv_number": "1667",
-                "share": "1/2"
-              },
-              {
-                "type": "REKREAČNÁ CHATA",
-                "cadastral_territory": "BŽANY - VALKOV",
-                "lv_number": "928",
                 "share": "1/2"
               },
               {
@@ -285,25 +305,25 @@
               {
                 "type": "OSOBNÉ AUTO",
                 "brand": "BMW",
-                "year_of_manufacture": 2023,
-                "share": "1/2"
-              },
-              {
-                "type": "OSOBNÉ AUTO",
-                "brand": "BMW",
                 "year_of_manufacture": 2022,
                 "share": "1/2"
               },
               {
                 "type": "OSOBNÉ AUTO",
-                "brand": "OPEL",
-                "year_of_manufacture": 2019,
+                "brand": "BMW",
+                "year_of_manufacture": 2023,
                 "share": "1/2"
               },
               {
                 "type": "OSOBNÉ AUTO",
                 "brand": "MAZDA",
                 "year_of_manufacture": 2079,
+                "share": "1/2"
+              },
+              {
+                "type": "OSOBNÉ AUTO",
+                "brand": "OPEL",
+                "year_of_manufacture": 2019,
                 "share": "1/2"
               },
               {
@@ -317,6 +337,12 @@
               {
                 "type": "AUTO",
                 "brand": "BMW",
+                "year_of_manufacture": 2020,
+                "share": "BSM"
+              },
+              {
+                "type": "AUTO",
+                "brand": "BMW",
                 "year_of_manufacture": 2022,
                 "share": "BSM"
               },
@@ -324,12 +350,6 @@
                 "type": "AUTO",
                 "brand": "BMW",
                 "year_of_manufacture": 2024,
-                "share": "BSM"
-              },
-              {
-                "type": "AUTO",
-                "brand": "BMW",
-                "year_of_manufacture": 2020,
                 "share": "BSM"
               },
               {
@@ -357,194 +377,19 @@
       }
     }
   ],
-  "total_changes": 7,
+  "total_changes": 8,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/MichLubo.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/MichLubo.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/MichLubo.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/MichLubo.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VSE A.S. - VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 4384,
-            "other": 17758
-          },
-          "old_total": 0,
-          "new_total": 22142,
-          "delta": 22142
-        },
-        {
-          "field": "employment",
-          "old": "TOBIX S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
-          "new": "TOBIX S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nPREŠOVSKÁ UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "POSLANEC",
-              "organization": "MESTSKÉ ZASTUPITEĽSTVO PREŠOV",
-              "benefits": "ODMENA"
-            }
-          ],
-          "new": [
-            {
-              "role": "POSLANEC MESTSKÉHO ZASTUPITEĽSTVA",
-              "organization": "MESTO PREŠOV",
-              "benefits": "ODMENA"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "PREŠOV",
-              "lv_number": "17522",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "PREŠOV",
-              "lv_number": "9393",
-              "share": "1/2"
-            },
-            {
-              "type": "NEBYTOVÁ BUDOVA - PENZIÓN A POZEMOK",
-              "cadastral_territory": "PREŠOV",
-              "lv_number": "296",
-              "share": "1/2"
-            },
-            {
-              "type": "ADMINISTRATÍVNA BUDOVA A SKLADY",
-              "cadastral_territory": "PREŠOV",
-              "lv_number": "13704",
-              "share": "1/2"
-            },
-            {
-              "type": "REKREAČNÝ APARTMÁNOVÝ DOM",
-              "cadastral_territory": "STARÁ LESNÁ",
-              "lv_number": "1667",
-              "share": "1/2"
-            },
-            {
-              "type": "REKREAČNÁ CHATA",
-              "cadastral_territory": "BŽANY - VALKOV",
-              "lv_number": "928",
-              "share": "1/2"
-            },
-            {
-              "type": "VÝROBNÁ HALA A SKLAD",
-              "cadastral_territory": "VYŠNÁ ŠEBASTOVÁ",
-              "lv_number": "1772",
-              "share": "1/2"
-            }
-          ],
-          "new": null
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÉ AUTO",
-              "brand": "BMW",
-              "year_of_manufacture": 2023,
-              "share": "1/2"
-            },
-            {
-              "type": "OSOBNÉ AUTO",
-              "brand": "BMW",
-              "year_of_manufacture": 2022,
-              "share": "1/2"
-            },
-            {
-              "type": "OSOBNÉ AUTO",
-              "brand": "OPEL",
-              "year_of_manufacture": 2019,
-              "share": "1/2"
-            },
-            {
-              "type": "OSOBNÉ AUTO",
-              "brand": "MAZDA",
-              "year_of_manufacture": 2079,
-              "share": "1/2"
-            },
-            {
-              "type": "OSOBNÉ AUTO",
-              "brand": "ŠKODA",
-              "year_of_manufacture": 2016,
-              "share": "1/2"
-            }
-          ],
-          "new": [
-            {
-              "type": "AUTO",
-              "brand": "BMW",
-              "year_of_manufacture": 2022,
-              "share": "BSM"
-            },
-            {
-              "type": "AUTO",
-              "brand": "BMW",
-              "year_of_manufacture": 2024,
-              "share": "BSM"
-            },
-            {
-              "type": "AUTO",
-              "brand": "BMW",
-              "year_of_manufacture": 2020,
-              "share": "BSM"
-            },
-            {
-              "type": "AUTO",
-              "brand": "MERCEDES",
-              "year_of_manufacture": 2019,
-              "share": "BSM"
-            }
-          ],
-          "old_count": 5,
-          "new_count": 4
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "PODIEL V S.R.O., podiel: 1/2"
-          ],
-          "new": [
-            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/2"
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 22 142 € (+22 142 €)",
-      "Zamestnanie",
-      "Funkcie: 1 → 1 (0)",
-      "Nehnuteľnosti",
-      "Hnuteľný majetok: 5 → 4 (-1)",
-      "Majetkové práva: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "mgr-lubos-michel",
   "context": {
@@ -554,7 +399,7 @@
     "obligations": 1,
     "income_percentile": 25,
     "property_percentile": 9,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.2

@@ -2,6 +2,9 @@
   "user_id": "Maros.Schmidt",
   "name": "Mgr. art Maroš Schmidt",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)",
   "years": [
     2020,
@@ -20,6 +23,9 @@
         "year": 2020,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (Slovenské centrum dizajnu )",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (Slovenské centrum dizajnu )"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -30,9 +36,15 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "PRAŠNÍK",
-            "lv_number": "5126",
+            "type": "BYT A ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "5961",
+            "share": "50%"
+          },
+          {
+            "type": "VINICA",
+            "cadastral_territory": "DOLNÉ DEVIČANY",
+            "lv_number": "1453",
             "share": "100%"
           },
           {
@@ -42,16 +54,10 @@
             "share": "100%"
           },
           {
-            "type": "VINICA",
-            "cadastral_territory": "DOLNÉ DEVIČANY",
-            "lv_number": "1453",
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "PRAŠNÍK",
+            "lv_number": "5126",
             "share": "100%"
-          },
-          {
-            "type": "BYT A ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "STARÉ MESTO",
-            "lv_number": "5961",
-            "share": "50%"
           }
         ],
         "movable_property": [
@@ -97,6 +103,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)"
+        ],
         "income": {
           "public_function": 28050,
           "other": 2220
@@ -113,9 +122,9 @@
             "share": "50%"
           },
           {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "PRAŠNÍK",
-            "lv_number": "5126",
+            "type": "VINICA",
+            "cadastral_territory": "DOLNÉ DEVIČANY",
+            "lv_number": "1453",
             "share": "100%"
           },
           {
@@ -125,9 +134,9 @@
             "share": "100%"
           },
           {
-            "type": "VINICA",
-            "cadastral_territory": "DOLNÉ DEVIČANY",
-            "lv_number": "1453",
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "PRAŠNÍK",
+            "lv_number": "5126",
             "share": "100%"
           }
         ],
@@ -166,6 +175,17 @@
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (Slovenské centrum dizajnu )"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 0,
@@ -183,63 +203,6 @@
             "field": "employment",
             "old": "CENTRUM EXPERIMENTÁLNEJ MEDICÍNY SAV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
             "new": "VYSOKÁ ŠKOLA VÝTVARNÝCH UMENÍ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ INOVAČNÁ A ENERGETICKÁ AGENTÚRA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nCENTRUM EXPERIMENTÁLNEJ MEDICÍNY SAV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-          },
-          {
-            "field": "real_estate",
-            "old": [
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "PRAŠNÍK",
-                "lv_number": "5126",
-                "share": "100%"
-              },
-              {
-                "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "DOLNÉ DEVIČANY",
-                "lv_number": "1453",
-                "share": "100%"
-              },
-              {
-                "type": "VINICA",
-                "cadastral_territory": "DOLNÉ DEVIČANY",
-                "lv_number": "1453",
-                "share": "100%"
-              },
-              {
-                "type": "BYT A ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "5961",
-                "share": "50%"
-              }
-            ],
-            "new": [
-              {
-                "type": "BYT A ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "STARÉ MESTO",
-                "lv_number": "5961",
-                "share": "50%"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "PRAŠNÍK",
-                "lv_number": "5126",
-                "share": "100%"
-              },
-              {
-                "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "DOLNÉ DEVIČANY",
-                "lv_number": "1453",
-                "share": "100%"
-              },
-              {
-                "type": "VINICA",
-                "cadastral_territory": "DOLNÉ DEVIČANY",
-                "lv_number": "1453",
-                "share": "100%"
-              }
-            ],
-            "old_count": 4,
-            "new_count": 4
           },
           {
             "field": "movable_property",
@@ -308,7 +271,10 @@
         "name": "Mgr. art. MAROŠ SCHMIDT",
         "year": 2022,
         "filed": "k 30. aprílu",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU\r\n)",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU )",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU )"
+        ],
         "income": {
           "public_function": 30904,
           "other": 3916
@@ -325,9 +291,9 @@
             "share": "50%"
           },
           {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "PRAŠNÍK",
-            "lv_number": "5126",
+            "type": "VINICA",
+            "cadastral_territory": "DOLNÉ DEVIČANY",
+            "lv_number": "1453",
             "share": "100%"
           },
           {
@@ -337,9 +303,9 @@
             "share": "100%"
           },
           {
-            "type": "VINICA",
-            "cadastral_territory": "DOLNÉ DEVIČANY",
-            "lv_number": "1453",
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "PRAŠNÍK",
+            "lv_number": "5126",
             "share": "100%"
           }
         ],
@@ -381,7 +347,18 @@
           {
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)",
-            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU\r\n)"
+            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU )"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU )"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -454,6 +431,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)"
+        ],
         "income": {
           "public_function": 38066,
           "other": 3279
@@ -470,13 +450,13 @@
             "share": "50%"
           },
           {
-            "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "type": "VINICA",
             "cadastral_territory": "DOLNÉ DEVIČANY",
             "lv_number": "1453",
             "share": "100%"
           },
           {
-            "type": "VINICA",
+            "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "DOLNÉ DEVIČANY",
             "lv_number": "1453",
             "share": "100%"
@@ -519,8 +499,19 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU\r\n)",
+            "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU )",
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU )"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -552,9 +543,9 @@
                 "share": "50%"
               },
               {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "PRAŠNÍK",
-                "lv_number": "5126",
+                "type": "VINICA",
+                "cadastral_territory": "DOLNÉ DEVIČANY",
+                "lv_number": "1453",
                 "share": "100%"
               },
               {
@@ -564,9 +555,9 @@
                 "share": "100%"
               },
               {
-                "type": "VINICA",
-                "cadastral_territory": "DOLNÉ DEVIČANY",
-                "lv_number": "1453",
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "PRAŠNÍK",
+                "lv_number": "5126",
                 "share": "100%"
               }
             ],
@@ -578,13 +569,13 @@
                 "share": "50%"
               },
               {
-                "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "type": "VINICA",
                 "cadastral_territory": "DOLNÉ DEVIČANY",
                 "lv_number": "1453",
                 "share": "100%"
               },
               {
-                "type": "VINICA",
+                "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "DOLNÉ DEVIČANY",
                 "lv_number": "1453",
                 "share": "100%"
@@ -610,6 +601,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ CENTRUM DIZAJNU)"
+        ],
         "income": {
           "public_function": 35818,
           "other": 3470
@@ -620,34 +614,16 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "BYT A ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "STARÉ MESTO BRATISLAVA",
-            "lv_number": "5961",
-            "share": "50%"
-          },
-          {
-            "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "DOLNÉ DEVIČANY",
-            "lv_number": "1453",
-            "share": "100%"
-          },
-          {
-            "type": "VINICA",
-            "cadastral_territory": "DOLNÉ DEVIČANY",
-            "lv_number": "1953",
-            "share": "100%"
-          },
-          {
             "type": "BUDOVA PRE ŠPORT A NA REKREAČNÉ ÚČELY",
             "cadastral_territory": "ZÁHORSKÁ BYSTRICA",
             "lv_number": "1543",
             "share": "100%"
           },
           {
-            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
-            "cadastral_territory": "ZÁHORSKÁ BYSTRICA",
-            "lv_number": "2796",
-            "share": "1/21"
+            "type": "BYT A ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "STARÉ MESTO BRATISLAVA",
+            "lv_number": "5961",
+            "share": "50%"
           },
           {
             "type": "BYTOVÝ DOM - BYT",
@@ -678,6 +654,24 @@
             "cadastral_territory": "HRIŇOVÁ",
             "lv_number": "5316",
             "share": "1/270"
+          },
+          {
+            "type": "VINICA",
+            "cadastral_territory": "DOLNÉ DEVIČANY",
+            "lv_number": "1953",
+            "share": "100%"
+          },
+          {
+            "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "DOLNÉ DEVIČANY",
+            "lv_number": "1453",
+            "share": "100%"
+          },
+          {
+            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+            "cadastral_territory": "ZÁHORSKÁ BYSTRICA",
+            "lv_number": "2796",
+            "share": "1/21"
           }
         ],
         "movable_property": [
@@ -688,15 +682,15 @@
             "share": "100%"
           },
           {
-            "type": "OSOBNÝ AUTOMOBIL",
-            "brand": "RENAULT",
-            "year_of_manufacture": 1967,
-            "share": "100%"
-          },
-          {
             "type": "OSOBNÝ  AUTOMOBIL",
             "brand": "SUZUKI",
             "year_of_manufacture": 1992,
+            "share": "100%"
+          },
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "RENAULT",
+            "year_of_manufacture": 1967,
             "share": "100%"
           }
         ],
@@ -743,13 +737,13 @@
                 "share": "50%"
               },
               {
-                "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "type": "VINICA",
                 "cadastral_territory": "DOLNÉ DEVIČANY",
                 "lv_number": "1453",
                 "share": "100%"
               },
               {
-                "type": "VINICA",
+                "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "DOLNÉ DEVIČANY",
                 "lv_number": "1453",
                 "share": "100%"
@@ -757,34 +751,16 @@
             ],
             "new": [
               {
-                "type": "BYT A ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "STARÉ MESTO BRATISLAVA",
-                "lv_number": "5961",
-                "share": "50%"
-              },
-              {
-                "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "DOLNÉ DEVIČANY",
-                "lv_number": "1453",
-                "share": "100%"
-              },
-              {
-                "type": "VINICA",
-                "cadastral_territory": "DOLNÉ DEVIČANY",
-                "lv_number": "1953",
-                "share": "100%"
-              },
-              {
                 "type": "BUDOVA PRE ŠPORT A NA REKREAČNÉ ÚČELY",
                 "cadastral_territory": "ZÁHORSKÁ BYSTRICA",
                 "lv_number": "1543",
                 "share": "100%"
               },
               {
-                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
-                "cadastral_territory": "ZÁHORSKÁ BYSTRICA",
-                "lv_number": "2796",
-                "share": "1/21"
+                "type": "BYT A ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "STARÉ MESTO BRATISLAVA",
+                "lv_number": "5961",
+                "share": "50%"
               },
               {
                 "type": "BYTOVÝ DOM - BYT",
@@ -815,6 +791,24 @@
                 "cadastral_territory": "HRIŇOVÁ",
                 "lv_number": "5316",
                 "share": "1/270"
+              },
+              {
+                "type": "VINICA",
+                "cadastral_territory": "DOLNÉ DEVIČANY",
+                "lv_number": "1953",
+                "share": "100%"
+              },
+              {
+                "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "DOLNÉ DEVIČANY",
+                "lv_number": "1453",
+                "share": "100%"
+              },
+              {
+                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+                "cadastral_territory": "ZÁHORSKÁ BYSTRICA",
+                "lv_number": "2796",
+                "share": "1/21"
               }
             ],
             "old_count": 3,
@@ -850,15 +844,15 @@
                 "share": "100%"
               },
               {
-                "type": "OSOBNÝ AUTOMOBIL",
-                "brand": "RENAULT",
-                "year_of_manufacture": 1967,
-                "share": "100%"
-              },
-              {
                 "type": "OSOBNÝ  AUTOMOBIL",
                 "brand": "SUZUKI",
                 "year_of_manufacture": 1992,
+                "share": "100%"
+              },
+              {
+                "type": "OSOBNÝ AUTOMOBIL",
+                "brand": "RENAULT",
+                "year_of_manufacture": 1967,
                 "share": "100%"
               }
             ],
@@ -891,202 +885,19 @@
       }
     }
   ],
-  "total_changes": 21,
+  "total_changes": 23,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Maros.Schmidt.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Maros.Schmidt.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Maros.Schmidt.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Maros.Schmidt.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 38066,
-            "other": 3279
-          },
-          "new": {
-            "public_function": 35818,
-            "other": 3470
-          },
-          "old_total": 41345,
-          "new_total": 39288,
-          "delta": -2057,
-          "delta_pct": -5.0
-        },
-        {
-          "field": "employment",
-          "old": "CENTRUM EXPERIMENTÁLNEJ MEDICÍNY SAV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nVYSOKÁ ŠKOLA VÝTVARNÝCH UMENÍ VŠVU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "VYSOKÁ ŠKOLA VÝTVARNÝCH UMENÍ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nCENTRUM EXPERIMENTÁLNEJ MEDICÍNY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nAGROKOMPLEX NÁRODNÉ VÝSTAVISKO, Š.P.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT A ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "STARÉ MESTO",
-              "lv_number": "5961",
-              "share": "50%"
-            },
-            {
-              "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "DOLNÉ DEVIČANY",
-              "lv_number": "1453",
-              "share": "100%"
-            },
-            {
-              "type": "VINICA",
-              "cadastral_territory": "DOLNÉ DEVIČANY",
-              "lv_number": "1453",
-              "share": "100%"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT A ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "STARÉ MESTO BRATISLAVA",
-              "lv_number": "5961",
-              "share": "50%"
-            },
-            {
-              "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "DOLNÉ DEVIČANY",
-              "lv_number": "1453",
-              "share": "100%"
-            },
-            {
-              "type": "VINICA",
-              "cadastral_territory": "DOLNÉ DEVIČANY",
-              "lv_number": "1953",
-              "share": "100%"
-            },
-            {
-              "type": "BUDOVA PRE ŠPORT A NA REKREAČNÉ ÚČELY",
-              "cadastral_territory": "ZÁHORSKÁ BYSTRICA",
-              "lv_number": "1543",
-              "share": "100%"
-            },
-            {
-              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
-              "cadastral_territory": "ZÁHORSKÁ BYSTRICA",
-              "lv_number": "2796",
-              "share": "1/21"
-            },
-            {
-              "type": "BYTOVÝ DOM - BYT",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "2998",
-              "share": "2/3"
-            },
-            {
-              "type": "BYTOVÝ DOM - NEBYTOVÉ PRIESTORY / POZEMKY",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "2998",
-              "share": "13956/1909146, 1680/642425"
-            },
-            {
-              "type": "BYTOVÝ DOM - NEBYTOVÉ PRIESTORY/ POZEMKY",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "2998",
-              "share": "13956/1909146, 4363/642425"
-            },
-            {
-              "type": "ORNA PÔDA A TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "HRIŇOVÁ",
-              "lv_number": "2617",
-              "share": "1/15"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "HRIŇOVÁ",
-              "lv_number": "5316",
-              "share": "1/270"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 10
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "DODÁVKOVÝ AUTOMOBIL",
-              "brand": "VOLKSWAGEN",
-              "year_of_manufacture": 1987,
-              "share": "100%"
-            },
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "RENAULT",
-              "year_of_manufacture": 1967,
-              "share": "100%"
-            },
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "SUZUKI",
-              "year_of_manufacture": 1992,
-              "share": "100%"
-            }
-          ],
-          "new": [
-            {
-              "type": "DODÁVKOVÝ AUTOMOBIL",
-              "brand": "VOLKSWAGEN",
-              "year_of_manufacture": 1987,
-              "share": "100%"
-            },
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "RENAULT",
-              "year_of_manufacture": 1967,
-              "share": "100%"
-            },
-            {
-              "type": "OSOBNÝ  AUTOMOBIL",
-              "brand": "SUZUKI",
-              "year_of_manufacture": 1992,
-              "share": "100%"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 3
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "ÚVER NA BÝVANIE",
-              "share": "50%",
-              "date": "04. 10. 2021"
-            }
-          ],
-          "new": [
-            {
-              "type": "žiadny"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "use_of_others_real_estate",
-          "old": "RODINNÝ DOM, kat. územie PUKANEC, rok zač. užívania: 2023, spôsob užívania: TRVALÝ POBYT",
-          "new": "RODINNÝ DOM , kat. územie PUKANEC, rok zač. užívania: 2023, spôsob užívania: TRVALÝ POBYT"
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 41 345 € → 39 288 € (-2 057 €)",
-      "Zamestnanie",
-      "Nehnuteľnosti: 3 → 10 (+7)",
-      "Hnuteľný majetok: 3 → 3 (0)",
-      "Záväzky: 1 → 1 (0)",
-      "Užívanie nehnuteľností"
-    ]
+    "summary": []
   },
   "slug": "mgr-art-maros-schmidt",
   "context": {
@@ -1096,7 +907,7 @@
     "obligations": 1,
     "income_percentile": 35,
     "property_percentile": 84,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.2

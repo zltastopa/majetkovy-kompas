@@ -2,6 +2,9 @@
   "user_id": "Peter.Kadlec",
   "name": "Ing. Peter Kadlec",
   "public_function": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)",
+  "public_functions": [
+    "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)"
+  ],
   "role": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT, BRATISLAVA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT, BRATISLAVA)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -31,9 +37,9 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM S GARÁŽOU",
-            "cadastral_territory": "PEZINOK",
-            "lv_number": "9312",
+            "type": "BYT S GARÁŽOVÝM STÁTIM",
+            "cadastral_territory": "NOVÉ MESTO, BRATISLAVA",
+            "lv_number": "5069",
             "share": "1/1"
           },
           {
@@ -43,15 +49,15 @@
             "share": "1/1"
           },
           {
-            "type": "VINICA",
-            "cadastral_territory": "NOVÉ MESTO VINOHRADY, BRATISLAVA",
-            "lv_number": "6630",
+            "type": "RODINNÝ DOM S GARÁŽOU",
+            "cadastral_territory": "PEZINOK",
+            "lv_number": "9312",
             "share": "1/1"
           },
           {
-            "type": "BYT S GARÁŽOVÝM STÁTIM",
-            "cadastral_territory": "NOVÉ MESTO, BRATISLAVA",
-            "lv_number": "5069",
+            "type": "VINICA",
+            "cadastral_territory": "NOVÉ MESTO VINOHRADY, BRATISLAVA",
+            "lv_number": "6630",
             "share": "1/1"
           }
         ],
@@ -83,6 +89,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)"
+        ],
         "income": {
           "public_function": 53834,
           "other": 0
@@ -92,24 +101,6 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
-          {
-            "type": "RODINNÝ DOM S GARÁŽOU",
-            "cadastral_territory": "PEZINOK",
-            "lv_number": "9312",
-            "share": "1/1"
-          },
-          {
-            "type": "OSTATNÁ PLOCHA",
-            "cadastral_territory": "PEZINOK",
-            "lv_number": "9312",
-            "share": "1/1"
-          },
-          {
-            "type": "VINICA",
-            "cadastral_territory": "VINOHRADY",
-            "lv_number": "6630",
-            "share": "1/1"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "NOVÉ MESTO",
@@ -121,6 +112,24 @@
             "cadastral_territory": "NOVÉ MESTO",
             "lv_number": "5069",
             "share": "1310/14022"
+          },
+          {
+            "type": "OSTATNÁ PLOCHA",
+            "cadastral_territory": "PEZINOK",
+            "lv_number": "9312",
+            "share": "1/1"
+          },
+          {
+            "type": "RODINNÝ DOM S GARÁŽOU",
+            "cadastral_territory": "PEZINOK",
+            "lv_number": "9312",
+            "share": "1/1"
+          },
+          {
+            "type": "VINICA",
+            "cadastral_territory": "VINOHRADY",
+            "lv_number": "6630",
+            "share": "1/1"
           }
         ],
         "movable_property": null,
@@ -145,6 +154,17 @@
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT, BRATISLAVA)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 0,
@@ -162,13 +182,19 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM S GARÁŽOU",
+                "type": "BYT S GARÁŽOVÝM STÁTIM",
+                "cadastral_territory": "NOVÉ MESTO, BRATISLAVA",
+                "lv_number": "5069",
+                "share": "1/1"
+              },
+              {
+                "type": "OSTATNÁ PLOCHA",
                 "cadastral_territory": "PEZINOK",
                 "lv_number": "9312",
                 "share": "1/1"
               },
               {
-                "type": "OSTATNÁ PLOCHA",
+                "type": "RODINNÝ DOM S GARÁŽOU",
                 "cadastral_territory": "PEZINOK",
                 "lv_number": "9312",
                 "share": "1/1"
@@ -178,33 +204,9 @@
                 "cadastral_territory": "NOVÉ MESTO VINOHRADY, BRATISLAVA",
                 "lv_number": "6630",
                 "share": "1/1"
-              },
-              {
-                "type": "BYT S GARÁŽOVÝM STÁTIM",
-                "cadastral_territory": "NOVÉ MESTO, BRATISLAVA",
-                "lv_number": "5069",
-                "share": "1/1"
               }
             ],
             "new": [
-              {
-                "type": "RODINNÝ DOM S GARÁŽOU",
-                "cadastral_territory": "PEZINOK",
-                "lv_number": "9312",
-                "share": "1/1"
-              },
-              {
-                "type": "OSTATNÁ PLOCHA",
-                "cadastral_territory": "PEZINOK",
-                "lv_number": "9312",
-                "share": "1/1"
-              },
-              {
-                "type": "VINICA",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "6630",
-                "share": "1/1"
-              },
               {
                 "type": "BYT",
                 "cadastral_territory": "NOVÉ MESTO",
@@ -216,6 +218,24 @@
                 "cadastral_territory": "NOVÉ MESTO",
                 "lv_number": "5069",
                 "share": "1310/14022"
+              },
+              {
+                "type": "OSTATNÁ PLOCHA",
+                "cadastral_territory": "PEZINOK",
+                "lv_number": "9312",
+                "share": "1/1"
+              },
+              {
+                "type": "RODINNÝ DOM S GARÁŽOU",
+                "cadastral_territory": "PEZINOK",
+                "lv_number": "9312",
+                "share": "1/1"
+              },
+              {
+                "type": "VINICA",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "6630",
+                "share": "1/1"
               }
             ],
             "old_count": 4,
@@ -259,6 +279,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INSPEKTORÁT)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INSPEKTORÁT)"
+        ],
         "income": {
           "public_function": 39322,
           "other": 0
@@ -269,6 +292,12 @@
         "positions": null,
         "real_estate": [
           {
+            "type": "BYT, GARÁŽOVÉ STÁTIE",
+            "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+            "lv_number": "5069",
+            "share": "1/1"
+          },
+          {
             "type": "RODINNÝ DOM S GARÁŽOU, OSTATNÁ PLOCHA",
             "cadastral_territory": "PEZINOK",
             "lv_number": "9312",
@@ -278,12 +307,6 @@
             "type": "VINICA",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "6630",
-            "share": "1/1"
-          },
-          {
-            "type": "BYT, GARÁŽOVÉ STÁTIE",
-            "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
-            "lv_number": "5069",
             "share": "1/1"
           }
         ],
@@ -311,6 +334,17 @@
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INSPEKTORÁT)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INSPEKTORÁT)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 53834,
@@ -329,24 +363,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM S GARÁŽOU",
-                "cadastral_territory": "PEZINOK",
-                "lv_number": "9312",
-                "share": "1/1"
-              },
-              {
-                "type": "OSTATNÁ PLOCHA",
-                "cadastral_territory": "PEZINOK",
-                "lv_number": "9312",
-                "share": "1/1"
-              },
-              {
-                "type": "VINICA",
-                "cadastral_territory": "VINOHRADY",
-                "lv_number": "6630",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "NOVÉ MESTO",
                 "lv_number": "5069",
@@ -357,9 +373,33 @@
                 "cadastral_territory": "NOVÉ MESTO",
                 "lv_number": "5069",
                 "share": "1310/14022"
+              },
+              {
+                "type": "OSTATNÁ PLOCHA",
+                "cadastral_territory": "PEZINOK",
+                "lv_number": "9312",
+                "share": "1/1"
+              },
+              {
+                "type": "RODINNÝ DOM S GARÁŽOU",
+                "cadastral_territory": "PEZINOK",
+                "lv_number": "9312",
+                "share": "1/1"
+              },
+              {
+                "type": "VINICA",
+                "cadastral_territory": "VINOHRADY",
+                "lv_number": "6630",
+                "share": "1/1"
               }
             ],
             "new": [
+              {
+                "type": "BYT, GARÁŽOVÉ STÁTIE",
+                "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+                "lv_number": "5069",
+                "share": "1/1"
+              },
               {
                 "type": "RODINNÝ DOM S GARÁŽOU, OSTATNÁ PLOCHA",
                 "cadastral_territory": "PEZINOK",
@@ -370,12 +410,6 @@
                 "type": "VINICA",
                 "cadastral_territory": "VINOHRADY",
                 "lv_number": "6630",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT, GARÁŽOVÉ STÁTIE",
-                "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
-                "lv_number": "5069",
                 "share": "1/1"
               }
             ],
@@ -419,7 +453,10 @@
         "name": "Ing. PETER KADLEC",
         "year": 2022,
         "filed": "k 30. aprílu",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ\r\nINŠPEKTORÁT)",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)"
+        ],
         "income": {
           "public_function": 39010,
           "other": 0
@@ -430,6 +467,12 @@
         "positions": null,
         "real_estate": [
           {
+            "type": "BYT, GARÁŽOVÉ STÁTIE",
+            "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+            "lv_number": "5069",
+            "share": "1/1"
+          },
+          {
             "type": "RODINNÝ DOM S GARÁŽOU, OSTATNÁ PLOCHA",
             "cadastral_territory": "PEZINOK",
             "lv_number": "9312",
@@ -439,12 +482,6 @@
             "type": "VINICA",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "6630",
-            "share": "1/1"
-          },
-          {
-            "type": "BYT, GARÁŽOVÉ STÁTIE",
-            "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
-            "lv_number": "5069",
             "share": "1/1"
           }
         ],
@@ -470,7 +507,18 @@
           {
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INSPEKTORÁT)",
-            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ\r\nINŠPEKTORÁT)"
+            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INSPEKTORÁT)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -510,7 +558,11 @@
         "name": "Ing. PETER KADLEC",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO\r\nSLOVENSKEJ REPUBLIKY)",
+        "public_function": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)",
+        "public_functions": [
+          "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)"
+        ],
         "income": {
           "public_function": 55662,
           "other": 0
@@ -521,6 +573,12 @@
         "positions": null,
         "real_estate": [
           {
+            "type": "BYT, GARÁŽOVÉ STÁTIE",
+            "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+            "lv_number": "5069",
+            "share": "1/1"
+          },
+          {
             "type": "RODINNÝ DOM S GARÁŽOU, OSTATNÁ PLOCHA",
             "cadastral_territory": "PEZINOK",
             "lv_number": "9312",
@@ -530,12 +588,6 @@
             "type": "VINICA",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "6630",
-            "share": "1/1"
-          },
-          {
-            "type": "BYT, GARÁŽOVÉ STÁTIE",
-            "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
-            "lv_number": "5069",
             "share": "1/1"
           }
         ],
@@ -560,8 +612,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ\r\nINŠPEKTORÁT)",
-            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO\r\nSLOVENSKEJ REPUBLIKY)"
+            "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)",
+            "new": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)"
+            ],
+            "new": [
+              "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -590,6 +654,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)",
+        "public_functions": [
+          "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)"
+        ],
         "income": {
           "public_function": 78355,
           "other": 0
@@ -600,6 +667,12 @@
         "positions": null,
         "real_estate": [
           {
+            "type": "BYT, GARÁŽOVÉ STÁTIE",
+            "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+            "lv_number": "5069",
+            "share": "1/1"
+          },
+          {
             "type": "RODINNÝ DOM S GARÁŽOU, OSTATNÁ PLOCHA",
             "cadastral_territory": "PEZINOK",
             "lv_number": "9312",
@@ -609,12 +682,6 @@
             "type": "VINICA",
             "cadastral_territory": "VINOHRADY",
             "lv_number": "6630",
-            "share": "1/1"
-          },
-          {
-            "type": "BYT, GARÁŽOVÉ STÁTIE",
-            "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
-            "lv_number": "5069",
             "share": "1/1"
           }
         ],
@@ -638,8 +705,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO\r\nSLOVENSKEJ REPUBLIKY)",
+            "old": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)",
             "new": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)"
+            ],
+            "new": [
+              "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)"
+            ],
+            "old_count": 2,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -672,57 +751,19 @@
       }
     }
   ],
-  "total_changes": 18,
+  "total_changes": 23,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Kadlec.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Kadlec.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Peter.Kadlec.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Peter.Kadlec.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO\r\nSLOVENSKEJ REPUBLIKY)",
-          "new": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE NORMALIZÁCIU, METROLÓGIU A SKÚŠOBNÍCTVO SLOVENSKEJ REPUBLIKY)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 55662,
-            "other": 0
-          },
-          "new": {
-            "public_function": 78355,
-            "other": 0
-          },
-          "old_total": 55662,
-          "new_total": 78355,
-          "delta": 22693,
-          "delta_pct": 40.8
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "CENNÉ PAPIERE, podiel: BSM",
-            "ÚSPORY, podiel: BSM"
-          ],
-          "new": [
-            "ÚSPORY, podiel: BSM"
-          ],
-          "old_count": 2,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 55 662 € → 78 355 € (+22 693 €)",
-      "Majetkové práva: 2 → 1 (-1)"
-    ]
+    "summary": []
   },
   "slug": "ing-peter-kadlec",
   "context": {
@@ -732,7 +773,7 @@
     "obligations": 1,
     "income_percentile": 78,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.4

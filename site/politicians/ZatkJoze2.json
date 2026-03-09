@@ -1,7 +1,10 @@
 {
   "user_id": "ZatkJoze2",
   "name": "Ing. Jozef Zaťko",
-  "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA\r\nKREMNICA)",
+  "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA KREMNICA)",
+  "public_functions": [
+    "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA KREMNICA)"
+  ],
   "role": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA KREMNICA)",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA )",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA )"
+        ],
         "income": {
           "public_function": 10646,
           "other": 12730
@@ -37,7 +43,19 @@
             "share": "1/1"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "BYT + PARKOVACIE STÁTIE",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "5167",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK  \"C\"",
+            "cadastral_territory": "BERNOLÁKOVO",
+            "lv_number": "5223",
+            "share": "1/1"
+          },
+          {
+            "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2070",
             "share": "1/1"
@@ -49,28 +67,16 @@
             "share": "1/1"
           },
           {
-            "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "1984",
-            "share": "1/9"
-          },
-          {
-            "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
+            "type": "ZÁHRADA",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2070",
             "share": "1/1"
           },
           {
-            "type": "POZEMOK  \"C\"",
-            "cadastral_territory": "BERNOLÁKOVO",
-            "lv_number": "5223",
-            "share": "1/1"
-          },
-          {
-            "type": "BYT + PARKOVACIE STÁTIE",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "5167",
-            "share": "1/2"
+            "type": "ZÁHRADA - SPOLOČNÁ CESTA",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "1984",
+            "share": "1/9"
           }
         ],
         "movable_property": [
@@ -107,6 +113,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA)",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA)"
+        ],
         "income": {
           "public_function": 11625,
           "other": 3275
@@ -120,6 +129,24 @@
             "type": "BYT",
             "cadastral_territory": "PETRŽALKA",
             "lv_number": "2786",
+            "share": "1/1"
+          },
+          {
+            "type": "BYT + PARKOVACIE STÁTIE",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "5167",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK C",
+            "cadastral_territory": "BERNOLÁKOVO",
+            "lv_number": "5223",
+            "share": "1/1"
+          },
+          {
+            "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATA",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "2070",
             "share": "1/1"
           },
           {
@@ -139,24 +166,6 @@
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "1984",
             "share": "1/9"
-          },
-          {
-            "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATA",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "2070",
-            "share": "1/1"
-          },
-          {
-            "type": "POZEMOK C",
-            "cadastral_territory": "BERNOLÁKOVO",
-            "lv_number": "5223",
-            "share": "1/1"
-          },
-          {
-            "type": "BYT + PARKOVACIE STÁTIE",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "5167",
-            "share": "1/2"
           }
         ],
         "movable_property": [
@@ -189,6 +198,17 @@
             "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA )"
+            ],
+            "new": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 10646,
@@ -218,7 +238,19 @@
                 "share": "1/1"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "BYT + PARKOVACIE STÁTIE",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5167",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK  \"C\"",
+                "cadastral_territory": "BERNOLÁKOVO",
+                "lv_number": "5223",
+                "share": "1/1"
+              },
+              {
+                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2070",
                 "share": "1/1"
@@ -230,28 +262,16 @@
                 "share": "1/1"
               },
               {
-                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1984",
-                "share": "1/9"
-              },
-              {
-                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
+                "type": "ZÁHRADA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2070",
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK  \"C\"",
-                "cadastral_territory": "BERNOLÁKOVO",
-                "lv_number": "5223",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT + PARKOVACIE STÁTIE",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5167",
-                "share": "1/2"
+                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1984",
+                "share": "1/9"
               }
             ],
             "new": [
@@ -259,6 +279,24 @@
                 "type": "BYT",
                 "cadastral_territory": "PETRŽALKA",
                 "lv_number": "2786",
+                "share": "1/1"
+              },
+              {
+                "type": "BYT + PARKOVACIE STÁTIE",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5167",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK C",
+                "cadastral_territory": "BERNOLÁKOVO",
+                "lv_number": "5223",
+                "share": "1/1"
+              },
+              {
+                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2070",
                 "share": "1/1"
               },
               {
@@ -278,24 +316,6 @@
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "1984",
                 "share": "1/9"
-              },
-              {
-                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2070",
-                "share": "1/1"
-              },
-              {
-                "type": "POZEMOK C",
-                "cadastral_territory": "BERNOLÁKOVO",
-                "lv_number": "5223",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT + PARKOVACIE STÁTIE",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5167",
-                "share": "1/2"
               }
             ],
             "old_count": 7,
@@ -326,6 +346,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, ŠTÁTNY PODNIK)",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, ŠTÁTNY PODNIK)"
+        ],
         "income": {
           "public_function": 10800,
           "other": 0
@@ -342,7 +365,19 @@
             "share": "1/1"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "BYT + PARKOVACIE STÁTIE",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "5167",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK  \"C\"",
+            "cadastral_territory": "BERNOLÁKOVO",
+            "lv_number": "5223",
+            "share": "1/1"
+          },
+          {
+            "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2070",
             "share": "1/1"
@@ -354,28 +389,16 @@
             "share": "1/1"
           },
           {
-            "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "1984",
-            "share": "1/9"
-          },
-          {
-            "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
+            "type": "ZÁHRADA",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2070",
             "share": "1/1"
           },
           {
-            "type": "POZEMOK  \"C\"",
-            "cadastral_territory": "BERNOLÁKOVO",
-            "lv_number": "5223",
-            "share": "1/1"
-          },
-          {
-            "type": "BYT + PARKOVACIE STÁTIE",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "5167",
-            "share": "1/2"
+            "type": "ZÁHRADA - SPOLOČNÁ CESTA",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "1984",
+            "share": "1/9"
           }
         ],
         "movable_property": [
@@ -407,6 +430,17 @@
             "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, ŠTÁTNY PODNIK)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA)"
+            ],
+            "new": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, ŠTÁTNY PODNIK)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 11625,
@@ -436,6 +470,24 @@
                 "share": "1/1"
               },
               {
+                "type": "BYT + PARKOVACIE STÁTIE",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5167",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK C",
+                "cadastral_territory": "BERNOLÁKOVO",
+                "lv_number": "5223",
+                "share": "1/1"
+              },
+              {
+                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2070",
+                "share": "1/1"
+              },
+              {
                 "type": "ZÁHRADA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "1070",
@@ -452,24 +504,6 @@
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "1984",
                 "share": "1/9"
-              },
-              {
-                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2070",
-                "share": "1/1"
-              },
-              {
-                "type": "POZEMOK C",
-                "cadastral_territory": "BERNOLÁKOVO",
-                "lv_number": "5223",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT + PARKOVACIE STÁTIE",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5167",
-                "share": "1/2"
               }
             ],
             "new": [
@@ -480,7 +514,19 @@
                 "share": "1/1"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "BYT + PARKOVACIE STÁTIE",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5167",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK  \"C\"",
+                "cadastral_territory": "BERNOLÁKOVO",
+                "lv_number": "5223",
+                "share": "1/1"
+              },
+              {
+                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2070",
                 "share": "1/1"
@@ -492,28 +538,16 @@
                 "share": "1/1"
               },
               {
-                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1984",
-                "share": "1/9"
-              },
-              {
-                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
+                "type": "ZÁHRADA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2070",
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK  \"C\"",
-                "cadastral_territory": "BERNOLÁKOVO",
-                "lv_number": "5223",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT + PARKOVACIE STÁTIE",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5167",
-                "share": "1/2"
+                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1984",
+                "share": "1/9"
               }
             ],
             "old_count": 7,
@@ -543,6 +577,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA ŠTÁTNY PODNIK)",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA ŠTÁTNY PODNIK)"
+        ],
         "income": {
           "public_function": 11550,
           "other": 0
@@ -559,7 +596,13 @@
             "share": "1/1"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "POZEMOK",
+            "cadastral_territory": "BERNOLÁKOVO",
+            "lv_number": "5223",
+            "share": "1/1"
+          },
+          {
+            "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2070",
             "share": "1/1"
@@ -571,33 +614,27 @@
             "share": "1/1"
           },
           {
-            "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "1984",
-            "share": "1/1"
-          },
-          {
-            "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
+            "type": "ZÁHRADA",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2070",
             "share": "1/1"
           },
           {
-            "type": "POZEMOK",
-            "cadastral_territory": "BERNOLÁKOVO",
-            "lv_number": "5223",
+            "type": "ZÁHRADA - SPOLOČNÁ CESTA",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "1984",
             "share": "1/1"
           }
         ],
         "movable_property": [
           {
-            "type": "OSOBNÉ AUTO",
-            "brand": "RENAULT",
-            "year_of_manufacture": 2019,
+            "type": "BYTOVÉ ZARIADENIE",
             "share": "1/1"
           },
           {
-            "type": "BYTOVÉ ZARIADENIE",
+            "type": "OSOBNÉ AUTO",
+            "brand": "RENAULT",
+            "year_of_manufacture": 2019,
             "share": "1/1"
           },
           {
@@ -624,6 +661,17 @@
             "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA ŠTÁTNY PODNIK)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, ŠTÁTNY PODNIK)"
+            ],
+            "new": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA ŠTÁTNY PODNIK)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 10800,
@@ -648,7 +696,19 @@
                 "share": "1/1"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "BYT + PARKOVACIE STÁTIE",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5167",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK  \"C\"",
+                "cadastral_territory": "BERNOLÁKOVO",
+                "lv_number": "5223",
+                "share": "1/1"
+              },
+              {
+                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2070",
                 "share": "1/1"
@@ -660,28 +720,16 @@
                 "share": "1/1"
               },
               {
-                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1984",
-                "share": "1/9"
-              },
-              {
-                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
+                "type": "ZÁHRADA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2070",
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK  \"C\"",
-                "cadastral_territory": "BERNOLÁKOVO",
-                "lv_number": "5223",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT + PARKOVACIE STÁTIE",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5167",
-                "share": "1/2"
+                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1984",
+                "share": "1/9"
               }
             ],
             "new": [
@@ -692,7 +740,13 @@
                 "share": "1/1"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "POZEMOK",
+                "cadastral_territory": "BERNOLÁKOVO",
+                "lv_number": "5223",
+                "share": "1/1"
+              },
+              {
+                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2070",
                 "share": "1/1"
@@ -704,21 +758,15 @@
                 "share": "1/1"
               },
               {
-                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1984",
-                "share": "1/1"
-              },
-              {
-                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
+                "type": "ZÁHRADA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2070",
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "BERNOLÁKOVO",
-                "lv_number": "5223",
+                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1984",
                 "share": "1/1"
               }
             ],
@@ -737,13 +785,13 @@
             ],
             "new": [
               {
-                "type": "OSOBNÉ AUTO",
-                "brand": "RENAULT",
-                "year_of_manufacture": 2019,
+                "type": "BYTOVÉ ZARIADENIE",
                 "share": "1/1"
               },
               {
-                "type": "BYTOVÉ ZARIADENIE",
+                "type": "OSOBNÉ AUTO",
+                "brand": "RENAULT",
+                "year_of_manufacture": 2019,
                 "share": "1/1"
               },
               {
@@ -773,6 +821,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, KREMNICA )",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, KREMNICA )"
+        ],
         "income": {
           "public_function": 5035,
           "other": 0
@@ -789,7 +840,25 @@
             "share": "1/1"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "BYT + PARKOVACIE STÁTIE",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "5167",
+            "share": "1/2"
+          },
+          {
+            "type": "BYT + PARKOVACIE STÁTIE",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "5576",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "BERNOLÁKOVO",
+            "lv_number": "5223",
+            "share": "1/1"
+          },
+          {
+            "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2070",
             "share": "1/1"
@@ -801,34 +870,16 @@
             "share": "1/1"
           },
           {
-            "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "1984",
-            "share": "1/9"
-          },
-          {
-            "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
+            "type": "ZÁHRADA",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2070",
             "share": "1/1"
           },
           {
-            "type": "POZEMOK",
-            "cadastral_territory": "BERNOLÁKOVO",
-            "lv_number": "5223",
-            "share": "1/1"
-          },
-          {
-            "type": "BYT + PARKOVACIE STÁTIE",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "5576",
-            "share": "1/2"
-          },
-          {
-            "type": "BYT + PARKOVACIE STÁTIE",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "5167",
-            "share": "1/2"
+            "type": "ZÁHRADA - SPOLOČNÁ CESTA",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "1984",
+            "share": "1/9"
           }
         ],
         "movable_property": [
@@ -861,6 +912,17 @@
             "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, KREMNICA )"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA ŠTÁTNY PODNIK)"
+            ],
+            "new": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, KREMNICA )"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 11550,
@@ -885,7 +947,13 @@
                 "share": "1/1"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "POZEMOK",
+                "cadastral_territory": "BERNOLÁKOVO",
+                "lv_number": "5223",
+                "share": "1/1"
+              },
+              {
+                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2070",
                 "share": "1/1"
@@ -897,21 +965,15 @@
                 "share": "1/1"
               },
               {
-                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1984",
-                "share": "1/1"
-              },
-              {
-                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
+                "type": "ZÁHRADA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2070",
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "BERNOLÁKOVO",
-                "lv_number": "5223",
+                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1984",
                 "share": "1/1"
               }
             ],
@@ -923,7 +985,25 @@
                 "share": "1/1"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "BYT + PARKOVACIE STÁTIE",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5167",
+                "share": "1/2"
+              },
+              {
+                "type": "BYT + PARKOVACIE STÁTIE",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5576",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "BERNOLÁKOVO",
+                "lv_number": "5223",
+                "share": "1/1"
+              },
+              {
+                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2070",
                 "share": "1/1"
@@ -935,34 +1015,16 @@
                 "share": "1/1"
               },
               {
-                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1984",
-                "share": "1/9"
-              },
-              {
-                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
+                "type": "ZÁHRADA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2070",
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "BERNOLÁKOVO",
-                "lv_number": "5223",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT + PARKOVACIE STÁTIE",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5576",
-                "share": "1/2"
-              },
-              {
-                "type": "BYT + PARKOVACIE STÁTIE",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5167",
-                "share": "1/2"
+                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1984",
+                "share": "1/9"
               }
             ],
             "old_count": 6,
@@ -972,13 +1034,13 @@
             "field": "movable_property",
             "old": [
               {
-                "type": "OSOBNÉ AUTO",
-                "brand": "RENAULT",
-                "year_of_manufacture": 2019,
+                "type": "BYTOVÉ ZARIADENIE",
                 "share": "1/1"
               },
               {
-                "type": "BYTOVÉ ZARIADENIE",
+                "type": "OSOBNÉ AUTO",
+                "brand": "RENAULT",
+                "year_of_manufacture": 2019,
                 "share": "1/1"
               },
               {
@@ -1016,7 +1078,10 @@
         "name": "Ing. JOZEF ZAŤKO",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA\r\nKREMNICA)",
+        "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA KREMNICA)",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA KREMNICA)"
+        ],
         "income": {
           "public_function": 14673,
           "other": 0
@@ -1027,10 +1092,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "BYT + PARKOVACIE STÁTIE",
+            "type": "BYT",
             "cadastral_territory": "PETRŽALKA",
-            "lv_number": "5576",
-            "share": "1/2"
+            "lv_number": "2786",
+            "share": "1/1"
           },
           {
             "type": "BYT + PARKOVACIE STÁTIE",
@@ -1039,16 +1104,10 @@
             "share": "1/2"
           },
           {
-            "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "1984",
-            "share": "1/9"
-          },
-          {
-            "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
-            "cadastral_territory": "GABČÍKOVO",
-            "lv_number": "2070",
-            "share": "1/1"
+            "type": "BYT + PARKOVACIE STÁTIE",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "5576",
+            "share": "1/2"
           },
           {
             "type": "POZEMOK \"C\"",
@@ -1057,13 +1116,7 @@
             "share": "1/1"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "2786",
-            "share": "1/1"
-          },
-          {
-            "type": "ZÁHRADA",
+            "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "2070",
             "share": "1/1"
@@ -1073,17 +1126,29 @@
             "cadastral_territory": "GABČÍKOVO",
             "lv_number": "1980",
             "share": "1/1"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "2070",
+            "share": "1/1"
+          },
+          {
+            "type": "ZÁHRADA - SPOLOČNÁ CESTA",
+            "cadastral_territory": "GABČÍKOVO",
+            "lv_number": "1984",
+            "share": "1/9"
           }
         ],
         "movable_property": [
           {
-            "type": "OSOBNÉ AUTO RENAULT",
-            "brand": "RENAULT",
-            "year_of_manufacture": 2019,
+            "type": "BYTOVÉ ZARIADENIE",
             "share": "1/1"
           },
           {
-            "type": "BYTOVÉ ZARIADENIE",
+            "type": "OSOBNÉ AUTO RENAULT",
+            "brand": "RENAULT",
+            "year_of_manufacture": 2019,
             "share": "1/1"
           }
         ],
@@ -1105,7 +1170,18 @@
           {
             "field": "public_function",
             "old": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, KREMNICA )",
-            "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA\r\nKREMNICA)"
+            "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA KREMNICA)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, KREMNICA )"
+            ],
+            "new": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA KREMNICA)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -1132,28 +1208,16 @@
                 "share": "1/1"
               },
               {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2070",
-                "share": "1/1"
+                "type": "BYT + PARKOVACIE STÁTIE",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5167",
+                "share": "1/2"
               },
               {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1980",
-                "share": "1/1"
-              },
-              {
-                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1984",
-                "share": "1/9"
-              },
-              {
-                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2070",
-                "share": "1/1"
+                "type": "BYT + PARKOVACIE STÁTIE",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5576",
+                "share": "1/2"
               },
               {
                 "type": "POZEMOK",
@@ -1162,57 +1226,7 @@
                 "share": "1/1"
               },
               {
-                "type": "BYT + PARKOVACIE STÁTIE",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5576",
-                "share": "1/2"
-              },
-              {
-                "type": "BYT + PARKOVACIE STÁTIE",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5167",
-                "share": "1/2"
-              }
-            ],
-            "new": [
-              {
-                "type": "BYT + PARKOVACIE STÁTIE",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5576",
-                "share": "1/2"
-              },
-              {
-                "type": "BYT + PARKOVACIE STÁTIE",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5167",
-                "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "1984",
-                "share": "1/9"
-              },
-              {
                 "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
-                "cadastral_territory": "GABČÍKOVO",
-                "lv_number": "2070",
-                "share": "1/1"
-              },
-              {
-                "type": "POZEMOK \"C\"",
-                "cadastral_territory": "BERNOLÁKOVO",
-                "lv_number": "5223",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "2786",
-                "share": "1/1"
-              },
-              {
-                "type": "ZÁHRADA",
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "2070",
                 "share": "1/1"
@@ -1222,6 +1236,68 @@
                 "cadastral_territory": "GABČÍKOVO",
                 "lv_number": "1980",
                 "share": "1/1"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2070",
+                "share": "1/1"
+              },
+              {
+                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1984",
+                "share": "1/9"
+              }
+            ],
+            "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "2786",
+                "share": "1/1"
+              },
+              {
+                "type": "BYT + PARKOVACIE STÁTIE",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5167",
+                "share": "1/2"
+              },
+              {
+                "type": "BYT + PARKOVACIE STÁTIE",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5576",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK \"C\"",
+                "cadastral_territory": "BERNOLÁKOVO",
+                "lv_number": "5223",
+                "share": "1/1"
+              },
+              {
+                "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2070",
+                "share": "1/1"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1980",
+                "share": "1/1"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "2070",
+                "share": "1/1"
+              },
+              {
+                "type": "ZÁHRADA - SPOLOČNÁ CESTA",
+                "cadastral_territory": "GABČÍKOVO",
+                "lv_number": "1984",
+                "share": "1/9"
               }
             ],
             "old_count": 8,
@@ -1239,13 +1315,13 @@
             ],
             "new": [
               {
-                "type": "OSOBNÉ AUTO RENAULT",
-                "brand": "RENAULT",
-                "year_of_manufacture": 2019,
+                "type": "BYTOVÉ ZARIADENIE",
                 "share": "1/1"
               },
               {
-                "type": "BYTOVÉ ZARIADENIE",
+                "type": "OSOBNÉ AUTO RENAULT",
+                "brand": "RENAULT",
+                "year_of_manufacture": 2019,
                 "share": "1/1"
               }
             ],
@@ -1268,189 +1344,19 @@
       }
     }
   ],
-  "total_changes": 25,
+  "total_changes": 30,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/ZatkJoze2.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/ZatkJoze2.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/ZatkJoze2.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/ZatkJoze2.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, KREMNICA )",
-          "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA\r\nKREMNICA)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 5035,
-            "other": 0
-          },
-          "new": {
-            "public_function": 14673,
-            "other": 0
-          },
-          "old_total": 5035,
-          "new_total": 14673,
-          "delta": 9638,
-          "delta_pct": 191.4
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "2786",
-              "share": "1/1"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "2070",
-              "share": "1/1"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "1980",
-              "share": "1/1"
-            },
-            {
-              "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "1984",
-              "share": "1/9"
-            },
-            {
-              "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "2070",
-              "share": "1/1"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "BERNOLÁKOVO",
-              "lv_number": "5223",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT + PARKOVACIE STÁTIE",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "5576",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT + PARKOVACIE STÁTIE",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "5167",
-              "share": "1/2"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT + PARKOVACIE STÁTIE",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "5576",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT + PARKOVACIE STÁTIE",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "5167",
-              "share": "1/2"
-            },
-            {
-              "type": "ZÁHRADA - SPOLOČNÁ CESTA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "1984",
-              "share": "1/9"
-            },
-            {
-              "type": "ROZOSTAVANÁ ZÁHRADNÁ CHATKA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "2070",
-              "share": "1/1"
-            },
-            {
-              "type": "POZEMOK \"C\"",
-              "cadastral_territory": "BERNOLÁKOVO",
-              "lv_number": "5223",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "2786",
-              "share": "1/1"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "2070",
-              "share": "1/1"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "GABČÍKOVO",
-              "lv_number": "1980",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 8,
-          "new_count": 8
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÉ AUTO",
-              "brand": "RENAULT",
-              "year_of_manufacture": 2019,
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "OSOBNÉ AUTO RENAULT",
-              "brand": "RENAULT",
-              "year_of_manufacture": 2019,
-              "share": "1/1"
-            },
-            {
-              "type": "BYTOVÉ ZARIADENIE",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 2
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "BYTOVÉ ZARIADENIE , podiel: 1/1",
-            "ÚSPORY , podiel: 1/1"
-          ],
-          "new": [
-            "ÚSPORY, podiel: 1/1"
-          ],
-          "old_count": 2,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 5 035 € → 14 673 € (+9 638 €)",
-      "Nehnuteľnosti: 8 → 8 (0)",
-      "Hnuteľný majetok: 1 → 2 (+1)",
-      "Majetkové práva: 2 → 1 (-1)"
-    ]
+    "summary": []
   },
   "slug": "ing-jozef-zatko",
   "context": {
@@ -1460,7 +1366,7 @@
     "obligations": 1,
     "income_percentile": 22,
     "property_percentile": 79,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0.8

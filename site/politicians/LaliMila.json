@@ -2,6 +2,9 @@
   "user_id": "LaliMila",
   "name": "JUDr. Milan Ľalík",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -79,6 +85,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)"
+        ],
         "income": {
           "public_function": 11096,
           "other": 9100
@@ -128,9 +137,9 @@
         ],
         "property_rights": [
           "OBRAZY 10X, podiel: 1/1",
-          "ZARIADENIE DOMÁCNOSTI, podiel: BSM",
           "OSOBNÉ ŠPERKY, podiel: 1/1",
-          "PENIAZE NA ÚČTE, ÚSPORY, podiel: BSM"
+          "PENIAZE NA ÚČTE, ÚSPORY, podiel: BSM",
+          "ZARIADENIE DOMÁCNOSTI, podiel: BSM"
         ],
         "obligations": [
           {
@@ -248,9 +257,9 @@
             ],
             "new": [
               "OBRAZY 10X, podiel: 1/1",
-              "ZARIADENIE DOMÁCNOSTI, podiel: BSM",
               "OSOBNÉ ŠPERKY, podiel: 1/1",
-              "PENIAZE NA ÚČTE, ÚSPORY, podiel: BSM"
+              "PENIAZE NA ÚČTE, ÚSPORY, podiel: BSM",
+              "ZARIADENIE DOMÁCNOSTI, podiel: BSM"
             ],
             "old_count": 2,
             "new_count": 4
@@ -261,136 +270,17 @@
   ],
   "total_changes": 5,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/LaliMila.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/LaliMila.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/LaliMila.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/LaliMila.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 11096,
-            "other": 9100
-          },
-          "old_total": 0,
-          "new_total": 20196,
-          "delta": 20196
-        },
-        {
-          "field": "positions",
-          "old": null,
-          "new": [
-            {
-              "role": "PORADCA PREDSEDU VLÁDY SR",
-              "organization": "ÚRAD VLADY SR",
-              "benefits": "ODMENA"
-            },
-            {
-              "role": "PREDSEDA ODVOLACEJ KOMISIE",
-              "organization": "SLOVENSKÝ FUTBALOVÝ ZVÄZ",
-              "benefits": "VSTUPENKA NA FUTBALOVÝ ZÁPAS\r\nSLOVENSKEJ REPREZENTÁCIE"
-            }
-          ]
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "POLYFUNKČNÝ DOM + ZÁHRADA + BYT + GARÁŽE",
-              "cadastral_territory": "RAČA RADVAŇ",
-              "lv_number": "5227 4765 2634",
-              "share": "1/1"
-            },
-            {
-              "type": "STAVBA + POZEMOK",
-              "cadastral_territory": "HORNÉ ŠIPICE BORINKA",
-              "lv_number": "252 813",
-              "share": "1/1"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "REVÚCA",
-              "lv_number": "2193 2194 5020",
-              "share": "4/14 4/10 1/2"
-            }
-          ],
-          "new": [
-            {
-              "type": "POLYFUNKČNÝ DOM, ZÁHRADA, BYT, GARÁŽE",
-              "cadastral_territory": "RAČA RADVAŇ",
-              "lv_number": "5227, 4765, 2634",
-              "share": "BSM"
-            },
-            {
-              "type": "STAVBA POZEMOK",
-              "cadastral_territory": "HORNÉ ŠIPICE BORINKA",
-              "lv_number": "252, 813",
-              "share": "BSM"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "REVÚCA",
-              "lv_number": "2193, 2194, 5020",
-              "share": "4/14 4/10 1/2"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 3
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "BMW",
-              "year_of_manufacture": 2018,
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "BMW",
-              "year_of_manufacture": 2018,
-              "share": "BSM"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "OBRAZY ZARIADENIE DOMÁCNOSTI OSOBNÉ ŠPERKY, podiel: 1/1",
-            "VKLADY V BANKE, podiel: 1/1"
-          ],
-          "new": [
-            "OBRAZY 10X, podiel: 1/1",
-            "ZARIADENIE DOMÁCNOSTI, podiel: BSM",
-            "OSOBNÉ ŠPERKY, podiel: 1/1",
-            "PENIAZE NA ÚČTE, ÚSPORY, podiel: BSM"
-          ],
-          "old_count": 2,
-          "new_count": 4
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 20 196 € (+20 196 €)",
-      "Funkcie",
-      "Nehnuteľnosti: 3 → 3 (0)",
-      "Hnuteľný majetok: 1 → 1 (0)",
-      "Majetkové práva: 2 → 4 (+2)"
-    ]
+    "summary": []
   },
   "slug": "judr-milan-lalik",
   "context": {
@@ -400,7 +290,7 @@
     "obligations": 1,
     "income_percentile": 24,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.1

@@ -2,6 +2,9 @@
   "user_id": "Ondrej.Sedivy",
   "name": "MUDr. Ondrej Šedivý",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FAKULTNÁ NEMOCNICA NITRA)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FAKULTNÁ NEMOCNICA NITRA)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FAKULTNÁ NEMOCNICA NITRA)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FAKULTNÁ NEMOCNICA NITRA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FAKULTNÁ NEMOCNICA NITRA)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -26,17 +32,29 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "ČLEN KOMISIE ZDRAVOTNÍCTVA",
-            "organization": "NITRIANSKY SAMOSRPÁVNY KRAJ",
+            "role": "ČLEN ETICKEJ KOMISIE",
+            "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
             "benefits": "ODMENA"
           },
           {
-            "role": "ČLEN ETICKEJ KOMISIE",
-            "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
+            "role": "ČLEN KOMISIE ZDRAVOTNÍCTVA",
+            "organization": "NITRIANSKY SAMOSRPÁVNY KRAJ",
             "benefits": "ODMENA"
           }
         ],
         "real_estate": [
+          {
+            "type": "BYT, PODIEL NA SPOLOČNÝCH PRIESTOROCH",
+            "cadastral_territory": "NITRA CHRENOVÁ",
+            "lv_number": "1957",
+            "share": "1/1 714/36564"
+          },
+          {
+            "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
+            "cadastral_territory": "ZLATNO",
+            "lv_number": "715,761,767,768,970,853",
+            "share": "939/306740"
+          },
           {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "MANKOVCE",
@@ -44,40 +62,28 @@
             "share": "1/15"
           },
           {
-            "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK",
-            "cadastral_territory": "MANKOVCE",
-            "lv_number": "653,879,898,899,900,917,955,654",
-            "share": "1/1450"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "ZLATÉ MORAVCE",
-            "lv_number": "7612",
-            "share": "43/2400"
-          },
-          {
-            "type": "VINICA",
-            "cadastral_territory": "ZLATÉ MORAVCE",
-            "lv_number": "7611",
-            "share": "1/72"
-          },
-          {
-            "type": "TRVALÝ TRÁVNY PORAST",
-            "cadastral_territory": "ZLATNO",
-            "lv_number": "634",
-            "share": "1/5"
-          },
-          {
-            "type": "VINICA, ZÁHRADA, ORNÁ PÔDA",
-            "cadastral_territory": "MANKOVCE",
-            "lv_number": "421",
-            "share": "1/5"
-          },
-          {
             "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST",
             "cadastral_territory": "MANKOVCE",
             "lv_number": "420",
             "share": "1/10"
+          },
+          {
+            "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, ZÁHRADA",
+            "cadastral_territory": "MANKOVCE",
+            "lv_number": "412, 310",
+            "share": "1/5"
+          },
+          {
+            "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, ZÁHRADA, LESNÝ POZEMOK",
+            "cadastral_territory": "ZLATNO",
+            "lv_number": "633",
+            "share": "1/5"
+          },
+          {
+            "type": "PRÍSTUPOVÁ CESTA",
+            "cadastral_territory": "NITRA ZOBOR",
+            "lv_number": "3413",
+            "share": "1/2"
           },
           {
             "type": "RODINNÝ DOM",
@@ -92,28 +98,34 @@
             "share": "1/1"
           },
           {
-            "type": "PRÍSTUPOVÁ CESTA",
-            "cadastral_territory": "NITRA ZOBOR",
-            "lv_number": "3413",
-            "share": "1/2"
-          },
-          {
-            "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, ZÁHRADA, LESNÝ POZEMOK",
-            "cadastral_territory": "ZLATNO",
-            "lv_number": "633",
-            "share": "1/5"
-          },
-          {
-            "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, ZÁHRADA",
-            "cadastral_territory": "MANKOVCE",
-            "lv_number": "412, 310",
-            "share": "1/5"
-          },
-          {
             "type": "TRVALÝ TRÁVNY PORAST",
             "cadastral_territory": "MANKOVCE",
             "lv_number": "413",
             "share": "1/10"
+          },
+          {
+            "type": "TRVALÝ TRÁVNY PORAST",
+            "cadastral_territory": "ZLATNO",
+            "lv_number": "634",
+            "share": "1/5"
+          },
+          {
+            "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK",
+            "cadastral_territory": "MANKOVCE",
+            "lv_number": "653,879,898,899,900,917,955,654",
+            "share": "1/1450"
+          },
+          {
+            "type": "VINICA",
+            "cadastral_territory": "ZLATÉ MORAVCE",
+            "lv_number": "7611",
+            "share": "1/72"
+          },
+          {
+            "type": "VINICA, ZÁHRADA, ORNÁ PÔDA",
+            "cadastral_territory": "MANKOVCE",
+            "lv_number": "421",
+            "share": "1/5"
           },
           {
             "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA",
@@ -122,31 +134,13 @@
             "share": "1/35"
           },
           {
-            "type": "BYT, PODIEL NA SPOLOČNÝCH PRIESTOROCH",
-            "cadastral_territory": "NITRA CHRENOVÁ",
-            "lv_number": "1957",
-            "share": "1/1 714/36564"
-          },
-          {
-            "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
-            "cadastral_territory": "ZLATNO",
-            "lv_number": "715,761,767,768,970,853",
-            "share": "939/306740"
+            "type": "ZÁHRADA",
+            "cadastral_territory": "ZLATÉ MORAVCE",
+            "lv_number": "7612",
+            "share": "43/2400"
           }
         ],
         "movable_property": [
-          {
-            "type": "OSOBNÉ VOZIDLO",
-            "brand": "VOLKSWAGEN",
-            "year_of_manufacture": 2013,
-            "share": "1/1"
-          },
-          {
-            "type": "MOTOCYKEL",
-            "brand": "SUZUKI",
-            "year_of_manufacture": 2015,
-            "share": "1/1"
-          },
           {
             "type": "MOTOCYKEL",
             "brand": "JAWA",
@@ -157,6 +151,18 @@
             "type": "MOTOCYKEL",
             "brand": "JAWA",
             "year_of_manufacture": 1964,
+            "share": "1/1"
+          },
+          {
+            "type": "MOTOCYKEL",
+            "brand": "SUZUKI",
+            "year_of_manufacture": 2015,
+            "share": "1/1"
+          },
+          {
+            "type": "OSOBNÉ VOZIDLO",
+            "brand": "VOLKSWAGEN",
+            "year_of_manufacture": 2013,
             "share": "1/1"
           }
         ],
@@ -187,6 +193,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FAKULTNÁ NEMOCNICA NITRA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FAKULTNÁ NEMOCNICA NITRA)"
+        ],
         "income": {
           "public_function": 62053,
           "other": 14179
@@ -208,22 +217,34 @@
         ],
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "NITRA",
-            "lv_number": "6679",
-            "share": "BSM"
+            "type": "BYT, PODIEL SPOL. PRIESTOROV",
+            "cadastral_territory": "NITRA CHRENOVÁ",
+            "lv_number": "1957",
+            "share": "1/1, 714/36564"
           },
           {
-            "type": "RODINNÝ DOM, ZÁHRADA, VINICA",
-            "cadastral_territory": "NITRA ZOBOR",
-            "lv_number": "388",
-            "share": "1/1"
+            "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
+            "cadastral_territory": "ZLATNO",
+            "lv_number": "715, 761, 767, 768, 970, 853",
+            "share": "939/306740"
           },
           {
-            "type": "PRÍSTUPOVÁ CESTA",
-            "cadastral_territory": "NITRA ZOBOR",
-            "lv_number": "3413",
-            "share": "1/2"
+            "type": "LESNÝ POZEMOK, TRVALÝ TRÁVNY PORAST",
+            "cadastral_territory": "MANKOVCE",
+            "lv_number": "653, 879, 898, 899, 900, 917, 655, 654",
+            "share": "1/1450"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "MANKOVCE",
+            "lv_number": "422",
+            "share": "1/15"
+          },
+          {
+            "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST",
+            "cadastral_territory": "MANKOVCE",
+            "lv_number": "420",
+            "share": "1/10"
           },
           {
             "type": "ORNÁ PÔDA, ZÁHRADA, LESNÝ POZEMOK, TRVALÝ TRÁVNY PORAST",
@@ -238,28 +259,28 @@
             "share": "1/5"
           },
           {
+            "type": "PRÍSTUPOVÁ CESTA",
+            "cadastral_territory": "NITRA ZOBOR",
+            "lv_number": "3413",
+            "share": "1/2"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "NITRA",
+            "lv_number": "6679",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM, ZÁHRADA, VINICA",
+            "cadastral_territory": "NITRA ZOBOR",
+            "lv_number": "388",
+            "share": "1/1"
+          },
+          {
             "type": "TRVALÝ TRÁVNY PORAST",
             "cadastral_territory": "MANKOVCE",
             "lv_number": "413",
             "share": "1/10"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA",
-            "cadastral_territory": "MANKOVCE",
-            "lv_number": "143",
-            "share": "1/35"
-          },
-          {
-            "type": "BYT, PODIEL SPOL. PRIESTOROV",
-            "cadastral_territory": "NITRA CHRENOVÁ",
-            "lv_number": "1957",
-            "share": "1/1, 714/36564"
-          },
-          {
-            "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
-            "cadastral_territory": "ZLATNO",
-            "lv_number": "715, 761, 767, 768, 970, 853",
-            "share": "939/306740"
           },
           {
             "type": "TRVALÝ TRÁVNY PORAST",
@@ -268,55 +289,31 @@
             "share": "1/5"
           },
           {
+            "type": "VINICA",
+            "cadastral_territory": "ZLATÉ MORAVCE",
+            "lv_number": "7611",
+            "share": "1/72"
+          },
+          {
             "type": "VINICA, ZÁHRADA, ORNÁ PÔDA",
             "cadastral_territory": "MANKOVCE",
             "lv_number": "421",
             "share": "1/5"
           },
           {
-            "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST",
+            "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA",
             "cadastral_territory": "MANKOVCE",
-            "lv_number": "420",
-            "share": "1/10"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "MANKOVCE",
-            "lv_number": "422",
-            "share": "1/15"
-          },
-          {
-            "type": "LESNÝ POZEMOK, TRVALÝ TRÁVNY PORAST",
-            "cadastral_territory": "MANKOVCE",
-            "lv_number": "653, 879, 898, 899, 900, 917, 655, 654",
-            "share": "1/1450"
+            "lv_number": "143",
+            "share": "1/35"
           },
           {
             "type": "ZÁHRADA",
             "cadastral_territory": "ZLATÉ MORAVCE",
             "lv_number": "7612",
             "share": "43/2400"
-          },
-          {
-            "type": "VINICA",
-            "cadastral_territory": "ZLATÉ MORAVCE",
-            "lv_number": "7611",
-            "share": "1/72"
           }
         ],
         "movable_property": [
-          {
-            "type": "OSOBNÉ VOZIDLO",
-            "brand": "VOLKSWAGEN",
-            "year_of_manufacture": 2013,
-            "share": "1/1"
-          },
-          {
-            "type": "MOTOCYKEL",
-            "brand": "SUZUKI",
-            "year_of_manufacture": 2015,
-            "share": "1/1"
-          },
           {
             "type": "MOTOCYKEL",
             "brand": "JAWA",
@@ -330,15 +327,27 @@
             "share": "1/1"
           },
           {
+            "type": "MOTOCYKEL",
+            "brand": "SUZUKI",
+            "year_of_manufacture": 2015,
+            "share": "1/1"
+          },
+          {
             "type": "OSOBNÉ VOZIDLO",
             "brand": "SUZUKI",
             "year_of_manufacture": 2012,
             "share": "1/1"
+          },
+          {
+            "type": "OSOBNÉ VOZIDLO",
+            "brand": "VOLKSWAGEN",
+            "year_of_manufacture": 2013,
+            "share": "1/1"
           }
         ],
         "property_rights": [
-          "FINANČNÉ PROSTRIEDKY, podiel: 1/1",
-          "AUTORSKÉ PRÁVA NA UČEBNICE MATEMATIKY, podiel: 1/1"
+          "AUTORSKÉ PRÁVA NA UČEBNICE MATEMATIKY, podiel: 1/1",
+          "FINANČNÉ PROSTRIEDKY, podiel: 1/1"
         ],
         "obligations": [
           {
@@ -372,13 +381,13 @@
             "field": "positions",
             "old": [
               {
-                "role": "ČLEN KOMISIE ZDRAVOTNÍCTVA",
-                "organization": "NITRIANSKY SAMOSRPÁVNY KRAJ",
+                "role": "ČLEN ETICKEJ KOMISIE",
+                "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
                 "benefits": "ODMENA"
               },
               {
-                "role": "ČLEN ETICKEJ KOMISIE",
-                "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
+                "role": "ČLEN KOMISIE ZDRAVOTNÍCTVA",
+                "organization": "NITRIANSKY SAMOSRPÁVNY KRAJ",
                 "benefits": "ODMENA"
               }
             ],
@@ -401,90 +410,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "MANKOVCE",
-                "lv_number": "422",
-                "share": "1/15"
-              },
-              {
-                "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK",
-                "cadastral_territory": "MANKOVCE",
-                "lv_number": "653,879,898,899,900,917,955,654",
-                "share": "1/1450"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "ZLATÉ MORAVCE",
-                "lv_number": "7612",
-                "share": "43/2400"
-              },
-              {
-                "type": "VINICA",
-                "cadastral_territory": "ZLATÉ MORAVCE",
-                "lv_number": "7611",
-                "share": "1/72"
-              },
-              {
-                "type": "TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "ZLATNO",
-                "lv_number": "634",
-                "share": "1/5"
-              },
-              {
-                "type": "VINICA, ZÁHRADA, ORNÁ PÔDA",
-                "cadastral_territory": "MANKOVCE",
-                "lv_number": "421",
-                "share": "1/5"
-              },
-              {
-                "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "MANKOVCE",
-                "lv_number": "420",
-                "share": "1/10"
-              },
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "NITRA",
-                "lv_number": "6679",
-                "share": "BSM"
-              },
-              {
-                "type": "RODINNÝ DOM, ZÁHRADA, VINICA",
-                "cadastral_territory": "NITRA ZOBOR",
-                "lv_number": "388",
-                "share": "1/1"
-              },
-              {
-                "type": "PRÍSTUPOVÁ CESTA",
-                "cadastral_territory": "NITRA ZOBOR",
-                "lv_number": "3413",
-                "share": "1/2"
-              },
-              {
-                "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, ZÁHRADA, LESNÝ POZEMOK",
-                "cadastral_territory": "ZLATNO",
-                "lv_number": "633",
-                "share": "1/5"
-              },
-              {
-                "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, ZÁHRADA",
-                "cadastral_territory": "MANKOVCE",
-                "lv_number": "412, 310",
-                "share": "1/5"
-              },
-              {
-                "type": "TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "MANKOVCE",
-                "lv_number": "413",
-                "share": "1/10"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA",
-                "cadastral_territory": "MANKOVCE",
-                "lv_number": "143",
-                "share": "1/35"
-              },
-              {
                 "type": "BYT, PODIEL NA SPOLOČNÝCH PRIESTOROCH",
                 "cadastral_territory": "NITRA CHRENOVÁ",
                 "lv_number": "1957",
@@ -495,9 +420,37 @@
                 "cadastral_territory": "ZLATNO",
                 "lv_number": "715,761,767,768,970,853",
                 "share": "939/306740"
-              }
-            ],
-            "new": [
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "MANKOVCE",
+                "lv_number": "422",
+                "share": "1/15"
+              },
+              {
+                "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST",
+                "cadastral_territory": "MANKOVCE",
+                "lv_number": "420",
+                "share": "1/10"
+              },
+              {
+                "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, ZÁHRADA",
+                "cadastral_territory": "MANKOVCE",
+                "lv_number": "412, 310",
+                "share": "1/5"
+              },
+              {
+                "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, ZÁHRADA, LESNÝ POZEMOK",
+                "cadastral_territory": "ZLATNO",
+                "lv_number": "633",
+                "share": "1/5"
+              },
+              {
+                "type": "PRÍSTUPOVÁ CESTA",
+                "cadastral_territory": "NITRA ZOBOR",
+                "lv_number": "3413",
+                "share": "1/2"
+              },
               {
                 "type": "RODINNÝ DOM",
                 "cadastral_territory": "NITRA",
@@ -511,10 +464,78 @@
                 "share": "1/1"
               },
               {
-                "type": "PRÍSTUPOVÁ CESTA",
-                "cadastral_territory": "NITRA ZOBOR",
-                "lv_number": "3413",
-                "share": "1/2"
+                "type": "TRVALÝ TRÁVNY PORAST",
+                "cadastral_territory": "MANKOVCE",
+                "lv_number": "413",
+                "share": "1/10"
+              },
+              {
+                "type": "TRVALÝ TRÁVNY PORAST",
+                "cadastral_territory": "ZLATNO",
+                "lv_number": "634",
+                "share": "1/5"
+              },
+              {
+                "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK",
+                "cadastral_territory": "MANKOVCE",
+                "lv_number": "653,879,898,899,900,917,955,654",
+                "share": "1/1450"
+              },
+              {
+                "type": "VINICA",
+                "cadastral_territory": "ZLATÉ MORAVCE",
+                "lv_number": "7611",
+                "share": "1/72"
+              },
+              {
+                "type": "VINICA, ZÁHRADA, ORNÁ PÔDA",
+                "cadastral_territory": "MANKOVCE",
+                "lv_number": "421",
+                "share": "1/5"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA",
+                "cadastral_territory": "MANKOVCE",
+                "lv_number": "143",
+                "share": "1/35"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "ZLATÉ MORAVCE",
+                "lv_number": "7612",
+                "share": "43/2400"
+              }
+            ],
+            "new": [
+              {
+                "type": "BYT, PODIEL SPOL. PRIESTOROV",
+                "cadastral_territory": "NITRA CHRENOVÁ",
+                "lv_number": "1957",
+                "share": "1/1, 714/36564"
+              },
+              {
+                "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
+                "cadastral_territory": "ZLATNO",
+                "lv_number": "715, 761, 767, 768, 970, 853",
+                "share": "939/306740"
+              },
+              {
+                "type": "LESNÝ POZEMOK, TRVALÝ TRÁVNY PORAST",
+                "cadastral_territory": "MANKOVCE",
+                "lv_number": "653, 879, 898, 899, 900, 917, 655, 654",
+                "share": "1/1450"
+              },
+              {
+                "type": "ORNÁ PÔDA",
+                "cadastral_territory": "MANKOVCE",
+                "lv_number": "422",
+                "share": "1/15"
+              },
+              {
+                "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST",
+                "cadastral_territory": "MANKOVCE",
+                "lv_number": "420",
+                "share": "1/10"
               },
               {
                 "type": "ORNÁ PÔDA, ZÁHRADA, LESNÝ POZEMOK, TRVALÝ TRÁVNY PORAST",
@@ -529,28 +550,28 @@
                 "share": "1/5"
               },
               {
+                "type": "PRÍSTUPOVÁ CESTA",
+                "cadastral_territory": "NITRA ZOBOR",
+                "lv_number": "3413",
+                "share": "1/2"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "NITRA",
+                "lv_number": "6679",
+                "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM, ZÁHRADA, VINICA",
+                "cadastral_territory": "NITRA ZOBOR",
+                "lv_number": "388",
+                "share": "1/1"
+              },
+              {
                 "type": "TRVALÝ TRÁVNY PORAST",
                 "cadastral_territory": "MANKOVCE",
                 "lv_number": "413",
                 "share": "1/10"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA",
-                "cadastral_territory": "MANKOVCE",
-                "lv_number": "143",
-                "share": "1/35"
-              },
-              {
-                "type": "BYT, PODIEL SPOL. PRIESTOROV",
-                "cadastral_territory": "NITRA CHRENOVÁ",
-                "lv_number": "1957",
-                "share": "1/1, 714/36564"
-              },
-              {
-                "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
-                "cadastral_territory": "ZLATNO",
-                "lv_number": "715, 761, 767, 768, 970, 853",
-                "share": "939/306740"
               },
               {
                 "type": "TRVALÝ TRÁVNY PORAST",
@@ -559,40 +580,28 @@
                 "share": "1/5"
               },
               {
+                "type": "VINICA",
+                "cadastral_territory": "ZLATÉ MORAVCE",
+                "lv_number": "7611",
+                "share": "1/72"
+              },
+              {
                 "type": "VINICA, ZÁHRADA, ORNÁ PÔDA",
                 "cadastral_territory": "MANKOVCE",
                 "lv_number": "421",
                 "share": "1/5"
               },
               {
-                "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST",
+                "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA",
                 "cadastral_territory": "MANKOVCE",
-                "lv_number": "420",
-                "share": "1/10"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "MANKOVCE",
-                "lv_number": "422",
-                "share": "1/15"
-              },
-              {
-                "type": "LESNÝ POZEMOK, TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "MANKOVCE",
-                "lv_number": "653, 879, 898, 899, 900, 917, 655, 654",
-                "share": "1/1450"
+                "lv_number": "143",
+                "share": "1/35"
               },
               {
                 "type": "ZÁHRADA",
                 "cadastral_territory": "ZLATÉ MORAVCE",
                 "lv_number": "7612",
                 "share": "43/2400"
-              },
-              {
-                "type": "VINICA",
-                "cadastral_territory": "ZLATÉ MORAVCE",
-                "lv_number": "7611",
-                "share": "1/72"
               }
             ],
             "old_count": 16,
@@ -602,18 +611,6 @@
             "field": "movable_property",
             "old": [
               {
-                "type": "OSOBNÉ VOZIDLO",
-                "brand": "VOLKSWAGEN",
-                "year_of_manufacture": 2013,
-                "share": "1/1"
-              },
-              {
-                "type": "MOTOCYKEL",
-                "brand": "SUZUKI",
-                "year_of_manufacture": 2015,
-                "share": "1/1"
-              },
-              {
                 "type": "MOTOCYKEL",
                 "brand": "JAWA",
                 "year_of_manufacture": 1958,
@@ -623,23 +620,23 @@
                 "type": "MOTOCYKEL",
                 "brand": "JAWA",
                 "year_of_manufacture": 1964,
+                "share": "1/1"
+              },
+              {
+                "type": "MOTOCYKEL",
+                "brand": "SUZUKI",
+                "year_of_manufacture": 2015,
+                "share": "1/1"
+              },
+              {
+                "type": "OSOBNÉ VOZIDLO",
+                "brand": "VOLKSWAGEN",
+                "year_of_manufacture": 2013,
                 "share": "1/1"
               }
             ],
             "new": [
               {
-                "type": "OSOBNÉ VOZIDLO",
-                "brand": "VOLKSWAGEN",
-                "year_of_manufacture": 2013,
-                "share": "1/1"
-              },
-              {
-                "type": "MOTOCYKEL",
-                "brand": "SUZUKI",
-                "year_of_manufacture": 2015,
-                "share": "1/1"
-              },
-              {
                 "type": "MOTOCYKEL",
                 "brand": "JAWA",
                 "year_of_manufacture": 1958,
@@ -649,12 +646,24 @@
                 "type": "MOTOCYKEL",
                 "brand": "JAWA",
                 "year_of_manufacture": 1964,
+                "share": "1/1"
+              },
+              {
+                "type": "MOTOCYKEL",
+                "brand": "SUZUKI",
+                "year_of_manufacture": 2015,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÉ VOZIDLO",
                 "brand": "SUZUKI",
                 "year_of_manufacture": 2012,
+                "share": "1/1"
+              },
+              {
+                "type": "OSOBNÉ VOZIDLO",
+                "brand": "VOLKSWAGEN",
+                "year_of_manufacture": 2013,
                 "share": "1/1"
               }
             ],
@@ -667,8 +676,8 @@
               "FINANČNÉ PROSTRIEDKY, podiel: 1/1"
             ],
             "new": [
-              "FINANČNÉ PROSTRIEDKY, podiel: 1/1",
-              "AUTORSKÉ PRÁVA NA UČEBNICE MATEMATIKY, podiel: 1/1"
+              "AUTORSKÉ PRÁVA NA UČEBNICE MATEMATIKY, podiel: 1/1",
+              "FINANČNÉ PROSTRIEDKY, podiel: 1/1"
             ],
             "old_count": 1,
             "new_count": 2
@@ -698,364 +707,17 @@
   ],
   "total_changes": 6,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ondrej.Sedivy.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ondrej.Sedivy.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Ondrej.Sedivy.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Ondrej.Sedivy.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 62053,
-            "other": 14179
-          },
-          "old_total": 0,
-          "new_total": 76232,
-          "delta": 76232
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "ČLEN KOMISIE ZDRAVOTNÍCTVA",
-              "organization": "NITRIANSKY SAMOSRPÁVNY KRAJ",
-              "benefits": "ODMENA"
-            },
-            {
-              "role": "ČLEN ETICKEJ KOMISIE",
-              "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
-              "benefits": "ODMENA"
-            }
-          ],
-          "new": [
-            {
-              "role": "ČLEN ETICKEJ KOMISIE",
-              "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
-              "benefits": "ODMENA"
-            },
-            {
-              "role": "ČLEN KOMISIE ZDRAVOTNÍCTVA",
-              "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
-              "benefits": "ODMENA"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "422",
-              "share": "1/15"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "653,879,898,899,900,917,955,654",
-              "share": "1/1450"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "ZLATÉ MORAVCE",
-              "lv_number": "7612",
-              "share": "43/2400"
-            },
-            {
-              "type": "VINICA",
-              "cadastral_territory": "ZLATÉ MORAVCE",
-              "lv_number": "7611",
-              "share": "1/72"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "ZLATNO",
-              "lv_number": "634",
-              "share": "1/5"
-            },
-            {
-              "type": "VINICA, ZÁHRADA, ORNÁ PÔDA",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "421",
-              "share": "1/5"
-            },
-            {
-              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "420",
-              "share": "1/10"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "NITRA",
-              "lv_number": "6679",
-              "share": "BSM"
-            },
-            {
-              "type": "RODINNÝ DOM, ZÁHRADA, VINICA",
-              "cadastral_territory": "NITRA ZOBOR",
-              "lv_number": "388",
-              "share": "1/1"
-            },
-            {
-              "type": "PRÍSTUPOVÁ CESTA",
-              "cadastral_territory": "NITRA ZOBOR",
-              "lv_number": "3413",
-              "share": "1/2"
-            },
-            {
-              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, ZÁHRADA, LESNÝ POZEMOK",
-              "cadastral_territory": "ZLATNO",
-              "lv_number": "633",
-              "share": "1/5"
-            },
-            {
-              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, ZÁHRADA",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "412, 310",
-              "share": "1/5"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "413",
-              "share": "1/10"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "143",
-              "share": "1/35"
-            },
-            {
-              "type": "BYT, PODIEL NA SPOLOČNÝCH PRIESTOROCH",
-              "cadastral_territory": "NITRA CHRENOVÁ",
-              "lv_number": "1957",
-              "share": "1/1 714/36564"
-            },
-            {
-              "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
-              "cadastral_territory": "ZLATNO",
-              "lv_number": "715,761,767,768,970,853",
-              "share": "939/306740"
-            }
-          ],
-          "new": [
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "NITRA",
-              "lv_number": "6679",
-              "share": "BSM"
-            },
-            {
-              "type": "RODINNÝ DOM, ZÁHRADA, VINICA",
-              "cadastral_territory": "NITRA ZOBOR",
-              "lv_number": "388",
-              "share": "1/1"
-            },
-            {
-              "type": "PRÍSTUPOVÁ CESTA",
-              "cadastral_territory": "NITRA ZOBOR",
-              "lv_number": "3413",
-              "share": "1/2"
-            },
-            {
-              "type": "ORNÁ PÔDA, ZÁHRADA, LESNÝ POZEMOK, TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "ZLATNO",
-              "lv_number": "633",
-              "share": "1/5"
-            },
-            {
-              "type": "ORNÁ PÔDA, ZÁHRADA, TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "412, 310",
-              "share": "1/5"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "413",
-              "share": "1/10"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "143",
-              "share": "1/35"
-            },
-            {
-              "type": "BYT, PODIEL SPOL. PRIESTOROV",
-              "cadastral_territory": "NITRA CHRENOVÁ",
-              "lv_number": "1957",
-              "share": "1/1, 714/36564"
-            },
-            {
-              "type": "LESNÝ POZEMOK, ORNÁ PÔDA",
-              "cadastral_territory": "ZLATNO",
-              "lv_number": "715, 761, 767, 768, 970, 853",
-              "share": "939/306740"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "ZLATNO",
-              "lv_number": "634",
-              "share": "1/5"
-            },
-            {
-              "type": "VINICA, ZÁHRADA, ORNÁ PÔDA",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "421",
-              "share": "1/5"
-            },
-            {
-              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "420",
-              "share": "1/10"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "422",
-              "share": "1/15"
-            },
-            {
-              "type": "LESNÝ POZEMOK, TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "MANKOVCE",
-              "lv_number": "653, 879, 898, 899, 900, 917, 655, 654",
-              "share": "1/1450"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "ZLATÉ MORAVCE",
-              "lv_number": "7612",
-              "share": "43/2400"
-            },
-            {
-              "type": "VINICA",
-              "cadastral_territory": "ZLATÉ MORAVCE",
-              "lv_number": "7611",
-              "share": "1/72"
-            }
-          ],
-          "old_count": 16,
-          "new_count": 16
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÉ VOZIDLO",
-              "brand": "VOLKSWAGEN",
-              "year_of_manufacture": 2013,
-              "share": "1/1"
-            },
-            {
-              "type": "MOTOCYKEL",
-              "brand": "SUZUKI",
-              "year_of_manufacture": 2015,
-              "share": "1/1"
-            },
-            {
-              "type": "MOTOCYKEL",
-              "brand": "JAWA",
-              "year_of_manufacture": 1958,
-              "share": "1/1"
-            },
-            {
-              "type": "MOTOCYKEL",
-              "brand": "JAWA",
-              "year_of_manufacture": 1964,
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "OSOBNÉ VOZIDLO",
-              "brand": "VOLKSWAGEN",
-              "year_of_manufacture": 2013,
-              "share": "1/1"
-            },
-            {
-              "type": "MOTOCYKEL",
-              "brand": "SUZUKI",
-              "year_of_manufacture": 2015,
-              "share": "1/1"
-            },
-            {
-              "type": "MOTOCYKEL",
-              "brand": "JAWA",
-              "year_of_manufacture": 1958,
-              "share": "1/1"
-            },
-            {
-              "type": "MOTOCYKEL",
-              "brand": "JAWA",
-              "year_of_manufacture": 1964,
-              "share": "1/1"
-            },
-            {
-              "type": "OSOBNÉ VOZIDLO",
-              "brand": "SUZUKI",
-              "year_of_manufacture": 2012,
-              "share": "1/1"
-            }
-          ],
-          "old_count": 4,
-          "new_count": 5
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "FINANČNÉ PROSTRIEDKY, podiel: 1/1"
-          ],
-          "new": [
-            "FINANČNÉ PROSTRIEDKY, podiel: 1/1",
-            "AUTORSKÉ PRÁVA NA UČEBNICE MATEMATIKY, podiel: 1/1"
-          ],
-          "old_count": 1,
-          "new_count": 2
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "1/2",
-              "date": "18. 06. 2009"
-            }
-          ],
-          "new": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "BSM",
-              "date": "18. 06. 2009"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 76 232 € (+76 232 €)",
-      "Funkcie: 2 → 2 (0)",
-      "Nehnuteľnosti: 16 → 16 (0)",
-      "Hnuteľný majetok: 4 → 5 (+1)",
-      "Majetkové práva: 1 → 2 (+1)",
-      "Záväzky: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "mudr-ondrej-sedivy",
   "context": {
@@ -1065,7 +727,7 @@
     "obligations": 1,
     "income_percentile": 76,
     "property_percentile": 90,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.2

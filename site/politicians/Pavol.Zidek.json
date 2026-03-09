@@ -1,7 +1,10 @@
 {
   "user_id": "Pavol.Zidek",
   "name": "Ing. Pavol Žídek",
-  "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO\r\nSÍDLOM VO VARÍNE)",
+  "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO SÍDLOM VO VARÍNE)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO SÍDLOM VO VARÍNE)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO SÍDLOM VO VARÍNE)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO SÍDLOM VO VARÍNE)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO SÍDLOM VO VARÍNE)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -37,6 +43,12 @@
             "cadastral_territory": "PETROVICE",
             "lv_number": "1735",
             "share": "575/61560"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "PETROVICE",
+            "lv_number": "3383",
+            "share": "8/11"
           },
           {
             "type": "TRVALÝ TRÁVNATÝ PORAST",
@@ -61,12 +73,6 @@
             "cadastral_territory": "PETROVICE",
             "lv_number": "3209",
             "share": "1/2"
-          },
-          {
-            "type": "ORNÁ PÔDA",
-            "cadastral_territory": "PETROVICE",
-            "lv_number": "3383",
-            "share": "8/11"
           }
         ],
         "movable_property": [
@@ -101,7 +107,10 @@
         "name": "Ing. PAVOL ŽÍDEK",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO\r\nSÍDLOM VO VARÍNE)",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO SÍDLOM VO VARÍNE)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO SÍDLOM VO VARÍNE)"
+        ],
         "income": {
           "public_function": 23708,
           "other": 528
@@ -118,28 +127,16 @@
         ],
         "real_estate": [
           {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "type": "LESNÝ POZEMOK",
             "cadastral_territory": "PETROVICE",
-            "lv_number": "2880",
-            "share": "1/2"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "PETROVICE",
-            "lv_number": "3209",
-            "share": "1/2"
+            "lv_number": "1735",
+            "share": "575/61560"
           },
           {
             "type": "ORNÁ PÔDA",
             "cadastral_territory": "PETROVICE",
             "lv_number": "3383",
             "share": "8/11"
-          },
-          {
-            "type": "LESNÝ POZEMOK",
-            "cadastral_territory": "PETROVICE",
-            "lv_number": "1735",
-            "share": "575/61560"
           },
           {
             "type": "TRVALÝ TRÁVNATÝ PORAST",
@@ -152,6 +149,18 @@
             "cadastral_territory": "HLBOKÉ NAD VÁHOM",
             "lv_number": "1835",
             "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "PETROVICE",
+            "lv_number": "2880",
+            "share": "1/2"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "PETROVICE",
+            "lv_number": "3209",
+            "share": "1/2"
           }
         ],
         "movable_property": [
@@ -178,11 +187,6 @@
         "type": "changed",
         "changes": [
           {
-            "field": "public_function",
-            "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO SÍDLOM VO VARÍNE)",
-            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO\r\nSÍDLOM VO VARÍNE)"
-          },
-          {
             "field": "income",
             "old": {
               "public_function": 0,
@@ -200,87 +204,6 @@
             "field": "incompatibility",
             "old": false,
             "new": true
-          },
-          {
-            "field": "real_estate",
-            "old": [
-              {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "PETROVICE",
-                "lv_number": "1735",
-                "share": "575/61560"
-              },
-              {
-                "type": "TRVALÝ TRÁVNATÝ PORAST",
-                "cadastral_territory": "HLBOKÉ NAD VÁHOM",
-                "lv_number": "2053",
-                "share": "1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "HLBOKÉ NAD VÁHOM",
-                "lv_number": "1835",
-                "share": "1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "PETROVICE",
-                "lv_number": "2880",
-                "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "PETROVICE",
-                "lv_number": "3209",
-                "share": "1/2"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PETROVICE",
-                "lv_number": "3383",
-                "share": "8/11"
-              }
-            ],
-            "new": [
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "PETROVICE",
-                "lv_number": "2880",
-                "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "PETROVICE",
-                "lv_number": "3209",
-                "share": "1/2"
-              },
-              {
-                "type": "ORNÁ PÔDA",
-                "cadastral_territory": "PETROVICE",
-                "lv_number": "3383",
-                "share": "8/11"
-              },
-              {
-                "type": "LESNÝ POZEMOK",
-                "cadastral_territory": "PETROVICE",
-                "lv_number": "1735",
-                "share": "575/61560"
-              },
-              {
-                "type": "TRVALÝ TRÁVNATÝ PORAST",
-                "cadastral_territory": "HLBOKÉ NAD VÁHOM",
-                "lv_number": "2053",
-                "share": "1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "HLBOKÉ NAD VÁHOM",
-                "lv_number": "1835",
-                "share": "1/1"
-              }
-            ],
-            "old_count": 6,
-            "new_count": 6
           },
           {
             "field": "obligations",
@@ -305,151 +228,19 @@
       }
     }
   ],
-  "total_changes": 5,
+  "total_changes": 3,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Pavol.Zidek.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Pavol.Zidek.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Pavol.Zidek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Pavol.Zidek.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO SÍDLOM VO VARÍNE)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO\r\nSÍDLOM VO VARÍNE)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 23708,
-            "other": 528
-          },
-          "old_total": 0,
-          "new_total": 24236,
-          "delta": 24236
-        },
-        {
-          "field": "incompatibility",
-          "old": false,
-          "new": true
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "PETROVICE",
-              "lv_number": "1735",
-              "share": "575/61560"
-            },
-            {
-              "type": "TRVALÝ TRÁVNATÝ PORAST",
-              "cadastral_territory": "HLBOKÉ NAD VÁHOM",
-              "lv_number": "2053",
-              "share": "1/1"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "HLBOKÉ NAD VÁHOM",
-              "lv_number": "1835",
-              "share": "1/1"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "PETROVICE",
-              "lv_number": "2880",
-              "share": "1/2"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "PETROVICE",
-              "lv_number": "3209",
-              "share": "1/2"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "PETROVICE",
-              "lv_number": "3383",
-              "share": "8/11"
-            }
-          ],
-          "new": [
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "PETROVICE",
-              "lv_number": "2880",
-              "share": "1/2"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "PETROVICE",
-              "lv_number": "3209",
-              "share": "1/2"
-            },
-            {
-              "type": "ORNÁ PÔDA",
-              "cadastral_territory": "PETROVICE",
-              "lv_number": "3383",
-              "share": "8/11"
-            },
-            {
-              "type": "LESNÝ POZEMOK",
-              "cadastral_territory": "PETROVICE",
-              "lv_number": "1735",
-              "share": "575/61560"
-            },
-            {
-              "type": "TRVALÝ TRÁVNATÝ PORAST",
-              "cadastral_territory": "HLBOKÉ NAD VÁHOM",
-              "lv_number": "2053",
-              "share": "1/1"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "HLBOKÉ NAD VÁHOM",
-              "lv_number": "1835",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 6,
-          "new_count": 6
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "ÚVER NA BÝVANIE",
-              "share": "1/2",
-              "date": "28. 09. 2003"
-            }
-          ],
-          "new": [
-            {
-              "type": "ÚVER NA BÝVANIE",
-              "share": "BSM",
-              "date": "28. 09. 2003"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 24 236 € (+24 236 €)",
-      "Nezlučiteľnosť",
-      "Nehnuteľnosti: 6 → 6 (0)",
-      "Záväzky: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-pavol-zidek",
   "context": {
@@ -459,7 +250,7 @@
     "obligations": 1,
     "income_percentile": 26,
     "property_percentile": 72,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.3

@@ -1,7 +1,10 @@
 {
   "user_id": "Marek.Kmet",
   "name": "JUDr. Marek Kmeť",
-  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S. V LIKVIDÁCII\r\n)",
+  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S. V LIKVIDÁCII )",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S. V LIKVIDÁCII )"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S. V LIKVIDÁCII )",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S., V LIKVIDÁCII)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S., V LIKVIDÁCII)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -63,7 +69,10 @@
         "name": "JUDr. MAREK KMEŤ",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S. V LIKVIDÁCII\r\n)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S. V LIKVIDÁCII )",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S. V LIKVIDÁCII )"
+        ],
         "income": {
           "public_function": 0,
           "other": 27596
@@ -104,7 +113,18 @@
           {
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S., V LIKVIDÁCII)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S. V LIKVIDÁCII\r\n)"
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S. V LIKVIDÁCII )"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S., V LIKVIDÁCII)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S. V LIKVIDÁCII )"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -134,55 +154,19 @@
       }
     }
   ],
-  "total_changes": 4,
+  "total_changes": 5,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marek.Kmet.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marek.Kmet.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Marek.Kmet.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Marek.Kmet.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S., V LIKVIDÁCII)",
-          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKO IT, A.S. V LIKVIDÁCII\r\n)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 0,
-            "other": 27596
-          },
-          "old_total": 0,
-          "new_total": 27596,
-          "delta": 27596
-        },
-        {
-          "field": "incompatibility",
-          "old": false,
-          "new": true
-        },
-        {
-          "field": "employment",
-          "old": "MINISTESTERSTVO INVESTÍCIÍ, REGIONÁLNEHO  ROZVOJA A INFORMATIZÁCIE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "MINISTERSTVO INVESTÍCIÍ, REGIONÁLNEHO ROZVOJA A INFORMATIZÁCIE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 27 596 € (+27 596 €)",
-      "Nezlučiteľnosť",
-      "Zamestnanie"
-    ]
+    "summary": []
   },
   "slug": "judr-marek-kmet",
   "context": {
@@ -192,7 +176,7 @@
     "obligations": 2,
     "income_percentile": 27,
     "property_percentile": 20,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.5

@@ -2,6 +2,9 @@
   "user_id": "Viktor.Palko",
   "name": "Ing. Viktor PALKO, MBA",
   "public_function": "primátor mesta",
+  "public_functions": [
+    "primátor mesta"
+  ],
   "role": "primátor mesta",
   "years": [
     2021,
@@ -19,6 +22,9 @@
         "year": 2021,
         "filed": "pri ujatí sa funkcie",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -29,16 +35,16 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "ZASTAVANÁ PLOCHA",
-            "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "1380",
-            "share": "1/27 BSM"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "ČIERNA NAD TISOU",
             "lv_number": "501",
             "share": "BSM 1/1"
+          },
+          {
+            "type": "GARÁŽ",
+            "cadastral_territory": "ČIERNA NAD TISOU",
+            "lv_number": "1269",
+            "share": "1/1"
           },
           {
             "type": "NEBYTOVÝ PRIESTOR",
@@ -53,16 +59,16 @@
             "share": "BSM 1/1"
           },
           {
+            "type": "ZASTAVANÁ PLOCHA",
+            "cadastral_territory": "ČIERNA NAD TISOU",
+            "lv_number": "1380",
+            "share": "1/27 BSM"
+          },
+          {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "ČIERNA NAD TISOU",
             "lv_number": "24",
             "share": "BSM 1/1"
-          },
-          {
-            "type": "GARÁŽ",
-            "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "1269",
-            "share": "1/1"
           }
         ],
         "movable_property": [
@@ -95,6 +101,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 4949,
           "other": 0
@@ -105,10 +114,16 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
+            "type": "BYT",
             "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "24",
+            "lv_number": "501",
             "share": "BSM"
+          },
+          {
+            "type": "GARÁŽ",
+            "cadastral_territory": "ČIERNA NAD TISOU",
+            "lv_number": "1269",
+            "share": "1/1"
           },
           {
             "type": "GARÁŽ",
@@ -123,6 +138,24 @@
             "share": "BSM"
           },
           {
+            "type": "NEBYTOVÝ PRIESTOR",
+            "cadastral_territory": "ČIERNA NAD TISOU",
+            "lv_number": "686",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "ČIERNA NAD TISOU",
+            "lv_number": "24",
+            "share": "BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "ČIERNA NAD TISOU",
+            "lv_number": "1380",
+            "share": "1/27 BSM"
+          },
+          {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "ČIERNA NAD TISOU",
             "lv_number": "24",
@@ -132,30 +165,6 @@
             "type": "ZÁHRADA",
             "cadastral_territory": "ČIERNA NAD TISOU",
             "lv_number": "24",
-            "share": "BSM"
-          },
-          {
-            "type": "GARÁŽ",
-            "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "1269",
-            "share": "1/1"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "1380",
-            "share": "1/27 BSM"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "501",
-            "share": "BSM"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR",
-            "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "686",
             "share": "BSM"
           }
         ],
@@ -198,16 +207,16 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "ZASTAVANÁ PLOCHA",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "1380",
-                "share": "1/27 BSM"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "ČIERNA NAD TISOU",
                 "lv_number": "501",
                 "share": "BSM 1/1"
+              },
+              {
+                "type": "GARÁŽ",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "1269",
+                "share": "1/1"
               },
               {
                 "type": "NEBYTOVÝ PRIESTOR",
@@ -222,24 +231,30 @@
                 "share": "BSM 1/1"
               },
               {
+                "type": "ZASTAVANÁ PLOCHA",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "1380",
+                "share": "1/27 BSM"
+              },
+              {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "ČIERNA NAD TISOU",
                 "lv_number": "24",
                 "share": "BSM 1/1"
+              }
+            ],
+            "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "501",
+                "share": "BSM"
               },
               {
                 "type": "GARÁŽ",
                 "cadastral_territory": "ČIERNA NAD TISOU",
                 "lv_number": "1269",
                 "share": "1/1"
-              }
-            ],
-            "new": [
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "24",
-                "share": "BSM"
               },
               {
                 "type": "GARÁŽ",
@@ -254,6 +269,24 @@
                 "share": "BSM"
               },
               {
+                "type": "NEBYTOVÝ PRIESTOR",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "686",
+                "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "24",
+                "share": "BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "1380",
+                "share": "1/27 BSM"
+              },
+              {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "ČIERNA NAD TISOU",
                 "lv_number": "24",
@@ -263,30 +296,6 @@
                 "type": "ZÁHRADA",
                 "cadastral_territory": "ČIERNA NAD TISOU",
                 "lv_number": "24",
-                "share": "BSM"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "1269",
-                "share": "1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "1380",
-                "share": "1/27 BSM"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "501",
-                "share": "BSM"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "686",
                 "share": "BSM"
               }
             ],
@@ -325,6 +334,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 52748,
           "other": 500
@@ -341,10 +353,16 @@
         ],
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
+            "type": "BYT",
             "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "24",
+            "lv_number": "501",
             "share": "BSM"
+          },
+          {
+            "type": "GARÁŽ",
+            "cadastral_territory": "ČIERNA NAD TISOU",
+            "lv_number": "1269",
+            "share": "1/1"
           },
           {
             "type": "GARÁŽ",
@@ -359,6 +377,24 @@
             "share": "BSM"
           },
           {
+            "type": "NEBYTOVÝ PRIESTOR",
+            "cadastral_territory": "ČIERNA NAD TISOU",
+            "lv_number": "686",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "ČIERNA NAD TISOU",
+            "lv_number": "24",
+            "share": "BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "ČIERNA NAD TISOU",
+            "lv_number": "1380",
+            "share": "1/27 BSM"
+          },
+          {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "ČIERNA NAD TISOU",
             "lv_number": "14",
@@ -369,43 +405,19 @@
             "cadastral_territory": "ČIERNA NAD TISOU",
             "lv_number": "24",
             "share": "BSM"
-          },
-          {
-            "type": "GARÁŽ",
-            "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "1269",
-            "share": "1/1"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "1380",
-            "share": "1/27 BSM"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "501",
-            "share": "BSM"
-          },
-          {
-            "type": "NEBYTOVÝ PRIESTOR",
-            "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "686",
-            "share": "BSM"
           }
         ],
         "movable_property": [
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-            "brand": "RENAULT",
-            "year_of_manufacture": 2021,
+            "brand": "MERCEDES - BENZ",
+            "year_of_manufacture": 2013,
             "share": "1/1"
           },
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-            "brand": "MERCEDES - BENZ",
-            "year_of_manufacture": 2013,
+            "brand": "RENAULT",
+            "year_of_manufacture": 2021,
             "share": "1/1"
           }
         ],
@@ -452,10 +464,16 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
+                "type": "BYT",
                 "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "24",
+                "lv_number": "501",
                 "share": "BSM"
+              },
+              {
+                "type": "GARÁŽ",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "1269",
+                "share": "1/1"
               },
               {
                 "type": "GARÁŽ",
@@ -468,6 +486,24 @@
                 "cadastral_territory": "ČIERNA NAD TISOU",
                 "lv_number": "24",
                 "share": "BSM"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "686",
+                "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "24",
+                "share": "BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "1380",
+                "share": "1/27 BSM"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -480,19 +516,9 @@
                 "cadastral_territory": "ČIERNA NAD TISOU",
                 "lv_number": "24",
                 "share": "BSM"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "1269",
-                "share": "1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "1380",
-                "share": "1/27 BSM"
-              },
+              }
+            ],
+            "new": [
               {
                 "type": "BYT",
                 "cadastral_territory": "ČIERNA NAD TISOU",
@@ -500,18 +526,10 @@
                 "share": "BSM"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR",
+                "type": "GARÁŽ",
                 "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "686",
-                "share": "BSM"
-              }
-            ],
-            "new": [
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "24",
-                "share": "BSM"
+                "lv_number": "1269",
+                "share": "1/1"
               },
               {
                 "type": "GARÁŽ",
@@ -524,6 +542,24 @@
                 "cadastral_territory": "ČIERNA NAD TISOU",
                 "lv_number": "24",
                 "share": "BSM"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "686",
+                "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "24",
+                "share": "BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "1380",
+                "share": "1/27 BSM"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -535,30 +571,6 @@
                 "type": "ZÁHRADA",
                 "cadastral_territory": "ČIERNA NAD TISOU",
                 "lv_number": "24",
-                "share": "BSM"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "1269",
-                "share": "1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "1380",
-                "share": "1/27 BSM"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "501",
-                "share": "BSM"
-              },
-              {
-                "type": "NEBYTOVÝ PRIESTOR",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "686",
                 "share": "BSM"
               }
             ],
@@ -578,14 +590,14 @@
             "new": [
               {
                 "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "RENAULT",
-                "year_of_manufacture": 2021,
+                "brand": "MERCEDES - BENZ",
+                "year_of_manufacture": 2013,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "MERCEDES - BENZ",
-                "year_of_manufacture": 2013,
+                "brand": "RENAULT",
+                "year_of_manufacture": 2021,
                 "share": "1/1"
               }
             ],
@@ -604,6 +616,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 57586,
           "other": 400
@@ -620,15 +635,15 @@
         ],
         "real_estate": [
           {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "24",
+            "type": "BYT",
+            "cadastral_territory": "KOŠICE - FURČA",
+            "lv_number": "11124",
             "share": "BSM"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "BYT",
             "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "24",
+            "lv_number": "501",
             "share": "BSM"
           },
           {
@@ -636,12 +651,6 @@
             "cadastral_territory": "ČIERNA NAD TISOU",
             "lv_number": "1269",
             "share": "1/1"
-          },
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "24",
-            "share": "BSM"
           },
           {
             "type": "GARÁŽ",
@@ -656,9 +665,15 @@
             "share": "BSM"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "KOŠICE - FURČA",
-            "lv_number": "11124",
+            "type": "NEBYTOVÝ PRIESTOR",
+            "cadastral_territory": "ČIERNA NAD TISOU",
+            "lv_number": "686",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "ČIERNA NAD TISOU",
+            "lv_number": "24",
             "share": "BSM"
           },
           {
@@ -668,29 +683,29 @@
             "share": "1/27 BSM"
           },
           {
-            "type": "BYT",
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "501",
+            "lv_number": "24",
             "share": "BSM"
           },
           {
-            "type": "NEBYTOVÝ PRIESTOR",
+            "type": "ZÁHRADA",
             "cadastral_territory": "ČIERNA NAD TISOU",
-            "lv_number": "686",
+            "lv_number": "24",
             "share": "BSM"
           }
         ],
         "movable_property": [
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-            "brand": "RENAULT",
-            "year_of_manufacture": 2021,
+            "brand": "MERCEDES-BENZ",
+            "year_of_manufacture": 2013,
             "share": "1/1"
           },
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-            "brand": "MERCEDES-BENZ",
-            "year_of_manufacture": 2013,
+            "brand": "RENAULT",
+            "year_of_manufacture": 2021,
             "share": "1/1"
           }
         ],
@@ -728,10 +743,16 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
+                "type": "BYT",
                 "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "24",
+                "lv_number": "501",
                 "share": "BSM"
+              },
+              {
+                "type": "GARÁŽ",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "1269",
+                "share": "1/1"
               },
               {
                 "type": "GARÁŽ",
@@ -744,6 +765,24 @@
                 "cadastral_territory": "ČIERNA NAD TISOU",
                 "lv_number": "24",
                 "share": "BSM"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "686",
+                "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "24",
+                "share": "BSM"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "1380",
+                "share": "1/27 BSM"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -756,18 +795,14 @@
                 "cadastral_territory": "ČIERNA NAD TISOU",
                 "lv_number": "24",
                 "share": "BSM"
-              },
+              }
+            ],
+            "new": [
               {
-                "type": "GARÁŽ",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "1269",
-                "share": "1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "1380",
-                "share": "1/27 BSM"
+                "type": "BYT",
+                "cadastral_territory": "KOŠICE - FURČA",
+                "lv_number": "11124",
+                "share": "BSM"
               },
               {
                 "type": "BYT",
@@ -776,36 +811,10 @@
                 "share": "BSM"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "686",
-                "share": "BSM"
-              }
-            ],
-            "new": [
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "24",
-                "share": "BSM"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "24",
-                "share": "BSM"
-              },
-              {
                 "type": "GARÁŽ",
                 "cadastral_territory": "ČIERNA NAD TISOU",
                 "lv_number": "1269",
                 "share": "1/1"
-              },
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "24",
-                "share": "BSM"
               },
               {
                 "type": "GARÁŽ",
@@ -820,9 +829,15 @@
                 "share": "BSM"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "KOŠICE - FURČA",
-                "lv_number": "11124",
+                "type": "NEBYTOVÝ PRIESTOR",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "686",
+                "share": "BSM"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "ČIERNA NAD TISOU",
+                "lv_number": "24",
                 "share": "BSM"
               },
               {
@@ -832,15 +847,15 @@
                 "share": "1/27 BSM"
               },
               {
-                "type": "BYT",
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "501",
+                "lv_number": "24",
                 "share": "BSM"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR",
+                "type": "ZÁHRADA",
                 "cadastral_territory": "ČIERNA NAD TISOU",
-                "lv_number": "686",
+                "lv_number": "24",
                 "share": "BSM"
               }
             ],
@@ -852,28 +867,28 @@
             "old": [
               {
                 "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "RENAULT",
-                "year_of_manufacture": 2021,
+                "brand": "MERCEDES - BENZ",
+                "year_of_manufacture": 2013,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "MERCEDES - BENZ",
-                "year_of_manufacture": 2013,
+                "brand": "RENAULT",
+                "year_of_manufacture": 2021,
                 "share": "1/1"
               }
             ],
             "new": [
               {
                 "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "RENAULT",
-                "year_of_manufacture": 2021,
+                "brand": "MERCEDES-BENZ",
+                "year_of_manufacture": 2013,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "MERCEDES-BENZ",
-                "year_of_manufacture": 2013,
+                "brand": "RENAULT",
+                "year_of_manufacture": 2021,
                 "share": "1/1"
               }
             ],
@@ -903,212 +918,17 @@
   ],
   "total_changes": 11,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Viktor.Palko.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Viktor.Palko.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Viktor.Palko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Viktor.Palko.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 52748,
-            "other": 500
-          },
-          "new": {
-            "public_function": 57586,
-            "other": 400
-          },
-          "old_total": 53248,
-          "new_total": 57986,
-          "delta": 4738,
-          "delta_pct": 8.9
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "24",
-              "share": "BSM"
-            },
-            {
-              "type": "GARÁŽ",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "24",
-              "share": "BSM"
-            },
-            {
-              "type": "HOSPODÁRSKA BUDOVA",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "24",
-              "share": "BSM"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "14",
-              "share": "BSM"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "24",
-              "share": "BSM"
-            },
-            {
-              "type": "GARÁŽ",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "1269",
-              "share": "1/1"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "1380",
-              "share": "1/27 BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "501",
-              "share": "BSM"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "686",
-              "share": "BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "24",
-              "share": "BSM"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "24",
-              "share": "BSM"
-            },
-            {
-              "type": "GARÁŽ",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "1269",
-              "share": "1/1"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "24",
-              "share": "BSM"
-            },
-            {
-              "type": "GARÁŽ",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "24",
-              "share": "BSM"
-            },
-            {
-              "type": "HOSPODÁRSKA BUDOVA",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "24",
-              "share": "BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "KOŠICE - FURČA",
-              "lv_number": "11124",
-              "share": "BSM"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "1380",
-              "share": "1/27 BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "501",
-              "share": "BSM"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR",
-              "cadastral_territory": "ČIERNA NAD TISOU",
-              "lv_number": "686",
-              "share": "BSM"
-            }
-          ],
-          "old_count": 9,
-          "new_count": 10
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "RENAULT",
-              "year_of_manufacture": 2021,
-              "share": "1/1"
-            },
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "MERCEDES - BENZ",
-              "year_of_manufacture": 2013,
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "RENAULT",
-              "year_of_manufacture": 2021,
-              "share": "1/1"
-            },
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "MERCEDES-BENZ",
-              "year_of_manufacture": 2013,
-              "share": "1/1"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "žiadny"
-            }
-          ],
-          "new": [
-            {
-              "type": "ÚVER",
-              "share": "BSM",
-              "date": "20. 05. 2024"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 53 248 € → 57 986 € (+4 738 €)",
-      "Nehnuteľnosti: 9 → 10 (+1)",
-      "Hnuteľný majetok: 2 → 2 (0)",
-      "Záväzky: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-viktor-palko-mba",
   "context": {
@@ -1118,7 +938,7 @@
     "obligations": 1,
     "income_percentile": 59,
     "property_percentile": 84,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.2

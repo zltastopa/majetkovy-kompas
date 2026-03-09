@@ -1,8 +1,13 @@
 {
   "user_id": "Igor.Barat",
   "name": "Igor Barát",
-  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
-  "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.) · člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.) · člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+  "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)\nčlen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+  "public_functions": [
+    "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.)",
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)",
+    "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+  ],
+  "role": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.) · člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
   "years": [
     2019,
     2020,
@@ -21,6 +26,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+        ],
         "income": {
           "public_function": 62771,
           "other": 10420
@@ -91,7 +99,11 @@
         "name": "IGOR BARÁT",
         "year": 2020,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VENTURE TO FUTURE FUND)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VENTURE TO FUTURE FUND)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VENTURE TO FUTURE FUND)",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+        ],
         "income": {
           "public_function": 90739,
           "other": 0
@@ -156,7 +168,19 @@
           {
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VENTURE TO FUTURE FUND)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VENTURE TO FUTURE FUND)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VENTURE TO FUTURE FUND)",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -215,6 +239,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)"
+        ],
         "income": {
           "public_function": 45791,
           "other": 0
@@ -269,8 +296,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VENTURE TO FUTURE FUND)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VENTURE TO FUTURE FUND)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VENTURE TO FUTURE FUND)",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)"
+            ],
+            "old_count": 2,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -351,7 +390,11 @@
         "name": "IGOR BARÁT",
         "year": 2022,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)"
+        ],
         "income": {
           "public_function": 8040,
           "other": 22116
@@ -410,7 +453,19 @@
           {
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)"
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -480,7 +535,12 @@
         "name": "IGOR BARÁT",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+        "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)\nčlen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)",
+          "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+        ],
         "income": {
           "public_function": 33824,
           "other": 24115
@@ -541,8 +601,22 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)",
+            "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)\nčlen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)"
+            ],
+            "new": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)",
+              "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+            ],
+            "old_count": 2,
+            "new_count": 3
           },
           {
             "field": "income",
@@ -668,7 +742,12 @@
         "name": "IGOR BARÁT",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+        "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)\nčlen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)",
+          "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+        ],
         "income": {
           "public_function": 137227,
           "other": 0
@@ -729,8 +808,23 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+            "old": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)\nčlen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+            "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)\nčlen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)",
+              "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+            ],
+            "new": [
+              "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)",
+              "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+            ],
+            "old_count": 3,
+            "new_count": 3
           },
           {
             "field": "income",
@@ -801,96 +895,19 @@
       }
     }
   ],
-  "total_changes": 26,
+  "total_changes": 31,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Igor.Barat.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Igor.Barat.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Igor.Barat.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Igor.Barat.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
-          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 33824,
-            "other": 24115
-          },
-          "new": {
-            "public_function": 137227,
-            "other": 0
-          },
-          "old_total": 57939,
-          "new_total": 137227,
-          "delta": 79288,
-          "delta_pct": 136.8
-        },
-        {
-          "field": "employment",
-          "old": "NEO SPECTRA SK S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nROZHLAS A TELEVÍZIA SLOVENSKA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nAVANEA SPRÁV. SPOL. A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": null
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "3157",
-              "share": "100%"
-            },
-            {
-              "type": "BYT + 0,1% PODIEL NA PARCELE",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "4596, 4604",
-              "share": "100%"
-            },
-            {
-              "type": "GARÁŽ + 0,1% PODIEL NA PARCELE",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "2578, 4853",
-              "share": "100%"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "3157",
-              "share": "100%"
-            },
-            {
-              "type": "BYT + 0,1% PODIEL NA PARCELE",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "4596, 4604",
-              "share": "100%"
-            },
-            {
-              "type": "GARÁŽ + 0,6% PODIEL NA PARCELE",
-              "cadastral_territory": "KARLOVA VES",
-              "lv_number": "2578, 4853",
-              "share": "100%"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 3
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 57 939 € → 137 227 € (+79 288 €)",
-      "Zamestnanie",
-      "Nehnuteľnosti: 3 → 3 (0)"
-    ]
+    "summary": []
   },
   "slug": "igor-barat",
   "context": {
@@ -900,7 +917,7 @@
     "obligations": 1,
     "income_percentile": 94,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 7.6

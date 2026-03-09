@@ -2,6 +2,9 @@
   "user_id": "Dominik.Frajkor",
   "name": "PaedDr. Dominik Frajkor",
   "public_function": "primátor mesta",
+  "public_functions": [
+    "primátor mesta"
+  ],
   "role": "primátor mesta",
   "years": [
     2020,
@@ -20,6 +23,9 @@
         "year": 2020,
         "filed": "pri ujatí sa funkcie",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -61,6 +67,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 4152,
           "other": 0
@@ -129,6 +138,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 40717,
           "other": 0
@@ -198,6 +210,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 47878,
           "other": 0
@@ -275,6 +290,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 66857,
           "other": 0
@@ -346,56 +364,17 @@
   ],
   "total_changes": 8,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Dominik.Frajkor.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Dominik.Frajkor.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Dominik.Frajkor.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Dominik.Frajkor.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 47878,
-            "other": 0
-          },
-          "new": {
-            "public_function": 66857,
-            "other": 0
-          },
-          "old_total": 47878,
-          "new_total": 66857,
-          "delta": 18979,
-          "delta_pct": 39.6
-        },
-        {
-          "field": "vehicles",
-          "old": [
-            {
-              "type": "OSOBNÉ VOZIDLO",
-              "brand": "VOLKSWAGEN",
-              "year_of_manufacture": 2020
-            }
-          ],
-          "new": [
-            {
-              "type": "OSOBNÉ VOZIDLO",
-              "brand": "BMW",
-              "year_of_manufacture": 2013
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 47 878 € → 66 857 € (+18 979 €)",
-      "Vozidlá: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "paeddr-dominik-frajkor",
   "context": {
@@ -405,7 +384,7 @@
     "obligations": 1,
     "income_percentile": 69,
     "property_percentile": 9,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.7

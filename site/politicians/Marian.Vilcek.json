@@ -1,7 +1,10 @@
 {
   "user_id": "Marian.Vilcek",
   "name": "Ing. Marián Vilček",
-  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY\r\nROPY)",
+  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY)"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -33,15 +39,15 @@
             "share": "1/1"
           },
           {
-            "type": "POZEMOK - ZÁHRADA",
-            "cadastral_territory": "CABAJ",
-            "lv_number": "3805",
-            "share": "1/2"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "CHRENOVÁ",
             "lv_number": "1465",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK - ZÁHRADA",
+            "cadastral_territory": "CABAJ",
+            "lv_number": "3805",
             "share": "1/2"
           }
         ],
@@ -79,7 +85,10 @@
         "name": "Ing. MARIÁN VILČEK",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY\r\nROPY)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY)"
+        ],
         "income": {
           "public_function": 8900,
           "other": 67068
@@ -96,15 +105,15 @@
             "share": "1/1"
           },
           {
-            "type": "POZEMOK - ZÁHRADA",
-            "cadastral_territory": "CABAJ",
-            "lv_number": "3805",
-            "share": "1/2"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "CHRENOVÁ",
             "lv_number": "1465",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK - ZÁHRADA",
+            "cadastral_territory": "CABAJ",
+            "lv_number": "3805",
             "share": "1/2"
           }
         ],
@@ -140,7 +149,18 @@
           {
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY\r\nROPY)"
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -166,15 +186,15 @@
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK - ZÁHRADA",
-                "cadastral_territory": "CABAJ",
-                "lv_number": "3805",
-                "share": "1/2"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "CHRENOVÁ",
                 "lv_number": "1465",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZÁHRADA",
+                "cadastral_territory": "CABAJ",
+                "lv_number": "3805",
                 "share": "1/2"
               }
             ],
@@ -186,15 +206,15 @@
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK - ZÁHRADA",
-                "cadastral_territory": "CABAJ",
-                "lv_number": "3805",
-                "share": "1/2"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "CHRENOVÁ",
                 "lv_number": "1465",
+                "share": "1/2"
+              },
+              {
+                "type": "POZEMOK - ZÁHRADA",
+                "cadastral_territory": "CABAJ",
+                "lv_number": "3805",
                 "share": "1/2"
               }
             ],
@@ -233,119 +253,19 @@
       }
     }
   ],
-  "total_changes": 5,
+  "total_changes": 6,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marian.Vilcek.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marian.Vilcek.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Marian.Vilcek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Marian.Vilcek.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV)",
-          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY\r\nROPY)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 8900,
-            "other": 67068
-          },
-          "old_total": 0,
-          "new_total": 75968,
-          "delta": 75968
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "CHRENOVA",
-              "lv_number": "1456",
-              "share": "1/1"
-            },
-            {
-              "type": "POZEMOK - ZÁHRADA",
-              "cadastral_territory": "CABAJ",
-              "lv_number": "3805",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "CHRENOVÁ",
-              "lv_number": "1465",
-              "share": "1/2"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "CHRENOVÁ",
-              "lv_number": "1456",
-              "share": "1/1"
-            },
-            {
-              "type": "POZEMOK - ZÁHRADA",
-              "cadastral_territory": "CABAJ",
-              "lv_number": "3805",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "CHRENOVÁ",
-              "lv_number": "1465",
-              "share": "1/2"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 3
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "1/1",
-              "date": "25. 10. 2012"
-            }
-          ],
-          "new": [
-            {
-              "type": "žiadny"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "vehicles",
-          "old": null,
-          "new": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "NISSAN",
-              "year_of_manufacture": 2015
-            }
-          ]
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 75 968 € (+75 968 €)",
-      "Nehnuteľnosti: 3 → 3 (0)",
-      "Záväzky: 1 → 1 (0)",
-      "Vozidlá"
-    ]
+    "summary": []
   },
   "slug": "ing-marian-vilcek",
   "context": {
@@ -355,7 +275,7 @@
     "obligations": 1,
     "income_percentile": 76,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.2

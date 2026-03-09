@@ -2,6 +2,9 @@
   "user_id": "Jana.Kollarova",
   "name": "MUDr. Jana Kollárová, MPH",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA V KOŠICIACH )",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA V KOŠICIACH )"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA V KOŠICIACH )",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V KOŠICIACH)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V KOŠICIACH)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -27,14 +33,14 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "4X ZASTAVANÁ PLOCHA A NÁDVDRIE",
-            "cadastral_territory": "KOŠICE KAVEČANY",
+            "type": "1X TRVALÝ TRÁVNY PORAST",
+            "cadastral_territory": "KAVEČANY",
             "lv_number": "1818",
             "share": "BSM"
           },
           {
-            "type": "1X TRVALÝ TRÁVNY PORAST",
-            "cadastral_territory": "KAVEČANY",
+            "type": "4X ZASTAVANÁ PLOCHA A NÁDVDRIE",
+            "cadastral_territory": "KOŠICE KAVEČANY",
             "lv_number": "1818",
             "share": "BSM"
           }
@@ -72,6 +78,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA V KOŠICIACH )",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA V KOŠICIACH )"
+        ],
         "income": {
           "public_function": 48681,
           "other": 0
@@ -88,13 +97,13 @@
             "share": "BSM"
           },
           {
-            "type": "TRVALÝ TRÁVNY PORAST",
+            "type": "RODINNÝ DOM A GARÁŽ",
             "cadastral_territory": "KAVEČANY",
             "lv_number": "1818",
             "share": "BSM"
           },
           {
-            "type": "RODINNÝ DOM A GARÁŽ",
+            "type": "TRVALÝ TRÁVNY PORAST",
             "cadastral_territory": "KAVEČANY",
             "lv_number": "1818",
             "share": "BSM"
@@ -103,14 +112,14 @@
         "movable_property": [
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-            "brand": "HONDA",
-            "year_of_manufacture": 2009,
+            "brand": "AUDI",
+            "year_of_manufacture": 2014,
             "share": "1/1"
           },
           {
             "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-            "brand": "AUDI",
-            "year_of_manufacture": 2014,
+            "brand": "HONDA",
+            "year_of_manufacture": 2009,
             "share": "1/1"
           }
         ],
@@ -135,6 +144,17 @@
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA V KOŠICIACH )"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V KOŠICIACH)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA V KOŠICIACH )"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 0,
@@ -152,14 +172,14 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "4X ZASTAVANÁ PLOCHA A NÁDVDRIE",
-                "cadastral_territory": "KOŠICE KAVEČANY",
+                "type": "1X TRVALÝ TRÁVNY PORAST",
+                "cadastral_territory": "KAVEČANY",
                 "lv_number": "1818",
                 "share": "BSM"
               },
               {
-                "type": "1X TRVALÝ TRÁVNY PORAST",
-                "cadastral_territory": "KAVEČANY",
+                "type": "4X ZASTAVANÁ PLOCHA A NÁDVDRIE",
+                "cadastral_territory": "KOŠICE KAVEČANY",
                 "lv_number": "1818",
                 "share": "BSM"
               }
@@ -172,13 +192,13 @@
                 "share": "BSM"
               },
               {
-                "type": "TRVALÝ TRÁVNY PORAST",
+                "type": "RODINNÝ DOM A GARÁŽ",
                 "cadastral_territory": "KAVEČANY",
                 "lv_number": "1818",
                 "share": "BSM"
               },
               {
-                "type": "RODINNÝ DOM A GARÁŽ",
+                "type": "TRVALÝ TRÁVNY PORAST",
                 "cadastral_territory": "KAVEČANY",
                 "lv_number": "1818",
                 "share": "BSM"
@@ -200,14 +220,14 @@
             "new": [
               {
                 "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "HONDA",
-                "year_of_manufacture": 2009,
+                "brand": "AUDI",
+                "year_of_manufacture": 2014,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-                "brand": "AUDI",
-                "year_of_manufacture": 2014,
+                "brand": "HONDA",
+                "year_of_manufacture": 2009,
                 "share": "1/1"
               }
             ],
@@ -218,111 +238,19 @@
       }
     }
   ],
-  "total_changes": 4,
+  "total_changes": 5,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jana.Kollarova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jana.Kollarova.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jana.Kollarova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jana.Kollarova.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V KOŠICIACH)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA V KOŠICIACH )"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 48681,
-            "other": 0
-          },
-          "old_total": 0,
-          "new_total": 48681,
-          "delta": 48681
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "4X ZASTAVANÁ PLOCHA A NÁDVDRIE",
-              "cadastral_territory": "KOŠICE KAVEČANY",
-              "lv_number": "1818",
-              "share": "BSM"
-            },
-            {
-              "type": "1X TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "KAVEČANY",
-              "lv_number": "1818",
-              "share": "BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "4X ZASTAVANÁ PLOCHA A NÁDVORIA",
-              "cadastral_territory": "KAVEČANY",
-              "lv_number": "1818",
-              "share": "BSM"
-            },
-            {
-              "type": "TRVALÝ TRÁVNY PORAST",
-              "cadastral_territory": "KAVEČANY",
-              "lv_number": "1818",
-              "share": "BSM"
-            },
-            {
-              "type": "RODINNÝ DOM A GARÁŽ",
-              "cadastral_territory": "KAVEČANY",
-              "lv_number": "1818",
-              "share": "BSM"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 3
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "HONDA",
-              "year_of_manufacture": 2009,
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "HONDA",
-              "year_of_manufacture": 2009,
-              "share": "1/1"
-            },
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "AUDI",
-              "year_of_manufacture": 2014,
-              "share": "1/1"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 48 681 € (+48 681 €)",
-      "Nehnuteľnosti: 2 → 3 (+1)",
-      "Hnuteľný majetok: 1 → 2 (+1)"
-    ]
+    "summary": []
   },
   "slug": "mudr-jana-kollarova-mph",
   "context": {
@@ -332,7 +260,7 @@
     "obligations": 1,
     "income_percentile": 45,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.7

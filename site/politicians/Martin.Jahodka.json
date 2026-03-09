@@ -2,6 +2,9 @@
   "user_id": "Martin.Jahodka",
   "name": "Mgr. Martin Jahodka",
   "public_function": "primátor mesta",
+  "public_functions": [
+    "primátor mesta"
+  ],
   "role": "primátor mesta",
   "years": [
     2021,
@@ -19,6 +22,9 @@
         "year": 2021,
         "filed": "pri ujatí sa funkcie",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -29,6 +35,12 @@
         "positions": null,
         "real_estate": [
           {
+            "type": "BYT",
+            "cadastral_territory": "TRENČÍN",
+            "lv_number": "9131",
+            "share": "1/1"
+          },
+          {
             "type": "DOM",
             "cadastral_territory": "GBELY",
             "lv_number": "8596",
@@ -38,12 +50,6 @@
             "type": "POZEMOK",
             "cadastral_territory": "GBELY",
             "lv_number": "8596",
-            "share": "1/1"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "TRENČÍN",
-            "lv_number": "9131",
             "share": "1/1"
           }
         ],
@@ -71,6 +77,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 3202,
           "other": 0
@@ -81,9 +90,9 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "GBELY",
-            "lv_number": "8596",
+            "type": "BYT",
+            "cadastral_territory": "TRENČÍN",
+            "lv_number": "9131",
             "share": "1/1"
           },
           {
@@ -93,9 +102,9 @@
             "share": "1/1"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "TRENČÍN",
-            "lv_number": "9131",
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "GBELY",
+            "lv_number": "8596",
             "share": "1/1"
           }
         ],
@@ -131,6 +140,12 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "BYT",
+                "cadastral_territory": "TRENČÍN",
+                "lv_number": "9131",
+                "share": "1/1"
+              },
+              {
                 "type": "DOM",
                 "cadastral_territory": "GBELY",
                 "lv_number": "8596",
@@ -141,19 +156,13 @@
                 "cadastral_territory": "GBELY",
                 "lv_number": "8596",
                 "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "TRENČÍN",
-                "lv_number": "9131",
-                "share": "1/1"
               }
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "GBELY",
-                "lv_number": "8596",
+                "type": "BYT",
+                "cadastral_territory": "TRENČÍN",
+                "lv_number": "9131",
                 "share": "1/1"
               },
               {
@@ -163,9 +172,9 @@
                 "share": "1/1"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "TRENČÍN",
-                "lv_number": "9131",
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "GBELY",
+                "lv_number": "8596",
                 "share": "1/1"
               }
             ],
@@ -184,6 +193,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 48487,
           "other": 0
@@ -194,9 +206,9 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "GBELY",
-            "lv_number": "8596",
+            "type": "BYT",
+            "cadastral_territory": "TRENČÍN",
+            "lv_number": "9131",
             "share": "1/1"
           },
           {
@@ -206,9 +218,9 @@
             "share": "1/1"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "TRENČÍN",
-            "lv_number": "9131",
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "GBELY",
+            "lv_number": "8596",
             "share": "1/1"
           }
         ],
@@ -258,6 +270,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 56602,
           "other": 0
@@ -268,9 +283,9 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "GBELY",
-            "lv_number": "8596",
+            "type": "BYT",
+            "cadastral_territory": "TRENČÍN",
+            "lv_number": "9131",
             "share": "1/1"
           },
           {
@@ -280,9 +295,9 @@
             "share": "1/1"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "TRENČÍN",
-            "lv_number": "9131",
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "GBELY",
+            "lv_number": "8596",
             "share": "1/1"
           }
         ],
@@ -326,42 +341,17 @@
   ],
   "total_changes": 6,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Jahodka.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Jahodka.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Martin.Jahodka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Martin.Jahodka.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 48487,
-            "other": 0
-          },
-          "new": {
-            "public_function": 56602,
-            "other": 0
-          },
-          "old_total": 48487,
-          "new_total": 56602,
-          "delta": 8115,
-          "delta_pct": 16.7
-        },
-        {
-          "field": "employment",
-          "old": null,
-          "new": "SLOVAK TELEKOM, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 48 487 € → 56 602 € (+8 115 €)",
-      "Zamestnanie"
-    ]
+    "summary": []
   },
   "slug": "mgr-martin-jahodka",
   "context": {
@@ -371,7 +361,7 @@
     "obligations": 1,
     "income_percentile": 57,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.1

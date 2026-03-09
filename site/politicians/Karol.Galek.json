@@ -2,6 +2,9 @@
   "user_id": "Karol.Galek",
   "name": "RNDr. Karol GALEK, MSc.",
   "public_function": "poslanec Národnej rady Slovenskej republiky",
+  "public_functions": [
+    "poslanec Národnej rady Slovenskej republiky"
+  ],
   "role": "poslanec Národnej rady Slovenskej republiky",
   "years": [
     2019,
@@ -20,7 +23,11 @@
         "name": "RNDr. KAROL GALEK, MSc.",
         "year": 2019,
         "filed": "k 30. aprílu",
-        "public_function": "poslanec Národnej rady Slovenskej republikyštátny tajomník",
+        "public_function": "poslanec Národnej rady Slovenskej republiky\nštátny tajomník",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky",
+          "štátny tajomník"
+        ],
         "income": {
           "public_function": 36716,
           "other": 0
@@ -31,16 +38,16 @@
         "positions": null,
         "real_estate": [
           {
+            "type": "BYT + PODIEL NA SPOLOČNÝCH ČASTIACH",
+            "cadastral_territory": "SVIT",
+            "lv_number": "1852",
+            "share": "50%"
+          },
+          {
             "type": "GARÁŽ + ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "SVIT",
             "lv_number": "1181",
             "share": "50%"
-          },
-          {
-            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
-            "cadastral_territory": "SVIT",
-            "lv_number": "2834",
-            "share": "708/150311"
           },
           {
             "type": "OSTATNÁ PLOCHA",
@@ -59,10 +66,10 @@
             "share": "50%"
           },
           {
-            "type": "BYT + PODIEL NA SPOLOČNÝCH ČASTIACH",
+            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
             "cadastral_territory": "SVIT",
-            "lv_number": "1852",
-            "share": "50%"
+            "lv_number": "2834",
+            "share": "708/150311"
           },
           {
             "type": "ZÁHRADA",
@@ -104,7 +111,12 @@
         "name": "RNDr. KAROL GALEK, MSc.",
         "year": 2020,
         "filed": "k 30. aprílu",
-        "public_function": "poslanec Národnej rady Slovenskej republikyštátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)",
+        "public_function": "poslanec Národnej rady Slovenskej republiky\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)\nštátny tajomník",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)",
+          "štátny tajomník"
+        ],
         "income": {
           "public_function": 50072,
           "other": 0
@@ -115,9 +127,9 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "type": "BYT",
             "cadastral_territory": "SVIT",
-            "lv_number": "1181",
+            "lv_number": "1852",
             "share": "1/1"
           },
           {
@@ -127,34 +139,16 @@
             "share": "1/1"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "SVIT",
-            "lv_number": "1852",
-            "share": "1/1"
-          },
-          {
-            "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
-            "cadastral_territory": "SVIT",
-            "lv_number": "1851",
-            "share": "8244/215220"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "SVIT",
-            "lv_number": "2384",
-            "share": "708/150317"
-          },
-          {
             "type": "OSTATNÁ PLOCHA",
             "cadastral_territory": "SVIT",
             "lv_number": "2384",
             "share": "708/150311"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
             "cadastral_territory": "SVIT",
-            "lv_number": "3029",
-            "share": "1/1"
+            "lv_number": "1851",
+            "share": "8244/215220"
           },
           {
             "type": "RODINNÝ DOM",
@@ -164,6 +158,24 @@
           {
             "type": "STAVEBNÝ POZEMOK",
             "cadastral_territory": "RAKÚSKO",
+            "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "SVIT",
+            "lv_number": "1181",
+            "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "SVIT",
+            "lv_number": "2384",
+            "share": "708/150317"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "SVIT",
+            "lv_number": "3029",
             "share": "1/1"
           }
         ],
@@ -193,8 +205,22 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "poslanec Národnej rady Slovenskej republikyštátny tajomník",
-            "new": "poslanec Národnej rady Slovenskej republikyštátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)"
+            "old": "poslanec Národnej rady Slovenskej republiky\nštátny tajomník",
+            "new": "poslanec Národnej rady Slovenskej republiky\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)\nštátny tajomník"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "štátny tajomník"
+            ],
+            "new": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)",
+              "štátny tajomník"
+            ],
+            "old_count": 2,
+            "new_count": 3
           },
           {
             "field": "income",
@@ -215,16 +241,16 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "BYT + PODIEL NA SPOLOČNÝCH ČASTIACH",
+                "cadastral_territory": "SVIT",
+                "lv_number": "1852",
+                "share": "50%"
+              },
+              {
                 "type": "GARÁŽ + ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "SVIT",
                 "lv_number": "1181",
                 "share": "50%"
-              },
-              {
-                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
-                "cadastral_territory": "SVIT",
-                "lv_number": "2834",
-                "share": "708/150311"
               },
               {
                 "type": "OSTATNÁ PLOCHA",
@@ -243,10 +269,10 @@
                 "share": "50%"
               },
               {
-                "type": "BYT + PODIEL NA SPOLOČNÝCH ČASTIACH",
+                "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
                 "cadastral_territory": "SVIT",
-                "lv_number": "1852",
-                "share": "50%"
+                "lv_number": "2834",
+                "share": "708/150311"
               },
               {
                 "type": "ZÁHRADA",
@@ -257,9 +283,9 @@
             ],
             "new": [
               {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "type": "BYT",
                 "cadastral_territory": "SVIT",
-                "lv_number": "1181",
+                "lv_number": "1852",
                 "share": "1/1"
               },
               {
@@ -269,34 +295,16 @@
                 "share": "1/1"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1852",
-                "share": "1/1"
-              },
-              {
-                "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1851",
-                "share": "8244/215220"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "SVIT",
-                "lv_number": "2384",
-                "share": "708/150317"
-              },
-              {
                 "type": "OSTATNÁ PLOCHA",
                 "cadastral_territory": "SVIT",
                 "lv_number": "2384",
                 "share": "708/150311"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
                 "cadastral_territory": "SVIT",
-                "lv_number": "3029",
-                "share": "1/1"
+                "lv_number": "1851",
+                "share": "8244/215220"
               },
               {
                 "type": "RODINNÝ DOM",
@@ -306,6 +314,24 @@
               {
                 "type": "STAVEBNÝ POZEMOK",
                 "cadastral_territory": "RAKÚSKO",
+                "share": "1/1"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "SVIT",
+                "lv_number": "1181",
+                "share": "1/1"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "SVIT",
+                "lv_number": "2384",
+                "share": "708/150317"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "SVIT",
+                "lv_number": "3029",
                 "share": "1/1"
               }
             ],
@@ -377,7 +403,11 @@
         "name": "RNDr. KAROL GALEK, MSc.",
         "year": 2021,
         "filed": "k 30. aprílu",
-        "public_function": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NARODNÝ JADROVÝ FOND)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NARODNÝ JADROVÝ FOND)\nštátny tajomník",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NARODNÝ JADROVÝ FOND)",
+          "štátny tajomník"
+        ],
         "income": {
           "public_function": 57373,
           "other": 0
@@ -388,9 +418,15 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "type": "BYT",
             "cadastral_territory": "SVIT",
-            "lv_number": "1181",
+            "lv_number": "1852",
+            "share": "1/1"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "VRAKUŇA",
+            "lv_number": "3964",
             "share": "1/1"
           },
           {
@@ -400,10 +436,16 @@
             "share": "1/1"
           },
           {
-            "type": "BYT",
+            "type": "OSTATNÁ PLOCHA",
             "cadastral_territory": "SVIT",
-            "lv_number": "1852",
-            "share": "1/1"
+            "lv_number": "2384",
+            "share": "708/150311"
+          },
+          {
+            "type": "PARCELA REG. C",
+            "cadastral_territory": "VRAKUŇA",
+            "lv_number": "3913",
+            "share": "8150/127240"
           },
           {
             "type": "PODIEL NA SPOLOČNÝČH ČASTIACH DOMU",
@@ -414,11 +456,11 @@
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "SVIT",
-            "lv_number": "2384",
-            "share": "708/150311"
+            "lv_number": "1181",
+            "share": "1/1"
           },
           {
-            "type": "OSTATNÁ PLOCHA",
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "SVIT",
             "lv_number": "2384",
             "share": "708/150311"
@@ -428,18 +470,6 @@
             "cadastral_territory": "SVIT",
             "lv_number": "3029",
             "share": "1/1"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "VRAKUŇA",
-            "lv_number": "3964",
-            "share": "1/1"
-          },
-          {
-            "type": "PARCELA REG. C",
-            "cadastral_territory": "VRAKUŇA",
-            "lv_number": "3913",
-            "share": "8150/127240"
           }
         ],
         "movable_property": [
@@ -457,12 +487,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "27. 09. 2017"
+            "date": "26. 04. 2021"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "26. 04. 2021"
+            "date": "27. 09. 2017"
           }
         ],
         "use_of_others_real_estate": null,
@@ -480,8 +510,22 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "poslanec Národnej rady Slovenskej republikyštátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)",
-            "new": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NARODNÝ JADROVÝ FOND)"
+            "old": "poslanec Národnej rady Slovenskej republiky\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)\nštátny tajomník",
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NARODNÝ JADROVÝ FOND)\nštátny tajomník"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)",
+              "štátny tajomník"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NARODNÝ JADROVÝ FOND)",
+              "štátny tajomník"
+            ],
+            "old_count": 3,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -502,9 +546,9 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "type": "BYT",
                 "cadastral_territory": "SVIT",
-                "lv_number": "1181",
+                "lv_number": "1852",
                 "share": "1/1"
               },
               {
@@ -514,34 +558,16 @@
                 "share": "1/1"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1852",
-                "share": "1/1"
-              },
-              {
-                "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1851",
-                "share": "8244/215220"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "SVIT",
-                "lv_number": "2384",
-                "share": "708/150317"
-              },
-              {
                 "type": "OSTATNÁ PLOCHA",
                 "cadastral_territory": "SVIT",
                 "lv_number": "2384",
                 "share": "708/150311"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
                 "cadastral_territory": "SVIT",
-                "lv_number": "3029",
-                "share": "1/1"
+                "lv_number": "1851",
+                "share": "8244/215220"
               },
               {
                 "type": "RODINNÝ DOM",
@@ -552,13 +578,37 @@
                 "type": "STAVEBNÝ POZEMOK",
                 "cadastral_territory": "RAKÚSKO",
                 "share": "1/1"
-              }
-            ],
-            "new": [
+              },
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "SVIT",
                 "lv_number": "1181",
+                "share": "1/1"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "SVIT",
+                "lv_number": "2384",
+                "share": "708/150317"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "SVIT",
+                "lv_number": "3029",
+                "share": "1/1"
+              }
+            ],
+            "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "SVIT",
+                "lv_number": "1852",
+                "share": "1/1"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "VRAKUŇA",
+                "lv_number": "3964",
                 "share": "1/1"
               },
               {
@@ -568,10 +618,16 @@
                 "share": "1/1"
               },
               {
-                "type": "BYT",
+                "type": "OSTATNÁ PLOCHA",
                 "cadastral_territory": "SVIT",
-                "lv_number": "1852",
-                "share": "1/1"
+                "lv_number": "2384",
+                "share": "708/150311"
+              },
+              {
+                "type": "PARCELA REG. C",
+                "cadastral_territory": "VRAKUŇA",
+                "lv_number": "3913",
+                "share": "8150/127240"
               },
               {
                 "type": "PODIEL NA SPOLOČNÝČH ČASTIACH DOMU",
@@ -582,11 +638,11 @@
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "SVIT",
-                "lv_number": "2384",
-                "share": "708/150311"
+                "lv_number": "1181",
+                "share": "1/1"
               },
               {
-                "type": "OSTATNÁ PLOCHA",
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "SVIT",
                 "lv_number": "2384",
                 "share": "708/150311"
@@ -596,18 +652,6 @@
                 "cadastral_territory": "SVIT",
                 "lv_number": "3029",
                 "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "VRAKUŇA",
-                "lv_number": "3964",
-                "share": "1/1"
-              },
-              {
-                "type": "PARCELA REG. C",
-                "cadastral_territory": "VRAKUŇA",
-                "lv_number": "3913",
-                "share": "8150/127240"
               }
             ],
             "old_count": 9,
@@ -638,12 +682,12 @@
               {
                 "type": "HYPOTEKÁRNY ÚVER",
                 "share": "1/1",
-                "date": "27. 09. 2017"
+                "date": "26. 04. 2021"
               },
               {
                 "type": "HYPOTEKÁRNY ÚVER",
                 "share": "1/1",
-                "date": "26. 04. 2021"
+                "date": "27. 09. 2017"
               }
             ],
             "old_count": 1,
@@ -660,7 +704,12 @@
         "name": "RNDr. KAROL GALEK, MSc.",
         "year": 2022,
         "filed": "k 30. aprílu",
-        "public_function": "poslanec Národnej rady Slovenskej republikyštátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)",
+        "public_function": "poslanec Národnej rady Slovenskej republiky\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)\nštátny tajomník",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)",
+          "štátny tajomník"
+        ],
         "income": {
           "public_function": 73369,
           "other": 0
@@ -671,9 +720,9 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "ZÁHRADA",
+            "type": "BYT",
             "cadastral_territory": "SVIT",
-            "lv_number": "3029",
+            "lv_number": "1181",
             "share": "1/1"
           },
           {
@@ -683,28 +732,22 @@
             "share": "1/1"
           },
           {
-            "type": "PARCELA REGISTRA C",
-            "cadastral_territory": "VRAKUŇA",
-            "lv_number": "3913",
-            "share": "8150/127240"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "SVIT",
-            "lv_number": "1181",
-            "share": "1/1"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "SVIT",
-            "lv_number": "1181",
-            "share": "1/1"
-          },
-          {
             "type": "GARÁŽ",
             "cadastral_territory": "SVIT",
             "lv_number": "1181",
             "share": "1/1"
+          },
+          {
+            "type": "OSTATNÁ PLOCHA",
+            "cadastral_territory": "SVIT",
+            "lv_number": "2384",
+            "share": "708/150311"
+          },
+          {
+            "type": "PARCELA REGISTRA C",
+            "cadastral_territory": "VRAKUŇA",
+            "lv_number": "3913",
+            "share": "8150/127240"
           },
           {
             "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
@@ -715,14 +758,20 @@
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "SVIT",
+            "lv_number": "1181",
+            "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "SVIT",
             "lv_number": "2384",
             "share": "708/150311"
           },
           {
-            "type": "OSTATNÁ PLOCHA",
+            "type": "ZÁHRADA",
             "cadastral_territory": "SVIT",
-            "lv_number": "2384",
-            "share": "708/150311"
+            "lv_number": "3029",
+            "share": "1/1"
           }
         ],
         "movable_property": [
@@ -740,12 +789,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "27. 09. 2017"
+            "date": "26. 04. 2021"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "26. 04. 2021"
+            "date": "27. 09. 2017"
           }
         ],
         "use_of_others_real_estate": null,
@@ -757,8 +806,22 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NARODNÝ JADROVÝ FOND)",
-            "new": "poslanec Národnej rady Slovenskej republikyštátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)"
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NARODNÝ JADROVÝ FOND)\nštátny tajomník",
+            "new": "poslanec Národnej rady Slovenskej republiky\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)\nštátny tajomník"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NARODNÝ JADROVÝ FOND)",
+              "štátny tajomník"
+            ],
+            "new": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)",
+              "štátny tajomník"
+            ],
+            "old_count": 2,
+            "new_count": 3
           },
           {
             "field": "income",
@@ -779,9 +842,15 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "type": "BYT",
                 "cadastral_territory": "SVIT",
-                "lv_number": "1181",
+                "lv_number": "1852",
+                "share": "1/1"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "VRAKUŇA",
+                "lv_number": "3964",
                 "share": "1/1"
               },
               {
@@ -791,10 +860,16 @@
                 "share": "1/1"
               },
               {
-                "type": "BYT",
+                "type": "OSTATNÁ PLOCHA",
                 "cadastral_territory": "SVIT",
-                "lv_number": "1852",
-                "share": "1/1"
+                "lv_number": "2384",
+                "share": "708/150311"
+              },
+              {
+                "type": "PARCELA REG. C",
+                "cadastral_territory": "VRAKUŇA",
+                "lv_number": "3913",
+                "share": "8150/127240"
               },
               {
                 "type": "PODIEL NA SPOLOČNÝČH ČASTIACH DOMU",
@@ -805,8 +880,40 @@
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "SVIT",
+                "lv_number": "1181",
+                "share": "1/1"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "SVIT",
                 "lv_number": "2384",
                 "share": "708/150311"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "SVIT",
+                "lv_number": "3029",
+                "share": "1/1"
+              }
+            ],
+            "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "SVIT",
+                "lv_number": "1181",
+                "share": "1/1"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "VRAKUŇA",
+                "lv_number": "3964",
+                "share": "1/1"
+              },
+              {
+                "type": "GARÁŽ",
+                "cadastral_territory": "SVIT",
+                "lv_number": "1181",
+                "share": "1/1"
               },
               {
                 "type": "OSTATNÁ PLOCHA",
@@ -815,60 +922,10 @@
                 "share": "708/150311"
               },
               {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "SVIT",
-                "lv_number": "3029",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "VRAKUŇA",
-                "lv_number": "3964",
-                "share": "1/1"
-              },
-              {
-                "type": "PARCELA REG. C",
-                "cadastral_territory": "VRAKUŇA",
-                "lv_number": "3913",
-                "share": "8150/127240"
-              }
-            ],
-            "new": [
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "SVIT",
-                "lv_number": "3029",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "VRAKUŇA",
-                "lv_number": "3964",
-                "share": "1/1"
-              },
-              {
                 "type": "PARCELA REGISTRA C",
                 "cadastral_territory": "VRAKUŇA",
                 "lv_number": "3913",
                 "share": "8150/127240"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
               },
               {
                 "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
@@ -879,14 +936,20 @@
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
                 "cadastral_territory": "SVIT",
+                "lv_number": "1181",
+                "share": "1/1"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "SVIT",
                 "lv_number": "2384",
                 "share": "708/150311"
               },
               {
-                "type": "OSTATNÁ PLOCHA",
+                "type": "ZÁHRADA",
                 "cadastral_territory": "SVIT",
-                "lv_number": "2384",
-                "share": "708/150311"
+                "lv_number": "3029",
+                "share": "1/1"
               }
             ],
             "old_count": 9,
@@ -915,6 +978,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 43113,
           "other": 0
@@ -931,9 +997,9 @@
             "share": "1/1"
           },
           {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "SVIT",
-            "lv_number": "1181",
+            "type": "BYT",
+            "cadastral_territory": "VRAKUŇA",
+            "lv_number": "3964",
             "share": "1/1"
           },
           {
@@ -941,6 +1007,18 @@
             "cadastral_territory": "SVIT",
             "lv_number": "1181",
             "share": "1/1"
+          },
+          {
+            "type": "OSTATNÁ PLOCHA",
+            "cadastral_territory": "SVIT",
+            "lv_number": "2384",
+            "share": "708/150311"
+          },
+          {
+            "type": "PARCELA REGISTRA C",
+            "cadastral_territory": "VRAKUŇA",
+            "lv_number": "3913",
+            "share": "8150/127240"
           },
           {
             "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
@@ -951,11 +1029,11 @@
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "SVIT",
-            "lv_number": "2384",
-            "share": "708/150311"
+            "lv_number": "1181",
+            "share": "1/1"
           },
           {
-            "type": "OSTATNÁ PLOCHA",
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "SVIT",
             "lv_number": "2384",
             "share": "708/150311"
@@ -965,18 +1043,6 @@
             "cadastral_territory": "SVIT",
             "lv_number": "3029",
             "share": "1/1"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "VRAKUŇA",
-            "lv_number": "3964",
-            "share": "1/1"
-          },
-          {
-            "type": "PARCELA REGISTRA C",
-            "cadastral_territory": "VRAKUŇA",
-            "lv_number": "3913",
-            "share": "8150/127240"
           }
         ],
         "movable_property": [
@@ -994,12 +1060,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "27. 09. 2017"
+            "date": "26. 04. 2021"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "26. 04. 2021"
+            "date": "27. 09. 2017"
           }
         ],
         "use_of_others_real_estate": null,
@@ -1011,8 +1077,21 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "poslanec Národnej rady Slovenskej republikyštátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)",
+            "old": "poslanec Národnej rady Slovenskej republiky\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)\nštátny tajomník",
             "new": "poslanec Národnej rady Slovenskej republiky"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)",
+              "štátny tajomník"
+            ],
+            "new": [
+              "poslanec Národnej rady Slovenskej republiky"
+            ],
+            "old_count": 3,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -1028,123 +1107,6 @@
             "new_total": 43113,
             "delta": -30256,
             "delta_pct": -41.2
-          },
-          {
-            "field": "real_estate",
-            "old": [
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "SVIT",
-                "lv_number": "3029",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "VRAKUŇA",
-                "lv_number": "3964",
-                "share": "1/1"
-              },
-              {
-                "type": "PARCELA REGISTRA C",
-                "cadastral_territory": "VRAKUŇA",
-                "lv_number": "3913",
-                "share": "8150/127240"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1851",
-                "share": "8244/215220"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "SVIT",
-                "lv_number": "2384",
-                "share": "708/150311"
-              },
-              {
-                "type": "OSTATNÁ PLOCHA",
-                "cadastral_territory": "SVIT",
-                "lv_number": "2384",
-                "share": "708/150311"
-              }
-            ],
-            "new": [
-              {
-                "type": "BYT",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1851",
-                "share": "8244/215220"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "SVIT",
-                "lv_number": "2384",
-                "share": "708/150311"
-              },
-              {
-                "type": "OSTATNÁ PLOCHA",
-                "cadastral_territory": "SVIT",
-                "lv_number": "2384",
-                "share": "708/150311"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "SVIT",
-                "lv_number": "3029",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "VRAKUŇA",
-                "lv_number": "3964",
-                "share": "1/1"
-              },
-              {
-                "type": "PARCELA REGISTRA C",
-                "cadastral_territory": "VRAKUŇA",
-                "lv_number": "3913",
-                "share": "8150/127240"
-              }
-            ],
-            "old_count": 9,
-            "new_count": 9
           }
         ]
       }
@@ -1158,6 +1120,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 15553,
           "other": 0
@@ -1168,9 +1133,9 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "ZÁHRADA",
+            "type": "BYT",
             "cadastral_territory": "SVIT",
-            "lv_number": "3029",
+            "lv_number": "1181",
             "share": "1/1"
           },
           {
@@ -1180,28 +1145,22 @@
             "share": "1/1"
           },
           {
-            "type": "PARCELA REGISTRA C",
-            "cadastral_territory": "VRAKUŇA",
-            "lv_number": "3913",
-            "share": "8150/127240"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "SVIT",
-            "lv_number": "1181",
-            "share": "1/1"
-          },
-          {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "SVIT",
-            "lv_number": "1181",
-            "share": "1/1"
-          },
-          {
             "type": "GARÁŽ",
             "cadastral_territory": "SVIT",
             "lv_number": "1181",
             "share": "1/1"
+          },
+          {
+            "type": "OSTATNÁ PLOCHA",
+            "cadastral_territory": "SVIT",
+            "lv_number": "2384",
+            "share": "708/150311"
+          },
+          {
+            "type": "PARCELA REGISTRA C",
+            "cadastral_territory": "VRAKUŇA",
+            "lv_number": "3913",
+            "share": "8150/127240"
           },
           {
             "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
@@ -1212,14 +1171,20 @@
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "SVIT",
+            "lv_number": "1181",
+            "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "SVIT",
             "lv_number": "2384",
             "share": "708/150311"
           },
           {
-            "type": "OSTATNÁ PLOCHA",
+            "type": "ZÁHRADA",
             "cadastral_territory": "SVIT",
-            "lv_number": "2384",
-            "share": "708/150311"
+            "lv_number": "3029",
+            "share": "1/1"
           }
         ],
         "movable_property": [
@@ -1237,12 +1202,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "27. 09. 2017"
+            "date": "26. 04. 2021"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "26. 04. 2021"
+            "date": "27. 09. 2017"
           }
         ],
         "use_of_others_real_estate": null,
@@ -1266,278 +1231,24 @@
             "new_total": 15553,
             "delta": -27560,
             "delta_pct": -63.9
-          },
-          {
-            "field": "real_estate",
-            "old": [
-              {
-                "type": "BYT",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1851",
-                "share": "8244/215220"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "SVIT",
-                "lv_number": "2384",
-                "share": "708/150311"
-              },
-              {
-                "type": "OSTATNÁ PLOCHA",
-                "cadastral_territory": "SVIT",
-                "lv_number": "2384",
-                "share": "708/150311"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "SVIT",
-                "lv_number": "3029",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "VRAKUŇA",
-                "lv_number": "3964",
-                "share": "1/1"
-              },
-              {
-                "type": "PARCELA REGISTRA C",
-                "cadastral_territory": "VRAKUŇA",
-                "lv_number": "3913",
-                "share": "8150/127240"
-              }
-            ],
-            "new": [
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "SVIT",
-                "lv_number": "3029",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "VRAKUŇA",
-                "lv_number": "3964",
-                "share": "1/1"
-              },
-              {
-                "type": "PARCELA REGISTRA C",
-                "cadastral_territory": "VRAKUŇA",
-                "lv_number": "3913",
-                "share": "8150/127240"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "GARÁŽ",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1181",
-                "share": "1/1"
-              },
-              {
-                "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
-                "cadastral_territory": "SVIT",
-                "lv_number": "1851",
-                "share": "8244/215220"
-              },
-              {
-                "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-                "cadastral_territory": "SVIT",
-                "lv_number": "2384",
-                "share": "708/150311"
-              },
-              {
-                "type": "OSTATNÁ PLOCHA",
-                "cadastral_territory": "SVIT",
-                "lv_number": "2384",
-                "share": "708/150311"
-              }
-            ],
-            "old_count": 9,
-            "new_count": 9
           }
         ]
       }
     }
   ],
-  "total_changes": 21,
+  "total_changes": 23,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Karol.Galek.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Karol.Galek.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Karol.Galek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Karol.Galek.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 43113,
-            "other": 0
-          },
-          "new": {
-            "public_function": 15553,
-            "other": 0
-          },
-          "old_total": 43113,
-          "new_total": 15553,
-          "delta": -27560,
-          "delta_pct": -63.9
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "SVIT",
-              "lv_number": "1181",
-              "share": "1/1"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "SVIT",
-              "lv_number": "1181",
-              "share": "1/1"
-            },
-            {
-              "type": "GARÁŽ",
-              "cadastral_territory": "SVIT",
-              "lv_number": "1181",
-              "share": "1/1"
-            },
-            {
-              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
-              "cadastral_territory": "SVIT",
-              "lv_number": "1851",
-              "share": "8244/215220"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "SVIT",
-              "lv_number": "2384",
-              "share": "708/150311"
-            },
-            {
-              "type": "OSTATNÁ PLOCHA",
-              "cadastral_territory": "SVIT",
-              "lv_number": "2384",
-              "share": "708/150311"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "SVIT",
-              "lv_number": "3029",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "VRAKUŇA",
-              "lv_number": "3964",
-              "share": "1/1"
-            },
-            {
-              "type": "PARCELA REGISTRA C",
-              "cadastral_territory": "VRAKUŇA",
-              "lv_number": "3913",
-              "share": "8150/127240"
-            }
-          ],
-          "new": [
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "SVIT",
-              "lv_number": "3029",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "VRAKUŇA",
-              "lv_number": "3964",
-              "share": "1/1"
-            },
-            {
-              "type": "PARCELA REGISTRA C",
-              "cadastral_territory": "VRAKUŇA",
-              "lv_number": "3913",
-              "share": "8150/127240"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "SVIT",
-              "lv_number": "1181",
-              "share": "1/1"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "SVIT",
-              "lv_number": "1181",
-              "share": "1/1"
-            },
-            {
-              "type": "GARÁŽ",
-              "cadastral_territory": "SVIT",
-              "lv_number": "1181",
-              "share": "1/1"
-            },
-            {
-              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
-              "cadastral_territory": "SVIT",
-              "lv_number": "1851",
-              "share": "8244/215220"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-              "cadastral_territory": "SVIT",
-              "lv_number": "2384",
-              "share": "708/150311"
-            },
-            {
-              "type": "OSTATNÁ PLOCHA",
-              "cadastral_territory": "SVIT",
-              "lv_number": "2384",
-              "share": "708/150311"
-            }
-          ],
-          "old_count": 9,
-          "new_count": 9
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 43 113 € → 15 553 € (-27 560 €)",
-      "Nehnuteľnosti: 9 → 9 (0)"
-    ]
+    "summary": []
   },
   "slug": "rndr-karol-galek-msc",
   "context": {
@@ -1547,7 +1258,7 @@
     "obligations": 2,
     "income_percentile": 22,
     "property_percentile": 82,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0.9

@@ -2,6 +2,9 @@
   "user_id": "Juraj.Druzbacky",
   "name": "PaedDr. Juraj Družbacký",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY BANSKÁ BYSTRICA )",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY BANSKÁ BYSTRICA )"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY BANSKÁ BYSTRICA )",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY V BANSKEJ BYSTRICI)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY V BANSKEJ BYSTRICI)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -78,6 +84,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY BANSKÁ BYSTRICA )",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY BANSKÁ BYSTRICA )"
+        ],
         "income": {
           "public_function": 28967,
           "other": 8830
@@ -127,6 +136,17 @@
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY V BANSKEJ BYSTRICI)",
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY BANSKÁ BYSTRICA )"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY V BANSKEJ BYSTRICI)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY BANSKÁ BYSTRICA )"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -221,123 +241,19 @@
       }
     }
   ],
-  "total_changes": 7,
+  "total_changes": 8,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Druzbacky.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Druzbacky.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Juraj.Druzbacky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Juraj.Druzbacky.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY V BANSKEJ BYSTRICI)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY BANSKÁ BYSTRICA )"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 28967,
-            "other": 8830
-          },
-          "old_total": 0,
-          "new_total": 37797,
-          "delta": 37797
-        },
-        {
-          "field": "employment",
-          "old": null,
-          "new": "DOPRAVNÝ PODNIK MESTA BANSKÁ BYSTRICA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "ČLEN PREDSTAVENSTVA",
-              "organization": "MESTSKÝ FUTBALOVÝ KLUB ZVOLEN",
-              "benefits": "ŽIADNE"
-            }
-          ],
-          "new": [
-            {
-              "role": "ČLEN KOMISIE ŠPORTU",
-              "organization": "MESTO ZVOLEN",
-              "benefits": "ODMENY"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "VOLKSWAGEN",
-              "year_of_manufacture": 2011,
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "AUTO",
-              "brand": "VOLKSWAGEN",
-              "year_of_manufacture": 2011,
-              "share": "1/1"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "1/1",
-              "date": "08. 08. 2019"
-            }
-          ],
-          "new": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "1/1",
-              "date": "14. 02. 2022"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "vehicles",
-          "old": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "VOLKSWAGEN",
-              "year_of_manufacture": 2011
-            }
-          ],
-          "new": null
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 37 797 € (+37 797 €)",
-      "Zamestnanie",
-      "Funkcie: 1 → 1 (0)",
-      "Hnuteľný majetok: 1 → 1 (0)",
-      "Záväzky: 1 → 1 (0)",
-      "Vozidlá"
-    ]
+    "summary": []
   },
   "slug": "paeddr-juraj-druzbacky",
   "context": {
@@ -347,7 +263,7 @@
     "obligations": 1,
     "income_percentile": 33,
     "property_percentile": 20,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.1

@@ -2,6 +2,9 @@
   "user_id": "Jozef.Tischler",
   "name": "Ing. Jozef Tischler",
   "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE A.S.)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE A.S.)"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE A.S.)",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -68,6 +74,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+        ],
         "income": {
           "public_function": 3440,
           "other": 35307
@@ -202,6 +211,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+        ],
         "income": {
           "public_function": 15635,
           "other": 36064
@@ -334,6 +346,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S.)"
+        ],
         "income": {
           "public_function": 18456,
           "other": 52988
@@ -377,6 +392,17 @@
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -450,6 +476,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELETRÁRNE)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELETRÁRNE)"
+        ],
         "income": {
           "public_function": 16430,
           "other": 21307
@@ -491,6 +520,17 @@
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S.)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELETRÁRNE)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELETRÁRNE)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -583,6 +623,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE A.S.)"
+        ],
         "income": {
           "public_function": 27113,
           "other": 22500
@@ -624,6 +667,17 @@
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELETRÁRNE)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELETRÁRNE)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -686,88 +740,19 @@
       }
     }
   ],
-  "total_changes": 26,
+  "total_changes": 29,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Tischler.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Tischler.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jozef.Tischler.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jozef.Tischler.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELETRÁRNE)",
-          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE A.S.)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 16430,
-            "other": 21307
-          },
-          "new": {
-            "public_function": 27113,
-            "other": 22500
-          },
-          "old_total": 37737,
-          "new_total": 49613,
-          "delta": 11876,
-          "delta_pct": 31.5
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "TRNAVA",
-              "lv_number": "7352",
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYTOVÝ DOM",
-              "cadastral_territory": "TRNAVA",
-              "lv_number": "7352",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "ŠKODA",
-              "year_of_manufacture": 2018,
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "OSOBNÉ VOZIDLO",
-              "brand": "ŠKODA",
-              "year_of_manufacture": 2016,
-              "share": "100%"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 37 737 € → 49 613 € (+11 876 €)",
-      "Nehnuteľnosti: 1 → 1 (0)",
-      "Hnuteľný majetok: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-jozef-tischler",
   "context": {
@@ -777,7 +762,7 @@
     "obligations": 1,
     "income_percentile": 49,
     "property_percentile": 20,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.8

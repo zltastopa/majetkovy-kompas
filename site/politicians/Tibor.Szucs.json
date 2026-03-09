@@ -2,6 +2,9 @@
   "user_id": "Tibor.Szucs",
   "name": "Ing. Tibor Szücs",
   "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)",
   "years": [
     2019,
@@ -20,7 +23,10 @@
         "name": "Ing. TIBOR SZÜCS",
         "year": 2019,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.\r\n)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S. )",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S. )"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -37,10 +43,10 @@
         ],
         "real_estate": [
           {
-            "type": "RODINNÝ DOM S POZEMKAMI",
-            "cadastral_territory": "STREDNÉ MESTO KOŠICE",
-            "lv_number": "11537",
-            "share": "1/1"
+            "type": "CHATA A NÁDVORIE",
+            "cadastral_territory": "KOŠICKÉ HÁMRE",
+            "lv_number": "849",
+            "share": "1/2"
           },
           {
             "type": "PARCELA ZÁHRADA",
@@ -55,15 +61,15 @@
             "share": "1/2"
           },
           {
+            "type": "RODINNÝ DOM S POZEMKAMI",
+            "cadastral_territory": "STREDNÉ MESTO KOŠICE",
+            "lv_number": "11537",
+            "share": "1/1"
+          },
+          {
             "type": "ZÁHRADA",
             "cadastral_territory": "KOŠICE STREDNÉ MESTO",
             "lv_number": "11412",
-            "share": "1/2"
-          },
-          {
-            "type": "CHATA A NÁDVORIE",
-            "cadastral_territory": "KOŠICKÉ HÁMRE",
-            "lv_number": "849",
             "share": "1/2"
           }
         ],
@@ -99,6 +105,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A. S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A. S.)"
+        ],
         "income": {
           "public_function": 2853,
           "other": 27789
@@ -115,10 +124,10 @@
         ],
         "real_estate": [
           {
-            "type": "RODINNÝ DOM S POZEMKAMI",
-            "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-            "lv_number": "11537",
-            "share": "1/1"
+            "type": "CHATA A NÁDVORIE",
+            "cadastral_territory": "KOŠICKÉ HÁMRE",
+            "lv_number": "849",
+            "share": "1/2"
           },
           {
             "type": "PARCELA ZÁHRADA",
@@ -133,15 +142,15 @@
             "share": "1/2"
           },
           {
+            "type": "RODINNÝ DOM S POZEMKAMI",
+            "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+            "lv_number": "11537",
+            "share": "1/1"
+          },
+          {
             "type": "ZÁHRADA",
             "cadastral_territory": "KOŠICE STREDNÉ MESTO",
             "lv_number": "11412",
-            "share": "1/2"
-          },
-          {
-            "type": "CHATA A NÁDVORIE",
-            "cadastral_territory": "KOŠICKÉ HÁMRE",
-            "lv_number": "849",
             "share": "1/2"
           }
         ],
@@ -169,8 +178,19 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.\r\n)",
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S. )",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A. S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S. )"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A. S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -195,12 +215,44 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "CHATA A NÁDVORIE",
+                "cadastral_territory": "KOŠICKÉ HÁMRE",
+                "lv_number": "849",
+                "share": "1/2"
+              },
+              {
+                "type": "PARCELA ZÁHRADA",
+                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+                "lv_number": "11419",
+                "share": "1/1"
+              },
+              {
+                "type": "PARCELA ZÁHRADA",
+                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+                "lv_number": "11466",
+                "share": "1/2"
+              },
+              {
                 "type": "RODINNÝ DOM S POZEMKAMI",
                 "cadastral_territory": "STREDNÉ MESTO KOŠICE",
                 "lv_number": "11537",
                 "share": "1/1"
               },
               {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+                "lv_number": "11412",
+                "share": "1/2"
+              }
+            ],
+            "new": [
+              {
+                "type": "CHATA A NÁDVORIE",
+                "cadastral_territory": "KOŠICKÉ HÁMRE",
+                "lv_number": "849",
+                "share": "1/2"
+              },
+              {
                 "type": "PARCELA ZÁHRADA",
                 "cadastral_territory": "KOŠICE STREDNÉ MESTO",
                 "lv_number": "11419",
@@ -212,20 +264,6 @@
                 "lv_number": "11466",
                 "share": "1/2"
               },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "11412",
-                "share": "1/2"
-              },
-              {
-                "type": "CHATA A NÁDVORIE",
-                "cadastral_territory": "KOŠICKÉ HÁMRE",
-                "lv_number": "849",
-                "share": "1/2"
-              }
-            ],
-            "new": [
               {
                 "type": "RODINNÝ DOM S POZEMKAMI",
                 "cadastral_territory": "KOŠICE STREDNÉ MESTO",
@@ -233,27 +271,9 @@
                 "share": "1/1"
               },
               {
-                "type": "PARCELA ZÁHRADA",
-                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "11419",
-                "share": "1/1"
-              },
-              {
-                "type": "PARCELA ZÁHRADA",
-                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "11466",
-                "share": "1/2"
-              },
-              {
                 "type": "ZÁHRADA",
                 "cadastral_territory": "KOŠICE STREDNÉ MESTO",
                 "lv_number": "11412",
-                "share": "1/2"
-              },
-              {
-                "type": "CHATA A NÁDVORIE",
-                "cadastral_territory": "KOŠICKÉ HÁMRE",
-                "lv_number": "849",
                 "share": "1/2"
               }
             ],
@@ -291,6 +311,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)"
+        ],
         "income": {
           "public_function": 2852,
           "other": 68689
@@ -301,10 +324,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM S POZEMKAMI",
-            "cadastral_territory": "KOŠICE - STREDNÉ MESTO",
-            "lv_number": "11537",
-            "share": "1/1"
+            "type": "CHATA A NÁDVORIE",
+            "cadastral_territory": "KOŠICKÉ HÁMRE",
+            "lv_number": "849",
+            "share": "1/2"
           },
           {
             "type": "PARCELA ZÁHRADA",
@@ -319,15 +342,15 @@
             "share": "1/2"
           },
           {
+            "type": "RODINNÝ DOM S POZEMKAMI",
+            "cadastral_territory": "KOŠICE - STREDNÉ MESTO",
+            "lv_number": "11537",
+            "share": "1/1"
+          },
+          {
             "type": "ZÁHRADA",
             "cadastral_territory": "KOŠICE - STREDNÉ MESTO",
             "lv_number": "11412",
-            "share": "1/2"
-          },
-          {
-            "type": "CHATA A NÁDVORIE",
-            "cadastral_territory": "KOŠICKÉ HÁMRE",
-            "lv_number": "849",
             "share": "1/2"
           }
         ],
@@ -359,6 +382,17 @@
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A. S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 2853,
@@ -388,10 +422,10 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM S POZEMKAMI",
-                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "11537",
-                "share": "1/1"
+                "type": "CHATA A NÁDVORIE",
+                "cadastral_territory": "KOŠICKÉ HÁMRE",
+                "lv_number": "849",
+                "share": "1/2"
               },
               {
                 "type": "PARCELA ZÁHRADA",
@@ -406,24 +440,24 @@
                 "share": "1/2"
               },
               {
+                "type": "RODINNÝ DOM S POZEMKAMI",
+                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+                "lv_number": "11537",
+                "share": "1/1"
+              },
+              {
                 "type": "ZÁHRADA",
                 "cadastral_territory": "KOŠICE STREDNÉ MESTO",
                 "lv_number": "11412",
-                "share": "1/2"
-              },
-              {
-                "type": "CHATA A NÁDVORIE",
-                "cadastral_territory": "KOŠICKÉ HÁMRE",
-                "lv_number": "849",
                 "share": "1/2"
               }
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM S POZEMKAMI",
-                "cadastral_territory": "KOŠICE - STREDNÉ MESTO",
-                "lv_number": "11537",
-                "share": "1/1"
+                "type": "CHATA A NÁDVORIE",
+                "cadastral_territory": "KOŠICKÉ HÁMRE",
+                "lv_number": "849",
+                "share": "1/2"
               },
               {
                 "type": "PARCELA ZÁHRADA",
@@ -438,15 +472,15 @@
                 "share": "1/2"
               },
               {
+                "type": "RODINNÝ DOM S POZEMKAMI",
+                "cadastral_territory": "KOŠICE - STREDNÉ MESTO",
+                "lv_number": "11537",
+                "share": "1/1"
+              },
+              {
                 "type": "ZÁHRADA",
                 "cadastral_territory": "KOŠICE - STREDNÉ MESTO",
                 "lv_number": "11412",
-                "share": "1/2"
-              },
-              {
-                "type": "CHATA A NÁDVORIE",
-                "cadastral_territory": "KOŠICKÉ HÁMRE",
-                "lv_number": "849",
                 "share": "1/2"
               }
             ],
@@ -465,6 +499,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT, A.S.)"
+        ],
         "income": {
           "public_function": 2856,
           "other": 59105
@@ -475,16 +512,10 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "RODINNÝ DOM S POZEMKAMI",
-            "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-            "lv_number": "11537",
-            "share": "1/1"
-          },
-          {
-            "type": "PARCELA ZÁHRADA",
-            "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-            "lv_number": "19419",
-            "share": "1/1"
+            "type": "CHATA A NÁDVORIE",
+            "cadastral_territory": "KOŠICKÉ HÁMRE",
+            "lv_number": "849",
+            "share": "1/2"
           },
           {
             "type": "PARCELA ZÁHRADA",
@@ -493,22 +524,28 @@
             "share": "1/2"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "PARCELA ZÁHRADA",
             "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-            "lv_number": "11412",
-            "share": "1/2"
+            "lv_number": "19419",
+            "share": "1/1"
           },
           {
-            "type": "CHATA A NÁDVORIE",
-            "cadastral_territory": "KOŠICKÉ HÁMRE",
-            "lv_number": "849",
-            "share": "1/2"
+            "type": "RODINNÝ DOM S POZEMKAMI",
+            "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+            "lv_number": "11537",
+            "share": "1/1"
           },
           {
             "type": "ZASTAVANÁ PLOCHA + NÁDVORIE + ZÁHRADA",
             "cadastral_territory": "UBĽA",
             "lv_number": "1704",
             "share": "1/1"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+            "lv_number": "11412",
+            "share": "1/2"
           }
         ],
         "movable_property": null,
@@ -537,6 +574,17 @@
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT, A.S.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT, A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 2852,
@@ -560,10 +608,10 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM S POZEMKAMI",
-                "cadastral_territory": "KOŠICE - STREDNÉ MESTO",
-                "lv_number": "11537",
-                "share": "1/1"
+                "type": "CHATA A NÁDVORIE",
+                "cadastral_territory": "KOŠICKÉ HÁMRE",
+                "lv_number": "849",
+                "share": "1/2"
               },
               {
                 "type": "PARCELA ZÁHRADA",
@@ -578,30 +626,24 @@
                 "share": "1/2"
               },
               {
+                "type": "RODINNÝ DOM S POZEMKAMI",
+                "cadastral_territory": "KOŠICE - STREDNÉ MESTO",
+                "lv_number": "11537",
+                "share": "1/1"
+              },
+              {
                 "type": "ZÁHRADA",
                 "cadastral_territory": "KOŠICE - STREDNÉ MESTO",
                 "lv_number": "11412",
-                "share": "1/2"
-              },
-              {
-                "type": "CHATA A NÁDVORIE",
-                "cadastral_territory": "KOŠICKÉ HÁMRE",
-                "lv_number": "849",
                 "share": "1/2"
               }
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM S POZEMKAMI",
-                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "11537",
-                "share": "1/1"
-              },
-              {
-                "type": "PARCELA ZÁHRADA",
-                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "19419",
-                "share": "1/1"
+                "type": "CHATA A NÁDVORIE",
+                "cadastral_territory": "KOŠICKÉ HÁMRE",
+                "lv_number": "849",
+                "share": "1/2"
               },
               {
                 "type": "PARCELA ZÁHRADA",
@@ -610,22 +652,28 @@
                 "share": "1/2"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "PARCELA ZÁHRADA",
                 "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "11412",
-                "share": "1/2"
+                "lv_number": "19419",
+                "share": "1/1"
               },
               {
-                "type": "CHATA A NÁDVORIE",
-                "cadastral_territory": "KOŠICKÉ HÁMRE",
-                "lv_number": "849",
-                "share": "1/2"
+                "type": "RODINNÝ DOM S POZEMKAMI",
+                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+                "lv_number": "11537",
+                "share": "1/1"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA + NÁDVORIE + ZÁHRADA",
                 "cadastral_territory": "UBĽA",
                 "lv_number": "1704",
                 "share": "1/1"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+                "lv_number": "11412",
+                "share": "1/2"
               }
             ],
             "old_count": 5,
@@ -660,6 +708,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE-AIRPORT A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE-AIRPORT A.S.)"
+        ],
         "income": {
           "public_function": 2863,
           "other": 43725
@@ -676,10 +727,10 @@
         ],
         "real_estate": [
           {
-            "type": "RODINNÝ DOM S POZEMKAMI",
-            "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-            "lv_number": "11537",
-            "share": "1/1"
+            "type": "CHATA A NÁDVORIE",
+            "cadastral_territory": "KOŠICKÉ HÁMRE",
+            "lv_number": "849",
+            "share": "1/2"
           },
           {
             "type": "PARCELA ZÁHRADA",
@@ -694,22 +745,22 @@
             "share": "1/2"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "RODINNÝ DOM S POZEMKAMI",
             "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-            "lv_number": "11412",
-            "share": "1/2"
-          },
-          {
-            "type": "CHATA A NÁDVORIE",
-            "cadastral_territory": "KOŠICKÉ HÁMRE",
-            "lv_number": "849",
-            "share": "1/2"
+            "lv_number": "11537",
+            "share": "1/1"
           },
           {
             "type": "ZASTAVANÁ PLOCHA + NÁDVORIE + ZÁHRADA",
             "cadastral_territory": "UBĽA",
             "lv_number": "1704",
             "share": "1/1"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+            "lv_number": "11412",
+            "share": "1/2"
           }
         ],
         "movable_property": null,
@@ -736,6 +787,17 @@
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT, A.S.)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE-AIRPORT A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE-AIRPORT A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -772,16 +834,10 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM S POZEMKAMI",
-                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "11537",
-                "share": "1/1"
-              },
-              {
-                "type": "PARCELA ZÁHRADA",
-                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "19419",
-                "share": "1/1"
+                "type": "CHATA A NÁDVORIE",
+                "cadastral_territory": "KOŠICKÉ HÁMRE",
+                "lv_number": "849",
+                "share": "1/2"
               },
               {
                 "type": "PARCELA ZÁHRADA",
@@ -790,30 +846,36 @@
                 "share": "1/2"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "PARCELA ZÁHRADA",
                 "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "11412",
-                "share": "1/2"
+                "lv_number": "19419",
+                "share": "1/1"
               },
               {
-                "type": "CHATA A NÁDVORIE",
-                "cadastral_territory": "KOŠICKÉ HÁMRE",
-                "lv_number": "849",
-                "share": "1/2"
+                "type": "RODINNÝ DOM S POZEMKAMI",
+                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+                "lv_number": "11537",
+                "share": "1/1"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA + NÁDVORIE + ZÁHRADA",
                 "cadastral_territory": "UBĽA",
                 "lv_number": "1704",
                 "share": "1/1"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+                "lv_number": "11412",
+                "share": "1/2"
               }
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM S POZEMKAMI",
-                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "11537",
-                "share": "1/1"
+                "type": "CHATA A NÁDVORIE",
+                "cadastral_territory": "KOŠICKÉ HÁMRE",
+                "lv_number": "849",
+                "share": "1/2"
               },
               {
                 "type": "PARCELA ZÁHRADA",
@@ -828,22 +890,22 @@
                 "share": "1/2"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "RODINNÝ DOM S POZEMKAMI",
                 "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "11412",
-                "share": "1/2"
-              },
-              {
-                "type": "CHATA A NÁDVORIE",
-                "cadastral_territory": "KOŠICKÉ HÁMRE",
-                "lv_number": "849",
-                "share": "1/2"
+                "lv_number": "11537",
+                "share": "1/1"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA + NÁDVORIE + ZÁHRADA",
                 "cadastral_territory": "UBĽA",
                 "lv_number": "1704",
                 "share": "1/1"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+                "lv_number": "11412",
+                "share": "1/2"
               }
             ],
             "old_count": 6,
@@ -895,6 +957,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)"
+        ],
         "income": {
           "public_function": 2865,
           "other": 45748
@@ -917,6 +982,12 @@
             "share": "1/2"
           },
           {
+            "type": "CHATA A NÁDVORIE",
+            "cadastral_territory": "KOŠICKÉ HÁMRE",
+            "lv_number": "1704",
+            "share": "1/2"
+          },
+          {
             "type": "PARCELA ZÁHRADA",
             "cadastral_territory": "KOŠICE STREDNÉ MESTO",
             "lv_number": "11419",
@@ -929,22 +1000,16 @@
             "share": "1/2"
           },
           {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-            "lv_number": "11412",
-            "share": "1/2"
-          },
-          {
-            "type": "CHATA A NÁDVORIE",
-            "cadastral_territory": "KOŠICKÉ HÁMRE",
-            "lv_number": "1704",
-            "share": "1/2"
-          },
-          {
             "type": "ZASTAVANÁ PLOCHA, NÁDVORIE, ZÁHRADA",
             "cadastral_territory": "UBĽA",
             "lv_number": "849",
             "share": "1/1"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+            "lv_number": "11412",
+            "share": "1/2"
           }
         ],
         "movable_property": null,
@@ -967,6 +1032,17 @@
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE-AIRPORT A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 2863,
@@ -985,10 +1061,10 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM S POZEMKAMI",
-                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "11537",
-                "share": "1/1"
+                "type": "CHATA A NÁDVORIE",
+                "cadastral_territory": "KOŠICKÉ HÁMRE",
+                "lv_number": "849",
+                "share": "1/2"
               },
               {
                 "type": "PARCELA ZÁHRADA",
@@ -1003,22 +1079,22 @@
                 "share": "1/2"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "RODINNÝ DOM S POZEMKAMI",
                 "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "11412",
-                "share": "1/2"
-              },
-              {
-                "type": "CHATA A NÁDVORIE",
-                "cadastral_territory": "KOŠICKÉ HÁMRE",
-                "lv_number": "849",
-                "share": "1/2"
+                "lv_number": "11537",
+                "share": "1/1"
               },
               {
                 "type": "ZASTAVANÁ PLOCHA + NÁDVORIE + ZÁHRADA",
                 "cadastral_territory": "UBĽA",
                 "lv_number": "1704",
                 "share": "1/1"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+                "lv_number": "11412",
+                "share": "1/2"
               }
             ],
             "new": [
@@ -1026,6 +1102,12 @@
                 "type": "BYT S POZEMKAMI",
                 "cadastral_territory": "KOŠICE STREDNÉ MESTO",
                 "lv_number": "11236",
+                "share": "1/2"
+              },
+              {
+                "type": "CHATA A NÁDVORIE",
+                "cadastral_territory": "KOŠICKÉ HÁMRE",
+                "lv_number": "1704",
                 "share": "1/2"
               },
               {
@@ -1041,22 +1123,16 @@
                 "share": "1/2"
               },
               {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-                "lv_number": "11412",
-                "share": "1/2"
-              },
-              {
-                "type": "CHATA A NÁDVORIE",
-                "cadastral_territory": "KOŠICKÉ HÁMRE",
-                "lv_number": "1704",
-                "share": "1/2"
-              },
-              {
                 "type": "ZASTAVANÁ PLOCHA, NÁDVORIE, ZÁHRADA",
                 "cadastral_territory": "UBĽA",
                 "lv_number": "849",
                 "share": "1/1"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+                "lv_number": "11412",
+                "share": "1/2"
               }
             ],
             "old_count": 6,
@@ -1077,138 +1153,19 @@
       }
     }
   ],
-  "total_changes": 25,
+  "total_changes": 30,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tibor.Szucs.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tibor.Szucs.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Tibor.Szucs.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Tibor.Szucs.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE-AIRPORT A.S.)",
-          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 2863,
-            "other": 43725
-          },
-          "new": {
-            "public_function": 2865,
-            "other": 45748
-          },
-          "old_total": 46588,
-          "new_total": 48613,
-          "delta": 2025,
-          "delta_pct": 4.3
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "RODINNÝ DOM S POZEMKAMI",
-              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-              "lv_number": "11537",
-              "share": "1/1"
-            },
-            {
-              "type": "PARCELA ZÁHRADA",
-              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-              "lv_number": "11419",
-              "share": "1/1"
-            },
-            {
-              "type": "PARCLELA ZÁHRADA",
-              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-              "lv_number": "11466",
-              "share": "1/2"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-              "lv_number": "11412",
-              "share": "1/2"
-            },
-            {
-              "type": "CHATA A NÁDVORIE",
-              "cadastral_territory": "KOŠICKÉ HÁMRE",
-              "lv_number": "849",
-              "share": "1/2"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA + NÁDVORIE + ZÁHRADA",
-              "cadastral_territory": "UBĽA",
-              "lv_number": "1704",
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT S POZEMKAMI",
-              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-              "lv_number": "11236",
-              "share": "1/2"
-            },
-            {
-              "type": "PARCELA ZÁHRADA",
-              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-              "lv_number": "11419",
-              "share": "1/1"
-            },
-            {
-              "type": "PARCELA ZÁHRADA",
-              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-              "lv_number": "11466",
-              "share": "1/2"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
-              "lv_number": "11412",
-              "share": "1/2"
-            },
-            {
-              "type": "CHATA A NÁDVORIE",
-              "cadastral_territory": "KOŠICKÉ HÁMRE",
-              "lv_number": "1704",
-              "share": "1/2"
-            },
-            {
-              "type": "ZASTAVANÁ PLOCHA, NÁDVORIE, ZÁHRADA",
-              "cadastral_territory": "UBĽA",
-              "lv_number": "849",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 6,
-          "new_count": 6
-        },
-        {
-          "field": "vehicles",
-          "old": [
-            {
-              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
-              "brand": "HYUNDAI",
-              "year_of_manufacture": 2023
-            }
-          ],
-          "new": null
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 46 588 € → 48 613 € (+2 025 €)",
-      "Nehnuteľnosti: 6 → 6 (0)",
-      "Vozidlá"
-    ]
+    "summary": []
   },
   "slug": "ing-tibor-szucs",
   "context": {
@@ -1218,7 +1175,7 @@
     "obligations": 1,
     "income_percentile": 44,
     "property_percentile": 72,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.7

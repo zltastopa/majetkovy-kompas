@@ -2,6 +2,9 @@
   "user_id": "Beata.Simorova",
   "name": "Mgr. Beáta Šimorová",
   "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ A.S.)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ A.S.)"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ A.S.)",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (POLIKLINIKA TEHELNÁ, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (POLIKLINIKA TEHELNÁ, A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -60,6 +66,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (POLIKLINIKA TEHELNÁ, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (POLIKLINIKA TEHELNÁ, A.S.)"
+        ],
         "income": {
           "public_function": 244,
           "other": 62666
@@ -125,6 +134,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ, A.S.)"
+        ],
         "income": {
           "public_function": 2484,
           "other": 63589
@@ -158,6 +170,17 @@
             "field": "public_function",
             "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (POLIKLINIKA TEHELNÁ, A.S.)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ, A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (POLIKLINIKA TEHELNÁ, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ, A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -196,6 +219,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ A.S.)"
+        ],
         "income": {
           "public_function": 2640,
           "other": 93650
@@ -229,6 +255,17 @@
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ, A.S.)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -267,6 +304,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ A.S.)"
+        ],
         "income": {
           "public_function": 2640,
           "other": 75350
@@ -328,6 +368,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (POLIKLINIKA TEHELNÁ A.S.)"
+        ],
         "income": {
           "public_function": 2640,
           "other": 76710
@@ -386,50 +429,19 @@
       }
     }
   ],
-  "total_changes": 16,
+  "total_changes": 18,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Beata.Simorova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Beata.Simorova.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Beata.Simorova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Beata.Simorova.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 2640,
-            "other": 75350
-          },
-          "new": {
-            "public_function": 2640,
-            "other": 76710
-          },
-          "old_total": 77990,
-          "new_total": 79350,
-          "delta": 1360,
-          "delta_pct": 1.7
-        },
-        {
-          "field": "employment",
-          "old": "POLIKLINIKA TEHELNÁ A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMESTSKÁ ČASŤ BRATISLAVA - RUŽINOV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "MESTSKÁ ČASŤ BRATISLAVA - RUŽINOV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nPOLIKLINIKA TEHELNÁ A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "business_activity",
-          "old": "KONATEĽ(BM TENDER&CONSULTING, S.R.O.)ŽIVNOSTNÍK(Mgr. BEÁTA ŠIMOROVÁ)",
-          "new": "ŽIVNOSTNÍK(Mgr.  BEÁTA ŠIMOROVÁ)KONATEĽ(BM TENDER&CONSULTING,  S.R.O.)"
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 77 990 € → 79 350 € (+1 360 €)",
-      "Zamestnanie",
-      "Podnikanie"
-    ]
+    "summary": []
   },
   "slug": "mgr-beata-simorova",
   "context": {
@@ -439,7 +451,7 @@
     "obligations": 1,
     "income_percentile": 78,
     "property_percentile": 9,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.4

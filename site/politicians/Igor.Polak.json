@@ -2,6 +2,9 @@
   "user_id": "Igor.Polak",
   "name": "Igor Polák",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "generálny riaditeľ Železníc Slovenskej republiky",
+        "public_functions": [
+          "generálny riaditeľ Železníc Slovenskej republiky"
+        ],
         "income": {
           "public_function": 77853,
           "other": 0
@@ -31,29 +37,29 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "ZASTAVANÁ PLOCHA, RODINNÝ DOM, ORNÁ PÔDA",
-            "cadastral_territory": "ČEČEJOVCE",
-            "lv_number": "728, 1907",
-            "share": "BSM, 1/1"
-          },
-          {
             "type": "LESNÝ POZEMOK, ORNÁ PÔDA, RODINNÝ DOM",
             "cadastral_territory": "PLEŠIVEC",
             "lv_number": "553, 3575, 3035, 1436",
             "share": "1/2, 1/2, 1/1, 1/2"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA, RODINNÝ DOM, ORNÁ PÔDA",
+            "cadastral_territory": "ČEČEJOVCE",
+            "lv_number": "728, 1907",
+            "share": "BSM, 1/1"
           }
         ],
         "movable_property": [
           {
             "type": "OSOBNÉ VOZIDLO",
-            "brand": "OPEL",
-            "year_of_manufacture": 2006,
+            "brand": "KIA",
+            "year_of_manufacture": 2013,
             "share": "1/1"
           },
           {
             "type": "OSOBNÉ VOZIDLO",
-            "brand": "KIA",
-            "year_of_manufacture": 2013,
+            "brand": "OPEL",
+            "year_of_manufacture": 2006,
             "share": "1/1"
           },
           {
@@ -65,8 +71,8 @@
         ],
         "property_rights": [
           "DLHOPISY, podiel: 1/1",
-          "VKLAD V BANKÁCH - OSOBNÝ ÚČET, podiel: BSM",
-          "STAVEBNÉ SPORENIE, podiel: BSM"
+          "STAVEBNÉ SPORENIE, podiel: BSM",
+          "VKLAD V BANKÁCH - OSOBNÝ ÚČET, podiel: BSM"
         ],
         "obligations": [
           {
@@ -89,7 +95,11 @@
         "name": "Ing. IGOR POLÁK",
         "year": 2020,
         "filed": "k 30. aprílu",
-        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)generálny riaditeľ Železníc Slovenskej republiky",
+        "public_function": "generálny riaditeľ Železníc Slovenskej republiky\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)",
+        "public_functions": [
+          "generálny riaditeľ Železníc Slovenskej republiky",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+        ],
         "income": {
           "public_function": 35926,
           "other": 32346
@@ -99,6 +109,12 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
+          {
+            "type": "LESNÝ POZEMOK, ORNÁ PÔDA, ORNÁ PÔDA",
+            "cadastral_territory": "PLEŠIVEC",
+            "lv_number": "553,3575,3035",
+            "share": "1/12,1/2,1/1"
+          },
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA",
             "cadastral_territory": "ČEČENOVCE",
@@ -110,25 +126,19 @@
             "cadastral_territory": "ČEČENOVCE",
             "lv_number": "1907",
             "share": "1/1"
-          },
-          {
-            "type": "LESNÝ POZEMOK, ORNÁ PÔDA, ORNÁ PÔDA",
-            "cadastral_territory": "PLEŠIVEC",
-            "lv_number": "553,3575,3035",
-            "share": "1/12,1/2,1/1"
           }
         ],
         "movable_property": [
           {
             "type": "OSOBNÉ VOZIDLO",
-            "brand": "OPEL",
-            "year_of_manufacture": 2006,
+            "brand": "KIA",
+            "year_of_manufacture": 2013,
             "share": "1/1"
           },
           {
             "type": "OSOBNÉ VOZIDLO",
-            "brand": "KIA",
-            "year_of_manufacture": 2013,
+            "brand": "OPEL",
+            "year_of_manufacture": 2006,
             "share": "1/1"
           },
           {
@@ -139,9 +149,9 @@
           }
         ],
         "property_rights": [
-          "VKLAD V BANKE, podiel: 1/2",
           "DLHOPISY CCA 150KS, podiel: 1/2",
-          "STAVEBNÉ SPORENIE, podiel: BSM"
+          "STAVEBNÉ SPORENIE, podiel: BSM",
+          "VKLAD V BANKE, podiel: 1/2"
         ],
         "obligations": [
           {
@@ -158,7 +168,19 @@
           {
             "field": "public_function",
             "old": "generálny riaditeľ Železníc Slovenskej republiky",
-            "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)generálny riaditeľ Železníc Slovenskej republiky"
+            "new": "generálny riaditeľ Železníc Slovenskej republiky\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "generálny riaditeľ Železníc Slovenskej republiky"
+            ],
+            "new": [
+              "generálny riaditeľ Železníc Slovenskej republiky",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -179,19 +201,25 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "ZASTAVANÁ PLOCHA, RODINNÝ DOM, ORNÁ PÔDA",
-                "cadastral_territory": "ČEČEJOVCE",
-                "lv_number": "728, 1907",
-                "share": "BSM, 1/1"
-              },
-              {
                 "type": "LESNÝ POZEMOK, ORNÁ PÔDA, RODINNÝ DOM",
                 "cadastral_territory": "PLEŠIVEC",
                 "lv_number": "553, 3575, 3035, 1436",
                 "share": "1/2, 1/2, 1/1, 1/2"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA, RODINNÝ DOM, ORNÁ PÔDA",
+                "cadastral_territory": "ČEČEJOVCE",
+                "lv_number": "728, 1907",
+                "share": "BSM, 1/1"
               }
             ],
             "new": [
+              {
+                "type": "LESNÝ POZEMOK, ORNÁ PÔDA, ORNÁ PÔDA",
+                "cadastral_territory": "PLEŠIVEC",
+                "lv_number": "553,3575,3035",
+                "share": "1/12,1/2,1/1"
+              },
               {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA",
                 "cadastral_territory": "ČEČENOVCE",
@@ -203,12 +231,6 @@
                 "cadastral_territory": "ČEČENOVCE",
                 "lv_number": "1907",
                 "share": "1/1"
-              },
-              {
-                "type": "LESNÝ POZEMOK, ORNÁ PÔDA, ORNÁ PÔDA",
-                "cadastral_territory": "PLEŠIVEC",
-                "lv_number": "553,3575,3035",
-                "share": "1/12,1/2,1/1"
               }
             ],
             "old_count": 2,
@@ -218,13 +240,13 @@
             "field": "property_rights",
             "old": [
               "DLHOPISY, podiel: 1/1",
-              "VKLAD V BANKÁCH - OSOBNÝ ÚČET, podiel: BSM",
-              "STAVEBNÉ SPORENIE, podiel: BSM"
+              "STAVEBNÉ SPORENIE, podiel: BSM",
+              "VKLAD V BANKÁCH - OSOBNÝ ÚČET, podiel: BSM"
             ],
             "new": [
-              "VKLAD V BANKE, podiel: 1/2",
               "DLHOPISY CCA 150KS, podiel: 1/2",
-              "STAVEBNÉ SPORENIE, podiel: BSM"
+              "STAVEBNÉ SPORENIE, podiel: BSM",
+              "VKLAD V BANKE, podiel: 1/2"
             ],
             "old_count": 3,
             "new_count": 3
@@ -241,6 +263,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+        ],
         "income": {
           "public_function": 5269,
           "other": 60725
@@ -250,12 +275,6 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
-          {
-            "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA, ZÁHRADA",
-            "cadastral_territory": "ČEČEJOVCE",
-            "lv_number": "728, 1907",
-            "share": "BSM"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "KOŠICE",
@@ -267,19 +286,25 @@
             "cadastral_territory": "PLEŠIVEC",
             "lv_number": "553, 3575, 3035",
             "share": "1/12, 1/2, 1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA, ZÁHRADA",
+            "cadastral_territory": "ČEČEJOVCE",
+            "lv_number": "728, 1907",
+            "share": "BSM"
           }
         ],
         "movable_property": [
           {
             "type": "OSOBNÉ AUTO",
-            "brand": "OPEL",
-            "year_of_manufacture": 2006,
+            "brand": "KIA",
+            "year_of_manufacture": 2013,
             "share": "1/1"
           },
           {
             "type": "OSOBNÉ AUTO",
-            "brand": "KIA",
-            "year_of_manufacture": 2013,
+            "brand": "OPEL",
+            "year_of_manufacture": 2006,
             "share": "1/1"
           },
           {
@@ -291,8 +316,8 @@
         ],
         "property_rights": [
           "BANKOVÝ ÚČET, podiel: BSM",
-          "DLHOPISY, podiel: BSM",
-          "CENNÉ PAPIERE, podiel: BSM"
+          "CENNÉ PAPIERE, podiel: BSM",
+          "DLHOPISY, podiel: BSM"
         ],
         "obligations": [
           {
@@ -308,8 +333,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)generálny riaditeľ Železníc Slovenskej republiky",
+            "old": "generálny riaditeľ Železníc Slovenskej republiky\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)",
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "generálny riaditeľ Železníc Slovenskej republiky",
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+            ],
+            "old_count": 2,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -330,6 +367,12 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "LESNÝ POZEMOK, ORNÁ PÔDA, ORNÁ PÔDA",
+                "cadastral_territory": "PLEŠIVEC",
+                "lv_number": "553,3575,3035",
+                "share": "1/12,1/2,1/1"
+              },
+              {
                 "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA",
                 "cadastral_territory": "ČEČENOVCE",
                 "lv_number": "728",
@@ -340,21 +383,9 @@
                 "cadastral_territory": "ČEČENOVCE",
                 "lv_number": "1907",
                 "share": "1/1"
-              },
-              {
-                "type": "LESNÝ POZEMOK, ORNÁ PÔDA, ORNÁ PÔDA",
-                "cadastral_territory": "PLEŠIVEC",
-                "lv_number": "553,3575,3035",
-                "share": "1/12,1/2,1/1"
               }
             ],
             "new": [
-              {
-                "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA, ZÁHRADA",
-                "cadastral_territory": "ČEČEJOVCE",
-                "lv_number": "728, 1907",
-                "share": "BSM"
-              },
               {
                 "type": "BYT",
                 "cadastral_territory": "KOŠICE",
@@ -366,6 +397,12 @@
                 "cadastral_territory": "PLEŠIVEC",
                 "lv_number": "553, 3575, 3035",
                 "share": "1/12, 1/2, 1/1"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA, ZÁHRADA",
+                "cadastral_territory": "ČEČEJOVCE",
+                "lv_number": "728, 1907",
+                "share": "BSM"
               }
             ],
             "old_count": 3,
@@ -376,14 +413,14 @@
             "old": [
               {
                 "type": "OSOBNÉ VOZIDLO",
-                "brand": "OPEL",
-                "year_of_manufacture": 2006,
+                "brand": "KIA",
+                "year_of_manufacture": 2013,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÉ VOZIDLO",
-                "brand": "KIA",
-                "year_of_manufacture": 2013,
+                "brand": "OPEL",
+                "year_of_manufacture": 2006,
                 "share": "1/1"
               },
               {
@@ -396,14 +433,14 @@
             "new": [
               {
                 "type": "OSOBNÉ AUTO",
-                "brand": "OPEL",
-                "year_of_manufacture": 2006,
+                "brand": "KIA",
+                "year_of_manufacture": 2013,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÉ AUTO",
-                "brand": "KIA",
-                "year_of_manufacture": 2013,
+                "brand": "OPEL",
+                "year_of_manufacture": 2006,
                 "share": "1/1"
               },
               {
@@ -419,14 +456,14 @@
           {
             "field": "property_rights",
             "old": [
-              "VKLAD V BANKE, podiel: 1/2",
               "DLHOPISY CCA 150KS, podiel: 1/2",
-              "STAVEBNÉ SPORENIE, podiel: BSM"
+              "STAVEBNÉ SPORENIE, podiel: BSM",
+              "VKLAD V BANKE, podiel: 1/2"
             ],
             "new": [
               "BANKOVÝ ÚČET, podiel: BSM",
-              "DLHOPISY, podiel: BSM",
-              "CENNÉ PAPIERE, podiel: BSM"
+              "CENNÉ PAPIERE, podiel: BSM",
+              "DLHOPISY, podiel: BSM"
             ],
             "old_count": 3,
             "new_count": 3
@@ -443,6 +480,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+        ],
         "income": {
           "public_function": 6480,
           "other": 56610
@@ -452,12 +492,6 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
-          {
-            "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
-            "cadastral_territory": "ČEČEJOVCE",
-            "lv_number": "728, 1907",
-            "share": "BSM"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "KOŠICE",
@@ -469,19 +503,25 @@
             "cadastral_territory": "PLEŠIVEC",
             "lv_number": "553, 357, 3035",
             "share": "1/12, 1/2, 1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
+            "cadastral_territory": "ČEČEJOVCE",
+            "lv_number": "728, 1907",
+            "share": "BSM"
           }
         ],
         "movable_property": [
           {
             "type": "OSOBNÉ AUTO",
-            "brand": "OPEL",
-            "year_of_manufacture": 2006,
+            "brand": "KIA",
+            "year_of_manufacture": 2013,
             "share": "1/1"
           },
           {
             "type": "OSOBNÉ AUTO",
-            "brand": "KIA",
-            "year_of_manufacture": 2013,
+            "brand": "OPEL",
+            "year_of_manufacture": 2006,
             "share": "1/1"
           }
         ],
@@ -521,12 +561,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA, ZÁHRADA",
-                "cadastral_territory": "ČEČEJOVCE",
-                "lv_number": "728, 1907",
-                "share": "BSM"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "KOŠICE",
                 "lv_number": "10754",
@@ -537,15 +571,15 @@
                 "cadastral_territory": "PLEŠIVEC",
                 "lv_number": "553, 3575, 3035",
                 "share": "1/12, 1/2, 1/1"
-              }
-            ],
-            "new": [
+              },
               {
-                "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
+                "type": "ZASTAVANÁ PLOCHA, ORNÁ PÔDA, ZÁHRADA",
                 "cadastral_territory": "ČEČEJOVCE",
                 "lv_number": "728, 1907",
                 "share": "BSM"
-              },
+              }
+            ],
+            "new": [
               {
                 "type": "BYT",
                 "cadastral_territory": "KOŠICE",
@@ -557,6 +591,12 @@
                 "cadastral_territory": "PLEŠIVEC",
                 "lv_number": "553, 357, 3035",
                 "share": "1/12, 1/2, 1/1"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
+                "cadastral_territory": "ČEČEJOVCE",
+                "lv_number": "728, 1907",
+                "share": "BSM"
               }
             ],
             "old_count": 3,
@@ -567,14 +607,14 @@
             "old": [
               {
                 "type": "OSOBNÉ AUTO",
-                "brand": "OPEL",
-                "year_of_manufacture": 2006,
+                "brand": "KIA",
+                "year_of_manufacture": 2013,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÉ AUTO",
-                "brand": "KIA",
-                "year_of_manufacture": 2013,
+                "brand": "OPEL",
+                "year_of_manufacture": 2006,
                 "share": "1/1"
               },
               {
@@ -587,14 +627,14 @@
             "new": [
               {
                 "type": "OSOBNÉ AUTO",
-                "brand": "OPEL",
-                "year_of_manufacture": 2006,
+                "brand": "KIA",
+                "year_of_manufacture": 2013,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÉ AUTO",
-                "brand": "KIA",
-                "year_of_manufacture": 2013,
+                "brand": "OPEL",
+                "year_of_manufacture": 2006,
                 "share": "1/1"
               }
             ],
@@ -605,8 +645,8 @@
             "field": "property_rights",
             "old": [
               "BANKOVÝ ÚČET, podiel: BSM",
-              "DLHOPISY, podiel: BSM",
-              "CENNÉ PAPIERE, podiel: BSM"
+              "CENNÉ PAPIERE, podiel: BSM",
+              "DLHOPISY, podiel: BSM"
             ],
             "new": [
               "BANKOVÝ ÚČET, TERMÍNOVANÝ ÚČET, podiel: BSM",
@@ -628,6 +668,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽPSV A.S. ČAŇA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+        ],
         "income": {
           "public_function": 7200,
           "other": 63410
@@ -637,12 +680,6 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
-          {
-            "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
-            "cadastral_territory": "ČEČEJOVCE",
-            "lv_number": "728, 1907",
-            "share": "BSM"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "KOŠICE",
@@ -654,6 +691,12 @@
             "cadastral_territory": "PLEŠIVEC",
             "lv_number": "553, 357, 3035",
             "share": "1/12 1/2 1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
+            "cadastral_territory": "ČEČEJOVCE",
+            "lv_number": "728, 1907",
+            "share": "BSM"
           }
         ],
         "movable_property": [
@@ -687,6 +730,17 @@
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 6480,
@@ -705,12 +759,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
-                "cadastral_territory": "ČEČEJOVCE",
-                "lv_number": "728, 1907",
-                "share": "BSM"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "KOŠICE",
                 "lv_number": "10754",
@@ -721,15 +769,15 @@
                 "cadastral_territory": "PLEŠIVEC",
                 "lv_number": "553, 357, 3035",
                 "share": "1/12, 1/2, 1/1"
-              }
-            ],
-            "new": [
+              },
               {
                 "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
                 "cadastral_territory": "ČEČEJOVCE",
                 "lv_number": "728, 1907",
                 "share": "BSM"
-              },
+              }
+            ],
+            "new": [
               {
                 "type": "BYT",
                 "cadastral_territory": "KOŠICE",
@@ -741,6 +789,12 @@
                 "cadastral_territory": "PLEŠIVEC",
                 "lv_number": "553, 357, 3035",
                 "share": "1/12 1/2 1/1"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
+                "cadastral_territory": "ČEČEJOVCE",
+                "lv_number": "728, 1907",
+                "share": "BSM"
               }
             ],
             "old_count": 3,
@@ -751,14 +805,14 @@
             "old": [
               {
                 "type": "OSOBNÉ AUTO",
-                "brand": "OPEL",
-                "year_of_manufacture": 2006,
+                "brand": "KIA",
+                "year_of_manufacture": 2013,
                 "share": "1/1"
               },
               {
                 "type": "OSOBNÉ AUTO",
-                "brand": "KIA",
-                "year_of_manufacture": 2013,
+                "brand": "OPEL",
+                "year_of_manufacture": 2006,
                 "share": "1/1"
               }
             ],
@@ -800,6 +854,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+        ],
         "income": {
           "public_function": 7200,
           "other": 40738
@@ -809,12 +866,6 @@
         "business_activity": null,
         "positions": null,
         "real_estate": [
-          {
-            "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
-            "cadastral_territory": "ČEČEJOVCE",
-            "lv_number": "728, 1907",
-            "share": "BSM"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "KOŠICE",
@@ -826,6 +877,12 @@
             "cadastral_territory": "PLEŠIVEC",
             "lv_number": "553, 357, 3035",
             "share": "1/12, 1/2, 1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
+            "cadastral_territory": "ČEČEJOVCE",
+            "lv_number": "728, 1907",
+            "share": "BSM"
           }
         ],
         "movable_property": [
@@ -857,6 +914,17 @@
             "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+            ],
+            "new": [
+              "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 7200,
@@ -875,12 +943,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
-                "cadastral_territory": "ČEČEJOVCE",
-                "lv_number": "728, 1907",
-                "share": "BSM"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "KOŠICE",
                 "lv_number": "10754",
@@ -891,15 +953,15 @@
                 "cadastral_territory": "PLEŠIVEC",
                 "lv_number": "553, 357, 3035",
                 "share": "1/12 1/2 1/1"
-              }
-            ],
-            "new": [
+              },
               {
                 "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
                 "cadastral_territory": "ČEČEJOVCE",
                 "lv_number": "728, 1907",
                 "share": "BSM"
-              },
+              }
+            ],
+            "new": [
               {
                 "type": "BYT",
                 "cadastral_territory": "KOŠICE",
@@ -911,6 +973,12 @@
                 "cadastral_territory": "PLEŠIVEC",
                 "lv_number": "553, 357, 3035",
                 "share": "1/12, 1/2, 1/1"
+              },
+              {
+                "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
+                "cadastral_territory": "ČEČEJOVCE",
+                "lv_number": "728, 1907",
+                "share": "BSM"
               }
             ],
             "old_count": 3,
@@ -933,104 +1001,19 @@
       }
     }
   ],
-  "total_changes": 22,
+  "total_changes": 26,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Igor.Polak.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Igor.Polak.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Igor.Polak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Igor.Polak.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽPSV A.S. ČAŇA)",
-          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 7200,
-            "other": 63410
-          },
-          "new": {
-            "public_function": 7200,
-            "other": 40738
-          },
-          "old_total": 70610,
-          "new_total": 47938,
-          "delta": -22672,
-          "delta_pct": -32.1
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
-              "cadastral_territory": "ČEČEJOVCE",
-              "lv_number": "728, 1907",
-              "share": "BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "KOŠICE",
-              "lv_number": "10754",
-              "share": "BSM"
-            },
-            {
-              "type": "LES, ORNÁ PÔDA",
-              "cadastral_territory": "PLEŠIVEC",
-              "lv_number": "553, 357, 3035",
-              "share": "1/12 1/2 1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
-              "cadastral_territory": "ČEČEJOVCE",
-              "lv_number": "728, 1907",
-              "share": "BSM"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "KOŠICE",
-              "lv_number": "10754",
-              "share": "BSM"
-            },
-            {
-              "type": "LES, ORNÁ PÔDA",
-              "cadastral_territory": "PLEŠIVEC",
-              "lv_number": "553, 357, 3035",
-              "share": "1/12, 1/2, 1/1"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 3
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "BANKOVÝ ÚČET, TERMÍNOVANÉ VKLADY, podiel: BSM",
-            "DLHOPISY, podiel: BSM",
-            "ETF FONDY, podiel: BSM"
-          ],
-          "new": [
-            "BANKOVÝ ÚČET, FONDY, DLHOPISY, ETF FONDY, podiel: BSM"
-          ],
-          "old_count": 3,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 70 610 € → 47 938 € (-22 672 €)",
-      "Nehnuteľnosti: 3 → 3 (0)",
-      "Majetkové práva: 3 → 1 (-2)"
-    ]
+    "summary": []
   },
   "slug": "igor-polak",
   "context": {
@@ -1040,7 +1023,7 @@
     "obligations": 1,
     "income_percentile": 44,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.7

@@ -1,8 +1,12 @@
 {
   "user_id": "Lukas.Parizek",
   "name": "Mgr. Lukáš Parízek",
-  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SR)",
-  "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,A.S.) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SR)",
+  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SR)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,A.S.)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SR)",
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,A.S.)"
+  ],
+  "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SR) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,A.S.)",
   "years": [
     2019,
     2020,
@@ -21,6 +25,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "štátny tajomník",
+        "public_functions": [
+          "štátny tajomník"
+        ],
         "income": {
           "public_function": 39863,
           "other": 0
@@ -79,7 +86,11 @@
         "name": "Mgr. LUKÁŠ PARÍZEK",
         "year": 2020,
         "filed": "pri ujatí sa funkcie",
-        "public_function": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO)\nštátny tajomník",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO)",
+          "štátny tajomník"
+        ],
         "income": {
           "public_function": 20933,
           "other": 0
@@ -138,7 +149,19 @@
           {
             "field": "public_function",
             "old": "štátny tajomník",
-            "new": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO)"
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO)\nštátny tajomník"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "štátny tajomník"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO)",
+              "štátny tajomník"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -212,6 +235,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)"
+        ],
         "income": {
           "public_function": 7714,
           "other": 7507
@@ -221,13 +247,13 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "ČLEN DOZORNEJ RADY DO 12.01.2022",
-            "organization": "HENEKEN CONDUCTORS, A.S.",
+            "role": "KONATEĽ",
+            "organization": "PANTERRA ADVISORY S.R.O.",
             "benefits": "NEPOBERÁM"
           },
           {
-            "role": "KONATEĽ",
-            "organization": "PANTERRA ADVISORY S.R.O.",
+            "role": "ČLEN DOZORNEJ RADY DO 12.01.2022",
+            "organization": "HENEKEN CONDUCTORS, A.S.",
             "benefits": "NEPOBERÁM"
           }
         ],
@@ -269,8 +295,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO)",
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO)\nštátny tajomník",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO)",
+              "štátny tajomník"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)"
+            ],
+            "old_count": 2,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -303,13 +341,13 @@
             ],
             "new": [
               {
-                "role": "ČLEN DOZORNEJ RADY DO 12.01.2022",
-                "organization": "HENEKEN CONDUCTORS, A.S.",
+                "role": "KONATEĽ",
+                "organization": "PANTERRA ADVISORY S.R.O.",
                 "benefits": "NEPOBERÁM"
               },
               {
-                "role": "KONATEĽ",
-                "organization": "PANTERRA ADVISORY S.R.O.",
+                "role": "ČLEN DOZORNEJ RADY DO 12.01.2022",
+                "organization": "HENEKEN CONDUCTORS, A.S.",
                 "benefits": "NEPOBERÁM"
               }
             ],
@@ -397,6 +435,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)"
+        ],
         "income": {
           "public_function": 9464,
           "other": 64180
@@ -406,13 +447,13 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "ČLEN DOZORNEJ RADY (DO 12.1.2022)",
-            "organization": "HENEKEN CONDUCTORS, A.S.",
+            "role": "KONATEĽ",
+            "organization": "PANTERRA ADVISORY S.R.O.",
             "benefits": "ŽIADNE"
           },
           {
-            "role": "KONATEĽ",
-            "organization": "PANTERRA ADVISORY S.R.O.",
+            "role": "ČLEN DOZORNEJ RADY (DO 12.1.2022)",
+            "organization": "HENEKEN CONDUCTORS, A.S.",
             "benefits": "ŽIADNE"
           }
         ],
@@ -476,25 +517,25 @@
             "field": "positions",
             "old": [
               {
-                "role": "ČLEN DOZORNEJ RADY DO 12.01.2022",
-                "organization": "HENEKEN CONDUCTORS, A.S.",
+                "role": "KONATEĽ",
+                "organization": "PANTERRA ADVISORY S.R.O.",
                 "benefits": "NEPOBERÁM"
               },
               {
-                "role": "KONATEĽ",
-                "organization": "PANTERRA ADVISORY S.R.O.",
+                "role": "ČLEN DOZORNEJ RADY DO 12.01.2022",
+                "organization": "HENEKEN CONDUCTORS, A.S.",
                 "benefits": "NEPOBERÁM"
               }
             ],
             "new": [
               {
-                "role": "ČLEN DOZORNEJ RADY (DO 12.1.2022)",
-                "organization": "HENEKEN CONDUCTORS, A.S.",
+                "role": "KONATEĽ",
+                "organization": "PANTERRA ADVISORY S.R.O.",
                 "benefits": "ŽIADNE"
               },
               {
-                "role": "KONATEĽ",
-                "organization": "PANTERRA ADVISORY S.R.O.",
+                "role": "ČLEN DOZORNEJ RADY (DO 12.1.2022)",
+                "organization": "HENEKEN CONDUCTORS, A.S.",
                 "benefits": "ŽIADNE"
               }
             ],
@@ -512,7 +553,11 @@
         "name": "Mgr. LUKÁŠ PARÍZEK",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SLOVENSKÁ REPUBLIKA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SLOVENSKÁ REPUBLIKA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SLOVENSKÁ REPUBLIKA)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)"
+        ],
         "income": {
           "public_function": 12022,
           "other": 63254
@@ -571,7 +616,19 @@
           {
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SLOVENSKÁ REPUBLIKA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)"
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SLOVENSKÁ REPUBLIKA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SLOVENSKÁ REPUBLIKA)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -597,13 +654,13 @@
             "field": "positions",
             "old": [
               {
-                "role": "ČLEN DOZORNEJ RADY (DO 12.1.2022)",
-                "organization": "HENEKEN CONDUCTORS, A.S.",
+                "role": "KONATEĽ",
+                "organization": "PANTERRA ADVISORY S.R.O.",
                 "benefits": "ŽIADNE"
               },
               {
-                "role": "KONATEĽ",
-                "organization": "PANTERRA ADVISORY S.R.O.",
+                "role": "ČLEN DOZORNEJ RADY (DO 12.1.2022)",
+                "organization": "HENEKEN CONDUCTORS, A.S.",
                 "benefits": "ŽIADNE"
               }
             ],
@@ -652,7 +709,11 @@
         "name": "Mgr. LUKÁŠ PARÍZEK",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SR)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SR)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SR)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,A.S.)"
+        ],
         "income": {
           "public_function": 25815,
           "other": 4154
@@ -710,8 +771,21 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SLOVENSKÁ REPUBLIKA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SR)"
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SLOVENSKÁ REPUBLIKA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)",
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SR)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SLOVENSKÁ REPUBLIKA)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SR)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,A.S.)"
+            ],
+            "old_count": 2,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -811,126 +885,19 @@
       }
     }
   ],
-  "total_changes": 24,
+  "total_changes": 28,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lukas.Parizek.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lukas.Parizek.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Lukas.Parizek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Lukas.Parizek.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SLOVENSKÁ REPUBLIKA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)",
-          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SR)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 12022,
-            "other": 63254
-          },
-          "new": {
-            "public_function": 25815,
-            "other": 4154
-          },
-          "old_total": 75276,
-          "new_total": 29969,
-          "delta": -45307,
-          "delta_pct": -60.2
-        },
-        {
-          "field": "employment",
-          "old": "HENEKEN, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nTECHNISERV, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "TECHNISERV, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "6367",
-              "share": "100%"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "6367",
-              "share": "100%"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "3951",
-              "share": "100%"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "6367",
-              "share": "100%"
-            },
-            {
-              "type": "NEBYTOVY PRIESTOR",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "6367",
-              "share": "100%"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "VINOHRADY",
-              "lv_number": "3951",
-              "share": "100%"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 3
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "ÚVER NA BÝVANIE",
-              "share": "100%",
-              "date": "17. 03. 2022"
-            },
-            {
-              "type": "ÚVER NA BÝVANIE",
-              "share": "50%",
-              "date": "25. 01. 2023"
-            }
-          ],
-          "new": [
-            {
-              "type": "ÚVER NA BÝVANIE",
-              "share": "50%",
-              "date": "17. 03. 2022"
-            },
-            {
-              "type": "ÚVER NA BÝVANIE",
-              "share": "50%",
-              "date": "25. 01. 2023"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 75 276 € → 29 969 € (-45 307 €)",
-      "Zamestnanie",
-      "Nehnuteľnosti: 3 → 3 (0)",
-      "Záväzky: 2 → 2 (0)"
-    ]
+    "summary": []
   },
   "slug": "mgr-lukas-parizek",
   "context": {
@@ -940,7 +907,7 @@
     "obligations": 2,
     "income_percentile": 29,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.7

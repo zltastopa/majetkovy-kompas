@@ -2,6 +2,9 @@
   "user_id": "Martin.Puchalla",
   "name": "JUDr. Martin Puchalla, PhD.",
   "public_function": "člen Súdnej rady Slovenskej republiky",
+  "public_functions": [
+    "člen Súdnej rady Slovenskej republiky"
+  ],
   "role": "člen Súdnej rady Slovenskej republiky",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen Súdnej rady Slovenskej republiky",
+        "public_functions": [
+          "člen Súdnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -32,12 +38,6 @@
           }
         ],
         "real_estate": [
-          {
-            "type": "ROZOSTAVANÝ RODINNÝ DOM, POZEMOK",
-            "cadastral_territory": "MALÁ IDA",
-            "lv_number": "1603",
-            "share": "1/1"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "KOŠICE - STARÉ MESTO",
@@ -55,6 +55,12 @@
             "cadastral_territory": "HRIŠOVCE",
             "lv_number": "421, 602, 603, 608",
             "share": "SPOLUVLASTNÍK"
+          },
+          {
+            "type": "ROZOSTAVANÝ RODINNÝ DOM, POZEMOK",
+            "cadastral_territory": "MALÁ IDA",
+            "lv_number": "1603",
+            "share": "1/1"
           }
         ],
         "movable_property": null,
@@ -66,12 +72,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "28. 10. 2022"
+            "date": "10. 07. 2023"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "10. 07. 2023"
+            "date": "28. 10. 2022"
           }
         ],
         "use_of_others_real_estate": null,
@@ -91,6 +97,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen Súdnej rady Slovenskej republiky",
+        "public_functions": [
+          "člen Súdnej rady Slovenskej republiky"
+        ],
         "income": {
           "public_function": 12870,
           "other": 72393
@@ -106,12 +115,6 @@
           }
         ],
         "real_estate": [
-          {
-            "type": "ROZOSTAVANÝ RODINNÝ DOM, POZEMOK",
-            "cadastral_territory": "MALÁ IDA",
-            "lv_number": "1603",
-            "share": "1/1"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "KOŠICE STARÉ MESTO",
@@ -129,6 +132,12 @@
             "cadastral_territory": "HRIŠOVCE",
             "lv_number": "421,602,603,608",
             "share": "SPOLUVL. PODIEL"
+          },
+          {
+            "type": "ROZOSTAVANÝ RODINNÝ DOM, POZEMOK",
+            "cadastral_territory": "MALÁ IDA",
+            "lv_number": "1603",
+            "share": "1/1"
           }
         ],
         "movable_property": null,
@@ -140,12 +149,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "28. 10. 2022"
+            "date": "10. 07. 2023"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "10. 07. 2023"
+            "date": "28. 10. 2022"
           }
         ],
         "use_of_others_real_estate": null,
@@ -178,12 +187,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "ROZOSTAVANÝ RODINNÝ DOM, POZEMOK",
-                "cadastral_territory": "MALÁ IDA",
-                "lv_number": "1603",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "KOŠICE - STARÉ MESTO",
                 "lv_number": "12614",
@@ -200,15 +203,15 @@
                 "cadastral_territory": "HRIŠOVCE",
                 "lv_number": "421, 602, 603, 608",
                 "share": "SPOLUVLASTNÍK"
-              }
-            ],
-            "new": [
+              },
               {
                 "type": "ROZOSTAVANÝ RODINNÝ DOM, POZEMOK",
                 "cadastral_territory": "MALÁ IDA",
                 "lv_number": "1603",
                 "share": "1/1"
-              },
+              }
+            ],
+            "new": [
               {
                 "type": "BYT",
                 "cadastral_territory": "KOŠICE STARÉ MESTO",
@@ -226,6 +229,12 @@
                 "cadastral_territory": "HRIŠOVCE",
                 "lv_number": "421,602,603,608",
                 "share": "SPOLUVL. PODIEL"
+              },
+              {
+                "type": "ROZOSTAVANÝ RODINNÝ DOM, POZEMOK",
+                "cadastral_territory": "MALÁ IDA",
+                "lv_number": "1603",
+                "share": "1/1"
               }
             ],
             "old_count": 4,
@@ -237,99 +246,17 @@
   ],
   "total_changes": 3,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Puchalla.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Puchalla.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Martin.Puchalla.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Martin.Puchalla.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 12870,
-            "other": 72393
-          },
-          "old_total": 0,
-          "new_total": 85263,
-          "delta": 85263
-        },
-        {
-          "field": "employment",
-          "old": null,
-          "new": "KRAJSKÝ SÚD V PREŠOVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "ROZOSTAVANÝ RODINNÝ DOM, POZEMOK",
-              "cadastral_territory": "MALÁ IDA",
-              "lv_number": "1603",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "KOŠICE - STARÉ MESTO",
-              "lv_number": "12614",
-              "share": "1/1"
-            },
-            {
-              "type": "PODIEL NA SPOLOČNEJ NEHNUTEĽNOSTI - URBÁR",
-              "cadastral_territory": "HRIŠOVCE",
-              "lv_number": "354, 24, 25, 133, 134, 151, 174, 255, 299",
-              "share": "SPOLUVLASTNÍK"
-            },
-            {
-              "type": "PODIEL NA SPOLOČNEJ NEHNUTEĽNOSTI - URBÁR",
-              "cadastral_territory": "HRIŠOVCE",
-              "lv_number": "421, 602, 603, 608",
-              "share": "SPOLUVLASTNÍK"
-            }
-          ],
-          "new": [
-            {
-              "type": "ROZOSTAVANÝ RODINNÝ DOM, POZEMOK",
-              "cadastral_territory": "MALÁ IDA",
-              "lv_number": "1603",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "KOŠICE STARÉ MESTO",
-              "lv_number": "12614",
-              "share": "1/1"
-            },
-            {
-              "type": "PODIEL NA SPOLOČNEJ NEHNUTEĽNOSTI - URBÁR",
-              "cadastral_territory": "HRIŠOVCE",
-              "lv_number": "354,24,25,133,134,151,174,255,299",
-              "share": "SPOLUVL. PODIEL"
-            },
-            {
-              "type": "PODIEL NA SPOLOČNEJ NEHNUTEĽNOSTI - URBÁR",
-              "cadastral_territory": "HRIŠOVCE",
-              "lv_number": "421,602,603,608",
-              "share": "SPOLUVL. PODIEL"
-            }
-          ],
-          "old_count": 4,
-          "new_count": 4
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 85 263 € (+85 263 €)",
-      "Zamestnanie",
-      "Nehnuteľnosti: 4 → 4 (0)"
-    ]
+    "summary": []
   },
   "slug": "judr-martin-puchalla-phd",
   "context": {
@@ -339,7 +266,7 @@
     "obligations": 2,
     "income_percentile": 81,
     "property_percentile": 60,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.7

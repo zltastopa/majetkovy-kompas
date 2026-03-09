@@ -1,8 +1,12 @@
 {
   "user_id": "Marek.Harbulak",
   "name": "Mgr. Marek Harbuľák",
-  "public_function": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ A.S.)",
-  "role": "štátny tajomník · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ A.S.)",
+  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ A.S.)\nštátny tajomník",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ A.S.)",
+    "štátny tajomník"
+  ],
+  "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ A.S.) · štátny tajomník",
   "years": [
     2022,
     2023,
@@ -18,6 +22,9 @@
         "year": 2022,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ, A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -49,10 +56,10 @@
         ],
         "real_estate": [
           {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "KAVEČANY",
-            "lv_number": "1675",
-            "share": "1/1"
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "LÚKA",
+            "lv_number": "1463",
+            "share": "BSM"
           },
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -61,10 +68,10 @@
             "share": "1/1"
           },
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "LÚKA",
-            "lv_number": "1463",
-            "share": "BSM"
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KAVEČANY",
+            "lv_number": "1675",
+            "share": "1/1"
           }
         ],
         "movable_property": [
@@ -106,7 +113,11 @@
         "name": "Mgr. MAREK HARBUĽÁK",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, A.S.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, A.S.)\nštátny tajomník",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, A.S.)",
+          "štátny tajomník"
+        ],
         "income": "neuvedené (z výkonu verejnej funkcie), neuvedené (iné)",
         "incompatibility": true,
         "employment": "MINISTERSTVO DOPRAVY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nASSECO CENTRAL EUROPE, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nREPUBLIKOVÁ ÚNIA ZAMESTNÁVATEĽOV SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nASOCIÁCIA HOTELOV A REŠTAURÁCIÍ SLOVENSKA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nZVÄZ CESTOVNÉHO RUCHU SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nHOSPITALITY PA S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nTIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
@@ -135,10 +146,10 @@
         ],
         "real_estate": [
           {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "KAVEČANY",
-            "lv_number": "1675",
-            "share": "1/1"
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "LÚKA",
+            "lv_number": "1463",
+            "share": "BSM"
           },
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -147,10 +158,10 @@
             "share": "1/1"
           },
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "LÚKA",
-            "lv_number": "1463",
-            "share": "BSM"
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KAVEČANY",
+            "lv_number": "1675",
+            "share": "1/1"
           }
         ],
         "movable_property": [
@@ -186,7 +197,19 @@
           {
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ, A.S.)",
-            "new": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, A.S.)"
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, A.S.)\nštátny tajomník"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, A.S.)",
+              "štátny tajomník"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -266,7 +289,11 @@
         "name": "Mgr. MAREK HARBUĽÁK",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ A.S.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ A.S.)\nštátny tajomník",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ A.S.)",
+          "štátny tajomník"
+        ],
         "income": {
           "public_function": 57895,
           "other": 6076
@@ -281,22 +308,22 @@
             "benefits": "ŽIADNE"
           },
           {
-            "role": "ČLEN PREZÍDIA",
-            "organization": "REPUBLIKOVÁ ÚNIA ZAMESTNÁVATEĽOV",
+            "role": "PREZIDENT (ŠTATUTÁRNY ORGÁN)",
+            "organization": "ASOCIÁCIA HOTELOV A REŠTAURÁCIÍ SLOVENSKA",
             "benefits": "ŽIADNE"
           },
           {
-            "role": "PREZIDENT (ŠTATUTÁRNY ORGÁN)",
-            "organization": "ASOCIÁCIA HOTELOV A REŠTAURÁCIÍ SLOVENSKA",
+            "role": "ČLEN PREZÍDIA",
+            "organization": "REPUBLIKOVÁ ÚNIA ZAMESTNÁVATEĽOV",
             "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
           {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "KAVEČANY",
-            "lv_number": "1675",
-            "share": "1/1"
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "LÚKA",
+            "lv_number": "1463",
+            "share": "BSM"
           },
           {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
@@ -305,10 +332,10 @@
             "share": "1/1"
           },
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "LÚKA",
-            "lv_number": "1463",
-            "share": "BSM"
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KAVEČANY",
+            "lv_number": "1675",
+            "share": "1/1"
           }
         ],
         "movable_property": [
@@ -343,8 +370,21 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, A.S.)",
-            "new": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ A.S.)"
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, A.S.)\nštátny tajomník",
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ A.S.)\nštátny tajomník"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, A.S.)",
+              "štátny tajomník"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ A.S.)",
+              "štátny tajomník"
+            ],
+            "old_count": 2,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -395,13 +435,13 @@
                 "benefits": "ŽIADNE"
               },
               {
-                "role": "ČLEN PREZÍDIA",
-                "organization": "REPUBLIKOVÁ ÚNIA ZAMESTNÁVATEĽOV",
+                "role": "PREZIDENT (ŠTATUTÁRNY ORGÁN)",
+                "organization": "ASOCIÁCIA HOTELOV A REŠTAURÁCIÍ SLOVENSKA",
                 "benefits": "ŽIADNE"
               },
               {
-                "role": "PREZIDENT (ŠTATUTÁRNY ORGÁN)",
-                "organization": "ASOCIÁCIA HOTELOV A REŠTAURÁCIÍ SLOVENSKA",
+                "role": "ČLEN PREZÍDIA",
+                "organization": "REPUBLIKOVÁ ÚNIA ZAMESTNÁVATEĽOV",
                 "benefits": "ŽIADNE"
               }
             ],
@@ -412,94 +452,19 @@
       }
     }
   ],
-  "total_changes": 10,
+  "total_changes": 12,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marek.Harbulak.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marek.Harbulak.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Marek.Harbulak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Marek.Harbulak.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, A.S.)",
-          "new": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ A.S.)"
-        },
-        {
-          "field": "income",
-          "old": "neuvedené (z výkonu verejnej funkcie), neuvedené (iné)",
-          "new": {
-            "public_function": 57895,
-            "other": 6076
-          }
-        },
-        {
-          "field": "employment",
-          "old": "MINISTERSTVO DOPRAVY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nASSECO CENTRAL EUROPE, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nREPUBLIKOVÁ ÚNIA ZAMESTNÁVATEĽOV SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nASOCIÁCIA HOTELOV A REŠTAURÁCIÍ SLOVENSKA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nZVÄZ CESTOVNÉHO RUCHU SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nHOSPITALITY PA S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nTIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "ASOCIÁCIA HOTELOV A REŠTAURÁCIÍ SLOVENSKA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nHOSPITALITY PA S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "business_activity",
-          "old": "KONATEĽ (UKONČENÉ K 31.12.2023)(HOSPITALITY PA S.R.O.)KONATEĽ (UKONČENÉ K 31.12.2023)(ZHR SR, S.R.O.)SZČO- ŽIVNOSTNÍK (POZASTAVENÉ K 18.1.2023)(Mgr. MAREK HARBUĽÁK)",
-          "new": null
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "PREDSEDA SEKTOROVEJ RADY",
-              "organization": "REPUBLIKOVÁ ÚNIA ZAMESTNÁVATEĽOV",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "PREZIDENT-ŠTATUTÁRNY ORGÁN",
-              "organization": "ASOCIÁCIA HOTELOV A REŠTAURÁCIÍ SLOVENSKA",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "PREZIDENT-ŠTATUTÁRNY ORGÁN",
-              "organization": "ZVÄZ CESTOVNÉHO RUCHU SLOVENSKEJ REPUBLIKY",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "ČLEN PREZÍDIA",
-              "organization": "REPUBLIKOVÁ ÚNIA ZAMESTNÁVATEĽOV",
-              "benefits": "ŽIADNE"
-            }
-          ],
-          "new": [
-            {
-              "role": "PREDSEDA SEKTOROVEJ RADY",
-              "organization": "REPUBLIKOVÁ ÚNIA ZAMESTNÁVATEĽOV",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "ČLEN PREZÍDIA",
-              "organization": "REPUBLIKOVÁ ÚNIA ZAMESTNÁVATEĽOV",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "PREZIDENT (ŠTATUTÁRNY ORGÁN)",
-              "organization": "ASOCIÁCIA HOTELOV A REŠTAURÁCIÍ SLOVENSKA",
-              "benefits": "ŽIADNE"
-            }
-          ],
-          "old_count": 4,
-          "new_count": 3
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy",
-      "Zamestnanie",
-      "Podnikanie",
-      "Funkcie: 4 → 3 (-1)"
-    ]
+    "summary": []
   },
   "slug": "mgr-marek-harbulak",
   "context": {
@@ -509,7 +474,7 @@
     "obligations": 2,
     "income_percentile": 66,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.6

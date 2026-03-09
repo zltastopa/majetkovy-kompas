@@ -1,7 +1,11 @@
 {
   "user_id": "Ivan.Sajban",
   "name": "Ing. Ivan Šajban",
-  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA, A.S.)",
+  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA, A.S.)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)",
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA, A.S.)"
+  ],
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA, A.S.)",
   "years": [
     2023,
@@ -16,7 +20,11 @@
         "name": "Ing. IVAN ŠAJBAN",
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA A.S.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -29,13 +37,13 @@
           {
             "type": "BYT",
             "cadastral_territory": "BRATISLAVA - RUŽINOV",
-            "lv_number": "2548",
+            "lv_number": "2102",
             "share": "BSM"
           },
           {
             "type": "BYT",
             "cadastral_territory": "BRATISLAVA - RUŽINOV",
-            "lv_number": "2102",
+            "lv_number": "2548",
             "share": "BSM"
           },
           {
@@ -84,7 +92,11 @@
         "name": "Ing. IVAN ŠAJBAN",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA, A.S.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA, A.S.)"
+        ],
         "income": {
           "public_function": 23100,
           "other": 5400
@@ -97,13 +109,13 @@
           {
             "type": "BYT",
             "cadastral_territory": "BRATISLAVA - RUŽINOV",
-            "lv_number": "2548",
+            "lv_number": "2102",
             "share": "BSM"
           },
           {
             "type": "BYT",
             "cadastral_territory": "BRATISLAVA - RUŽINOV",
-            "lv_number": "2102",
+            "lv_number": "2548",
             "share": "BSM"
           },
           {
@@ -145,8 +157,21 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA A.S.)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA, A.S.)"
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA A.S.)",
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA, A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA, A.S.)"
+            ],
+            "old_count": 2,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -184,63 +209,19 @@
       }
     }
   ],
-  "total_changes": 4,
+  "total_changes": 5,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ivan.Sajban.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ivan.Sajban.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Ivan.Sajban.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Ivan.Sajban.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA A.S.)",
-          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA, A.S.)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 23100,
-            "other": 5400
-          },
-          "old_total": 0,
-          "new_total": 28500,
-          "delta": 28500
-        },
-        {
-          "field": "employment",
-          "old": "EEA, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nMINISTERSTVO HOSPODÁRSTVA SLVOENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
-          "new": "EEA, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO HOSPODÁRSTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "OBCHODNÝ PODIEL V SPOLOČNOSTI, podiel: 100%",
-            "PENAŽNÉ PROSTRIEDKY, podiel: BSM"
-          ],
-          "new": [
-            "OBCHODNÝ PODIEL V SPOLOČNOSTI, podiel: 100%",
-            "PEŇAŽNÉ PROSTRIEDKY, podiel: BSM"
-          ],
-          "old_count": 2,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 0 € → 28 500 € (+28 500 €)",
-      "Zamestnanie",
-      "Majetkové práva: 2 → 2 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-ivan-sajban",
   "context": {
@@ -250,7 +231,7 @@
     "obligations": 1,
     "income_percentile": 28,
     "property_percentile": 53,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.6

@@ -2,6 +2,9 @@
   "user_id": "Juraj.Marko",
   "name": "Ing. Juraj Marko",
   "public_function": "riaditeľ štátneho podniku (LESY SLOVENSKEJ REPUBLIKY, ŠTÁTNY PODNIK)",
+  "public_functions": [
+    "riaditeľ štátneho podniku (LESY SLOVENSKEJ REPUBLIKY, ŠTÁTNY PODNIK)"
+  ],
   "role": "riaditeľ štátneho podniku (LESY SLOVENSKEJ REPUBLIKY, ŠTÁTNY PODNIK)",
   "years": [
     2024
@@ -16,6 +19,9 @@
         "year": 2024,
         "filed": "pri ujatí sa funkcie",
         "public_function": "riaditeľ štátneho podniku (LESY SLOVENSKEJ REPUBLIKY, ŠTÁTNY PODNIK)",
+        "public_functions": [
+          "riaditeľ štátneho podniku (LESY SLOVENSKEJ REPUBLIKY, ŠTÁTNY PODNIK)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -32,6 +38,12 @@
             "share": "1/1"
           },
           {
+            "type": "APARTMÁNOVY DOM LINEA",
+            "cadastral_territory": "PIEŠŤANY",
+            "lv_number": "13038",
+            "share": "1/1"
+          },
+          {
             "type": "GARÁŽ",
             "cadastral_territory": "TOPOĽČANY",
             "lv_number": "26",
@@ -44,27 +56,33 @@
             "share": "2659/370507"
           },
           {
-            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "PIEŠŤANY",
-            "lv_number": "13062",
-            "share": "1/1"
-          },
-          {
             "type": "OSTATNÁ PLOCHA",
             "cadastral_territory": "PIEŠŤANY",
             "lv_number": "13038",
             "share": "1/1"
           },
           {
+            "type": "POSILŇOVŇA",
+            "cadastral_territory": "TOPOĽČANY",
+            "lv_number": "26",
+            "share": "1/1"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "TOPOĽČANY",
+            "lv_number": "26",
+            "share": "1/1"
+          },
+          {
             "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "PIEŠŤANY",
             "lv_number": "13038",
             "share": "1/1"
           },
           {
-            "type": "APARTMÁNOVY DOM LINEA",
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
             "cadastral_territory": "PIEŠŤANY",
-            "lv_number": "13038",
+            "lv_number": "13062",
             "share": "1/1"
           },
           {
@@ -78,31 +96,19 @@
             "cadastral_territory": "TOPOĽČANY",
             "lv_number": "26",
             "share": "1/1"
-          },
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "TOPOĽČANY",
-            "lv_number": "26",
-            "share": "1/1"
-          },
-          {
-            "type": "POSILŇOVŇA",
-            "cadastral_territory": "TOPOĽČANY",
-            "lv_number": "26",
-            "share": "1/1"
           }
         ],
         "movable_property": [
           {
             "type": "MOTOROVÉ VOZIDLO",
-            "brand": "ŠKODA",
-            "year_of_manufacture": 2025,
+            "brand": "LEXUS",
+            "year_of_manufacture": 2021,
             "share": "1/1"
           },
           {
             "type": "MOTOROVÉ VOZIDLO",
-            "brand": "LEXUS",
-            "year_of_manufacture": 2021,
+            "brand": "ŠKODA",
+            "year_of_manufacture": 2025,
             "share": "1/1"
           }
         ],
@@ -126,15 +132,15 @@
   ],
   "total_changes": 0,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Marko.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Marko.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Juraj.Marko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Juraj.Marko.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
@@ -146,7 +152,7 @@
     "obligations": 1,
     "income_percentile": 0,
     "property_percentile": 86,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0

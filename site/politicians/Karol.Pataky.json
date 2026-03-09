@@ -2,6 +2,9 @@
   "user_id": "Karol.Pataky",
   "name": "Ing. Karol Pataky",
   "public_function": "primátor mesta",
+  "public_functions": [
+    "primátor mesta"
+  ],
   "role": "primátor mesta",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 47893,
           "other": 6295
@@ -42,6 +48,12 @@
         ],
         "real_estate": [
           {
+            "type": "BYT",
+            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+            "lv_number": "8715",
+            "share": "BSM"
+          },
+          {
             "type": "GARÁŽ",
             "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
             "lv_number": "3340",
@@ -49,38 +61,32 @@
           },
           {
             "type": "RODINNÝ DOM",
-            "cadastral_territory": "PEREŠ",
-            "lv_number": "237",
-            "share": "1/2"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "PEREŠ",
-            "lv_number": "237",
+            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+            "lv_number": "76",
             "share": "1/2"
           },
           {
             "type": "RODINNÝ DOM",
-            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-            "lv_number": "76",
+            "cadastral_territory": "PEREŠ",
+            "lv_number": "237",
             "share": "1/2"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-            "lv_number": "76",
-            "share": "1/2"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-            "lv_number": "8715",
-            "share": "BSM"
           },
           {
             "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
             "cadastral_territory": "PÁCIN, MAĎARSKO",
             "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+            "lv_number": "76",
+            "share": "1/2"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "PEREŠ",
+            "lv_number": "237",
+            "share": "1/2"
           }
         ],
         "movable_property": null,
@@ -113,6 +119,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 52360,
           "other": 6983
@@ -122,29 +131,17 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "ČLEN DOZORNEJ RADY",
-            "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-            "benefits": "NEMÁM"
-          },
-          {
             "role": "POSLANEC",
             "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
             "benefits": "ODMENA"
+          },
+          {
+            "role": "ČLEN DOZORNEJ RADY",
+            "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+            "benefits": "NEMÁM"
           }
         ],
         "real_estate": [
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "KRÁĽOVSKY CHLMEC",
-            "lv_number": "76",
-            "share": "1/2"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "KRÁĽOVSKY CHLMEC",
-            "lv_number": "76",
-            "share": "1/2"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "KRÁĽOVSKY CHLMEC",
@@ -159,12 +156,12 @@
           },
           {
             "type": "RODINNÝ DOM",
-            "cadastral_territory": "PEREŠ",
-            "lv_number": "237",
+            "cadastral_territory": "KRÁĽOVSKY CHLMEC",
+            "lv_number": "76",
             "share": "1/2"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "RODINNÝ DOM",
             "cadastral_territory": "PEREŠ",
             "lv_number": "237",
             "share": "1/2"
@@ -173,6 +170,18 @@
             "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
             "cadastral_territory": "PÁCIN, MAĎARSKO",
             "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KRÁĽOVSKY CHLMEC",
+            "lv_number": "76",
+            "share": "1/2"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "PEREŠ",
+            "lv_number": "237",
+            "share": "1/2"
           }
         ],
         "movable_property": null,
@@ -226,14 +235,14 @@
             ],
             "new": [
               {
-                "role": "ČLEN DOZORNEJ RADY",
-                "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-                "benefits": "NEMÁM"
-              },
-              {
                 "role": "POSLANEC",
                 "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
                 "benefits": "ODMENA"
+              },
+              {
+                "role": "ČLEN DOZORNEJ RADY",
+                "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+                "benefits": "NEMÁM"
               }
             ],
             "old_count": 2,
@@ -243,6 +252,12 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "BYT",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "8715",
+                "share": "BSM"
+              },
+              {
                 "type": "GARÁŽ",
                 "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
                 "lv_number": "3340",
@@ -250,54 +265,36 @@
               },
               {
                 "type": "RODINNÝ DOM",
-                "cadastral_territory": "PEREŠ",
-                "lv_number": "237",
-                "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "PEREŠ",
-                "lv_number": "237",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
                 "share": "1/2"
               },
               {
                 "type": "RODINNÝ DOM",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
+                "cadastral_territory": "PEREŠ",
+                "lv_number": "237",
                 "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "8715",
-                "share": "BSM"
               },
               {
                 "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
                 "cadastral_territory": "PÁCIN, MAĎARSKO",
                 "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
+                "share": "1/2"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "PEREŠ",
+                "lv_number": "237",
+                "share": "1/2"
               }
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "KRÁĽOVSKY CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "KRÁĽOVSKY CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "KRÁĽOVSKY CHLMEC",
                 "lv_number": "8715",
@@ -311,12 +308,12 @@
               },
               {
                 "type": "RODINNÝ DOM",
-                "cadastral_territory": "PEREŠ",
-                "lv_number": "237",
+                "cadastral_territory": "KRÁĽOVSKY CHLMEC",
+                "lv_number": "76",
                 "share": "1/2"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "PEREŠ",
                 "lv_number": "237",
                 "share": "1/2"
@@ -325,6 +322,18 @@
                 "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
                 "cadastral_territory": "PÁCIN, MAĎARSKO",
                 "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KRÁĽOVSKY CHLMEC",
+                "lv_number": "76",
+                "share": "1/2"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "PEREŠ",
+                "lv_number": "237",
+                "share": "1/2"
               }
             ],
             "old_count": 7,
@@ -342,6 +351,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 52916,
           "other": 7476
@@ -351,29 +363,17 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "ČLEN DOZORNEJ RADY",
-            "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-            "benefits": "ŽIADNE"
-          },
-          {
             "role": "POSLANEC",
             "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
             "benefits": "ODMENA"
+          },
+          {
+            "role": "ČLEN DOZORNEJ RADY",
+            "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+            "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-            "lv_number": "76",
-            "share": "1/2"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-            "lv_number": "76",
-            "share": "1/2"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
@@ -388,12 +388,12 @@
           },
           {
             "type": "RODINNÝ DOM",
-            "cadastral_territory": "PEREŠ",
-            "lv_number": "237",
+            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+            "lv_number": "76",
             "share": "1/2"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "RODINNÝ DOM",
             "cadastral_territory": "PEREŠ",
             "lv_number": "237",
             "share": "1/2"
@@ -402,6 +402,18 @@
             "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
             "cadastral_territory": "PÁCIN, MAĎARSKO",
             "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+            "lv_number": "76",
+            "share": "1/2"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "PEREŠ",
+            "lv_number": "237",
+            "share": "1/2"
           }
         ],
         "movable_property": null,
@@ -443,26 +455,26 @@
             "field": "positions",
             "old": [
               {
-                "role": "ČLEN DOZORNEJ RADY",
-                "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-                "benefits": "NEMÁM"
-              },
-              {
                 "role": "POSLANEC",
                 "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
                 "benefits": "ODMENA"
+              },
+              {
+                "role": "ČLEN DOZORNEJ RADY",
+                "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+                "benefits": "NEMÁM"
               }
             ],
             "new": [
               {
-                "role": "ČLEN DOZORNEJ RADY",
-                "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-                "benefits": "ŽIADNE"
-              },
-              {
                 "role": "POSLANEC",
                 "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
                 "benefits": "ODMENA"
+              },
+              {
+                "role": "ČLEN DOZORNEJ RADY",
+                "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+                "benefits": "ŽIADNE"
               }
             ],
             "old_count": 2,
@@ -472,18 +484,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "KRÁĽOVSKY CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "KRÁĽOVSKY CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "KRÁĽOVSKY CHLMEC",
                 "lv_number": "8715",
@@ -497,12 +497,12 @@
               },
               {
                 "type": "RODINNÝ DOM",
-                "cadastral_territory": "PEREŠ",
-                "lv_number": "237",
+                "cadastral_territory": "KRÁĽOVSKY CHLMEC",
+                "lv_number": "76",
                 "share": "1/2"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "PEREŠ",
                 "lv_number": "237",
                 "share": "1/2"
@@ -511,22 +511,22 @@
                 "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
                 "cadastral_territory": "PÁCIN, MAĎARSKO",
                 "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KRÁĽOVSKY CHLMEC",
+                "lv_number": "76",
+                "share": "1/2"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "PEREŠ",
+                "lv_number": "237",
+                "share": "1/2"
               }
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
                 "lv_number": "8715",
@@ -540,12 +540,12 @@
               },
               {
                 "type": "RODINNÝ DOM",
-                "cadastral_territory": "PEREŠ",
-                "lv_number": "237",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
                 "share": "1/2"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "PEREŠ",
                 "lv_number": "237",
                 "share": "1/2"
@@ -554,6 +554,18 @@
                 "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
                 "cadastral_territory": "PÁCIN, MAĎARSKO",
                 "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
+                "share": "1/2"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "PEREŠ",
+                "lv_number": "237",
+                "share": "1/2"
               }
             ],
             "old_count": 7,
@@ -571,6 +583,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 55981,
           "other": 8801
@@ -580,34 +595,17 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "ČLEN DOZORNEJ RADY",
-            "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-            "benefits": "NEMÁM"
-          },
-          {
             "role": "POSLANEC",
             "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
             "benefits": "ODMENA"
+          },
+          {
+            "role": "ČLEN DOZORNEJ RADY",
+            "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+            "benefits": "NEMÁM"
           }
         ],
         "real_estate": [
-          {
-            "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
-            "cadastral_territory": "PÁCIN, MAĎARSKO",
-            "share": "1/2"
-          },
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "KRÁĽOVSKY CHLMEC",
-            "lv_number": "76",
-            "share": "1/2"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-            "lv_number": "76",
-            "share": "1/2"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
@@ -622,8 +620,25 @@
           },
           {
             "type": "RODINNÝ DOM",
+            "cadastral_territory": "KRÁĽOVSKY CHLMEC",
+            "lv_number": "76",
+            "share": "1/2"
+          },
+          {
+            "type": "RODINNÝ DOM",
             "cadastral_territory": "PEREŠ",
             "lv_number": "237",
+            "share": "1/2"
+          },
+          {
+            "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
+            "cadastral_territory": "PÁCIN, MAĎARSKO",
+            "share": "1/2"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+            "lv_number": "76",
             "share": "1/2"
           },
           {
@@ -672,26 +687,26 @@
             "field": "positions",
             "old": [
               {
-                "role": "ČLEN DOZORNEJ RADY",
-                "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-                "benefits": "ŽIADNE"
-              },
-              {
                 "role": "POSLANEC",
                 "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
                 "benefits": "ODMENA"
+              },
+              {
+                "role": "ČLEN DOZORNEJ RADY",
+                "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+                "benefits": "ŽIADNE"
               }
             ],
             "new": [
               {
-                "role": "ČLEN DOZORNEJ RADY",
-                "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-                "benefits": "NEMÁM"
-              },
-              {
                 "role": "POSLANEC",
                 "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
                 "benefits": "ODMENA"
+              },
+              {
+                "role": "ČLEN DOZORNEJ RADY",
+                "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+                "benefits": "NEMÁM"
               }
             ],
             "old_count": 2,
@@ -701,18 +716,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
                 "lv_number": "8715",
@@ -726,12 +729,12 @@
               },
               {
                 "type": "RODINNÝ DOM",
-                "cadastral_territory": "PEREŠ",
-                "lv_number": "237",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
                 "share": "1/2"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "PEREŠ",
                 "lv_number": "237",
                 "share": "1/2"
@@ -740,27 +743,22 @@
                 "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
                 "cadastral_territory": "PÁCIN, MAĎARSKO",
                 "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
+                "share": "1/2"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "PEREŠ",
+                "lv_number": "237",
+                "share": "1/2"
               }
             ],
             "new": [
               {
-                "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
-                "cadastral_territory": "PÁCIN, MAĎARSKO",
-                "share": "1/2"
-              },
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "KRÁĽOVSKY CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
                 "lv_number": "8715",
@@ -774,8 +772,25 @@
               },
               {
                 "type": "RODINNÝ DOM",
+                "cadastral_territory": "KRÁĽOVSKY CHLMEC",
+                "lv_number": "76",
+                "share": "1/2"
+              },
+              {
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "PEREŠ",
                 "lv_number": "237",
+                "share": "1/2"
+              },
+              {
+                "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
+                "cadastral_territory": "PÁCIN, MAĎARSKO",
+                "share": "1/2"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
                 "share": "1/2"
               },
               {
@@ -800,6 +815,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 57708,
           "other": 16850
@@ -809,29 +827,17 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "ČLEN DOZORNEJ RADY",
-            "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-            "benefits": "NEMÁM"
-          },
-          {
             "role": "POSLANEC",
             "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
             "benefits": "ODMENA"
+          },
+          {
+            "role": "ČLEN DOZORNEJ RADY",
+            "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+            "benefits": "NEMÁM"
           }
         ],
         "real_estate": [
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-            "lv_number": "76",
-            "share": "1/2"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-            "lv_number": "76",
-            "share": "1/2"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
@@ -846,12 +852,12 @@
           },
           {
             "type": "RODINNÝ DOM",
-            "cadastral_territory": "PEREŠ",
-            "lv_number": "237",
+            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+            "lv_number": "76",
             "share": "1/2"
           },
           {
-            "type": "ZÁHRADA",
+            "type": "RODINNÝ DOM",
             "cadastral_territory": "PEREŠ",
             "lv_number": "237",
             "share": "1/2"
@@ -860,6 +866,18 @@
             "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
             "cadastral_territory": "PÁCIN, MAĎARSKO",
             "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+            "lv_number": "76",
+            "share": "1/2"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "PEREŠ",
+            "lv_number": "237",
+            "share": "1/2"
           }
         ],
         "movable_property": [
@@ -902,23 +920,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
-                "cadastral_territory": "PÁCIN, MAĎARSKO",
-                "share": "1/2"
-              },
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "KRÁĽOVSKY CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
                 "lv_number": "8715",
@@ -932,8 +933,25 @@
               },
               {
                 "type": "RODINNÝ DOM",
+                "cadastral_territory": "KRÁĽOVSKY CHLMEC",
+                "lv_number": "76",
+                "share": "1/2"
+              },
+              {
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "PEREŠ",
                 "lv_number": "237",
+                "share": "1/2"
+              },
+              {
+                "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
+                "cadastral_territory": "PÁCIN, MAĎARSKO",
+                "share": "1/2"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
                 "share": "1/2"
               },
               {
@@ -945,18 +963,6 @@
             ],
             "new": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
                 "lv_number": "8715",
@@ -970,12 +976,12 @@
               },
               {
                 "type": "RODINNÝ DOM",
-                "cadastral_territory": "PEREŠ",
-                "lv_number": "237",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
                 "share": "1/2"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "PEREŠ",
                 "lv_number": "237",
                 "share": "1/2"
@@ -984,6 +990,18 @@
                 "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
                 "cadastral_territory": "PÁCIN, MAĎARSKO",
                 "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
+                "share": "1/2"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "PEREŠ",
+                "lv_number": "237",
+                "share": "1/2"
               }
             ],
             "old_count": 7,
@@ -1024,6 +1042,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 62662,
           "other": 18005
@@ -1045,23 +1066,6 @@
         ],
         "real_estate": [
           {
-            "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
-            "cadastral_territory": "PÁCIN, MAĎARSKO",
-            "share": "1/2"
-          },
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-            "lv_number": "76",
-            "share": "1/2"
-          },
-          {
-            "type": "ZÁHRADA",
-            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-            "lv_number": "76",
-            "share": "1/2"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
             "lv_number": "8715",
@@ -1075,8 +1079,25 @@
           },
           {
             "type": "RODINNÝ DOM",
+            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+            "lv_number": "76",
+            "share": "1/2"
+          },
+          {
+            "type": "RODINNÝ DOM",
             "cadastral_territory": "PEREŠ",
             "lv_number": "237",
+            "share": "1/2"
+          },
+          {
+            "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
+            "cadastral_territory": "PÁCIN, MAĎARSKO",
+            "share": "1/2"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+            "lv_number": "76",
             "share": "1/2"
           },
           {
@@ -1123,50 +1144,9 @@
             "delta_pct": 8.2
           },
           {
-            "field": "positions",
-            "old": [
-              {
-                "role": "ČLEN DOZORNEJ RADY",
-                "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-                "benefits": "NEMÁM"
-              },
-              {
-                "role": "POSLANEC",
-                "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
-                "benefits": "ODMENA"
-              }
-            ],
-            "new": [
-              {
-                "role": "POSLANEC",
-                "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
-                "benefits": "ODMENA"
-              },
-              {
-                "role": "ČLEN DOZORNEJ RADY",
-                "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-                "benefits": "NEMÁM"
-              }
-            ],
-            "old_count": 2,
-            "new_count": 2
-          },
-          {
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
                 "lv_number": "8715",
@@ -1180,12 +1160,12 @@
               },
               {
                 "type": "RODINNÝ DOM",
-                "cadastral_territory": "PEREŠ",
-                "lv_number": "237",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
                 "share": "1/2"
               },
               {
-                "type": "ZÁHRADA",
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "PEREŠ",
                 "lv_number": "237",
                 "share": "1/2"
@@ -1194,27 +1174,22 @@
                 "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
                 "cadastral_territory": "PÁCIN, MAĎARSKO",
                 "share": "BSM"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
+                "share": "1/2"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "PEREŠ",
+                "lv_number": "237",
+                "share": "1/2"
               }
             ],
             "new": [
               {
-                "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
-                "cadastral_territory": "PÁCIN, MAĎARSKO",
-                "share": "1/2"
-              },
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
-                "type": "ZÁHRADA",
-                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-                "lv_number": "76",
-                "share": "1/2"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
                 "lv_number": "8715",
@@ -1228,8 +1203,25 @@
               },
               {
                 "type": "RODINNÝ DOM",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
+                "share": "1/2"
+              },
+              {
+                "type": "RODINNÝ DOM",
                 "cadastral_territory": "PEREŠ",
                 "lv_number": "237",
+                "share": "1/2"
+              },
+              {
+                "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
+                "cadastral_territory": "PÁCIN, MAĎARSKO",
+                "share": "1/2"
+              },
+              {
+                "type": "ZÁHRADA",
+                "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+                "lv_number": "76",
                 "share": "1/2"
               },
               {
@@ -1246,160 +1238,19 @@
       }
     }
   ],
-  "total_changes": 16,
+  "total_changes": 15,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Karol.Pataky.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Karol.Pataky.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Karol.Pataky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Karol.Pataky.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 57708,
-            "other": 16850
-          },
-          "new": {
-            "public_function": 62662,
-            "other": 18005
-          },
-          "old_total": 74558,
-          "new_total": 80667,
-          "delta": 6109,
-          "delta_pct": 8.2
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "ČLEN DOZORNEJ RADY",
-              "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-              "benefits": "NEMÁM"
-            },
-            {
-              "role": "POSLANEC",
-              "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
-              "benefits": "ODMENA"
-            }
-          ],
-          "new": [
-            {
-              "role": "POSLANEC",
-              "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
-              "benefits": "ODMENA"
-            },
-            {
-              "role": "ČLEN DOZORNEJ RADY",
-              "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-              "benefits": "NEMÁM"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 2
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-              "lv_number": "76",
-              "share": "1/2"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-              "lv_number": "76",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-              "lv_number": "8715",
-              "share": "BSM"
-            },
-            {
-              "type": "GARÁŽ",
-              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-              "lv_number": "3340",
-              "share": "1/1"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "PEREŠ",
-              "lv_number": "237",
-              "share": "1/2"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "PEREŠ",
-              "lv_number": "237",
-              "share": "1/2"
-            },
-            {
-              "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
-              "cadastral_territory": "PÁCIN, MAĎARSKO",
-              "share": "BSM"
-            }
-          ],
-          "new": [
-            {
-              "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
-              "cadastral_territory": "PÁCIN, MAĎARSKO",
-              "share": "1/2"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-              "lv_number": "76",
-              "share": "1/2"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-              "lv_number": "76",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-              "lv_number": "8715",
-              "share": "1/2"
-            },
-            {
-              "type": "GARÁŽ",
-              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
-              "lv_number": "3340",
-              "share": "1/1"
-            },
-            {
-              "type": "RODINNÝ DOM",
-              "cadastral_territory": "PEREŠ",
-              "lv_number": "237",
-              "share": "1/2"
-            },
-            {
-              "type": "ZÁHRADA",
-              "cadastral_territory": "PEREŠ",
-              "lv_number": "237",
-              "share": "1/2"
-            }
-          ],
-          "old_count": 7,
-          "new_count": 7
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 74 558 € → 80 667 € (+6 109 €)",
-      "Funkcie: 2 → 2 (0)",
-      "Nehnuteľnosti: 7 → 7 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-karol-pataky",
   "context": {
@@ -1409,7 +1260,7 @@
     "obligations": 1,
     "income_percentile": 79,
     "property_percentile": 77,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.5

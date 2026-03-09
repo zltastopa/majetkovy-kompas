@@ -2,6 +2,9 @@
   "user_id": "Milan.Valasik",
   "name": "JUDr. Milan Valašík",
   "public_function": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SLOVENSKEJ REPUBLIKY)",
+  "public_functions": [
+    "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SLOVENSKEJ REPUBLIKY)"
+  ],
   "role": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SLOVENSKEJ REPUBLIKY)",
   "years": [
     2019,
@@ -20,7 +23,11 @@
         "name": "JUDr. MILAN VALAŠÍK",
         "year": 2019,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -39,7 +46,7 @@
         ],
         "movable_property": [
           {
-            "type": "ŠPERKY",
+            "type": "DRAHÉ KOVY",
             "share": "1/1"
           },
           {
@@ -47,13 +54,13 @@
             "share": "1/1"
           },
           {
-            "type": "DRAHÉ KOVY",
+            "type": "ŠPERKY",
             "share": "1/1"
           }
         ],
         "property_rights": [
-          "ÚSPORY, podiel: 1/1",
-          "PODIELY A AKCIE, podiel: 1/1"
+          "PODIELY A AKCIE, podiel: 1/1",
+          "ÚSPORY, podiel: 1/1"
         ],
         "obligations": [
           {
@@ -76,7 +83,11 @@
         "name": "JUDr. MILAN VALAŠÍK",
         "year": 2020,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL, A.S., BRATISLAVA)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL, A.S., BRATISLAVA)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL, A.S., BRATISLAVA)"
+        ],
         "income": {
           "public_function": 9711,
           "other": 17322
@@ -87,16 +98,16 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "PARKOVACIE STÁTIE",
-            "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
-            "lv_number": "3899",
-            "share": "1/189"
-          },
-          {
             "type": "PARCELA",
             "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
             "lv_number": "3144",
             "share": "224330/481960206"
+          },
+          {
+            "type": "PARKOVACIE STÁTIE",
+            "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+            "lv_number": "3899",
+            "share": "1/189"
           }
         ],
         "movable_property": [
@@ -131,8 +142,21 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL, A.S., BRATISLAVA)"
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL A.S.)",
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL, A.S., BRATISLAVA)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL, A.S., BRATISLAVA)"
+            ],
+            "old_count": 2,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -170,16 +194,16 @@
             ],
             "new": [
               {
-                "type": "PARKOVACIE STÁTIE",
-                "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
-                "lv_number": "3899",
-                "share": "1/189"
-              },
-              {
                 "type": "PARCELA",
                 "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
                 "lv_number": "3144",
                 "share": "224330/481960206"
+              },
+              {
+                "type": "PARKOVACIE STÁTIE",
+                "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+                "lv_number": "3899",
+                "share": "1/189"
               }
             ],
             "old_count": 1,
@@ -189,7 +213,7 @@
             "field": "movable_property",
             "old": [
               {
-                "type": "ŠPERKY",
+                "type": "DRAHÉ KOVY",
                 "share": "1/1"
               },
               {
@@ -197,7 +221,7 @@
                 "share": "1/1"
               },
               {
-                "type": "DRAHÉ KOVY",
+                "type": "ŠPERKY",
                 "share": "1/1"
               }
             ],
@@ -221,8 +245,8 @@
           {
             "field": "property_rights",
             "old": [
-              "ÚSPORY, podiel: 1/1",
-              "PODIELY A AKCIE, podiel: 1/1"
+              "PODIELY A AKCIE, podiel: 1/1",
+              "ÚSPORY, podiel: 1/1"
             ],
             "new": [
               "CENNÉ PAPIERE, podiel: 1/1",
@@ -243,6 +267,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)"
+        ],
         "income": {
           "public_function": 2272,
           "other": 7575
@@ -253,16 +280,16 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "PARKOVACIE STÁTIE",
-            "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
-            "lv_number": "3899",
-            "share": "1/189"
-          },
-          {
             "type": "PARCELA",
             "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
             "lv_number": "3144",
             "share": "224330/481960206"
+          },
+          {
+            "type": "PARKOVACIE STÁTIE",
+            "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+            "lv_number": "3899",
+            "share": "1/189"
           }
         ],
         "movable_property": [
@@ -297,8 +324,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL, A.S., BRATISLAVA)",
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL, A.S., BRATISLAVA)",
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL, A.S., BRATISLAVA)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)"
+            ],
+            "old_count": 2,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -337,6 +376,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)"
+        ],
         "income": {
           "public_function": 720,
           "other": 7794
@@ -347,16 +389,16 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "PARKOVACIE STÁTIE",
-            "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
-            "lv_number": "3399",
-            "share": "1/189"
-          },
-          {
             "type": "PARCELA",
             "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
             "lv_number": "3144",
             "share": "224330/481960206"
+          },
+          {
+            "type": "PARKOVACIE STÁTIE",
+            "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+            "lv_number": "3399",
+            "share": "1/189"
           }
         ],
         "movable_property": [
@@ -394,6 +436,17 @@
             "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)"
           },
           {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES, A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)"
+            ],
+            "old_count": 1,
+            "new_count": 1
+          },
+          {
             "field": "income",
             "old": {
               "public_function": 2272,
@@ -417,30 +470,30 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "PARCELA",
+                "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+                "lv_number": "3144",
+                "share": "224330/481960206"
+              },
+              {
                 "type": "PARKOVACIE STÁTIE",
                 "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
                 "lv_number": "3899",
                 "share": "1/189"
-              },
+              }
+            ],
+            "new": [
               {
                 "type": "PARCELA",
                 "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
                 "lv_number": "3144",
                 "share": "224330/481960206"
-              }
-            ],
-            "new": [
+              },
               {
                 "type": "PARKOVACIE STÁTIE",
                 "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
                 "lv_number": "3399",
                 "share": "1/189"
-              },
-              {
-                "type": "PARCELA",
-                "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
-                "lv_number": "3144",
-                "share": "224330/481960206"
               }
             ],
             "old_count": 2,
@@ -470,6 +523,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)"
+        ],
         "income": {
           "public_function": 720,
           "other": 8404
@@ -480,16 +536,16 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "PARKOVACIE STÁTIE",
-            "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
-            "lv_number": "3899",
-            "share": "1/189"
-          },
-          {
             "type": "PARCELA",
             "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
             "lv_number": "3144",
             "share": "224330/481960206"
+          },
+          {
+            "type": "PARKOVACIE STÁTIE",
+            "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+            "lv_number": "3899",
+            "share": "1/189"
           }
         ],
         "movable_property": [
@@ -507,8 +563,8 @@
           }
         ],
         "property_rights": [
-          "OBCHODNÉ PODIELY, podiel: 1/1",
-          "AKCIE, podiel: 1/1"
+          "AKCIE, podiel: 1/1",
+          "OBCHODNÉ PODIELY, podiel: 1/1"
         ],
         "obligations": [
           {
@@ -546,30 +602,30 @@
             "field": "real_estate",
             "old": [
               {
+                "type": "PARCELA",
+                "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+                "lv_number": "3144",
+                "share": "224330/481960206"
+              },
+              {
                 "type": "PARKOVACIE STÁTIE",
                 "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
                 "lv_number": "3399",
                 "share": "1/189"
-              },
+              }
+            ],
+            "new": [
               {
                 "type": "PARCELA",
                 "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
                 "lv_number": "3144",
                 "share": "224330/481960206"
-              }
-            ],
-            "new": [
+              },
               {
                 "type": "PARKOVACIE STÁTIE",
                 "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
                 "lv_number": "3899",
                 "share": "1/189"
-              },
-              {
-                "type": "PARCELA",
-                "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
-                "lv_number": "3144",
-                "share": "224330/481960206"
               }
             ],
             "old_count": 2,
@@ -581,8 +637,8 @@
               "OBCHODNÉ PODIELY, podiel: 1/1"
             ],
             "new": [
-              "OBCHODNÉ PODIELY, podiel: 1/1",
-              "AKCIE, podiel: 1/1"
+              "AKCIE, podiel: 1/1",
+              "OBCHODNÉ PODIELY, podiel: 1/1"
             ],
             "old_count": 1,
             "new_count": 2
@@ -599,6 +655,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SLOVENSKEJ REPUBLIKY)",
+        "public_functions": [
+          "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SLOVENSKEJ REPUBLIKY)"
+        ],
         "income": {
           "public_function": 23146,
           "other": 0
@@ -609,16 +668,16 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "PARKOVACIE STÁTIE",
-            "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
-            "lv_number": "3899",
-            "share": "1/189"
-          },
-          {
             "type": "PARCELA",
             "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
             "lv_number": "3144",
             "share": "224330/481960206"
+          },
+          {
+            "type": "PARKOVACIE STÁTIE",
+            "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+            "lv_number": "3899",
+            "share": "1/189"
           }
         ],
         "movable_property": [
@@ -636,8 +695,8 @@
           }
         ],
         "property_rights": [
-          "OBCHODNÉ PODIELY , podiel: 1/1",
-          "AKCIE , podiel: 1/1"
+          "AKCIE , podiel: 1/1",
+          "OBCHODNÉ PODIELY , podiel: 1/1"
         ],
         "obligations": [
           {
@@ -655,6 +714,17 @@
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)",
             "new": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SLOVENSKEJ REPUBLIKY)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)"
+            ],
+            "new": [
+              "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SLOVENSKEJ REPUBLIKY)"
+            ],
+            "old_count": 1,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -684,12 +754,12 @@
           {
             "field": "property_rights",
             "old": [
-              "OBCHODNÉ PODIELY, podiel: 1/1",
-              "AKCIE, podiel: 1/1"
+              "AKCIE, podiel: 1/1",
+              "OBCHODNÉ PODIELY, podiel: 1/1"
             ],
             "new": [
-              "OBCHODNÉ PODIELY , podiel: 1/1",
-              "AKCIE , podiel: 1/1"
+              "AKCIE , podiel: 1/1",
+              "OBCHODNÉ PODIELY , podiel: 1/1"
             ],
             "old_count": 2,
             "new_count": 2
@@ -698,70 +768,19 @@
       }
     }
   ],
-  "total_changes": 25,
+  "total_changes": 29,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Milan.Valasik.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Milan.Valasik.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Milan.Valasik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Milan.Valasik.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)",
-          "new": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SLOVENSKEJ REPUBLIKY)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 720,
-            "other": 8404
-          },
-          "new": {
-            "public_function": 23146,
-            "other": 0
-          },
-          "old_total": 9124,
-          "new_total": 23146,
-          "delta": 14022,
-          "delta_pct": 153.7
-        },
-        {
-          "field": "employment",
-          "old": "BEKAPE A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": null
-        },
-        {
-          "field": "business_activity",
-          "old": "KONATEĽ(SPORT PALACE S.R.O.)KONATEĽ(NBC BRATISLAVA S.R.O.)KONATEĽ(CLP FINANCE S.R.O.)KONATEĽ(MARINEA S.R.O. V KONKURZE)KONATEĽ(ADVOKÁTSKA KANCELÁRIA VALASIK & PARTNER S.R.O.)KONATEĽ(ROYALDERM S.R.O.)",
-          "new": null
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "OBCHODNÉ PODIELY, podiel: 1/1",
-            "AKCIE, podiel: 1/1"
-          ],
-          "new": [
-            "OBCHODNÉ PODIELY , podiel: 1/1",
-            "AKCIE , podiel: 1/1"
-          ],
-          "old_count": 2,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 9 124 € → 23 146 € (+14 022 €)",
-      "Zamestnanie",
-      "Podnikanie",
-      "Majetkové práva: 2 → 2 (0)"
-    ]
+    "summary": []
   },
   "slug": "judr-milan-valasik",
   "context": {
@@ -771,7 +790,7 @@
     "obligations": 1,
     "income_percentile": 25,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.3

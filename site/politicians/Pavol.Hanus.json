@@ -2,6 +2,9 @@
   "user_id": "Pavol.Hanus",
   "name": "Ing. Pavol Hanus",
   "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV A.S. PIEŠŤANY)",
+  "public_functions": [
+    "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV A.S. PIEŠŤANY)"
+  ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV A.S. PIEŠŤANY)",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV A.S. PIEŠŤANY)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV A.S. PIEŠŤANY)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -27,12 +33,6 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "BYT A GARÁŽ",
-            "cadastral_territory": "SENEC",
-            "lv_number": "8003",
-            "share": "1/1"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "SENEC",
             "lv_number": "1496",
@@ -42,6 +42,12 @@
             "type": "BYT",
             "cadastral_territory": "SENEC",
             "lv_number": "5546",
+            "share": "1/1"
+          },
+          {
+            "type": "BYT A GARÁŽ",
+            "cadastral_territory": "SENEC",
+            "lv_number": "8003",
             "share": "1/1"
           }
         ],
@@ -78,6 +84,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV A.S. PIEŠŤANY)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV A.S. PIEŠŤANY)"
+        ],
         "income": {
           "public_function": 4800,
           "other": 0
@@ -88,15 +97,15 @@
         "positions": null,
         "real_estate": [
           {
-            "type": "BYT A GARÁŽ",
-            "cadastral_territory": "SENEC",
-            "lv_number": "8003",
-            "share": "1/2"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "SENEC",
             "lv_number": "1496",
+            "share": "1/2"
+          },
+          {
+            "type": "BYT A GARÁŽ",
+            "cadastral_territory": "SENEC",
+            "lv_number": "8003",
             "share": "1/2"
           }
         ],
@@ -141,12 +150,6 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "BYT A GARÁŽ",
-                "cadastral_territory": "SENEC",
-                "lv_number": "8003",
-                "share": "1/1"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "SENEC",
                 "lv_number": "1496",
@@ -157,19 +160,25 @@
                 "cadastral_territory": "SENEC",
                 "lv_number": "5546",
                 "share": "1/1"
-              }
-            ],
-            "new": [
+              },
               {
                 "type": "BYT A GARÁŽ",
                 "cadastral_territory": "SENEC",
                 "lv_number": "8003",
-                "share": "1/2"
-              },
+                "share": "1/1"
+              }
+            ],
+            "new": [
               {
                 "type": "BYT",
                 "cadastral_territory": "SENEC",
                 "lv_number": "1496",
+                "share": "1/2"
+              },
+              {
+                "type": "BYT A GARÁŽ",
+                "cadastral_territory": "SENEC",
+                "lv_number": "8003",
                 "share": "1/2"
               }
             ],
@@ -193,87 +202,17 @@
   ],
   "total_changes": 3,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Pavol.Hanus.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Pavol.Hanus.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Pavol.Hanus.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Pavol.Hanus.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 4800,
-            "other": 0
-          },
-          "old_total": 0,
-          "new_total": 4800,
-          "delta": 4800
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT A GARÁŽ",
-              "cadastral_territory": "SENEC",
-              "lv_number": "8003",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "SENEC",
-              "lv_number": "1496",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "SENEC",
-              "lv_number": "5546",
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT A GARÁŽ",
-              "cadastral_territory": "SENEC",
-              "lv_number": "8003",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "SENEC",
-              "lv_number": "1496",
-              "share": "1/2"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 2
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "PENIAZE NA ÚČTOCH A HOTOVOSŤ, podiel: 1/1"
-          ],
-          "new": [
-            "PENIAZE NA ÚČTOCH A V HOTOVOSTI, podiel: 1/1"
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 4 800 € (+4 800 €)",
-      "Nehnuteľnosti: 3 → 2 (-1)",
-      "Majetkové práva: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-pavol-hanus",
   "context": {
@@ -283,7 +222,7 @@
     "obligations": 1,
     "income_percentile": 17,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0.3

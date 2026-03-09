@@ -2,6 +2,9 @@
   "user_id": "Juraj.Gedra",
   "name": "JUDr. Juraj Gedra",
   "public_function": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)",
+  "public_functions": [
+    "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)"
+  ],
   "role": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)",
   "years": [
     2022,
@@ -17,7 +20,11 @@
         "name": "JUDr. JURAJ GEDRA",
         "year": 2022,
         "filed": "pri ujatí sa funkcie",
-        "public_function": "poslanec Národnej rady Slovenskej republikyvedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)",
+        "public_function": "poslanec Národnej rady Slovenskej republiky\nvedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky",
+          "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -34,16 +41,16 @@
             "share": "1/2 BSM"
           },
           {
-            "type": "NEBYTOVÝ PRIESTOR - PIVNIČNÁ KOBKA",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "5561",
-            "share": "1/2 BSM"
-          },
-          {
             "type": "NEBYTOVÝ PRIESTOR - PARKOVACIE STÁTIE",
             "cadastral_territory": "PETRŽALKA",
             "lv_number": "4654",
             "share": "1/57 BSM"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR - PIVNIČNÁ KOBKA",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "5561",
+            "share": "1/2 BSM"
           },
           {
             "type": "POZEMOK - PARKOVACIE STÁTIE",
@@ -90,7 +97,11 @@
         "name": "JUDr. JURAJ GEDRA",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "poslanec Národnej rady Slovenskej republikyvedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)",
+        "public_function": "poslanec Národnej rady Slovenskej republiky\nvedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky",
+          "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)"
+        ],
         "income": {
           "public_function": 13406,
           "other": 0
@@ -107,16 +118,16 @@
             "share": "1/2 BSM"
           },
           {
-            "type": "NEBYT. PRIESTOR -  PIVNIČNÁ KOBKA",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "5561",
-            "share": "1/2 BSM"
-          },
-          {
             "type": "NEBYT. PRIESTOR -  PARKOVACIE STÁTIE",
             "cadastral_territory": "PETRŽALKA",
             "lv_number": "4654",
             "share": "1/57 BSM"
+          },
+          {
+            "type": "NEBYT. PRIESTOR -  PIVNIČNÁ KOBKA",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "5561",
+            "share": "1/2 BSM"
           },
           {
             "type": "POZEMOK -  PARKOVACIE STÁTIE",
@@ -150,8 +161,21 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "poslanec Národnej rady Slovenskej republikyvedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)",
-            "new": "poslanec Národnej rady Slovenskej republikyvedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)"
+            "old": "poslanec Národnej rady Slovenskej republiky\nvedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)",
+            "new": "poslanec Národnej rady Slovenskej republiky\nvedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)"
+            ],
+            "new": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)"
+            ],
+            "old_count": 2,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -177,16 +201,16 @@
                 "share": "1/2 BSM"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PIVNIČNÁ KOBKA",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5561",
-                "share": "1/2 BSM"
-              },
-              {
                 "type": "NEBYTOVÝ PRIESTOR - PARKOVACIE STÁTIE",
                 "cadastral_territory": "PETRŽALKA",
                 "lv_number": "4654",
                 "share": "1/57 BSM"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR - PIVNIČNÁ KOBKA",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5561",
+                "share": "1/2 BSM"
               },
               {
                 "type": "POZEMOK - PARKOVACIE STÁTIE",
@@ -203,16 +227,16 @@
                 "share": "1/2 BSM"
               },
               {
-                "type": "NEBYT. PRIESTOR -  PIVNIČNÁ KOBKA",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5561",
-                "share": "1/2 BSM"
-              },
-              {
                 "type": "NEBYT. PRIESTOR -  PARKOVACIE STÁTIE",
                 "cadastral_territory": "PETRŽALKA",
                 "lv_number": "4654",
                 "share": "1/57 BSM"
+              },
+              {
+                "type": "NEBYT. PRIESTOR -  PIVNIČNÁ KOBKA",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5561",
+                "share": "1/2 BSM"
               },
               {
                 "type": "POZEMOK -  PARKOVACIE STÁTIE",
@@ -247,6 +271,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)",
+        "public_functions": [
+          "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)"
+        ],
         "income": {
           "public_function": 81303,
           "other": 0
@@ -263,16 +290,16 @@
             "share": "1/2 BSM"
           },
           {
-            "type": "NEBYTOVÝ PRIESTOR - PIVNIČNÁ KOBKA",
-            "cadastral_territory": "PETRŽALKA",
-            "lv_number": "5561",
-            "share": "1/2 BSM"
-          },
-          {
             "type": "NEBYTOVÝ PRIESTOR - PARKOVACIE STÁTIE",
             "cadastral_territory": "PETRŽALKA",
             "lv_number": "4654",
             "share": "1/57 BSM"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR - PIVNIČNÁ KOBKA",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "5561",
+            "share": "1/2 BSM"
           },
           {
             "type": "POZEMOK - PARKOVACIE STÁTIE",
@@ -313,8 +340,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "poslanec Národnej rady Slovenskej republikyvedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)",
+            "old": "poslanec Národnej rady Slovenskej republiky\nvedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)",
             "new": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "poslanec Národnej rady Slovenskej republiky",
+              "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)"
+            ],
+            "new": [
+              "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)"
+            ],
+            "old_count": 2,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -341,16 +380,16 @@
                 "share": "1/2 BSM"
               },
               {
-                "type": "NEBYT. PRIESTOR -  PIVNIČNÁ KOBKA",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5561",
-                "share": "1/2 BSM"
-              },
-              {
                 "type": "NEBYT. PRIESTOR -  PARKOVACIE STÁTIE",
                 "cadastral_territory": "PETRŽALKA",
                 "lv_number": "4654",
                 "share": "1/57 BSM"
+              },
+              {
+                "type": "NEBYT. PRIESTOR -  PIVNIČNÁ KOBKA",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5561",
+                "share": "1/2 BSM"
               },
               {
                 "type": "POZEMOK -  PARKOVACIE STÁTIE",
@@ -367,16 +406,16 @@
                 "share": "1/2 BSM"
               },
               {
-                "type": "NEBYTOVÝ PRIESTOR - PIVNIČNÁ KOBKA",
-                "cadastral_territory": "PETRŽALKA",
-                "lv_number": "5561",
-                "share": "1/2 BSM"
-              },
-              {
                 "type": "NEBYTOVÝ PRIESTOR - PARKOVACIE STÁTIE",
                 "cadastral_territory": "PETRŽALKA",
                 "lv_number": "4654",
                 "share": "1/57 BSM"
+              },
+              {
+                "type": "NEBYTOVÝ PRIESTOR - PIVNIČNÁ KOBKA",
+                "cadastral_territory": "PETRŽALKA",
+                "lv_number": "5561",
+                "share": "1/2 BSM"
               },
               {
                 "type": "POZEMOK - PARKOVACIE STÁTIE",
@@ -404,115 +443,19 @@
       }
     }
   ],
-  "total_changes": 8,
+  "total_changes": 10,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Gedra.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Gedra.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Juraj.Gedra.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Juraj.Gedra.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "poslanec Národnej rady Slovenskej republikyvedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)",
-          "new": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 13406,
-            "other": 0
-          },
-          "new": {
-            "public_function": 81303,
-            "other": 0
-          },
-          "old_total": 13406,
-          "new_total": 81303,
-          "delta": 67897,
-          "delta_pct": 506.5
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "5561",
-              "share": "1/2 BSM"
-            },
-            {
-              "type": "NEBYT. PRIESTOR -  PIVNIČNÁ KOBKA",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "5561",
-              "share": "1/2 BSM"
-            },
-            {
-              "type": "NEBYT. PRIESTOR -  PARKOVACIE STÁTIE",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "4654",
-              "share": "1/57 BSM"
-            },
-            {
-              "type": "POZEMOK -  PARKOVACIE STÁTIE",
-              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-              "lv_number": "6943",
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "BYT",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "5561",
-              "share": "1/2 BSM"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - PIVNIČNÁ KOBKA",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "5561",
-              "share": "1/2 BSM"
-            },
-            {
-              "type": "NEBYTOVÝ PRIESTOR - PARKOVACIE STÁTIE",
-              "cadastral_territory": "PETRŽALKA",
-              "lv_number": "4654",
-              "share": "1/57 BSM"
-            },
-            {
-              "type": "POZEMOK - PARKOVACIE STÁTIE",
-              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-              "lv_number": "6943",
-              "share": "1/1"
-            }
-          ],
-          "old_count": 4,
-          "new_count": 4
-        },
-        {
-          "field": "movable_property",
-          "old": null,
-          "new": [
-            {
-              "type": "OSOBNÉ VOZIDLO",
-              "brand": "MERCEDES-BENZ",
-              "year_of_manufacture": 2018,
-              "share": "1/1"
-            }
-          ]
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 13 406 € → 81 303 € (+67 897 €)",
-      "Nehnuteľnosti: 4 → 4 (0)",
-      "Hnuteľný majetok"
-    ]
+    "summary": []
   },
   "slug": "judr-juraj-gedra",
   "context": {
@@ -522,7 +465,7 @@
     "obligations": 2,
     "income_percentile": 79,
     "property_percentile": 60,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.5

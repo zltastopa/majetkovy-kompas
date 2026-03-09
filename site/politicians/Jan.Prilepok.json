@@ -2,6 +2,9 @@
   "user_id": "Jan.Prilepok",
   "name": "Ing. JÁN Prílepok",
   "public_function": "primátor mesta",
+  "public_functions": [
+    "primátor mesta"
+  ],
   "role": "primátor mesta",
   "years": [
     2019,
@@ -21,6 +24,9 @@
         "year": 2019,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 35518,
           "other": 6239
@@ -72,6 +78,9 @@
         "year": 2020,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 36884,
           "other": 6960
@@ -81,14 +90,14 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "ČLEN DOZORNEJ RADY",
-            "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-            "benefits": "ŽIADNE"
-          },
-          {
             "role": "POSLANEC",
             "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
             "benefits": "ODMENA"
+          },
+          {
+            "role": "ČLEN DOZORNEJ RADY",
+            "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+            "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
@@ -146,14 +155,14 @@
             ],
             "new": [
               {
-                "role": "ČLEN DOZORNEJ RADY",
-                "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-                "benefits": "ŽIADNE"
-              },
-              {
                 "role": "POSLANEC",
                 "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
                 "benefits": "ODMENA"
+              },
+              {
+                "role": "ČLEN DOZORNEJ RADY",
+                "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+                "benefits": "ŽIADNE"
               }
             ],
             "old_count": 2,
@@ -188,6 +197,9 @@
         "year": 2021,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 38848,
           "other": 6824
@@ -197,40 +209,28 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "ČLEN DOZORNEJ RADY",
-            "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-            "benefits": "ŽIADNE"
-          },
-          {
             "role": "POSLANEC",
             "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
             "benefits": "ODMENA"
+          },
+          {
+            "role": "ČLEN DOZORNEJ RADY",
+            "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+            "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
           {
-            "type": "POZEMOK - URBÁR",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "4791",
-            "share": "13500/3724000"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "PÁRNICA",
-            "lv_number": "2645",
-            "share": "27/7448"
+            "type": "BYT",
+            "cadastral_territory": "DOLNÝ KUBÍN",
+            "lv_number": "4345",
+            "share": "1/6"
           },
           {
             "type": "BYT",
             "cadastral_territory": "VEĽKÝ BYSTEREC",
             "lv_number": "4162",
             "share": "1/1"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "DOLNÝ KUBÍN",
-            "lv_number": "4345",
-            "share": "1/6"
           },
           {
             "type": "POZEMKY",
@@ -240,27 +240,9 @@
           },
           {
             "type": "POZEMOK",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6821",
-            "share": "93/244"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6776",
-            "share": "1/3"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6774",
-            "share": "3/16"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6762",
-            "share": "69/245"
+            "cadastral_territory": "PÁRNICA",
+            "lv_number": "2645",
+            "share": "27/7448"
           },
           {
             "type": "POZEMOK",
@@ -271,8 +253,38 @@
           {
             "type": "POZEMOK",
             "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "6762",
+            "share": "69/245"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "6774",
+            "share": "3/16"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "6776",
+            "share": "1/3"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "ZÁZRIVÁ",
             "lv_number": "6804",
             "share": "3/4"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "6821",
+            "share": "93/244"
+          },
+          {
+            "type": "POZEMOK - URBÁR",
+            "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "4791",
+            "share": "13500/3724000"
           }
         ],
         "movable_property": null,
@@ -318,28 +330,16 @@
             ],
             "new": [
               {
-                "type": "POZEMOK - URBÁR",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "4791",
-                "share": "13500/3724000"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "PÁRNICA",
-                "lv_number": "2645",
-                "share": "27/7448"
+                "type": "BYT",
+                "cadastral_territory": "DOLNÝ KUBÍN",
+                "lv_number": "4345",
+                "share": "1/6"
               },
               {
                 "type": "BYT",
                 "cadastral_territory": "VEĽKÝ BYSTEREC",
                 "lv_number": "4162",
                 "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "DOLNÝ KUBÍN",
-                "lv_number": "4345",
-                "share": "1/6"
               },
               {
                 "type": "POZEMKY",
@@ -349,27 +349,9 @@
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6821",
-                "share": "93/244"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6776",
-                "share": "1/3"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6774",
-                "share": "3/16"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6762",
-                "share": "69/245"
+                "cadastral_territory": "PÁRNICA",
+                "lv_number": "2645",
+                "share": "27/7448"
               },
               {
                 "type": "POZEMOK",
@@ -380,8 +362,38 @@
               {
                 "type": "POZEMOK",
                 "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6762",
+                "share": "69/245"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6774",
+                "share": "3/16"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6776",
+                "share": "1/3"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
                 "lv_number": "6804",
                 "share": "3/4"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6821",
+                "share": "93/244"
+              },
+              {
+                "type": "POZEMOK - URBÁR",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "4791",
+                "share": "13500/3724000"
               }
             ],
             "old_count": 1,
@@ -404,6 +416,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 40719,
           "other": 7752
@@ -413,45 +428,28 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "ČLEN DOZORNEJ RADY",
-            "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-            "benefits": "ŽIADNE"
-          },
-          {
             "role": "POSLANEC",
             "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
             "benefits": "ODMENA"
+          },
+          {
+            "role": "ČLEN DOZORNEJ RADY",
+            "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+            "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
           {
-            "type": "POZEMOK URBÁR",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "4791",
-            "share": "13500/3724000"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "PÁRNICA",
-            "lv_number": "2645",
-            "share": "27/7448"
-          },
-          {
-            "type": "ZÁLOHA NA BYT",
+            "type": "BYT",
             "cadastral_territory": "DOLNÝ KUBÍN",
-            "share": "1/1"
+            "lv_number": "4345",
+            "share": "1/6"
           },
           {
             "type": "BYT",
             "cadastral_territory": "VEĽKÝ BYSTEREC",
             "lv_number": "4162",
             "share": "1/1"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "DOLNÝ KUBÍN",
-            "lv_number": "4345",
-            "share": "1/6"
           },
           {
             "type": "POZEMKY",
@@ -461,27 +459,9 @@
           },
           {
             "type": "POZEMOK",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6821",
-            "share": "93/244"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6776",
-            "share": "1/3"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6774",
-            "share": "3/16"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6762",
-            "share": "69/245"
+            "cadastral_territory": "PÁRNICA",
+            "lv_number": "2645",
+            "share": "27/7448"
           },
           {
             "type": "POZEMOK",
@@ -492,22 +472,57 @@
           {
             "type": "POZEMOK",
             "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "6762",
+            "share": "69/245"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "6774",
+            "share": "3/16"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "6776",
+            "share": "1/3"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "ZÁZRIVÁ",
             "lv_number": "6804",
             "share": "3/4"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "6821",
+            "share": "93/244"
+          },
+          {
+            "type": "POZEMOK URBÁR",
+            "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "4791",
+            "share": "13500/3724000"
+          },
+          {
+            "type": "ZÁLOHA NA BYT",
+            "cadastral_territory": "DOLNÝ KUBÍN",
+            "share": "1/1"
           }
         ],
         "movable_property": null,
         "property_rights": null,
         "obligations": [
           {
-            "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
-            "share": "1/1",
-            "date": "20. 02. 2022"
-          },
-          {
             "type": "OSOBNÝ AUTOMOBIL - LEASING",
             "share": "1/1",
             "date": "14. 09. 2020"
+          },
+          {
+            "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
+            "share": "1/1",
+            "date": "20. 02. 2022"
           }
         ],
         "use_of_others_real_estate": null,
@@ -536,28 +551,16 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "POZEMOK - URBÁR",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "4791",
-                "share": "13500/3724000"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "PÁRNICA",
-                "lv_number": "2645",
-                "share": "27/7448"
+                "type": "BYT",
+                "cadastral_territory": "DOLNÝ KUBÍN",
+                "lv_number": "4345",
+                "share": "1/6"
               },
               {
                 "type": "BYT",
                 "cadastral_territory": "VEĽKÝ BYSTEREC",
                 "lv_number": "4162",
                 "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "DOLNÝ KUBÍN",
-                "lv_number": "4345",
-                "share": "1/6"
               },
               {
                 "type": "POZEMKY",
@@ -567,27 +570,9 @@
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6821",
-                "share": "93/244"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6776",
-                "share": "1/3"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6774",
-                "share": "3/16"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6762",
-                "share": "69/245"
+                "cadastral_territory": "PÁRNICA",
+                "lv_number": "2645",
+                "share": "27/7448"
               },
               {
                 "type": "POZEMOK",
@@ -598,11 +583,101 @@
               {
                 "type": "POZEMOK",
                 "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6762",
+                "share": "69/245"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6774",
+                "share": "3/16"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6776",
+                "share": "1/3"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
                 "lv_number": "6804",
                 "share": "3/4"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6821",
+                "share": "93/244"
+              },
+              {
+                "type": "POZEMOK - URBÁR",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "4791",
+                "share": "13500/3724000"
               }
             ],
             "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "DOLNÝ KUBÍN",
+                "lv_number": "4345",
+                "share": "1/6"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "VEĽKÝ BYSTEREC",
+                "lv_number": "4162",
+                "share": "1/1"
+              },
+              {
+                "type": "POZEMKY",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6820/10692/6804/10980/6772",
+                "share": "3/8"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PÁRNICA",
+                "lv_number": "2645",
+                "share": "27/7448"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6761",
+                "share": "9/32"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6762",
+                "share": "69/245"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6774",
+                "share": "3/16"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6776",
+                "share": "1/3"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6804",
+                "share": "3/4"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6821",
+                "share": "93/244"
+              },
               {
                 "type": "POZEMOK URBÁR",
                 "cadastral_territory": "ZÁZRIVÁ",
@@ -610,69 +685,9 @@
                 "share": "13500/3724000"
               },
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "PÁRNICA",
-                "lv_number": "2645",
-                "share": "27/7448"
-              },
-              {
                 "type": "ZÁLOHA NA BYT",
                 "cadastral_territory": "DOLNÝ KUBÍN",
                 "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "VEĽKÝ BYSTEREC",
-                "lv_number": "4162",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "DOLNÝ KUBÍN",
-                "lv_number": "4345",
-                "share": "1/6"
-              },
-              {
-                "type": "POZEMKY",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6820/10692/6804/10980/6772",
-                "share": "3/8"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6821",
-                "share": "93/244"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6776",
-                "share": "1/3"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6774",
-                "share": "3/16"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6762",
-                "share": "69/245"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6761",
-                "share": "9/32"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6804",
-                "share": "3/4"
               }
             ],
             "old_count": 11,
@@ -689,14 +704,14 @@
             ],
             "new": [
               {
-                "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
-                "share": "1/1",
-                "date": "20. 02. 2022"
-              },
-              {
                 "type": "OSOBNÝ AUTOMOBIL - LEASING",
                 "share": "1/1",
                 "date": "14. 09. 2020"
+              },
+              {
+                "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
+                "share": "1/1",
+                "date": "20. 02. 2022"
               }
             ],
             "old_count": 1,
@@ -719,6 +734,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 43830,
           "other": 7630
@@ -728,45 +746,34 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "PREDSEDA DOZORNEJ RADY",
-            "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ",
-            "benefits": "ŽIADNE"
-          },
-          {
             "role": "POSLANEC",
             "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
             "benefits": "ODMENA"
+          },
+          {
+            "role": "PREDSEDA DOZORNEJ RADY",
+            "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ",
+            "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
           {
-            "type": "POZEMOK - URBÁR",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "4791",
-            "share": "13500/3724000"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "PÁRNICA",
-            "lv_number": "2645",
-            "share": "27/7448"
-          },
-          {
-            "type": "ZÁLOHA NA BYT",
+            "type": "BYT",
             "cadastral_territory": "DOLNÝ KUBÍN",
+            "lv_number": "4345",
+            "share": "1/6"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "VEĽKÝ BYSTEREC",
+            "lv_number": "4162",
             "share": "1/1"
           },
           {
-            "type": "POZEMOK",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6821",
-            "share": "93/244"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6776",
-            "share": "1/3"
+            "type": "POZEMKY",
+            "cadastral_territory": "DOLNÝ KUBÍN",
+            "lv_number": "6820, 10692, 6804, 10980, 6772",
+            "share": "3/8"
           },
           {
             "type": "POZEMKY",
@@ -776,9 +783,9 @@
           },
           {
             "type": "POZEMOK",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6762",
-            "share": "69/245"
+            "cadastral_territory": "PÁRNICA",
+            "lv_number": "2645",
+            "share": "27/7448"
           },
           {
             "type": "POZEMOK",
@@ -789,26 +796,37 @@
           {
             "type": "POZEMOK",
             "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "6762",
+            "share": "69/245"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "6776",
+            "share": "1/3"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "ZÁZRIVÁ",
             "lv_number": "6804",
             "share": "3/4"
           },
           {
-            "type": "BYT",
-            "cadastral_territory": "VEĽKÝ BYSTEREC",
-            "lv_number": "4162",
+            "type": "POZEMOK",
+            "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "6821",
+            "share": "93/244"
+          },
+          {
+            "type": "POZEMOK - URBÁR",
+            "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "4791",
+            "share": "13500/3724000"
+          },
+          {
+            "type": "ZÁLOHA NA BYT",
+            "cadastral_territory": "DOLNÝ KUBÍN",
             "share": "1/1"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "DOLNÝ KUBÍN",
-            "lv_number": "4345",
-            "share": "1/6"
-          },
-          {
-            "type": "POZEMKY",
-            "cadastral_territory": "DOLNÝ KUBÍN",
-            "lv_number": "6820, 10692, 6804, 10980, 6772",
-            "share": "3/8"
           }
         ],
         "movable_property": [
@@ -853,26 +871,26 @@
             "field": "positions",
             "old": [
               {
-                "role": "ČLEN DOZORNEJ RADY",
-                "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
-                "benefits": "ŽIADNE"
-              },
-              {
                 "role": "POSLANEC",
                 "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
                 "benefits": "ODMENA"
+              },
+              {
+                "role": "ČLEN DOZORNEJ RADY",
+                "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+                "benefits": "ŽIADNE"
               }
             ],
             "new": [
               {
-                "role": "PREDSEDA DOZORNEJ RADY",
-                "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ",
-                "benefits": "ŽIADNE"
-              },
-              {
                 "role": "POSLANEC",
                 "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
                 "benefits": "ODMENA"
+              },
+              {
+                "role": "PREDSEDA DOZORNEJ RADY",
+                "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ",
+                "benefits": "ŽIADNE"
               }
             ],
             "old_count": 2,
@@ -882,33 +900,16 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "POZEMOK URBÁR",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "4791",
-                "share": "13500/3724000"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "PÁRNICA",
-                "lv_number": "2645",
-                "share": "27/7448"
-              },
-              {
-                "type": "ZÁLOHA NA BYT",
+                "type": "BYT",
                 "cadastral_territory": "DOLNÝ KUBÍN",
-                "share": "1/1"
+                "lv_number": "4345",
+                "share": "1/6"
               },
               {
                 "type": "BYT",
                 "cadastral_territory": "VEĽKÝ BYSTEREC",
                 "lv_number": "4162",
                 "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "DOLNÝ KUBÍN",
-                "lv_number": "4345",
-                "share": "1/6"
               },
               {
                 "type": "POZEMKY",
@@ -918,27 +919,9 @@
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6821",
-                "share": "93/244"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6776",
-                "share": "1/3"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6774",
-                "share": "3/16"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6762",
-                "share": "69/245"
+                "cadastral_territory": "PÁRNICA",
+                "lv_number": "2645",
+                "share": "27/7448"
               },
               {
                 "type": "POZEMOK",
@@ -949,27 +932,26 @@
               {
                 "type": "POZEMOK",
                 "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6804",
-                "share": "3/4"
-              }
-            ],
-            "new": [
-              {
-                "type": "POZEMOK - URBÁR",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "4791",
-                "share": "13500/3724000"
+                "lv_number": "6762",
+                "share": "69/245"
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "PÁRNICA",
-                "lv_number": "2645",
-                "share": "27/7448"
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6774",
+                "share": "3/16"
               },
               {
-                "type": "ZÁLOHA NA BYT",
-                "cadastral_territory": "DOLNÝ KUBÍN",
-                "share": "1/1"
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6776",
+                "share": "1/3"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6804",
+                "share": "3/4"
               },
               {
                 "type": "POZEMOK",
@@ -978,10 +960,35 @@
                 "share": "93/244"
               },
               {
-                "type": "POZEMOK",
+                "type": "POZEMOK URBÁR",
                 "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6776",
-                "share": "1/3"
+                "lv_number": "4791",
+                "share": "13500/3724000"
+              },
+              {
+                "type": "ZÁLOHA NA BYT",
+                "cadastral_territory": "DOLNÝ KUBÍN",
+                "share": "1/1"
+              }
+            ],
+            "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "DOLNÝ KUBÍN",
+                "lv_number": "4345",
+                "share": "1/6"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "VEĽKÝ BYSTEREC",
+                "lv_number": "4162",
+                "share": "1/1"
+              },
+              {
+                "type": "POZEMKY",
+                "cadastral_territory": "DOLNÝ KUBÍN",
+                "lv_number": "6820, 10692, 6804, 10980, 6772",
+                "share": "3/8"
               },
               {
                 "type": "POZEMKY",
@@ -991,9 +998,9 @@
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6762",
-                "share": "69/245"
+                "cadastral_territory": "PÁRNICA",
+                "lv_number": "2645",
+                "share": "27/7448"
               },
               {
                 "type": "POZEMOK",
@@ -1004,26 +1011,37 @@
               {
                 "type": "POZEMOK",
                 "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6762",
+                "share": "69/245"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6776",
+                "share": "1/3"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
                 "lv_number": "6804",
                 "share": "3/4"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "VEĽKÝ BYSTEREC",
-                "lv_number": "4162",
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6821",
+                "share": "93/244"
+              },
+              {
+                "type": "POZEMOK - URBÁR",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "4791",
+                "share": "13500/3724000"
+              },
+              {
+                "type": "ZÁLOHA NA BYT",
+                "cadastral_territory": "DOLNÝ KUBÍN",
                 "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "DOLNÝ KUBÍN",
-                "lv_number": "4345",
-                "share": "1/6"
-              },
-              {
-                "type": "POZEMKY",
-                "cadastral_territory": "DOLNÝ KUBÍN",
-                "lv_number": "6820, 10692, 6804, 10980, 6772",
-                "share": "3/8"
               }
             ],
             "old_count": 12,
@@ -1045,14 +1063,14 @@
             "field": "obligations",
             "old": [
               {
-                "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
-                "share": "1/1",
-                "date": "20. 02. 2022"
-              },
-              {
                 "type": "OSOBNÝ AUTOMOBIL - LEASING",
                 "share": "1/1",
                 "date": "14. 09. 2020"
+              },
+              {
+                "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
+                "share": "1/1",
+                "date": "20. 02. 2022"
               }
             ],
             "new": [
@@ -1077,6 +1095,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
         "income": {
           "public_function": 48169,
           "other": 8100
@@ -1086,22 +1107,46 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "PREDSEDA DOZORNEJ RADY",
-            "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ",
-            "benefits": "ŽIADNE"
-          },
-          {
             "role": "POSLANEC",
             "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
             "benefits": "ODMENA"
+          },
+          {
+            "role": "PREDSEDA DOZORNEJ RADY",
+            "organization": "ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ",
+            "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
           {
-            "type": "POZEMOK - URBÁR",
+            "type": "BYT",
+            "cadastral_territory": "DOLNÝ KUBÍN",
+            "lv_number": "4345",
+            "share": "1/6"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "VEĽKÝ BYSTEREC",
+            "lv_number": "4162",
+            "share": "1/1"
+          },
+          {
+            "type": "BYT, GARÁŽ",
+            "cadastral_territory": "DOLNÝ KUBÍN",
+            "lv_number": "6660",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMKY",
+            "cadastral_territory": "DOLNÝ KUBÍN",
+            "lv_number": "6820, 10692, 6804, 10980, 6772",
+            "share": "3/8"
+          },
+          {
+            "type": "POZEMKY",
             "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "4791",
-            "share": "13500/3724000"
+            "lv_number": "6774",
+            "share": "3/16"
           },
           {
             "type": "POZEMOK",
@@ -1112,44 +1157,8 @@
           {
             "type": "POZEMOK",
             "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6821",
-            "share": "93/244"
-          },
-          {
-            "type": "POZEMOK",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6776",
-            "share": "1/3"
-          },
-          {
-            "type": "POZEMKY",
-            "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6774",
-            "share": "3/16"
-          },
-          {
-            "type": "BYT, GARÁŽ",
-            "cadastral_territory": "DOLNÝ KUBÍN",
-            "lv_number": "6660",
-            "share": "1/2"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "VEĽKÝ BYSTEREC",
-            "lv_number": "4162",
-            "share": "1/1"
-          },
-          {
-            "type": "BYT",
-            "cadastral_territory": "DOLNÝ KUBÍN",
-            "lv_number": "4345",
-            "share": "1/6"
-          },
-          {
-            "type": "POZEMKY",
-            "cadastral_territory": "DOLNÝ KUBÍN",
-            "lv_number": "6820, 10692, 6804, 10980, 6772",
-            "share": "3/8"
+            "lv_number": "6761",
+            "share": "9/23"
           },
           {
             "type": "POZEMOK",
@@ -1160,14 +1169,26 @@
           {
             "type": "POZEMOK",
             "cadastral_territory": "ZÁZRIVÁ",
-            "lv_number": "6761",
-            "share": "9/23"
+            "lv_number": "6776",
+            "share": "1/3"
           },
           {
             "type": "POZEMOK",
             "cadastral_territory": "ZÁZRIVÁ",
             "lv_number": "6804",
             "share": "3/4"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "6821",
+            "share": "93/244"
+          },
+          {
+            "type": "POZEMOK - URBÁR",
+            "cadastral_territory": "ZÁZRIVÁ",
+            "lv_number": "4791",
+            "share": "13500/3724000"
           }
         ],
         "movable_property": [
@@ -1183,14 +1204,14 @@
         ],
         "obligations": [
           {
-            "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
-            "share": "1/2",
-            "date": "20. 02. 2022"
-          },
-          {
             "type": "HYPOTÉKA",
             "share": "1/1",
             "date": "18. 12. 2024"
+          },
+          {
+            "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
+            "share": "1/2",
+            "date": "20. 02. 2022"
           }
         ],
         "use_of_others_real_estate": null,
@@ -1219,33 +1240,22 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "POZEMOK - URBÁR",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "4791",
-                "share": "13500/3724000"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "PÁRNICA",
-                "lv_number": "2645",
-                "share": "27/7448"
-              },
-              {
-                "type": "ZÁLOHA NA BYT",
+                "type": "BYT",
                 "cadastral_territory": "DOLNÝ KUBÍN",
+                "lv_number": "4345",
+                "share": "1/6"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "VEĽKÝ BYSTEREC",
+                "lv_number": "4162",
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6821",
-                "share": "93/244"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6776",
-                "share": "1/3"
+                "type": "POZEMKY",
+                "cadastral_territory": "DOLNÝ KUBÍN",
+                "lv_number": "6820, 10692, 6804, 10980, 6772",
+                "share": "3/8"
               },
               {
                 "type": "POZEMKY",
@@ -1255,9 +1265,9 @@
               },
               {
                 "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6762",
-                "share": "69/245"
+                "cadastral_territory": "PÁRNICA",
+                "lv_number": "2645",
+                "share": "27/7448"
               },
               {
                 "type": "POZEMOK",
@@ -1268,46 +1278,8 @@
               {
                 "type": "POZEMOK",
                 "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6804",
-                "share": "3/4"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "VEĽKÝ BYSTEREC",
-                "lv_number": "4162",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "DOLNÝ KUBÍN",
-                "lv_number": "4345",
-                "share": "1/6"
-              },
-              {
-                "type": "POZEMKY",
-                "cadastral_territory": "DOLNÝ KUBÍN",
-                "lv_number": "6820, 10692, 6804, 10980, 6772",
-                "share": "3/8"
-              }
-            ],
-            "new": [
-              {
-                "type": "POZEMOK - URBÁR",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "4791",
-                "share": "13500/3724000"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "PÁRNICA",
-                "lv_number": "2645",
-                "share": "27/7448"
-              },
-              {
-                "type": "POZEMOK",
-                "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6821",
-                "share": "93/244"
+                "lv_number": "6762",
+                "share": "69/245"
               },
               {
                 "type": "POZEMOK",
@@ -1316,10 +1288,41 @@
                 "share": "1/3"
               },
               {
-                "type": "POZEMKY",
+                "type": "POZEMOK",
                 "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6774",
-                "share": "3/16"
+                "lv_number": "6804",
+                "share": "3/4"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6821",
+                "share": "93/244"
+              },
+              {
+                "type": "POZEMOK - URBÁR",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "4791",
+                "share": "13500/3724000"
+              },
+              {
+                "type": "ZÁLOHA NA BYT",
+                "cadastral_territory": "DOLNÝ KUBÍN",
+                "share": "1/1"
+              }
+            ],
+            "new": [
+              {
+                "type": "BYT",
+                "cadastral_territory": "DOLNÝ KUBÍN",
+                "lv_number": "4345",
+                "share": "1/6"
+              },
+              {
+                "type": "BYT",
+                "cadastral_territory": "VEĽKÝ BYSTEREC",
+                "lv_number": "4162",
+                "share": "1/1"
               },
               {
                 "type": "BYT, GARÁŽ",
@@ -1328,28 +1331,22 @@
                 "share": "1/2"
               },
               {
-                "type": "BYT",
-                "cadastral_territory": "VEĽKÝ BYSTEREC",
-                "lv_number": "4162",
-                "share": "1/1"
-              },
-              {
-                "type": "BYT",
-                "cadastral_territory": "DOLNÝ KUBÍN",
-                "lv_number": "4345",
-                "share": "1/6"
-              },
-              {
                 "type": "POZEMKY",
                 "cadastral_territory": "DOLNÝ KUBÍN",
                 "lv_number": "6820, 10692, 6804, 10980, 6772",
                 "share": "3/8"
               },
               {
-                "type": "POZEMOK",
+                "type": "POZEMKY",
                 "cadastral_territory": "ZÁZRIVÁ",
-                "lv_number": "6762",
-                "share": "69/245"
+                "lv_number": "6774",
+                "share": "3/16"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PÁRNICA",
+                "lv_number": "2645",
+                "share": "27/7448"
               },
               {
                 "type": "POZEMOK",
@@ -1360,8 +1357,32 @@
               {
                 "type": "POZEMOK",
                 "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6762",
+                "share": "69/245"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6776",
+                "share": "1/3"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
                 "lv_number": "6804",
                 "share": "3/4"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "6821",
+                "share": "93/244"
+              },
+              {
+                "type": "POZEMOK - URBÁR",
+                "cadastral_territory": "ZÁZRIVÁ",
+                "lv_number": "4791",
+                "share": "13500/3724000"
               }
             ],
             "old_count": 12,
@@ -1406,14 +1427,14 @@
             ],
             "new": [
               {
-                "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
-                "share": "1/2",
-                "date": "20. 02. 2022"
-              },
-              {
                 "type": "HYPOTÉKA",
                 "share": "1/1",
                 "date": "18. 12. 2024"
+              },
+              {
+                "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
+                "share": "1/2",
+                "date": "20. 02. 2022"
               }
             ],
             "old_count": 1,
@@ -1425,244 +1446,17 @@
   ],
   "total_changes": 20,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jan.Prilepok.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jan.Prilepok.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jan.Prilepok.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jan.Prilepok.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 43830,
-            "other": 7630
-          },
-          "new": {
-            "public_function": 48169,
-            "other": 8100
-          },
-          "old_total": 51460,
-          "new_total": 56269,
-          "delta": 4809,
-          "delta_pct": 9.3
-        },
-        {
-          "field": "real_estate",
-          "old": [
-            {
-              "type": "POZEMOK - URBÁR",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "4791",
-              "share": "13500/3724000"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "PÁRNICA",
-              "lv_number": "2645",
-              "share": "27/7448"
-            },
-            {
-              "type": "ZÁLOHA NA BYT",
-              "cadastral_territory": "DOLNÝ KUBÍN",
-              "share": "1/1"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "6821",
-              "share": "93/244"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "6776",
-              "share": "1/3"
-            },
-            {
-              "type": "POZEMKY",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "6774",
-              "share": "3/16"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "6762",
-              "share": "69/245"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "6761",
-              "share": "9/23"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "6804",
-              "share": "3/4"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "VEĽKÝ BYSTEREC",
-              "lv_number": "4162",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "DOLNÝ KUBÍN",
-              "lv_number": "4345",
-              "share": "1/6"
-            },
-            {
-              "type": "POZEMKY",
-              "cadastral_territory": "DOLNÝ KUBÍN",
-              "lv_number": "6820, 10692, 6804, 10980, 6772",
-              "share": "3/8"
-            }
-          ],
-          "new": [
-            {
-              "type": "POZEMOK - URBÁR",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "4791",
-              "share": "13500/3724000"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "PÁRNICA",
-              "lv_number": "2645",
-              "share": "27/7448"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "6821",
-              "share": "93/244"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "6776",
-              "share": "1/3"
-            },
-            {
-              "type": "POZEMKY",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "6774",
-              "share": "3/16"
-            },
-            {
-              "type": "BYT, GARÁŽ",
-              "cadastral_territory": "DOLNÝ KUBÍN",
-              "lv_number": "6660",
-              "share": "1/2"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "VEĽKÝ BYSTEREC",
-              "lv_number": "4162",
-              "share": "1/1"
-            },
-            {
-              "type": "BYT",
-              "cadastral_territory": "DOLNÝ KUBÍN",
-              "lv_number": "4345",
-              "share": "1/6"
-            },
-            {
-              "type": "POZEMKY",
-              "cadastral_territory": "DOLNÝ KUBÍN",
-              "lv_number": "6820, 10692, 6804, 10980, 6772",
-              "share": "3/8"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "6762",
-              "share": "69/245"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "6761",
-              "share": "9/23"
-            },
-            {
-              "type": "POZEMOK",
-              "cadastral_territory": "ZÁZRIVÁ",
-              "lv_number": "6804",
-              "share": "3/4"
-            }
-          ],
-          "old_count": 12,
-          "new_count": 12
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "VOLKSWAGEN",
-              "year_of_manufacture": 2020,
-              "share": "1/1"
-            }
-          ],
-          "new": [
-            {
-              "type": "AUTO",
-              "brand": "VOLKSWAGEN",
-              "year_of_manufacture": 2020,
-              "share": "1/1"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "property_rights",
-          "old": null,
-          "new": [
-            "ZÁLOHA NA BYT, podiel: 1/1"
-          ]
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
-              "share": "1/1",
-              "date": "20. 02. 2022"
-            }
-          ],
-          "new": [
-            {
-              "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
-              "share": "1/2",
-              "date": "20. 02. 2022"
-            },
-            {
-              "type": "HYPOTÉKA",
-              "share": "1/1",
-              "date": "18. 12. 2024"
-            }
-          ],
-          "old_count": 1,
-          "new_count": 2
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 51 460 € → 56 269 € (+4 809 €)",
-      "Nehnuteľnosti: 12 → 12 (0)",
-      "Hnuteľný majetok: 1 → 1 (0)",
-      "Majetkové práva",
-      "Záväzky: 1 → 2 (+1)"
-    ]
+    "summary": []
   },
   "slug": "ing-jan-prilepok",
   "context": {
@@ -1672,7 +1466,7 @@
     "obligations": 2,
     "income_percentile": 57,
     "property_percentile": 87,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.1

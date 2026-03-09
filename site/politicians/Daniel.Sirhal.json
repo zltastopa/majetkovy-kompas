@@ -2,6 +2,9 @@
   "user_id": "Daniel.Sirhal",
   "name": "JUDr. Daniel Širhal, MBA",
   "public_function": "člen dozornej rady Sociálnej poisťovne",
+  "public_functions": [
+    "člen dozornej rady Sociálnej poisťovne"
+  ],
   "role": "člen dozornej rady Sociálnej poisťovne",
   "years": [
     2019,
@@ -20,7 +23,11 @@
         "name": "JUDr. DANIEL ŠIRHAL, MBA",
         "year": 2019,
         "filed": "k 30. aprílu",
-        "public_function": "člen dozornej rady Sociálnej poisťovnečlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNÍCKEJ SLUŽBY)",
+        "public_function": "člen dozornej rady Sociálnej poisťovne\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNÍCKEJ SLUŽBY)",
+        "public_functions": [
+          "člen dozornej rady Sociálnej poisťovne",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNÍCKEJ SLUŽBY)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -88,7 +95,11 @@
         "name": "JUDr. DANIEL ŠIRHAL, MBA",
         "year": 2020,
         "filed": "k 30. aprílu",
-        "public_function": "člen dozornej rady Sociálnej poisťovnečlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNEJ\r\nSLUŽBY)",
+        "public_function": "člen dozornej rady Sociálnej poisťovne\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNEJ SLUŽBY)",
+        "public_functions": [
+          "člen dozornej rady Sociálnej poisťovne",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNEJ SLUŽBY)"
+        ],
         "income": {
           "public_function": 16704,
           "other": 45508
@@ -111,12 +122,6 @@
             "share": "1/1"
           },
           {
-            "type": "POZEMOK",
-            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-            "lv_number": "5420",
-            "share": "9906/357056"
-          },
-          {
             "type": "POZEMKY",
             "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
             "lv_number": "784",
@@ -127,6 +132,12 @@
             "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
             "lv_number": "9696",
             "share": "1/2"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+            "lv_number": "5420",
+            "share": "9906/357056"
           }
         ],
         "movable_property": null,
@@ -137,12 +148,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "20. 03. 2014"
+            "date": "05. 08. 2020"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "05. 08. 2020"
+            "date": "20. 03. 2014"
           }
         ],
         "use_of_others_real_estate": null,
@@ -160,8 +171,21 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen dozornej rady Sociálnej poisťovnečlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNÍCKEJ SLUŽBY)",
-            "new": "člen dozornej rady Sociálnej poisťovnečlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNEJ\r\nSLUŽBY)"
+            "old": "člen dozornej rady Sociálnej poisťovne\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNÍCKEJ SLUŽBY)",
+            "new": "člen dozornej rady Sociálnej poisťovne\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNEJ SLUŽBY)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen dozornej rady Sociálnej poisťovne",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNÍCKEJ SLUŽBY)"
+            ],
+            "new": [
+              "člen dozornej rady Sociálnej poisťovne",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNEJ SLUŽBY)"
+            ],
+            "old_count": 2,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -229,12 +253,6 @@
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-                "lv_number": "5420",
-                "share": "9906/357056"
-              },
-              {
                 "type": "POZEMKY",
                 "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
                 "lv_number": "784",
@@ -245,6 +263,12 @@
                 "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
                 "lv_number": "9696",
                 "share": "1/2"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+                "lv_number": "5420",
+                "share": "9906/357056"
               }
             ],
             "old_count": 3,
@@ -274,12 +298,12 @@
               {
                 "type": "HYPOTEKÁRNY ÚVER",
                 "share": "1/1",
-                "date": "20. 03. 2014"
+                "date": "05. 08. 2020"
               },
               {
                 "type": "HYPOTEKÁRNY ÚVER",
                 "share": "1/1",
-                "date": "05. 08. 2020"
+                "date": "20. 03. 2014"
               }
             ],
             "old_count": 1,
@@ -315,7 +339,11 @@
         "name": "JUDr. DANIEL ŠIRHAL, MBA",
         "year": 2021,
         "filed": "k 30. aprílu",
-        "public_function": "člen dozornej rady Sociálnej poisťovnečlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNEJ\r\nSLUŽBY)",
+        "public_function": "člen dozornej rady Sociálnej poisťovne\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNEJ SLUŽBY)",
+        "public_functions": [
+          "člen dozornej rady Sociálnej poisťovne",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNEJ SLUŽBY)"
+        ],
         "income": {
           "public_function": 16596,
           "other": 47977
@@ -338,12 +366,6 @@
             "share": "1/1"
           },
           {
-            "type": "POZEMOK",
-            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-            "lv_number": "5420",
-            "share": "9906/357056"
-          },
-          {
             "type": "POZEMKY",
             "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
             "lv_number": "784",
@@ -354,6 +376,12 @@
             "cadastral_territory": "PODUNJASKÉ BISKUPICE",
             "lv_number": "9696",
             "share": "1/2"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+            "lv_number": "5420",
+            "share": "9906/357056"
           }
         ],
         "movable_property": null,
@@ -364,12 +392,12 @@
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "20. 03. 2014"
+            "date": "05. 08. 2020"
           },
           {
             "type": "HYPOTEKÁRNY ÚVER",
             "share": "1/1",
-            "date": "05. 08. 2020"
+            "date": "20. 03. 2014"
           }
         ],
         "use_of_others_real_estate": null,
@@ -421,12 +449,6 @@
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-                "lv_number": "5420",
-                "share": "9906/357056"
-              },
-              {
                 "type": "POZEMKY",
                 "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
                 "lv_number": "784",
@@ -437,6 +459,12 @@
                 "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
                 "lv_number": "9696",
                 "share": "1/2"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+                "lv_number": "5420",
+                "share": "9906/357056"
               }
             ],
             "new": [
@@ -453,12 +481,6 @@
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-                "lv_number": "5420",
-                "share": "9906/357056"
-              },
-              {
                 "type": "POZEMKY",
                 "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
                 "lv_number": "784",
@@ -469,6 +491,12 @@
                 "cadastral_territory": "PODUNJASKÉ BISKUPICE",
                 "lv_number": "9696",
                 "share": "1/2"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+                "lv_number": "5420",
+                "share": "9906/357056"
               }
             ],
             "old_count": 5,
@@ -510,6 +538,9 @@
         "year": 2022,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady Sociálnej poisťovne",
+        "public_functions": [
+          "člen dozornej rady Sociálnej poisťovne"
+        ],
         "income": {
           "public_function": 14532,
           "other": 57148
@@ -532,18 +563,6 @@
             "share": "1/1"
           },
           {
-            "type": "POZEMOK",
-            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-            "lv_number": "5420",
-            "share": "9906/357056"
-          },
-          {
-            "type": "ROZOSTAVANY RODINNÝ DOM",
-            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-            "lv_number": "784",
-            "share": "1/1"
-          },
-          {
             "type": "POZEMKY",
             "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
             "lv_number": "784",
@@ -554,6 +573,18 @@
             "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
             "lv_number": "9696",
             "share": "1/2"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+            "lv_number": "5420",
+            "share": "9906/357056"
+          },
+          {
+            "type": "ROZOSTAVANY RODINNÝ DOM",
+            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+            "lv_number": "784",
+            "share": "1/1"
           }
         ],
         "movable_property": null,
@@ -562,14 +593,14 @@
         ],
         "obligations": [
           {
-            "type": "HYPOTEKÁRNY ÚVER",
-            "share": "1/1",
-            "date": "05. 08. 2020"
-          },
-          {
             "type": "HAPOTEKÁRNY ÚVER",
             "share": "1/1",
             "date": "28. 09. 2022"
+          },
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "1/1",
+            "date": "05. 08. 2020"
           }
         ],
         "use_of_others_real_estate": null,
@@ -587,8 +618,20 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen dozornej rady Sociálnej poisťovnečlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNEJ\r\nSLUŽBY)",
+            "old": "člen dozornej rady Sociálnej poisťovne\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNEJ SLUŽBY)",
             "new": "člen dozornej rady Sociálnej poisťovne"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen dozornej rady Sociálnej poisťovne",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (OPERAČNÉ STREDISKO ZÁCHRANNEJ ZDRAVOTNEJ SLUŽBY)"
+            ],
+            "new": [
+              "člen dozornej rady Sociálnej poisťovne"
+            ],
+            "old_count": 2,
+            "new_count": 1
           },
           {
             "field": "income",
@@ -626,12 +669,6 @@
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-                "lv_number": "5420",
-                "share": "9906/357056"
-              },
-              {
                 "type": "POZEMKY",
                 "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
                 "lv_number": "784",
@@ -642,6 +679,12 @@
                 "cadastral_territory": "PODUNJASKÉ BISKUPICE",
                 "lv_number": "9696",
                 "share": "1/2"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+                "lv_number": "5420",
+                "share": "9906/357056"
               }
             ],
             "new": [
@@ -658,18 +701,6 @@
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-                "lv_number": "5420",
-                "share": "9906/357056"
-              },
-              {
-                "type": "ROZOSTAVANY RODINNÝ DOM",
-                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-                "lv_number": "784",
-                "share": "1/1"
-              },
-              {
                 "type": "POZEMKY",
                 "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
                 "lv_number": "784",
@@ -680,6 +711,18 @@
                 "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
                 "lv_number": "9696",
                 "share": "1/2"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+                "lv_number": "5420",
+                "share": "9906/357056"
+              },
+              {
+                "type": "ROZOSTAVANY RODINNÝ DOM",
+                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+                "lv_number": "784",
+                "share": "1/1"
               }
             ],
             "old_count": 5,
@@ -691,24 +734,24 @@
               {
                 "type": "HYPOTEKÁRNY ÚVER",
                 "share": "1/1",
-                "date": "20. 03. 2014"
+                "date": "05. 08. 2020"
               },
               {
                 "type": "HYPOTEKÁRNY ÚVER",
                 "share": "1/1",
-                "date": "05. 08. 2020"
+                "date": "20. 03. 2014"
               }
             ],
             "new": [
               {
-                "type": "HYPOTEKÁRNY ÚVER",
-                "share": "1/1",
-                "date": "05. 08. 2020"
-              },
-              {
                 "type": "HAPOTEKÁRNY ÚVER",
                 "share": "1/1",
                 "date": "28. 09. 2022"
+              },
+              {
+                "type": "HYPOTEKÁRNY ÚVER",
+                "share": "1/1",
+                "date": "05. 08. 2020"
               }
             ],
             "old_count": 2,
@@ -731,6 +774,9 @@
         "year": 2023,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady Sociálnej poisťovne",
+        "public_functions": [
+          "člen dozornej rady Sociálnej poisťovne"
+        ],
         "income": {
           "public_function": 15648,
           "other": 54650
@@ -753,18 +799,6 @@
             "share": "1/1"
           },
           {
-            "type": "POZEMOK",
-            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-            "lv_number": "5420",
-            "share": "9906/357056"
-          },
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-            "lv_number": "784",
-            "share": "1/1"
-          },
-          {
             "type": "POZEMKY",
             "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
             "lv_number": "784",
@@ -775,6 +809,18 @@
             "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
             "lv_number": "9696",
             "share": "1/2"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+            "lv_number": "5420",
+            "share": "9906/357056"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+            "lv_number": "784",
+            "share": "1/1"
           }
         ],
         "movable_property": null,
@@ -842,18 +888,6 @@
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-                "lv_number": "5420",
-                "share": "9906/357056"
-              },
-              {
-                "type": "ROZOSTAVANY RODINNÝ DOM",
-                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-                "lv_number": "784",
-                "share": "1/1"
-              },
-              {
                 "type": "POZEMKY",
                 "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
                 "lv_number": "784",
@@ -864,6 +898,18 @@
                 "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
                 "lv_number": "9696",
                 "share": "1/2"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+                "lv_number": "5420",
+                "share": "9906/357056"
+              },
+              {
+                "type": "ROZOSTAVANY RODINNÝ DOM",
+                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+                "lv_number": "784",
+                "share": "1/1"
               }
             ],
             "new": [
@@ -880,18 +926,6 @@
                 "share": "1/1"
               },
               {
-                "type": "POZEMOK",
-                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-                "lv_number": "5420",
-                "share": "9906/357056"
-              },
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-                "lv_number": "784",
-                "share": "1/1"
-              },
-              {
                 "type": "POZEMKY",
                 "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
                 "lv_number": "784",
@@ -902,6 +936,18 @@
                 "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
                 "lv_number": "9696",
                 "share": "1/2"
+              },
+              {
+                "type": "POZEMOK",
+                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+                "lv_number": "5420",
+                "share": "9906/357056"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+                "lv_number": "784",
+                "share": "1/1"
               }
             ],
             "old_count": 6,
@@ -911,14 +957,14 @@
             "field": "obligations",
             "old": [
               {
-                "type": "HYPOTEKÁRNY ÚVER",
-                "share": "1/1",
-                "date": "05. 08. 2020"
-              },
-              {
                 "type": "HAPOTEKÁRNY ÚVER",
                 "share": "1/1",
                 "date": "28. 09. 2022"
+              },
+              {
+                "type": "HYPOTEKÁRNY ÚVER",
+                "share": "1/1",
+                "date": "05. 08. 2020"
               }
             ],
             "new": [
@@ -967,6 +1013,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen dozornej rady Sociálnej poisťovne",
+        "public_functions": [
+          "člen dozornej rady Sociálnej poisťovne"
+        ],
         "income": {
           "public_function": 17160,
           "other": 94211
@@ -989,18 +1038,6 @@
             "share": "1/1"
           },
           {
-            "type": "POZEMOK",
-            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-            "lv_number": "5420",
-            "share": "9906/357056"
-          },
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
-            "lv_number": "784",
-            "share": "1/1"
-          },
-          {
             "type": "POZEMKY",
             "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
             "lv_number": "784",
@@ -1011,6 +1048,18 @@
             "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
             "lv_number": "9696",
             "share": "1/2"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+            "lv_number": "5420",
+            "share": "9906/357056"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+            "lv_number": "784",
+            "share": "1/1"
           }
         ],
         "movable_property": null,
@@ -1116,91 +1165,19 @@
       }
     }
   ],
-  "total_changes": 28,
+  "total_changes": 30,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Daniel.Sirhal.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Daniel.Sirhal.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Daniel.Sirhal.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Daniel.Sirhal.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 15648,
-            "other": 54650
-          },
-          "new": {
-            "public_function": 17160,
-            "other": 94211
-          },
-          "old_total": 70298,
-          "new_total": 111371,
-          "delta": 41073,
-          "delta_pct": 58.4
-        },
-        {
-          "field": "employment",
-          "old": "ASSECO CENTRAL EUROPE, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nASOCIÁCIA ZAMESTNÁVATEĽSKÝCH ZVÄZOV A ZDRUŽENÍ SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "ASOCIÁCIA ZAMESTNÁVATEĽSKÝCH ZVÄZOV A ZDRUŽENÍ SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "PEŇAŽNÉ PROSTRIEDKY, podiel: 1/1"
-          ],
-          "new": [
-            "PEŇAŽNÉ PROSTRIEDKY, podiel: 1/2"
-          ],
-          "old_count": 1,
-          "new_count": 1
-        },
-        {
-          "field": "obligations",
-          "old": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "1/1",
-              "date": "05. 08. 2020"
-            },
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "1/1",
-              "date": "28. 09. 2022"
-            }
-          ],
-          "new": [
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "50%",
-              "date": "05. 08. 2020"
-            },
-            {
-              "type": "HYPOTEKÁRNY ÚVER",
-              "share": "50%",
-              "date": "28. 09. 2022"
-            },
-            {
-              "type": "LEASINGOVÁ ZMLUVA",
-              "share": "1/1",
-              "date": "18. 10. 2024"
-            }
-          ],
-          "old_count": 2,
-          "new_count": 3
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 70 298 € → 111 371 € (+41 073 €)",
-      "Zamestnanie",
-      "Majetkové práva: 1 → 1 (0)",
-      "Záväzky: 2 → 3 (+1)"
-    ]
+    "summary": []
   },
   "slug": "judr-daniel-sirhal-mba",
   "context": {
@@ -1210,7 +1187,7 @@
     "obligations": 3,
     "income_percentile": 90,
     "property_percentile": 72,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 6.2

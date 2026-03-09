@@ -2,6 +2,9 @@
   "user_id": "Kamil.Boros",
   "name": "Ing. Kamil Boroš",
   "public_function": "člen Rady Slovenského pozemkového fondu",
+  "public_functions": [
+    "člen Rady Slovenského pozemkového fondu"
+  ],
   "role": "člen Rady Slovenského pozemkového fondu",
   "years": [
     2023,
@@ -17,6 +20,9 @@
         "year": 2023,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen Rady Slovenského pozemkového fondu",
+        "public_functions": [
+          "člen Rady Slovenského pozemkového fondu"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -59,6 +65,9 @@
         "year": 2024,
         "filed": "k 30. aprílu",
         "public_function": "člen Rady Slovenského pozemkového fondu",
+        "public_functions": [
+          "člen Rady Slovenského pozemkového fondu"
+        ],
         "income": {
           "public_function": 10356,
           "other": 12873
@@ -127,53 +136,17 @@
   ],
   "total_changes": 3,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Kamil.Boros.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Kamil.Boros.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Kamil.Boros.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Kamil.Boros.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 0
-          },
-          "new": {
-            "public_function": 10356,
-            "other": 12873
-          },
-          "old_total": 0,
-          "new_total": 23229,
-          "delta": 23229
-        },
-        {
-          "field": "incompatibility",
-          "old": false,
-          "new": true
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "PODIEL V 3X S.R.O., podiel: 50%"
-          ],
-          "new": [
-            "3X OBCHODNÝ PODIEL V S.R.O., podiel: 50%"
-          ],
-          "old_count": 1,
-          "new_count": 1
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Príjmy: 0 € → 23 229 € (+23 229 €)",
-      "Nezlučiteľnosť",
-      "Majetkové práva: 1 → 1 (0)"
-    ]
+    "summary": []
   },
   "slug": "ing-kamil-boros",
   "context": {
@@ -183,7 +156,7 @@
     "obligations": 1,
     "income_percentile": 25,
     "property_percentile": 20,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.3

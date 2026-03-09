@@ -1,8 +1,12 @@
 {
   "user_id": "ZatoStan",
   "name": "Ing. Stanislav Zátorsky",
-  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE A.S. TRENČÍN)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA, A.S.)",
-  "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE A.S. TRENČÍN) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA, A.S.)",
+  "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE A.S. TRENČÍN)",
+  "public_functions": [
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA, A.S.)",
+    "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE A.S. TRENČÍN)"
+  ],
+  "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA, A.S.) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE A.S. TRENČÍN)",
   "years": [
     2022,
     2023,
@@ -18,6 +22,9 @@
         "year": 2022,
         "filed": "pri ujatí sa funkcie",
         "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN A.S.)"
+        ],
         "income": {
           "public_function": 0,
           "other": 0
@@ -39,19 +46,23 @@
         ],
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "CHORVÁTSKY GRQB",
-            "lv_number": "3739",
-            "share": "100%"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "BRATISLAVA PETRŽALKA",
             "lv_number": "2660",
             "share": "50%"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "CHORVÁTSKY GRQB",
+            "lv_number": "3739",
+            "share": "100%"
           }
         ],
         "movable_property": [
+          {
+            "type": "HODINKY ŠPERKY",
+            "share": "100%"
+          },
           {
             "type": "OSOBNE MOTOROVÉ VOZIDLO",
             "brand": "VOLVO",
@@ -66,10 +77,6 @@
           },
           {
             "type": "VYBAVENIE DOMÁCNOSTI",
-            "share": "100%"
-          },
-          {
-            "type": "HODINKY ŠPERKY",
             "share": "100%"
           }
         ],
@@ -97,7 +104,11 @@
         "name": "Ing. STANISLAV ZÁTORSKÝ",
         "year": 2023,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA PIEŠŤANY)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA PIEŠŤANY)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA PIEŠŤANY)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN)"
+        ],
         "income": {
           "public_function": 0,
           "other": 29752
@@ -107,6 +118,11 @@
         "business_activity": null,
         "positions": [
           {
+            "role": "PREDSEDA DOZORNEJ RADY",
+            "organization": "SPOLOČNOSŤ M.R.ŠTEFÁNIKA",
+            "benefits": "ŽIADNE"
+          },
+          {
             "role": "PREZIDENT",
             "organization": "ÚNIA TELOVÝCHOVNÝCH ORGANIZÁCIÍ POLÍCIE SLOVENSKEJ REPUBLIKY",
             "benefits": "ŽIADNE"
@@ -115,25 +131,20 @@
             "role": "ČLEN DOZORNEJ RADY",
             "organization": "LETECKÉ OPRAVOVNE A.S. TRENČÍN",
             "benefits": "ŽIADNE"
-          },
-          {
-            "role": "PREDSEDA DOZORNEJ RADY",
-            "organization": "SPOLOČNOSŤ M.R.ŠTEFÁNIKA",
-            "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
-          {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "CHORVÁTSKY GROB",
-            "lv_number": "3739",
-            "share": "100%"
-          },
           {
             "type": "BYT",
             "cadastral_territory": "PETRŽALKA",
             "lv_number": "2660",
             "share": "50%"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "CHORVÁTSKY GROB",
+            "lv_number": "3739",
+            "share": "100%"
           }
         ],
         "movable_property": [
@@ -170,7 +181,19 @@
           {
             "field": "public_function",
             "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN A.S.)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA PIEŠŤANY)"
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA PIEŠŤANY)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN A.S.)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA PIEŠŤANY)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN)"
+            ],
+            "old_count": 1,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -207,6 +230,11 @@
             ],
             "new": [
               {
+                "role": "PREDSEDA DOZORNEJ RADY",
+                "organization": "SPOLOČNOSŤ M.R.ŠTEFÁNIKA",
+                "benefits": "ŽIADNE"
+              },
+              {
                 "role": "PREZIDENT",
                 "organization": "ÚNIA TELOVÝCHOVNÝCH ORGANIZÁCIÍ POLÍCIE SLOVENSKEJ REPUBLIKY",
                 "benefits": "ŽIADNE"
@@ -214,11 +242,6 @@
               {
                 "role": "ČLEN DOZORNEJ RADY",
                 "organization": "LETECKÉ OPRAVOVNE A.S. TRENČÍN",
-                "benefits": "ŽIADNE"
-              },
-              {
-                "role": "PREDSEDA DOZORNEJ RADY",
-                "organization": "SPOLOČNOSŤ M.R.ŠTEFÁNIKA",
                 "benefits": "ŽIADNE"
               }
             ],
@@ -229,30 +252,30 @@
             "field": "real_estate",
             "old": [
               {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "CHORVÁTSKY GRQB",
-                "lv_number": "3739",
-                "share": "100%"
-              },
-              {
                 "type": "BYT",
                 "cadastral_territory": "BRATISLAVA PETRŽALKA",
                 "lv_number": "2660",
                 "share": "50%"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "CHORVÁTSKY GRQB",
+                "lv_number": "3739",
+                "share": "100%"
               }
             ],
             "new": [
-              {
-                "type": "RODINNÝ DOM",
-                "cadastral_territory": "CHORVÁTSKY GROB",
-                "lv_number": "3739",
-                "share": "100%"
-              },
               {
                 "type": "BYT",
                 "cadastral_territory": "PETRŽALKA",
                 "lv_number": "2660",
                 "share": "50%"
+              },
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "CHORVÁTSKY GROB",
+                "lv_number": "3739",
+                "share": "100%"
               }
             ],
             "old_count": 2,
@@ -261,6 +284,10 @@
           {
             "field": "movable_property",
             "old": [
+              {
+                "type": "HODINKY ŠPERKY",
+                "share": "100%"
+              },
               {
                 "type": "OSOBNE MOTOROVÉ VOZIDLO",
                 "brand": "VOLVO",
@@ -275,10 +302,6 @@
               },
               {
                 "type": "VYBAVENIE DOMÁCNOSTI",
-                "share": "100%"
-              },
-              {
-                "type": "HODINKY ŠPERKY",
                 "share": "100%"
               }
             ],
@@ -323,7 +346,11 @@
         "name": "Ing. STANISLAV ZÁTORSKY",
         "year": 2024,
         "filed": "k 30. aprílu",
-        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE A.S. TRENČÍN)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA, A.S.)",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE A.S. TRENČÍN)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA, A.S.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE A.S. TRENČÍN)"
+        ],
         "income": {
           "public_function": 2610,
           "other": 68794
@@ -333,48 +360,48 @@
         "business_activity": null,
         "positions": [
           {
-            "role": "PREZIDENT",
-            "organization": "ÚNIA TELOVÝCHOVNÝCH ORGANIZÁCII POLI",
+            "role": "PREDSEDA DOZORNEJ RADY",
+            "organization": "SPOLOČNOSŤ MILANA RASTISLAVA ŠTEFÁNIKA",
             "benefits": "ŽIADNE"
           },
           {
-            "role": "PREDSEDA DOZORNEJ RADY",
-            "organization": "SPOLOČNOSŤ MILANA RASTISLAVA ŠTEFÁNIKA",
+            "role": "PREZIDENT",
+            "organization": "ÚNIA TELOVÝCHOVNÝCH ORGANIZÁCII POLI",
             "benefits": "ŽIADNE"
           }
         ],
         "real_estate": [
           {
-            "type": "RODINNÝ DOM",
-            "cadastral_territory": "CHORVÁTSKY GROB",
-            "lv_number": "3739",
-            "share": "100%"
-          },
-          {
             "type": "BYT",
             "cadastral_territory": "PETRŽALKA",
             "lv_number": "2660",
             "share": "50%"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "CHORVÁTSKY GROB",
+            "lv_number": "3739",
+            "share": "100%"
           }
         ],
         "movable_property": [
-          {
-            "type": "OSOBNÝ AUTOMOBIL",
-            "brand": "MERCEDES BENZ",
-            "year_of_manufacture": 2023,
-            "share": "50%"
-          },
           {
             "type": "MOTOCYKEL",
             "brand": "BMW",
             "year_of_manufacture": 2017,
             "share": "100%"
+          },
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "MERCEDES BENZ",
+            "year_of_manufacture": 2023,
+            "share": "50%"
           }
         ],
         "property_rights": [
           "VYBAVENIE DOMÁCNOSTI, podiel: 100%",
-          "ŠPERKY, podiel: 100%",
-          "ÚSPORY, podiel: 50%"
+          "ÚSPORY, podiel: 50%",
+          "ŠPERKY, podiel: 100%"
         ],
         "obligations": [
           {
@@ -390,8 +417,21 @@
         "changes": [
           {
             "field": "public_function",
-            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA PIEŠŤANY)",
-            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE A.S. TRENČÍN)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA, A.S.)"
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA PIEŠŤANY)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN)",
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE A.S. TRENČÍN)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA PIEŠŤANY)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA, A.S.)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE A.S. TRENČÍN)"
+            ],
+            "old_count": 2,
+            "new_count": 2
           },
           {
             "field": "income",
@@ -417,6 +457,11 @@
             "field": "positions",
             "old": [
               {
+                "role": "PREDSEDA DOZORNEJ RADY",
+                "organization": "SPOLOČNOSŤ M.R.ŠTEFÁNIKA",
+                "benefits": "ŽIADNE"
+              },
+              {
                 "role": "PREZIDENT",
                 "organization": "ÚNIA TELOVÝCHOVNÝCH ORGANIZÁCIÍ POLÍCIE SLOVENSKEJ REPUBLIKY",
                 "benefits": "ŽIADNE"
@@ -425,22 +470,17 @@
                 "role": "ČLEN DOZORNEJ RADY",
                 "organization": "LETECKÉ OPRAVOVNE A.S. TRENČÍN",
                 "benefits": "ŽIADNE"
-              },
-              {
-                "role": "PREDSEDA DOZORNEJ RADY",
-                "organization": "SPOLOČNOSŤ M.R.ŠTEFÁNIKA",
-                "benefits": "ŽIADNE"
               }
             ],
             "new": [
               {
-                "role": "PREZIDENT",
-                "organization": "ÚNIA TELOVÝCHOVNÝCH ORGANIZÁCII POLI",
+                "role": "PREDSEDA DOZORNEJ RADY",
+                "organization": "SPOLOČNOSŤ MILANA RASTISLAVA ŠTEFÁNIKA",
                 "benefits": "ŽIADNE"
               },
               {
-                "role": "PREDSEDA DOZORNEJ RADY",
-                "organization": "SPOLOČNOSŤ MILANA RASTISLAVA ŠTEFÁNIKA",
+                "role": "PREZIDENT",
+                "organization": "ÚNIA TELOVÝCHOVNÝCH ORGANIZÁCII POLI",
                 "benefits": "ŽIADNE"
               }
             ],
@@ -467,16 +507,16 @@
             ],
             "new": [
               {
-                "type": "OSOBNÝ AUTOMOBIL",
-                "brand": "MERCEDES BENZ",
-                "year_of_manufacture": 2023,
-                "share": "50%"
-              },
-              {
                 "type": "MOTOCYKEL",
                 "brand": "BMW",
                 "year_of_manufacture": 2017,
                 "share": "100%"
+              },
+              {
+                "type": "OSOBNÝ AUTOMOBIL",
+                "brand": "MERCEDES BENZ",
+                "year_of_manufacture": 2023,
+                "share": "50%"
               }
             ],
             "old_count": 3,
@@ -489,8 +529,8 @@
             ],
             "new": [
               "VYBAVENIE DOMÁCNOSTI, podiel: 100%",
-              "ŠPERKY, podiel: 100%",
-              "ÚSPORY, podiel: 50%"
+              "ÚSPORY, podiel: 50%",
+              "ŠPERKY, podiel: 100%"
             ],
             "old_count": 1,
             "new_count": 3
@@ -499,135 +539,19 @@
       }
     }
   ],
-  "total_changes": 13,
+  "total_changes": 15,
   "latest_extraction": {
-    "committed_at": "2026-03-07",
-    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/ZatoStan.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/ZatoStan.yaml",
+    "committed_at": "2026-03-09",
+    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
+    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/ZatoStan.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/ZatoStan.yaml",
     "diff": {
-      "type": "changed",
-      "changes": [
-        {
-          "field": "public_function",
-          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA PIEŠŤANY)",
-          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE A.S. TRENČÍN)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA, A.S.)"
-        },
-        {
-          "field": "income",
-          "old": {
-            "public_function": 0,
-            "other": 29752
-          },
-          "new": {
-            "public_function": 2610,
-            "other": 68794
-          },
-          "old_total": 29752,
-          "new_total": 71404,
-          "delta": 41652,
-          "delta_pct": 140.0
-        },
-        {
-          "field": "employment",
-          "old": "MINISTERSTVO OBRANY SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
-          "new": "MINISTERSTVO OBRANY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
-        },
-        {
-          "field": "positions",
-          "old": [
-            {
-              "role": "PREZIDENT",
-              "organization": "ÚNIA TELOVÝCHOVNÝCH ORGANIZÁCIÍ POLÍCIE SLOVENSKEJ REPUBLIKY",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "ČLEN DOZORNEJ RADY",
-              "organization": "LETECKÉ OPRAVOVNE A.S. TRENČÍN",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "PREDSEDA DOZORNEJ RADY",
-              "organization": "SPOLOČNOSŤ M.R.ŠTEFÁNIKA",
-              "benefits": "ŽIADNE"
-            }
-          ],
-          "new": [
-            {
-              "role": "PREZIDENT",
-              "organization": "ÚNIA TELOVÝCHOVNÝCH ORGANIZÁCII POLI",
-              "benefits": "ŽIADNE"
-            },
-            {
-              "role": "PREDSEDA DOZORNEJ RADY",
-              "organization": "SPOLOČNOSŤ MILANA RASTISLAVA ŠTEFÁNIKA",
-              "benefits": "ŽIADNE"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 2
-        },
-        {
-          "field": "movable_property",
-          "old": [
-            {
-              "type": "OSOBNÝ ATOMOBIL",
-              "brand": "MERCEDES BENZ",
-              "year_of_manufacture": 2021,
-              "share": "50%"
-            },
-            {
-              "type": "VYBAVENIE DOMÁCNOSTI",
-              "share": "100%"
-            },
-            {
-              "type": "ŠPERKY",
-              "share": "100%"
-            }
-          ],
-          "new": [
-            {
-              "type": "OSOBNÝ AUTOMOBIL",
-              "brand": "MERCEDES BENZ",
-              "year_of_manufacture": 2023,
-              "share": "50%"
-            },
-            {
-              "type": "MOTOCYKEL",
-              "brand": "BMW",
-              "year_of_manufacture": 2017,
-              "share": "100%"
-            }
-          ],
-          "old_count": 3,
-          "new_count": 2
-        },
-        {
-          "field": "property_rights",
-          "old": [
-            "ÚSPORY, podiel: 50%"
-          ],
-          "new": [
-            "VYBAVENIE DOMÁCNOSTI, podiel: 100%",
-            "ŠPERKY, podiel: 100%",
-            "ÚSPORY, podiel: 50%"
-          ],
-          "old_count": 1,
-          "new_count": 3
-        }
-      ]
+      "type": "unchanged"
     },
-    "summary": [
-      "Verejná funkcia",
-      "Príjmy: 29 752 € → 71 404 € (+41 652 €)",
-      "Zamestnanie",
-      "Funkcie: 3 → 2 (-1)",
-      "Hnuteľný majetok: 3 → 2 (-1)",
-      "Majetkové práva: 1 → 3 (+2)"
-    ]
+    "summary": []
   },
   "slug": "ing-stanislav-zatorsky",
   "context": {
@@ -635,9 +559,9 @@
     "income": 71404,
     "properties": 2,
     "obligations": 1,
-    "income_percentile": 72,
+    "income_percentile": 73,
     "property_percentile": 36,
-    "median_income": 57023,
+    "median_income": 57012,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.0
