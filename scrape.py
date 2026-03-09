@@ -345,7 +345,17 @@ def _parse_real_estate(td):
             "podiel": "share",
         })
         items.append(item)
-    return items or None
+    if not items:
+        return None
+    items.sort(
+        key=lambda item: (
+            str(item.get("type") or ""),
+            str(item.get("cadastral_territory") or ""),
+            str(item.get("lv_number") or ""),
+            str(item.get("share") or ""),
+        )
+    )
+    return items
 
 
 def _parse_obligations(td):
