@@ -76,11 +76,29 @@ uv run python scrape.py --year 2024 --limit 10
 uv run python scrape.py --year 2024 --workers 16
 ```
 
+### Hash-e obsahu
+
+```bash
+# Jednorázovo vygenerovať hash-e z aktuálneho obsahu v data/
+uv run python generate_content_hashes.py \
+  --data-dir data \
+  --output data/_checks/content-hashes.json
+```
+
 ## Deploy
 
 GitHub Actions automaticky buildí a deployuje na GitHub Pages
 pri každom push-e na `main` alebo `data` vetvu. Workflow je v
 `.github/workflows/deploy.yml`.
+
+Samostatný workflow `.github/workflows/check-data.yml` navyše každý
+deň znovu scrape-ne najnovšie dostupné priznania a ak sa na NRSR objaví
+zmena, uloží nový snapshot do vetvy `data`. Popri YAML dátach zapisuje aj
+kanonické hash-e extrahovaného obsahu do `data/_checks/content-hashes.json`,
+aby bolo možné sledovať zmeny v samotných deklaráciách z dňa na deň.
+
+Build zároveň exportuje do `site/data-status.json` posledný dátum
+extrakcie a GitHub odkaz na konkrétny commit alebo diff vo vetve `data`.
 
 ## Licencia
 

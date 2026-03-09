@@ -118,6 +118,20 @@ def data_branch_ref():
     raise RuntimeError(f"Missing git ref for data branch: {DATA_BRANCH}")
 
 
+def parse_github_repo_url():
+    try:
+        remote_url = git("remote", "get-url", "origin")
+    except subprocess.CalledProcessError:
+        return ""
+
+    if remote_url.startswith("git@github.com:"):
+        repo = remote_url.removeprefix("git@github.com:").removesuffix(".git")
+        return f"https://github.com/{repo}"
+    if remote_url.startswith("https://github.com/"):
+        return remote_url.removesuffix(".git")
+    return ""
+
+
 def get_commits():
     """Get ordered list of (commit_hash, year) from data branch.
 
@@ -135,6 +149,26 @@ def get_commits():
                 commits_by_year[int(word)] = commit_hash
                 break
     return [(commit_hash, year) for year, commit_hash in commits_by_year.items()]
+
+
+def latest_data_commit_info():
+    ref = data_branch_ref()
+    commit_hash = git("rev-parse", ref)
+    committed_at = git("log", "-1", "--format=%cs", ref)
+    parent_hash = git("rev-list", "--parents", "-n", "1", ref).split()[1:]
+    repo_url = parse_github_repo_url()
+    commit_url = f"{repo_url}/commit/{commit_hash}" if repo_url else ""
+    compare_url = ""
+    if repo_url and parent_hash:
+        compare_url = f"{repo_url}/compare/{parent_hash[0]}...{commit_hash}"
+
+    return {
+        "branch": DATA_BRANCH,
+        "commit": commit_hash,
+        "committed_at": committed_at,
+        "commit_url": commit_url,
+        "compare_url": compare_url,
+    }
 
 
 def read_yaml_at_commit(commit, path):
@@ -830,6 +864,7 @@ def compute_site_stats(index):
 def build():
     commits = get_commits()
     years = [year for _, year in commits]
+    data_status = latest_data_commit_info()
     print(f"Found {len(commits)} commits: {years}", file=sys.stderr)
 
     all_ids = set()
@@ -1046,6 +1081,10 @@ def build():
     (SITE_DIR / "highlights.json").write_text(json.dumps(highlights, ensure_ascii=False), encoding="utf-8")
     meta = {"years": years, "count": len(politicians)}
     (SITE_DIR / "meta.json").write_text(json.dumps(meta, ensure_ascii=False), encoding="utf-8")
+    (SITE_DIR / "data-status.json").write_text(
+        json.dumps(data_status, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
     detail_json_dir = SITE_DIR / DETAIL_JSON_DIRNAME
     detail_json_dir.mkdir(exist_ok=True)
