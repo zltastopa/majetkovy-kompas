@@ -286,6 +286,8 @@ def normalize_whitespace(value):
 
 
 def normalize_public_function(value):
+    if isinstance(value, list):
+        return " · ".join(normalize_public_function(item) for item in value if item)
     text = normalize_whitespace(value)
     for keyword in ROLE_BREAK_KEYWORDS:
         text = re.sub(rf"(?<=[\w\)])(?={re.escape(keyword)})", " · ", text)
@@ -1009,7 +1011,8 @@ def build():
             "user_id": user_id,
             "name": name,
             "public_function": latest.get("public_function"),
-            "role": display_role(latest.get("public_function")),
+            "public_functions": latest.get("public_functions"),
+            "role": display_role(latest.get("public_functions") or latest.get("public_function")),
             "years": [entry["year"] for entry in timeline],
             "timeline": timeline,
             "total_changes": total_changes,
@@ -1099,6 +1102,7 @@ def build():
                 "name": politician["name"],
                 "slug": politician["slug"],
                 "public_function": politician["public_function"],
+                "public_functions": politician.get("public_functions"),
                 "role": politician["role"],
                 "years": politician["years"],
                 "income": latest.get("income"),

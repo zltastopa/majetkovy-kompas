@@ -183,7 +183,9 @@ def extract_structured(raw):
     # Public function
     key = _find_key(raw, "vykonávaná verejná funkcia")
     if key:
-        result["public_function"] = raw[key].get_text(strip=True)
+        public_functions = _parse_public_functions(raw[key])
+        result["public_function"] = "\n".join(public_functions) if public_functions else None
+        result["public_functions"] = public_functions or None
 
     # Income
     key = _find_key(raw, "príjmy za rok")
@@ -267,6 +269,22 @@ def _find_key(d, substring):
         if substring in k:
             return k
     return None
+
+
+def _parse_public_functions(td):
+    entries = []
+    divs = td.select("div")
+    if divs:
+        for div in divs:
+            text = " ".join(div.stripped_strings)
+            text = re.sub(r"\s+", " ", text).strip()
+            if text:
+                entries.append(text)
+        return entries
+
+    text = " ".join(td.stripped_strings)
+    text = re.sub(r"\s+", " ", text).strip()
+    return [text] if text else []
 
 
 def _null_if(td, null_text):

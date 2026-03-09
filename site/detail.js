@@ -19,7 +19,7 @@ function initDetail() {
   }
 
   nameEl.textContent = detail.name || "";
-  functionEl.textContent = detail.public_function || "";
+  functionEl.textContent = detail.role || normalizePublicFunction(detail.public_function || "");
   sourceEl.innerHTML = renderSourceLinks(detail);
 
   renderYearTabs(detail);
@@ -66,6 +66,13 @@ function renderSourceLinks(detail) {
   }
 
   return `${html}<div class="ctx-rank">${summary}</div>`;
+}
+
+function normalizePublicFunction(value) {
+  return String(value || "")
+    .replace(/\s+/g, " ")
+    .replace(/(?<=[\w\)])(?=(člen |členka |poslanec |predseda |podpredseda |primátor |starosta |štatutárny orgán |sudca |sudkyňa |prokurátor |riaditeľ |riaditeľka |generálny |guvernér |prezident |rektor |dekan ))/g, " · ")
+    .trim();
 }
 
 function renderDetailContext(detail) {
