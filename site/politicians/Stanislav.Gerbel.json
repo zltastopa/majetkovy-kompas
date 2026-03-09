@@ -1271,6 +1271,132 @@
     }
   ],
   "total_changes": 22,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Stanislav.Gerbel.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Stanislav.Gerbel.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2280,
+            "other": 7380
+          },
+          "new": {
+            "public_function": 2280,
+            "other": 7420
+          },
+          "old_total": 9660,
+          "new_total": 9700,
+          "delta": 40,
+          "delta_pct": 0.4
+        },
+        {
+          "field": "employment",
+          "old": "LEGATI, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nPRO REN, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "PRO REN, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nLEGATI, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HRUBÁ BORŠA",
+              "lv_number": "482",
+              "share": "1/2"
+            },
+            {
+              "type": "REKREAČNÝ OBJEKT",
+              "cadastral_territory": "HRUBÁ BORŠA",
+              "lv_number": "436",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HORNÁ LEHOTA",
+              "lv_number": "114",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "2712",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "7050",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "6322",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "3655",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "2712",
+              "share": "1/2"
+            },
+            {
+              "type": "REKREAČNÝ OBJEKT",
+              "cadastral_territory": "HRUBÁ BORŠA",
+              "lv_number": "436",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HORNÁ LEHOTA",
+              "lv_number": "114",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "4011",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "7050",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "6322",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 6
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 9 660 € → 9 700 € (+40 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 7 → 6 (-1)"
+    ]
+  },
   "slug": "mudr-stanislav-gerbel-mph",
   "context": {
     "latest_year": 2024,

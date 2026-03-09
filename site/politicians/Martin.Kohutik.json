@@ -242,6 +242,72 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Kohutik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Kohutik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL, A. S. )",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1469,
+            "other": 3554
+          },
+          "new": {
+            "public_function": 17976,
+            "other": 72905
+          },
+          "old_total": 5023,
+          "new_total": 90881,
+          "delta": 85858,
+          "delta_pct": 1709.3
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO HOSPODÁRSTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO HOSPODÁRSTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO INVESTÍCIÍ, REGIONÁLNEHO ROZVOJA A INFORMATIZÁCIE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINOHRADY, BRATISLAVA - MESTSKÁ ČASŤ NOVÉ MESTO",
+              "lv_number": "6398",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINOHRADY, BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "6398",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 5 023 € → 90 881 € (+85 858 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-martin-kohutik",
   "context": {
     "latest_year": 2024,

@@ -575,6 +575,156 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Michal.Tariska.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Michal.Tariska.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 6334,
+            "other": 0
+          },
+          "new": {
+            "public_function": 103724,
+            "other": 0
+          },
+          "old_total": 6334,
+          "new_total": 103724,
+          "delta": 97390,
+          "delta_pct": 1537.6
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MÝTO POD ĎUMBIEROM",
+              "lv_number": "2852",
+              "share": "1/1"
+            },
+            {
+              "type": "CHATA",
+              "cadastral_territory": "MÝTO POD ĎUMBIEROM",
+              "lv_number": "1445",
+              "share": "1/1"
+            },
+            {
+              "type": "CHATA",
+              "cadastral_territory": "MÝTO POD ĎUMBIEROM",
+              "lv_number": "2787",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "1204",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7523",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BREZNO",
+              "lv_number": "14687",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "VEĽKÉ KOZMÁLOVCE",
+              "lv_number": "1222",
+              "share": "1 %"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "VEĽKÉ KOZMÁLOVCE",
+              "lv_number": "1222",
+              "share": "1 %"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "1204",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7523",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BREZNO",
+              "lv_number": "14683",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MÝTO POD ĎUMBIEROM",
+              "lv_number": "2852",
+              "share": "1/1"
+            },
+            {
+              "type": "CHATA",
+              "cadastral_territory": "MÝTO POD ĎUMBIEROM",
+              "lv_number": "1445",
+              "share": "1/1"
+            },
+            {
+              "type": "CHATA",
+              "cadastral_territory": "MÝTO POD ĎUMBIEROM",
+              "lv_number": "2787",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "TERMINOVANÝ VKLAD, podiel: 1/1",
+            "TERMINOVANÝ VKLAD, podiel: 1/1",
+            "PENIAZE V HOTOVOSTI/ÚSPORY, podiel: 1/1",
+            "REALITNÝ PODIELOVÝ FOND P, podiel: 1/1",
+            "PODIELOVÉ FONDY A, podiel: 1/1",
+            "PODIELOVÉ FONDY B, podiel: 1/1",
+            "DLHOPIS, podiel: 1/1"
+          ],
+          "new": [
+            "TERMÍNOVANÝ VKLAD, podiel: 1/1",
+            "TERMÍNOVANÝ VKLAD, podiel: 1/1",
+            "PENIAZE V HOTOVOSTI/ÚSPORY, podiel: 1/1",
+            "REALITNÝ PODIELOVÝ FOND P, podiel: 1/1",
+            "PODIELOVÉ FONDY A, podiel: 1/1",
+            "PODIELOVÉ FONDY B, podiel: 1/1",
+            "DLHOPIS, podiel: 1/1"
+          ],
+          "old_count": 7,
+          "new_count": 7
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 6 334 € → 103 724 € (+97 390 €)",
+      "Nehnuteľnosti: 7 → 7 (0)",
+      "Majetkové práva: 7 → 7 (0)"
+    ]
+  },
   "slug": "ing-michal-tariska",
   "context": {
     "latest_year": 2024,

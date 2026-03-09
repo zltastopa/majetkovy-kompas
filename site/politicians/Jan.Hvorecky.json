@@ -485,6 +485,105 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jan.Hvorecky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jan.Hvorecky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky",
+          "new": "poslanec Národnej rady Slovenskej republiky"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 63435,
+            "other": 4236
+          },
+          "new": {
+            "public_function": 49908,
+            "other": 10257
+          },
+          "old_total": 67671,
+          "new_total": 60165,
+          "delta": -7506,
+          "delta_pct": -11.1
+        },
+        {
+          "field": "employment",
+          "old": "FELIX BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nSÚKROMNÉ GYMNÁZIUM FELIX\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "RÍMSKO-KATOLICKÁ CIRKEV, BRATISLAVSKÁ ARCIDIECÉZA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSÚKROMNÉ GYMNÁZIUM FELIX\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nFELIX BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN RADY ŠKOLY",
+              "organization": "SÚKROMNÁ ZAKLADNÁ ŠKOLA FELIX",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN RADY ŠKOLY",
+              "organization": "SÚKROMNÁ ZÁKLADNÁ ŠKOLA FELIX",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "18. 02. 2010"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "10. 12. 2018"
+            },
+            {
+              "type": "PÔŽIČKA",
+              "share": "1/1",
+              "date": "02. 10. 2023"
+            }
+          ],
+          "new": [
+            {
+              "type": "PÔŽIČKA",
+              "share": "1/1",
+              "date": "02. 10. 2023"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "18. 02. 2010"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 67 671 € → 60 165 € (-7 506 €)",
+      "Zamestnanie",
+      "Funkcie: 1 → 1 (0)",
+      "Záväzky: 3 → 2 (-1)"
+    ]
+  },
   "slug": "mgr-jan-horecky",
   "context": {
     "latest_year": 2024,

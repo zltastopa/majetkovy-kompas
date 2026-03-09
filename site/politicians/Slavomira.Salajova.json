@@ -651,6 +651,114 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Slavomira.Salajova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Slavomira.Salajova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10432,
+            "other": 52869
+          },
+          "new": {
+            "public_function": 11926,
+            "other": 40133
+          },
+          "old_total": 63301,
+          "new_total": 52059,
+          "delta": -11242,
+          "delta_pct": -17.8
+        },
+        {
+          "field": "employment",
+          "old": "AUDIOVIZUÁLNY FOND\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nRADA PRE MEDIÁLNE SLUŽBY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ KOMORA STAVEBNÝCH INŽINIEROV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÁ INŠPEKCIA ŽIVOTNÉHO PROSTREDIA - ÚSTREDIE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ KOMORA STAVEBNÝCH INŽINIEROV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO DOPRAVY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nRADA PRE MEDIÁLNE SLUŽBY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "3352",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK POD STAVBOU",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "7368",
+              "share": "4403/81869"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+              "lv_number": "313",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO VINOHRADY",
+              "lv_number": "313",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO VINOHRADY",
+              "lv_number": "313",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO VINOHRADY",
+              "lv_number": "313",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO VINOHRADY",
+              "lv_number": "313",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "3352",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK POD STAVBOU",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "7368",
+              "share": "4403/81869"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "313",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 63 301 € → 52 059 € (-11 242 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
+  },
   "slug": "mgr-slavomira-salajova",
   "context": {
     "latest_year": 2024,

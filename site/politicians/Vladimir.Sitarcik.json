@@ -661,6 +661,78 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Vladimir.Sitarcik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Vladimir.Sitarcik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "riaditeľ štátneho podniku (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV\r\nMARÍNA Š. P. KOVÁČOVÁ)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKOVÁ SPOLOČNOSŤ ŽILINA A.S.)riaditeľ štátneho podniku (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA,\r\nŠTÁTNY PODNIK KOVÁČOVÁ)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 37646,
+            "other": 0
+          },
+          "new": {
+            "public_function": 9692,
+            "other": 0
+          },
+          "old_total": 37646,
+          "new_total": 9692,
+          "delta": -27954,
+          "delta_pct": -74.3
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "OPEL",
+              "year_of_manufacture": 2017,
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "OPEL",
+              "year_of_manufacture": 2017,
+              "share": "100%"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "VOLVO",
+              "year_of_manufacture": 2018,
+              "share": "100%"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "BMW",
+              "year_of_manufacture": 2019,
+              "share": "100%"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 37 646 € → 9 692 € (-27 954 €)",
+      "Hnuteľný majetok: 1 → 3 (+2)"
+    ]
+  },
   "slug": "ing-vladimir-sitarcik-mba",
   "context": {
     "latest_year": 2024,

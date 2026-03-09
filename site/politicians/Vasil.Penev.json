@@ -192,6 +192,97 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Vasil.Penev.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Vasil.Penev.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 46229,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 46229,
+          "delta": 46229
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "employment",
+          "old": "EVIDEN SLOVAKIA S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1805/1825",
+              "share": "50%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "764",
+              "share": "33,33%"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1805/1825",
+              "share": "50%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "764",
+              "share": "33,33%"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 100%",
+            "ŽIVOTNÉ POISTENIE, podiel: 100%"
+          ],
+          "new": [
+            "PODIEL V S.R.O., podiel: 100%",
+            "ŽIVOTNÉ POISTENIE, podiel: 100%"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 46 229 € (+46 229 €)",
+      "Nezlučiteľnosť",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-vasil-penev",
   "context": {
     "latest_year": 2024,

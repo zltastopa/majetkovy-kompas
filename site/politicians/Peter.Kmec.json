@@ -472,6 +472,50 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Kmec.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Kmec.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky",
+          "new": "člen vlády Slovenskej republiky"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 54774,
+            "other": 0
+          },
+          "new": {
+            "public_function": 62839,
+            "other": 0
+          },
+          "old_total": 54774,
+          "new_total": 62839,
+          "delta": 8065,
+          "delta_pct": 14.7
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO ZAHRANIČNÝCH VECÍ A EURÓPSKYCH ZÁLEŽITOSTÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 54 774 € → 62 839 € (+8 065 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "judr-peter-kmec",
   "context": {
     "latest_year": 2024,

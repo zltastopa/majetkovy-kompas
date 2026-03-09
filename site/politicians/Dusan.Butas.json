@@ -584,6 +584,104 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Dusan.Butas.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Dusan.Butas.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 53197
+          },
+          "new": {
+            "public_function": 0,
+            "other": 54467
+          },
+          "old_total": 53197,
+          "new_total": 54467,
+          "delta": 1270,
+          "delta_pct": 2.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "1988, 3343",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "2525",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "6530",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "5- IZBOVÝ BYT",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "1988, 3343",
+              "share": "BSM"
+            },
+            {
+              "type": "3- IZBOVÝ BYT",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "2525",
+              "share": "BSM"
+            },
+            {
+              "type": "2- IZBOVÝ BYT",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "6530",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "05. 03. 2019"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNÝ ÚVER",
+              "share": "BSM",
+              "date": "05. 03. 2019"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 53 197 € → 54 467 € (+1 270 €)",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-dusan-butas",
   "context": {
     "latest_year": 2024,

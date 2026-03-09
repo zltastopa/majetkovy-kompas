@@ -812,6 +812,126 @@
     }
   ],
   "total_changes": 24,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lukas.Parizek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lukas.Parizek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SLOVENSKÁ REPUBLIKA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA SR)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 12022,
+            "other": 63254
+          },
+          "new": {
+            "public_function": 25815,
+            "other": 4154
+          },
+          "old_total": 75276,
+          "new_total": 29969,
+          "delta": -45307,
+          "delta_pct": -60.2
+        },
+        {
+          "field": "employment",
+          "old": "HENEKEN, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nTECHNISERV, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "TECHNISERV, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "6367",
+              "share": "100%"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "6367",
+              "share": "100%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "3951",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "6367",
+              "share": "100%"
+            },
+            {
+              "type": "NEBYTOVY PRIESTOR",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "6367",
+              "share": "100%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "3951",
+              "share": "100%"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "100%",
+              "date": "17. 03. 2022"
+            },
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "50%",
+              "date": "25. 01. 2023"
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "50%",
+              "date": "17. 03. 2022"
+            },
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "50%",
+              "date": "25. 01. 2023"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 75 276 € → 29 969 € (-45 307 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "mgr-lukas-parizek",
   "context": {
     "latest_year": 2024,

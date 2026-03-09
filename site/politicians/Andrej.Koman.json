@@ -881,6 +881,184 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Andrej.Koman.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Andrej.Koman.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DETSKÁ FAKULTNÁ NEMOCNICA\r\nKOŠICE)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DETSKÁ FAKULTNÁ NEMOCNICA KOŠICE\r\n)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 82208,
+            "other": 9134
+          },
+          "new": {
+            "public_function": 99458,
+            "other": 25721
+          },
+          "old_total": 91342,
+          "new_total": 125179,
+          "delta": 33837,
+          "delta_pct": 37.0
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZÁHRADA 2X, GARÁŽ, DOM, HOSPODÁRSKA BUDOVA 2X",
+              "cadastral_territory": "OLŠOVANY",
+              "lv_number": "25",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA 5X",
+              "cadastral_territory": "OLŠOVANY",
+              "lv_number": "25",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TERASA",
+              "lv_number": "14679",
+              "share": "BSM"
+            },
+            {
+              "type": "RADOVÁ GARÁŽ",
+              "cadastral_territory": "TERASA",
+              "lv_number": "11341",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATA",
+              "cadastral_territory": "KOSTOĽANY NAD HORNÁDOM",
+              "lv_number": "815",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA 3X, DOM, GARÁŽ",
+              "cadastral_territory": "ŠTÓS",
+              "lv_number": "97",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA, GARÁŽ, PIVNICA, RODINNÝ DOM",
+              "cadastral_territory": "OLŠOVANY",
+              "lv_number": "927",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA 2X",
+              "cadastral_territory": "OLŠOVANY",
+              "lv_number": "927",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "TERASA",
+              "lv_number": "14619",
+              "share": "BSM"
+            },
+            {
+              "type": "RADOVÁ GARÁŽ",
+              "cadastral_territory": "TERASA",
+              "lv_number": "11341",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATA",
+              "cadastral_territory": "KOSTOĽANY NAD HORNÁDOM",
+              "lv_number": "815",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA 3X, DOM, GARÁŽ",
+              "cadastral_territory": "ŠTÓS",
+              "lv_number": "97",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA, GARÁŽ, PIVNICA, RODINNÝ DOM",
+              "cadastral_territory": "OLŠOVANY",
+              "lv_number": "927",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA 2X",
+              "cadastral_territory": "OLŠOVANY",
+              "lv_number": "927",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA, 2X GARÁŽ, DOM,  HOSPODÁRSKA BUDOVA 2X",
+              "cadastral_territory": "OLŠOVANY",
+              "lv_number": "25",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA 5X",
+              "cadastral_territory": "OLŠOVANY",
+              "lv_number": "25",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 8
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "CITROËN",
+              "year_of_manufacture": 2010,
+              "share": "1/1"
+            },
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "CITROËN",
+              "year_of_manufacture": 2002,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "CITROEN",
+              "year_of_manufacture": 2010,
+              "share": "1/1"
+            },
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "CITROEN",
+              "year_of_manufacture": 2002,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 91 342 € → 125 179 € (+33 837 €)",
+      "Nehnuteľnosti: 8 → 8 (0)",
+      "Hnuteľný majetok: 2 → 2 (0)"
+    ]
+  },
   "slug": "mudr-andrej-koman",
   "context": {
     "latest_year": 2024,

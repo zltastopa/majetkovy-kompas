@@ -166,6 +166,90 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Miroslav.Kmet.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Miroslav.Kmet.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 24415,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 24415,
+          "delta": 24415
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BYSTRIČKA",
+              "lv_number": "1626",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE 4 KRÁT",
+              "cadastral_territory": "BYSTRIČKA",
+              "lv_number": "1626",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PODIEL V S.R.O., podiel: 100%"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE = ÚSPORY, podiel: 100%",
+            "PODIELY V OBCHODNEJ SPOLOČNOSTI, podiel: 100%"
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "RODINNÝ DOM, kat. územie MARTIN, rok zač. užívania: 1990, spôsob užívania: BÝVANIE",
+          "new": null
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "BMW",
+              "year_of_manufacture": 2016
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 24 415 € (+24 415 €)",
+      "Nehnuteľnosti: 1 → 1 (0)",
+      "Majetkové práva: 1 → 2 (+1)",
+      "Užívanie nehnuteľností",
+      "Vozidlá"
+    ]
+  },
   "slug": "mudr-miroslav-kmet-mph-mba",
   "context": {
     "latest_year": 2024,

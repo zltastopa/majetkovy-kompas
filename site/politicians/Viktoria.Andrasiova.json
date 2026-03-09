@@ -219,6 +219,44 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Viktoria.Andrasiova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Viktoria.Andrasiova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NADÁCIA MINISTERSTVA HOSPODÁRSTVA SLOVENSKEJ\r\nREPUBLIKY)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NADÁCIA MINISTERSTVA HOSPODÁRSTVA SLOVENSKEJ REPUBLIKY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 23400,
+            "other": 13359
+          },
+          "new": {
+            "public_function": 15600,
+            "other": 28358
+          },
+          "old_total": 36759,
+          "new_total": 43958,
+          "delta": 7199,
+          "delta_pct": 19.6
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 36 759 € → 43 958 € (+7 199 €)"
+    ]
+  },
   "slug": "mgr-viktoria-andrasiova",
   "context": {
     "latest_year": 2024,

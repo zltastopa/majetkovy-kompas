@@ -377,6 +377,44 @@
     }
   ],
   "total_changes": 10,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Maria.Vincurova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Maria.Vincurova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SOLIDARITA ZAMESTNANCOV ŽELEZNÍC SLOVENSKEJ REPUBLIKY, NEINVESTIČNÝ FOND)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SOLIDARITA ZAMESTNANCOV ŽELEZNÍC SLOVENSKEJ\r\nREPUBLIKY, NEINVESTIČNÝ FOND)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 60313
+          },
+          "new": {
+            "public_function": 0,
+            "other": 62398
+          },
+          "old_total": 60313,
+          "new_total": 62398,
+          "delta": 2085,
+          "delta_pct": 3.5
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 60 313 € → 62 398 € (+2 085 €)"
+    ]
+  },
   "slug": "ing-maria-vincurova",
   "context": {
     "latest_year": 2024,

@@ -238,6 +238,73 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Rybar.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Rybar.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 5143,
+            "other": 0
+          },
+          "new": {
+            "public_function": 78352,
+            "other": 0
+          },
+          "old_total": 5143,
+          "new_total": 78352,
+          "delta": 73209,
+          "delta_pct": 1423.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "874604 ŽILINA",
+              "lv_number": "8551",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8551",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "MOTOCYKEL",
+              "brand": "VESPA",
+              "year_of_manufacture": 2018,
+              "share": "1/1"
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 5 143 € → 78 352 € (+73 209 €)",
+      "Nehnuteľnosti: 1 → 1 (0)",
+      "Hnuteľný majetok"
+    ]
+  },
   "slug": "ing-martin-rybar",
   "context": {
     "latest_year": 2024,

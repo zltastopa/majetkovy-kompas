@@ -136,6 +136,65 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Miks.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Miks.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 0,
+            "other": 58094
+          },
+          "old_total": 0,
+          "new_total": 58094,
+          "delta": 58094
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO FINANCIÍ SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "788571 VYŠKOV ČESKÁ REPUBLIKA",
+              "lv_number": "3450",
+              "share": "1/4"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "788571 VYŠKOV ČR",
+              "lv_number": "3450",
+              "share": "1/4"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 58 094 € (+58 094 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 1 → 1 (0)"
+    ]
+  },
   "slug": "judr-jozef-miks",
   "context": {
     "latest_year": 2024,

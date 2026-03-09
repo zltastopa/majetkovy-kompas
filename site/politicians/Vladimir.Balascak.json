@@ -495,6 +495,56 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Vladimir.Balascak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Vladimir.Balascak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (PUNCOVÝ ÚRAD SLOVENSKEJ REPUBLIKY)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (PUNCOVÝ ÚRAD SR)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 34307,
+            "other": 4097
+          },
+          "new": {
+            "public_function": 43709,
+            "other": 7076
+          },
+          "old_total": 38404,
+          "new_total": 50785,
+          "delta": 12381,
+          "delta_pct": 32.2
+        },
+        {
+          "field": "employment",
+          "old": "ÚSTAV SÚDNEHO INŽINIERSTVA ŽILINSKEJ UNIVERZITY V ŽILINE, ZDRUŽENIE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "business_activity",
+          "old": "ZNALEC NA DRAHÉ KOVY A KAMENE, KLENOTY, HODINKY(Mgr.Ing. VLADIMÍR BALAŠČÁK)",
+          "new": "ZNALEC NA DRAHÉ KOVY A KAMENE, KLENOTY, HODINKY(Mgr. Ing. VLADIMÍR BALAŠČÁK )"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 38 404 € → 50 785 € (+12 381 €)",
+      "Zamestnanie",
+      "Podnikanie"
+    ]
+  },
   "slug": "mgr-ing-vladimir-balascak",
   "context": {
     "latest_year": 2024,

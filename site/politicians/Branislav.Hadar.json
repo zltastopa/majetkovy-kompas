@@ -717,6 +717,84 @@
     }
   ],
   "total_changes": 21,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Branislav.Hadar.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Branislav.Hadar.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 54920,
+            "other": 488
+          },
+          "new": {
+            "public_function": 51420,
+            "other": 23817
+          },
+          "old_total": 55408,
+          "new_total": 75237,
+          "delta": 19829,
+          "delta_pct": 35.8
+        },
+        {
+          "field": "employment",
+          "old": "TREXIMA BRATISLAVA, SPOL. S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ASOCIÁCIA ZAMESTNÁVATEĽSKÝCH ZVÄZOV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO INVESTÍCIÍ, REGIONÁLNEHO ROZVOJA A INFORMATIZÁCIE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2021,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "KIA",
+              "year_of_manufacture": 2020,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "KIA",
+              "year_of_manufacture": 2020,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTORO VOZIDLO",
+              "brand": "KIA",
+              "year_of_manufacture": 2018
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 55 408 € → 75 237 € (+19 829 €)",
+      "Zamestnanie",
+      "Hnuteľný majetok: 2 → 1 (-1)",
+      "Vozidlá"
+    ]
+  },
   "slug": "ing-branislav-hadar",
   "context": {
     "latest_year": 2024,

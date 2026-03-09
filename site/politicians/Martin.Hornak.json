@@ -196,6 +196,89 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Hornak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Hornak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 5512,
+            "other": 58237
+          },
+          "old_total": 0,
+          "new_total": 63749,
+          "delta": 63749
+        },
+        {
+          "field": "employment",
+          "old": "MESTO SVÄTÝ JUR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3243",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NIVY",
+              "lv_number": "2284",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT + PODIEL NA POZEMKU POD BYTOVÝM DOMOM",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "2518 + 4293",
+              "share": "1/1 + 969/10000"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BA - NOVÉ MESTO",
+              "lv_number": "3243",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BA - NIVY",
+              "lv_number": "2284",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT+ PODIEL NA POZEMKU POD BYTOVÝM DOMOM",
+              "cadastral_territory": "BA - PETRŽALKA",
+              "lv_number": "2518 + 4293",
+              "share": "1/1 + 969/100000"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 63 749 € (+63 749 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 3 (0)"
+    ]
+  },
   "slug": "mgr-martin-hornak",
   "context": {
     "latest_year": 2024,

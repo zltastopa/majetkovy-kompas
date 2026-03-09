@@ -274,6 +274,141 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Vladimir.Macik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Vladimir.Macik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 5003,
+            "other": 51581
+          },
+          "old_total": 0,
+          "new_total": 56584,
+          "delta": 56584
+        },
+        {
+          "field": "business_activity",
+          "old": "SAMOSTATNÝ VÝKON ADVOKÁCIE(JUDr. VLADIMÍR MAČÍK - ADVOKÁT)",
+          "new": "ADVOKÁT(JUDr. VLADIMÍR MAČÍK- ADVOKÁT)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "PREŠOV",
+              "lv_number": "8676",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PREŠOV",
+              "lv_number": "8894",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "PREŠOV",
+              "lv_number": "8876",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PREŠOV",
+              "lv_number": "8894",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2019,
+              "share": "BSM"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MAZDA",
+              "year_of_manufacture": 2018,
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2019,
+              "share": "BSM"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "MAZDA",
+              "year_of_manufacture": 2018,
+              "share": "BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "01. 12. 2023"
+            },
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "1/1",
+              "date": "14. 07. 2015"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "01. 12. 2023"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "14. 07. 2015"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 56 584 € (+56 584 €)",
+      "Podnikanie",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Hnuteľný majetok: 2 → 2 (0)",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "judr-vladimir-macik",
   "context": {
     "latest_year": 2024,

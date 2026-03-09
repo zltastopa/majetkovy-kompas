@@ -1004,6 +1004,50 @@
     }
   ],
   "total_changes": 28,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Kiss.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Kiss.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (PÔDOHOSPODÁRSKA PLATOBNÁ\r\nAGENTÚRA)riaditeľ štátneho podniku (LETOVÉ PREVÁDZKOVÉ SLUŽBY SR,\r\nŠTÁTNY PODNIK)prezident Finančného riaditeľstva Slovenskej republiky",
+          "new": "prezident Finančného riaditeľstva Slovenskej republiky"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 148678,
+            "other": 0
+          },
+          "new": {
+            "public_function": 138052,
+            "other": 0
+          },
+          "old_total": 148678,
+          "new_total": 138052,
+          "delta": -10626,
+          "delta_pct": -7.1
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "RODINNÝ DOM, ZASTAVANÁ PLOCHA, NÁDVORIE, kat. územie ROVINKA, rok zač. užívania: 2015, spôsob užívania: BÝVANIE",
+          "new": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE, kat. územie ROVINKA, rok zač. užívania: 2015, spôsob užívania: BÝVANIE"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 148 678 € → 138 052 € (-10 626 €)",
+      "Užívanie nehnuteľností"
+    ]
+  },
   "slug": "mgr-jozef-kiss-ma",
   "context": {
     "latest_year": 2024,

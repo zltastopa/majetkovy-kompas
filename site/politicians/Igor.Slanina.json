@@ -455,6 +455,197 @@
     }
   ],
   "total_changes": 2,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Igor.Slanina.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Igor.Slanina.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 34364,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 34364,
+          "delta": 34364
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "58X OSTATNÁ PLOCHA, 21X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DEVÍNSKA NOVÁ VES",
+              "lv_number": "7691",
+              "share": "1/288"
+            },
+            {
+              "type": "3X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DEVÍNSKA NOVÁ VES",
+              "lv_number": "7688",
+              "share": "4997/548456"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "DEVÍNSKA NOVÁ VES",
+              "lv_number": "7688",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DEVÍNSKA NOVÁ VES",
+              "lv_number": "7869",
+              "share": "1/1"
+            },
+            {
+              "type": "2X ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "2940",
+              "share": "1/1"
+            },
+            {
+              "type": "2X ZASTAVANÁ PLOCHA A NÁDVORIE, REKREAČNÝ DOM",
+              "cadastral_territory": "ŠAJDÍKOVE HUMENCE",
+              "lv_number": "2546",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "4144",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVY PRIESTOR - PIVNIČNÁ KOBKA",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "4144",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVY PRIESTOR - GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "4144",
+              "share": "1/71"
+            },
+            {
+              "type": "3X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "4144",
+              "share": "4596/658381"
+            },
+            {
+              "type": "3X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "4144",
+              "share": "704/658381"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "4144",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "4144",
+              "share": "1/71"
+            },
+            {
+              "type": "58X OSTATNÁ PLOCHA, 21X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DEVÍNSKA NOVÁ VES",
+              "lv_number": "7691",
+              "share": "1/288"
+            },
+            {
+              "type": "3X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DEVÍNSKA NOVÁ VES",
+              "lv_number": "7688",
+              "share": "4997/548456"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "DEVÍNSKA NOVÁ VES",
+              "lv_number": "7688",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DEVÍNSKA NOVÁ VES",
+              "lv_number": "7869",
+              "share": "1/1"
+            },
+            {
+              "type": "2X ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "2940",
+              "share": "1/1"
+            },
+            {
+              "type": "2X ZASTAVANÁ PLOCHA A NÁDVORIE, REKREAČNÝ DOM",
+              "cadastral_territory": "ŠAJDÍKOVE HUMENCE",
+              "lv_number": "2546",
+              "share": "1/2"
+            },
+            {
+              "type": "16X TRVALÝ TRÁVNY PORAST, 11X OSTATNÁ PLOCHA",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "4191",
+              "share": "182208/46745051"
+            },
+            {
+              "type": "16X TRVALÝ TRÁVNY PORAST, 11X OSTATNÁ PLOCHA",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "4191",
+              "share": "704/658381"
+            },
+            {
+              "type": "3X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "4144",
+              "share": "3178/658381"
+            },
+            {
+              "type": "16X TRVALÝ TRÁVNY PORAST, 11X OSTATNÁ PLOCHA",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "4191",
+              "share": "3178/658381"
+            },
+            {
+              "type": "16X TRVALÝ TRÁVNY PORAST, 11X OSTATNÁ PLOCHA",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "4191",
+              "share": "182208/46745051"
+            },
+            {
+              "type": "16X TRVALÝ TRÁVNY PORAST, 11X OSTATNÁ PLOCHA",
+              "cadastral_territory": "IVANKA PRI DUNAJI",
+              "lv_number": "4191",
+              "share": "4596/658381"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 19
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 34 364 € (+34 364 €)",
+      "Nehnuteľnosti: 6 → 19 (+13)"
+    ]
+  },
   "slug": "mgr-igor-slanina",
   "context": {
     "latest_year": 2024,

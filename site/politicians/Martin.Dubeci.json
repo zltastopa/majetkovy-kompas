@@ -261,6 +261,68 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Dubeci.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Dubeci.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11736,
+            "other": 0
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 0
+          },
+          "old_total": 11736,
+          "new_total": 48912,
+          "delta": 37176,
+          "delta_pct": 316.8
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY, podiel: BSM"
+          ],
+          "new": [
+            "ÚSPORY NA ÚČTE, podiel: BSM"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "02. 09. 2024"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 11 736 € → 48 912 € (+37 176 €)",
+      "Majetkové práva: 1 → 1 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "martin-dubeci-msc",
   "context": {
     "latest_year": 2024,

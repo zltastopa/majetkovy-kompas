@@ -365,6 +365,90 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martina.Dubnickova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martina.Dubnickova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10432,
+            "other": 39084
+          },
+          "new": {
+            "public_function": 11440,
+            "other": 36610
+          },
+          "old_total": 49516,
+          "new_total": 48050,
+          "delta": -1466,
+          "delta_pct": -3.0
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "MINISTERSTVO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "1227/9",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA - POZEMOK POD BYTOM",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "1227/9",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽ A POZEMOK POD GARÁŽOU",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "1207/176",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT (OD ROKU 2002)",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "1227/9",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA - POZEMOK POD BYTOM (OD ROKU 2008)",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "1227/9",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽ (OD ROKU 2007) A POZEMOK POD GARÁŽOU (OD R. 2012)",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "1207/176",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 49 516 € → 48 050 € (-1 466 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 3 (0)"
+    ]
+  },
   "slug": "ing-martina-dubnickova-mph",
   "context": {
     "latest_year": 2024,

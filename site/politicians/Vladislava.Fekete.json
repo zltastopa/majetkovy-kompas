@@ -641,6 +641,44 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Vladislava.Fekete.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Vladislava.Fekete.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 40320,
+            "other": 10802
+          },
+          "new": {
+            "public_function": 37252,
+            "other": 12352
+          },
+          "old_total": 51122,
+          "new_total": 49604,
+          "delta": -1518,
+          "delta_pct": -3.0
+        },
+        {
+          "field": "employment",
+          "old": "VYSOKÁ ŠKOLA MÚZICKÝCH UMENÍ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "VYSOKÁ ŠKOLA MUZICKÝCH UMENÍ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 51 122 € → 49 604 € (-1 518 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "doc-mgr-art-vladislava-fekete-artd",
   "context": {
     "latest_year": 2024,

@@ -1161,6 +1161,158 @@
     }
   ],
   "total_changes": 23,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Hamar.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Hamar.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 44154,
+            "other": 36498
+          },
+          "new": {
+            "public_function": 56120,
+            "other": 35661
+          },
+          "old_total": 80652,
+          "new_total": 91781,
+          "delta": 11129,
+          "delta_pct": 13.8
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO KULTÚRY SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITA KOMENSKÉHO V BRATISLAVE, FILOZOFICKÁ FAKULTA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÝ ĽUDOVÝ UMELECKÝ KOLEKTÍV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÝ ĽUDOVÝ UMELECKÝ KOLEKTÍV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITA KOMENSKÉHO V BRATISLAVE, FILOZOFICKÁ FAKULTA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO KULTÚRY SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "KOZÁROVCE",
+              "lv_number": "1912",
+              "share": "1/6"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "KOZÁROVCE",
+              "lv_number": "1912",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "KOZÁROVCE",
+              "lv_number": "1458",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "KOZÁROVCE",
+              "lv_number": "494/2",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3307",
+              "share": "5826/4908355"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3307",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3307",
+              "share": "1/522"
+            }
+          ],
+          "new": [
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH VRÁTANE POZEMKU",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3307",
+              "share": "5826/4908355"
+            },
+            {
+              "type": "BYT VRÁTANE POZEMKU",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3307",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR VRÁTANE POZEMKU",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3307",
+              "share": "1/522"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "KOZÁROVCE",
+              "lv_number": "1912",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "KOZÁROVCE",
+              "lv_number": "1458",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "KOZÁROVCE",
+              "lv_number": "494/2",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "KOZÁROVCE",
+              "lv_number": "1912",
+              "share": "1/6"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "1/1",
+              "date": "20. 10. 2020"
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚVER NA BYVANIE",
+              "share": "1/1",
+              "date": "20. 10. 2020"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 80 652 € → 91 781 € (+11 129 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 7 → 7 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "prof-mgr-juraj-hamar-phd",
   "context": {
     "latest_year": 2024,

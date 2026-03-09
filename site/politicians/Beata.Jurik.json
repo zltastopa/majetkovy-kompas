@@ -300,6 +300,74 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Beata.Jurik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Beata.Jurik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11084,
+            "other": 0
+          },
+          "new": {
+            "public_function": 49491,
+            "other": 0
+          },
+          "old_total": 11084,
+          "new_total": 49491,
+          "delta": 38407,
+          "delta_pct": 346.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SLIAČ",
+              "lv_number": "2162",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HÁJNIKY",
+              "lv_number": "2162",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY, podiel: BSM"
+          ],
+          "new": null
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "BYT, kat. územie 873705, rok zač. užívania: 2023, spôsob užívania: NÁJOM",
+          "new": "BYT, kat. územie ZVOLEN, rok zač. užívania: 2023, spôsob užívania: NÁJOM"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 11 084 € → 49 491 € (+38 407 €)",
+      "Nehnuteľnosti: 1 → 1 (0)",
+      "Majetkové práva",
+      "Užívanie nehnuteľností"
+    ]
+  },
   "slug": "mgr-et-mgr-beata-jurik",
   "context": {
     "latest_year": 2024,

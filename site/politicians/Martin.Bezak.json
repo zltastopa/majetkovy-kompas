@@ -448,6 +448,140 @@
     }
   ],
   "total_changes": 10,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Bezak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Bezak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 3912,
+            "other": 130647
+          },
+          "new": {
+            "public_function": 25740,
+            "other": 480
+          },
+          "old_total": 134559,
+          "new_total": 26220,
+          "delta": -108339,
+          "delta_pct": -80.5
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "KRAJSKÝ SÚD V TRNAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nKRAJSKÝ SÚD V BRATISLAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO SPRAVODLIVOSTI SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nKANCELÁRIA NAJVYŠŠIEHO SÚDU SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSPRÁVNY SÚD V BRATISLAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "ADVOKÁT, KONATEĽ(ADVOKÁTSKA KANCELÁRIA ETTOR & NIESS S.R.O.)",
+          "new": null
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ADVOKÁT A KONATEĽ",
+              "organization": "ADVOKÁTSKA KANCELÁRIA ETTOR & NIESS S.R.O.",
+              "benefits": ""
+            }
+          ],
+          "new": [
+            {
+              "role": "ADVOKÁT A KONATEĽ",
+              "organization": "ADVOKÁTSKA KANCELÁRIA ETTOR & NIESS S.R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KOVARCE",
+              "lv_number": "545",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "KOVARCE",
+              "lv_number": "545",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2786",
+              "share": "1/1"
+            },
+            {
+              "type": "BYTOVÝ DOM, PODIEL NA SPOLOČNÝCH ČASTIACH, ZARIADENIACH A PRÍSLUŠENSTVE",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2786",
+              "share": "6242/492616"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3447",
+              "share": "6242/492616"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KOVARCE",
+              "lv_number": "545",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "KOVARCE",
+              "lv_number": "545",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2786",
+              "share": "1/1"
+            },
+            {
+              "type": "BYTOVÝ DOM - PODIEL NA SPOL. ČASTIACH, ZARIAD. A PRÍSL.",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2786",
+              "share": "6242/492616"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3447",
+              "share": "6242/492616"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 134 559 € → 26 220 € (-108 339 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Funkcie: 1 → 1 (0)",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
+  },
   "slug": "judr-martin-bezak-phd",
   "context": {
     "latest_year": 2024,

@@ -506,6 +506,64 @@
     }
   ],
   "total_changes": 10,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Robert.Hudak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Robert.Hudak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7200,
+            "other": 90797
+          },
+          "new": {
+            "public_function": 7200,
+            "other": 85998
+          },
+          "old_total": 97997,
+          "new_total": 93198,
+          "delta": -4799,
+          "delta_pct": -4.9
+        },
+        {
+          "field": "employment",
+          "old": "ŽELEZNIČNÁ SPOLOČNOSŤ SLOVENSKO, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "15. 06. 2017"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER PRE MLADÝCH",
+              "share": "1/1",
+              "date": "15. 06. 2017"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 97 997 € → 93 198 € (-4 799 €)",
+      "Zamestnanie",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-robert-hudak",
   "context": {
     "latest_year": 2024,

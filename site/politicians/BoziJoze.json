@@ -2468,6 +2468,354 @@
     }
   ],
   "total_changes": 26,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/BoziJoze.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/BoziJoze.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "primátor mestaštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
+          "new": "primátor mesta"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 71161,
+            "other": 10536
+          },
+          "new": {
+            "public_function": 75972,
+            "other": 39062
+          },
+          "old_total": 81697,
+          "new_total": 115034,
+          "delta": 33337,
+          "delta_pct": 40.8
+        },
+        {
+          "field": "employment",
+          "old": "VYSOKÁ ŠKOLA ZDRAVOTNÍCTVA A SOCIÁLNEJ PRÁCE SV. ALŽBETY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "VŠ ZDRAVOTNÍCTVA A SOCIÁLNEJ PRÁCE SV. ALŽBETY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN VÝBORU",
+              "organization": "VÝBOR PRE OTÁZKY ZAMESTNANOSTI PRI ÚPSVAR PARTIZÁNSKE",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN RADY ŠKOLY",
+              "organization": "RADA ŠKOLY GYMNÁZIUM PARTIZÁNSKE",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN VÝBORU",
+              "organization": "MATICA SLOVENSKÁ",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA O.Z.",
+              "organization": "PRVÝ ČESKO-SLOVENSKÝ SPOLOK 2018",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA KOMORY MIEST A PODPREDSEDA ZDRUŽENIA",
+              "organization": "ZDRUŽENIE MIEST A OBCÍ SLOVENSKA",
+              "benefits": "PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "MESTSKÝ KOMUNITNÝ FOND SPOLU PRE PARTIZÁNSKE",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA O.Z.",
+              "organization": "ZDRUŽENIE MIEST A OBCÍ SLOVENSKA",
+              "benefits": "ODMENA A PAUŠÁLNE NÄHRADY"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ZÁPADOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE",
+              "organization": "TECHNICKÉ SLUŽBY MESTA PARTIZÁNSKE, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE",
+              "organization": "VYDAVATEĽSTVO TEMPO, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC A PODPREDSEDA TSK",
+              "organization": "TRENČIANSKY SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA A PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "SPOLU SME SLOVENSKO, O.Z.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN RADY ŠKOLY",
+              "organization": "RADA ŠKOLY STREDNÁ ODBORNÁ ŠKOLA J.A. BAŤU",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE",
+              "organization": "SPRÁVA KÁBLOVÝCH ROZVODOV, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA DOZORNEJ RADY",
+              "organization": "NEMOCNICA NA OKRAJI MESTA, N.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN VÝBORU",
+              "organization": "VÝBOR PRE OTÁZKY ZAMESTNAN. PRI ÚPSVAR PARTIZÁNSKE",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA O.Z.",
+              "organization": "PRVÝ ČESKO-SLOVENSKÝ SPOLOK 2018",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN VÝBORU",
+              "organization": "MATICA SLOVENSKÁ",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN RADY ŠKOLY",
+              "organization": "RADA ŠKOLY GYMNÁZIUM PARTIZÁNSKE",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "MESTSKÝ KOMUNITNÝU FOND SPOLU PRE PARTIZÁNSKE",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ZÁPADOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA ZDRUŽENIA",
+              "organization": "ZDRUŽENIE MIEST A OBCÍ SLOVENSKA",
+              "benefits": "ODMENA A PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "ČLEN RADY ŠKOLY",
+              "organization": "RADA ŠKOLY STREDNÁ ODBORNÁ ŠKOLA J.A.BAŤU",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE",
+              "organization": "TECHNICKÉ SLUŽBY MESTA PARTIZÁNSKE, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "FOND NA PODPORU ŠPORTU",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "POSLANEC A PODPREDSEDA TSK",
+              "organization": "TRENČIANSKY SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA A PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE",
+              "organization": "VYDAVATEĽSTVO TEMPO, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "SPOLU SME SLOVENSKO, O.Z.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA DOZORNEJ RADY",
+              "organization": "NEMOCNICA NA OKRAJI MESTA, N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE",
+              "organization": "SPRÁVA KÁBLOVÝCH ROZVODOV, S.R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 15,
+          "new_count": 15
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZÁHRADNÝ DOMČEK",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "2927",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "2927",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADNÝ DOMČEK",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "2927",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PARTIZÁNSKE",
+              "lv_number": "579",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 10,
+          "new_count": 10
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "BEŽNÝ ÚČET, podiel: BSM",
+            "TERMÍNOVANÝ ÚČET, podiel: BSM"
+          ],
+          "new": [
+            "BEŽNÝ ÚČET, podiel: BSM",
+            "TERMÍNOVANY ÚČET, podiel: BSM"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 81 697 € → 115 034 € (+33 337 €)",
+      "Zamestnanie",
+      "Funkcie: 15 → 15 (0)",
+      "Nehnuteľnosti: 10 → 10 (0)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "doc-paeddr-jozef-bozik-phd",
   "context": {
     "latest_year": 2024,

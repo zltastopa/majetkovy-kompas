@@ -982,6 +982,122 @@
     }
   ],
   "total_changes": 19,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Boris.Hanuscak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Boris.Hanuscak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 65106,
+            "other": 0
+          },
+          "new": {
+            "public_function": 71905,
+            "other": 0
+          },
+          "old_total": 65106,
+          "new_total": 71905,
+          "delta": 6799,
+          "delta_pct": 10.4
+        },
+        {
+          "field": "employment",
+          "old": "NEMOCNICA S POLIKLINIKOU SV. JAKUBA, N.O. BARDEJOV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "NSP SV. JAKUBA, N.O. BARDEJOV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "VVS, A.S.",
+              "benefits": "BEZ FUNKČNÝCH POŽITKOV"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "V V S , A. S.",
+              "benefits": "BEZ FUNČNÝCH PÔŽITKOV"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "MIKULÁŠOVÁ",
+              "lv_number": "342/6",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "MIKULÁŠOVÁ",
+              "lv_number": "342/6",
+              "share": "1/2"
+            },
+            {
+              "type": "TRÁVNATÉ PORASTY",
+              "cadastral_territory": "MIKULÁŠOVÁ",
+              "lv_number": "342/7",
+              "share": "1/2"
+            },
+            {
+              "type": "TRÁVNATÉ PORASTY",
+              "cadastral_territory": "MIKULÁŠOVÁ",
+              "lv_number": "342/13",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "MIKULÁŠOVÁ 138",
+              "lv_number": "342/6",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "MIKULÁŠOVÁ",
+              "lv_number": "342/6",
+              "share": "1/2"
+            },
+            {
+              "type": "TRAVNATÉ PORASTY",
+              "cadastral_territory": "MIKULÁŠOVÁ",
+              "lv_number": "342/7",
+              "share": "1/2"
+            },
+            {
+              "type": "TRAVNATÉ PORASTY",
+              "cadastral_territory": "MIKULÁŠOVÁ",
+              "lv_number": "342/13",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 65 106 € → 71 905 € (+6 799 €)",
+      "Zamestnanie",
+      "Funkcie: 1 → 1 (0)",
+      "Nehnuteľnosti: 4 → 4 (0)"
+    ]
+  },
   "slug": "mudr-boris-hanuscak",
   "context": {
     "latest_year": 2024,

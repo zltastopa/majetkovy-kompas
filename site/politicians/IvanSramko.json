@@ -1413,6 +1413,190 @@
     }
   ],
   "total_changes": 30,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/IvanSramko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/IvanSramko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ ONKOLOGICKÝ ÚSTAV)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXIMBANKA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ ONKOLOGICKÝ ÚSTAV)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TRANSPETROL A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 73365,
+            "other": 165500
+          },
+          "new": {
+            "public_function": 102438,
+            "other": 134974
+          },
+          "old_total": 238865,
+          "new_total": 237412,
+          "delta": -1453,
+          "delta_pct": -0.6
+        },
+        {
+          "field": "employment",
+          "old": "NÁRODNÁ BANKA SLOVENSKA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nÚRAD VLÁDY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO HOSPODÁRSTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nTRINITY BANK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO HOSPODÁRSTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nTRINITY BANK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNÁRODNÁ BANKA SLOVENSKA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "EKONOMICKÁ UNIVERZITA",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN AUDITNÉHO VÝBORU",
+              "organization": "EURÓPSKA INVESTIČNÁ BANKA",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "TRINITY BANK",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "TRINITY BANK",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN AUDITNÉHO VÝBORU",
+              "organization": "EURÓPSKA INVESTIČNÁ BANKA",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "EKONOMICKÁ UNIVERZITA",
+              "benefits": "ODMENA"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA VINOHRADY",
+              "lv_number": "3462",
+              "share": "50%"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "BRATISLAVA VINOHRADY",
+              "lv_number": "3467",
+              "share": "25%"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "BRATISLAVA VINOHRADY",
+              "lv_number": "4947",
+              "share": "8%"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "BRATISLAVA VINOHRADY",
+              "lv_number": "3466",
+              "share": "10%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "7604",
+              "share": "50%"
+            },
+            {
+              "type": "APARTMÁN",
+              "cadastral_territory": "STEINHAUS AM SEMMERING",
+              "share": "50%"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA",
+              "lv_number": "3462",
+              "share": "50%"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "BRATISLAVA VINOHRADY",
+              "lv_number": "3467",
+              "share": "25%"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "BRATISLAVA VINOHRADY",
+              "lv_number": "4947",
+              "share": "8%"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "BRATISLAVA VINOHRADY",
+              "lv_number": "3466",
+              "share": "10%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "7604",
+              "share": "50%"
+            },
+            {
+              "type": "APARTMAN",
+              "cadastral_territory": "STEINHAUS AM SEMMERING",
+              "share": "50%"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "MINICOOPER",
+              "year_of_manufacture": 2010
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "COOPER",
+              "year_of_manufacture": 2010
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 238 865 € → 237 412 € (-1 453 €)",
+      "Zamestnanie",
+      "Funkcie: 3 → 3 (0)",
+      "Nehnuteľnosti: 6 → 6 (0)",
+      "Vozidlá: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-ivan-sramko-dr-h-c",
   "context": {
     "latest_year": 2024,

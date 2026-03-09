@@ -584,6 +584,50 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lubomir.Mindek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lubomir.Mindek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ AGENTÚRA PRE SIEŤOVÉ\r\nA ELEKTRONICKÉ SLUŽBY)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ AGENTÚRA PRE SIEŤOVÉ\r\nA ELEKTRONICKÉ SLUŽBY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 28257,
+            "other": 131904
+          },
+          "new": {
+            "public_function": 96059,
+            "other": 0
+          },
+          "old_total": 160161,
+          "new_total": 96059,
+          "delta": -64102,
+          "delta_pct": -40.0
+        },
+        {
+          "field": "employment",
+          "old": "SLOVENSKÁ POŠTA A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 160 161 € → 96 059 € (-64 102 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "ing-lubomir-mindek",
   "context": {
     "latest_year": 2024,

@@ -310,6 +310,116 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Robert.Hancak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Robert.Hancak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LETISKO M.R.ŠTEFÁNIKA-AIRPORT BRATISLAVA A.S. (BTS))",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LETISKO M.R. ŠTEFÁNIKA - AIRPORT BRATISLAVA A.S. /BTS/)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 73242
+          },
+          "new": {
+            "public_function": 9070,
+            "other": 78279
+          },
+          "old_total": 73242,
+          "new_total": 87349,
+          "delta": 14107,
+          "delta_pct": 19.3
+        },
+        {
+          "field": "employment",
+          "old": "ZVS ARMORY S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ZUS ARMORY S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "DOM A POZEMOK",
+              "cadastral_territory": "VINOHRADY NOVÉ MESTO BRATISLAVA",
+              "lv_number": "6124",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BYSTRÁ BREZNO",
+              "lv_number": "848",
+              "share": "1/1"
+            },
+            {
+              "type": "PARKOVACIE STÁTIE",
+              "cadastral_territory": "BYSTRÁ BREZNO",
+              "lv_number": "863",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "DOM A POZEMOK",
+              "cadastral_territory": "VINOHRADY - NOVÉ MESTO BRATISLAVA",
+              "lv_number": "6124",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BYSTRÁ BREZNO",
+              "lv_number": "848",
+              "share": "1/1"
+            },
+            {
+              "type": "PARKOVACIE STÁTIE",
+              "cadastral_territory": "BYSTRÁ BREZNO",
+              "lv_number": "863",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTÉKA",
+              "share": "40%",
+              "date": "31. 05. 2012"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTÉKA DOM",
+              "share": "40%",
+              "date": "31. 05. 2012"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 73 242 € → 87 349 € (+14 107 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-robert-hancak",
   "context": {
     "latest_year": 2024,

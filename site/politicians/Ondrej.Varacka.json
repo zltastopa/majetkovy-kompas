@@ -623,6 +623,162 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ondrej.Varacka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ondrej.Varacka.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VALALIKY INDUSTRIAL PARK, S. R. O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (KÚPELE SLIAČ A. S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH MANAŽMENT, A. S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH INVEST, S. R. O. )člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH INVEST II, S. R. O. )generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO HOSPODÁRSTVA\r\nSLOVENSKEJ REPUBLIKY)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VALALIKY INDUSTRIAL PARK, S.R.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (KÚPELE SLIAČ AS.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH MANAŽMENT, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH INVEST, S.R.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH INVEST II, S.R.O.)generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO HOSPODÁRSTVA\r\nSLOVENSKEJ REPUBLIKY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 8786,
+            "other": 0
+          },
+          "new": {
+            "public_function": 57002,
+            "other": 0
+          },
+          "old_total": 8786,
+          "new_total": 57002,
+          "delta": 48216,
+          "delta_pct": 548.8
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "PRIĽAHLÉ POZEMKY 1505/116, 117, 135, 138, 141, 144, 145, 146",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "12647",
+              "share": "7535/269042"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "KAPLNA",
+              "lv_number": "496",
+              "share": "1/28"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "ČATAJ",
+              "lv_number": "1610",
+              "share": "1/28"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "9131",
+              "share": "1/1"
+            },
+            {
+              "type": "PRIĽAHLÉ POZEMKY",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "9131",
+              "share": "4950/491237"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "12647",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "4359",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "4359",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "4359",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "PRIĽAHLÉ POZEMKY 1505/116, 117, 135, 138, 141,144, 145, 146",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "12647",
+              "share": "7535/26904"
+            },
+            {
+              "type": "POZEMKY E406/8",
+              "cadastral_territory": "KAPLNA",
+              "lv_number": "496",
+              "share": "1/28"
+            },
+            {
+              "type": "POZEMKY E2891, 2892, 2893, 2894, 2895",
+              "cadastral_territory": "ČATAJ",
+              "lv_number": "1610",
+              "share": "1/28"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "9131",
+              "share": "1/1"
+            },
+            {
+              "type": "PRIĽAHLÉ POZEMKY 284",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "9131",
+              "share": "4950/49123"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "12647",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM 1505/97",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "4059",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE 1505/96",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "4359",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE 1505/51",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "4359",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 9
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 8 786 € → 57 002 € (+48 216 €)",
+      "Nehnuteľnosti: 9 → 9 (0)"
+    ]
+  },
   "slug": "ing-ondrej-varacka",
   "context": {
     "latest_year": 2024,

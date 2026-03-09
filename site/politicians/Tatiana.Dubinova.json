@@ -720,6 +720,57 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tatiana.Dubinova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tatiana.Dubinova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 15840,
+            "other": 147954
+          },
+          "new": {
+            "public_function": 17400,
+            "other": 178440
+          },
+          "old_total": 163794,
+          "new_total": 195840,
+          "delta": 32046,
+          "delta_pct": 19.6
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "HONDA",
+              "year_of_manufacture": 2018,
+              "share": "BSM"
+            },
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2023,
+              "share": "BSM"
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 163 794 € → 195 840 € (+32 046 €)",
+      "Hnuteľný majetok"
+    ]
+  },
   "slug": "judr-tatiana-dubinova",
   "context": {
     "latest_year": 2024,

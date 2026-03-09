@@ -302,6 +302,70 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Veronika.Molcanova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Veronika.Molcanova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA Š. P. )",
+          "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA, Š.P.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7700,
+            "other": 39998
+          },
+          "new": {
+            "public_function": 13200,
+            "other": 51763
+          },
+          "old_total": 47698,
+          "new_total": 64963,
+          "delta": 17265,
+          "delta_pct": 36.2
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "PODIELOVÉ FONDY, podiel: BSM"
+          ]
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "23. 06. 2022"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 47 698 € → 64 963 € (+17 265 €)",
+      "Majetkové práva",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-veronika-molcanova",
   "context": {
     "latest_year": 2024,

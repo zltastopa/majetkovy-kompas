@@ -286,6 +286,89 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Zivcak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Zivcak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (JADROVÁ A VYRAĎOVACIA SPOLOČNOSŤ, A. S. )",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (JADROVÁ A VYRAĎOVACIA SPOLOČNOSŤ, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11736,
+            "other": 0
+          },
+          "new": {
+            "public_function": 12756,
+            "other": 255958
+          },
+          "old_total": 11736,
+          "new_total": 268714,
+          "delta": 256978,
+          "delta_pct": 2189.7
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "TECHNICKÁ UNIVERZITA V KOŠICIACH\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nPREŠOVSKÁ UNVIERZITA V PREŠOVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÉ",
+              "brand": "MERCEDES",
+              "year_of_manufacture": 2019,
+              "share": "100%"
+            }
+          ]
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "RODINNÝ DOM - UŽÍVACIE PRÁVO , kat. územie PREŠOV, rok zač. užívania: 2017, spôsob užívania: BÝVANIE",
+          "new": "RODINNÝ DOM - PODIEL NA DOŽITIE, kat. územie PREŠOV, rok zač. užívania: 2017, spôsob užívania: BÝVANIE"
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MERCEDES",
+              "year_of_manufacture": 2021
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MERCEDES- LEASING",
+              "year_of_manufacture": 2019
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 11 736 € → 268 714 € (+256 978 €)",
+      "Zamestnanie",
+      "Hnuteľný majetok",
+      "Užívanie nehnuteľností",
+      "Vozidlá: 1 → 1 (0)"
+    ]
+  },
   "slug": "prof-ing-jozef-zivcak-drsc-mph",
   "context": {
     "latest_year": 2024,

@@ -1117,6 +1117,91 @@
     }
   ],
   "total_changes": 28,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Daniel.Sirhal.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Daniel.Sirhal.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 15648,
+            "other": 54650
+          },
+          "new": {
+            "public_function": 17160,
+            "other": 94211
+          },
+          "old_total": 70298,
+          "new_total": 111371,
+          "delta": 41073,
+          "delta_pct": 58.4
+        },
+        {
+          "field": "employment",
+          "old": "ASSECO CENTRAL EUROPE, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nASOCIÁCIA ZAMESTNÁVATEĽSKÝCH ZVÄZOV A ZDRUŽENÍ SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ASOCIÁCIA ZAMESTNÁVATEĽSKÝCH ZVÄZOV A ZDRUŽENÍ SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PEŇAŽNÉ PROSTRIEDKY, podiel: 1/1"
+          ],
+          "new": [
+            "PEŇAŽNÉ PROSTRIEDKY, podiel: 1/2"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "05. 08. 2020"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "28. 09. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "50%",
+              "date": "05. 08. 2020"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "50%",
+              "date": "28. 09. 2022"
+            },
+            {
+              "type": "LEASINGOVÁ ZMLUVA",
+              "share": "1/1",
+              "date": "18. 10. 2024"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 70 298 € → 111 371 € (+41 073 €)",
+      "Zamestnanie",
+      "Majetkové práva: 1 → 1 (0)",
+      "Záväzky: 2 → 3 (+1)"
+    ]
+  },
   "slug": "judr-daniel-sirhal-mba",
   "context": {
     "latest_year": 2024,

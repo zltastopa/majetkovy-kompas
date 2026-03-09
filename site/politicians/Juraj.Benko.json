@@ -498,6 +498,72 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Benko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Benko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V NOVÝCH ZÁMKOCH)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V NOVÝCH ZÁMKOCH )"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 49730,
+            "other": 0
+          },
+          "new": {
+            "public_function": 52475,
+            "other": 0
+          },
+          "old_total": 49730,
+          "new_total": 52475,
+          "delta": 2745,
+          "delta_pct": 5.5
+        },
+        {
+          "field": "employment",
+          "old": "REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2014,
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ  AUTOMOBIL",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2014,
+              "share": "1/2"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 49 730 € → 52 475 € (+2 745 €)",
+      "Zamestnanie",
+      "Hnuteľný majetok: 1 → 1 (0)"
+    ]
+  },
   "slug": "mudr-juraj-benko",
   "context": {
     "latest_year": 2024,

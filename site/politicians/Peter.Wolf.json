@@ -1026,6 +1026,209 @@
     }
   ],
   "total_changes": 20,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Wolf.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Wolf.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 79251,
+            "other": 8840
+          },
+          "new": {
+            "public_function": 87388,
+            "other": 9000
+          },
+          "old_total": 88091,
+          "new_total": 96388,
+          "delta": 8297,
+          "delta_pct": 9.4
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC",
+              "organization": "ZASTUPITEĽSTVO VYŠŠIEHO ÚZEMNÉHO CELKU",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "UNI-POLIKLINIKA DUBNICA NAD VÁHOM A.S.",
+              "benefits": "NÁHRADY"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "POVAŽSKÁ VODÁRENSKÁ SPOLOČNOSŤ A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC",
+              "organization": "ZASTUPITEĽSTVO VYŠŠIEHO ÚZEMNÉHO CELKU",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "POVAŽSKÁ VODÁRENSKÁ SPOLOČNOSŤ A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5613",
+              "share": "1/4"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "3017",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5614",
+              "share": "1/140"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5614",
+              "share": "1/140"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "3396",
+              "share": "79/10836"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5679",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5679",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5679",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATA",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5613",
+              "share": "1/4"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5613",
+              "share": "1/4"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADNÁ CHATA",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5613",
+              "share": "1/4"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5613",
+              "share": "1/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5613",
+              "share": "1/4"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "3017",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "3396",
+              "share": "79/10836"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5679",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5679",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5679",
+              "share": "1/2"
+            },
+            {
+              "type": "2X OSTATNÁ PLOCHA",
+              "cadastral_territory": "DUBNICA NAD VÁHOM",
+              "lv_number": "5614",
+              "share": "1/140"
+            }
+          ],
+          "old_count": 10,
+          "new_count": 9
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "BANKOVÝ  ÚČET, podiel: 1/1"
+          ],
+          "new": [
+            "BANKOVÝ ÚČET, podiel: 1/1"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 88 091 € → 96 388 € (+8 297 €)",
+      "Funkcie: 3 → 2 (-1)",
+      "Nehnuteľnosti: 10 → 9 (-1)",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-et-mgr-peter-wolf",
   "context": {
     "latest_year": 2024,

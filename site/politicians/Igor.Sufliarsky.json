@@ -195,6 +195,86 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Igor.Sufliarsky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Igor.Sufliarsky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ POŠTA)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ POŠTA, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 3654,
+            "other": 8749
+          },
+          "old_total": 0,
+          "new_total": 12403,
+          "delta": 12403
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN KONTROLNEJ KOMISIE",
+              "organization": "STAVEBNÉ BYTOVÉ DRUŽSTVO",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "POSLANEC MESTSKÉHO ZASTUPITEĽSTVA",
+              "organization": "MESTO ZVOLEN",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN KONTROLNEJ KOMISIE",
+              "organization": "STAVEBNÉ BYTOVÉ DRUŽSTVO",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "POSLANEC MESTSKÉHO ZASTUPITEĽSTVA",
+              "organization": "MESTO ZVOLEN",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "STEFE ZVOLEN, S.R.O.",
+              "benefits": "ODMENA"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "PEŇAŽNÁ HOTOVOSŤ NA BANKOVOM ÚČTE, podiel: 100%"
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 12 403 € (+12 403 €)",
+      "Funkcie: 2 → 3 (+1)",
+      "Majetkové práva"
+    ]
+  },
   "slug": "ing-igor-sufliarsky",
   "context": {
     "latest_year": 2024,

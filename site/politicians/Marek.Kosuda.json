@@ -542,6 +542,135 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marek.Kosuda.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marek.Kosuda.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKOVÁ SPOLOČNOSŤ ŽILINA, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKOVÁ SPOLOČNOSŤ ŽILINA A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 43109
+          },
+          "new": {
+            "public_function": 0,
+            "other": 51569
+          },
+          "old_total": 43109,
+          "new_total": 51569,
+          "delta": 8460,
+          "delta_pct": 19.6
+        },
+        {
+          "field": "employment",
+          "old": "TECHNICKÁ UNIVERZITA V KOŠICIACH\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "TECHNICKÁ UNIVERZITA V KOŠICIACH\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(A.U.S. ADVANCE UNMANNED SYSTEMS S.R.O.)",
+          "new": "KONATEĽ(A.U.S. ADVANCED UNMANNED SYSTEMS S.R.O.)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "LORINČIK - KOŠICE",
+              "lv_number": "2044",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LORINČIK - KOŠICE",
+              "lv_number": "2047",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LORINČIK - KOŠICE",
+              "lv_number": "2087",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "LORINČÍK - KOŠICE",
+              "lv_number": "2044",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LORINČÍK - KOŠICE",
+              "lv_number": "2047",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LORINČÍK - KOŠICE",
+              "lv_number": "2087",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "PEUGEOT",
+              "year_of_manufacture": 2010,
+              "share": "1/1"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%"
+          ]
+        },
+        {
+          "field": "vehicles",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2024
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 43 109 € → 51 569 € (+8 460 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Hnuteľný majetok",
+      "Majetkové práva",
+      "Vozidlá"
+    ]
+  },
   "slug": "m-eng-ing-marek-kosuda-phd",
   "context": {
     "latest_year": 2024,

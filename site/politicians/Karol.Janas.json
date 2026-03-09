@@ -2063,6 +2063,264 @@
     }
   ],
   "total_changes": 30,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Karol.Janas.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Karol.Janas.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 71810,
+            "other": 37966
+          },
+          "new": {
+            "public_function": 59144,
+            "other": 40463
+          },
+          "old_total": 109776,
+          "new_total": 99607,
+          "delta": -10169,
+          "delta_pct": -9.3
+        },
+        {
+          "field": "employment",
+          "old": "UNIVERZITA MATEJA BELA V BANSKEJ BYSTRICI\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nEKONOMICKÁ UNIVERZITA V BRATISLAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nTRENČIANSKA UNIVERZITA ALEXANDRA DUBČEKA V TRENČÍNE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "TRENČIANSKA UNIVERZITA ALEXANDRA DUBČEKA V TRENČÍNE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "POVAŽSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLEN VALNÉHO ZHROMAŽDENIA",
+              "organization": "POVAŽSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE",
+              "organization": "DOPRAVNÝ PODNIK MESTA POVAŽSKÁ BYSTRICA S.R.O.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "PREDSEDA ZÁKLADNEJ ORGANIZÁCIE SZPB",
+              "organization": "SLOVENSKÝ ZVÄZ PROTIFAŠISTICKÝCH BOJOVNÍKOV",
+              "benefits": "NIE"
+            },
+            {
+              "role": "PREDSEDA OBLASTNÉHO VÝBORU",
+              "organization": "SLOVENSKÝ ZVÄZ PROTIFAŠISTICKÝCH BOJOVNÍKOV",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLEN VALNÉHO ZHROMAŽDENIA",
+              "organization": "MTS, S.R.O. POVAŽSKÁ BYSTRICA",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLEN KOMISIE PRE FINANCIE, ROZPOČET A INVESTÍCIE TSK",
+              "organization": "TRENČIANSKY SAMOSPRÁVNY KRAJ",
+              "benefits": "NIE"
+            },
+            {
+              "role": "POSLANEC TSK",
+              "organization": "TRENČIANSKY SAMOSPRÁVNY KRAJ",
+              "benefits": "ÁNO"
+            },
+            {
+              "role": "ČLEN RADY PREDSEDOV KOMISIÍ TSK",
+              "organization": "TRENČIANSKY SAMOSPRÁVNY KRAJ",
+              "benefits": "NIE"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE",
+              "organization": "MESTSKÉ ŠPORTOVÉ KLUBY POVAŽSKÁ BYSTRICA, S.R.O.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE",
+              "organization": "MESTSKÉ LESY POVAŽSKÁ BYSTRICA, S.R.O.",
+              "benefits": "NIE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "POVAŽSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A. S.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLEN VALNÉHO ZHROMAŽDENIA",
+              "organization": "POVAŽSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A. S.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE",
+              "organization": "DOPRAVNÝ PODNIK MESTA POVAŽSKÁ BYSTRICA S. R. O.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "PREDSEDA ZÁKLADNEJ ORGANIZÁCIE SZPB",
+              "organization": "SLOVENSKÝ ZVÄZ PROTIFAŠISTICKÝCH BOJOVNÍKOV",
+              "benefits": "NIE"
+            },
+            {
+              "role": "PREDSEDA OBLASTNÉHO VÝBORU",
+              "organization": "SLOVENSKÝ ZVÄZ PROTIFAŠISTICKÝCH BOJOVNÍKOV",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLEN VALNÉHO ZHROMAŽDENIA",
+              "organization": "MTS, S.R.O. POVAŽSKÁ BYSTRICA",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLEN KOMISIE PRE FINANCIE, ROZPOČET A INVESTÍCIE TSK",
+              "organization": "TRENČIANSKY SAMOSPRÁVNY KRAJ",
+              "benefits": "NIE"
+            },
+            {
+              "role": "POSLANEC TSK",
+              "organization": "TRENČIANSKY SAMOSPRÁVNY KRAJ",
+              "benefits": "ÁNO"
+            },
+            {
+              "role": "ČLEN RADY PREDSEDOV KOMISIÍ TSK",
+              "organization": "TRENČIANSKY SAMOSPRÁVNY KRAJ",
+              "benefits": "NIE"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE",
+              "organization": "MESTSKÉ ŠPORTOVÉ KLUBY POVAŽSKÁ BYSTRICA, S.R.O.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE",
+              "organization": "MESTSKÉ LESY POVAŽSKÁ BYSTRICA, S.R.O.",
+              "benefits": "NIE"
+            }
+          ],
+          "old_count": 11,
+          "new_count": 11
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "5294",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "9112",
+              "share": "59/1368 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "6179",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "6179",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "DVOJGARÁŽ",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "6179",
+              "share": "1/1 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "6179",
+              "share": "1/1 - BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "6179",
+              "share": "1/1 - BSM"
+            },
+            {
+              "type": "DVOJGARÁŽ",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "6179",
+              "share": "1/1 - BSM"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 3
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2018,
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "KIA",
+              "year_of_manufacture": 2013,
+              "share": "1/1 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2018,
+              "share": "1/1 - BSM"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2021,
+              "share": "1/1 - BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY V BANKE, podiel: 1/1 BSM"
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 109 776 € → 99 607 € (-10 169 €)",
+      "Zamestnanie",
+      "Funkcie: 11 → 11 (0)",
+      "Nehnuteľnosti: 5 → 3 (-2)",
+      "Hnuteľný majetok: 2 → 2 (0)",
+      "Majetkové práva"
+    ]
+  },
   "slug": "doc-phdr-paeddr-karol-janas-phd",
   "context": {
     "latest_year": 2024,

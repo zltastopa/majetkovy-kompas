@@ -244,6 +244,88 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/David.Demecko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/David.Demecko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 36003,
+            "other": 29656
+          },
+          "old_total": 0,
+          "new_total": 65659,
+          "delta": 65659
+        },
+        {
+          "field": "employment",
+          "old": "SPOJENÁ ŠKOLA MAXIMILIÁNA MÁRIA KOLBEHO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSANIMED S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "SANIMED S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC",
+              "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "NOTEBOOK, MOBILNÝ TELEFÓN, ODMENA"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "EMKOBEL, A.S.",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ZÁSTUPCA PRIMÁTORA MESTA",
+              "organization": "MESTO SPIŠSKÁ NOVÁ VES",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "MESTO SPIŠSKÁ NOVÁ VES",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC",
+              "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "NOTEBOOK, MOBILNÝ TELEFÓN, ODMENA"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "MESTO SPIŠSKÁ NOVÁ VES",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ZÁSTUPCA PRIMÁTORA MESTA",
+              "organization": "MESTO SPIŠSKÁ NOVÁ VES",
+              "benefits": "PLAT"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 65 659 € (+65 659 €)",
+      "Zamestnanie",
+      "Funkcie: 4 → 3 (-1)"
+    ]
+  },
   "slug": "paeddr-david-demecko-phd",
   "context": {
     "latest_year": 2024,

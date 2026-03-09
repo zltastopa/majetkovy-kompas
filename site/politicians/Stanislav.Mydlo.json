@@ -540,6 +540,78 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Stanislav.Mydlo.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Stanislav.Mydlo.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 43180,
+            "other": 11572
+          },
+          "new": {
+            "public_function": 58379,
+            "other": 0
+          },
+          "old_total": 54752,
+          "new_total": 58379,
+          "delta": 3627,
+          "delta_pct": 6.6
+        },
+        {
+          "field": "employment",
+          "old": "FAKULTA MATEMATIKY, FYZIKY A INFORMATIKY, UNIVERZITA KOMENSKÉHO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "ZVOLEN",
+              "lv_number": "3395",
+              "share": "1/1"
+            },
+            {
+              "type": "2-IZBOVÝ BYT",
+              "cadastral_territory": "BRATISLAVA - DÚBRAVKA",
+              "lv_number": "4596",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "ZVOLEN",
+              "lv_number": "3395",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - DÚBRAVKA",
+              "lv_number": "4596",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 54 752 € → 58 379 € (+3 627 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
+  },
   "slug": "judr-stanislav-mydlo",
   "context": {
     "latest_year": 2024,

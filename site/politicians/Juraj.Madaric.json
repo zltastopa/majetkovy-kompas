@@ -996,6 +996,141 @@
     }
   ],
   "total_changes": 20,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Madaric.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Madaric.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 37979,
+            "other": 142802
+          },
+          "new": {
+            "public_function": 42611,
+            "other": 147863
+          },
+          "old_total": 180781,
+          "new_total": 190474,
+          "delta": 9693,
+          "delta_pct": 5.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+              "lv_number": "6398",
+              "share": "100%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+              "lv_number": "6398",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SENEC, BOLDOG",
+              "lv_number": "837",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "MOST PRI BRATISLAVE",
+              "lv_number": "1956",
+              "share": "1/4"
+            }
+          ],
+          "new": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SENEC, BOLDOG",
+              "lv_number": "837",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "MOST PRI BRATISLAVE",
+              "lv_number": "1956",
+              "share": "1/4"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+              "lv_number": "6398",
+              "share": "100%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+              "lv_number": "6398",
+              "share": "50%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+              "lv_number": "4510",
+              "share": "50%"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 5
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "VOLVO",
+              "year_of_manufacture": 2010,
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "VOLVO",
+              "year_of_manufacture": 2010,
+              "share": "100%"
+            },
+            {
+              "type": "ZARIADENIE BYTU",
+              "share": "50%"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ZARIADENIE BYTU, podiel: 50%",
+            "FINANČNÉ ÚSPORY NA BANKOVÝCH ÚČTOCH, podiel: 50%"
+          ],
+          "new": [
+            "FINANČNÉ ÚSPORY NA BANKOVÝCH ÚČTOCH, podiel: 50%"
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 180 781 € → 190 474 € (+9 693 €)",
+      "Nehnuteľnosti: 4 → 5 (+1)",
+      "Hnuteľný majetok: 1 → 2 (+1)",
+      "Majetkové práva: 2 → 1 (-1)"
+    ]
+  },
   "slug": "doc-mudr-juraj-madaric-phd-mph",
   "context": {
     "latest_year": 2024,

@@ -221,6 +221,72 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tomas.Heriban.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tomas.Heriban.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE VEREJNÉ\r\nOBSTARÁVANIE)",
+          "new": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE VEREJNÉ OBSTARÁVANIE)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 66857,
+            "other": 0
+          },
+          "new": {
+            "public_function": 74417,
+            "other": 0
+          },
+          "old_total": 66857,
+          "new_total": 74417,
+          "delta": 7560,
+          "delta_pct": 11.3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - LAMAČ",
+              "lv_number": "2278",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "2278",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "gifts",
+          "old": null,
+          "new": "FINANČNÝ DAR OD RODIČOV, dátum prijatia: 28. 10. 2024"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 66 857 € → 74 417 € (+7 560 €)",
+      "Nehnuteľnosti: 1 → 1 (0)",
+      "Dary"
+    ]
+  },
   "slug": "mgr-tomas-heriban",
   "context": {
     "latest_year": 2024,

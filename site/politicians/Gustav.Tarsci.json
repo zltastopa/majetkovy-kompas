@@ -2090,6 +2090,252 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Gustav.Tarsci.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Gustav.Tarsci.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 59254,
+            "other": 0
+          },
+          "new": {
+            "public_function": 64742,
+            "other": 0
+          },
+          "old_total": 59254,
+          "new_total": 64742,
+          "delta": 5488,
+          "delta_pct": 9.3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "1021",
+              "share": "1/20"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "1130",
+              "share": "1/20"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "623",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY, ORNÁ PÔDA",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "1151",
+              "share": "2/16905"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY, ORNÁ PÔDA",
+              "cadastral_territory": "KLÍŽSKÁ NEMÁ",
+              "lv_number": "780",
+              "share": "2/16905"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY, ORNÁ PÔDA",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "785",
+              "share": "2/16905"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY, VODNÉ PLOCHY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "1019",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY, VODNÉ PLOCHY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "747",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT V RODINNOM DOME",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "3105",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "3295",
+              "share": "8240/18720"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "3294",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "796",
+              "share": "1/196"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "797",
+              "share": "1/196"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "1097",
+              "share": "1/196"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKÁ NEMÁ",
+              "lv_number": "1129",
+              "share": "1/196"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "1108",
+              "share": "1/196"
+            },
+            {
+              "type": "ORNÁ PÔDA TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "499",
+              "share": "1/20"
+            }
+          ],
+          "new": [
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "1021",
+              "share": "1/20"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "1130",
+              "share": "1/20"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "623",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY, ORNÁ PÔDA",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "1151",
+              "share": "2/16905"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY, ORNÁ PÔDA",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "780",
+              "share": "2/16905"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY, ORNÁ PÔDA",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "785",
+              "share": "2/16905"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY, VODNÉ PLOCHY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "1019",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY, VODNÉ PLOCHY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "747",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT V RODINNOM DOME",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "3105",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "3295",
+              "share": "8240/18720"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "3294",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "796",
+              "share": "1/196"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "797",
+              "share": "1/196"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "1097",
+              "share": "1/196"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "1129",
+              "share": "1/196"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "1108",
+              "share": "1/196"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "KLÍŽSKA NEMÁ",
+              "lv_number": "499",
+              "share": "1/20"
+            }
+          ],
+          "old_count": 17,
+          "new_count": 17
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 59 254 € → 64 742 € (+5 488 €)",
+      "Nehnuteľnosti: 17 → 17 (0)"
+    ]
+  },
   "slug": "ing-gustav-tarcsi-phd",
   "context": {
     "latest_year": 2024,

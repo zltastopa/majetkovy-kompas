@@ -1339,6 +1339,118 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Nadezda.Babiakova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Nadezda.Babiakova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 48037,
+            "other": 0
+          },
+          "new": {
+            "public_function": 51860,
+            "other": 0
+          },
+          "old_total": 48037,
+          "new_total": 51860,
+          "delta": 3823,
+          "delta_pct": 8.0
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PODPREDSEDA SPRÁVNEJ RADY ŠKOLY",
+              "organization": "SÚKROMNÁ HOTELOVÁ AKADÉMIA",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY ŠKOLY",
+              "organization": "HUDOBNÁ A UMELECKÁ AKADÉMIA J. ALBRECHTA",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "SLOVENSKÉ DEDIČSTVO UNESCO",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "NEMOCNICA BANSKÁ ŠTIAVNICA A.S.",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PREDSEDA PREDSTAVENSTVA",
+              "organization": "REGIÓN BANSKÁ ŠTIAVNICA - OOCR",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PREDSEDA VALNÉHO ZHROMAŽDENIA",
+              "organization": "MESTSKÉ LESY",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PREDSEDA VALNÉHO ZHROMAŽDENIA",
+              "organization": "BYTOVÁ SPRÁVA S.R.O.",
+              "benefits": "NEMÁM"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN SPRÁVNEJ RADY ŠKOLY",
+              "organization": "HUDOBNÁ A UMELECKÁ AKADÉMIA J. ALBRECHTA",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "SLOVENSKÉ DEDIČSTVO UNESCO",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PREDSEDA PREDSTAVENSTVA",
+              "organization": "REGIÓN BANSKÁ ŠTIAVNICA - OOCR",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PODPREDSEDA SPRÁVNEJ RADY ŠKOLY",
+              "organization": "SÚKROMNÁ HOTELOVÁ AKADÉMIA",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PREDSEDA VALNÉHO ZHROMAŽDENIA",
+              "organization": "MESTSKÉ LESY",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PREDSEDA VALNÉHO ZHROMAŽDENIA",
+              "organization": "BYTOVÁ SPRÁVA S.R.O.",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "NEMOCNICA BANSKÁ ŠTIAVNICA A.S.",
+              "benefits": "NEMÁM"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 48 037 € → 51 860 € (+3 823 €)",
+      "Funkcie: 7 → 7 (0)"
+    ]
+  },
   "slug": "mgr-nadezda-babiakova",
   "context": {
     "latest_year": 2024,

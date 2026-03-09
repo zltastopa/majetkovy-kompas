@@ -237,6 +237,77 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/David.Dej.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/David.Dej.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11736,
+            "other": 1290
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 5688
+          },
+          "old_total": 13026,
+          "new_total": 54600,
+          "delta": 41574,
+          "delta_pct": 319.2
+        },
+        {
+          "field": "real_estate",
+          "old": null,
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "2366",
+              "share": "1/1"
+            }
+          ]
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "AKCIE A PROSTRIEDKY V INDEXOVÝCH FONDOCH, podiel: 1/1"
+          ]
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "27. 09. 2024"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 13 026 € → 54 600 € (+41 574 €)",
+      "Nehnuteľnosti",
+      "Majetkové práva",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-david-dej",
   "context": {
     "latest_year": 2024,

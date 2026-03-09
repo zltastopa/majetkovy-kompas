@@ -2132,6 +2132,305 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/FaicVlad.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/FaicVlad.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 46944,
+            "other": 0
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 8290
+          },
+          "old_total": 46944,
+          "new_total": 57202,
+          "delta": 10258,
+          "delta_pct": 21.9
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "PODIEL NA POZEMKU",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7090",
+              "share": "7543/293693 BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7192",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1371",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7088",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7088",
+              "share": "8801/143537 BSM"
+            },
+            {
+              "type": "PODIEL NA POZEMKU",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7088",
+              "share": "8801/143537 BSM"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "PRAŠICE",
+              "lv_number": "111",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "PRAŠICE",
+              "lv_number": "111",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PRAŠICE",
+              "lv_number": "111",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "2476",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "2476",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "2476",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1491",
+              "share": "3/20"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1491",
+              "share": "3/20"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1491",
+              "share": "3/20"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1491",
+              "share": "3/20"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1491",
+              "share": "3/20"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1491",
+              "share": "3/20"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1789",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1789",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ADMINISTRATÍVNA BUDOVA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1789",
+              "share": "1/1 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "PRAŠICE",
+              "lv_number": "111",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANA PLOCHA",
+              "cadastral_territory": "PRAŠICE",
+              "lv_number": "111",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PRAŠICE",
+              "lv_number": "111",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7088",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7088",
+              "share": "88011143537 %"
+            },
+            {
+              "type": "PODIEL NA POZEMKU",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7088",
+              "share": "8801/143537 BSM"
+            },
+            {
+              "type": "PODIEL NA POZEMKU",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7090",
+              "share": "7543/293693 BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7192",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1371",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "2476",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "2476",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "2476"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1789",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1789",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ADMINISTRATÍVNA BUDOVA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1789",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1491",
+              "share": "3120 %"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1491",
+              "share": "3120 %"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1491",
+              "share": "3120 %"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1491",
+              "share": "3120 %"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1491",
+              "share": "3120 %"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KRUŠOVCE",
+              "lv_number": "1491",
+              "share": "3120 %"
+            }
+          ],
+          "old_count": 21,
+          "new_count": 21
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 46 944 € → 57 202 € (+10 258 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 21 → 21 (0)"
+    ]
+  },
   "slug": "vladimir-faic",
   "context": {
     "latest_year": 2024,

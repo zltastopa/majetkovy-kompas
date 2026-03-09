@@ -1331,6 +1331,204 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/RedhammerRobert.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/RedhammerRobert.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ AKREDITAČNÁ AGENTÚRA\r\nPRE VYSOKÉ ŠKOLSTVO)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ AKREDITAČNÁ AGENTÚRA PRE VYSOKÉ ŠKOLSTVO)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 73065,
+            "other": 0
+          },
+          "new": {
+            "public_function": 76359,
+            "other": 0
+          },
+          "old_total": 73065,
+          "new_total": 76359,
+          "delta": 3294,
+          "delta_pct": 4.5
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA SPRÁVNEJ RADY",
+              "organization": "SLOVENSKÁ AKADEMICKÁ INFORMAČNÁ AGENTÚRA, N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREZIDENT",
+              "organization": "SLOVENSKÁ VÁKUOVÁ SPOLOČNOSŤ, O.Z.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "SLOVENSKÁ AKADEMICKÁ INFORMAČNÁ AGENTÚRA,  N. O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREZIDENT",
+              "organization": "SLOVENSKÁ VÁKUOVÁ SPOLOČNOSŤ,  O. Z.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "1035",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINOHRADY -  BRATISLAVAVA",
+              "lv_number": "4355",
+              "share": "BSM"
+            },
+            {
+              "type": "OSTATNÉ A ZASTAVANÉ PLOCHY PRIĽAHLÉ K BYTU",
+              "cadastral_territory": "VINOHRADY - BRATISLAVA",
+              "lv_number": "4327",
+              "share": "7/1000 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY - BRATISLAVA",
+              "lv_number": "3524",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA PRIĽAHLÉ K BYTU",
+              "cadastral_territory": "NIVY - BRATISLAVA",
+              "lv_number": "3524",
+              "share": "2615/100000 BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "NIVY - BRATISLAVA",
+              "lv_number": "3524",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA PRIĽAHLÉ KU GARÁŽI",
+              "cadastral_territory": "NIVY - BRATISLAVA",
+              "lv_number": "4027",
+              "share": "698/100000 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINOHRADY - BRATISLAVA",
+              "lv_number": "4355",
+              "share": "2/6"
+            },
+            {
+              "type": "OSTATNÉ A ZASTAVANÉ PLOCHY PRIĽAHLÉ K BYTU",
+              "cadastral_territory": "VINOHRADY - BRATISLAVA",
+              "lv_number": "4327",
+              "share": "22/6000"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "VINOHRADY - BRATISLAVA",
+              "lv_number": "2617",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "STUPAVA, OBEC STUPAVA, OKRES MALACKY",
+              "lv_number": "1035",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINOHRADY,  BRATISLAVA - M. Č. NOVÉ MESTO",
+              "lv_number": "4355",
+              "share": "BSM"
+            },
+            {
+              "type": "OSTATNÉ A ZASTAVANÉ PLOCHY PRIĽAHLÉ K BYTU",
+              "cadastral_territory": "VINOHRADY, BRATISLAVA - M. Č. NOVÉ MESTO",
+              "lv_number": "4327",
+              "share": "7/1000 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY, BRATISLAVA - M. Č. RUŽINOV",
+              "lv_number": "3524",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA PRIĽAHLÉ K BYTU",
+              "cadastral_territory": "NIVY,  BRATISLAVA - M. Č. RUŽINOV,  BRATISLAVA II",
+              "lv_number": "3524",
+              "share": "2615/100000 BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "NIVY,  BRATISLAVA - M. Č. RUŽINOV, BRATISLAVA II",
+              "lv_number": "3524",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA PRIĽAHLÉ KU GARÁŽI",
+              "cadastral_territory": "NIVY, BRATISLAVA - M. Č. RUŽINOV, BRATISLAVA II",
+              "lv_number": "4027",
+              "share": "698/100000 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINOHRADY, BRATISLAVA - M. Č. NOVÉ MESTO",
+              "lv_number": "4355",
+              "share": "2/6"
+            },
+            {
+              "type": "OSTATNÉ A ZASTAVANÉ PLOCHY PRIĽAHLÉ K BYTU",
+              "cadastral_territory": "VINOHRADY, BRATISLAVA - M. Č. NOVÉ MESTO",
+              "lv_number": "4327",
+              "share": "22/6000"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "VINOHRADY, BRATISLAVA - M. Č. NOVÉ MESTO",
+              "lv_number": "2617",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 10,
+          "new_count": 10
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 73 065 € → 76 359 € (+3 294 €)",
+      "Funkcie: 2 → 2 (0)",
+      "Nehnuteľnosti: 10 → 10 (0)"
+    ]
+  },
   "slug": "prof-ing-robert-redhammer-phd",
   "context": {
     "latest_year": 2024,

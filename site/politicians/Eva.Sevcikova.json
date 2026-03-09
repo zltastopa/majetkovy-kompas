@@ -445,6 +445,60 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Eva.Sevcikova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Eva.Sevcikova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 42133,
+            "other": 0
+          },
+          "new": {
+            "public_function": 44107,
+            "other": 0
+          },
+          "old_total": 42133,
+          "new_total": 44107,
+          "delta": 1974,
+          "delta_pct": 4.7
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "CITROEN",
+              "year_of_manufacture": 2012,
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "CITROËN",
+              "year_of_manufacture": 2012,
+              "share": "BSM"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 42 133 € → 44 107 € (+1 974 €)",
+      "Hnuteľný majetok: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-eva-sevcikova",
   "context": {
     "latest_year": 2024,

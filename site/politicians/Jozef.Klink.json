@@ -1515,6 +1515,205 @@
     }
   ],
   "total_changes": 21,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Klink.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Klink.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 31044,
+            "other": 29595
+          },
+          "new": {
+            "public_function": 26609,
+            "other": 19473
+          },
+          "old_total": 60639,
+          "new_total": 46082,
+          "delta": -14557,
+          "delta_pct": -24.0
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZEMPLÍNSKE HRADIŠTE",
+              "lv_number": "807",
+              "share": "69/216"
+            },
+            {
+              "type": "POZEMOKY A STAVBY",
+              "cadastral_territory": "MLYNICA",
+              "lv_number": "40",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMKY A STAVBA",
+              "cadastral_territory": "KOŠICKÁ NOVÁ VES",
+              "lv_number": "1041",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "KOŠICKÁ NOVÁ VES",
+              "lv_number": "2151",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "KOŠICKÁ NOVÁ VES",
+              "lv_number": "3082",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "KOŠICKÁ NOVÁ VES",
+              "lv_number": "2255",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "12982",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZEMPLÍNSKE HRADIŠTE",
+              "lv_number": "1179",
+              "share": "69/216"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "ZEMPLÍNSKE HRADIŠTE",
+              "lv_number": "1217",
+              "share": "24/54"
+            },
+            {
+              "type": "POZEMKOK",
+              "cadastral_territory": "ZEMPLÍNSKE HRADIŠTE",
+              "lv_number": "441",
+              "share": "3/24"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZEMPLÍNSKE HRADIŠTE",
+              "lv_number": "805",
+              "share": "3/12"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZEMPLÍNSKE HRADIŠTE",
+              "lv_number": "807",
+              "share": "69/216"
+            },
+            {
+              "type": "POZEMKY A STAVBY",
+              "cadastral_territory": "MLYNICA",
+              "lv_number": "40",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMKY A STAVBA",
+              "cadastral_territory": "KOŠICKÁ NOVÁ VES",
+              "lv_number": "1041",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "KOŠICKÁ NOVÁ VES",
+              "lv_number": "2151",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "KOŠICKÁ NOVÁ VES",
+              "lv_number": "3082",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "KOŠICKÁ NOVÁ VES",
+              "lv_number": "2255",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "12982",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZEMPLÍNSKE HRADIŠTE",
+              "lv_number": "1179",
+              "share": "69/216"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "ZEMPLÍNSKE HRADIŠTE",
+              "lv_number": "1217",
+              "share": "24/54"
+            },
+            {
+              "type": "POZEMKOK",
+              "cadastral_territory": "ZEMPLÍNSKE HRADIŠTE",
+              "lv_number": "441",
+              "share": "3/24"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZEMPLÍNSKE HRADIŠTE",
+              "lv_number": "805",
+              "share": "3/12"
+            }
+          ],
+          "old_count": 11,
+          "new_count": 11
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER K NEHNUTEĽNOSTI",
+              "share": "1/2",
+              "date": "29. 01. 2020"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER K NEHNUTEĽNOSTI",
+              "share": "1/2",
+              "date": "29. 01. 2020"
+            },
+            {
+              "type": "FINANČNÁ PÔŽIČKA",
+              "share": "1/2",
+              "date": "01. 07. 2024"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 60 639 € → 46 082 € (-14 557 €)",
+      "Nehnuteľnosti: 11 → 11 (0)",
+      "Záväzky: 1 → 2 (+1)"
+    ]
+  },
   "slug": "ing-jozef-klink-emba",
   "context": {
     "latest_year": 2024,

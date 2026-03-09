@@ -2450,6 +2450,517 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zuzana.Obertova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zuzana.Obertova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A. S. )člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ZÁVODISKO, Š. P. )",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1490,
+            "other": 53690
+          },
+          "new": {
+            "public_function": 25740,
+            "other": 70569
+          },
+          "old_total": 55180,
+          "new_total": 96309,
+          "delta": 41129,
+          "delta_pct": 74.5
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO PÔDOHOSPODÁRSTVA A ROZVOJA VIDIEKA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ KONSOLIDAČNÁ, A. S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÁ KONSOLIDAČNÁ, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1972",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "571",
+              "share": "1/4"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "571",
+              "share": "168/84000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "571",
+              "share": "1/15"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "571",
+              "share": "1/5"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1478",
+              "share": "18572/65640625"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1646",
+              "share": "187572/65640625"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1670",
+              "share": "187572/65640625"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1962",
+              "share": "187572/65640625"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1963",
+              "share": "187572/65640625"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOJŠOVÁ LÚČKA",
+              "lv_number": "797",
+              "share": "187572/65640625"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "946",
+              "share": "2/2113"
+            },
+            {
+              "type": "PZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1043",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1117",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1157",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1460",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1605",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1609",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1615",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1712",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1713",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1714",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1815",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1814",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1815",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "TRNOVÉ",
+              "lv_number": "1727",
+              "share": "673/574029"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁNSKE",
+              "lv_number": "983",
+              "share": "24009/8402000"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "7040",
+              "share": "468/16663"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "7040",
+              "share": "1/18"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "7040",
+              "share": "468/16663"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "5838",
+              "share": "225/10000"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "5838",
+              "share": "225/10000"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RADVAŇ",
+              "lv_number": "3363",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RADVAŇ",
+              "lv_number": "3363",
+              "share": "4090/590601"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1441",
+              "share": "2/8"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "3330",
+              "share": "447/493"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1815",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "TRNOVÉ",
+              "lv_number": "1727",
+              "share": "673/574029"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁNSKE",
+              "lv_number": "983",
+              "share": "24009/8402000"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1714",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1813",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1814",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STÁŇAVY",
+              "lv_number": "1615",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1712",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1713",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RADVAŇ",
+              "lv_number": "3363",
+              "share": "3090/590601"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1441",
+              "share": "2/8"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "3830",
+              "share": "447/493"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "5838",
+              "share": "225/10000"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "5838",
+              "share": "225/10000"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RADVAŇ",
+              "lv_number": "3363",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "7040",
+              "share": "469/16663"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "7040",
+              "share": "1/18"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "7040",
+              "share": "468/16663"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1646",
+              "share": "187572/65640625"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1670",
+              "share": "187572/6540625"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1962",
+              "share": "187572/65640625"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "571",
+              "share": "1/15"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "571",
+              "share": "1/5"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1478",
+              "share": "18572/65640625"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1972",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "571",
+              "share": "1/4"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "571",
+              "share": "168/84000"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1460",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1605",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1609",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1043",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1117",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "1137",
+              "share": "2/2113"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STEČNO",
+              "lv_number": "1963",
+              "share": "187572/65640625"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOJŠOVÁ LÚČKA",
+              "lv_number": "792",
+              "share": "187572/65640625"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "STRÁŇAVY",
+              "lv_number": "946",
+              "share": "2/2113"
+            }
+          ],
+          "old_count": 36,
+          "new_count": 36
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTÉKA",
+              "share": "1/1",
+              "date": "05. 09. 2014"
+            },
+            {
+              "type": "DOPLNKOVÝ ÚVER",
+              "share": "1/1",
+              "date": "05. 09. 2014"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTÉKA",
+              "share": "1/1",
+              "date": "05. 09. 2014"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 55 180 € → 96 309 € (+41 129 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 36 → 36 (0)",
+      "Záväzky: 2 → 1 (-1)"
+    ]
+  },
   "slug": "mgr-zuzana-obertova",
   "context": {
     "latest_year": 2024,

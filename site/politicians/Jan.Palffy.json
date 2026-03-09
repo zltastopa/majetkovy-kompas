@@ -1095,6 +1095,151 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jan.Palffy.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jan.Palffy.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 15648,
+            "other": 0
+          },
+          "new": {
+            "public_function": 17160,
+            "other": 1925
+          },
+          "old_total": 15648,
+          "new_total": 19085,
+          "delta": 3437,
+          "delta_pct": 22.0
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "SLOVENSKÁ KOMORA STAVEBNÝCH INŽINIEROV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA, STARÉ MESTO",
+              "lv_number": "3070",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA, STARÉ MESTO",
+              "lv_number": "5151",
+              "share": "4,5%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "DUNAJSKÁ STREDA",
+              "lv_number": "3811",
+              "share": "50%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA, NIVY",
+              "lv_number": "3472",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA, NIVY",
+              "lv_number": "3472",
+              "share": "0,56%"
+            },
+            {
+              "type": "DOM (REKREAČNÁ CHALUPA) S POZEMKOM",
+              "cadastral_territory": "ÁSVÁNYRÁRÓ",
+              "lv_number": "33238",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DUNAJSKÁ STREDA",
+              "lv_number": "3811",
+              "share": "0,89%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA, STARÉ MESTO",
+              "lv_number": "3070",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA,STARÉ MESTO",
+              "lv_number": "5151",
+              "share": "4,5%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "DUNAJSKÁ STREDA",
+              "lv_number": "3811",
+              "share": "50%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA, NIVY",
+              "lv_number": "3472",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA, NIVY",
+              "lv_number": "3472",
+              "share": "0,56%"
+            },
+            {
+              "type": "DOM (REKREAČNÁ CHALUPA) S POZEMKOM",
+              "cadastral_territory": "ÁSVÁNYRÁRÓ",
+              "lv_number": "33238",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DUNAJSKÁ STREDA",
+              "lv_number": "3811",
+              "share": "0,89%"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "SSANGYONG",
+              "year_of_manufacture": 2022,
+              "share": "BSM"
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 15 648 € → 19 085 € (+3 437 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 7 → 7 (0)",
+      "Hnuteľný majetok"
+    ]
+  },
   "slug": "ing-arch-mgr-jan-palffy-phd",
   "context": {
     "latest_year": 2024,

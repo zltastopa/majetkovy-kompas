@@ -555,6 +555,66 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Tarcala.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Tarcala.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (KÚPEĽNO - LIEČEBNÝ ÚSTAV MINISTERSTVA VNÚTRA SLOVENSKEJ REPUBLIKY DRUŽBA)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (KÚPEĽNO - LIEČEBNÝ ÚSTAV MV SR DRUŽBA BARDEJOVSKÉ KÚPELE)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 63942,
+            "other": 0
+          },
+          "new": {
+            "public_function": 63775,
+            "other": 0
+          },
+          "old_total": 63942,
+          "new_total": 63775,
+          "delta": -167,
+          "delta_pct": -0.3
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "CITROEN",
+              "year_of_manufacture": 2022,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "CITROËN",
+              "year_of_manufacture": 2022,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 63 942 € → 63 775 € (-167 €)",
+      "Hnuteľný majetok: 1 → 1 (0)"
+    ]
+  },
   "slug": "mudr-martin-tarcala",
   "context": {
     "latest_year": 2024,

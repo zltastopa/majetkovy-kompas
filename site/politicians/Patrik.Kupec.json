@@ -215,6 +215,83 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Patrik.Kupec.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Patrik.Kupec.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AUTOMOBILOVÉ OPRAVOVNE MINISTERSTVA VNÚTRA SLOVENSKEJ REPUBLIKY)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AUTOMOBILOVÉ OPRAVOVNE MINISTERSTVA VNÚTRA SLOVENSKEJ REPUBLIKY, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 0,
+            "other": 10144
+          },
+          "old_total": 0,
+          "new_total": 10144,
+          "delta": 10144
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO VNÚTRA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO VNÚTRA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "NISSAN",
+              "year_of_manufacture": 2014,
+              "share": "BSM 1/2"
+            },
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "VOLSKWAGEN",
+              "year_of_manufacture": 2017,
+              "share": "BSM 1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "NISSAN",
+              "year_of_manufacture": 2014,
+              "share": "BSM 1/2"
+            },
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2017,
+              "share": "BSM 1/2"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 10 144 € (+10 144 €)",
+      "Zamestnanie",
+      "Hnuteľný majetok: 2 → 2 (0)"
+    ]
+  },
   "slug": "mgr-patrik-kupec",
   "context": {
     "latest_year": 2024,

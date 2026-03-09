@@ -460,6 +460,90 @@
     }
   ],
   "total_changes": 10,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Andrej.Lasz.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Andrej.Lasz.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 643,
+            "other": 95552
+          },
+          "new": {
+            "public_function": 19921,
+            "other": 129717
+          },
+          "old_total": 96195,
+          "new_total": 149638,
+          "delta": 53443,
+          "delta_pct": 55.6
+        },
+        {
+          "field": "employment",
+          "old": "ASOCIÁCIA PRIEMYSELNÝCH ZVÄZOV A DOPRAVY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nASOCIÁCIA ZAMESTNAVATEĽSKÝCH ZVÄZOV A ZDRUŽENÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nŠTÁTNY INŠTITÚT ODBORNÉHO VZDELÁVANIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ASOCIÁCIA PRIEMYSELNÝCH ZVÄZOV A DOPRAVY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nŠTÁTNY INŠTITÚT ODBORNÉHO VZDELÁVANIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nASOCIÁCIA ZAMESTNÁVATEĽSKÝCH ZVÄZOV A ZDRUŽENÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO INVESTÍCIÍ, REGIONÁLNEHO ROZVOJA A INFORMATIZÁCIE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nALIANCIA SEKTOROVÝCH RÁD\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÉ CENTRUM DIGITÁLNYCH INOVÁCIÍ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "SZČO(Mgr. ANDREJ LASZ)",
+          "new": "ŽÍVNOSŤ(Mgr. ANDREJ LASZ)"
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
+            "BANKOVÝ ÚČET, podiel: 1/1"
+          ],
+          "new": [
+            "PODIEL V S.R.O., podiel: 1/1",
+            "PODIEL V S.R.O., podiel: 1/1",
+            "BANKOVÝ ÚČET, podiel: 1/1",
+            "BANKOVÝ ÚČET, podiel: 1/1"
+          ],
+          "old_count": 3,
+          "new_count": 4
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTÉKA",
+              "share": "1/1",
+              "date": "19. 01. 2022"
+            },
+            {
+              "type": "HYPOTÉKA",
+              "share": "1/2",
+              "date": "10. 10. 2022"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 96 195 € → 149 638 € (+53 443 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Majetkové práva: 3 → 4 (+1)",
+      "Záväzky: 1 → 2 (+1)"
+    ]
+  },
   "slug": "mgr-andrej-lasz",
   "context": {
     "latest_year": 2024,

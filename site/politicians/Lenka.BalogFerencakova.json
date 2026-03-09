@@ -231,6 +231,131 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lenka.BalogFerencakova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lenka.BalogFerencakova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 13444,
+            "other": 38885
+          },
+          "old_total": 0,
+          "new_total": 52329,
+          "delta": 52329
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "employment",
+          "old": "ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7819",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7819",
+              "share": "3870/503733"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7820",
+              "share": "1/232"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "GRADO, TALIANSKO",
+              "lv_number": "6500",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "7819",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "7819",
+              "share": "3870/503733"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "7820",
+              "share": "1/232"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 4
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY, podiel: 1/1"
+          ],
+          "new": [
+            "TERMÍNOVANÝ VKLAD, podiel: 1/1"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTÉKA",
+              "share": "1/1",
+              "date": "04. 11. 2015"
+            }
+          ],
+          "new": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 52 329 € (+52 329 €)",
+      "Nezlučiteľnosť",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 4 (+1)",
+      "Majetkové práva: 1 → 1 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-lenka-balog-ferencakova",
   "context": {
     "latest_year": 2024,

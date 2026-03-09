@@ -1567,6 +1567,420 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/DuriJan.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/DuriJan.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2563,
+            "other": 4385
+          },
+          "new": {
+            "public_function": 46904,
+            "other": 140567
+          },
+          "old_total": 6948,
+          "new_total": 187471,
+          "delta": 180523,
+          "delta_pct": 2598.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK -  TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "KRAHULE",
+              "lv_number": "495",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "4575",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK -  TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "4575",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "4575",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "4575",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "4576",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK - TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "4275",
+              "share": "1/5"
+            },
+            {
+              "type": "POZEMOK  - ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "8017",
+              "share": "6/49"
+            },
+            {
+              "type": "POZEMOK -  ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7940",
+              "share": "19/4645"
+            },
+            {
+              "type": "POZEMOK ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7592",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7592",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK -  ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7592",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK -  OSTATNÁ PLOCHA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7489",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK -  ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7489",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7489",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7489",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK -  OSTATNÁ PLOCHA",
+              "cadastral_territory": "MEROVCE",
+              "lv_number": "498",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK ORNÁ PÔDA",
+              "cadastral_territory": "MEROVCE",
+              "lv_number": "498",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK -  OSTATNÁ PLOCHA",
+              "cadastral_territory": "MEROVCE",
+              "lv_number": "498",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK -  OSTATNÁ PLOCHA",
+              "cadastral_territory": "MEROVCE",
+              "lv_number": "498",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK  -  ORNÁ PÔDA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "4610",
+              "share": "1/8"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "3674",
+              "share": "9/120"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "3674",
+              "share": "9/120"
+            },
+            {
+              "type": "POZEMOK -  ORNÁ PÔDA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "3674",
+              "share": "9/120"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "3627",
+              "share": "7/48"
+            },
+            {
+              "type": "POZEMOK -  ORNÁ PÔDA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "3626",
+              "share": "7/48"
+            },
+            {
+              "type": "POZEMOK  -  ORNÁ PÔDA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "10181",
+              "share": "1/8"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "BA - NOVÉ MESTO",
+              "lv_number": "4450",
+              "share": "1/12"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "BA -  NOVÉ MESTO",
+              "lv_number": "4450",
+              "share": "1/12"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "BA -  NOVÉ MESTO",
+              "lv_number": "4460",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK -  ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BA - NOVÉ MESTO",
+              "lv_number": "4460",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK - TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "KRAHULE",
+              "lv_number": "495",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "4575",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "4575",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANA PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "4575",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "4575",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "4576",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK - TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "4275",
+              "share": "1/5"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "8017",
+              "share": "6/49"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7940",
+              "share": "19/4645"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7592",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7592",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7592",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7489",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7489",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7489",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7489",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "MEROVCE",
+              "lv_number": "498",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "MEROVCE",
+              "lv_number": "498",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "MEROVCE",
+              "lv_number": "498",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "MEROVCE",
+              "lv_number": "498",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "4610",
+              "share": "1/8"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "3674",
+              "share": "9/120"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "3674",
+              "share": "9/120"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "3674",
+              "share": "9/120"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "3627",
+              "share": "7/48"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PODA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "3626",
+              "share": "7/48"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TREBIŠOV",
+              "lv_number": "10181",
+              "share": "1/8"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4450",
+              "share": "1/12"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4450",
+              "share": "1/12"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4460",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4460",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 31,
+          "new_count": 31
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 6 948 € → 187 471 € (+180 523 €)",
+      "Nehnuteľnosti: 31 → 31 (0)"
+    ]
+  },
   "slug": "ing-jan-durisin",
   "context": {
     "latest_year": 2024,

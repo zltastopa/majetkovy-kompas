@@ -826,6 +826,155 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Katarina.Kvasnovska.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Katarina.Kvasnovska.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 76900
+          },
+          "new": {
+            "public_function": 0,
+            "other": 86430
+          },
+          "old_total": 76900,
+          "new_total": 86430,
+          "delta": 9530,
+          "delta_pct": 12.4
+        },
+        {
+          "field": "employment",
+          "old": "TRNAVSKÁ UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNÁRODNÝ BEZPEČNOSTNÝ ÚRAD\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "NÁRODNÝ BEZPEČNOSTNÝ ÚRAD\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "2035",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "OMŠENIE",
+              "lv_number": "16",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "OMŠENIE",
+              "lv_number": "16",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VRAKUŇA",
+              "lv_number": "4181",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "TRNÁVKA",
+              "lv_number": "6380",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "VRAKUŇA",
+              "lv_number": "4181",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "TRNÁVKA",
+              "lv_number": "6380, 6275",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNÁVKA",
+              "lv_number": "5590",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "2035",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "OMŠENIE",
+              "lv_number": "16",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "OMŠENIE",
+              "lv_number": "16",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 6
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "26. 09. 2020"
+            },
+            {
+              "type": "BEZÚČELOVÝ ÚVER",
+              "share": "1/1",
+              "date": "22. 11. 2023"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "20. 10. 2023"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "26. 09. 2020"
+            },
+            {
+              "type": "BEZÚČELOVÝ ÚVER",
+              "share": "1/1",
+              "date": "22. 11. 2023"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 76 900 € → 86 430 € (+9 530 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 5 → 6 (+1)",
+      "Záväzky: 2 → 3 (+1)"
+    ]
+  },
   "slug": "judr-katarina-kvasnovska-phd",
   "context": {
     "latest_year": 2024,

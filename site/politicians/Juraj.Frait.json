@@ -1856,6 +1856,504 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Frait.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Frait.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÝ ÚSTAV SRDCOVÝCH\r\nA CIEVNYCH CHORÔB, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÝ ÚSTAV SRDCOVÝCH A\r\nCIEVNYCH CHORÔB, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 33241
+          },
+          "new": {
+            "public_function": 0,
+            "other": 89749
+          },
+          "old_total": 33241,
+          "new_total": 89749,
+          "delta": 56508,
+          "delta_pct": 170.0
+        },
+        {
+          "field": "employment",
+          "old": "STREDOSLOVENSKÝ ÚSTAV SRDCOVÝCH A CIEVNYCH CHORÔB, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "STREDOSLOVENSKÝ ÚSTAV SRDCOVÝCH A CIEVNYCH CHORÔB A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2975",
+              "share": "11%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2975",
+              "share": "11%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2975",
+              "share": "11%"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3400",
+              "share": "50%"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3400",
+              "share": "0,957/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2927",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5206",
+              "share": "0,001/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5206",
+              "share": "0,001/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5206",
+              "share": "0,001/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5206",
+              "share": "0,001/1"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5114",
+              "share": "50%"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5114",
+              "share": "0,157/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5119",
+              "share": "50%"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5119",
+              "share": "25,2%"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2927",
+              "share": "0,21/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2975",
+              "share": "0,11/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2975",
+              "share": "0,11/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2975",
+              "share": "0,11/1"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "RUSOVCE",
+              "lv_number": "1513",
+              "share": "50%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "RUSOVCE",
+              "lv_number": "1513",
+              "share": "50%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "RIEČKA",
+              "lv_number": "172",
+              "share": "100%"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PLOCHY",
+              "cadastral_territory": "RIEČKA",
+              "lv_number": "172",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RIEČKA",
+              "lv_number": "172",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUSOVCE",
+              "lv_number": "1513",
+              "share": "50%"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "4463",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "4463",
+              "share": "100%"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "2772",
+              "share": "75,2%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "2772",
+              "share": "100%"
+            },
+            {
+              "type": "PRÍJAZDOVÁ CESTA",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "4230",
+              "share": "100%"
+            },
+            {
+              "type": "PRÍJAZDOVÁ CESTA",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "4668",
+              "share": "3,55%"
+            },
+            {
+              "type": "PRÍJAZDOVÁ CESTA",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "4668",
+              "share": "28,75%"
+            },
+            {
+              "type": "PRÍJAZDOVÁ CESTA",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "4668",
+              "share": "9,52%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "4477",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "2772",
+              "share": "100%"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "4889",
+              "share": "6634/346433"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "RIEČKA",
+              "lv_number": "1266",
+              "share": "10/1200"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "RIEČKA",
+              "lv_number": "1253",
+              "share": "11/14"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2975",
+              "share": "11%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2975",
+              "share": "11%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2975",
+              "share": "11%"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3400",
+              "share": "0,957/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2927",
+              "share": "0,957/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2927",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5206",
+              "share": "0,001/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5206",
+              "share": "0,001/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5206",
+              "share": "0,001/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BRATISLAVA",
+              "lv_number": "5206",
+              "share": "0,001/1"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5114",
+              "share": "50%"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5114",
+              "share": "0,157/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5119",
+              "share": "50%"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5119",
+              "share": "25,2%"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2927",
+              "share": "0,21/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2975",
+              "share": "0,11/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2975",
+              "share": "0,11/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2975",
+              "share": "0,11/1"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "RUSOVCE",
+              "lv_number": "1513",
+              "share": "50%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "RUSOVCE",
+              "lv_number": "1513",
+              "share": "50%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "RIEČKA",
+              "lv_number": "172",
+              "share": "100%"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "RIEČKA",
+              "lv_number": "172",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RIEČKA",
+              "lv_number": "172",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUSOVCE",
+              "lv_number": "1513",
+              "share": "50%"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "4463",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "4463",
+              "share": "100%"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "2772",
+              "share": "75,2%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "2772",
+              "share": "100%"
+            },
+            {
+              "type": "PRÍJAZDOVÁ CESTA",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "4230",
+              "share": "100%"
+            },
+            {
+              "type": "PRÍJAZDOVÁ CESTA",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "4668",
+              "share": "3,55%"
+            },
+            {
+              "type": "PRÍJAZDOVÁ CESTA",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "4668",
+              "share": "28,75%"
+            },
+            {
+              "type": "PRÍJAZDOVÁ CESTA",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "4668",
+              "share": "9,52%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ROZNICA",
+              "lv_number": "4477",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ROGOZNICA",
+              "lv_number": "2772",
+              "share": "100%"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "4889",
+              "share": "6634/346433"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "RIEČKA",
+              "lv_number": "1266",
+              "share": "10/1200"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "RIEČKA",
+              "lv_number": "1253",
+              "share": "11/14"
+            }
+          ],
+          "old_count": 37,
+          "new_count": 37
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 33 241 € → 89 749 € (+56 508 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 37 → 37 (0)"
+    ]
+  },
   "slug": "mudr-juraj-frajt-mph",
   "context": {
     "latest_year": 2024,

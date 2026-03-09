@@ -837,6 +837,114 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ladislav.Dudits.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ladislav.Dudits.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 61256,
+            "other": 954
+          },
+          "new": {
+            "public_function": 67057,
+            "other": 510
+          },
+          "old_total": 62210,
+          "new_total": 67567,
+          "delta": 5357,
+          "delta_pct": 8.6
+        },
+        {
+          "field": "employment",
+          "old": "SLOVENSKÁ ADVOKÁTSKA KOMORA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nJUSTIČNÁ AKADÉMIA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "JUSTIČNÁ AKADÉMIA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE - TERASA",
+              "lv_number": "14398",
+              "share": "1/2"
+            },
+            {
+              "type": "SPOLOČNÉ ČASTI A ZARIADENIA DOMU, POZEMOK",
+              "cadastral_territory": "KOŠICE - TERASA",
+              "lv_number": "14398",
+              "share": "3137/10000"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KOŠICE - JUŽNÉ MESTO",
+              "lv_number": "13830",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "KOŠICE - JUŽNÉ MESTO",
+              "lv_number": "12094",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "RUSKOV",
+              "lv_number": "634",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KOŠICE - JUŽNÉ MESTO",
+              "lv_number": "13830",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "KOŠICE - JUŽNÉ MESTO",
+              "lv_number": "12094",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "RUSKOV",
+              "lv_number": "634",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE - TERASA",
+              "lv_number": "14398",
+              "share": "1/2"
+            },
+            {
+              "type": "SPOLOČNÉ ČASTI A ZARIADENIA DOMU A POZEMOK",
+              "cadastral_territory": "KOŠICE - TERASA",
+              "lv_number": "14398",
+              "share": "3137/10000"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 62 210 € → 67 567 € (+5 357 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
+  },
   "slug": "judr-ladislav-dudits-phd",
   "context": {
     "latest_year": 2024,

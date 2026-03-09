@@ -173,6 +173,101 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Alfred.Paulovic.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Alfred.Paulovic.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA, A.S.\r\n)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 25416,
+            "other": 58681
+          },
+          "old_total": 0,
+          "new_total": 84097,
+          "delta": 84097
+        },
+        {
+          "field": "positions",
+          "old": null,
+          "new": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ANDERSON A.S.",
+              "benefits": "NEMÁM"
+            }
+          ]
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "VOLVO",
+              "year_of_manufacture": 2019,
+              "share": "100%"
+            }
+          ]
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PODIEL V S.R.O., podiel: 50%",
+            "PODIEL V S.R.O., podiel: 100%"
+          ],
+          "new": [
+            "PODIEL V S.R.O., podiel: 100%"
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "ÚVER NA MOTOROVÉ VOZIDLO",
+              "share": "100%",
+              "date": "30. 01. 2024"
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚVER",
+              "share": "100%",
+              "date": "30. 01. 2024"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 84 097 € (+84 097 €)",
+      "Funkcie",
+      "Hnuteľný majetok",
+      "Majetkové práva: 2 → 1 (-1)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "msc-alfred-paulovic",
   "context": {
     "latest_year": 2024,

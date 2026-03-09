@@ -932,6 +932,90 @@
     }
   ],
   "total_changes": 26,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Andrea.Moravcikova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Andrea.Moravcikova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2988,
+            "other": 87716
+          },
+          "new": {
+            "public_function": 2988,
+            "other": 94584
+          },
+          "old_total": 90704,
+          "new_total": 97572,
+          "delta": 6868,
+          "delta_pct": 7.6
+        },
+        {
+          "field": "employment",
+          "old": "JUSTIČNÁ AKADÉMIA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nTRNAVSKÁ UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ADVOKÁTSKA KOMORA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "JUSTIČNÁ AKADÉMIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nKANCELÁRIA NAJVYŠŠIEHO SÚDU SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nTRNAVSKÁ UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT, ZASTAVANÁ PLOCHA, NÁDVORIE",
+              "cadastral_territory": "HLOHOVEC",
+              "lv_number": "6231",
+              "share": "BSM"
+            },
+            {
+              "type": "STAVBA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "HLOHOVEC",
+              "lv_number": "8366",
+              "share": "BSM"
+            },
+            {
+              "type": "INÝ NEBYTOVÝ PRIESTOR, GARÁŽOVÉ STOJISKO",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5566, 5389",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT, ZASTAVANÁ PLOCHA, NÁDVORIE",
+              "cadastral_territory": "HLOHOVEC",
+              "lv_number": "6231",
+              "share": "BSM"
+            },
+            {
+              "type": "STAVBA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "HLOHOVEC",
+              "lv_number": "8366",
+              "share": "BSM"
+            },
+            {
+              "type": "INÝ NEBYTOVÝ PRIESTOR, GARÁŽ. STOJISKO",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5566, 5389",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 90 704 € → 97 572 € (+6 868 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 3 (0)"
+    ]
+  },
   "slug": "judr-andrea-moravcikova-phd",
   "context": {
     "latest_year": 2024,

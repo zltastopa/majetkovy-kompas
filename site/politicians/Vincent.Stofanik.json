@@ -612,6 +612,121 @@
     }
   ],
   "total_changes": 19,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Vincent.Stofanik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Vincent.Stofanik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 14546,
+            "other": 71759
+          },
+          "new": {
+            "public_function": 11618,
+            "other": 85614
+          },
+          "old_total": 86305,
+          "new_total": 97232,
+          "delta": 10927,
+          "delta_pct": 12.7
+        },
+        {
+          "field": "employment",
+          "old": "ROZHLAS A TELEVÍZIA SLOVENSKA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÁ TEEEVÍZIA A ROZHLAS\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA - VINICA",
+              "cadastral_territory": "860778 VEĽKÉ ŠENKVICE",
+              "lv_number": "2486",
+              "share": "100%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "804274 NIVY BRATISLAVA - RUŽINOV",
+              "lv_number": "2815",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY - BA RUŽINOV",
+              "lv_number": "2815",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VEĽKÉ ŠENKVICE",
+              "lv_number": "2486",
+              "share": "100%"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "AUTO",
+              "brand": "KIA",
+              "year_of_manufacture": 2017,
+              "share": "100%"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "SPOTREBNÝ ÚVER",
+              "share": "100%",
+              "date": "12. 05. 2022"
+            },
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "100%",
+              "date": "20. 01. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "20. 12. 2024"
+            },
+            {
+              "type": "SPOTREBNÝ ÚVER",
+              "share": "100%",
+              "date": "03. 12. 2024"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 86 305 € → 97 232 € (+10 927 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Hnuteľný majetok",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "mgr-vincent-stofanik",
   "context": {
     "latest_year": 2024,

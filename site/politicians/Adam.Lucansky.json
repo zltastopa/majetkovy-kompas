@@ -449,6 +449,128 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Adam.Lucansky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Adam.Lucansky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 8707,
+            "other": 0
+          },
+          "new": {
+            "public_function": 49058,
+            "other": 240
+          },
+          "old_total": 8707,
+          "new_total": 49298,
+          "delta": 40591,
+          "delta_pct": 466.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "8214",
+              "share": "1/1"
+            },
+            {
+              "type": "VONKAJŠIE PARKOVACIE STÁTIE",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "8389",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "8214",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATY PORAST",
+              "cadastral_territory": "KLÁŠTOR POD ZNIEVOM",
+              "lv_number": "780",
+              "share": "3/1376"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATY PORAST",
+              "cadastral_territory": "KLÁŠTOR POD ZNIEVOM",
+              "lv_number": "930, 1009",
+              "share": "1/1032"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATY PORAST",
+              "cadastral_territory": "KLÁŠTOR POD ZNIEVOM",
+              "lv_number": "995",
+              "share": "2341/415200"
+            }
+          ],
+          "new": [
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "KLÁŠTOR POD ZNIEVOM",
+              "lv_number": "780",
+              "share": "3/1376"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "KLÁŠTOR POD ZNIEVOM",
+              "lv_number": "930, 1009",
+              "share": "1/1032"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "KLÁŠTOR POD ZNIEVOM",
+              "lv_number": "995",
+              "share": "2341/415200"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "8214",
+              "share": "1/1"
+            },
+            {
+              "type": "VONKAJŠIE PARKOVACIE STÁTIE",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "8389",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "8214",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "AKCIE, podiel: 1/1"
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 8 707 € → 49 298 € (+40 591 €)",
+      "Nehnuteľnosti: 6 → 6 (0)",
+      "Majetkové práva"
+    ]
+  },
   "slug": "ing-adam-lucansky",
   "context": {
     "latest_year": 2024,

@@ -232,6 +232,113 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Stanislav.Krajnak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Stanislav.Krajnak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 38794,
+            "other": 80
+          },
+          "old_total": 0,
+          "new_total": 38874,
+          "delta": 38874
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "VEO-PREVENT S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASTOMÍR",
+              "lv_number": "373",
+              "share": "13/125"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASTOMÍR",
+              "lv_number": "370",
+              "share": "51/500"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE",
+              "lv_number": "12094, 12630",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASTOMÍR",
+              "lv_number": "371",
+              "share": "909/27000"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASTOMÍR",
+              "lv_number": "372",
+              "share": "126/3000"
+            }
+          ],
+          "new": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASTOMÍR",
+              "lv_number": "371",
+              "share": "909/27000"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASTOMÍR",
+              "lv_number": "372",
+              "share": "126/3000"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE",
+              "lv_number": "12094, 12630",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASTOMÍR",
+              "lv_number": "373",
+              "share": "13/125"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASTOMÍR",
+              "lv_number": "370",
+              "share": "51/500"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 38 874 € (+38 874 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
+  },
   "slug": "ing-stanislav-krajnak-phd-mba",
   "context": {
     "latest_year": 2024,

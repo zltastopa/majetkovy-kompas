@@ -1398,6 +1398,264 @@
     }
   ],
   "total_changes": 10,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Pavle.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Pavle.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 50687,
+            "other": 0
+          },
+          "new": {
+            "public_function": 50609,
+            "other": 0
+          },
+          "old_total": 50687,
+          "new_total": 50609,
+          "delta": -78,
+          "delta_pct": -0.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "DOM",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "684",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "684",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "684",
+              "share": "BSM"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "684",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "2276",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "2276",
+              "share": "1/20 BSM"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "2277",
+              "share": "2/316 BSM"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "2278",
+              "share": "2/316 BSM"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "2279",
+              "share": "44875/1000000"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "2279",
+              "share": "44875/1000000"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7607",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7607",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7779",
+              "share": "2/30"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7554",
+              "share": "6/24"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7788",
+              "share": "47/400"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "MIKOV DVOR",
+              "lv_number": "7643",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "MIKOV DVOR",
+              "lv_number": "7643",
+              "share": "1/57"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "MIKOV DVOR",
+              "lv_number": "7643",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "MIKOV DVOR",
+              "lv_number": "7643",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "MIKOV DVOR",
+              "lv_number": "7643",
+              "share": "1/57"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "MIKOV DVOR",
+              "lv_number": "7643",
+              "share": "BSM"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "684",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "2276",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "2276",
+              "share": "1/20 BSM"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "684",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "684",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "684",
+              "share": "BSM"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "2277",
+              "share": "2/316 BSM"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "2278",
+              "share": "2/316 BSM"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "2279",
+              "share": "44875/1000000"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7779",
+              "share": "2/30"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7554",
+              "share": "6/24"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7788",
+              "share": "47/400"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "2279",
+              "share": "44875/1000000"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7607",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "KYNEK",
+              "lv_number": "7607",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 18,
+          "new_count": 18
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 50 687 € → 50 609 € (-78 €)",
+      "Nehnuteľnosti: 18 → 18 (0)"
+    ]
+  },
   "slug": "ing-jozef-pavle",
   "context": {
     "latest_year": 2024,

@@ -695,6 +695,114 @@
     }
   ],
   "total_changes": 24,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Denisa.Sipova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Denisa.Sipova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO M.R. ŠTEFÁNIKA - AIRPORT BRATISLAVA\r\nA.S. (BTS))",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU CESTOVNÉHO RUCHU)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 71078
+          },
+          "new": {
+            "public_function": 0,
+            "other": 0
+          },
+          "old_total": 71078,
+          "new_total": 0,
+          "delta": -71078,
+          "delta_pct": -100.0
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO CESTOVNÉHO RUCHU A ŠPORTU SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERTSTVO CESTOVNÉHO RUCHU A ŠPORTU SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT, PARKOVACIE STÁTIE",
+              "cadastral_territory": "BRATISLAVA PETRŽALKA",
+              "lv_number": "4180, 5295",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA PETRŽALKA",
+              "lv_number": "3183",
+              "share": "BSM 1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3183",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "ÚVER NA BÝVANIE (REFINANCOVANÝ)",
+              "share": "1/1",
+              "date": "22. 11. 2022"
+            },
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "1/2",
+              "date": "22. 11. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER (REFINANCOVANÝ)",
+              "share": "1/1",
+              "date": "22. 11. 2022"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "22. 11. 2022"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 71 078 € → 0 € (-71 078 €)",
+      "Nezlučiteľnosť",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 1 (-1)",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "judr-denisa-vantroba",
   "context": {
     "latest_year": 2024,

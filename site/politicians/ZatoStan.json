@@ -500,6 +500,135 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/ZatoStan.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/ZatoStan.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA PIEŠŤANY)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETECKÉ OPRAVOVNE A.S. TRENČÍN)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (HOREZZA, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 29752
+          },
+          "new": {
+            "public_function": 2610,
+            "other": 68794
+          },
+          "old_total": 29752,
+          "new_total": 71404,
+          "delta": 41652,
+          "delta_pct": 140.0
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO OBRANY SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO OBRANY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREZIDENT",
+              "organization": "ÚNIA TELOVÝCHOVNÝCH ORGANIZÁCIÍ POLÍCIE SLOVENSKEJ REPUBLIKY",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "LETECKÉ OPRAVOVNE A.S. TRENČÍN",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA DOZORNEJ RADY",
+              "organization": "SPOLOČNOSŤ M.R.ŠTEFÁNIKA",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREZIDENT",
+              "organization": "ÚNIA TELOVÝCHOVNÝCH ORGANIZÁCII POLI",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA DOZORNEJ RADY",
+              "organization": "SPOLOČNOSŤ MILANA RASTISLAVA ŠTEFÁNIKA",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ ATOMOBIL",
+              "brand": "MERCEDES BENZ",
+              "year_of_manufacture": 2021,
+              "share": "50%"
+            },
+            {
+              "type": "VYBAVENIE DOMÁCNOSTI",
+              "share": "100%"
+            },
+            {
+              "type": "ŠPERKY",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "MERCEDES BENZ",
+              "year_of_manufacture": 2023,
+              "share": "50%"
+            },
+            {
+              "type": "MOTOCYKEL",
+              "brand": "BMW",
+              "year_of_manufacture": 2017,
+              "share": "100%"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY, podiel: 50%"
+          ],
+          "new": [
+            "VYBAVENIE DOMÁCNOSTI, podiel: 100%",
+            "ŠPERKY, podiel: 100%",
+            "ÚSPORY, podiel: 50%"
+          ],
+          "old_count": 1,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 29 752 € → 71 404 € (+41 652 €)",
+      "Zamestnanie",
+      "Funkcie: 3 → 2 (-1)",
+      "Hnuteľný majetok: 3 → 2 (-1)",
+      "Majetkové práva: 1 → 3 (+2)"
+    ]
+  },
   "slug": "ing-stanislav-zatorsky",
   "context": {
     "latest_year": 2024,

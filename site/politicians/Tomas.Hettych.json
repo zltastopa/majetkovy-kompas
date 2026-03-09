@@ -242,6 +242,38 @@
     }
   ],
   "total_changes": 2,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tomas.Hettych.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tomas.Hettych.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 18157,
+            "other": 0
+          },
+          "new": {
+            "public_function": 0,
+            "other": 92445
+          },
+          "old_total": 18157,
+          "new_total": 92445,
+          "delta": 74288,
+          "delta_pct": 409.1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 18 157 € → 92 445 € (+74 288 €)"
+    ]
+  },
   "slug": "ing-tomas-hettych",
   "context": {
     "latest_year": 2024,

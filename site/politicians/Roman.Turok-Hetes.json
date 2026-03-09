@@ -592,6 +592,56 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Roman.Turok-Hetes.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Roman.Turok-Hetes.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND OCHRANY VKLADOV)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXPORTNO-IMPORTNÁ BANKA SLOVENSKEJ\r\nREPUBLIKY)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXPORTNO - IMPORTNÁ BANKA SLOVENSKEJ\r\nREPUBLIKY)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND OCHRANY VKLADOV)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 5148,
+            "other": 67258
+          },
+          "new": {
+            "public_function": 18600,
+            "other": 67575
+          },
+          "old_total": 72406,
+          "new_total": 86175,
+          "delta": 13769,
+          "delta_pct": 19.0
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚČTY V BANKÁCH , podiel: 1/1"
+          ],
+          "new": [
+            "ÚČTY V BANKÁCH, podiel: 1/1"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 72 406 € → 86 175 € (+13 769 €)",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-roman-turok-hetes",
   "context": {
     "latest_year": 2024,

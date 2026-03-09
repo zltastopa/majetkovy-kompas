@@ -213,6 +213,83 @@
     }
   ],
   "total_changes": 2,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Milan.Lipka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Milan.Lipka.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 34937,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 34937,
+          "delta": 34937
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "RAJEC",
+              "lv_number": "2185",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ROZOSTAVANÝ RODINNÝ DOM A HOSPODÁRSKA BUDOVA",
+              "cadastral_territory": "RAJEC",
+              "lv_number": "4449",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RAJECKÉ TEPLICE",
+              "lv_number": "263",
+              "share": "1/2 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "RAJEC",
+              "lv_number": "2185",
+              "share": "1/2 BSM"
+            },
+            {
+              "type": "ROZOSTAVANÝ RODINNÝ DOM A HOSPODÁRSKA BUDOVA",
+              "cadastral_territory": "RAJEC",
+              "lv_number": "4449",
+              "share": "1/2 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RAJECKÉ TEPLICE",
+              "lv_number": "263",
+              "share": "1/4 BSM"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 34 937 € (+34 937 €)",
+      "Nehnuteľnosti: 3 → 3 (0)"
+    ]
+  },
   "slug": "ing-milan-lipka",
   "context": {
     "latest_year": 2024,

@@ -646,6 +646,44 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Dusan.Pirsel.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Dusan.Pirsel.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (INŠTITÚT PRE PRACOVNÚ REHABILITÁCIU OBČANOV SO ZDRAVOTNÝM POSTIHNUTÍM )",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (INŠTITÚT PRE PRACOVNÚ REHABILITÁCIU\r\nOBČANOV SO ZDRAVOTNÝM POSTIHNUTÍM)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 46375,
+            "other": 0
+          },
+          "new": {
+            "public_function": 52973,
+            "other": 0
+          },
+          "old_total": 46375,
+          "new_total": 52973,
+          "delta": 6598,
+          "delta_pct": 14.2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 46 375 € → 52 973 € (+6 598 €)"
+    ]
+  },
   "slug": "phdr-dusan-pirsel",
   "context": {
     "latest_year": 2024,

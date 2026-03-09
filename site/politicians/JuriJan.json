@@ -423,6 +423,75 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/JuriJan.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/JuriJan.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "riaditeľ štátneho podniku (VOJENSKÉ LESY A MAJETKY SR, Š.P.)",
+          "new": "riaditeľ štátneho podniku (VOJENSKÉ LESY A MAJETKY SR, Š. P.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 50249,
+            "other": 0
+          },
+          "new": {
+            "public_function": 55854,
+            "other": 0
+          },
+          "old_total": 50249,
+          "new_total": 55854,
+          "delta": 5605,
+          "delta_pct": 11.2
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2021,
+              "share": "100%"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "SPOTREBITEĽSKÝ ÚVER",
+              "share": "100%",
+              "date": "24. 08. 2021"
+            }
+          ],
+          "new": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 50 249 € → 55 854 € (+5 605 €)",
+      "Hnuteľný majetok",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-jan-jurica",
   "context": {
     "latest_year": 2024,

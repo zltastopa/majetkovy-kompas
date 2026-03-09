@@ -850,6 +850,146 @@
     }
   ],
   "total_changes": 20,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/FicoRobe.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/FicoRobe.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky",
+          "new": "člen vlády Slovenskej republiky"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 54374,
+            "other": 47410
+          },
+          "new": {
+            "public_function": 66673,
+            "other": 0
+          },
+          "old_total": 101784,
+          "new_total": 66673,
+          "delta": -35111,
+          "delta_pct": -34.5
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO SPRAVODLIVOSTI SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "MINISTERSTVO SPRAVODLIVOSTI SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "business_activity",
+          "old": "ADVOKÁT(ROBERT FICO)",
+          "new": null
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA STRANY",
+              "organization": "STRANA SMER - SOCIÁLNA DEMOKRACIA",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREDSEDA STRANY",
+              "organization": "STRANA SMER-SOCIÁLNA DEMOKRACIA",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "VINICA",
+              "cadastral_territory": "VINOHRADY BRATISLAVA - RAČA",
+              "lv_number": "42133",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PÔDA DEDIČSTVO",
+              "cadastral_territory": "HRUŠOVANY",
+              "lv_number": "1400",
+              "share": "1/12"
+            },
+            {
+              "type": "ORNÁ PÔDA DEDIČSTVO",
+              "cadastral_territory": "HRUŠOVANY",
+              "lv_number": "718",
+              "share": "1/168"
+            },
+            {
+              "type": "ORNÁ PÔDA DEDIČSTVO",
+              "cadastral_territory": "PRESEĽANY",
+              "lv_number": "2695",
+              "share": "1/12"
+            },
+            {
+              "type": "BYT A GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "4308",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "VINICA",
+              "cadastral_territory": "VINOHRADY BRATISLAVA RAČA",
+              "lv_number": "42133",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PÔDA DEDIČSTVO",
+              "cadastral_territory": "HRUŠOVANY",
+              "lv_number": "1400",
+              "share": "1/12"
+            },
+            {
+              "type": "ORNÁ PÔDA DEDIČSTVO",
+              "cadastral_territory": "HRUŠOVANY",
+              "lv_number": "718",
+              "share": "1/168"
+            },
+            {
+              "type": "ORNÁ PÔDA DEDIČSTVO",
+              "cadastral_territory": "PRESEĽANY",
+              "lv_number": "2695",
+              "share": "1/12"
+            },
+            {
+              "type": "BYT A GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "4308",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 101 784 € → 66 673 € (-35 111 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Funkcie: 1 → 1 (0)",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
+  },
   "slug": "doc-judr-robert-fico-csc",
   "context": {
     "latest_year": 2024,

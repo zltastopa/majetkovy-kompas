@@ -1791,6 +1791,246 @@
     }
   ],
   "total_changes": 21,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tomas.Abel.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tomas.Abel.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 70448,
+            "other": 8400
+          },
+          "new": {
+            "public_function": 76808,
+            "other": 9000
+          },
+          "old_total": 78848,
+          "new_total": 85808,
+          "delta": 6960,
+          "delta_pct": 8.8
+        },
+        {
+          "field": "employment",
+          "old": "TRNAVSKÁ UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NEMOCNICA S POLIKLINIKOU BREZNO N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "ZDRUŽENIE OBCÍ EKOLÓG",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA ZA MESTO BREZNO",
+              "organization": "BREZNO PRE OBČANOV N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA ZA MESTO BREZNO",
+              "organization": "KLASTER - ZDRUŽENIE CESTOVNÉHO RUCHU N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA ZA MESTO BREZNO",
+              "organization": "NÍZKE TATRY JUH - OOCR",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "JEDINÝ SPOLOČNÍK SPOLOČNOSTI ZA MESTO",
+              "organization": "LESY MESTA BREZNO S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "BANSKOBYSTRICKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "VEOLIA ENERGIA BREZNO A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA EKOLÓG",
+              "organization": "SEKOLÓG S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "STREDOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NEMOCNICA S POLIKLINIKOU BREZNO N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "ZDRUŽENIE OBCÍ EKOLÓG",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "JEDINÝ SPOLOČNÍK SPOLOČNOSTI ZA MESTO BREZNO",
+              "organization": "SOCIÁLNY PODNIK MESTA BREZNO S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA ZA MESTO BREZNO",
+              "organization": "KLASTER- ZDRUŽENIE CESTOVNÉHO RUCHU N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA ZA MESTO BREZNO",
+              "organization": "NÍZKE TATRY JUH - OOCR",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA ZA MESTO BREZNO",
+              "organization": "BREZNO PRE OBČANOV N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "SPOLOČNÍK SPOLOČNOSTI ZA MESTO BREZNO",
+              "organization": "BREZINKY S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "STREDOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "VEOLIA ENERGIA BREZNO A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "JEDINÝ SPOLOČNÍK SPOLOČNOSTI ZA MESTO BREZNO",
+              "organization": "LESY MESTA BREZNO S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "JEDINÝ SPOLOČNÍK SPOLOČNOSTI ZA MESTO BREZNO",
+              "organization": "MESTSKÝ HOTEL ĎUMBIER S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "JEDINÝ SPOLOČNÍK SPOLOČNOSTI ZA MESTO BREZNO",
+              "organization": "BREZNO ENERGIA S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA EKOLÓG",
+              "organization": "SEKOLÓG S.R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 10,
+          "new_count": 13
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 1/1"
+          ],
+          "new": [
+            "OBCHODNÝ PODIEL V SPOLOČNOSTI, podiel: 1/1"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "SPOTREBNÝ ÚVER",
+              "share": "100%",
+              "date": "02. 12. 2020"
+            },
+            {
+              "type": "HYPOTÉKA",
+              "share": "100%",
+              "date": "16. 02. 2018"
+            },
+            {
+              "type": "HYPOTÉKA",
+              "share": "100%",
+              "date": "02. 12. 2020"
+            },
+            {
+              "type": "HYPOTÉKA",
+              "share": "100%",
+              "date": "14. 04. 2021"
+            },
+            {
+              "type": "SPOTREBNÝ ÚVER",
+              "share": "100%",
+              "date": "02. 09. 2011"
+            }
+          ],
+          "new": [
+            {
+              "type": "SPOTREBNÝ ÚVER",
+              "share": "100%",
+              "date": "02. 09. 2011"
+            },
+            {
+              "type": "SPOTREBNÝ ÚVER",
+              "share": "100%",
+              "date": "02. 12. 2020"
+            },
+            {
+              "type": "HYPOTÉKA",
+              "share": "100%",
+              "date": "16. 02. 2018"
+            },
+            {
+              "type": "HYPOTÉKA",
+              "share": "100%",
+              "date": "02. 12. 2020"
+            },
+            {
+              "type": "HYPOTÉKA",
+              "share": "100%",
+              "date": "14. 04. 2021"
+            },
+            {
+              "type": "HYPOTÉKA",
+              "share": "100%",
+              "date": "18. 11. 2024"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 6
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 78 848 € → 85 808 € (+6 960 €)",
+      "Zamestnanie",
+      "Funkcie: 10 → 13 (+3)",
+      "Majetkové práva: 1 → 1 (0)",
+      "Záväzky: 5 → 6 (+1)"
+    ]
+  },
   "slug": "judr-tomas-abel-phd",
   "context": {
     "latest_year": 2024,

@@ -258,6 +258,125 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Richard.Majza.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Richard.Majza.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKO IT, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKO IT, A.S., V LIKVIDÁCII)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 24990,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 24990,
+          "delta": 24990
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "6350",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "6350",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "6350",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "9704",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "9704",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "9704",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "6350",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "6350",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "6350",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "9704",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "9704",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "9704",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 24 990 € (+24 990 €)",
+      "Nehnuteľnosti: 6 → 6 (0)"
+    ]
+  },
   "slug": "ing-richard-majza-mba",
   "context": {
     "latest_year": 2024,

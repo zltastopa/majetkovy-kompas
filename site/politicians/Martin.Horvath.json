@@ -567,6 +567,72 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Horvath.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Horvath.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 84079,
+            "other": 0
+          },
+          "new": {
+            "public_function": 101583,
+            "other": 0
+          },
+          "old_total": 84079,
+          "new_total": 101583,
+          "delta": 17504,
+          "delta_pct": 20.8
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "2808",
+              "share": "100%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3786",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "2808",
+              "share": "100%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3786",
+              "share": "50%"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 84 079 € → 101 583 € (+17 504 €)",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-martin-horvath",
   "context": {
     "latest_year": 2024,

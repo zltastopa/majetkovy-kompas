@@ -305,6 +305,147 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jaroslav.Ninaj.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jaroslav.Ninaj.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 6290,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 6290,
+          "delta": 6290
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "KONATEĽ",
+              "organization": "POLYGON PRODUCTION S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "FILMPARK PRODUCTION S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "FILMWORX S.R.O.",
+              "benefits": "Z VYTVORENIA DIELA A Z PODANIA UMELECKÉHO VÝKONU"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "7214",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ A OSTATNÁ PLOCHA, NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "7214",
+              "share": "9386/1816232"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "7214",
+              "share": "1225/113765"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7214",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ A OSTATNÁ PLOCHA, NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7214",
+              "share": "9386/1816232"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7214",
+              "share": "1225/113765"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7214",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7214",
+              "share": "9386/1816232"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7214",
+              "share": "9386/1816232"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7214",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7214",
+              "share": "9386/1816232"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7214",
+              "share": "9386/1816232"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 9
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 6 290 € (+6 290 €)",
+      "Nezlučiteľnosť",
+      "Funkcie",
+      "Nehnuteľnosti: 3 → 9 (+6)"
+    ]
+  },
   "slug": "mgr-jaroslav-ninaj",
   "context": {
     "latest_year": 2024,

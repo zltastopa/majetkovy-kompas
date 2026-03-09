@@ -875,6 +875,134 @@
     }
   ],
   "total_changes": 19,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Daniel.Bytcanek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Daniel.Bytcanek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE RIADENIE DLHU A LIKVIDITY)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ )štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE RIADENIE DLHU A LIKVIDITY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 96312,
+            "other": 0
+          },
+          "new": {
+            "public_function": 105320,
+            "other": 0
+          },
+          "old_total": 96312,
+          "new_total": 105320,
+          "delta": 9008,
+          "delta_pct": 9.4
+        },
+        {
+          "field": "incompatibility",
+          "old": true,
+          "new": false
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVÁ VES",
+              "lv_number": "3261",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4187",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVÁ VES",
+              "lv_number": "3187",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "2371",
+              "share": "1/3"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4187",
+              "share": "2/146"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "2371",
+              "share": "1/3"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4187",
+              "share": "2/146"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3261",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4187",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3187",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "POHĽADÁVKY Z ÚČTU V BANKE, podiel: 1/1",
+            "DLHOPISY, podiel: 1/1"
+          ],
+          "new": [
+            "POHĽADÁVKA Z ÚČTU V BANKE , podiel: 1/1",
+            "DLHOPISY, podiel: 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 96 312 € → 105 320 € (+9 008 €)",
+      "Nezlučiteľnosť",
+      "Nehnuteľnosti: 5 → 5 (0)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-daniel-bytcanek",
   "context": {
     "latest_year": 2024,

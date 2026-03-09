@@ -964,6 +964,194 @@
     }
   ],
   "total_changes": 21,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Radoslav.Remsik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Radoslav.Remsik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AUDIOVIZUÁLNY FOND SR)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AUDIOVIZUÁLNY FOND)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10432,
+            "other": 61728
+          },
+          "new": {
+            "public_function": 11440,
+            "other": 63582
+          },
+          "old_total": 72160,
+          "new_total": 75022,
+          "delta": 2862,
+          "delta_pct": 4.0
+        },
+        {
+          "field": "employment",
+          "old": "SLOVAK TELEKOM, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nDIGI SLOVAKIA, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ASOCIÁCIA PRE KÁBLOVÉ TELEKOMUNIKÁCIE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÁ ASOCIÁCIA PRE KÁBLOVÉ TELEKOMUNIKÁCIE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nDIGI SLOVAKIA, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVAK TELEKOM, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIMBACH",
+              "lv_number": "2029",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIMBACH",
+              "lv_number": "2029",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LIMBACH",
+              "lv_number": "2029",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11500",
+              "share": "1/57"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11578",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11381",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11381",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11736",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11500",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11381",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11736",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11500",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIMBACH",
+              "lv_number": "2029",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIMBACH",
+              "lv_number": "2029",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LIMBACH",
+              "lv_number": "2029",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11500",
+              "share": "1/57"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11578",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11381",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 9
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "VYBAVENIE DOMÁCNOSTI",
+              "share": "1/1"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY, podiel: 1/1",
+            "CENNÉ PEPIERE, podiel: 1/1"
+          ],
+          "new": [
+            "VYBAVENIE DOMÁCNOSTI, podiel: 1/1",
+            "ÚSPORY, podiel: 1/1",
+            "CENNÉ PEPIERE, podiel: 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 72 160 € → 75 022 € (+2 862 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 9 → 9 (0)",
+      "Hnuteľný majetok",
+      "Majetkové práva: 2 → 3 (+1)"
+    ]
+  },
   "slug": "judr-radoslav-remsik",
   "context": {
     "latest_year": 2024,

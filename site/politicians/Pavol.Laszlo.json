@@ -1053,6 +1053,216 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Pavol.Laszlo.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Pavol.Laszlo.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 43207
+          },
+          "new": {
+            "public_function": 0,
+            "other": 50734
+          },
+          "old_total": 43207,
+          "new_total": 50734,
+          "delta": 7527,
+          "delta_pct": 17.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "2188",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "4068",
+              "share": "1/6"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "6297",
+              "share": "141/60000"
+            },
+            {
+              "type": "SPOLOČNÁ NEHNUTEĽNOSŤ",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "1675",
+              "share": "571/510400"
+            },
+            {
+              "type": "SPOLOČNÁ NEHNUTEĽNOSŤ",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "2086",
+              "share": "571/510400"
+            },
+            {
+              "type": "SPOLOČNÁ NEHNUTEĽNOSŤ",
+              "cadastral_territory": "OPATOVSKÝ SOKOLEC",
+              "lv_number": "1943",
+              "share": "571/510400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "1134",
+              "share": "2/16"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "2032",
+              "share": "2/16"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "2352",
+              "share": "2/16"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "2417",
+              "share": "2/16"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "2918",
+              "share": "2/16"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "OPATOVSKY SOKOLEC",
+              "lv_number": "1838",
+              "share": "2/16"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "OPATOVSKÝ SOKOLEC",
+              "lv_number": "1936",
+              "share": "2/16"
+            },
+            {
+              "type": "DOM, DVOR, ZÁHRADA, HOSPODÁRSKA BUDOVA",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "720",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "OPATOVSKÝ SOKOLEC",
+              "lv_number": "1936",
+              "share": "2/16"
+            },
+            {
+              "type": "DOM, DVOR, ZÁHRADA, HOSPODÁRSKA BUDOVA",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "720",
+              "share": "1/2"
+            },
+            {
+              "type": "SPOLOČNÁ NEHNUTEĽNOSŤ",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "1675",
+              "share": "571/510400"
+            },
+            {
+              "type": "SPOLOČNÁ NEHNUTEĽNOSŤ",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "2086",
+              "share": "571/510400"
+            },
+            {
+              "type": "SPOLOČNÁ NEHNUTEĽNOSŤ",
+              "cadastral_territory": "OPATOVSKÝ SOKOLEC",
+              "lv_number": "1943",
+              "share": "571/510400"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "2188",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "4068",
+              "share": "1/6"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "6297",
+              "share": "141/60000"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "2417",
+              "share": "2/16"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "2918",
+              "share": "2/16"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "OPATOVSKÝ SOKOLEC",
+              "lv_number": "1838",
+              "share": "2/16"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "1134",
+              "share": "2/16"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "2032",
+              "share": "2/16"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "OKOČ",
+              "lv_number": "2352",
+              "share": "2/16"
+            }
+          ],
+          "old_count": 14,
+          "new_count": 14
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 43 207 € → 50 734 € (+7 527 €)",
+      "Nehnuteľnosti: 14 → 14 (0)"
+    ]
+  },
   "slug": "ing-pavol-laszlo",
   "context": {
     "latest_year": 2024,

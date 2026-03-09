@@ -1133,6 +1133,192 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ladislav.Bariak1.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ladislav.Bariak1.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VEREJNÉ PRÍSTAVY A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ DIAĽNIČNÁ SPOLOČNOSŤ A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNICE SLOVENSKEJ REPUBLIKY)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNICE SLOVENSKEJ REPUBLIKY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 72475,
+            "other": 78519
+          },
+          "new": {
+            "public_function": 39007,
+            "other": 29229
+          },
+          "old_total": 150994,
+          "new_total": 68236,
+          "delta": -82758,
+          "delta_pct": -54.8
+        },
+        {
+          "field": "employment",
+          "old": "NÁRODNÁ DIAĽNIČNÁ SPOLOČNOSŤ, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "NÁRODNÁ DIAĽNIČNÁ SPOLOČNOSŤ A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA VÝKONNEJ RADY",
+              "organization": "ZDRUŽENIE ZAMESTNÁVATEĽOV VO VODNOM HOSPODÁRSTVE",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3188",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH, ZARIADENIACH A POZEMKU",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3188",
+              "share": "2810/627245"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "824",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "824",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "824",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "824",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "984",
+              "share": "7/8"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "984",
+              "share": "7/8"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "984",
+              "share": "7/8"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "984",
+              "share": "7/8"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "984",
+              "share": "7/8"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "984",
+              "share": "7/8"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "984",
+              "share": "7/8"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "984",
+              "share": "7/8"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3188",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH, ZARIADENIACH A POZEMKU",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3188",
+              "share": "2810/627245"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "824",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "824",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "824",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "STARÁ HALIČ",
+              "lv_number": "824",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 10,
+          "new_count": 10
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 150 994 € → 68 236 € (-82 758 €)",
+      "Zamestnanie",
+      "Funkcie",
+      "Nehnuteľnosti: 10 → 10 (0)"
+    ]
+  },
   "slug": "ing-ladislav-bariak",
   "context": {
     "latest_year": 2024,

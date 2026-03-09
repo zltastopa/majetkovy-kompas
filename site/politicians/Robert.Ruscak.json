@@ -689,6 +689,81 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Robert.Ruscak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Robert.Ruscak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ÚSTREDNÁ VOJENSKÁ NEMOCNICA SNP RUŽOMBEROK - FAKULTNÁ NEMOCNICA)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ÚSTREDNÁ VOJENSKÁ NEMOCNICA SNP RUŽOMBEROK - FAKULTNÁ NEMOCNICA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FAKULTNÁ NEMOCNICA S POLIKLINIKOU J.A.REIMANA PREŠOV)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 46777
+          },
+          "new": {
+            "public_function": 0,
+            "other": 54092
+          },
+          "old_total": 46777,
+          "new_total": 54092,
+          "delta": 7315,
+          "delta_pct": 15.6
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "MÁST",
+              "lv_number": "4146",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MÁST",
+              "lv_number": "4146",
+              "share": "5504/179613"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "MÁST",
+              "lv_number": "4146",
+              "share": "5504/179613"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PEŇAŽNÉ PROSTRIEDKY NA ÚČTE V BANKE, podiel: 1/1"
+          ],
+          "new": [
+            "PENIAZE NA ÚČTE V BANKE, podiel: 1/1"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 46 777 € → 54 092 € (+7 315 €)",
+      "Nehnuteľnosti",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
+  },
   "slug": "judr-robert-ruscak",
   "context": {
     "latest_year": 2024,

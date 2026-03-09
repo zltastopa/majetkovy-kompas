@@ -690,6 +690,71 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/ZigaPete.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/ZigaPete.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 47683,
+            "other": 10000
+          },
+          "new": {
+            "public_function": 53446,
+            "other": 0
+          },
+          "old_total": 57683,
+          "new_total": 53446,
+          "delta": -4237,
+          "delta_pct": -7.3
+        },
+        {
+          "field": "employment",
+          "old": "TAPER SPOL. S R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "TAPER SPOL. S R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PODIEL V S.R.O., podiel: 50%",
+            "PODIEL V S.R.O., podiel: 15%",
+            "PODIEL V S.R.O., podiel: 15%",
+            "PODIEL V S.R.O., podiel: 90%",
+            "FINANČNÝ VKLAD, podiel: 100%",
+            "FINANČNÝ VKLAD, podiel: 100%",
+            "FINANČNÝ VKLAD, podiel: 100%",
+            "FINANČNÁ HOTOVOSŤ, podiel: BSM"
+          ],
+          "new": [
+            "PODIEL V S.R.O., podiel: 50%",
+            "PODIEL V S.R.O., podiel: 50%",
+            "PODIEL V S.R.O., podiel: 15%",
+            "PODIEL V S.R.O., podiel: 15%",
+            "PODIEL V S.R.O., podiel: 90%",
+            "FINANČNÝ VKLAD, podiel: 100%",
+            "FINANČNÝ VKLAD, podiel: 100%",
+            "FINANČNÝ VKLAD, podiel: 100%",
+            "FINANČNÁ HOTOVOSŤ, podiel: BSM"
+          ],
+          "old_count": 8,
+          "new_count": 9
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 57 683 € → 53 446 € (-4 237 €)",
+      "Zamestnanie",
+      "Majetkové práva: 8 → 9 (+1)"
+    ]
+  },
   "slug": "ing-peter-ziga-phd",
   "context": {
     "latest_year": 2024,

@@ -227,6 +227,50 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zdenko.Svoboda.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zdenko.Svoboda.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7694,
+            "other": 30250
+          },
+          "new": {
+            "public_function": 49050,
+            "other": 9147
+          },
+          "old_total": 37944,
+          "new_total": 58197,
+          "delta": 20253,
+          "delta_pct": 53.4
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "employment",
+          "old": "ŠPECIALIZOVANÁ NEMOCNICA SV. SVORADA ZOBOR, N. O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ŠPECIALIZOVANÁ NEMOCNICA SV. SVORADA ZOBOR, N.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 37 944 € → 58 197 € (+20 253 €)",
+      "Nezlučiteľnosť",
+      "Zamestnanie"
+    ]
+  },
   "slug": "mgr-zdenko-svoboda-mba",
   "context": {
     "latest_year": 2024,

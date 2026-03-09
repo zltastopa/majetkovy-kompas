@@ -414,6 +414,44 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Hajducek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Hajducek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ ENERGETIKA HOLDING, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÁ DISTRIBUČNÁ, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP STORAGE, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VALALIKY INDUSTRIAL PARK, S.R.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH INVEST, S.R.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH INVEST II, S.R.O.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ ENERGETIKA HOLDING A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP STORAGE,  S.R.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP STORAGE, S.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (STREDOSLOVENSKÁ DISTRIBUČNÁ A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 94363,
+            "other": 97657
+          },
+          "new": {
+            "public_function": 81787,
+            "other": 61590
+          },
+          "old_total": 192020,
+          "new_total": 143377,
+          "delta": -48643,
+          "delta_pct": -25.3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 192 020 € → 143 377 € (-48 643 €)"
+    ]
+  },
   "slug": "judr-peter-hajducek",
   "context": {
     "latest_year": 2024,

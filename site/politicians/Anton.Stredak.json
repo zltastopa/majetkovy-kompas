@@ -1467,6 +1467,154 @@
     }
   ],
   "total_changes": 21,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Anton.Stredak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Anton.Stredak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 46944,
+            "other": 0
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 0
+          },
+          "old_total": 46944,
+          "new_total": 48912,
+          "delta": 1968,
+          "delta_pct": 4.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NITRA",
+              "lv_number": "4797",
+              "share": "1/1 , 1/51"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "5425",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "NITRA",
+              "lv_number": "7491, 7940",
+              "share": "1/34 , 195/9290"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "NITRA",
+              "lv_number": "7486, 7483, 7788",
+              "share": "7/18, 5/8, 47/150"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "NITRA",
+              "lv_number": "7395, 7554, 7937",
+              "share": "1/1, 10/24, 8/877"
+            },
+            {
+              "type": "BYT A PIVNIČNÉ A OBCHODNÉ PRIESTORY",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "7658",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NITRA",
+              "lv_number": "4797",
+              "share": "1/1, 1/51"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "5425",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "NITRA",
+              "lv_number": "7491, 7940",
+              "share": "1/34, 195/9290"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "NITRA",
+              "lv_number": "7486, 7483, 7788",
+              "share": "7/18, 5/8, 47/150"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "NITRA",
+              "lv_number": "7395, 7554, 7937",
+              "share": "1/1, 10/24, 8/877"
+            },
+            {
+              "type": "BYT + PIVNIČNÉ A OBCHODNÉ PRIESTORY",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "7658",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "VKLADY NA ÚČTOCH, podiel: 1/1",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 1/2"
+          ],
+          "new": [
+            "VKLADY NA ÚČTOCH, podiel: 1/1",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI D.O.O., podiel: 1/2"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "AUDI",
+              "year_of_manufacture": 2013
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "AUDI",
+              "year_of_manufacture": 2020
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 46 944 € → 48 912 € (+1 968 €)",
+      "Nehnuteľnosti: 6 → 6 (0)",
+      "Majetkové práva: 2 → 2 (0)",
+      "Vozidlá: 1 → 1 (0)"
+    ]
+  },
   "slug": "paeddr-anton-stredak",
   "context": {
     "latest_year": 2024,

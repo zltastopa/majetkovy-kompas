@@ -223,6 +223,114 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marek.Pirsel.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marek.Pirsel.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 5003,
+            "other": 6072
+          },
+          "old_total": 0,
+          "new_total": 11075,
+          "delta": 11075
+        },
+        {
+          "field": "employment",
+          "old": "ADVOKÁTSKA KANCELÁRIA BOGNÁROVÁ EVA, Mgr.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ADVOKÁTSKA KANCELÁRIA BOGNÁROVÁ EVA, MGR.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT A POZEMOK",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "9002",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "12434",
+              "share": "1/1"
+            },
+            {
+              "type": "STAVBA A POZEMKY, POZEMKY",
+              "cadastral_territory": "MODRA",
+              "lv_number": "10329,10490",
+              "share": "1/1"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "PORSCHE",
+              "year_of_manufacture": 2012,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MITSUBISHI",
+              "year_of_manufacture": 1999,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTROOVÉ VOZIDLO",
+              "brand": "MITSUBISHI",
+              "year_of_manufacture": 2008,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "PORSCHE",
+              "year_of_manufacture": 2012,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MITSUBISHI",
+              "year_of_manufacture": 1999,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MIITSUBISHI",
+              "year_of_manufacture": 2008,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 11 075 € (+11 075 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti",
+      "Hnuteľný majetok: 3 → 3 (0)"
+    ]
+  },
   "slug": "mgr-et-mgr-marek-pirsel",
   "context": {
     "latest_year": 2024,

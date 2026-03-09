@@ -545,6 +545,100 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Dusan.Keketi.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Dusan.Keketi.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen vlády Slovenskej republikyštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LETISKO M.R. ŠTEFÁNIKA AIRPORT BRATISLAVA BTS)",
+          "new": "člen vlády Slovenskej republiky"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 25205,
+            "other": 145646
+          },
+          "new": {
+            "public_function": 57023,
+            "other": 0
+          },
+          "old_total": 170851,
+          "new_total": 57023,
+          "delta": -113828,
+          "delta_pct": -66.6
+        },
+        {
+          "field": "employment",
+          "old": "LETISKO M.R.ŠTEFÁNIKA AIRPORT BTS\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO CESTOVNÉHO RUCHU A ŠPORTU SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KRIŽOVANY NAD DUDVÁHOM",
+              "lv_number": "1262",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "KRIŽOVANY NAD DUDVÁHOM",
+              "lv_number": "283",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KRIŽOVANY NAD DUDVÁHOM",
+              "lv_number": "1262",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "KRIŽOVANY NAD DUDVÁHOM",
+              "lv_number": "283",
+              "share": "100%"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PENAŽNÉ PROSTRIEDKY, podiel: BSM",
+            "PODIELY V OBCHODNÝCH SPOLOČNOSTIACH, podiel: 100%",
+            "PÔŽIČKY TRETÍM OSOBÁM, podiel: 100%"
+          ],
+          "new": [
+            "PEŇAŽNÉ PROSTRIEDKY, podiel: BSM",
+            "PODIELY V OBCHODNÝCH SPOLOČNOSTIACH, podiel: 100%",
+            "PÔŽIČKY TRETÍM OSOBÁM, podiel: 100%"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 170 851 € → 57 023 € (-113 828 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Majetkové práva: 3 → 3 (0)"
+    ]
+  },
   "slug": "ing-dusan-keketi",
   "context": {
     "latest_year": 2024,

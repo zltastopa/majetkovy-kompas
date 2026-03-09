@@ -715,6 +715,128 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Mariana.Dvorscikova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Mariana.Dvorscikova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MINISTERSTVO ŠKOLSTVA, VEDY, VÝSKUMU A\r\nŠPORTU SLOVENSKEJ REPUBLIKY - HLAVNÝ KONTROLÓR ŠPORTU)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MINISTERSTVO CESTOVNÉHO RUCHU A ŠPORTU A MINISTERSTVO ŠKOLSTVA, VEDY, VÝSKUMU A ŠPORTU SLOVENSKEJ REPUBLIKY - HLAVNÝ KONTROLÓR ŠPORTU)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 50131,
+            "other": 3020
+          },
+          "new": {
+            "public_function": 66604,
+            "other": 2740
+          },
+          "old_total": 53151,
+          "new_total": 69344,
+          "delta": 16193,
+          "delta_pct": 30.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "OSTATNÉ PLOCHY, TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "4334",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "549",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "550",
+              "share": "1/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM A ZÁHRADA",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "626",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSTATNÉ PLOCHY, TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "SVÁTÝ JUR",
+              "lv_number": "4334",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "549",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "550",
+              "share": "1/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM A ZÁHRADA",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "626",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "BEŽNÝ ÚČET, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1",
+            "POHREBNÉ POISTENIE, podiel: 1/1",
+            "BEŽNÝ ÚČET, podiel: 1/1",
+            "ÚSPORY NA REZERVU, podiel: 1/1",
+            "INVESTIČNÝ ÚČET, podiel: 1/1",
+            "BEŽNÝ ÚČET, podiel: 1/1"
+          ],
+          "new": [
+            "BEŽNÝ ÚČET, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1",
+            "POHREBNÉ POISTENIE, podiel: 1/1",
+            "BEŽNÝ ÚČET A TERMÍNOVANÝ VKLAD, podiel: 1/1",
+            "ÚSPORY NA REZERVU, podiel: 1/1",
+            "INVESTIČNÝ ÚČET, podiel: 1/1",
+            "BEŽNÝ ÚČET A DLHOPISY, podiel: 1/1"
+          ],
+          "old_count": 8,
+          "new_count": 8
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 53 151 € → 69 344 € (+16 193 €)",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Majetkové práva: 8 → 8 (0)"
+    ]
+  },
   "slug": "ing-mariana-dvorscikova",
   "context": {
     "latest_year": 2024,

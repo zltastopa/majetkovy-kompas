@@ -1277,6 +1277,197 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zuzana.Stavrovska.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zuzana.Stavrovska.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 46944,
+            "other": 0
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 0
+          },
+          "old_total": 46944,
+          "new_total": 48912,
+          "delta": 1968,
+          "delta_pct": 4.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZÁHRADA 2X",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "1398",
+              "share": "1/9"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "2455",
+              "share": "1/6"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "MALÁ PAKA",
+              "lv_number": "34",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MALÁ PAKA",
+              "lv_number": "34",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATA - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "1398",
+              "share": "1/9"
+            },
+            {
+              "type": "RODINNÝ DOM - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MALÁ PAKA",
+              "lv_number": "34",
+              "share": "1/1"
+            },
+            {
+              "type": "LETNÁ KUCHYŇA - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MALÁ PAKA",
+              "lv_number": "34",
+              "share": "1/1"
+            },
+            {
+              "type": "VEDĽAJŠIA BUDOVA",
+              "cadastral_territory": "MALÁ PAKA",
+              "lv_number": "34",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADA + ZÁHRADA",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "1398",
+              "share": "1/9"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "2455",
+              "share": "1/6"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "MALÁ PAKA",
+              "lv_number": "34",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MALÁ PAKA",
+              "lv_number": "34",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATA - ZASTAVANÁ  PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "1398",
+              "share": "1/9"
+            },
+            {
+              "type": "RODINNÝ DOM - ZASTAVANÁ  PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MALÁ PAKA",
+              "lv_number": "34",
+              "share": "1/1"
+            },
+            {
+              "type": "LETNÁ KUCHYŇA - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MALÁ PAKA",
+              "lv_number": "34",
+              "share": "1/1"
+            },
+            {
+              "type": "VEDĽAJŠIA BUDOVA",
+              "cadastral_territory": "MALÁ PAKA",
+              "lv_number": "34",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 8
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "FORD",
+              "year_of_manufacture": 2009,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "FORD",
+              "year_of_manufacture": 2009,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "HONDA",
+              "year_of_manufacture": 2024,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "12. 12. 2016"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "12. 12. 2016"
+            },
+            {
+              "type": "SPOTREBNÝ ÚVER",
+              "share": "100%",
+              "date": "21. 06. 2024"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 46 944 € → 48 912 € (+1 968 €)",
+      "Nehnuteľnosti: 8 → 8 (0)",
+      "Hnuteľný majetok: 1 → 2 (+1)",
+      "Záväzky: 1 → 2 (+1)"
+    ]
+  },
   "slug": "judr-zuzana-stavrovska",
   "context": {
     "latest_year": 2024,

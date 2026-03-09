@@ -418,6 +418,217 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jan.Jakubov.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jan.Jakubov.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 5138,
+            "other": 6192
+          },
+          "old_total": 0,
+          "new_total": 11330,
+          "delta": 11330
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LIESKOVEC",
+              "lv_number": "911",
+              "share": "105/956"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "LIESKOVEC",
+              "lv_number": "1335",
+              "share": "46100/456000"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "TOPOĽOVKA",
+              "lv_number": "331",
+              "share": "1/4"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "LETNÁ",
+              "lv_number": "12831",
+              "share": "50%"
+            },
+            {
+              "type": "RADOVÁ GARÁŽ",
+              "cadastral_territory": "LETNÁ",
+              "lv_number": "12903",
+              "share": "50%"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "DARGOV",
+              "lv_number": "859",
+              "share": "343/9261"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁVADKA",
+              "lv_number": "913",
+              "share": "1/4"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST, LESNÝ POZEMOK",
+              "cadastral_territory": "TOPOĽOVKA",
+              "lv_number": "642",
+              "share": "2/16"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TOPOĽOVKA",
+              "lv_number": "944",
+              "share": "1/4"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA, LESNÝ POZEMOK",
+              "cadastral_territory": "TOPOĽOVKA",
+              "lv_number": "1009",
+              "share": "1/4"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "LETNÁ",
+              "lv_number": "12831",
+              "share": "50%"
+            },
+            {
+              "type": "GARÁŽ RADOVÁ",
+              "cadastral_territory": "LETNÁ",
+              "lv_number": "12903",
+              "share": "50%"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "DARGOV",
+              "lv_number": "859",
+              "share": "343/9261"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LIESKOVEC",
+              "lv_number": "911",
+              "share": "105/956"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "LIESKOVEC",
+              "lv_number": "1335",
+              "share": "46100/456000"
+            },
+            {
+              "type": "ORNÁ PÔDA A TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "TOPOĽOVKA",
+              "lv_number": "331",
+              "share": "1/4"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST, LESNÝ POZEMOK",
+              "cadastral_territory": "TOPOĽOVKA",
+              "lv_number": "642",
+              "share": "2/16"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TOPOĽOVKA",
+              "lv_number": "944",
+              "share": "1/4"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST, ORNÁ PÔDA, LESNÝ POZEMOK",
+              "cadastral_territory": "TOPOĽOVKA",
+              "lv_number": "1009",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁVADKA",
+              "lv_number": "913",
+              "share": "1/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LETNÁ",
+              "lv_number": "12831",
+              "share": "50%"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LETNÁ",
+              "lv_number": "12903",
+              "share": "50%"
+            }
+          ],
+          "old_count": 10,
+          "new_count": 12
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%"
+          ],
+          "new": [
+            "OBCHODNÝ PODIEL V SPOL. S R.O., podiel: 100%"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OBCHODNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2016
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2024
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 11 330 € (+11 330 €)",
+      "Nehnuteľnosti: 10 → 12 (+2)",
+      "Majetkové práva: 1 → 1 (0)",
+      "Vozidlá: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-jan-jakubov",
   "context": {
     "latest_year": 2024,

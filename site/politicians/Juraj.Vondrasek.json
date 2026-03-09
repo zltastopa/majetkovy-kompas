@@ -554,6 +554,66 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Vondrasek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Vondrasek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 41890
+          },
+          "new": {
+            "public_function": 0,
+            "other": 43543
+          },
+          "old_total": 41890,
+          "new_total": 43543,
+          "delta": 1653,
+          "delta_pct": 3.9
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2014,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2014,
+              "share": "1/1"
+            },
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "MG",
+              "year_of_manufacture": 2024,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 41 890 € → 43 543 € (+1 653 €)",
+      "Hnuteľný majetok: 1 → 2 (+1)"
+    ]
+  },
   "slug": "judr-juraj-vondrasek",
   "context": {
     "latest_year": 2024,

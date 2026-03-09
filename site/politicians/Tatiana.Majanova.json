@@ -583,6 +583,75 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tatiana.Majanova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tatiana.Majanova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V RIMAVSKEJ SOBOTE)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V RIMAVSKEJ SOBOTE )"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 49500,
+            "other": 0
+          },
+          "new": {
+            "public_function": 47700,
+            "other": 0
+          },
+          "old_total": 49500,
+          "new_total": 47700,
+          "delta": -1800,
+          "delta_pct": -3.6
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO - LEASING",
+              "brand": "OPEL",
+              "year_of_manufacture": 2021
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO - LEASING",
+              "brand": "OPEL",
+              "year_of_manufacture": 2022
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLÁ",
+              "brand": "2X OPEL",
+              "year_of_manufacture": 20212022
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "gifts",
+          "old": null,
+          "new": ""
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 49 500 € → 47 700 € (-1 800 €)",
+      "Vozidlá: 2 → 1 (-1)",
+      "Dary"
+    ]
+  },
   "slug": "mgr-mudr-tatiana-majanova",
   "context": {
     "latest_year": 2024,

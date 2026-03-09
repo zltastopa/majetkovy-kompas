@@ -760,6 +760,138 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lubomir.Betko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lubomir.Betko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10080,
+            "other": 0
+          },
+          "new": {
+            "public_function": 10080,
+            "other": 44780
+          },
+          "old_total": 10080,
+          "new_total": 54860,
+          "delta": 44780,
+          "delta_pct": 444.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "542",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "542",
+              "share": "1/1"
+            },
+            {
+              "type": "STAVEBNÝ POZEMOK",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "542",
+              "share": "1/1"
+            },
+            {
+              "type": "CHATA",
+              "cadastral_territory": "HUTY",
+              "lv_number": "1389",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "5440",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "5441",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "542",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "542",
+              "share": "1/1"
+            },
+            {
+              "type": "STAVEBNÝ POZEMOK",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "542",
+              "share": "1/1"
+            },
+            {
+              "type": "CHATA",
+              "cadastral_territory": "HUTY",
+              "lv_number": "1389",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "5440",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "5441",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "5915",
+              "share": "1/4"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 7
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%"
+          ],
+          "new": [
+            "PODIEL V S.R.O., podiel: 100%"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 10 080 € → 54 860 € (+44 780 €)",
+      "Nehnuteľnosti: 6 → 7 (+1)",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-ludovit-betko",
   "context": {
     "latest_year": 2024,

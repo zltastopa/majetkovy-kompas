@@ -275,6 +275,74 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Igor.Valek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Igor.Valek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 8707,
+            "other": 0
+          },
+          "new": {
+            "public_function": 48960,
+            "other": 0
+          },
+          "old_total": 8707,
+          "new_total": 48960,
+          "delta": 40253,
+          "delta_pct": 462.3
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ",
+              "brand": "FORD",
+              "year_of_manufacture": 2016,
+              "share": "100%"
+            },
+            {
+              "type": "OSOBNÉ",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2003,
+              "share": "100%"
+            },
+            {
+              "type": "VYBAVENIE DOMÁCNOSTI",
+              "share": "50%"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ",
+              "brand": "FORD",
+              "year_of_manufacture": 2016,
+              "share": "100%"
+            },
+            {
+              "type": "VYBAVENIE DOMÁCNOSTI",
+              "share": "50%"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 8 707 € → 48 960 € (+40 253 €)",
+      "Hnuteľný majetok: 3 → 2 (-1)"
+    ]
+  },
   "slug": "ing-igor-valek",
   "context": {
     "latest_year": 2024,

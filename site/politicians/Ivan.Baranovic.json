@@ -473,6 +473,92 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ivan.Baranovic.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ivan.Baranovic.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 44189,
+            "other": 11186
+          },
+          "new": {
+            "public_function": 49032,
+            "other": 12024
+          },
+          "old_total": 55375,
+          "new_total": 61056,
+          "delta": 5681,
+          "delta_pct": 10.3
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC ZASTUPITEĽSTVA VÚC",
+              "organization": "TRNAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "PLAT"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC ZAPTUPITEĽSTVA VÚC",
+              "organization": "TRNAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "PLAT"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "685",
+              "share": "50%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3289",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "685",
+              "share": "50%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+              "lv_number": "3289",
+              "share": "100%"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 55 375 € → 61 056 € (+5 681 €)",
+      "Funkcie: 1 → 1 (0)",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
+  },
   "slug": "mgr-ivan-baranovic-mph",
   "context": {
     "latest_year": 2024,

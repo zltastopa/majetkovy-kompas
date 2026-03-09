@@ -1425,6 +1425,233 @@
     }
   ],
   "total_changes": 30,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Antal.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Antal.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 73394,
+            "other": 8400
+          },
+          "new": {
+            "public_function": 79735,
+            "other": 9000
+          },
+          "old_total": 81794,
+          "new_total": 88735,
+          "delta": 6941,
+          "delta_pct": 8.5
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ŠTATUTÁRNY ZÁSTUPCA",
+              "organization": "OZ ZAŽIAR",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "FK POHRONIE ŽIAR NAD HRONOM DOLNÁ ŽDAŇA A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "BANSKOBYSTRICKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA, PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "INTECH ŽIAR NAD HRONOM",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ŠTATUTÁRNY ZÁSTUPCA",
+              "organization": "O.Z. ZAŽIAR",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "FK POHRONIE ŽIAR NAD HRONOM DOLNÁ ŽDAŇA, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "BANSKOBYSTRICKÝ KRAJ",
+              "benefits": "ODMENA, PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "INTECH ŽIAR NAD HRONOM",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "PRESTAVLKY",
+              "lv_number": "584, 582, 1499",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT, ZASTAVANÝ POZEMOK, DVOR",
+              "cadastral_territory": "PRIVLAKA - CHORVÁTSKO",
+              "lv_number": "8228",
+              "share": "1/1, 114/1000"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "ŽIAR NAD HRONOM",
+              "lv_number": "3612",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÉ PLOCHY,\r\nTRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA, VINICA",
+              "cadastral_territory": "KRUPINA",
+              "lv_number": "5783",
+              "share": "1/1"
+            },
+            {
+              "type": "VINICA, ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST,\r\nOSTATNÁ PLOCHA",
+              "cadastral_territory": "KRUPINA",
+              "lv_number": "5784",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "PRESTAVLKY",
+              "lv_number": "584, 582, 1499",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "ŽIAR NAD HRONOM",
+              "lv_number": "3612",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÉ PLOCHY,\r\nTRVALÉ TRÁVNATÉ PORASTY, OSTATNÉ PLOCHY, VINICA",
+              "cadastral_territory": "KRUPINA",
+              "lv_number": "5783",
+              "share": "1/1"
+            },
+            {
+              "type": "VINICA, ORNÁ PÔDA, TRVALÉ TRÁVNATÉ PORASTY, OSTATNÁ PLOCHA",
+              "cadastral_territory": "KRUPINA",
+              "lv_number": "5784",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "ŽIAR NAD HRONOM",
+              "lv_number": "3612",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÉ PLOCHY,\r\nTRVALÉ TRÁVNATÉ PLOCHY, OSTATNÉ PLOCHY, VINICA",
+              "cadastral_territory": "KRUPINA",
+              "lv_number": "5783",
+              "share": "1/1"
+            },
+            {
+              "type": "VINICA, ORNÁ PÔDA, TRVALÉ TRÁVNATÉ PORASTY, OSTATNÁ PLOCHA",
+              "cadastral_territory": "KRUPINA",
+              "lv_number": "5784",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 7
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "ZARIADENIE RODINNÉHO DOMU",
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "LAND ROVER",
+              "year_of_manufacture": 2019,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZARIADENIE RODINNÉHO DOMU",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY NA ÚČTE V BANKE, podiel: 1/1"
+          ],
+          "new": [
+            "ÚSPORY NA ÚČTE V BANKE, podiel: 1/1",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 1/1",
+            "PÔŽIČKA TRETEJ OSOBE, podiel: 1/1"
+          ],
+          "old_count": 1,
+          "new_count": 3
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2017
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "LAND ROVER",
+              "year_of_manufacture": 2019
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2017
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 81 794 € → 88 735 € (+6 941 €)",
+      "Funkcie: 4 → 4 (0)",
+      "Nehnuteľnosti: 5 → 7 (+2)",
+      "Hnuteľný majetok: 2 → 1 (-1)",
+      "Majetkové práva: 1 → 3 (+2)",
+      "Vozidlá: 1 → 2 (+1)"
+    ]
+  },
   "slug": "mgr-peter-antal",
   "context": {
     "latest_year": 2024,

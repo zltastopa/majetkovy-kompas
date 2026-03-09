@@ -1161,6 +1161,115 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jarmila.Teskova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jarmila.Teskova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11280,
+            "other": 41093
+          },
+          "new": {
+            "public_function": 11280,
+            "other": 45118
+          },
+          "old_total": 52373,
+          "new_total": 56398,
+          "delta": 4025,
+          "delta_pct": 7.7
+        },
+        {
+          "field": "employment",
+          "old": "OBEC PREČÍN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "OBEC PREČÍN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "8752",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "8770",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "8441",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "8752",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "8770",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "8770",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 4
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "INVESTIČNÉ PODIELOVÉ FONDY A AKCIE VRÁTANE DÔCHODKOVÉHO SPORENIA, podiel: 1/1",
+            "FINANČNÉ PROSTRIEDKY V PEŇAŽNÝCH ÚSTAVOCH, podiel: 1/1"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY V PEŇAŽNÝCH ÚSTAVOCH, podiel: 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "vehicles",
+          "old": null,
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "MERCEDES BENZ",
+              "year_of_manufacture": 2016
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 52 373 € → 56 398 € (+4 025 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 4 (+2)",
+      "Majetkové práva: 2 → 1 (-1)",
+      "Vozidlá"
+    ]
+  },
   "slug": "mgr-jarmila-teskova",
   "context": {
     "latest_year": 2024,

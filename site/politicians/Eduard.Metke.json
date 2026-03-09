@@ -1068,6 +1068,166 @@
     }
   ],
   "total_changes": 19,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Eduard.Metke.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Eduard.Metke.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10432,
+            "other": 64706
+          },
+          "new": {
+            "public_function": 71801,
+            "other": 11440
+          },
+          "old_total": 75138,
+          "new_total": 83241,
+          "delta": 8103,
+          "delta_pct": 10.8
+        },
+        {
+          "field": "employment",
+          "old": "ÚRAD JADROVÉHO DOZORU SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ÚRAD JADROVÉHO DOZORU SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM, GARÁŽ, ZASTAVANÁ PLOCHA, ZÁHRADA",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "9794, 2179",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "3608",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA, ZÁHRADA",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "1405",
+              "share": "3/8"
+            },
+            {
+              "type": "RODINNÝ DOM, LETNÁ KUCHYŇA, SKLAD,  ZASTAVANÁ PLOCHA, ZÁHRADA",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "1406",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "3794",
+              "share": "400/434"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM, GARÁŽ, ZASTAVANÁ PLOCHA, ZÁHRADA",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "9794, 2179",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "3608",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA, ZÁHRADA",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "1405",
+              "share": "3/4 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM,,LETNÁ KUCHYŇA, SKLAD, ZASTAVANÁ PLOCHA, ZÁHRADA",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "1406",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "3794",
+              "share": "400/434"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "3794",
+              "share": "34/434 BSM"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 6
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 1999,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 1994,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "MITSUBISHI",
+              "year_of_manufacture": 2003,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "FELÍCIA",
+              "year_of_manufacture": 1999,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "FORMAN",
+              "year_of_manufacture": 1994,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "MITSUBISHI",
+              "year_of_manufacture": 2003,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 75 138 € → 83 241 € (+8 103 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 5 → 6 (+1)",
+      "Hnuteľný majetok: 3 → 3 (0)"
+    ]
+  },
   "slug": "ing-eduard-metke-csc",
   "context": {
     "latest_year": 2024,

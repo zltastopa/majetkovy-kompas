@@ -114,6 +114,49 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Robert.Bestro.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Robert.Bestro.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 0,
+            "other": 78408
+          },
+          "old_total": 0,
+          "new_total": 78408,
+          "delta": 78408
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO OBRANY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO OBRANY SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "2-IZBOVÝ BYT, kat. územie BRATISIAVA-PETRŽALKA, rok zač. užívania: 2020, spôsob užívania: BEZODPLATNÉ - RODIČOVSKÝ BYT",
+          "new": "2-IZBOVÝ BYT, kat. územie BRATISLAVA - PETRŽALKA, rok zač. užívania: 2020, spôsob užívania: BEZODPLATNÉ - RODIČOVSKÝ BYT"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 78 408 € (+78 408 €)",
+      "Zamestnanie",
+      "Užívanie nehnuteľností"
+    ]
+  },
   "slug": "ing-mgr-robert-bestro",
   "context": {
     "latest_year": 2024,

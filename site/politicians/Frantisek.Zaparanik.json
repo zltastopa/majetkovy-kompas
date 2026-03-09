@@ -899,6 +899,132 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Frantisek.Zaparanik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Frantisek.Zaparanik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPRÁVNA RADA ŽELEZNICE SLOVENSKEJ REPUBLIKY)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNICE SLOVENSKEJ REPUBLIKY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 24426,
+            "other": 41358
+          },
+          "new": {
+            "public_function": 31200,
+            "other": 55958
+          },
+          "old_total": 65784,
+          "new_total": 87158,
+          "delta": 21374,
+          "delta_pct": 32.5
+        },
+        {
+          "field": "employment",
+          "old": "ODBOROVÉ ZDRUŽENIE ŽELEZNIČIAROV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "ODBOROVÉ ZDRUŽENIE ŽELEZNIČIAROV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1441",
+              "share": "6/8"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "2520",
+              "share": "7/16"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "2521",
+              "share": "7/16"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1711",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "84",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "3271",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1711",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "84",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "3271",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "1441",
+              "share": "6/8"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "2520",
+              "share": "7/16"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "STREČNO",
+              "lv_number": "2521",
+              "share": "7/16"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 65 784 € → 87 158 € (+21 374 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 6 → 6 (0)"
+    ]
+  },
   "slug": "mgr-frantisek-zaparanik",
   "context": {
     "latest_year": 2024,

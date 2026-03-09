@@ -424,6 +424,120 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Boris.Machut.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Boris.Machut.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NADÁCIA SPP)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NADÁCIA SPP)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EKOFOND SPP, N.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 4683,
+            "other": 4609
+          },
+          "new": {
+            "public_function": 63259,
+            "other": 81473
+          },
+          "old_total": 9292,
+          "new_total": 144732,
+          "delta": 135440,
+          "delta_pct": 1457.6
+        },
+        {
+          "field": "employment",
+          "old": "NÁRODNÁ DIAĽNIČNÁ SPOLOČNOSŤ, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "6052",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "6052",
+              "share": "1930/100000"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "6750",
+              "share": "1930/100000"
+            },
+            {
+              "type": "GARÁŽOVÝ BOX",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "3657",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH - GARÁŽE",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "3646",
+              "share": "1/32"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "6052",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "6052",
+              "share": "1930/100000"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "6750",
+              "share": "1930/100000"
+            },
+            {
+              "type": "GARÁŽOVÝ BOX",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "3657",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH - GARÁŽE",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "3646",
+              "share": "1/32"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 9 292 € → 144 732 € (+135 440 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
+  },
   "slug": "mgr-boris-machut",
   "context": {
     "latest_year": 2024,

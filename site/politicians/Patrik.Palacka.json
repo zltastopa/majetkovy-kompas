@@ -328,6 +328,66 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Patrik.Palacka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Patrik.Palacka.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 4800,
+            "other": 82435
+          },
+          "new": {
+            "public_function": 4800,
+            "other": 93875
+          },
+          "old_total": 87235,
+          "new_total": 98675,
+          "delta": 11440,
+          "delta_pct": 13.1
+        },
+        {
+          "field": "employment",
+          "old": "NÁRODNÝ ONKOLOGICKÝ ÚSTAV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nLEKÁRSKA FAKULTA UNIVERZITY KOMENSKÉHO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nBIOMEDICÍNSKE CENTRUM SAV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nPRÍRODOVEDECKÁ FAKULTA UNIVERZITY KOMENSKÉHO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "NÁRODNÝ ONKOLOGICKÝ ÚSTAV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nLEKÁRSKA FAKULTA UNIVERZITY KOMENSKÉHO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nBIOMEDICÍNSKE CENTRUM SAV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "LAND ROVER",
+              "year_of_manufacture": 2021,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "LAND ROVER",
+              "year_of_manufacture": 2024,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 87 235 € → 98 675 € (+11 440 €)",
+      "Zamestnanie",
+      "Hnuteľný majetok: 1 → 1 (0)"
+    ]
+  },
   "slug": "doc-judr-mudr-patrik-palacka-phd-mph-mba-ll-m",
   "context": {
     "latest_year": 2024,

@@ -267,6 +267,137 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Milan.Madar.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Milan.Madar.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 24434,
+            "other": 48698
+          },
+          "old_total": 0,
+          "new_total": 73132,
+          "delta": 73132
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "VYŠNÁ HUTKA",
+              "lv_number": "939",
+              "share": "BSM"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "KOŠICE - KRÁSNA",
+              "lv_number": "2561, 3467",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE - JAZERO",
+              "lv_number": "13764",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE - STARÉ MESTO",
+              "lv_number": "14153",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE - STARÉ MESTO",
+              "lv_number": "10896",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "VYŠNÁ HUTKA",
+              "lv_number": "939",
+              "share": "BSM"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "KRÁSNA",
+              "lv_number": "2561,3467",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "JAZERO",
+              "lv_number": "13764",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "HUŠTÁKY",
+              "lv_number": "14153",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "STREDNÉ MESTO",
+              "lv_number": "10896",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "MOTOCYKEL",
+              "brand": "HARLEY - DAVIDSON",
+              "year_of_manufacture": 2017,
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "MOTOCYKEL",
+              "brand": "HARLEY-DAVIDSON",
+              "year_of_manufacture": 2017,
+              "share": "100%"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: BSM"
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 73 132 € (+73 132 €)",
+      "Nehnuteľnosti: 5 → 5 (0)",
+      "Hnuteľný majetok: 1 → 1 (0)",
+      "Majetkové práva"
+    ]
+  },
   "slug": "mudr-milan-madar-mph",
   "context": {
     "latest_year": 2024,

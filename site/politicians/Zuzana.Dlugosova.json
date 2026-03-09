@@ -527,6 +527,120 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zuzana.Dlugosova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zuzana.Dlugosova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚRAD NA OCHRANU OZNAMOVATEĽOV)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚRAD NA OCHRANU OZNAMOVATEĽOV PROTISPOLOČENSKEJ ČINNOSTI )"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 48983,
+            "other": 320
+          },
+          "new": {
+            "public_function": 49543,
+            "other": 0
+          },
+          "old_total": 49303,
+          "new_total": 49543,
+          "delta": 240,
+          "delta_pct": 0.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA NIVY",
+              "lv_number": "3663",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "PARCELY A RODINNÝ DOM",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1641",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "PARCELY A RODINNÝ DOM",
+              "cadastral_territory": "KRIVANY",
+              "lv_number": "101",
+              "share": "1/12"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA NIVY",
+              "lv_number": "3663",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "PARCELY A RODINNÝ DOM",
+              "cadastral_territory": "KRIVANY",
+              "lv_number": "1641",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "PARCELY A RODINNÝ DOM",
+              "cadastral_territory": "KRIVANY",
+              "lv_number": "101",
+              "share": "1/12"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER V BANKE",
+              "share": "1/1 BSM",
+              "date": "17. 05. 2012"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER V BANKE",
+              "share": "1/1 BSM",
+              "date": "08. 09. 2020"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1 BSM",
+              "date": "17. 05. 2012"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1 BSM",
+              "date": "08. 09. 2020"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 49 303 € → 49 543 € (+240 €)",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "mgr-zuzana-dlugosova",
   "context": {
     "latest_year": 2024,

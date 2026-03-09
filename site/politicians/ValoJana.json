@@ -957,6 +957,86 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/ValoJana.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/ValoJana.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 47238,
+            "other": 11549
+          },
+          "new": {
+            "public_function": 43498,
+            "other": 11750
+          },
+          "old_total": 58787,
+          "new_total": 55248,
+          "delta": -3539,
+          "delta_pct": -6.0
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "VOLVO",
+              "year_of_manufacture": 2011,
+              "share": "BSM"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2014,
+              "share": "BSM"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "BMW",
+              "year_of_manufacture": 2020,
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2014,
+              "share": "BSM"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "BMW",
+              "year_of_manufacture": 2020,
+              "share": "BSM"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "PROSTRIEDKY NA ÚČTE, podiel: 50%"
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 58 787 € → 55 248 € (-3 539 €)",
+      "Hnuteľný majetok: 3 → 2 (-1)",
+      "Majetkové práva"
+    ]
+  },
   "slug": "phdr-jana-valova",
   "context": {
     "latest_year": 2024,

@@ -695,6 +695,100 @@
     }
   ],
   "total_changes": 24,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Eva.Milucka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Eva.Milucka.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ ENERGETIKA A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ POŠTA A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ POŠTA A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 16915,
+            "other": 100
+          },
+          "new": {
+            "public_function": 5463,
+            "other": 2800
+          },
+          "old_total": 17015,
+          "new_total": 8263,
+          "delta": -8752,
+          "delta_pct": -51.4
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(NOXE ACC S.R.O.)KONATEĽ(NOXE INS S.R.O.)KONATEĽ(NOXE GROUP S.R.O.)",
+          "new": "KONATEĽ(NOXE ACC S.R.O.)KONATEĽ(NOXE INS SR.O.)KONATEĽ(NOXE GROUP S.R.O.)"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PODPREDSEDNÍČKA PREDSTAVENSTVA",
+              "organization": "CAESAR SERVICE, A.S.",
+              "benefits": "SLUŽOBNÉ MOTOROVÉ VOZIDLO"
+            }
+          ],
+          "new": [
+            {
+              "role": "PODPREDSEDNÍČKA PREDSTAVENSTVA",
+              "organization": "CAESAR SERVICES A.S.",
+              "benefits": "SLUŽOBNÉ MOTOROVÉ VOZIDLO"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "28. 07. 2016"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "31. 07. 2023"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "28. 07. 2016"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "31. 07. 2023"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 17 015 € → 8 263 € (-8 752 €)",
+      "Podnikanie",
+      "Funkcie: 1 → 1 (0)",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-eva-milucka-dba",
   "context": {
     "latest_year": 2024,

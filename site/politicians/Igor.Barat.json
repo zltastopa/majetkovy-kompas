@@ -802,6 +802,96 @@
     }
   ],
   "total_changes": 26,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Igor.Barat.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Igor.Barat.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š.P.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 33824,
+            "other": 24115
+          },
+          "new": {
+            "public_function": 137227,
+            "other": 0
+          },
+          "old_total": 57939,
+          "new_total": 137227,
+          "delta": 79288,
+          "delta_pct": 136.8
+        },
+        {
+          "field": "employment",
+          "old": "NEO SPECTRA SK S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nROZHLAS A TELEVÍZIA SLOVENSKA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nAVANEA SPRÁV. SPOL. A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3157",
+              "share": "100%"
+            },
+            {
+              "type": "BYT + 0,1% PODIEL NA PARCELE",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "4596, 4604",
+              "share": "100%"
+            },
+            {
+              "type": "GARÁŽ + 0,1% PODIEL NA PARCELE",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2578, 4853",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3157",
+              "share": "100%"
+            },
+            {
+              "type": "BYT + 0,1% PODIEL NA PARCELE",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "4596, 4604",
+              "share": "100%"
+            },
+            {
+              "type": "GARÁŽ + 0,6% PODIEL NA PARCELE",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2578, 4853",
+              "share": "100%"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 57 939 € → 137 227 € (+79 288 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 3 (0)"
+    ]
+  },
   "slug": "igor-barat",
   "context": {
     "latest_year": 2024,

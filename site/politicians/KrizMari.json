@@ -196,6 +196,50 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/KrizMari.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/KrizMari.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚSTREDNÁ VOJENSKÁ NEMOCNICA SNP RUŽOMBEROK\r\n- FAKULTNÁ NEMOCNICA)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA SVÄTÉHO MICHALA, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚSTREDNÁ VOJENSKÁ NEMOCNICA RUŽOMBEROK)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA SVÄTÉHO MICHALA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FAKULTNÁ NEMOCNICA S POLIKLINIKOU J.A. REIMANA PREŠOV)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7221,
+            "other": 90322
+          },
+          "new": {
+            "public_function": 68416,
+            "other": 81425
+          },
+          "old_total": 97543,
+          "new_total": 149841,
+          "delta": 52298,
+          "delta_pct": 53.6
+        },
+        {
+          "field": "employment",
+          "old": "ÚSTREDNÁ VOJENSKÁ NEMOCNICA SNP RUŽOMBEROK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNEMOCNICA SVÄTÉHO MICHALA, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "NEMOCNICA SVÄTÉHO MICHALA, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 97 543 € → 149 841 € (+52 298 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "mudr-marian-krizko-phd-mph-mha",
   "context": {
     "latest_year": 2024,

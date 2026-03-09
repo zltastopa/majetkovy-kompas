@@ -709,6 +709,231 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Magath.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Magath.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VEREJNÉ PRÍSTAVY, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA\r\nA.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 5664,
+            "other": 71776
+          },
+          "new": {
+            "public_function": 34320,
+            "other": 265087
+          },
+          "old_total": 77440,
+          "new_total": 299407,
+          "delta": 221967,
+          "delta_pct": 286.6
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "DOM A ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA - PODUNAJSKÉ BYSKUPICE",
+              "lv_number": "3944",
+              "share": "1/4"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - PODUNAJSKÉ BYSKUPICE",
+              "lv_number": "3944",
+              "share": "1/4"
+            },
+            {
+              "type": "DOM A ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA - PODUNAJSKÉ BYSKUPICE",
+              "lv_number": "3944"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA - RAČA",
+              "lv_number": "10758",
+              "share": "1/1"
+            },
+            {
+              "type": "OVOCNÝ SAD",
+              "cadastral_territory": "BRATISLAVA - RAČA",
+              "lv_number": "10758",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA - RAČA",
+              "lv_number": "12255",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA-RAČA",
+              "lv_number": "10758",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA-RAČA",
+              "lv_number": "10758",
+              "share": "1/1"
+            },
+            {
+              "type": "OVOCNÝ SAD",
+              "cadastral_territory": "BRATISLAVA-RAČA",
+              "lv_number": "10758",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA-RAČA",
+              "lv_number": "12255",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "3944",
+              "share": "1/4"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "3944",
+              "share": "1/4"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "3944",
+              "share": "1/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "3944",
+              "share": "1/4"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA-RAČA",
+              "lv_number": "10758",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 9
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2017,
+              "share": "100%"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "PEUGEOT",
+              "year_of_manufacture": 2011,
+              "share": "100%"
+            },
+            {
+              "type": "ZARIADENIE DOMÁCNOSTI",
+              "share": "100%"
+            },
+            {
+              "type": "UMELECKÉ DIELA",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "PEUGEOT",
+              "year_of_manufacture": 2011,
+              "share": "1/1"
+            },
+            {
+              "type": "ZARIADENIE DOMÁCNOSTI",
+              "share": "1/1"
+            },
+            {
+              "type": "UMELECKÉ DIELA A CENNOSTI",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 3
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚČTY V BANKE, podiel: 100%",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 100%"
+          ],
+          "new": [
+            "ÚČTY V BANKE, podiel: 1/1",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "100%",
+              "date": "11. 08. 2009"
+            },
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "100%",
+              "date": "22. 03. 2024"
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚVER NA BYVANIE",
+              "share": "100%",
+              "date": "11. 08. 2009"
+            },
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "100%",
+              "date": "22. 03. 2024"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 77 440 € → 299 407 € (+221 967 €)",
+      "Nehnuteľnosti: 6 → 9 (+3)",
+      "Hnuteľný majetok: 4 → 3 (-1)",
+      "Majetkové práva: 2 → 2 (0)",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-martin-magath",
   "context": {
     "latest_year": 2024,

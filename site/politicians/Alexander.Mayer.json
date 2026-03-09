@@ -910,6 +910,180 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Alexander.Mayer.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Alexander.Mayer.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (UNIVERZITNÁ NEMOCNICA BRATISLAVA)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (UNIVERZITNÁ NEMOCNICA\r\nBRATISLAVA)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 171815,
+            "other": 89905
+          },
+          "new": {
+            "public_function": 157455,
+            "other": 93967
+          },
+          "old_total": 261720,
+          "new_total": 251422,
+          "delta": -10298,
+          "delta_pct": -3.9
+        },
+        {
+          "field": "employment",
+          "old": "ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nŠTATISTICKÝ ÚRAD SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nLIB BROKER S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITNÁ NEMOCNICA BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nLIB BROKER S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITA KOMENSKÉHO V BRATISLAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITNÁ NEMOCNICA BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nŠTATISTICKÝ ÚRAD SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "386",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "6392",
+              "share": "3/4"
+            },
+            {
+              "type": "POZEMOK ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "386",
+              "share": "37959/71750"
+            },
+            {
+              "type": "POZEMOK ZÁHRADA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "6392",
+              "share": "3/4"
+            },
+            {
+              "type": "POZEMOK ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ŠAJDÍKOVÉ HUMENCE",
+              "lv_number": "2557",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ŠAJDÍKOVÉ HUMENCE",
+              "lv_number": "2557",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÝ DOM",
+              "cadastral_territory": "ŠAJDÍKOVÉ HUMENCE",
+              "lv_number": "2557",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "386",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "386",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "4832",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "4832",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "386",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "6392",
+              "share": "3/4"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "386",
+              "share": "37959/71750"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADY",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "6392",
+              "share": "3/4"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ŠAJDÍKOVÉ HUMENCE",
+              "lv_number": "2557",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ŠAJDÍKOVÉ HUMENCE",
+              "lv_number": "2557",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÝ DOM",
+              "cadastral_territory": "ŠAJDÍKOVÉ HUMENCE",
+              "lv_number": "2557",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "386",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "386",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 10,
+          "new_count": 10
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 261 720 € → 251 422 € (-10 298 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 10 → 10 (0)"
+    ]
+  },
   "slug": "mudr-alexander-mayer-phd-mph-mha",
   "context": {
     "latest_year": 2024,

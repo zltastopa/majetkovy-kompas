@@ -868,6 +868,119 @@
     }
   ],
   "total_changes": 22,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zoltan.Hajos.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zoltan.Hajos.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 80408,
+            "other": 11763
+          },
+          "new": {
+            "public_function": 88097,
+            "other": 14184
+          },
+          "old_total": 92171,
+          "new_total": 102281,
+          "delta": 10110,
+          "delta_pct": 11.0
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "TRNAVSKÝ SAMOSPRÁVNY KRAJ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(HÁJOS & PARTNERS S.R.O.)",
+          "new": null
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PODPREDSEDA",
+              "organization": "ARRABONA EGTC",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "PODPREDSEDA",
+              "organization": "ZDRUŽENIE MIEST A OBCÍ ŽITNÉHO OSTROVA",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "POSLANEC TRNAVSKÉHO SAMOSPRÁVNEHO KRAJA",
+              "organization": "TRNAVSKÝ SAMOSPRVÁVNY KRAJ",
+              "benefits": "ODMENA POSLANCA"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "ZÁPADOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+              "benefits": "BEZ ODMENY"
+            }
+          ],
+          "new": [
+            {
+              "role": "PODPREDSEDA",
+              "organization": "ARRABONA AGTC",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "PODPREDSEDA",
+              "organization": "ZDRUŽENIE MIEST A OBCÍ ŽITNÉHO OSTROVA",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "KONATEĽ SPOLOČNOSTI",
+              "organization": "HÁJOS & PARTNERS, SRO",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "PRIMÁTOR MESTA",
+              "organization": "MESTO DUNAJSKÁ STREDA",
+              "benefits": "ODMENA PRIMÁTORA"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "ZÁPADOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ,  A.S.",
+              "benefits": "BEZ ODMENY"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 5
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "VKLAD NA ÚČTE V BANKE, podiel: BSM",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1"
+          ],
+          "new": [
+            "VKLAD NA ÚČTE V BANKE, podiel: BSM",
+            "OBCHODNÝ PODIEL V SRO, podiel: 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 92 171 € → 102 281 € (+10 110 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Funkcie: 4 → 5 (+1)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "judr-zoltan-hajos",
   "context": {
     "latest_year": 2024,

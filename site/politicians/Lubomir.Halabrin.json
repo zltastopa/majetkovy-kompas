@@ -828,6 +828,216 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lubomir.Halabrin.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lubomir.Halabrin.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 43896,
+            "other": 0
+          },
+          "new": {
+            "public_function": 46116,
+            "other": 0
+          },
+          "old_total": 43896,
+          "new_total": 46116,
+          "delta": 2220,
+          "delta_pct": 5.1
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "TUBEX, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "VODNÁ PLOCHA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "NEHNUTEĽNOSTI",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "VODNÁ PLOCHA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1389",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 13,
+          "new_count": 14
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 43 896 € → 46 116 € (+2 220 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 13 → 14 (+1)"
+    ]
+  },
   "slug": "ing-lubomir-halabrin",
   "context": {
     "latest_year": 2024,

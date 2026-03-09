@@ -1011,6 +1011,120 @@
     }
   ],
   "total_changes": 24,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Benuch.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Benuch.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (KÚPELE SLIAČ, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (KÚPELE SLIAČ A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 8400,
+            "other": 42681
+          },
+          "new": {
+            "public_function": 8400,
+            "other": 48372
+          },
+          "old_total": 51081,
+          "new_total": 56772,
+          "delta": 5691,
+          "delta_pct": 11.1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "REKREAČNÁ CHATA A PRIĽAHLÉ POZEMKY (TRVALÉ TRÁVNE PORASTY, ZASTAVANÁ PLOCHA)",
+              "cadastral_territory": "SVÄTÝ KRÍŽ",
+              "lv_number": "1511",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST + OSTATNÁ PLOCHA",
+              "cadastral_territory": "SVÄTÝ KRÍŽ",
+              "lv_number": "1543",
+              "share": "1/8 + BSM"
+            },
+            {
+              "type": "RODINNÝ DOM A PRIĽAHLÉ POZEMKY (ZÁHRADA + ZASTAVANÁ PLOCHA)",
+              "cadastral_territory": "SLIAČ - RYBÁRE",
+              "lv_number": "806",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "REKREAČNÁ CHATA A PRIĽAHLÉ POZEMKY -  TRVALÝ TRÁVNY PORAST,  ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "SVÄTÝ KRÍŽ",
+              "lv_number": "1511",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+              "cadastral_territory": "SVÄTÝ KRÍŽ",
+              "lv_number": "1543",
+              "share": "1/8 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM A PRIĽAHLÉ POZEMKY - ZÁHRADA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "SLIAČ - RYBÁRE",
+              "lv_number": "806",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "1/2 BSM",
+              "date": "05. 08. 2021"
+            },
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "1/2 BSM",
+              "date": "24. 01. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚVER NA BÝVANIE (HYPOTÉKA)",
+              "share": "1/2 BSM",
+              "date": "05. 08. 2021"
+            },
+            {
+              "type": "ÚVER NA BÝVANIE (HYPOTÉKA)",
+              "share": "1/2 BSM",
+              "date": "24. 01. 2022"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 51 081 € → 56 772 € (+5 691 €)",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-mgr-martin-benuch",
   "context": {
     "latest_year": 2024,

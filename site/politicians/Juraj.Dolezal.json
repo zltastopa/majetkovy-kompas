@@ -983,6 +983,108 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Dolezal.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Dolezal.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 81372,
+            "other": 0
+          },
+          "new": {
+            "public_function": 90324,
+            "other": 0
+          },
+          "old_total": 81372,
+          "new_total": 90324,
+          "delta": 8952,
+          "delta_pct": 11.0
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "6036",
+              "share": "1/1"
+            },
+            {
+              "type": "DOM, ZASTAVANÁ PLOCHA A ZÁHRADA",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "143",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5917",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "1885",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, OSTATNÉ PLOCHY",
+              "cadastral_territory": "TERCHOVÁ",
+              "lv_number": "12160",
+              "share": "BSM 1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "6036",
+              "share": "1/1"
+            },
+            {
+              "type": "DOM, ZASTAVANÁ PLOCHA A ZÁHRADA",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "143",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5917",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "1885",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, OSTATNÉ PLOCHY, STAVBA",
+              "cadastral_territory": "TERCHOVÁ",
+              "lv_number": "12160",
+              "share": "BSM 1/1"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 81 372 € → 90 324 € (+8 952 €)",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
+  },
   "slug": "ing-juraj-dolezal",
   "context": {
     "latest_year": 2024,

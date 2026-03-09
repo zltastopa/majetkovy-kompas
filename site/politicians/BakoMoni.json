@@ -478,6 +478,140 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/BakoMoni.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/BakoMoni.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (UNIVERZITNÁ NEMOCNICA - NEMOCNICA SVÄTÉHO MICHALA A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (UNIVERZITNÁ NEMOCNICA\r\nNEMOCNICA SV. MICHALA A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 47881
+          },
+          "new": {
+            "public_function": 11689,
+            "other": 49450
+          },
+          "old_total": 47881,
+          "new_total": 61139,
+          "delta": 13258,
+          "delta_pct": 27.7
+        },
+        {
+          "field": "employment",
+          "old": "UNIVERZITNÁ NEMOCNICA - NEMOCNICA SVÄTÉHO MICHALA A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "UNIVERZITNÁ NEMOCNICA BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "8827",
+              "share": "100%"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVIRIE",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "8827",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "VEĽKÝ SLAVKOV",
+              "lv_number": "433",
+              "share": "20/300"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "VEĽKÝ SLAVKOV",
+              "lv_number": "1428",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "VEĽKÝ SLAVKOV",
+              "lv_number": "1429",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2881",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "VEĽKÝ SLAVKOV",
+              "lv_number": "1428",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "VEĽKÝ SLAVKOV",
+              "lv_number": "1429",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2881",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "8827",
+              "share": "100%"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "8827",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "VEĽKÝ SLAVKOV",
+              "lv_number": "433",
+              "share": "20/300"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: 100%"
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 47 881 € → 61 139 € (+13 258 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 6 → 6 (0)",
+      "Majetkové práva"
+    ]
+  },
   "slug": "ing-monika-bakova-mph",
   "context": {
     "latest_year": 2024,

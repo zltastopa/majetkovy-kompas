@@ -548,6 +548,102 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Oskar.Dvorak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Oskar.Dvorak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republikyčlen dozornej rady Všeobecnej zdravotnej poisťovne",
+          "new": "poslanec Národnej rady Slovenskej republiky"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 24198,
+            "other": 23930
+          },
+          "new": {
+            "public_function": 49908,
+            "other": 14268
+          },
+          "old_total": 48128,
+          "new_total": 64176,
+          "delta": 16048,
+          "delta_pct": 33.3
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC",
+              "organization": "BRATISLAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "MESAČNÝ PRÍJEM ZA VÝKON FUNKCIE"
+            },
+            {
+              "role": "ČLEN PREDSEDNÍCTVA",
+              "organization": "PROGRESÍVNE SLOVENSKO",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "MESTO BRATISLAVA",
+              "benefits": "MESAČNÝ PRÍJEM ZA VÝKON FUNKCIE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "DOPRAVNÝ PODNIK, A.S.",
+              "benefits": "MESAČNÝ PRÍJEM ZA VÝKON FUNKCIE - VZDANIE\r\nSA ODMENY K 30.09.2023"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN PREDSEDNÍCTVA",
+              "organization": "PROGRESÍVNE SLOVENSKO",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "BRATISLAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "MESAČNÝ PRÍJEM ZA VÝKON FUNKCIE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "MESTO BRATISLAVA",
+              "benefits": "MESAČNÝ PRÍJEM ZA VÝKON FUNKCIE"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 3
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "BMW",
+              "year_of_manufacture": 2021,
+              "share": "1/1"
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 48 128 € → 64 176 € (+16 048 €)",
+      "Funkcie: 4 → 3 (-1)",
+      "Hnuteľný majetok"
+    ]
+  },
   "slug": "mgr-oskar-dvorak",
   "context": {
     "latest_year": 2024,

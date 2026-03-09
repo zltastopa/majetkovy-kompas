@@ -985,6 +985,192 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Pavol.Kval.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Pavol.Kval.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 56297,
+            "other": 0
+          },
+          "new": {
+            "public_function": 65837,
+            "other": 0
+          },
+          "old_total": 56297,
+          "new_total": 65837,
+          "delta": 9540,
+          "delta_pct": 16.9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK - PREVÁDZKOVÝ OBJEKT",
+              "cadastral_territory": "SENEC",
+              "lv_number": "6688",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "SENEC",
+              "lv_number": "6261",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SENEC",
+              "lv_number": "5067",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC",
+              "lv_number": "6866",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC",
+              "lv_number": "6187",
+              "share": "8/28"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC",
+              "lv_number": "6695",
+              "share": "13/3429"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "SENEC",
+              "lv_number": "11401",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SENEC",
+              "lv_number": "11401",
+              "share": "1/49"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SENEC",
+              "lv_number": "11401",
+              "share": "1/49"
+            },
+            {
+              "type": "SUTERÉN - NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "SENEC",
+              "lv_number": "7333",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC",
+              "lv_number": "11669",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "SENEC",
+              "lv_number": "11401",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC",
+              "lv_number": "6866",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC",
+              "lv_number": "6187",
+              "share": "8/28"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC",
+              "lv_number": "6695",
+              "share": "13/3429"
+            },
+            {
+              "type": "POZEMOK - PREVÁDZKOVÝ OBJEKT",
+              "cadastral_territory": "SENEC",
+              "lv_number": "6688",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "SENEC",
+              "lv_number": "6261",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SENEC",
+              "lv_number": "5067",
+              "share": "1/1"
+            },
+            {
+              "type": "SUTERÉN - NEBYT. PRIESTOR",
+              "cadastral_territory": "SENEC",
+              "lv_number": "7333",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC",
+              "lv_number": "11669",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "SENEC",
+              "lv_number": "11401",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "SENEC",
+              "lv_number": "11401",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SENEC",
+              "lv_number": "11401",
+              "share": "1/49"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SENEC",
+              "lv_number": "11401",
+              "share": "1/49"
+            }
+          ],
+          "old_count": 12,
+          "new_count": 12
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 56 297 € → 65 837 € (+9 540 €)",
+      "Nehnuteľnosti: 12 → 12 (0)"
+    ]
+  },
   "slug": "ing-pavol-kval",
   "context": {
     "latest_year": 2024,

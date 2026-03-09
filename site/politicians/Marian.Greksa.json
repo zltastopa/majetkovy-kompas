@@ -102,6 +102,49 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marian.Greksa.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marian.Greksa.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 7260,
+            "other": 11694
+          },
+          "old_total": 0,
+          "new_total": 18954,
+          "delta": 18954
+        },
+        {
+          "field": "business_activity",
+          "old": null,
+          "new": "SPEVÁK(UMELECKÁ TVORBA - MARIAN GREKSA)"
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": null,
+          "new": "RODINNÝ DOM S POZEMKOM, kat. územie DEDINKA PRI DUNAJI, rok zač. užívania: 2023, spôsob užívania: TRVALÝ POBYT"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 18 954 € (+18 954 €)",
+      "Podnikanie",
+      "Užívanie nehnuteľností"
+    ]
+  },
   "slug": "mgr-marian-greksa",
   "context": {
     "latest_year": 2024,

@@ -710,6 +710,103 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Denisa.Masarova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Denisa.Masarova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 49545,
+            "other": 0
+          },
+          "new": {
+            "public_function": 46215,
+            "other": 0
+          },
+          "old_total": 49545,
+          "new_total": 46215,
+          "delta": -3330,
+          "delta_pct": -6.7
+        },
+        {
+          "field": "employment",
+          "old": "ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOMÁRNO",
+              "lv_number": "8022",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "DOM/GARÁŽ",
+              "cadastral_territory": "KOMÁRNO",
+              "lv_number": "11333",
+              "share": "BSM 1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOMÁRNO",
+              "lv_number": "8022",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "DOM, GARÁŽ",
+              "cadastral_territory": "KOMÁRNO",
+              "lv_number": "11333",
+              "share": "BSM 1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "SEAT",
+              "year_of_manufacture": 2010,
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "MAZDA",
+              "year_of_manufacture": 2018,
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "NISSAN",
+              "year_of_manufacture": 2024,
+              "share": "BSM 1/1"
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 49 545 € → 46 215 € (-3 330 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Hnuteľný majetok"
+    ]
+  },
   "slug": "mgr-denisa-masarova",
   "context": {
     "latest_year": 2024,

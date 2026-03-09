@@ -721,6 +721,50 @@
     }
   ],
   "total_changes": 21,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/LysiLudm.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/LysiLudm.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠLÚ MARÍNA, Š.P. KOVÁČOVÁ)",
+          "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠPECIALIZOVANÝ LIEČEBNÝ ÚSTAV MARÍNA Š.P.\r\nKOVÁČOVÁ)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7800,
+            "other": 29892
+          },
+          "new": {
+            "public_function": 7800,
+            "other": 28414
+          },
+          "old_total": 37692,
+          "new_total": 36214,
+          "delta": -1478,
+          "delta_pct": -3.9
+        },
+        {
+          "field": "employment",
+          "old": "LEKÁR, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nORL ZVOLEN, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ LEKÁRSKA KOMORA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nLEKÁR A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nORL ZVOLEN S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ LEKÁRSKA KOMORA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 37 692 € → 36 214 € (-1 478 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "mudr-ludmila-lysinova-mph",
   "context": {
     "latest_year": 2024,

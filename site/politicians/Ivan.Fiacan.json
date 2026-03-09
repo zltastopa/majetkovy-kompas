@@ -691,6 +691,38 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ivan.Fiacan.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ivan.Fiacan.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 65610,
+            "other": 0
+          },
+          "new": {
+            "public_function": 71234,
+            "other": 0
+          },
+          "old_total": 65610,
+          "new_total": 71234,
+          "delta": 5624,
+          "delta_pct": 8.6
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 65 610 € → 71 234 € (+5 624 €)"
+    ]
+  },
   "slug": "judr-ivan-fiacan-phd",
   "context": {
     "latest_year": 2024,

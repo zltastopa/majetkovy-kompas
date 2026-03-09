@@ -659,6 +659,132 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Georgina.Precuchova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Georgina.Precuchova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1680,
+            "other": 35405
+          },
+          "new": {
+            "public_function": 1680,
+            "other": 39166
+          },
+          "old_total": 37085,
+          "new_total": 40846,
+          "delta": 3761,
+          "delta_pct": 10.1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "876",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SENEC",
+              "lv_number": "876",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SENEC",
+              "lv_number": "876",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ŠTÚROVO",
+              "lv_number": "2989",
+              "share": "1/4"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "ŠTÚROVO",
+              "lv_number": "2989",
+              "share": "1/4"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŠTÚROVO",
+              "lv_number": "4917",
+              "share": "1/4"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH A SPOLOČNÝCH ZARIADENIACH",
+              "cadastral_territory": "ŠTÚROVO",
+              "lv_number": "4917",
+              "share": "7647/429160"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "876",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SENEC",
+              "lv_number": "876",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SENEC",
+              "lv_number": "876",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ŠTÚROVO",
+              "lv_number": "2989",
+              "share": "1/4"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "ŠTÚROVO",
+              "lv_number": "2989",
+              "share": "1/4"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŠTÚROVO",
+              "lv_number": "4917",
+              "share": "1/4"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČ. ČASTIACH A SPOLOČ. ZARIADENIACH",
+              "cadastral_territory": "ŠTÚROVO",
+              "lv_number": "4917",
+              "share": "7647/429160"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 37 085 € → 40 846 € (+3 761 €)",
+      "Nehnuteľnosti: 7 → 7 (0)"
+    ]
+  },
   "slug": "ing-georgina-precuchova",
   "context": {
     "latest_year": 2024,

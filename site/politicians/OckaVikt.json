@@ -427,6 +427,97 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/OckaVikt.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/OckaVikt.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE ÚZEMNÉ PLÁNOVANIE\r\nA VÝSTAVBU SR)",
+          "new": "člen dozornej rady Všeobecnej zdravotnej poisťovnegenerálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SR)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 67697,
+            "other": 0
+          },
+          "new": {
+            "public_function": 37194,
+            "other": 0
+          },
+          "old_total": 67697,
+          "new_total": 37194,
+          "delta": -30503,
+          "delta_pct": -45.1
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "VŠEOBECNÁ ZDRAVOTNÁ POISŤOVŇA A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "VYBAVENIE DOMÁCNOSTI, podiel: 1/2"
+          ],
+          "new": [
+            "VYBAVENIE DOMÁCN0STI, podiel: 1/2"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "24. 02. 2023"
+            },
+            {
+              "type": "PÔŽIČKA",
+              "share": "1/1",
+              "date": "02. 02. 2023"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "24. 02. 2023"
+            },
+            {
+              "type": "PÔŽIČKA",
+              "share": "1/1",
+              "date": "02. 02. 2023"
+            },
+            {
+              "type": "PÔŽIČKA",
+              "share": "1/1",
+              "date": "10. 04. 2024"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 67 697 € → 37 194 € (-30 503 €)",
+      "Zamestnanie",
+      "Majetkové práva: 1 → 1 (0)",
+      "Záväzky: 2 → 3 (+1)"
+    ]
+  },
   "slug": "ing-viktor-ockay-mph",
   "context": {
     "latest_year": 2024,

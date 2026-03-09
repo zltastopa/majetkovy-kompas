@@ -331,6 +331,96 @@
     }
   ],
   "total_changes": 10,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zoran.Kupkovic.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zoran.Kupkovic.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP - DISTRIBÚCIA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (JADROVÁ A VYRAĎOVACIA SPOLOČNOSŤ, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP DISTRIBÚCIA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (JADROVÁ A VYRAĎOVACIA SPOLOČNOSŤ, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1330,
+            "other": 41059
+          },
+          "new": {
+            "public_function": 52074,
+            "other": 48491
+          },
+          "old_total": 42389,
+          "new_total": 100565,
+          "delta": 58176,
+          "delta_pct": 137.2
+        },
+        {
+          "field": "employment",
+          "old": "SLOVENSKÉ ELEKTRÁRNE, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÉ ELEKTRÁRNE A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA RUŽINOV - NIVY, 804274",
+              "lv_number": "1959",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVENÉ PLOCHY A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA RUŽINOV - NIVY, 804274",
+              "lv_number": "3938",
+              "share": "8280/276697 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "1959",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "3938",
+              "share": "8280/276697 BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "vehicles",
+          "old": null,
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "KIA",
+              "year_of_manufacture": 2024
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 42 389 € → 100 565 € (+58 176 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Vozidlá"
+    ]
+  },
   "slug": "mgr-zoran-kupkovic",
   "context": {
     "latest_year": 2024,

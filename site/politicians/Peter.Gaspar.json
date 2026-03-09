@@ -851,6 +851,220 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Gaspar.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Gaspar.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štátny tajomníkštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (námestník - Slovenská informačná služba)",
+          "new": "štátny tajomníkriaditeľ Slovenskej informačnej služby"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10553,
+            "other": 0
+          },
+          "new": {
+            "public_function": 108713,
+            "other": 0
+          },
+          "old_total": 10553,
+          "new_total": 108713,
+          "delta": 98160,
+          "delta_pct": 930.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "HORNÉ KRŠKANY",
+              "lv_number": "6969",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "HORNÉ KRŠKANY",
+              "lv_number": "6969",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "HORNÉ KRŠKANY",
+              "lv_number": "6969",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HORNÉ KRŠKANY",
+              "lv_number": "6969",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NITRA",
+              "lv_number": "5876",
+              "share": "1/24"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NITRA",
+              "lv_number": "5876",
+              "share": "1/24"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NITRA",
+              "lv_number": "5876",
+              "share": "1/24"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NITRA",
+              "lv_number": "5876",
+              "share": "1/24"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NITRA",
+              "lv_number": "5876",
+              "share": "1/24"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NITRA",
+              "lv_number": "5075",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "NITRA",
+              "lv_number": "5075",
+              "share": "1/1"
+            },
+            {
+              "type": "OBYTNÝ DOM - BYT",
+              "cadastral_territory": "NITRA",
+              "lv_number": "4059",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "1609",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "1609",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "1609",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BANSKÁ HODRUŠA",
+              "lv_number": "1567",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BANSKÁ HODRUŠA",
+              "lv_number": "1567",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BANSKÁ HODRUŠA",
+              "lv_number": "1567",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BANSKÁ HODRUŠA",
+              "lv_number": "1274",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BANSKÁ HORDUŠA",
+              "lv_number": "1274",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM + DOMČEK (ZÁHRADNÝ)",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "6252",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT + GARÁŽ",
+              "cadastral_territory": "NITRA",
+              "lv_number": "4059",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINÝ DOM - CHALUPA",
+              "cadastral_territory": "BANSKÁ HODRUŠA",
+              "lv_number": "1274",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 20,
+          "new_count": 3
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÉ PODIELY V OBCHODNEJ SPOLOČNOSTI, podiel: 1/1"
+          ],
+          "new": null
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "BANKOVÝ ÚVER",
+              "share": "1/1",
+              "date": "04. 05. 2016"
+            }
+          ],
+          "new": [
+            {
+              "type": "BANKA - HYPOTÉKA",
+              "share": "1/1",
+              "date": "04. 05. 2016"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 10 553 € → 108 713 € (+98 160 €)",
+      "Nehnuteľnosti: 20 → 3 (-17)",
+      "Majetkové práva",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-pavol-gaspar-mba",
   "context": {
     "latest_year": 2024,

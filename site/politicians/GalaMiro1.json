@@ -258,6 +258,81 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/GalaMiro1.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/GalaMiro1.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 15383,
+            "other": 115340
+          },
+          "old_total": 0,
+          "new_total": 130723,
+          "delta": 130723
+        },
+        {
+          "field": "employment",
+          "old": "ENVIROCARE. S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nPANARA, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nMG ATAC, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "PANARA, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nMG ATAC, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nENVIROCARE, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(E.M.I. - PROJEKT, S.R.O.)KONATEĽ(ETILS, S.R.O.)KONATEĽ(ENVIROCARE, S.R.O.)ŽIVNOSTNÍK(Ing. MIROSLAV GALAMBOŠ)KONATEĽ(MG ATAC, S.R.O.)",
+          "new": "ŽIVNOSTNÍK(Ing. MIROSLAV GALAMBOŠ)KONATEĽ(MG ATAC, S.R.O.)KONATEĽ(ENVIROCARE, S.R.O.)KONATEĽ(E.M.I. - PROJEKT, S.R.O.)KONATEĽ(ETILS, S.R.O.)"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA",
+              "organization": "PREDIC O.Z.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREDSEDA",
+              "organization": "PREDIC O.Z.",
+              "benefits": "ŽIADNE FUNKČNÉ ALEBO INÉ POŽITKY"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "AKCIA, podiel: 12,24%"
+          ],
+          "new": [
+            "AKCIE, podiel: 12,24%"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 130 723 € (+130 723 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Funkcie: 1 → 1 (0)",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-miroslav-galambos",
   "context": {
     "latest_year": 2024,

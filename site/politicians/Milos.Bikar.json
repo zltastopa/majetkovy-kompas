@@ -753,6 +753,118 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Milos.Bikar.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Milos.Bikar.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 17797,
+            "other": 222336
+          },
+          "new": {
+            "public_function": 34200,
+            "other": 246633
+          },
+          "old_total": 240133,
+          "new_total": 280833,
+          "delta": 40700,
+          "delta_pct": 16.9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA-RUŽINOV",
+              "lv_number": "5898",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA-RUŽINOV",
+              "lv_number": "6946",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA-NIVY",
+              "lv_number": "1085",
+              "share": "1/1 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "POPRAD",
+              "lv_number": "5718",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "POPRAD",
+              "lv_number": "3890",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "5898",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "6946",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NIVY",
+              "lv_number": "1085",
+              "share": "1/1 BSM"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 5
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PROSTRIEDKY NA BEŽNÝCH ÚČTOCH V BANKÁCH, podiel: 1/1",
+            "DOPLNKOVÉ DÔCHODKOVÉ POISTENIE , podiel: 1/1",
+            "POISTNÉ ZMLUVY, podiel: 1/1"
+          ],
+          "new": [
+            "PROSTRIEDKY NA BEŽNÝCH ÚČTOCH V BANKÁCH , podiel: 1/1",
+            "DOPLNKOVÉ DÔCHODKOVÉ POISTENIE , podiel: 1/1",
+            "POISTNÉ ZMLUVY, podiel: 1/1"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 240 133 € → 280 833 € (+40 700 €)",
+      "Nehnuteľnosti: 3 → 5 (+2)",
+      "Majetkové práva: 3 → 3 (0)"
+    ]
+  },
   "slug": "doc-ing-milos-bikar-phd",
   "context": {
     "latest_year": 2024,

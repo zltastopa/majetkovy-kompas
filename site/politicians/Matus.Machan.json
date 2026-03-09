@@ -1188,6 +1188,204 @@
     }
   ],
   "total_changes": 32,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Matus.Machan.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Matus.Machan.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZŤS-ŠPECIÁL, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ÚSTREDNÁ VOJENSKÁ NEMOCNICA SNP RUŽOMBEROK\r\nFAKULTNÁ NEMOCNICA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (UNIVERZITNÁ NEMOCNICA - NEMOCNICA SVÄTÉHO\r\nMICHALA, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ÚSTREDNÁ VOJENSKÁ NEMOCNICA SNP - FAKULTNÁ\r\nNEMOCNICA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZŤS-ŠPECIÁL, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 32675,
+            "other": 52784
+          },
+          "new": {
+            "public_function": 18639,
+            "other": 71599
+          },
+          "old_total": 85459,
+          "new_total": 90238,
+          "delta": 4779,
+          "delta_pct": 5.6
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ SPOLOČNOSTI(LC-ONCOMED, S.R.O.)",
+          "new": "KONATEĽ SPOLOČNOSTI(LC-ONCOMED S.R.O.)"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PRÍSEDIACI",
+              "organization": "OKRESNÝ SÚD GALANTA",
+              "benefits": "V ZMYSLE ZÁKONA"
+            },
+            {
+              "role": "ČLEN STAVEBNEJ KOMISIE",
+              "organization": "STAVEBNÁ KOMISIA",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "PRÍSEDIACI",
+              "organization": "OKRESNÝ SÚD GALANTA",
+              "benefits": "V ZMYSLE ZÁKONA"
+            },
+            {
+              "role": "ČLEN",
+              "organization": "STAVEBNÁ KOMISIA",
+              "benefits": "ODMENA"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SLÁDKOVIČOVO",
+              "lv_number": "1406",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SLÁDKOVIČOVO",
+              "lv_number": "1406",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "SLÁDKOVIČOVO",
+              "lv_number": "4334",
+              "share": "1/1 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "GALANTA",
+              "lv_number": "7819",
+              "share": "150/10000"
+            },
+            {
+              "type": "BYT V STAVBE",
+              "cadastral_territory": "GALANTA",
+              "lv_number": "7819",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "GALANTA",
+              "lv_number": "7838",
+              "share": "150/10000"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SLÁDKOVIČOVO",
+              "lv_number": "1406",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SLÁDKOVIČOVO",
+              "lv_number": "1406",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SLÁDKOVIČOVO",
+              "lv_number": "4334",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "GALANTA",
+              "lv_number": "7841",
+              "share": "150/10000"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "GALANTA",
+              "lv_number": "7859",
+              "share": "1/1 (BSM)"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 8
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ PROSTRIEDKY NA BANKOVOM ÚČTE, podiel: 1/1 BSM"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA BANKOVOM ÚČTE, podiel: 1/1 (BSM)",
+            "PODIELOVÉ FONDY, podiel: 1/1 (BSM)"
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1 BSM",
+              "date": "16. 04. 2018"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1 BSM",
+              "date": "13. 05. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1 (BSM)",
+              "date": "16. 04. 2018"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1 (BSM)",
+              "date": "13. 05. 2022"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1 (BSM)",
+              "date": "02. 09. 2024"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 85 459 € → 90 238 € (+4 779 €)",
+      "Podnikanie",
+      "Funkcie: 2 → 2 (0)",
+      "Nehnuteľnosti: 3 → 8 (+5)",
+      "Majetkové práva: 1 → 2 (+1)",
+      "Záväzky: 2 → 3 (+1)"
+    ]
+  },
   "slug": "mgr-phdr-matus-machan",
   "context": {
     "latest_year": 2024,

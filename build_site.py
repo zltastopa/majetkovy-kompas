@@ -165,15 +165,42 @@ def latest_data_commit_info():
     return {
         "branch": DATA_BRANCH,
         "commit": commit_hash,
+        "previous_commit": parent_hash[0] if parent_hash else "",
         "committed_at": committed_at,
         "commit_url": commit_url,
         "compare_url": compare_url,
     }
 
 
+def latest_data_diffs(status):
+    current_commit = status.get("commit", "")
+    previous_commit = status.get("previous_commit", "")
+    if not current_commit:
+        return {}
+
+    if previous_commit:
+        files = git("diff", "--name-only", previous_commit, current_commit, "--", "data/").split("\n")
+    else:
+        files = git("ls-tree", "--name-only", current_commit, "data/").split("\n")
+
+    diffs = {}
+    for filepath in files:
+        if not filepath.endswith(".yaml"):
+            continue
+        user_id = filepath.replace("data/", "").replace(".yaml", "")
+        old_data = read_yaml_at_commit(previous_commit, filepath) if previous_commit else None
+        new_data = read_yaml_at_commit(current_commit, filepath)
+        diffs[user_id] = compute_diff(old_data, new_data)
+    return diffs
+
+
 def read_yaml_at_commit(commit, path):
     try:
-        content = git("show", f"{commit}:{path}")
+        content = subprocess.check_output(
+            ["git", "show", f"{commit}:{path}"],
+            text=True,
+            stderr=subprocess.DEVNULL,
+        ).strip()
         return yaml.safe_load(content)
     except subprocess.CalledProcessError:
         return None
@@ -746,6 +773,7 @@ def field_summary(change):
     label = {
         "income": "Príjmy",
         "employment": "Zamestnanie",
+        "business_activity": "Podnikanie",
         "positions": "Funkcie",
         "real_estate": "Nehnuteľnosti",
         "movable_property": "Hnuteľný majetok",
@@ -753,6 +781,9 @@ def field_summary(change):
         "vehicles": "Vozidlá",
         "gifts": "Dary",
         "property_rights": "Majetkové práva",
+        "public_function": "Verejná funkcia",
+        "incompatibility": "Nezlučiteľnosť",
+        "use_of_others_real_estate": "Užívanie nehnuteľností",
     }.get(change["field"], change["field"])
     if change["field"] == "income" and change.get("delta") is not None:
         sign = "+" if change["delta"] > 0 else ""
@@ -865,6 +896,8 @@ def build():
     commits = get_commits()
     years = [year for _, year in commits]
     data_status = latest_data_commit_info()
+    extraction_diffs = latest_data_diffs(data_status)
+    repo_url = parse_github_repo_url()
     print(f"Found {len(commits)} commits: {years}", file=sys.stderr)
 
     all_ids = set()
@@ -960,6 +993,17 @@ def build():
 
         latest = timeline[-1]["data"]
         name = title_case_name(latest.get("name", user_id))
+        latest_extraction_diff = extraction_diffs.get(user_id, {"type": "unchanged"})
+        current_file_url = (
+            f"{repo_url}/blob/{data_status['commit']}/data/{user_id}.yaml"
+            if repo_url and data_status.get("commit")
+            else ""
+        )
+        previous_file_url = (
+            f"{repo_url}/blob/{data_status['previous_commit']}/data/{user_id}.yaml"
+            if repo_url and data_status.get("previous_commit")
+            else ""
+        )
 
         politicians[user_id] = {
             "user_id": user_id,
@@ -969,6 +1013,20 @@ def build():
             "years": [entry["year"] for entry in timeline],
             "timeline": timeline,
             "total_changes": total_changes,
+            "latest_extraction": {
+                "committed_at": data_status["committed_at"],
+                "commit": data_status["commit"],
+                "previous_commit": data_status.get("previous_commit", ""),
+                "commit_url": data_status["commit_url"],
+                "compare_url": data_status["compare_url"],
+                "file_url": current_file_url,
+                "previous_file_url": previous_file_url,
+                "diff": latest_extraction_diff,
+                "summary": [
+                    field_summary(change)
+                    for change in latest_extraction_diff.get("changes", [])
+                ],
+            },
         }
 
         latest_income = total_income(latest)

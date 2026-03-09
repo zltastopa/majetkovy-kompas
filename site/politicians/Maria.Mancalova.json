@@ -2041,6 +2041,325 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Maria.Mancalova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Maria.Mancalova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 55500,
+            "other": 1225
+          },
+          "new": {
+            "public_function": 52758,
+            "other": 0
+          },
+          "old_total": 56725,
+          "new_total": 52758,
+          "delta": -3967,
+          "delta_pct": -7.0
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "1901",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "1901",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4067",
+              "share": "2/61"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "2547",
+              "share": "1/44"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "2547",
+              "share": "1/44"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "2547",
+              "share": "1/44"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10280",
+              "share": "1/7 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10285",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10285",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10285",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10285",
+              "share": "1/1 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "1901",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "1901",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4067",
+              "share": "2/61"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4078",
+              "share": "1/44"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4078",
+              "share": "1/44"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4080",
+              "share": "1/44"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4078",
+              "share": "1/44"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4068",
+              "share": "1/44"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4079",
+              "share": "1/44"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "4078",
+              "share": "1/44"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "2547",
+              "share": "1/44"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "2547",
+              "share": "1/44"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "PLAVEČ",
+              "lv_number": "2547",
+              "share": "1/44"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10280",
+              "share": "1/7 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10285",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10285",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10285",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10285",
+              "share": "1/1 BSM"
+            }
+          ],
+          "old_count": 21,
+          "new_count": 21
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "17. 03. 2021"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "02. 08. 2021"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "25. 04. 2024"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 56 725 € → 52 758 € (-3 967 €)",
+      "Nehnuteľnosti: 21 → 21 (0)",
+      "Záväzky: 2 → 1 (-1)"
+    ]
+  },
   "slug": "rndr-maria-mancalova-mph",
   "context": {
     "latest_year": 2024,

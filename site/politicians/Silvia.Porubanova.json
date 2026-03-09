@@ -1376,6 +1376,174 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Silvia.Porubanova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Silvia.Porubanova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 51195,
+            "other": 55852
+          },
+          "new": {
+            "public_function": 50807,
+            "other": 34560
+          },
+          "old_total": 107047,
+          "new_total": 85367,
+          "delta": -21680,
+          "delta_pct": -20.3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUĆANY",
+              "lv_number": "2959",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "2985",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "2998",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "8180",
+              "share": "50%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA 5",
+              "lv_number": "2727",
+              "share": "50%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "VEĽKÉ ÚĽANY",
+              "lv_number": "1816",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "975",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "373",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "2109",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "3981",
+              "share": "50%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA PETRŽALKA",
+              "lv_number": "2727",
+              "share": "50%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "VEĽKÉ ÚĽANY",
+              "lv_number": "1816",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "975",
+              "share": "2/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "373",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "2109",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "2112",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "3981",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "2985",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "2998",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "8180",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BUČANY",
+              "lv_number": "2959",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 10,
+          "new_count": 11
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 107 047 € → 85 367 € (-21 680 €)",
+      "Nehnuteľnosti: 10 → 11 (+1)"
+    ]
+  },
   "slug": "phdr-silvia-porubanova",
   "context": {
     "latest_year": 2024,

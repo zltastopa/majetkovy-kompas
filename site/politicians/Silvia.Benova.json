@@ -1373,6 +1373,201 @@
     }
   ],
   "total_changes": 21,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Silvia.Benova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Silvia.Benova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 62592,
+            "other": 0
+          },
+          "new": {
+            "public_function": 68640,
+            "other": 15540
+          },
+          "old_total": 62592,
+          "new_total": 84180,
+          "delta": 21588,
+          "delta_pct": 34.5
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "ZDRUŽENIE PRIEMYSELNÝCH ODBERATEĽOV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nVILE DALMACIJA D.O.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "OSTATNÉ PLOCHY, ZASTAVANÉ PLOCHY, RODINNÝ DOM",
+              "cadastral_territory": "KEŤ",
+              "lv_number": "914",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VEĽKÉ LUDINCE",
+              "lv_number": "1549",
+              "share": "720/23403"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VEĽKÉ LUDINCE",
+              "lv_number": "2761",
+              "share": "1/3"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR, SKLAD",
+              "cadastral_territory": "NIVY",
+              "lv_number": "4268",
+              "share": "1/2"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - GARÁŽOVÉ STÁTIA",
+              "cadastral_territory": "NIVY",
+              "lv_number": "4268",
+              "share": "3859/1606356"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - APARTMÁN",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5002",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5002",
+              "share": "4457/537109"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "10376",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5002",
+              "share": "4457/537109"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA NÁDVORIE, R.DOM",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "10376",
+              "share": "1/2"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - SKLAD",
+              "cadastral_territory": "NIVY",
+              "lv_number": "4268",
+              "share": "1/2"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - GARÁŽOVÉ STÁTIA",
+              "cadastral_territory": "NIVY",
+              "lv_number": "4268",
+              "share": "3859/1606356"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5002",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY, ZASTAVANÉ PLOCHY, R.DOM",
+              "cadastral_territory": "KEŤ",
+              "lv_number": "914",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VEĽKÉ LUDINCE",
+              "lv_number": "1549",
+              "share": "720/23403"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VEĽKÉ LUDINCE",
+              "lv_number": "2761",
+              "share": "1/3"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 8
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "DOPLNKOVÉ DÔCHODKOVÉ SPORENIE, podiel: 1/1",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%",
+            "ÚČTY V BANKÁCH A HOTOVOSŤ, podiel: 1/1"
+          ],
+          "new": [
+            "DOPLNKOVÉ DÔCHODKOVÉ SPORENIE, podiel: 1/1",
+            "OBCHODNÝ PODIEL V S.R.O. , podiel: 100%",
+            "ÚČTY V BANKÁCH HOTOVOSŤ, podiel: 1/1"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "AMERICKÁ HYPOTÉKA",
+              "share": "1/1",
+              "date": "22. 03. 2022"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "29. 06. 2017"
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "1/1",
+              "date": "24. 07. 2023"
+            },
+            {
+              "type": "AMERICKÁ HYPOTÉKA",
+              "share": "1/1",
+              "date": "03. 01. 2022"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "29. 06. 2017"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 62 592 € → 84 180 € (+21 588 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 8 → 8 (0)",
+      "Majetkové práva: 3 → 3 (0)",
+      "Záväzky: 2 → 3 (+1)"
+    ]
+  },
   "slug": "ing-mgr-sylvia-benova-kubinec",
   "context": {
     "latest_year": 2024,

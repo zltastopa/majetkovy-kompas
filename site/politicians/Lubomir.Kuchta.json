@@ -1095,6 +1095,130 @@
     }
   ],
   "total_changes": 23,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lubomir.Kuchta.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lubomir.Kuchta.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA SPRÁVCOV NÁRODNÉHO JADROVÉHO FONDU)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 46944,
+            "other": 0
+          },
+          "new": {
+            "public_function": 51499,
+            "other": 0
+          },
+          "old_total": 46944,
+          "new_total": 51499,
+          "delta": 4555,
+          "delta_pct": 9.7
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUSOVCE",
+              "lv_number": "2267",
+              "share": "1/2"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "BRATISLAVA - RUSOVCE",
+              "lv_number": "2267",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA",
+              "lv_number": "3253",
+              "share": "1/2"
+            },
+            {
+              "type": "GARÁŽ V DOME",
+              "cadastral_territory": "BRATISLAVA PETRŽALKA",
+              "lv_number": "ČP 1860/59",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LUDANICE OKR. TOPOĽČANY",
+              "lv_number": "573 LV1281",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUSOVCE",
+              "lv_number": "2267",
+              "share": "1/2"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "BRATISLAVA - RUSOVCE",
+              "lv_number": "2267",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA",
+              "lv_number": "3253",
+              "share": "1/2"
+            },
+            {
+              "type": "GARÁŽ V DOME",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "ČP 1860/59",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LUDANICE OKR. TOPOĽČANY",
+              "lv_number": "1281",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ZARIADENIE DOMU, podiel: 1/2",
+            "BEŽNÝ ÚČET, podiel: 1/2",
+            "TERMINOVANÉ UČTY V BANKE, podiel: 1/2"
+          ],
+          "new": [
+            "ZARIADENIE DOMU, podiel: 1/2",
+            "BEŽNÝ ÚČET, podiel: 1/2",
+            "BEŽNÝ ÚČET V BANKE A TERMINOVANÝ ÚČET, podiel: 1/2"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 46 944 € → 51 499 € (+4 555 €)",
+      "Nehnuteľnosti: 5 → 5 (0)",
+      "Majetkové práva: 3 → 3 (0)"
+    ]
+  },
   "slug": "ing-lubomir-kuchta",
   "context": {
     "latest_year": 2024,

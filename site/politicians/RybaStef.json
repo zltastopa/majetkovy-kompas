@@ -218,6 +218,78 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/RybaStef.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/RybaStef.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "riaditeľ štátneho podniku (PLEMENÁRSKE SLUŽBY SLOVENSKEJ REPUBLIKY, ŠTÁTNY PODNIK)",
+          "new": "riaditeľ štátneho podniku (PLEMENÁRSKE SLUŽBY SR, ŠTÁTNY PODNIK)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 3431,
+            "other": 0
+          },
+          "new": {
+            "public_function": 40534,
+            "other": 0
+          },
+          "old_total": 3431,
+          "new_total": 40534,
+          "delta": 37103,
+          "delta_pct": 1081.4
+        },
+        {
+          "field": "employment",
+          "old": "PLEMENÁRSKE SLUŽBY SLOVENSKEJ REPUBLIKY, ŠTÁTNY PODNIK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "854964 SENEC",
+              "lv_number": "5527",
+              "share": "50%"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "804959 PETRŽALKA",
+              "lv_number": "4132",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "4132",
+              "share": "100%"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 3 431 € → 40 534 € (+37 103 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 1 (-1)"
+    ]
+  },
   "slug": "ing-stefan-ryba-phd",
   "context": {
     "latest_year": 2024,

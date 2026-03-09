@@ -685,6 +685,44 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Filip.Kuffa.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Filip.Kuffa.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republikyštátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)",
+          "new": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 49575,
+            "other": 0
+          },
+          "new": {
+            "public_function": 54099,
+            "other": 0
+          },
+          "old_total": 49575,
+          "new_total": 54099,
+          "delta": 4524,
+          "delta_pct": 9.1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 49 575 € → 54 099 € (+4 524 €)"
+    ]
+  },
   "slug": "ing-et-ing-filip-kuffa",
   "context": {
     "latest_year": 2024,

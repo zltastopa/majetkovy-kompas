@@ -1688,6 +1688,216 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Aurel.Dibak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Aurel.Dibak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 12540,
+            "other": 130115
+          },
+          "new": {
+            "public_function": 13800,
+            "other": 142035
+          },
+          "old_total": 142655,
+          "new_total": 155835,
+          "delta": 13180,
+          "delta_pct": 9.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "3710",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK K BYTU",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "4492",
+              "share": "BSM 1122/100000"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "851",
+              "share": "33,33%"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "7327",
+              "share": "50%"
+            },
+            {
+              "type": "GARÁŽ S POZEMKOM",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "7328",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "SAP",
+              "lv_number": "343",
+              "share": "BSM"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "HORNÁ TIŽINA",
+              "lv_number": "512",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK K REKREAČNEJ CHATE",
+              "cadastral_territory": "HORNÁ TIŽINA",
+              "lv_number": "133",
+              "share": "374/384"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HORNÁ TIŽINA",
+              "lv_number": "1353",
+              "share": "BSM 552/2304"
+            },
+            {
+              "type": "REKREAČNÁ CHATA S POZEMKOM",
+              "cadastral_territory": "HORNÁ TIŽINA",
+              "lv_number": "65",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA PODUNAJSKÉ BISKUPICE",
+              "lv_number": "5935",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK K BYTOVÉMU DOMU",
+              "cadastral_territory": "BRATISLAVA PODUNAJSKÉ BISKUPICE",
+              "lv_number": "3119,5859,5748",
+              "share": "BSM 9640/430320"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "3710",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK K BYTU",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "4492",
+              "share": "BSM 915/100000"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "3710",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK K BYTU",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "4492",
+              "share": "BSM 915/100000"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "7327",
+              "share": "50%"
+            },
+            {
+              "type": "GARÁŽ S POZEMKOM",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "7328",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "SAP",
+              "lv_number": "343",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "3710",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK K BYTU",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "4492",
+              "share": "BSM 1122/100000"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "851",
+              "share": "33,33%"
+            },
+            {
+              "type": "REKREAČNÁ CHATA S POZEMKOM",
+              "cadastral_territory": "HORNÁ TIŽINA",
+              "lv_number": "65",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA PODUNAJSKÉ BISKUPICE",
+              "lv_number": "5935",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK K BYTOVÉMU DOMU",
+              "cadastral_territory": "BRATISLAVA PODUNAJSKÉ BISKUPICE",
+              "lv_number": "3119, 5859, 5748",
+              "share": "BSM 9640/430320"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "HORNÁ TIŽINA",
+              "lv_number": "512",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK K REKREAČNEJ CHATE",
+              "cadastral_territory": "HORNÁ TIŽINA",
+              "lv_number": "133",
+              "share": "374/384"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HORNÁ TIŽINA",
+              "lv_number": "1353",
+              "share": "BSM 552/2304"
+            }
+          ],
+          "old_count": 14,
+          "new_count": 14
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 142 655 € → 155 835 € (+13 180 €)",
+      "Nehnuteľnosti: 14 → 14 (0)"
+    ]
+  },
   "slug": "ing-aurel-dibak",
   "context": {
     "latest_year": 2024,

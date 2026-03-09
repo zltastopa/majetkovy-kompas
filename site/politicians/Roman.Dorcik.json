@@ -151,6 +151,83 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Roman.Dorcik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Roman.Dorcik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŠTÁTNY ÚSTAV PRE KONTROLU LIEČIV)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŠTÁTNY ÚSTAV PRE KONTROLU LIEČIV )"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 53645,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 53645,
+          "delta": 53645
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "KĽÚČOVEC",
+              "cadastral_territory": "DUNAJSKÁ STREDA",
+              "lv_number": "171",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KĽÚČOVEC",
+              "lv_number": "171",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "09. 10. 2017"
+            }
+          ],
+          "new": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 53 645 € (+53 645 €)",
+      "Nehnuteľnosti: 1 → 1 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-roman-dorcik",
   "context": {
     "latest_year": 2024,

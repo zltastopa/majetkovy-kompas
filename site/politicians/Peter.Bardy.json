@@ -267,6 +267,137 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Bardy.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Bardy.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 15169,
+            "other": 126732
+          },
+          "old_total": 0,
+          "new_total": 141901,
+          "delta": 141901
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM S NÁDVORÍM",
+              "cadastral_territory": "HÔRKA NAD VÁHOM",
+              "lv_number": "1250",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA S NÁDVORÍM",
+              "cadastral_territory": "HÔRKA NAD VÁHOM",
+              "lv_number": "1250",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HÔRKA NAD VÁHOM",
+              "lv_number": "1250",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO NAD VÁHOM",
+              "lv_number": "5655",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NOVÉ MESTO NAD VÁHOM",
+              "lv_number": "6082",
+              "share": "8450/213138"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO NAD VÁHOM",
+              "lv_number": "5655",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HÔRKA NAD VÁHOM",
+              "lv_number": "1250",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "1524",
+              "share": "1/8"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 3
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "CITROEN",
+              "year_of_manufacture": 2007,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "TOYOTA",
+              "year_of_manufacture": 2008,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "CITROËN",
+              "year_of_manufacture": 2007,
+              "share": "8SM"
+            },
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "TOYOTA",
+              "year_of_manufacture": 2008,
+              "share": "8SM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: BSM"
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 141 901 € (+141 901 €)",
+      "Nehnuteľnosti: 5 → 3 (-2)",
+      "Hnuteľný majetok: 2 → 2 (0)",
+      "Majetkové práva"
+    ]
+  },
   "slug": "ing-milan-bardy",
   "context": {
     "latest_year": 2024,

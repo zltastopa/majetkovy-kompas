@@ -762,6 +762,92 @@
     }
   ],
   "total_changes": 23,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jana.Baricova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jana.Baricova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 63415,
+            "other": 1576
+          },
+          "new": {
+            "public_function": 67222,
+            "other": 12301
+          },
+          "old_total": 64991,
+          "new_total": 79523,
+          "delta": 14532,
+          "delta_pct": 22.4
+        },
+        {
+          "field": "employment",
+          "old": "JUSTIČNÁ AKADÉMIA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ADVOKÁTSKA KOMORA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO SPRAVODLIVOSTI SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nCOUNCIL OF EUROPE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ADVOKÁTSKA KOMORA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nJUSTIČNÁ AKADÉMIA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT A PODIEL NA BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "2188",
+              "share": "BSM 1/1, 155/10000"
+            },
+            {
+              "type": "PODIEL NA POZEMKU POD BYTOVÝM DOMOM",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "4368",
+              "share": "BSM 155/10000"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT A PODIEL 155/10000 V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "2188",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "PODIEL 155/10000 NA POZEMKU POD BYTOVÝM DOMOM",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "4368",
+              "share": "BSM 1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "BYTOVÉ ZARIADENIE, podiel: BSM 1/1",
+            "BEŽNÝ ÚČET V BANKE, podiel: BSM 1/1"
+          ],
+          "new": [
+            "BYTOVÉ ZARIADENIE, podiel: BSM 1/1",
+            "OSOBNÝ ÚČET V BANKE, podiel: BSM 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 64 991 € → 79 523 € (+14 532 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "judr-jana-baricova",
   "context": {
     "latest_year": 2024,

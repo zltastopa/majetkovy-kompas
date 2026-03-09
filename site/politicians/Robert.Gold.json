@@ -749,6 +749,90 @@
     }
   ],
   "total_changes": 21,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Robert.Gold.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Robert.Gold.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VEREJNÉ PRÍSTAVY A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO M.R. ŠTEFÁNIKA - AIRPORT BRATISLAVA\r\nA.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VEREJNÉ PRÍSTAVY A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO M.R. ŠTEFÁNIKA - AIRPORT BRATISLAVA\r\nA.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO SLIAČ A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 18146,
+            "other": 50305
+          },
+          "new": {
+            "public_function": 25606,
+            "other": 84932
+          },
+          "old_total": 68451,
+          "new_total": 110538,
+          "delta": 42087,
+          "delta_pct": 61.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LORINČÍK",
+              "lv_number": "1162",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "HUŠTÁTY",
+              "lv_number": "13236",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "HOLČÍKOVCE",
+              "lv_number": "1006",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LORINČÍK",
+              "lv_number": "1162",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT 3 - IZBOVÝ",
+              "cadastral_territory": "HUŠTÁTY",
+              "lv_number": "13236",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT 3- IZBOVÝ",
+              "cadastral_territory": "HOLČÍKOVCE",
+              "lv_number": "1006",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 68 451 € → 110 538 € (+42 087 €)",
+      "Nehnuteľnosti: 3 → 3 (0)"
+    ]
+  },
   "slug": "ing-robert-gold",
   "context": {
     "latest_year": 2024,

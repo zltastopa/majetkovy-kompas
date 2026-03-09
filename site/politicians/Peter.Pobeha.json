@@ -679,6 +679,104 @@
     }
   ],
   "total_changes": 21,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Pobeha.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Pobeha.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ AUTUBUSOVÁ DOPRAVA ŽILINA, AKCIOVÁ SPOLOČNOSŤ)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ AUTOBUSOVÁ DOPRAVA\r\nŽILINA, AKCIOVÁ SPOLOČNOSŤ)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11664,
+            "other": 88122
+          },
+          "new": {
+            "public_function": 11664,
+            "other": 99941
+          },
+          "old_total": 99786,
+          "new_total": 111605,
+          "delta": 11819,
+          "delta_pct": 11.8
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT A NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5084",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "10508",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT A NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5084",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "10508",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8487",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ZARIADENIE DOMÁCNOSTI A BYTU, podiel: BSM",
+            "PEŇAŽNÉ ÚSPORY V BANKÁCH, podiel: BSM"
+          ],
+          "new": [
+            "ZARIADENIE DOMÁCNOSTI A BYTU , podiel: BSM",
+            "PEŇAŽNÉ ÚSPORY V BANKÁCH , podiel: BSM"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "BYT A NEBYTOVÝ PRIESTOR, kat. územie ŽILINA, rok zač. užívania: 2014, spôsob užívania: DOČASNÉ UŽÍVANIE BYTU",
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 99 786 € → 111 605 € (+11 819 €)",
+      "Nehnuteľnosti: 2 → 3 (+1)",
+      "Majetkové práva: 2 → 2 (0)",
+      "Užívanie nehnuteľností"
+    ]
+  },
   "slug": "ing-peter-pobeha",
   "context": {
     "latest_year": 2024,

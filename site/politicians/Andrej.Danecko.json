@@ -167,6 +167,71 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Andrej.Danecko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Andrej.Danecko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 5373,
+            "other": 27886
+          },
+          "old_total": 0,
+          "new_total": 33259,
+          "delta": 33259
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(P.A. KOŠICE S.R.O.)",
+          "new": "KONATEĽ(P.A.KOŠICE S.R.O.)"
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2010,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "VOLSWAGEN",
+              "year_of_manufacture": 2010,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 33 259 € (+33 259 €)",
+      "Podnikanie",
+      "Hnuteľný majetok: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-andrej-danecko",
   "context": {
     "latest_year": 2024,

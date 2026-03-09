@@ -694,6 +694,108 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Miroslav.Minarcik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Miroslav.Minarcik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 58220,
+            "other": 8243
+          },
+          "new": {
+            "public_function": 63511,
+            "other": 8512
+          },
+          "old_total": 66463,
+          "new_total": 72023,
+          "delta": 5560,
+          "delta_pct": 8.4
+        },
+        {
+          "field": "employment",
+          "old": "MESTO BYTČA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nSLOVENSKÝ FUTBALOVÝ ZVÄZ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÝ FUTBALOVÝ ZVÂZ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMESTO BYTČA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC",
+              "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY ZA MESTO BYTČA",
+              "organization": "SEVEROSLOVENSKÉ VODÁRNE A KANALIZÁCIE, A. S. ",
+              "benefits": "CESTOVNÉ NÁKLADY"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC",
+              "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY ZA MESTO BYTČA",
+              "organization": "SEVEROSLOVENSKÉ VODÁRNE A KANALIZÁCIE, A.S.",
+              "benefits": "CESTOVNÉ NÁKLADY"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "VEĽKÁ BYTČA",
+              "lv_number": "1869",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "VEĽKÁ BYTČA",
+              "lv_number": "1869",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "VEĽKÁ BYTČA",
+              "lv_number": "1869",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "VEĽKA BYTČA",
+              "lv_number": "1869",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 66 463 € → 72 023 € (+5 560 €)",
+      "Zamestnanie",
+      "Funkcie: 2 → 2 (0)",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-miroslav-minarcik",
   "context": {
     "latest_year": 2024,

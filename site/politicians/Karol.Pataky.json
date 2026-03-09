@@ -1247,6 +1247,160 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Karol.Pataky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Karol.Pataky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 57708,
+            "other": 16850
+          },
+          "new": {
+            "public_function": 62662,
+            "other": 18005
+          },
+          "old_total": 74558,
+          "new_total": 80667,
+          "delta": 6109,
+          "delta_pct": 8.2
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC",
+              "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+              "benefits": "NEMÁM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+              "lv_number": "76",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+              "lv_number": "76",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+              "lv_number": "8715",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+              "lv_number": "3340",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PEREŠ",
+              "lv_number": "237",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "PEREŠ",
+              "lv_number": "237",
+              "share": "1/2"
+            },
+            {
+              "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
+              "cadastral_territory": "PÁCIN, MAĎARSKO",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "STAVBA NA INDIVIDUÁLNU REKREÁCIU",
+              "cadastral_territory": "PÁCIN, MAĎARSKO",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+              "lv_number": "76",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+              "lv_number": "76",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+              "lv_number": "8715",
+              "share": "1/2"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "KRÁĽOVSKÝ CHLMEC",
+              "lv_number": "3340",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PEREŠ",
+              "lv_number": "237",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "PEREŠ",
+              "lv_number": "237",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 74 558 € → 80 667 € (+6 109 €)",
+      "Funkcie: 2 → 2 (0)",
+      "Nehnuteľnosti: 7 → 7 (0)"
+    ]
+  },
   "slug": "ing-karol-pataky",
   "context": {
     "latest_year": 2024,

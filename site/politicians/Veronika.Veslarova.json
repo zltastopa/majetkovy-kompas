@@ -380,6 +380,116 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Veronika.Veslarova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Veronika.Veslarova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11736,
+            "other": 9284
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 4045
+          },
+          "old_total": 21020,
+          "new_total": 52957,
+          "delta": 31937,
+          "delta_pct": 151.9
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANKYŇA MIESTNEHO ZASTUPITEĽSTVA",
+              "organization": "MESTSKÁ ČASŤ BRATISLAVA - DEVÍNSKA NOVÁ VES",
+              "benefits": "ODMENA POSLANKYNE"
+            },
+            {
+              "role": "PREDSEDNÍČKA",
+              "organization": "ADAPTO DISABLE O.Z.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLENKA SPRÁVNEJ RADY",
+              "organization": "SENECIO N.O.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLENKA DOZORNEJ RADY",
+              "organization": "DEVÍNSKONOVOVESKÁ TELEVÍZIA",
+              "benefits": "NIE"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANKYŇA MIESTNEHO ZASTUPITEĽSTVA",
+              "organization": "MČ BRATISLAVA - DEVÍNSKA NOVÁ VES",
+              "benefits": "ODMENA POSLANKYNE"
+            },
+            {
+              "role": "PREDSEDNÍČKA",
+              "organization": "ADAPTO DISABLE O.Z.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLENKA SPRÁVNEJ RADY",
+              "organization": "SENECIO N.O.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLENKA DOZORNEJ RADY",
+              "organization": "DEVÍNSKONOVOVESKÁ TELEVÍZIA",
+              "benefits": "NIE"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "SEAT",
+              "year_of_manufacture": 2009,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "SEAT",
+              "year_of_manufacture": 2009,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MERCEDES-BENZ",
+              "year_of_manufacture": 2023,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 21 020 € → 52 957 € (+31 937 €)",
+      "Funkcie: 4 → 4 (0)",
+      "Hnuteľný majetok: 1 → 2 (+1)"
+    ]
+  },
   "slug": "mgr-veronika-veslarova",
   "context": {
     "latest_year": 2024,

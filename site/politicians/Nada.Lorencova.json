@@ -257,6 +257,148 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Nada.Lorencova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Nada.Lorencova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ ENERGETIKA HOLDING, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ DISTRIBUČNÁ A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ ENERGETIKA HOLDING A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ DISTRIBUČNÁ A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 16272,
+            "other": 4556
+          },
+          "old_total": 0,
+          "new_total": 20828,
+          "delta": 20828
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "employment",
+          "old": "AK JUDr. OTTO MARKECH S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ADVOKÁTSKA KANCELÁRIA AK OTTO MARECH S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(VYRIEŠIME.TO S.R.O.)KONATEĽ(ŠTÝLOVÁ S.R.O.)",
+          "new": "SZČO - UKONČENÉ(JUDr. NAĎA LORENCOVÁ)"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA O.Z.",
+              "organization": "O.Z. NAŠE ZÁBLATIE",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "KONATEĽ",
+              "organization": "VYRIEŠIME TO S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA O.Z.",
+              "organization": "OBČIANSKE ZDRUŽENIE NAŠE ZÁBLATIE",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "MESTO TRENČÍN",
+              "benefits": "ODMENA POSLANCA"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "ŠTÝLOVÁ S.R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "2450",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "2450",
+              "share": "50%"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "01. 10. 2010"
+            },
+            {
+              "type": "KONTOKORENT",
+              "share": "100%",
+              "date": "05. 07. 2011"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "50%",
+              "date": "01. 10. 2010"
+            },
+            {
+              "type": "KONTOKORENTNÝ ÚVER",
+              "share": "100%",
+              "date": "05. 07. 2011"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 20 828 € (+20 828 €)",
+      "Nezlučiteľnosť",
+      "Zamestnanie",
+      "Podnikanie",
+      "Funkcie: 1 → 4 (+3)",
+      "Nehnuteľnosti: 1 → 1 (0)",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "judr-nada-lorencova",
   "context": {
     "latest_year": 2024,

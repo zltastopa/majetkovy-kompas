@@ -252,6 +252,73 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/LetaMiri.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/LetaMiri.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXPORTNO - IMPORTNÁ BANKA SLOVENSKÁ REPUBLIKA)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXPORTNO-IMPORTNÁ BANKA SR)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 947,
+            "other": 776
+          },
+          "new": {
+            "public_function": 14506,
+            "other": 16303
+          },
+          "old_total": 1723,
+          "new_total": 30809,
+          "delta": 29086,
+          "delta_pct": 1688.1
+        },
+        {
+          "field": "employment",
+          "old": "BEZET AGENCY SPOL. S R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MLW, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "new": [
+            {
+              "type": "BEZÚČELOVÝ ÚVER",
+              "share": "100%",
+              "date": "06. 12. 2024"
+            },
+            {
+              "type": "SPOTREBITEĽSKÝ ÚVER",
+              "share": "100%",
+              "date": "15. 12. 2024"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 1 723 € → 30 809 € (+29 086 €)",
+      "Zamestnanie",
+      "Záväzky: 1 → 2 (+1)"
+    ]
+  },
   "slug": "ing-mgr-miriam-letasiova",
   "context": {
     "latest_year": 2024,

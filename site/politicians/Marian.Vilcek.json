@@ -234,6 +234,119 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marian.Vilcek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marian.Vilcek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY\r\nROPY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 8900,
+            "other": 67068
+          },
+          "old_total": 0,
+          "new_total": 75968,
+          "delta": 75968
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "CHRENOVA",
+              "lv_number": "1456",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "CABAJ",
+              "lv_number": "3805",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "1465",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "1456",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "CABAJ",
+              "lv_number": "3805",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "CHRENOVÁ",
+              "lv_number": "1465",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "25. 10. 2012"
+            }
+          ],
+          "new": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "vehicles",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "NISSAN",
+              "year_of_manufacture": 2015
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 75 968 € (+75 968 €)",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Záväzky: 1 → 1 (0)",
+      "Vozidlá"
+    ]
+  },
   "slug": "ing-marian-vilcek",
   "context": {
     "latest_year": 2024,

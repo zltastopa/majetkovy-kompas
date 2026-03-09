@@ -409,6 +409,115 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Hajko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Hajko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11921,
+            "other": 0
+          },
+          "new": {
+            "public_function": 48835,
+            "other": 0
+          },
+          "old_total": 11921,
+          "new_total": 48835,
+          "delta": 36914,
+          "delta_pct": 309.7
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "BREZOVÁ POD BRADLOM",
+              "lv_number": "4650",
+              "share": "BSM"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "BREZOVÁ POD BRADLOM",
+              "lv_number": "4650",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO VINOHRADY",
+              "lv_number": "3531",
+              "share": "BSM"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO VINOHRADY",
+              "lv_number": "3531",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO VINOHRADY",
+              "lv_number": "3531",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO VINOHRADY",
+              "lv_number": "3531",
+              "share": "BSM"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "BREZOVÁ POD BRADLOM",
+              "lv_number": "4650",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "BREZOVÁ POD BRADLOM",
+              "lv_number": "4650",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ PROSTREDKY NA ÚČTE, podiel: BSM",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 50%",
+            "AKCIE V SPOLOČNOSTI, podiel: BSM",
+            "FINANČNÉ INVESTÍCIE, podiel: BSM",
+            "ŽVOTNÁ POISTKA, podiel: 1/1"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: BSM",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 50%",
+            "AKCIE V SPOLOČNOSTI, podiel: BSM",
+            "FINANČNÉ INVESTÍCIE, podiel: 100%"
+          ],
+          "old_count": 5,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 11 921 € → 48 835 € (+36 914 €)",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Majetkové práva: 5 → 4 (-1)"
+    ]
+  },
   "slug": "ing-jozef-hajko",
   "context": {
     "latest_year": 2024,

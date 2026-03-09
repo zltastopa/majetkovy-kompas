@@ -355,6 +355,58 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Dusan.Buran.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Dusan.Buran.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA FONDU NA PODPORU UMENIA)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 14532,
+            "other": 28328
+          },
+          "new": {
+            "public_function": 14532,
+            "other": 31236
+          },
+          "old_total": 42860,
+          "new_total": 45768,
+          "delta": 2908,
+          "delta_pct": 6.8
+        },
+        {
+          "field": "employment",
+          "old": "HISTORICKÝ ÚSTAV SLOVENSKEJ AKADÉMIE VIED\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ NÁRODNÁ GALÉRIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÁ NÁRODNÁ GALÉRIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "ÚSPORY, podiel: 1/1"
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 42 860 € → 45 768 € (+2 908 €)",
+      "Zamestnanie",
+      "Majetkové práva"
+    ]
+  },
   "slug": "mgr-dusan-buran-dr-phil",
   "context": {
     "latest_year": 2024,

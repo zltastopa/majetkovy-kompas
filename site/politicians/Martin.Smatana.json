@@ -520,6 +520,81 @@
     }
   ],
   "total_changes": 25,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Smatana.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Smatana.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen dozornej rady Všeobecnej zdravotnej poisťovne",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FAKULTNÁ NEMOCNICA J. A. REIMANA PREŠOV)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 19230,
+            "other": 10762
+          },
+          "new": {
+            "public_function": 533,
+            "other": 15692
+          },
+          "old_total": 29992,
+          "new_total": 16225,
+          "delta": -13767,
+          "delta_pct": -45.9
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "employment",
+          "old": "SLOVENSKÁ INOVAČNÁ A ENERGETICKÁ AGENTÚRA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÝ PARALYMPIJSKÝ VÝBOR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA V BA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nÚRAD PRE VEREJNÉ OBSTARÁVANIE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "FAKULTNÁ NEMOCNICA J.A.REIMANA PREŠOV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nVÝSKUMNÁ A INOVAČNÁ AUTORITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nÚRAD PRE VEREJNÉ OBSTARÁVANIE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PODIEL V S.R.O., podiel: 1,6%",
+            "PODIEL V S.R.O., podiel: 100%"
+          ],
+          "new": [
+            "PODIEL V S.R.O., podiel: 100%"
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "vehicles",
+          "old": null,
+          "new": [
+            {
+              "type": "AUTO",
+              "brand": "PORSCHE",
+              "year_of_manufacture": 2022
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 29 992 € → 16 225 € (-13 767 €)",
+      "Nezlučiteľnosť",
+      "Zamestnanie",
+      "Majetkové práva: 2 → 1 (-1)",
+      "Vozidlá"
+    ]
+  },
   "slug": "martin-smatana-msc",
   "context": {
     "latest_year": 2024,

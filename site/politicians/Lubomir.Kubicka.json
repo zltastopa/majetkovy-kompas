@@ -230,6 +230,127 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lubomir.Kubicka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lubomir.Kubicka.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU NÁRODNOSTNÝCH MENŠÍN)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU KULTÚRY \r\nNÁRODNOSTNÝCH MENŠÍN)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 1049,
+            "other": 57793
+          },
+          "old_total": 0,
+          "new_total": 58842,
+          "delta": 58842
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "2X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MALÝ LÉG",
+              "lv_number": "982",
+              "share": "1/1"
+            },
+            {
+              "type": "2X ZÁHRADA, RODINNÝ DOM",
+              "cadastral_territory": "MALÝ LÉG",
+              "lv_number": "982",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MALÝ LÉG",
+              "lv_number": "982",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "MALÝ LÉG",
+              "lv_number": "982",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "MALÝ LÉG",
+              "lv_number": "982",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MALÝ LÉG",
+              "lv_number": "982",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MALÝ LÉG",
+              "lv_number": "982",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 5
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY, podiel: BSM"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA BANKOVÝCH ÚČTOCH, podiel: 1/1"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "19. 01. 2010"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "01. 02. 2010"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 58 842 € (+58 842 €)",
+      "Nehnuteľnosti: 2 → 5 (+3)",
+      "Majetkové práva: 1 → 1 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-lubomir-kubicka",
   "context": {
     "latest_year": 2024,

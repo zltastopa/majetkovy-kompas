@@ -233,6 +233,79 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Kotlar.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Kotlar.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11921,
+            "other": 0
+          },
+          "new": {
+            "public_function": 49908,
+            "other": 8660
+          },
+          "old_total": 11921,
+          "new_total": 58568,
+          "delta": 46647,
+          "delta_pct": 391.3
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ - LEKÁR(ORTOREI S.R.O.)",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "HOTEL, ZASTAVANÉ PLOCHY A NÁDVORIA 8X",
+              "cadastral_territory": "BLAHOVÁ",
+              "lv_number": "540",
+              "share": "1/1"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PODIEL V S.R.O., podiel: 1/4",
+            "PODIEL V S.R.O. 2X, podiel: 100%",
+            "PODIEL V S.R.O., podiel: 1/8"
+          ],
+          "new": [
+            "PODIEL V S.R.O., podiel: 1/4",
+            "PODIEL V S.R.O. 2 X, podiel: 100%",
+            "PODIEL V S.R.O., podiel: 1/8"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 11 921 € → 58 568 € (+46 647 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti",
+      "Majetkové práva: 3 → 3 (0)"
+    ]
+  },
   "slug": "mudr-peter-kotlar",
   "context": {
     "latest_year": 2024,

@@ -735,6 +735,69 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/KondMaro.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/KondMaro.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republikyčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 47235,
+            "other": 0
+          },
+          "new": {
+            "public_function": 7865,
+            "other": 16010
+          },
+          "old_total": 47235,
+          "new_total": 23875,
+          "delta": -23360,
+          "delta_pct": -49.5
+        },
+        {
+          "field": "employment",
+          "old": "RESIDENCE COMPANY TT, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "RESIDENCE COMPANY TT S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 25%",
+            "POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 50%",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+            "FINANČNÉ PROSTRIEDKY V BANKE, podiel: BSM"
+          ],
+          "new": [
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 25%",
+            "POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 50%",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: BSM",
+            "FINANČNÉ PROSTRIEDKY V BANKE, podiel: BSM"
+          ],
+          "old_count": 4,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 47 235 € → 23 875 € (-23 360 €)",
+      "Zamestnanie",
+      "Majetkové práva: 4 → 5 (+1)"
+    ]
+  },
   "slug": "ing-maros-kondrot",
   "context": {
     "latest_year": 2024,

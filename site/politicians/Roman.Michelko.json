@@ -254,6 +254,72 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Roman.Michelko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Roman.Michelko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 12105,
+            "other": 0
+          },
+          "new": {
+            "public_function": 50904,
+            "other": 0
+          },
+          "old_total": 12105,
+          "new_total": 50904,
+          "delta": 38799,
+          "delta_pct": 320.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT -  ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BRATISLAVA V",
+              "lv_number": "2698",
+              "share": "100%"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KOŠICE ŠACA",
+              "lv_number": "2401",
+              "share": "1/129"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA PETRŽALKA",
+              "lv_number": "2698",
+              "share": "100%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "KOŠICE ŠACA",
+              "lv_number": "2401",
+              "share": "1/129"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 12 105 € → 50 904 € (+38 799 €)",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
+  },
   "slug": "mgr-roman-michelko",
   "context": {
     "latest_year": 2024,

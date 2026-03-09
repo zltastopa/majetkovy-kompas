@@ -1173,6 +1173,104 @@
     }
   ],
   "total_changes": 24,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/MikuTibo.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/MikuTibo.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL )"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 20880,
+            "other": 11619
+          },
+          "new": {
+            "public_function": 26965,
+            "other": 12000
+          },
+          "old_total": 32499,
+          "new_total": 38965,
+          "delta": 6466,
+          "delta_pct": 19.9
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREZIDENT",
+              "organization": "SLOVENSKÉ JADROVÉ FÓRUM",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "TRÁVNE PORASTY, VODNÉ PLOCHY, ORNÁ PÔDA",
+              "cadastral_territory": "TÔNE VEĽKÝ MEDER",
+              "lv_number": "925, 3713, 1218, 933",
+              "share": "6,25 - 25%"
+            },
+            {
+              "type": "ORNÁ PÔDA, ZASTAVANÉ PLOCHY, TRÁVNE PORASTY",
+              "cadastral_territory": "TÔNE VEĽKÝ MEDER",
+              "lv_number": "1214, 1219",
+              "share": "6,25 - 25%"
+            }
+          ],
+          "new": [
+            {
+              "type": "TRÁVNATÉ PORASTY, VODNÉ PLOCHY, ORNÁ PÔDA",
+              "cadastral_territory": "VEĽKÝ MEDER",
+              "lv_number": "925, 3713, 1218, 933",
+              "share": "6,25-25"
+            },
+            {
+              "type": "ORNÁ PÔDA, ZASTAVANÉ PLOCHY, TRÁVNATÉ PORASTY",
+              "cadastral_territory": "VEĽKÝ MEDER",
+              "lv_number": "1214, 1219",
+              "share": "6,25-25"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "CENNÉ PAPIERE, podiel: 100%",
+            "PODIELY A.S., podiel: 67%"
+          ],
+          "new": [
+            "CENNÉ PAPIERE , podiel: 100%",
+            "PODIELY V A.S., podiel: 67%"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 32 499 € → 38 965 € (+6 466 €)",
+      "Funkcie",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-tibor-mikus-phd",
   "context": {
     "latest_year": 2024,

@@ -210,6 +210,71 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marek.Mrazik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marek.Mrazik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (HYDROMELIORÁCIE Š.P.)",
+          "new": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (HYDROMELIORÁCIE Š.P.\r\n)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 175,
+            "other": 3393
+          },
+          "old_total": 0,
+          "new_total": 3568,
+          "delta": 3568
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "ALFA ROMEO",
+              "year_of_manufacture": 2014,
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "ALFA ROMEO",
+              "year_of_manufacture": 2014,
+              "share": "100%"
+            },
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "FORD",
+              "year_of_manufacture": 2001,
+              "share": "100%"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 3 568 € (+3 568 €)",
+      "Hnuteľný majetok: 1 → 2 (+1)"
+    ]
+  },
   "slug": "ing-marek-mrazik",
   "context": {
     "latest_year": 2024,

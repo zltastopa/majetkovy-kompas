@@ -723,6 +723,67 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Norbert.Faith.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Norbert.Faith.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VALALIKY INDUSTRIAL PARK, S.R.O.\r\nBRATISLAVA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EUSTREAM A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EUSTREAM A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VALALIKY INDUSTRIAL PARK, S.R.O.\r\n)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 642,
+            "other": 20703
+          },
+          "new": {
+            "public_function": 123159,
+            "other": 0
+          },
+          "old_total": 21345,
+          "new_total": 123159,
+          "delta": 101814,
+          "delta_pct": 477.0
+        },
+        {
+          "field": "employment",
+          "old": "SCHEIDT & BACHMANN SLOVENSKO S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "2 X OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
+            "FINANČNÉ PROSTRIEDKY NA BANKOVÝCH ÚČTOCH, SPORENIE, podiel: 1/1",
+            "VOĽNE OBCHODOVATEĽNÉ AKCIE ZAHRANIČNÝCH SPOLOČNOSTÍ, podiel: 1/1"
+          ],
+          "new": [
+            "2X OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
+            "FINANČNÉ PROSTRIEDKY NA BANKOVÝCH ÚČTOCH, SPORENIE, podiel: 1/1",
+            "VOĽNE OBCHODOVATEĽNÉ AKCIE ZAHRANIČNÝCH SPOLOČNOSTÍ, podiel: 1/1",
+            "POSKYTNUTÉ PÔŽIČKY, podiel: 1/1"
+          ],
+          "old_count": 3,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 21 345 € → 123 159 € (+101 814 €)",
+      "Zamestnanie",
+      "Majetkové práva: 3 → 4 (+1)"
+    ]
+  },
   "slug": "ing-norbert-faith",
   "context": {
     "latest_year": 2024,

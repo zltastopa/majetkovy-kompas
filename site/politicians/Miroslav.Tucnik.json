@@ -338,6 +338,149 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Miroslav.Tucnik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Miroslav.Tucnik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 32720,
+            "other": 25870
+          },
+          "old_total": 0,
+          "new_total": 58590,
+          "delta": 58590
+        },
+        {
+          "field": "employment",
+          "old": "SPRÁVA SLUŽIEB DIPLOMATICKÉMU ZBURU, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SPRÁVA SLUŽIEB DIPLOMATICKÉMU ZBORU, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM S POZEMKOM + ZÁHRADA",
+              "cadastral_territory": "PREČÍN",
+              "lv_number": "186",
+              "share": "1/4"
+            },
+            {
+              "type": "POZEMKY - ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+              "cadastral_territory": "PREČÍN",
+              "lv_number": "1303",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "PREČÍN",
+              "lv_number": "332",
+              "share": "8/10"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "PREČÍN",
+              "lv_number": "1193",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "BERNOLÁKOVO",
+              "lv_number": "9986",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM + ZÁHRADA",
+              "cadastral_territory": "PREČÍN",
+              "lv_number": "892",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK  - ORNÁ PÔDA",
+              "cadastral_territory": "PREČÍN",
+              "lv_number": "2077",
+              "share": "1/60"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM S POZEMKOM, ZÁHRADA",
+              "cadastral_territory": "PREČÍN",
+              "lv_number": "186",
+              "share": "1/4"
+            },
+            {
+              "type": "POZEMKY - ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+              "cadastral_territory": "PREČÍN",
+              "lv_number": "1303",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "PREČÍN",
+              "lv_number": "332",
+              "share": "8/10"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "PREČÍN",
+              "lv_number": "1193",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "BERNOLÁKOVO",
+              "lv_number": "9986",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM, ZÁHRADA",
+              "cadastral_territory": "PREČÍN",
+              "lv_number": "892",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "PREČÍN",
+              "lv_number": "2077",
+              "share": "1/60"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "SENEC",
+              "lv_number": "10778",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK - PARKOVISKO K BYTU",
+              "cadastral_territory": "SENEC",
+              "lv_number": "11264",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 9
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 58 590 € (+58 590 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 7 → 9 (+2)"
+    ]
+  },
   "slug": "ing-miroslav-tucnik-phd",
   "context": {
     "latest_year": 2024,

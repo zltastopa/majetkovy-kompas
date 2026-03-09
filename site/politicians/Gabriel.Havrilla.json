@@ -664,6 +664,113 @@
     }
   ],
   "total_changes": 28,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Gabriel.Havrilla.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Gabriel.Havrilla.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A. S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXPORTNO-IMPORTNÁ BANKA SR)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A. S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 20623,
+            "other": 22261
+          },
+          "new": {
+            "public_function": 11154,
+            "other": 29126
+          },
+          "old_total": 42884,
+          "new_total": 40280,
+          "delta": -2604,
+          "delta_pct": -6.1
+        },
+        {
+          "field": "business_activity",
+          "old": "PREDSEDA(DRUŽSTVO KARPATY)KONATEĽ(SPORTS & LAW S.R.O.)KONATEĽ(HAVRILLA & CO. S.R.O.)PREDSEDÄ PREDSTAVENSTVA(GYLD SPORTS INVESTMENTS A.S.)",
+          "new": "KONATEĽ(HAVRILLA & CO. S.R.O.)KONATEĽ(SPORTS & LAW S.R.O.)PREDSEDA PREDSTAVENSTVA(GYLD SPORTS INVESTMENTS A.S.)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "53",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "53",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "6855",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "CENNÉ PAPIERE, podiel: 17,5%",
+            "MAJETKOVÝ PODIEL V S.R.O., podiel: 100%",
+            "MAJETKOVÝ PODIEL V S.R.O., podiel: 100%",
+            "MAJETKOVÝ PODIEL V DRUŽSTVE, podiel: 10%"
+          ],
+          "new": [
+            "CENNÉ PAPIERE, podiel: 17,5%",
+            "MAJETKOVÝ PODIEL V S.R.O., podiel: 100 %",
+            "MAJETKOVÝ PODIEL V S.R.O., podiel: 100 %"
+          ],
+          "old_count": 4,
+          "new_count": 3
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "BYT, kat. územie NOVÉ MESTO, rok zač. užívania: 2020, spôsob užívania: NÁJOMNÁ ZMLUVA",
+          "new": null
+        },
+        {
+          "field": "vehicles",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "BMW",
+              "year_of_manufacture": 2023
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 42 884 € → 40 280 € (-2 604 €)",
+      "Podnikanie",
+      "Nehnuteľnosti: 1 → 2 (+1)",
+      "Majetkové práva: 4 → 3 (-1)",
+      "Užívanie nehnuteľností",
+      "Vozidlá"
+    ]
+  },
   "slug": "judr-gabriel-havrilla",
   "context": {
     "latest_year": 2024,

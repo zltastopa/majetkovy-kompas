@@ -468,6 +468,100 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/SedlRobe.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/SedlRobe.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 680,
+            "other": 6583
+          },
+          "new": {
+            "public_function": 29808,
+            "other": 180925
+          },
+          "old_total": 7263,
+          "new_total": 210733,
+          "delta": 203470,
+          "delta_pct": 2801.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "HODEJOV",
+              "lv_number": "463,464, 465, 491, 494",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HODEJOV",
+              "lv_number": "875",
+              "share": "1/6"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "HODEJOV",
+              "lv_number": "892, 1024",
+              "share": "1/6"
+            }
+          ],
+          "new": [
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "HODEJOV",
+              "lv_number": "463,464,465,491,494",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HODEJOV",
+              "lv_number": "875",
+              "share": "1/6"
+            },
+            {
+              "type": "TRVALÝ  TRÁVNATÝ PORAST",
+              "cadastral_territory": "HODEJOV",
+              "lv_number": "892, 1024",
+              "share": "1/6"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY, podiel: BSM",
+            "PÔŽIČKA, podiel: BSM",
+            "ŽIVOTNÉ SPORENIE, podiel: BSM"
+          ],
+          "new": [
+            "ÚSPORY, podiel: BSM",
+            "PÔŽIČKA, podiel: BSM",
+            "ŽIVOTNÉ SPORENIE/POISTENIE, podiel: BSM"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 7 263 € → 210 733 € (+203 470 €)",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Majetkové práva: 3 → 3 (0)"
+    ]
+  },
   "slug": "ing-robert-sedlak",
   "context": {
     "latest_year": 2024,

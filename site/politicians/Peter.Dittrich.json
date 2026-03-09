@@ -966,6 +966,127 @@
     }
   ],
   "total_changes": 21,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Dittrich.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Dittrich.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.\r\n)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND III.,\r\nS.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.\r\n)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK INVESTMENT HOLDING, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK ASSET MANAGEMENT SPRÁVCOVSKÁ \r\nSPOLOČNOSŤ, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.\r\n)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND III.,\r\nS.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.\r\n)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK INVESTMENT HOLDING, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK ASSET MANAGEMENT,\r\nSPRÁVCOVSKÁ SPOLOČNOSŤ, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 43472,
+            "other": 74545
+          },
+          "new": {
+            "public_function": 25740,
+            "other": 89995
+          },
+          "old_total": 118017,
+          "new_total": 115735,
+          "delta": -2282,
+          "delta_pct": -1.9
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN DOZORNEJ RADY - ZÁNIK 20.12.2023",
+              "organization": "GYMBEAM S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "MKK GRÖSSLING S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY - ZÁNIK 15.12.2023",
+              "organization": "ENSTRA POWER GENERATION A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "BOATAROUND.COM, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY - ZÁNIK 15.12.2023",
+              "organization": "ENSTRA A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "MKK GRÖSSLING S.RO.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "TAPGEST S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY - ZÁNIK 25.04.2024",
+              "organization": "BOATAROUND.COM, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "INO-HUB ENERGY J.S.A.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3253",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "SENEC",
+              "lv_number": "3147",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3253",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 118 017 € → 115 735 € (-2 282 €)",
+      "Funkcie: 5 → 4 (-1)",
+      "Nehnuteľnosti: 2 → 1 (-1)"
+    ]
+  },
   "slug": "ing-peter-dittrich-phd",
   "context": {
     "latest_year": 2024,

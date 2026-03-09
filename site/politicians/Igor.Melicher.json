@@ -269,6 +269,114 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Igor.Melicher.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Igor.Melicher.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republikyštátny tajomník",
+          "new": "štátny tajomník"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 16694,
+            "other": 0
+          },
+          "new": {
+            "public_function": 72956,
+            "other": 0
+          },
+          "old_total": 16694,
+          "new_total": 72956,
+          "delta": 56262,
+          "delta_pct": 337.0
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3170",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3170",
+              "share": "100%"
+            },
+            {
+              "type": "PARCELY REGISTRA C",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "5750",
+              "share": "ČIASTOČNÝ"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2011,
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2011,
+              "share": "100%"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "16. 05. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "01. 08. 2022"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 16 694 € → 72 956 € (+56 262 €)",
+      "Nehnuteľnosti: 1 → 2 (+1)",
+      "Hnuteľný majetok: 1 → 1 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-igor-melicher",
   "context": {
     "latest_year": 2024,

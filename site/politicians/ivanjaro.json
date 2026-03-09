@@ -1704,6 +1704,236 @@
     }
   ],
   "total_changes": 30,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/ivanjaro.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/ivanjaro.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 64275,
+            "other": 0
+          },
+          "new": {
+            "public_function": 67230,
+            "other": 0
+          },
+          "old_total": 64275,
+          "new_total": 67230,
+          "delta": 2955,
+          "delta_pct": 4.6
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT A GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "4346",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SVIDNÍK",
+              "lv_number": "2082",
+              "share": "1/1"
+            },
+            {
+              "type": "PARCELA POD GARÁŽOU",
+              "cadastral_territory": "SVIDNÍK",
+              "lv_number": "2176",
+              "share": "2/4"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SVIDNÍK",
+              "lv_number": "1261",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÝ DOM, ZÁHRADA A OSTATNÁ PLOCHA",
+              "cadastral_territory": "KRAJNÉ ČIERNO",
+              "lv_number": "109",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT A GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "4577",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RAČA",
+              "lv_number": "5244",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - PODIEL POD BYTOVÝM DOMOM",
+              "cadastral_territory": "RAČA",
+              "lv_number": "5244",
+              "share": "6446/495311"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA, GARÁŽ",
+              "cadastral_territory": "SVIDNÍK",
+              "lv_number": "2082",
+              "share": "1/1"
+            },
+            {
+              "type": "LESNÉ POZEMKY, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "RAKOVČÍK",
+              "lv_number": "273, 281",
+              "share": "1/150, 1/135"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "ZÁTURČIE",
+              "lv_number": "3779",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT A GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "4346",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SVIDNÍK",
+              "lv_number": "2082",
+              "share": "1/1"
+            },
+            {
+              "type": "PARCELA POD GARÁŽOU",
+              "cadastral_territory": "SVIDNÍK",
+              "lv_number": "2176",
+              "share": "2/4"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SVIDNÍK",
+              "lv_number": "1261",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÝ DOM, ZÁHRADA A OSTATNÁ PLOCHA",
+              "cadastral_territory": "KRAJNÉ ČIERNO",
+              "lv_number": "109",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT A GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "4577",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RAČA",
+              "lv_number": "5244",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - PODIEL POD BYTOVÝM DOMOM",
+              "cadastral_territory": "RAČA",
+              "lv_number": "5244",
+              "share": "6446/495311"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA A GARÁŽ",
+              "cadastral_territory": "SVIDNÍK",
+              "lv_number": "2082",
+              "share": "1/1"
+            },
+            {
+              "type": "LESNÉ POZEMKY A TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "RAKOVČÍK",
+              "lv_number": "273, 281",
+              "share": "1/150, 1/135"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "ZÁTURČIE",
+              "lv_number": "3779",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 11,
+          "new_count": 11
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "SPORIACE AKCIOVÉ FONDY, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1",
+            "OSOBNÉ ÚČTY, podiel: 1/1"
+          ],
+          "new": [
+            "SPORIACE AKCIOVÉ FONDY, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE (INVESTIČNÉ), podiel: 1/1",
+            "OSOBNÉ ÚČTY, podiel: 1/1"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "BANKOVÝ ÚVER",
+              "share": "1/1",
+              "date": "16. 06. 2020"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "18. 03. 2022"
+            },
+            {
+              "type": "BANKOVÝ ÚVER",
+              "share": "1/1",
+              "date": "09. 06. 2023"
+            }
+          ],
+          "new": [
+            {
+              "type": "BANKOVÝ ÚVER",
+              "share": "1/1",
+              "date": "16. 06. 2020"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "18. 03. 2022"
+            },
+            {
+              "type": "BANKOVÝ ÚVER",
+              "share": "1/1",
+              "date": "07. 10. 2024"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 64 275 € → 67 230 € (+2 955 €)",
+      "Nehnuteľnosti: 11 → 11 (0)",
+      "Majetkové práva: 3 → 3 (0)",
+      "Záväzky: 3 → 3 (0)"
+    ]
+  },
   "slug": "mgr-jaroslav-ivanco",
   "context": {
     "latest_year": 2024,

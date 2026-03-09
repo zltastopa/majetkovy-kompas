@@ -290,6 +290,78 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Kacian.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Kacian.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 5201,
+            "other": 112613
+          },
+          "new": {
+            "public_function": 75920,
+            "other": 90386
+          },
+          "old_total": 117814,
+          "new_total": 166306,
+          "delta": 48492,
+          "delta_pct": 41.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM A POZEMOK",
+              "cadastral_territory": "MOJŠ",
+              "lv_number": "902",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA",
+              "lv_number": "5111",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM A POZEMOK",
+              "cadastral_territory": "MOJŠ",
+              "lv_number": "902",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "5111, 5112, 5117, 5280",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5885",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 117 814 € → 166 306 € (+48 492 €)",
+      "Nehnuteľnosti: 2 → 3 (+1)"
+    ]
+  },
   "slug": "mudr-juraj-kacian-mph",
   "context": {
     "latest_year": 2024,

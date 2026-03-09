@@ -422,6 +422,57 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Vician.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Vician.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 8400,
+            "other": 27746
+          },
+          "new": {
+            "public_function": 8400,
+            "other": 36367
+          },
+          "old_total": 36146,
+          "new_total": 44767,
+          "delta": 8621,
+          "delta_pct": 23.9
+        },
+        {
+          "field": "employment",
+          "old": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, Š.P.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK Š.P.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MITSUBISHI",
+              "year_of_manufacture": 2007,
+              "share": "1/1"
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 36 146 € → 44 767 € (+8 621 €)",
+      "Zamestnanie",
+      "Hnuteľný majetok"
+    ]
+  },
   "slug": "mgr-peter-vician",
   "context": {
     "latest_year": 2024,

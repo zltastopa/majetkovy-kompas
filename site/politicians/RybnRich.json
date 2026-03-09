@@ -966,6 +966,94 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/RybnRich.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/RybnRich.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 91094,
+            "other": 13135
+          },
+          "new": {
+            "public_function": 99801,
+            "other": 15781
+          },
+          "old_total": 104229,
+          "new_total": 115582,
+          "delta": 11353,
+          "delta_pct": 10.9
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "PROMUSIC BOOKING S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nDLHÝ, ŠIROKÝ A BYSTROZRAKÝ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREZIDENT ÚNIE MIEST SLOVENSKA",
+              "organization": "ÚNIA MIEST SLOVENSKA",
+              "benefits": "ODMENA ZA VÝKON FUNKCIE PREZIDENTA"
+            },
+            {
+              "role": "PREDSEDA PREDSTAVESTVA",
+              "organization": "TRENČIANSKE VODÁRNE A KANALIZÁCIE A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "SPLNOMOCNENEC OBČIANSKEHO ZDRUŽENIA",
+              "organization": "NÁŠ TRENČÍN O.Z.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "KREATÍVNY INŠTITÚT TRENČÍN N.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "SPLNOMOCNENEC OBČIANSKEHO ZDRUŽENIA",
+              "organization": "NÁŠ TRENČÍN O.Z.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "KREATÍVNY INŠTITÚT TRENČÍN N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREZIDENT ÚNIE MIEST SLOVENSKA",
+              "organization": "ÚNIA MIEST SLOVENSKA",
+              "benefits": "ODMENA ZA VÝKON FUNKCIE PREZIDENTA"
+            },
+            {
+              "role": "PREDSEDA PREDSTAVENSTVA",
+              "organization": "TRENČIANSKE VODÁRNE A KANALIZÁCIE A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 104 229 € → 115 582 € (+11 353 €)",
+      "Zamestnanie",
+      "Funkcie: 4 → 4 (0)"
+    ]
+  },
   "slug": "mgr-richard-rybnicek",
   "context": {
     "latest_year": 2024,

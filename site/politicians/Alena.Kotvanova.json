@@ -605,6 +605,78 @@
     }
   ],
   "total_changes": 10,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Alena.Kotvanova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Alena.Kotvanova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU KULTÚRY NÁRODNOSTNÝCH MENŠÍN)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU KULTÚRY \r\nNÁRODNOSTNÝCH MENŠÍN)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 39947,
+            "other": 822
+          },
+          "new": {
+            "public_function": 38596,
+            "other": 1196
+          },
+          "old_total": 40769,
+          "new_total": 39792,
+          "delta": -977,
+          "delta_pct": -2.4
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "JEEP",
+              "year_of_manufacture": 2004,
+              "share": "BSM"
+            },
+            {
+              "type": "KARAVAN",
+              "brand": "TOB",
+              "year_of_manufacture": 2017,
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2024,
+              "share": "BSM"
+            },
+            {
+              "type": "KARAVAN",
+              "brand": "T@B",
+              "year_of_manufacture": 2017,
+              "share": "BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 40 769 € → 39 792 € (-977 €)",
+      "Hnuteľný majetok: 2 → 2 (0)"
+    ]
+  },
   "slug": "phdr-alena-kotvanova",
   "context": {
     "latest_year": 2024,

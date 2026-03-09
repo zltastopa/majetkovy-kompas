@@ -1389,6 +1389,156 @@
     }
   ],
   "total_changes": 21,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Karol.Galek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Karol.Galek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 43113,
+            "other": 0
+          },
+          "new": {
+            "public_function": 15553,
+            "other": 0
+          },
+          "old_total": 43113,
+          "new_total": 15553,
+          "delta": -27560,
+          "delta_pct": -63.9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "SVIT",
+              "lv_number": "1181",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SVIT",
+              "lv_number": "1181",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SVIT",
+              "lv_number": "1181",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "SVIT",
+              "lv_number": "1851",
+              "share": "8244/215220"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SVIT",
+              "lv_number": "2384",
+              "share": "708/150311"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "SVIT",
+              "lv_number": "2384",
+              "share": "708/150311"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SVIT",
+              "lv_number": "3029",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VRAKUŇA",
+              "lv_number": "3964",
+              "share": "1/1"
+            },
+            {
+              "type": "PARCELA REGISTRA C",
+              "cadastral_territory": "VRAKUŇA",
+              "lv_number": "3913",
+              "share": "8150/127240"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SVIT",
+              "lv_number": "3029",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VRAKUŇA",
+              "lv_number": "3964",
+              "share": "1/1"
+            },
+            {
+              "type": "PARCELA REGISTRA C",
+              "cadastral_territory": "VRAKUŇA",
+              "lv_number": "3913",
+              "share": "8150/127240"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "SVIT",
+              "lv_number": "1181",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SVIT",
+              "lv_number": "1181",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SVIT",
+              "lv_number": "1181",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "SVIT",
+              "lv_number": "1851",
+              "share": "8244/215220"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SVIT",
+              "lv_number": "2384",
+              "share": "708/150311"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "SVIT",
+              "lv_number": "2384",
+              "share": "708/150311"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 9
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 43 113 € → 15 553 € (-27 560 €)",
+      "Nehnuteľnosti: 9 → 9 (0)"
+    ]
+  },
   "slug": "rndr-karol-galek-msc",
   "context": {
     "latest_year": 2024,

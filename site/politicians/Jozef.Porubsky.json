@@ -534,6 +534,106 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Porubsky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Porubsky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ\r\nSPRÁVY V NITRE)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY V NITRE )"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 35447,
+            "other": 0
+          },
+          "new": {
+            "public_function": 39579,
+            "other": 0
+          },
+          "old_total": 35447,
+          "new_total": 39579,
+          "delta": 4132,
+          "delta_pct": 11.7
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "3609",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATKA",
+              "cadastral_territory": "SENEC",
+              "lv_number": "6951",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "632",
+              "share": "1/6"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZOBOR",
+              "lv_number": "3609",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATKA",
+              "cadastral_territory": "SENEC",
+              "lv_number": "6951",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MERCEDES",
+              "year_of_manufacture": 2015,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "MERCEDES",
+              "year_of_manufacture": 2015,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 35 447 € → 39 579 € (+4 132 €)",
+      "Nehnuteľnosti: 3 → 2 (-1)",
+      "Hnuteľný majetok: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-jozef-porubsky",
   "context": {
     "latest_year": 2024,

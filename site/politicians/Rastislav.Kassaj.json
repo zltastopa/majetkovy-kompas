@@ -963,6 +963,169 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Rastislav.Kassaj.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Rastislav.Kassaj.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 61027,
+            "other": 1666
+          },
+          "new": {
+            "public_function": 66953,
+            "other": 1907
+          },
+          "old_total": 62693,
+          "new_total": 68860,
+          "delta": 6167,
+          "delta_pct": 9.8
+        },
+        {
+          "field": "employment",
+          "old": "PANEURÓPSKA VYSOKÁ ŠKOLA N.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ADVOKÁTSKA KOMORA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÁ ADVOKÁTSKA KOMORA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nPANEURÓPSKA VYSOKÁ ŠKOLA N.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "VAJNORY",
+              "lv_number": "4631",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "VAJNORY",
+              "lv_number": "4631",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VAJNORY",
+              "lv_number": "4631",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "VAJNORY",
+              "lv_number": "4631",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5385",
+              "share": "8,1% V BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5385",
+              "share": "8,1% V BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5385",
+              "share": "8,1% V BSM"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "VAJNORY",
+              "lv_number": "4631",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - ARTMÁN",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5385",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - GARÁŽ",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5385",
+              "share": "3,45% V BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "VAJNORY",
+              "lv_number": "4631",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "VAJNORY",
+              "lv_number": "4631",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VAJNORY",
+              "lv_number": "4631",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5385",
+              "share": "8,1 % V BSM"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 10
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PEŇAŽNÉ PROSTRIEDKY NA BANKOVÝCH ÚČTOCH, podiel: BSM"
+          ],
+          "new": [
+            "PEŇAŽNÉ PROSTRIEDKY NA BANKOVÝCH ÚČTOCH, podiel: BSM",
+            "PODIELY V PODIELOVÝCH FONDOCH, podiel: BSM"
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "BSM",
+              "date": "20. 02. 2024"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 62 693 € → 68 860 € (+6 167 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 4 → 10 (+6)",
+      "Majetkové práva: 1 → 2 (+1)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "judr-rastislav-kassak-phd",
   "context": {
     "latest_year": 2024,

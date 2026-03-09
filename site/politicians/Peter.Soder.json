@@ -711,6 +711,102 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Soder.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Soder.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P. )",
+          "new": "riaditeľ štátneho podniku (SLOVTHERMAE, KÚPELE DIAMANT DUDINCE, Š.P.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 45812,
+            "other": 0
+          },
+          "new": {
+            "public_function": 45972,
+            "other": 0
+          },
+          "old_total": 45812,
+          "new_total": 45972,
+          "delta": 160,
+          "delta_pct": 0.3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "7678",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ŠAHY",
+              "lv_number": "2747",
+              "share": "1/1"
+            },
+            {
+              "type": "PREVÁDZKOVÁ BUDOVA",
+              "cadastral_territory": "ŠAHY",
+              "lv_number": "3397",
+              "share": "1/2"
+            },
+            {
+              "type": "VINIČNÝ DOMČEK",
+              "cadastral_territory": "TEŠMÁK",
+              "lv_number": "7678",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "7678",
+              "share": "1/2"
+            },
+            {
+              "type": "PREVÁDZKOVÁ BUDOVA",
+              "cadastral_territory": "ŠAHY",
+              "lv_number": "3397",
+              "share": "1/2"
+            },
+            {
+              "type": "VINIČNÝ DOMČEK",
+              "cadastral_territory": "TEŠMÁK",
+              "lv_number": "132",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ŠAHY",
+              "lv_number": "2747",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 45 812 € → 45 972 € (+160 €)",
+      "Nehnuteľnosti: 4 → 4 (0)"
+    ]
+  },
   "slug": "mgr-peter-soder",
   "context": {
     "latest_year": 2024,

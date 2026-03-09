@@ -549,6 +549,38 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jergus.Sivos.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jergus.Sivos.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 70486,
+            "other": 0
+          },
+          "new": {
+            "public_function": 77282,
+            "other": 0
+          },
+          "old_total": 70486,
+          "new_total": 77282,
+          "delta": 6796,
+          "delta_pct": 9.6
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 70 486 € → 77 282 € (+6 796 €)"
+    ]
+  },
   "slug": "mgr-jergus-sivos-phd",
   "context": {
     "latest_year": 2024,

@@ -491,6 +491,128 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/HolaAndr.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/HolaAndr.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO SPRAVODLIVOSTI SLOVENSKEJ REPUBLIKY )",
+          "new": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO SPRAVODLIVOSTI\r\nSLOVENSKEJ REPUBLIKY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10553,
+            "other": 0
+          },
+          "new": {
+            "public_function": 65684,
+            "other": 0
+          },
+          "old_total": 10553,
+          "new_total": 65684,
+          "delta": 55131,
+          "delta_pct": 522.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT A PRÍSLUŠNÝ POZEMOK",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "2945, 6116",
+              "share": "100%"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "3903",
+              "share": "100%"
+            },
+            {
+              "type": "CHALUPA - DOM A PRÍSLUŠNÝ POZEMOK",
+              "cadastral_territory": "PRIEPASNÉ",
+              "lv_number": "459",
+              "share": "50%"
+            },
+            {
+              "type": "BYT A PRÍSLUŠNÝ POZEMOK",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "5417",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "5417",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT A PRÍSLUŠNÝ POZEMOK",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "2945, 6196",
+              "share": "100%"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "3903",
+              "share": "100%"
+            },
+            {
+              "type": "CHALUPA -  DOM A PRÍSLUŠNÝ POZEMOK",
+              "cadastral_territory": "PRIEPASNÉ",
+              "lv_number": "459",
+              "share": "50%"
+            },
+            {
+              "type": "BYT A PRÍSLUŠNÝ POZEMOK",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "5417",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "5417",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PEŇAŽNÁ HOTOVOSŤ, podiel: 100%",
+            "PEŇAŽNÁ HOTOVOSŤ NA ÚČTE V BANKE , podiel: 100%"
+          ],
+          "new": [
+            "PEŇAŽNÁ HOTOVOST, podiel: 100%",
+            "PEŇAŽNÁ HOTOVOSŤ NA ÚČTE V BANKE, podiel: 100%"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 10 553 € → 65 684 € (+55 131 €)",
+      "Nehnuteľnosti: 5 → 5 (0)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "judr-andrej-holak",
   "context": {
     "latest_year": 2024,

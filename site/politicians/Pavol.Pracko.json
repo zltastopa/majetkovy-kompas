@@ -257,6 +257,135 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Pavol.Pracko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Pavol.Pracko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 6732,
+            "other": 66615
+          },
+          "old_total": 0,
+          "new_total": 73347,
+          "delta": 73347
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "4 - IZBOVÝ BYT",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "7427",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK POD BYTOM A PODIEL NA SPOLOČNÝCH PRIESTOROCH",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "7466",
+              "share": "10770/1357590"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "HUBICE",
+              "lv_number": "504",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "7427",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK POD BYTOM A PODIEL NA SPOLOČNÝCH PRIESTOROCH",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "7466",
+              "share": "10770/1357590"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "HUBICE",
+              "lv_number": "504",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ PROSTRIEDKY NA BANKOVOM ÚČTE, podiel: 1/1",
+            "CENNÉ PAPIERE, podiel: 1/2"
+          ],
+          "new": [
+            "PEŇAŽNÉ PROSTRIEDKY, podiel: 1/2",
+            "CENNÉ PAPIERE, podiel: 1/2"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "07. 08. 2017"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "07. 09. 2017"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": null,
+          "new": "BYT, kat. územie TRENČÍN, rok zač. užívania: 2024, spôsob užívania: NÁJOM"
+        },
+        {
+          "field": "vehicles",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2024
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 73 347 € (+73 347 €)",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Majetkové práva: 2 → 2 (0)",
+      "Záväzky: 1 → 1 (0)",
+      "Užívanie nehnuteľností",
+      "Vozidlá"
+    ]
+  },
   "slug": "ing-pavol-pracko",
   "context": {
     "latest_year": 2024,

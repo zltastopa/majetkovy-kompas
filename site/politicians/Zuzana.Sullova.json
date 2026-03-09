@@ -513,6 +513,72 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zuzana.Sullova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zuzana.Sullova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 40636,
+            "other": 0
+          },
+          "new": {
+            "public_function": 39040,
+            "other": 0
+          },
+          "old_total": 40636,
+          "new_total": 39040,
+          "delta": -1596,
+          "delta_pct": -3.9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE, TERASA (827207)",
+              "lv_number": "13888",
+              "share": "1/1"
+            },
+            {
+              "type": "PARCELA, SPOLOČNÉ ČASTI A ZARIADENIA DOMU",
+              "cadastral_territory": "KOŠICE, TERASA (827207)",
+              "lv_number": "16089",
+              "share": "231/10000"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE, TERASA",
+              "lv_number": "13888",
+              "share": "1/1"
+            },
+            {
+              "type": "PARCELA, SPOLOČNÉ ČASTI A ZARIADENIA DOMU",
+              "cadastral_territory": "KOŠICE, TERASA",
+              "lv_number": "16089",
+              "share": "231/10000"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 40 636 € → 39 040 € (-1 596 €)",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
+  },
   "slug": "mgr-zuzana-sullova",
   "context": {
     "latest_year": 2024,

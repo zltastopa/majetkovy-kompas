@@ -825,6 +825,236 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/hodamila.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/hodamila.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10553,
+            "other": 41752
+          },
+          "new": {
+            "public_function": 63854,
+            "other": 33312
+          },
+          "old_total": 52305,
+          "new_total": 97166,
+          "delta": 44861,
+          "delta_pct": 85.8
+        },
+        {
+          "field": "employment",
+          "old": "ÚSTAV ŠTÁTU A PRÁVA SAV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nPRÁVNICKÁ FAKULTA UK V BRATISLAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ÚSTAV ŠTÁTU A PRÁVA SAV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITA KOMENSKÉHO V BRATISLAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5482",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH A ZARIADENÍ DOMU",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5482",
+              "share": "1437/10000"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "CHĽABA",
+              "lv_number": "2716",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6702",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6944",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "6943",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "477",
+              "share": "1/34"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "502",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "502",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6702",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6944",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6943",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5482",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH, ZARIADENÍ DOMU",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5482",
+              "share": "1437/10000"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "CHĽABA",
+              "lv_number": "2716",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "477",
+              "share": "1/34"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "502",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "502",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 9
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2017,
+              "share": "1/1"
+            },
+            {
+              "type": "ZARIADENIE DOMÁCNOSTI",
+              "share": "BSM"
+            },
+            {
+              "type": "NÁSTROJE KOLEKTÍVNEHO INVESTOVANIA",
+              "share": "BSM"
+            },
+            {
+              "type": "HOTOVOSŤ",
+              "share": "1/1"
+            },
+            {
+              "type": "HOTOVOSŤ",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2017,
+              "share": "1/1"
+            },
+            {
+              "type": "ZARIADENIE DOMÁCNOSTI",
+              "share": "BSM"
+            },
+            {
+              "type": "NÁSTROJE KOLEKTÍVNEHO INVESTOVANIA",
+              "share": "BSM"
+            },
+            {
+              "type": "HOTOVOSŤ",
+              "share": "BSM"
+            },
+            {
+              "type": "HOTOVOSŤ",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "DOPLNKOVÉ DÔCHODKOVÉ SPORENIE II. PILIER, podiel: 1/1",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 50%",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 34%",
+            "ÚSPORY V BANKÁCH, podiel: 1/1",
+            "ÚSPORY V BANKÁCH, podiel: BSM"
+          ],
+          "new": [
+            "DOPLNKOVÉ DÔCHODKOVÉ SPORENIE II. PILIER, podiel: 1/1",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 50%",
+            "OBCHODNÝ PODIEL V S.R.O, podiel: 34%",
+            "ÚSPORY V BANKÁCH, podiel: BSM",
+            "ÚSPORY V BANKÁCH, podiel: 1/1"
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 52 305 € → 97 166 € (+44 861 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 9 → 9 (0)",
+      "Hnuteľný majetok: 5 → 5 (0)",
+      "Majetkové práva: 5 → 5 (0)"
+    ]
+  },
   "slug": "doc-judr-milan-hodas-phd",
   "context": {
     "latest_year": 2024,

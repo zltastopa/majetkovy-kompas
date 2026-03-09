@@ -551,6 +551,78 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Aniko.Dusikova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Aniko.Dusikova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 23472,
+            "other": 21687
+          },
+          "new": {
+            "public_function": 24485,
+            "other": 25807
+          },
+          "old_total": 45159,
+          "new_total": 50292,
+          "delta": 5133,
+          "delta_pct": 11.4
+        },
+        {
+          "field": "employment",
+          "old": "FILOZOFICKÁ FAKULTA UK BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "FILOZOFICKÁ FAKULTA UK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLENKA",
+              "organization": "AKADEMICKÝ SENÁT UK BRATISLAVA",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT S PODIELOM K POZEMKU A SČD, SZD",
+              "cadastral_territory": "BRATISLAVA 4 KARLOVA VES",
+              "lv_number": "3229",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT S PODIELOM K POZEMKU A SČD, SZD",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "3229",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 45 159 € → 50 292 € (+5 133 €)",
+      "Zamestnanie",
+      "Funkcie",
+      "Nehnuteľnosti: 1 → 1 (0)"
+    ]
+  },
   "slug": "doc-phdr-aniko-dusikova-csc",
   "context": {
     "latest_year": 2024,

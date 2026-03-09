@@ -346,6 +346,50 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Frantisek.Olha.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Frantisek.Olha.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 78180,
+            "other": 7625
+          },
+          "new": {
+            "public_function": 71111,
+            "other": 8045
+          },
+          "old_total": 85805,
+          "new_total": 79156,
+          "delta": -6649,
+          "delta_pct": -7.7
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "AKCIE V A.S., podiel: 30%"
+          ],
+          "new": [
+            "AKCIE A.S., podiel: 30%"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 85 805 € → 79 156 € (-6 649 €)",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-frantisek-olha",
   "context": {
     "latest_year": 2024,

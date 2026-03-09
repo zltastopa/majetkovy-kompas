@@ -1263,6 +1263,217 @@
     }
   ],
   "total_changes": 19,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Igor.Hianik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Igor.Hianik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 32028,
+            "other": 68
+          },
+          "new": {
+            "public_function": 69107,
+            "other": 0
+          },
+          "old_total": 32096,
+          "new_total": 69107,
+          "delta": 37011,
+          "delta_pct": 115.3
+        },
+        {
+          "field": "employment",
+          "old": "MESTO DUBNICA NAD VÁHOM\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "VÝKON PRÁV SPOLOČNÍKA",
+              "organization": "IN ARCHITEKTI, S.R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "VÝKON PRÁV SPOLOČNÍKA",
+              "organization": "IN ARCHITEKTI, S.R.O.",
+              "benefits": "BEZ PRÍJMU"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "5645",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK POD BYTOVÝM DOMOM",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "5645",
+              "share": "6855/209575"
+            },
+            {
+              "type": "GARÁŽ PLECHOVÁ",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "BEZ LV",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "356",
+              "share": "3/4"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "381",
+              "share": "1/4"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "382",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "415",
+              "share": "9/16"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "437",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "438",
+              "share": "1/4"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "459",
+              "share": "9/16"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "549",
+              "share": "1/4"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "592",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "223",
+              "share": "1/4"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "228",
+              "share": "1739/75040, 1003/10720"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "346",
+              "share": "1/4"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "5645",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK POD BYTOVÝM DOMOM",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "5645",
+              "share": "6855/209575"
+            },
+            {
+              "type": "GARÁŽ - PLECHOVÁ",
+              "cadastral_territory": "PEZINOK",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "79",
+              "share": "19/32"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "120",
+              "share": "3/6"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "146",
+              "share": "1/10"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "147",
+              "share": "3/8"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "190",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "191",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 21
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 32 096 € → 69 107 € (+37 011 €)",
+      "Zamestnanie",
+      "Funkcie: 1 → 1 (0)",
+      "Nehnuteľnosti: 3 → 21 (+18)"
+    ]
+  },
   "slug": "ing-arch-igor-hianik",
   "context": {
     "latest_year": 2024,

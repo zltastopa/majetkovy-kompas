@@ -839,6 +839,165 @@
     }
   ],
   "total_changes": 23,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Frohlich.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Frohlich.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK INVESTMENT HOLDING, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK ASSET MANAGEMENT, SPRÁV. SPOL., A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND III., S.R.O.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND III., S.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK INVESTMENT HOLDING, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK CAPITAL MANAGEMENT, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 55296,
+            "other": 110800
+          },
+          "new": {
+            "public_function": 34320,
+            "other": 125527
+          },
+          "old_total": 166096,
+          "new_total": 159847,
+          "delta": -6249,
+          "delta_pct": -3.8
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "EURÓPSKA INVESTIČNÁ BANKA",
+              "benefits": "ŽIADNE (S VÝNIMKOU CESTOVNÝCH NÁHRAD A DIÉT)"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "GA HOLDING, J.S.A.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "GA HOLDING, J.S.A.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "EURÓPSKA INVESTIČNÁ BANKA",
+              "benefits": "ŽIADNE (S VÝNIMKOU CESTOVNÝCH NÁHRAD A DIÉT)"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3857",
+              "share": "100%"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3857",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3857",
+              "share": "100%"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3857",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "STUDENÉ",
+              "lv_number": "2842",
+              "share": "BSM"
+            },
+            {
+              "type": "PARCELY",
+              "cadastral_territory": "STUDENÉ",
+              "lv_number": "2842",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 4
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "18. 12. 2014"
+            },
+            {
+              "type": "ÚČELOVÝ SPLÁTKOVÝ ÚVER",
+              "share": "100%",
+              "date": "18. 12. 2014"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "18. 12. 2014"
+            },
+            {
+              "type": "ÚČELOVÝ SPLÁTKOVÝ ÚVER",
+              "share": "100%",
+              "date": "18. 12. 2014"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "30. 07. 2024"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "30. 10. 2024"
+            },
+            {
+              "type": "AMERICKÁ HYPOTÉKA",
+              "share": "BSM",
+              "date": "12. 02. 2021"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 166 096 € → 159 847 € (-6 249 €)",
+      "Funkcie: 2 → 2 (0)",
+      "Nehnuteľnosti: 2 → 4 (+2)",
+      "Záväzky: 2 → 5 (+3)"
+    ]
+  },
   "slug": "ing-peter-frohlich",
   "context": {
     "latest_year": 2024,

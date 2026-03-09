@@ -540,6 +540,106 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Cech.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Cech.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 8892,
+            "other": 42948
+          },
+          "new": {
+            "public_function": 49908,
+            "other": 18797
+          },
+          "old_total": 51840,
+          "new_total": 68705,
+          "delta": 16865,
+          "delta_pct": 32.5
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC",
+              "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA, NOTEBOOK"
+            },
+            {
+              "role": "STAROSTA",
+              "organization": "OBEC SKALITÉ",
+              "benefits": "ODMENA, MOBILNÝ TELEFÓN, NOTEBOOK"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC",
+              "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "NOTEBOOK, ODMENA"
+            },
+            {
+              "role": "STAROSTA",
+              "organization": "OBEC SKALITÉ",
+              "benefits": "ODMENA, NOTEBOOK, TELEFÓN"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2021,
+              "share": "100%"
+            }
+          ]
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "14. 01. 2015"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "14. 01. 2015"
+            },
+            {
+              "type": "SPOTREBITEĽSKÝ ÚVER",
+              "share": "100%",
+              "date": "18. 09. 2024"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 51 840 € → 68 705 € (+16 865 €)",
+      "Funkcie: 2 → 2 (0)",
+      "Hnuteľný majetok",
+      "Záväzky: 1 → 2 (+1)"
+    ]
+  },
   "slug": "paeddr-jozef-cech",
   "context": {
     "latest_year": 2024,

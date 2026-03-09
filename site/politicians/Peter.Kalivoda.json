@@ -517,6 +517,160 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Kalivoda.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Kalivoda.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11736,
+            "other": 0
+          },
+          "new": {
+            "public_function": 49070,
+            "other": 0
+          },
+          "old_total": 11736,
+          "new_total": 49070,
+          "delta": 37334,
+          "delta_pct": 318.1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7054",
+              "share": "6031/307517"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "6893",
+              "share": "1/22"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "6893",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7054",
+              "share": "59783/6765374"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
+              "lv_number": "2297",
+              "share": "1/2"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "BRATISLAVA - PODUNAJSKÉ BISKUPICE",
+              "lv_number": "9593",
+              "share": "1/189"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - PODUNAJSKÉ BISKUPICE",
+              "lv_number": "9593",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "7054",
+              "share": "6031/307517"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "6893",
+              "share": "1/22"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "6893",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "7054",
+              "share": "59183/6765374"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PLAVECKÝ ŠTVRTOK",
+              "lv_number": "2297",
+              "share": "1/2"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "BRATISLAVA PODUNAJSKÉ BISKUPICE",
+              "lv_number": "9593",
+              "share": "1/189"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA PODUNAJSKÉ BISKUPICE",
+              "lv_number": "9593",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "AUDI",
+              "year_of_manufacture": 2014,
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "LEXUS",
+              "year_of_manufacture": 2024,
+              "share": "100%"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "gifts",
+          "old": null,
+          "new": "FINANČNÝ DAR OD OTCA, dátum prijatia: 16. 01. 2024"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 11 736 € → 49 070 € (+37 334 €)",
+      "Nehnuteľnosti: 7 → 7 (0)",
+      "Hnuteľný majetok: 1 → 1 (0)",
+      "Dary"
+    ]
+  },
   "slug": "mgr-peter-kalivoda",
   "context": {
     "latest_year": 2024,

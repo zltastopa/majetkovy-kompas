@@ -722,6 +722,56 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Monika.Vrzgulova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Monika.Vrzgulova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 15648,
+            "other": 33440
+          },
+          "new": {
+            "public_function": 17180,
+            "other": 34018
+          },
+          "old_total": 49088,
+          "new_total": 51198,
+          "delta": 2110,
+          "delta_pct": 4.3
+        },
+        {
+          "field": "employment",
+          "old": "ÚSTAV ETNOLÓGIE A SOC. ANTROPOLÓGIE SAV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ÚSTAV ETNOLÓGIE A SOCIÁLNEJ ANTROPOLÓGIE SAV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDNÍČKA SPRÁVNEJ RADY",
+              "organization": "NADÁCIA MILANA ŠIMEČKU",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 49 088 € → 51 198 € (+2 110 €)",
+      "Zamestnanie",
+      "Funkcie"
+    ]
+  },
   "slug": "phdr-monika-vrzgulova-csc",
   "context": {
     "latest_year": 2024,

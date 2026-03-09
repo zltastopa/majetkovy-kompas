@@ -534,6 +534,124 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marcel.Filaga.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marcel.Filaga.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 41536,
+            "other": 8400
+          },
+          "new": {
+            "public_function": 34645,
+            "other": 9000
+          },
+          "old_total": 49936,
+          "new_total": 43645,
+          "delta": -6291,
+          "delta_pct": -12.6
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC ZASTUPITEĽSTVA NSK, ČLEN KOMISIE SOCIÁLNEJ POMOCI, ČLEN KOMISIE DOPRAVY",
+              "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ZÁPADOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ",
+              "benefits": "PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "MESTSKÁ LEKÁREŇ ŠURANY S.R.O. ",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "KONATEĽ",
+              "organization": "MESTSKÁ LEKÁREŇ ŠURANY S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ZÁPADOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC ZASTUPITEĽSTVA, ČLEN KOMISIE SOCIÁLNEJ POMOCI, ČLEN KOMISIE DOPRAVY",
+              "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK REGISTRA C",
+              "cadastral_territory": "KOSTOLNÝ SEK",
+              "lv_number": "1293",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK REGISTRA C",
+              "cadastral_territory": "KOSTOLNÝ SEK",
+              "lv_number": "1293",
+              "share": "1/1"
+            },
+            {
+              "type": "STAVBA RODINNÝ DOM",
+              "cadastral_territory": "KOSTOLNÝ SEK",
+              "lv_number": "1293",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK, PARCELA REGISTRA C",
+              "cadastral_territory": "KOSTOLNÝ SEK",
+              "lv_number": "1293",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK, PARCELA REGISTRA C",
+              "cadastral_territory": "KOSTOLNÝ SEK",
+              "lv_number": "1293",
+              "share": "1/1"
+            },
+            {
+              "type": "STAVBA RODINNÝ DOM",
+              "cadastral_territory": "KOSTOLNÝ SEK",
+              "lv_number": "1293",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 49 936 € → 43 645 € (-6 291 €)",
+      "Funkcie: 3 → 3 (0)",
+      "Nehnuteľnosti: 3 → 3 (0)"
+    ]
+  },
   "slug": "mgr-marcel-filaga",
   "context": {
     "latest_year": 2024,

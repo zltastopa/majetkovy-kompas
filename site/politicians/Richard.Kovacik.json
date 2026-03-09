@@ -490,6 +490,60 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Richard.Kovacik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Richard.Kovacik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 9824,
+            "other": 21526
+          },
+          "new": {
+            "public_function": 11439,
+            "other": 18523
+          },
+          "old_total": 31350,
+          "new_total": 29962,
+          "delta": -1388,
+          "delta_pct": -4.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT, SPOLOČNÉ PRIESTORY A PRISLÚCHAJÚCE PARCELY",
+              "cadastral_territory": "NITRA - CHRENOVÁ",
+              "lv_number": "2276-2279",
+              "share": "1/1, 1/316"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT+ SPOLOČNÉ PRIESTORY A PRISLÚCHAJÚCE PARCELY",
+              "cadastral_territory": "NITRA - CHRENOVÁ",
+              "lv_number": "2276 - 2279",
+              "share": "1/1, 1/316"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 31 350 € → 29 962 € (-1 388 €)",
+      "Nehnuteľnosti: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-richard-kovacik-phd",
   "context": {
     "latest_year": 2024,

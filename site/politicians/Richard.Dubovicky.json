@@ -219,6 +219,91 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Richard.Dubovicky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Richard.Dubovicky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 43992,
+            "other": 4377
+          },
+          "old_total": 0,
+          "new_total": 48369,
+          "delta": 48369
+        },
+        {
+          "field": "employment",
+          "old": "SIEMENS HEALTHCARE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "SIEMENS HEALTHCARE S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC MESTA PREŠOV",
+              "organization": "MESTO PREŠOV",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "MESTSKÝ PODNIK SLUŽIEB PREŠOV S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "DOPRAVNÝ PODNIK MESTA PREŠOV A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "MESTSKÝ PODNIK SLUŽIEB PREŠOV, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "DOPRAVNÝ PODNIK MESTA PREŠOV, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "MESTO PREŠOV",
+              "benefits": "ODMENA"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "AKCIOVÉ FONDY, podiel: 1/1"
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 48 369 € (+48 369 €)",
+      "Zamestnanie",
+      "Funkcie: 3 → 3 (0)",
+      "Majetkové práva"
+    ]
+  },
   "slug": "richard-dubovicky-mba",
   "context": {
     "latest_year": 2024,

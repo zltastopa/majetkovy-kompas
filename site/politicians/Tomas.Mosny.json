@@ -970,6 +970,102 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tomas.Mosny.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tomas.Mosny.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 58516,
+            "other": 0
+          },
+          "new": {
+            "public_function": 63882,
+            "other": 0
+          },
+          "old_total": 58516,
+          "new_total": 63882,
+          "delta": 5366,
+          "delta_pct": 9.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "KOŠICE-KRÁSNA",
+              "lv_number": "3390",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LIPTOVSKÝ TRNOVEC",
+              "lv_number": "1314",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "PLOSKÉ",
+              "lv_number": "1276",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "PLOSKÉ",
+              "lv_number": "1852",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "PLOSKÉ",
+              "lv_number": "598",
+              "share": "1/3"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "PLOSKÉ",
+              "lv_number": "1684",
+              "share": "1/5"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "KOŠICE - KRÁSNA",
+              "lv_number": "3390",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "2434",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LIPTOVSKÝ TRNOVEC",
+              "lv_number": "1314",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 58 516 € → 63 882 € (+5 366 €)",
+      "Nehnuteľnosti: 6 → 3 (-3)"
+    ]
+  },
   "slug": "ing-tomas-mosny",
   "context": {
     "latest_year": 2024,

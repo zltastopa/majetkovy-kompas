@@ -389,6 +389,50 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Laus.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Laus.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN, A.S. )",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7358,
+            "other": 74263
+          },
+          "new": {
+            "public_function": 11532,
+            "other": 74206
+          },
+          "old_total": 81621,
+          "new_total": 85738,
+          "delta": 4117,
+          "delta_pct": 5.0
+        },
+        {
+          "field": "employment",
+          "old": "LETECKÉ OPRAVOVNE TRENČÍN A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "LETECKÉ OPRAVOVNE TRENČÍN, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 81 621 € → 85 738 € (+4 117 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "ing-juraj-laus",
   "context": {
     "latest_year": 2024,

@@ -578,6 +578,178 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Lovasik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Lovasik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO DOPRAVY SLOVENSKEJ REPUBLIKY)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA ŠTÁTOM PODPOROVANÉHO NÁJOMNÉHO BÝVANIA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO M.R. ŠTEFÁNIKA - AIRPORT BRATISLAVA, A.S. (BTS))člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VEREJNÉ PRÍSTAVY, A.S.)generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO DOPRAVY SR)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 12863,
+            "other": 3560
+          },
+          "new": {
+            "public_function": 77862,
+            "other": 0
+          },
+          "old_total": 16423,
+          "new_total": 77862,
+          "delta": 61439,
+          "delta_pct": 374.1
+        },
+        {
+          "field": "employment",
+          "old": "ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITNÁ NEMOCNICA BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "SPOLOČNÉ ČASTI A ZARIADENIA DOMU",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13139",
+              "share": "9190/134800"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13139",
+              "share": "2/15"
+            },
+            {
+              "type": "SPOLOČNÉ ČASTI A ZARIADENIA DOMU",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "11118",
+              "share": "7126/652477"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "11118",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13139",
+              "share": "1/1"
+            },
+            {
+              "type": "ROZOSTAVANÁ CHATA",
+              "cadastral_territory": "OŠČADNICA",
+              "lv_number": "12446",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "OŠČADNICA",
+              "lv_number": "12446",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "OŠČADNICA",
+              "lv_number": "5743",
+              "share": "3/1600"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "OŠČADNICA",
+              "lv_number": "12447",
+              "share": "1/3"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "OŠČADNICA",
+              "lv_number": "12447",
+              "share": "1/3"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "OŠČADNICA",
+              "lv_number": "12447",
+              "share": "1/3"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "11118",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13139",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "OŠČADNICA",
+              "lv_number": "12446",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "11118",
+              "share": "2/74"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13139",
+              "share": "2/15"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "OŠČADNICA",
+              "lv_number": "5743",
+              "share": "3/1600"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 8
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL, podiel: 100%",
+            "VYBAVENIE DOMÁCNOSTI, podiel: 100%",
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE + ÚSPORY, podiel: 100%"
+          ],
+          "new": [
+            "OBCHODNÝ PODIEL, podiel: 100%",
+            "VYBAVENIE DOMÁCNOSTI, podiel: 100%",
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE A ÚSPORY, podiel: 100%"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 16 423 € → 77 862 € (+61 439 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 9 → 8 (-1)",
+      "Majetkové práva: 3 → 3 (0)"
+    ]
+  },
   "slug": "phdr-juraj-lovasik-mph",
   "context": {
     "latest_year": 2024,

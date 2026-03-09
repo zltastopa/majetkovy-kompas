@@ -630,6 +630,126 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tomas.Kuban.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tomas.Kuban.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "likvidátor (ÚSTAV TECHNOLÓGIE A RACIONALIZÁCIE, ŠTÁTNY PODNIK V LIKVIDÁCIÍ )",
+          "new": "likvidátor (ÚSTAV TECHNOLÓGIE A RACIONALIZÁCIE ŠTÁTNY PODNIK V LIKVIDÁCII)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1100,
+            "other": 18191
+          },
+          "new": {
+            "public_function": 0,
+            "other": 25868
+          },
+          "old_total": 19291,
+          "new_total": 25868,
+          "delta": 6577,
+          "delta_pct": 34.1
+        },
+        {
+          "field": "employment",
+          "old": "BRATISLAVSKÉ CENTRUM SLUŽIEB\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "BRATISLAVSKĚ CENTRUM SLUŽIEB\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ A ADVOKÁT(TOMÁŠ KUBÁŇ, ADVOKÁTSKA KANCELÁRIA, S. R. O. )",
+          "new": "KONATEĽ A ADVOKÁT(TOMÁŠ KUBÁŇ, ADVKOKÁTSKA KANCELÁRIA, S.R.O.)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "3856",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "3856",
+              "share": "14/951"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LUDROVÁ",
+              "lv_number": "3184",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA, ZÁHRADA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "LUDROVÁ",
+              "lv_number": "3184",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LUDROVÁ",
+              "lv_number": "3184",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LUDROVÁ",
+              "lv_number": "3184",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA,  ZÁHRADA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "LUDROVÁ",
+              "lv_number": "3184",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LUDROVÁ",
+              "lv_number": "3184",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "3856",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÉ PRIESTORY",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "3856",
+              "share": "14/951"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 19 291 € → 25 868 € (+6 577 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
+  },
   "slug": "mgr-tomas-kuban",
   "context": {
     "latest_year": 2024,

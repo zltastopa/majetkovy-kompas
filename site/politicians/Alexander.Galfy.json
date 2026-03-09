@@ -357,6 +357,139 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Alexander.Galfy.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Alexander.Galfy.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZAPADOSLOVENSKÁ DISTRIBUČNÁ, A. S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 8893,
+            "other": 7603
+          },
+          "old_total": 0,
+          "new_total": 16496,
+          "delta": 16496
+        },
+        {
+          "field": "employment",
+          "old": "TATRY SPORT S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "TATRY SPORT S.R.O\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "KONATEĽ",
+              "organization": "TATRA SKI RENT S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "J&A GASTRO, SPOL. S R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "TATRY SPORT, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "TATRANSKÁ LYŽIARSKA ŠKOLA, SPOL. S R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "GALFYSPORT S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "TATRAGASTRO, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "ALEMARKT, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "1. TATRANSKÁ LYŽIARSKA ŠKOLA, S.R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "KONATEĽ",
+              "organization": "TATRAGASTRO, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "GALFYSPORT S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "1. TATRANSKÁ LYŽIARSKA ŠKOLA, S. R. O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "ALEMARKT, S. R. O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "J&A GASTRO, SPOL. S R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "TATRA SKI RENT S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "TATRANSKÁ LYŽIARSKA ŠKOLA, SPOL. S R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "TATRY SPORT, S.R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 8
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 16 496 € (+16 496 €)",
+      "Zamestnanie",
+      "Funkcie: 8 → 8 (0)"
+    ]
+  },
   "slug": "alexander-galfy",
   "context": {
     "latest_year": 2024,

@@ -449,6 +449,84 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Korba.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Korba.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 13840,
+            "other": 47012
+          },
+          "new": {
+            "public_function": 21600,
+            "other": 58300
+          },
+          "old_total": 60852,
+          "new_total": 79900,
+          "delta": 19048,
+          "delta_pct": 31.3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+              "lv_number": "10835",
+              "share": "1/2"
+            },
+            {
+              "type": "GARÁŽ RADOVÁ",
+              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+              "lv_number": "10268",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "KALUŽA",
+              "lv_number": "434",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+              "lv_number": "10835",
+              "share": "1/2"
+            },
+            {
+              "type": "RADOVÁ GARÁŽ",
+              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+              "lv_number": "10268",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "KALUŽA",
+              "lv_number": "434",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 60 852 € → 79 900 € (+19 048 €)",
+      "Nehnuteľnosti: 3 → 3 (0)"
+    ]
+  },
   "slug": "doc-ing-peter-korba-phd",
   "context": {
     "latest_year": 2024,

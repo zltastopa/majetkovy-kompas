@@ -1440,6 +1440,242 @@
     }
   ],
   "total_changes": 26,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Julius.Jakab.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Julius.Jakab.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republikyvedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SLOVENSKEJ REPUBLIKY)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK INVESTMENT HOLDING, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EXPORTNO-IMPORTNÁ BANKA SLOVENSKEJ\r\nREPUBLIKY, SKRÁTENE EXIMBANKA)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA ŠTÁTOM PODPOROVANÉHO\r\nNÁJOMNÉHO BÝVANIA)",
+          "new": "poslanec Národnej rady Slovenskej republiky"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 79765,
+            "other": 24948
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 500
+          },
+          "old_total": 104713,
+          "new_total": 49412,
+          "delta": -55301,
+          "delta_pct": -52.8
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN PREDSEDNÍCTVA",
+              "organization": "SLOVENSKO",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN PREDSEDNÍCTVA",
+              "organization": "SLOVENSKO",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "DAXNERKA",
+              "benefits": "ÚHRNNÁ ODMENA 500 EUR PRIPÍSANÁ NA ÚČET V BANKE"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "MLADÍ SLOVENSKO",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA -  NOVÉ MESTO",
+              "lv_number": "3008",
+              "share": "100%"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH ZARIADENÍ A POZEMKU",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3008",
+              "share": "6274/325889"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TEPLIČKA NAD VÁHOM",
+              "lv_number": "2108",
+              "share": "3/16"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TEPLIČKA NAD VÁHOM",
+              "lv_number": "2107",
+              "share": "1/8"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5111",
+              "share": "BSM"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH ZARIADENÍ A POZEMKU",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5111",
+              "share": "535/50891 (BSM)"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5976",
+              "share": "BSM"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH ZARIADENÍ A POZEMKU",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5976",
+              "share": "808/12862 (BSM)"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3008",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL PRIEST. NA SPOL. ČAST. ZARIADENÍ A POZEMKU",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3008",
+              "share": "6274/325889"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TEPLIČKA NAD VÁHOM",
+              "lv_number": "2108",
+              "share": "3/16"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TEPLIČKA NAD VÁHOM",
+              "lv_number": "2107",
+              "share": "1/8"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5111",
+              "share": "BSM"
+            },
+            {
+              "type": "PODIEL PRIEST. NA SPOL. ČAST. ZARIADENÍ A POZEMKU",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5111",
+              "share": "535/50891 (BSM)"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5976",
+              "share": "BSM"
+            },
+            {
+              "type": "PODIEL PRIEST. NA SPOL. ČASŤ. ZARIADENÍ A POZEMKU",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5976",
+              "share": "808/12862(BSM)"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 8
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚČET V BANKE, podiel: 100%"
+          ],
+          "new": [
+            "ÚČET V BANKE, podiel: 1/1"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "19. 11. 2015"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "20. 11. 2015"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "30. 11. 2020"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "15. 03. 2021"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "19. 11. 2015"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "20. 11. 2015"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "30. 11. 2020"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "15. 03. 2021"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 104 713 € → 49 412 € (-55 301 €)",
+      "Funkcie: 1 → 3 (+2)",
+      "Nehnuteľnosti: 8 → 8 (0)",
+      "Majetkové práva: 1 → 1 (0)",
+      "Záväzky: 4 → 4 (0)"
+    ]
+  },
   "slug": "ing-julius-jakab",
   "context": {
     "latest_year": 2024,

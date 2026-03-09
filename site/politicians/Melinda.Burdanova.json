@@ -204,6 +204,114 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Melinda.Burdanova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Melinda.Burdanova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA A.S.\r\nNADÁCIA SLOVENSKEJ POŠTY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 45458,
+            "other": 53126
+          },
+          "old_total": 0,
+          "new_total": 98584,
+          "delta": 98584
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "SLOVENSKÁ POŠTA A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "805211 KARLOVA VES",
+              "lv_number": "4577",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "4577",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2017,
+              "share": "1/1"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "TERMINOVANÝ VKLAD, podiel: 1/1",
+            "SPORENIE, podiel: 1/1",
+            "PODIELOVÉ FONDY, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1"
+          ],
+          "new": [
+            "TERMÍNOVANÉ VKLADY, podiel: 1/1",
+            "SPORENIA, podiel: 1/1",
+            "PODIELOVÉ FONDY, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1"
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "vehicles",
+          "old": null,
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2018
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 98 584 € (+98 584 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 1 → 1 (0)",
+      "Hnuteľný majetok",
+      "Majetkové práva: 4 → 4 (0)",
+      "Vozidlá"
+    ]
+  },
   "slug": "ing-melinda-burdanova",
   "context": {
     "latest_year": 2024,

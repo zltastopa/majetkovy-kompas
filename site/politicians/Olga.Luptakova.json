@@ -488,6 +488,46 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Olga.Luptakova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Olga.Luptakova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 51214,
+            "other": 11280
+          },
+          "new": {
+            "public_function": 62884,
+            "other": 11880
+          },
+          "old_total": 62494,
+          "new_total": 74764,
+          "delta": 12270,
+          "delta_pct": 19.6
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA BANKOVOM ÚČTE, podiel: 100%"
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 62 494 € → 74 764 € (+12 270 €)",
+      "Majetkové práva"
+    ]
+  },
   "slug": "mgr-olga-luptakova",
   "context": {
     "latest_year": 2024,

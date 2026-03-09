@@ -210,6 +210,50 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Alena.Novakova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Alena.Novakova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 8707,
+            "other": 0
+          },
+          "new": {
+            "public_function": 48981,
+            "other": 0
+          },
+          "old_total": 8707,
+          "new_total": 48981,
+          "delta": 40274,
+          "delta_pct": 462.5
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "2X PODIEL V S.R.O., podiel: 100%"
+          ],
+          "new": [
+            "2X PODIEL V S.R.O., podiel: 100 %"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 8 707 € → 48 981 € (+40 274 €)",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
+  },
   "slug": "phdr-alena-novakova-mba",
   "context": {
     "latest_year": 2024,

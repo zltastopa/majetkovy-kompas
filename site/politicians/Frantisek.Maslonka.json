@@ -488,6 +488,96 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Frantisek.Maslonka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Frantisek.Maslonka.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 59438,
+            "other": 0
+          },
+          "new": {
+            "public_function": 56411,
+            "other": 0
+          },
+          "old_total": 59438,
+          "new_total": 56411,
+          "delta": -3027,
+          "delta_pct": -5.1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NOVÉ MESTO NAD VÁHOM",
+              "lv_number": "301",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "NOVÉ MESTO NAD VÁHOM",
+              "lv_number": "301",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "REĽOV",
+              "lv_number": "424",
+              "share": "1/12"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "REĽOV",
+              "lv_number": "424",
+              "share": "1/12"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "REĽOV",
+              "lv_number": "424",
+              "share": "1/12"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NOVÉ MESTO NAD VÁHOM",
+              "lv_number": "301",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "NOVÉ MESTO NAD VÁHOM",
+              "lv_number": "301",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "REĽOV",
+              "lv_number": "424",
+              "share": "1/12"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 59 438 € → 56 411 € (-3 027 €)",
+      "Nehnuteľnosti: 4 → 4 (0)"
+    ]
+  },
   "slug": "ing-frantisek-maslonka",
   "context": {
     "latest_year": 2024,

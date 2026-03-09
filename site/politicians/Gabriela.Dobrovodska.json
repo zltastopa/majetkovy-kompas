@@ -1060,6 +1060,285 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Gabriela.Dobrovodska.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Gabriela.Dobrovodska.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10577,
+            "other": 25545
+          },
+          "new": {
+            "public_function": 25740,
+            "other": 136617
+          },
+          "old_total": 36122,
+          "new_total": 162357,
+          "delta": 126235,
+          "delta_pct": 349.5
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ,  A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "POZASTAVENÝ VÝKON ČINNOSTI DP OD 01.01.2024(Ing. GABRIELA DOBROVODSKÁ - DAŇOVÝ PORADCA)",
+          "new": "POZASTAVENÝ VÝKON ČINNOSTI DP OD 01.01.2024(ING. GABRIELA DOBROVODSKÁ-DAŇOVÝ PORADCA)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VEĽKÝ BYSTEREC",
+              "lv_number": "4417",
+              "share": "5143/247420"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "9695",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "9865",
+              "share": "BSM 5840/455479"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1629",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1629",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VEĽKÝ BYSTEREC",
+              "lv_number": "4362",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1629",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1629",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1629",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "4411",
+              "share": "BSM 1/357"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR GARÁŽ",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "4403",
+              "share": "BSM 1250/20752"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - PIVNICA",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "4403",
+              "share": "BSM 264/7659"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "4411",
+              "share": "BSM 1/357"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "9869",
+              "share": "BSM 5840/346139"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "4403",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "4403",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1629",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1629",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1629",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1629",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1629",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "9695",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "9865",
+              "share": "BSM 5840/455479"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "9869",
+              "share": "BSM 5840/346139"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "4403",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "4403",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR-GARÁŽ",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "4403",
+              "share": "BSM 1250/20752"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR PIVNICA",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "4403",
+              "share": "BSM 264/7659"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "4411",
+              "share": "BSM 1/357"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "4411",
+              "share": "BSM 1/357"
+            }
+          ],
+          "old_count": 16,
+          "new_count": 14
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "09. 12. 2014"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "06. 07. 2022"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "13. 07. 2023"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "06. 10. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "09. 12. 2014"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "06. 07. 2022"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "13. 07. 2023"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 36 122 € → 162 357 € (+126 235 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti: 16 → 14 (-2)",
+      "Záväzky: 4 → 3 (-1)"
+    ]
+  },
   "slug": "ing-gabriela-dobrovodska",
   "context": {
     "latest_year": 2024,

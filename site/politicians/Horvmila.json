@@ -1048,6 +1048,58 @@
     }
   ],
   "total_changes": 29,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Horvmila.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Horvmila.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S. )člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 55312,
+            "other": 74884
+          },
+          "new": {
+            "public_function": 139339,
+            "other": 0
+          },
+          "old_total": 130196,
+          "new_total": 139339,
+          "delta": 9143,
+          "delta_pct": 7.0
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "VKLADY V BANKE, BEŽNÝ ÚČET, PODIELOVÉ FONDY V BANKE., podiel: 50%",
+            "ŽIVOTNÉ POISTENIE OSOBNÉ, ŽIVOTNÉ POISTENIE MANŽELKY,, podiel: 50%"
+          ],
+          "new": [
+            "VKLADY V BANKE, BEŽNÝ ÚČET, PODIELOVÉ FONDY V BANKE,\r\nASSET MANAGEMENT V BANKE, podiel: 50%",
+            "ŽIVOTNÉ POISTENIE OSOBNÉ, ŽIVOTNÉ POISTENIE MANŽELKY,\r\nDOPLNKOVÉ DÔCHODKOVÉ SPORENIE, podiel: 50%"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 130 196 € → 139 339 € (+9 143 €)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-milan-horvath",
   "context": {
     "latest_year": 2024,

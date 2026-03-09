@@ -460,6 +460,84 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Dusan.Novota.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Dusan.Novota.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2482,
+            "other": 13112
+          },
+          "new": {
+            "public_function": 30293,
+            "other": 114243
+          },
+          "old_total": 15594,
+          "new_total": 144536,
+          "delta": 128942,
+          "delta_pct": 826.9
+        },
+        {
+          "field": "employment",
+          "old": "LETISKO M.R. ŠTEFÁNIKA AIRPORT BRATISLAVA A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "LETISKO M.R. ŠTEFÁNIKA - AIRPORT BRATISLAVA BTS\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "3989",
+              "share": "BSM"
+            },
+            {
+              "type": "REKREAČNÝ DOM",
+              "cadastral_territory": "SEMMERING RAKÚSKO",
+              "lv_number": "NR 765/02",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "3989",
+              "share": "BSM"
+            },
+            {
+              "type": "REKREAČNÝ DOM",
+              "cadastral_territory": "SEMMERING RAKÚSKO",
+              "lv_number": "NR765/02",
+              "share": "100%"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "RODINNÝ DOM, kat. územie BRATISLAVA - PETRŽALKA, rok zač. užívania: 2002, spôsob užívania: TRVALO",
+          "new": "RODINNÝ DOM, kat. územie BRATISLAVA PETRŽALKA, rok zač. užívania: 2002, spôsob užívania: TRVALÉ UŽÍVANIE"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 15 594 € → 144 536 € (+128 942 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Užívanie nehnuteľností"
+    ]
+  },
   "slug": "ing-dusan-novota",
   "context": {
     "latest_year": 2024,

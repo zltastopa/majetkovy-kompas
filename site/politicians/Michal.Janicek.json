@@ -529,6 +529,50 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Michal.Janicek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Michal.Janicek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ\r\nSÚSTAVA, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ A ELEKTRIZAČNÁ PRENOSOVÁ\r\nSÚSTAVA, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 12324,
+            "other": 27647
+          },
+          "new": {
+            "public_function": 12324,
+            "other": 28848
+          },
+          "old_total": 39971,
+          "new_total": 41172,
+          "delta": 1201,
+          "delta_pct": 3.0
+        },
+        {
+          "field": "employment",
+          "old": "SOZE, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nAMPERA, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "AMPERA, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSOZE, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 39 971 € → 41 172 € (+1 201 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "ing-michal-janicek",
   "context": {
     "latest_year": 2024,

@@ -1539,6 +1539,324 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Rastislav.Flesko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Rastislav.Flesko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 49777,
+            "other": 18386
+          },
+          "new": {
+            "public_function": 23562,
+            "other": 65035
+          },
+          "old_total": 68163,
+          "new_total": 88597,
+          "delta": 20434,
+          "delta_pct": 30.0
+        },
+        {
+          "field": "employment",
+          "old": "TECHNICKÁ INŠPEKCIA, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÉ ELEKRÁRNE, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "9326",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "9327",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "9327",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "1083",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "1083",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "1083",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "1083",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "9326",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "9326",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "9326",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "1083",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "1083",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "1083",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "1083",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "9326",
+              "share": "10162/21077"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "9326",
+              "share": "10162/21077"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "9326",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "9327",
+              "share": "7/9"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "9619",
+              "share": "1/3"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "9619",
+              "share": "1/3"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2469",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "9327",
+              "share": "7/9"
+            }
+          ],
+          "old_count": 15,
+          "new_count": 21
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "FINANČNÉ PROSTRIEDKY, podiel: BSM"
+          ]
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "12. 01. 2016"
+            },
+            {
+              "type": "DOPLATOK KÚPNEJ CENY ZA RODINNÝ DOM",
+              "share": "1/1",
+              "date": "16. 12. 2020"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "19. 04. 2022"
+            },
+            {
+              "type": "PÔŽIČKA",
+              "share": "1/1",
+              "date": "08. 02. 2021"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "12. 01. 2016"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "12. 04. 2022"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 68 163 € → 88 597 € (+20 434 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 15 → 21 (+6)",
+      "Majetkové práva",
+      "Záväzky: 4 → 2 (-2)"
+    ]
+  },
   "slug": "ing-rastislav-flesko",
   "context": {
     "latest_year": 2024,

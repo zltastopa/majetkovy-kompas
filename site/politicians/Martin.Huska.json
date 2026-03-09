@@ -313,6 +313,131 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Huska.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Huska.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MH TEPLÁRENSKY HOLDING, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ESCO SLOVENSKO, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKY PRIEMYSEL, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MH TEPLÁRENSKÝ HOLDING, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 15480,
+            "other": 30903
+          },
+          "old_total": 0,
+          "new_total": 46383,
+          "delta": 46383
+        },
+        {
+          "field": "employment",
+          "old": "NÁRODNÁ DIALNIČNÁ SPOLOČNOSŤ A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO INVESTÍCIÍ, REGIONÁLNEHO ROZVOJA A INFORMATIZÁCIE SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nVIALIS S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nESCO SLOVENSKO A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN PREDSEDNÍCTVA",
+              "organization": "RADA SLOVENSKÝCH EXPORTÉROV",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "4919",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NOVÁ LIPNICA",
+              "lv_number": "1255",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM SO ZÁHRADOU",
+              "cadastral_territory": "TEPLIČKA NAD VÁHOM",
+              "lv_number": "813",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "4919",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NOVÁ LIPNICA",
+              "lv_number": "1255",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM SO ZÁHRADOU",
+              "cadastral_territory": "TEPLIČKA NAD VÁHOM",
+              "lv_number": "813",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5494",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 4
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL, podiel: 1/1",
+            "OBCHODNÝ PODIEL, podiel: 1/1",
+            "OBCHODNÝ PODIEL, podiel: 1/1",
+            "PEŇAŽNÉ PROSTRIEDKY V BANKE, podiel: 1/1"
+          ],
+          "new": [
+            "OBCHODNÝ PODIEL, podiel: 1/1",
+            "OBCHODNÝ PODIEL, podiel: 1/1",
+            "OBCHODNÝ PODIEL, podiel: 1/1",
+            "PEŇAZNÉ PROSTRIEDKY V BANKE, podiel: 1/1"
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 46 383 € (+46 383 €)",
+      "Zamestnanie",
+      "Funkcie",
+      "Nehnuteľnosti: 3 → 4 (+1)",
+      "Majetkové práva: 4 → 4 (0)"
+    ]
+  },
   "slug": "ing-martin-huska",
   "context": {
     "latest_year": 2024,

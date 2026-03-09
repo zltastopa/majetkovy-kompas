@@ -857,6 +857,150 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Viera.Soltysova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Viera.Soltysova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV STAVEBNÝ, N.O.\r\n)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ DIAĽNIČNÁ SPOLOČNOSŤ, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ DIAĽNIČNÁ SPOLOČNOSŤ, A.S.\r\n)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV STAVEBNÝ, N.O.\r\n)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.\r\n)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 87212
+          },
+          "new": {
+            "public_function": 0,
+            "other": 103670
+          },
+          "old_total": 87212,
+          "new_total": 103670,
+          "delta": 16458,
+          "delta_pct": 18.9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2955",
+              "share": "2105/276235"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2955",
+              "share": "180/276235"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "5420",
+              "share": "1/1"
+            },
+            {
+              "type": "SPOLOČNÉ ČASTI A SPOLOČNÉ ZARIADENIA DOMU",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "5420",
+              "share": "3628/100000"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "NIVY",
+              "lv_number": "2955",
+              "share": "1/1"
+            },
+            {
+              "type": "SPOLOČNÉ ČASTI A SPOLOČNÉ ZARIADENIA DOMU",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2955",
+              "share": "2105/276235"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KALINKOVO",
+              "lv_number": "37",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KALINKOVO",
+              "lv_number": "40",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "5420",
+              "share": "1/1"
+            },
+            {
+              "type": "SPOLOČNÉ ČASTI A SPOLOČNÉ ZARIADENIA DOMU",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "5420",
+              "share": "3628/100000"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "NIVY",
+              "lv_number": "2955",
+              "share": "1/1"
+            },
+            {
+              "type": "SPOLOČNÉ ČASTI A SPOLOČNÉ ZARIADENIA DOMU",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2955",
+              "share": "2105/276235"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KALINKOVO",
+              "lv_number": "37",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KALINKOVO",
+              "lv_number": "40",
+              "share": "1/2"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2955",
+              "share": "2105/276235"
+            },
+            {
+              "type": "NEBYTOVÝ PIRESTOR",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2955",
+              "share": "180/276235"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 8
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 87 212 € → 103 670 € (+16 458 €)",
+      "Nehnuteľnosti: 8 → 8 (0)"
+    ]
+  },
   "slug": "ing-viera-soltysova",
   "context": {
     "latest_year": 2024,

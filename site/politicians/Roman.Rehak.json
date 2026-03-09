@@ -1055,6 +1055,108 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Roman.Rehak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Roman.Rehak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 47612,
+            "other": 0
+          },
+          "new": {
+            "public_function": 29904,
+            "other": 0
+          },
+          "old_total": 47612,
+          "new_total": 29904,
+          "delta": -17708,
+          "delta_pct": -37.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT, GARÁŽ, POZEMOK POD BYTOVÝM DOMOM",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "3814, 6193",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "3111",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, PODIEL NA PRÍJAZDOVEJ CESTE",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "8153, 4673",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT, POZEMOK PRED BYTOVÝM DOMOM",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5258, 5471",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT, PARKOVACIE STÁTIE, POZEMOK PRED BYTOVÝM DOMOM",
+              "cadastral_territory": "TRNÁVKA",
+              "lv_number": "5769, 5958, 5819, 5820, 5821",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT + GARÁŽ + POZEMOK POD BYTOVÝM DOMOM",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "3814, 6193",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "3111",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM + PODIEL NA PRÍJAZDOVEJ CESTE",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "8153, 4673",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT + POZEMOK PRED BYTOVÝM DOMOM",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5258, 5471",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT + PARKOV. STÁTIE + POZEMOK PRED BYTOVÝM DOMOM",
+              "cadastral_territory": "TRNÁVKA",
+              "lv_number": "5769, 5958, 5819,5820,5821",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 47 612 € → 29 904 € (-17 708 €)",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
+  },
   "slug": "ing-roman-rehak",
   "context": {
     "latest_year": 2024,

@@ -288,6 +288,44 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Daniel.Dadan.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Daniel.Dadan.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 4326,
+            "other": 50041
+          },
+          "new": {
+            "public_function": 51890,
+            "other": 22822
+          },
+          "old_total": 54367,
+          "new_total": 74712,
+          "delta": 20345,
+          "delta_pct": 37.4
+        },
+        {
+          "field": "employment",
+          "old": "CENTRUM PRE LIEČBU DROGOVÝCH ZÁVISLOSTÍ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "CENTRUM PRE LIEČBU DROGOVÝCH ZÁVISLOSTÍ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 54 367 € → 74 712 € (+20 345 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "mudr-daniel-dadan",
   "context": {
     "latest_year": 2024,

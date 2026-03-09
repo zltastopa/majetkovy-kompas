@@ -715,6 +715,204 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Stachura.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Stachura.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11736,
+            "other": 80234
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 57004
+          },
+          "old_total": 91970,
+          "new_total": 105916,
+          "delta": 13946,
+          "delta_pct": 15.2
+        },
+        {
+          "field": "employment",
+          "old": "UNIVERSITÄTSKLINIKUM ST. PÖLTEN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERSITÄTSKLINIKUM ST. PÖLTEN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8086",
+              "share": "134/3551"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8115",
+              "share": "287/14880"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8115",
+              "share": "37/14880"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8085",
+              "share": "1/2"
+            },
+            {
+              "type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8085",
+              "share": "1050/22286"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8086",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8114",
+              "share": "403/20900"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8114",
+              "share": "51/20900"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "ST. PŐLTEN, RAKÚSKO",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8086",
+              "share": "134/3551"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8115",
+              "share": "287/14880"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8115",
+              "share": "37/14880"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8085",
+              "share": "1/2"
+            },
+            {
+              "type": "SPOLUVLASTNÍCKY PODIEL K POZEMKU",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8085",
+              "share": "1050/22286"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8086",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8114",
+              "share": "403/20900"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8114",
+              "share": "51/20900"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "ST. PÖLTEN, RAKÚSKO",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 9
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "SPORENIE A INVESTÍCIE V BANKÁCH, podiel: 1/1",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 50%"
+          ],
+          "new": [
+            "SPORENIE A INVESTÍCIE V BANKÁCH, podiel: 1/1",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/2"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNÝ ÚVER",
+              "share": "1/2",
+              "date": "09. 10. 2017"
+            },
+            {
+              "type": "HYPOTEKÁRNÝ ÚVER",
+              "share": "1/2",
+              "date": "07. 03. 2018"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "09. 10. 2017"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "07. 03. 2018"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 91 970 € → 105 916 € (+13 946 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 9 → 9 (0)",
+      "Majetkové práva: 2 → 2 (0)",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "mudr-peter-stachura-dr-med-mba",
   "context": {
     "latest_year": 2024,

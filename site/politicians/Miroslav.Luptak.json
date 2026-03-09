@@ -1648,6 +1648,456 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Miroslav.Luptak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Miroslav.Luptak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGOINTERMODAL, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BULK TRANSSHIPMENT SLOVAKIA, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BULK TRANSSHIPMENT SLOVAKIA, A. S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO INTERMODAL, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 4884
+          },
+          "new": {
+            "public_function": 29400,
+            "other": 101427
+          },
+          "old_total": 4884,
+          "new_total": 130827,
+          "delta": 125943,
+          "delta_pct": 2578.7
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM - REKREAČNÁ CHALUPA",
+              "cadastral_territory": "ZÁVOD",
+              "lv_number": "4726",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ZÁVOD",
+              "lv_number": "4726",
+              "share": "BSM"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "2221",
+              "share": "5/60 V BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "2680",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "2680",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "12333",
+              "share": "3/10"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "12334",
+              "share": "1/8"
+            },
+            {
+              "type": "RODINNÝ DOM - RODIČOVSKÝ",
+              "cadastral_territory": "DETVA",
+              "lv_number": "3401",
+              "share": "1/2"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9993",
+              "share": "2/20496"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9993",
+              "share": "2/20496"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9993",
+              "share": "2/20496"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "12335",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "12335",
+              "share": "1/2"
+            },
+            {
+              "type": "LESNÝ PORAST",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9993",
+              "share": "2/20496"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "3401",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "3401",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "3401",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9993",
+              "share": "2/20496"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9993",
+              "share": "2/20496"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "DETVA",
+              "lv_number": "11859",
+              "share": "2/20496"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9030",
+              "share": "21/160"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9031",
+              "share": "1/10"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "12332",
+              "share": "1/8"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "761",
+              "share": "1/8"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "4688",
+              "share": "1/4"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9029",
+              "share": "1/5"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "756",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "759",
+              "share": "13/60"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "760",
+              "share": "1/4"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "3401",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "3401",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "3401",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "12335",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "12335",
+              "share": "1/2"
+            },
+            {
+              "type": "LESNÝ PORAST",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9993",
+              "share": "2/20496"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9993",
+              "share": "2/20496"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9993",
+              "share": "2/20496"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9993",
+              "share": "2/20496"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9993",
+              "share": "2/20496"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9993",
+              "share": "2/20496"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "DETVA",
+              "lv_number": "11859",
+              "share": "2/20496"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "756",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "759",
+              "share": "13/60"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "760",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "761",
+              "share": "1/8"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "4688",
+              "share": "1/4"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9029",
+              "share": "1/5"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9030",
+              "share": "21/160"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "9031",
+              "share": "1/10"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "12332",
+              "share": "1/8"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "DETVA",
+              "lv_number": "12333",
+              "share": "3/10"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "DETVA",
+              "lv_number": "12334",
+              "share": "1/8"
+            },
+            {
+              "type": "RODINNÝ DOM-RODIČOVSKÝ",
+              "cadastral_territory": "DETVA",
+              "lv_number": "3401",
+              "share": "1/2"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "2221",
+              "share": "5/60 V BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "2680",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "2680",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM REKREAČNÁ CHALUPA",
+              "cadastral_territory": "ZÁVOD",
+              "lv_number": "4726",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ZÁVOD",
+              "lv_number": "4726",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "HRIŇOVÁ",
+              "lv_number": "128",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRIŇOVÁ",
+              "lv_number": "128",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRIŇOVÁ",
+              "lv_number": "129",
+              "share": "1/8"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "HRIŇOVÁ",
+              "lv_number": "130",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRIŇOVÁ",
+              "lv_number": "131",
+              "share": "79/576"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "HRIŇOVÁ",
+              "lv_number": "131",
+              "share": "79/576"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRIŇOVÁ",
+              "lv_number": "132",
+              "share": "5/72"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "HRIŇOVÁ",
+              "lv_number": "135",
+              "share": "1/8"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRIŇOVÁ",
+              "lv_number": "7794",
+              "share": "1/4"
+            }
+          ],
+          "old_count": 29,
+          "new_count": 38
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 4 884 € → 130 827 € (+125 943 €)",
+      "Nehnuteľnosti: 29 → 38 (+9)"
+    ]
+  },
   "slug": "ing-miroslav-luptak",
   "context": {
     "latest_year": 2024,

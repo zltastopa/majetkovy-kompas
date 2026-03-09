@@ -341,6 +341,124 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ladislav.Kuzela.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ladislav.Kuzela.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (UNIVERZITNÁ NEMOCNICA - NEMOCNICA SVÄTÉHO MICHALA, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (UNIVERZITNÁ NEMOCNICA NEMOCNICA SVÄTÉHO MICHALA, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 81502
+          },
+          "new": {
+            "public_function": 37236,
+            "other": 135433
+          },
+          "old_total": 81502,
+          "new_total": 172669,
+          "delta": 91167,
+          "delta_pct": 111.9
+        },
+        {
+          "field": "employment",
+          "old": "SLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA V BRATISLAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nFAKULTNÁ NEMOCNICA NITRA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nUNIVERZITNÁ NEMOCNICA SVÄTÉHO MICHALA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nVDDK S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nLEKÁRSKA FAKULTA UNIVERZITY KOMENSKÉHO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITNÁ NEMOCNICA BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "UNIVERZITNÁ NEMOCNICA-NEMOCNICA SVÄTÉHO MICHALA, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITNÁ NEMOCNICA BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "VRAKUŇA",
+              "lv_number": "3213",
+              "share": "1/2 BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "VRAKUŇA",
+              "lv_number": "3213",
+              "share": "1/2 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "VRAKUŇA",
+              "lv_number": "3213",
+              "share": "1/2 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "VRAKUŇA",
+              "lv_number": "3213",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "VRAKUŇA",
+              "lv_number": "3213",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "VRAKUŇA",
+              "lv_number": "3213",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%"
+          ],
+          "new": null
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "29. 11. 2017"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "29. 11. 2017"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 81 502 € → 172 669 € (+91 167 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Majetkové práva",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "doc-mudr-mgr-ladislav-kuzela-phd-mph",
   "context": {
     "latest_year": 2024,

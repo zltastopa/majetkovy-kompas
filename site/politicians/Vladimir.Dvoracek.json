@@ -1243,6 +1243,120 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Vladimir.Dvoracek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Vladimir.Dvoracek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 83100,
+            "other": 176333
+          },
+          "new": {
+            "public_function": 89100,
+            "other": 202500
+          },
+          "old_total": 259433,
+          "new_total": 291600,
+          "delta": 32167,
+          "delta_pct": 12.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM, ZÁHRADNÁ CHATA, ZÁHRADA",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "429",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "1723",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "2814",
+              "share": "50%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "730",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "2813",
+              "share": "25%"
+            },
+            {
+              "type": "BYT, GARÁŽ, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BRATISLAVA -  NOVÉ MESTO, VINOHRADY",
+              "lv_number": "7865, 7405",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM, ZÁHRADNÁ CHATA, ZÁHRADA",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "429",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "1723",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "2814",
+              "share": "50%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "730",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "2813",
+              "share": "25%"
+            },
+            {
+              "type": "BYT, GARÁŽ, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO K.Ú. VINOHRADY",
+              "lv_number": "7865, 7405",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 259 433 € → 291 600 € (+32 167 €)",
+      "Nehnuteľnosti: 6 → 6 (0)"
+    ]
+  },
   "slug": "ing-vladimir-dvoracek",
   "context": {
     "latest_year": 2024,

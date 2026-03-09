@@ -696,6 +696,180 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/KvorkJan.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/KvorkJan.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11736,
+            "other": 0
+          },
+          "new": {
+            "public_function": 48986,
+            "other": 0
+          },
+          "old_total": 11736,
+          "new_total": 48986,
+          "delta": 37250,
+          "delta_pct": 317.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BLATNICA",
+              "lv_number": "5T4",
+              "share": "50%"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "BLATNICA",
+              "lv_number": "832",
+              "share": "122/9240"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BLATNICA",
+              "lv_number": "842",
+              "share": "1/20"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BLATNICA",
+              "lv_number": "841",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "56",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "118",
+              "share": "1/20"
+            },
+            {
+              "type": "ORNÁ PÔDA,TRVALÉ TRÁVNATÉ PORASTY, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "119",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "21",
+              "share": "1/12"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "36",
+              "share": "1/20"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "160",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "22",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "160",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "22",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNATÉ PORASTY, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "119",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "21",
+              "share": "1/12"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "36",
+              "share": "1/20"
+            },
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA, NÁDVORIE",
+              "cadastral_territory": "BLATNICA",
+              "lv_number": "514",
+              "share": "50%"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "BLATNICA",
+              "lv_number": "832",
+              "share": "122/9240"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BLATNICA",
+              "lv_number": "842",
+              "share": "1/20"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BLATNICA",
+              "lv_number": "841",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "56",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LASKÁR",
+              "lv_number": "118",
+              "share": "1/20"
+            }
+          ],
+          "old_count": 11,
+          "new_count": 11
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 11 736 € → 48 986 € (+37 250 €)",
+      "Nehnuteľnosti: 11 → 11 (0)"
+    ]
+  },
   "slug": "jan-kvorka",
   "context": {
     "latest_year": 2024,

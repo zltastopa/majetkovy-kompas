@@ -298,6 +298,106 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Molda.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Molda.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "riaditeľ štátneho podniku (SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, ŠTÁTNY\r\nPODNIK)riaditeľ štátneho podniku (VODOHOSPODÁRSKA VYSTAVBA, ŠTÁTNY PODNIK\r\n)",
+          "new": "riaditeľ štátneho podniku (VODOHOSPODÁRSKA VÝSTAVBA, ŠTÁTNY PODNIK\r\n)riaditeľ štátneho podniku (SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, ŠTÁTNY\r\nPODNIK)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 5483,
+            "other": 0
+          },
+          "new": {
+            "public_function": 108384,
+            "other": 168
+          },
+          "old_total": 5483,
+          "new_total": 108552,
+          "delta": 103069,
+          "delta_pct": 1879.8
+        },
+        {
+          "field": "employment",
+          "old": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, ŠTÁTNY PODNIK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nVODOHOSPODÁRSKA VÝSTAVBA, ŠTÁTNY PODNIK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, ŠTÁTNY PODNIK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nŽELEZNICE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SMOLENICE - SMOLENICKÁ NOVÁ VES",
+              "lv_number": "2599",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA, ZÁHRADA, VINICE, TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "SMOLENICE - SMOLENICKÁ NOVÁ VES",
+              "lv_number": "2660",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SMOLENICE - SMOLENICKÁ NOVÁ VES",
+              "lv_number": "2599",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA, NÁDVORIA, ZÁHRADA, VINICE, TRÁVNY PORAST",
+              "cadastral_territory": "SMOLENICE - SMOLENICKÁ NOVÁ VES",
+              "lv_number": "2660",
+              "share": "1/1 BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "MITSUBISHI",
+              "year_of_manufacture": 2017,
+              "share": "50%"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MITSUBISHI",
+              "year_of_manufacture": 2017,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 5 483 € → 108 552 € (+103 069 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Hnuteľný majetok: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-peter-molda",
   "context": {
     "latest_year": 2024,

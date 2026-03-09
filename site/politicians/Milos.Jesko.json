@@ -942,6 +942,156 @@
     }
   ],
   "total_changes": 24,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Milos.Jesko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Milos.Jesko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.,\r\nS.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND III.,\r\nS.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II.,\r\nA.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK INVESTMENT HOLDING, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK ASSET MANAGEMENT, SPRÁVCOVSKÁ\r\nSPOLOČNOSŤ, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O.\r\n)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND III., S.R.O.\r\n)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.\r\n)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK INVESTMENT HOLDING, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK ASSET MANAGEMENT, SPRÁV.\r\nSPOL., A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 43472,
+            "other": 75701
+          },
+          "new": {
+            "public_function": 41740,
+            "other": 79109
+          },
+          "old_total": 119173,
+          "new_total": 120849,
+          "delta": 1676,
+          "delta_pct": 1.4
+        },
+        {
+          "field": "employment",
+          "old": "SLOVAK ASSET MANAGEMENT SPRÁVCOVSKÁ SPOLOČNOSŤ, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVAK INVESTMENT HOLDING, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVAK ASSET MANAGEMENT, SPRÁV. SPOL. A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVAK INVESTMENT HOLDING, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "DOSTUPNÝ DOMOV J.S.A.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "DOSTUPNÝ NÁJOM J.S.A.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA DOZORNEJ RADY",
+              "organization": "QRES TECHNOLOGIES S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "OMNIA KLF, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY - UKONČENIE 20.12.2023",
+              "organization": "GYMBEAM S.R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREDSEDA DOZORNEJ RADY",
+              "organization": "DOSTUPNÝ NÁJOM J.S.A.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "PEWAS S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA DOZORNEJ RADY",
+              "organization": "DOSTUPNÝ DOMOV J.S.A.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "OMNIA KLF, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA DOZORNEJ RADY",
+              "organization": "QRES TECHNOLOGIES S.R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "3063",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "DEVÍNSKA NOVÁ VES",
+              "lv_number": "403",
+              "share": "16,7%"
+            },
+            {
+              "type": "BYT, GARÁŽ",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "5675",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "3063",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "DEVÍNSKA NOVÁ VES",
+              "lv_number": "403",
+              "share": "16,7%"
+            },
+            {
+              "type": "BYT + GARÁŽ",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "5675",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 119 173 € → 120 849 € (+1 676 €)",
+      "Zamestnanie",
+      "Funkcie: 5 → 5 (0)",
+      "Nehnuteľnosti: 3 → 3 (0)"
+    ]
+  },
   "slug": "ing-milos-jesko",
   "context": {
     "latest_year": 2024,

@@ -383,6 +383,120 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Rastislav.Chovanec.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Rastislav.Chovanec.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7468,
+            "other": 2959
+          },
+          "new": {
+            "public_function": 62402,
+            "other": 0
+          },
+          "old_total": 10427,
+          "new_total": 62402,
+          "delta": 51975,
+          "delta_pct": 498.5
+        },
+        {
+          "field": "employment",
+          "old": "SLOVAK BUSINESS AGENCY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "5836",
+              "share": "100%"
+            },
+            {
+              "type": "2 GARÁŽOVÉ MIESTA",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "5836",
+              "share": "100%"
+            },
+            {
+              "type": "PIVNICA",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "5836",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "804380 VINOHRADY",
+              "lv_number": "5836",
+              "share": "100 %"
+            },
+            {
+              "type": "2 GARÁŽOVÉ MIESTA",
+              "cadastral_territory": "804380 VINOHRADY",
+              "lv_number": "5836",
+              "share": "100 %"
+            },
+            {
+              "type": "PIVNICA",
+              "cadastral_territory": "804380 VINOHRADY",
+              "lv_number": "5836",
+              "share": "100 %"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "PÔŽIČKY",
+              "share": "100%",
+              "date": "30. 06. 2010"
+            },
+            {
+              "type": "HYPOTÉKA",
+              "share": "100%",
+              "date": "01. 04. 2011"
+            }
+          ],
+          "new": [
+            {
+              "type": "PÔŽÍČKY",
+              "share": "100%",
+              "date": "30. 06. 2010"
+            },
+            {
+              "type": "HYPOTÉKA",
+              "share": "100%",
+              "date": "01. 04. 2011"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 10 427 € → 62 402 € (+51 975 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-rastislav-chovanec-phd",
   "context": {
     "latest_year": 2024,

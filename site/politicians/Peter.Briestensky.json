@@ -355,6 +355,64 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Briestensky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Briestensky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ARRIVA LIORBUS, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ARRIVA Liorbus)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 4680,
+            "other": 0
+          },
+          "new": {
+            "public_function": 4680,
+            "other": 10711
+          },
+          "old_total": 4680,
+          "new_total": 15391,
+          "delta": 10711,
+          "delta_pct": 228.9
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "LUTZ ASSEKURANZ VERSICHEUNGSVERMTTLUNG GES. M.S.H.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%"
+          ],
+          "new": null
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": null,
+          "new": "BYTOVÝ DOM, kat. územie DUNAJSKÁ STREDA , spôsob užívania: PRENÁJOM"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 4 680 € → 15 391 € (+10 711 €)",
+      "Zamestnanie",
+      "Majetkové práva",
+      "Užívanie nehnuteľností"
+    ]
+  },
   "slug": "ing-peter-briestensky",
   "context": {
     "latest_year": 2024,

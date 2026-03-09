@@ -624,6 +624,72 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ivan.Horvath1.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ivan.Horvath1.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 37065,
+            "other": 0
+          },
+          "new": {
+            "public_function": 50194,
+            "other": 0
+          },
+          "old_total": 37065,
+          "new_total": 50194,
+          "delta": 13129,
+          "delta_pct": 35.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÉ PLOCHY, OSTATNÉ PLOCHY",
+              "cadastral_territory": "BERNOLÁKOVO",
+              "lv_number": "4689",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT, GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3899",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÉ A OSTATNÉ PLOCHY",
+              "cadastral_territory": "BERNOLÁKOVO",
+              "lv_number": "4689",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT, GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3899",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 37 065 € → 50 194 € (+13 129 €)",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-ivan-horvath",
   "context": {
     "latest_year": 2024,

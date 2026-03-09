@@ -270,6 +270,125 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Julius.Lomencik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Julius.Lomencik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 2953,
+            "other": 35553
+          },
+          "old_total": 0,
+          "new_total": 38506,
+          "delta": 38506
+        },
+        {
+          "field": "employment",
+          "old": "UNIVERZITA MATEJA BELA FILOZOFICKÁ FAKUTLA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MATICA SLOVENSKÁ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nUNIVERZITA MATEJA BELA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "SÁSOVÁ",
+              "lv_number": "1492",
+              "share": "1/2"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SÁSOVÁ",
+              "lv_number": "886",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MÁLIHEC",
+              "lv_number": "1466",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "MÁLIHEC",
+              "lv_number": "1191",
+              "share": "2/36"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "MÁLIHEC",
+              "lv_number": "2394",
+              "share": "19/115398"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "LÁTKY",
+              "lv_number": "1315",
+              "share": "1/467"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "SÁSOVÁ",
+              "lv_number": "1492",
+              "share": "1/2"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SÁSOVÁ",
+              "lv_number": "886",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MÁLINEC",
+              "lv_number": "1466",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "MÁLINEC",
+              "lv_number": "1191",
+              "share": "2/36"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "MÁLINEC",
+              "lv_number": "2394",
+              "share": "19/115398"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "LÁTKY",
+              "lv_number": "1315",
+              "share": "1/467"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 38 506 € (+38 506 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 6 → 6 (0)"
+    ]
+  },
   "slug": "doc-paeddr-julius-lomencik-phd",
   "context": {
     "latest_year": 2024,

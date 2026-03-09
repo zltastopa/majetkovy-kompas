@@ -468,6 +468,66 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Robert.Vlkolinsky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Robert.Vlkolinsky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1680,
+            "other": 39850
+          },
+          "new": {
+            "public_function": 1680,
+            "other": 42970
+          },
+          "old_total": 41530,
+          "new_total": 44650,
+          "delta": 3120,
+          "delta_pct": 7.5
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO FINANCIÍ SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM + POZEMOK",
+              "cadastral_territory": "ZVOLEN",
+              "lv_number": "4276",
+              "share": "50%"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM A POZEMOK",
+              "cadastral_territory": "ZVOLEN",
+              "lv_number": "4276",
+              "share": "50%"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 41 530 € → 44 650 € (+3 120 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-robert-vlkolinsky",
   "context": {
     "latest_year": 2024,

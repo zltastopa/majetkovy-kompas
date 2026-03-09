@@ -1057,6 +1057,52 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Leopold.Barszcz.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Leopold.Barszcz.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 61470,
+            "other": 0
+          },
+          "new": {
+            "public_function": 55745,
+            "other": 0
+          },
+          "old_total": 61470,
+          "new_total": 55745,
+          "delta": -5725,
+          "delta_pct": -9.3
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "VKLADY V PEŇAŽNÝCH INŠTITÚCIÁCH, podiel: 1/2",
+            "AKCIOVÉ PODIELY, podiel: 1/2"
+          ],
+          "new": [
+            "VKLADY V PEŇAŽNÝCH INŠTITÚCIÁCH , podiel: 1/2",
+            "AKCIOVÉ PODIELY, podiel: 1/2"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 61 470 € → 55 745 € (-5 725 €)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "pharmdr-leopold-barszcz",
   "context": {
     "latest_year": 2024,

@@ -363,6 +363,44 @@
     }
   ],
   "total_changes": 10,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Renata.Benikova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Renata.Benikova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 49499,
+            "other": 0
+          },
+          "new": {
+            "public_function": 46920,
+            "other": 0
+          },
+          "old_total": 49499,
+          "new_total": 46920,
+          "delta": -2579,
+          "delta_pct": -5.2
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA PB\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 49 499 € → 46 920 € (-2 579 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "mgr-renata-benikova-mph",
   "context": {
     "latest_year": 2024,

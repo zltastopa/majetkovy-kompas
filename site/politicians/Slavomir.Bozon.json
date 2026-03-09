@@ -942,6 +942,144 @@
     }
   ],
   "total_changes": 25,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Slavomir.Bozon.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Slavomir.Bozon.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ ENERGETIKA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ AUTOBUSOVÁ DOPRAVA POPRAD, AKCIOVÁ SPOLOČNOSŤ)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ ENERGETIKA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ AUTOBUSOVÁ DOPRAVA POPRAD, A.S.\r\n)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 13455,
+            "other": 4263
+          },
+          "new": {
+            "public_function": 12375,
+            "other": 1682
+          },
+          "old_total": 17718,
+          "new_total": 14057,
+          "delta": -3661,
+          "delta_pct": -20.7
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(BSK EUROPE S.R.O.)KONATEĽ(MARSAM S.R.O.)KONATEĽ(BSK EUROPE PLUS S.R.O.)",
+          "new": "KONATEĽ(MARSAM S.R.O.)KONATEĽ(BSK EUROPE PLUS S.R.O.)KONATEĽ(BSK EUROPE S.R.O.)"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA",
+              "organization": "PROGRES 5 OBČIANSKE ZDRUŽENIE",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "MESTSKÝ ÚRAD POPRAD",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC",
+              "organization": "MESTSKÝ ÚRAD POPRAD",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "PROGRES 5 OBČIANSKE ZDRUŽENIE",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "SPIŠSKÁ SOBOTA",
+              "lv_number": "2206",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SPIŠSKÁ SOBOTA",
+              "lv_number": "890,2086,2206",
+              "share": "1/2,1/1 BSM,1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "POPRAD",
+              "lv_number": "4330,6870",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BETLANOVCE",
+              "lv_number": "543",
+              "share": "1/1 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "SPIŠSKÁ SOBOTA",
+              "lv_number": "2206",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA",
+              "cadastral_territory": "VEĽKÁ",
+              "lv_number": "172",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SPIŠSKÁ SOBOTA",
+              "lv_number": "890, 2086, 2206",
+              "share": "1/2, 1/1 BSM, 1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "POPRAD",
+              "lv_number": "4330, 6870",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BETLANOVCE",
+              "lv_number": "543",
+              "share": "1/1 BSM"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 17 718 € → 14 057 € (-3 661 €)",
+      "Podnikanie",
+      "Funkcie: 2 → 2 (0)",
+      "Nehnuteľnosti: 4 → 5 (+1)"
+    ]
+  },
   "slug": "ing-slavomir-bozon",
   "context": {
     "latest_year": 2024,

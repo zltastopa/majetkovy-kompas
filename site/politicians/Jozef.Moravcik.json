@@ -273,6 +273,146 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Moravcik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Moravcik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "riaditeľ štátneho podniku (SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, ŠTÁTNY PODNIK )",
+          "new": "riaditeľ štátneho podniku (SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, ŠTÁTNY\r\nPODNIK)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 90025,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 90025,
+          "delta": 90025
+        },
+        {
+          "field": "employment",
+          "old": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, ŠTÁTNY PODNIK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, ŠTÁTNY PODNIK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM 1/2",
+              "cadastral_territory": "ŽILINA - ROSINKY",
+              "lv_number": "2412",
+              "share": "50%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "2715",
+              "share": "100%"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV, ČÍSLO VKLADU 23057/15",
+              "lv_number": "ČÍSLO PARCELY 10004/17",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁLESIE",
+              "lv_number": "2299",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ŽILINA - ROSINKY",
+              "lv_number": "2412",
+              "share": "50%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "2715",
+              "share": "100%"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "ČÍSLO VKLADU 23057/15",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁLESIE",
+              "lv_number": "2299",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2013,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2013,
+              "share": "1/1"
+            },
+            {
+              "type": "UMELECKÉ PREDMETY",
+              "share": "100%"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ PROSTRIEDKY, ÚSPORY, podiel: 100%",
+            "UMELECKÉ PREDMETY, OSOBNÉ CENNOSTI, KNIHY, OBRAZY, podiel: 100%"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY, ÚSPORY, podiel: 100%"
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 90 025 € (+90 025 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Hnuteľný majetok: 1 → 2 (+1)",
+      "Majetkové práva: 2 → 1 (-1)"
+    ]
+  },
   "slug": "ing-jozef-moravcik",
   "context": {
     "latest_year": 2024,

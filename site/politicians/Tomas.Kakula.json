@@ -822,6 +822,144 @@
     }
   ],
   "total_changes": 23,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tomas.Kakula.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tomas.Kakula.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (INOVAČNÝ FOND N.F.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 47496,
+            "other": 28604
+          },
+          "new": {
+            "public_function": 63366,
+            "other": 83143
+          },
+          "old_total": 76100,
+          "new_total": 146509,
+          "delta": 70409,
+          "delta_pct": 92.5
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO HOSPODÁRSTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "TECHNICKÝ SKÚŠOBNÝ ÚSTAV PIEŠŤANY, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM, GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "4911",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT, GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "BRATISLAVA - PODUNAJSKÉ BISKUPICE",
+              "lv_number": "5817",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "5498, 6009, 6010",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM, GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "4911",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT, GARÁŽOVE STÁTIE",
+              "cadastral_territory": "BRATISLAVA - PODUNAJSKÉ BISKUPICE",
+              "lv_number": "5817",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "5498, 6009, 6010",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "BMW",
+              "year_of_manufacture": 2018,
+              "share": "BSM"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "FORD",
+              "year_of_manufacture": 2013,
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "BMW",
+              "year_of_manufacture": 2018,
+              "share": "BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "03. 10. 2018"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER - REFINANC",
+              "share": "1/2",
+              "date": "25. 11. 2023"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 76 100 € → 146 509 € (+70 409 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Hnuteľný majetok: 2 → 1 (-1)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-tomas-kakula-phd",
   "context": {
     "latest_year": 2024,

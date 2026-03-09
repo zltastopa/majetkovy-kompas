@@ -416,6 +416,122 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/vancbran.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/vancbran.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11736,
+            "other": 0
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 0
+          },
+          "old_total": 11736,
+          "new_total": 48912,
+          "delta": 37176,
+          "delta_pct": 316.8
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT, PODIEL NA SPOLOČNÝCH ČASTIACH A POZEMKOCH, GARÁŽOVÉ STÁTIE, PIVNIČNÁ KOPKA",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "6550, 6595, 7072",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT, PODIEL NA SPOLOČNÝCH ČASTIACH, ZARIADENIACH A POZEMKOCH, PIVNIČNÁ KOPKA",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "23397,23399",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT, PODIEL NA SPOLOČNÝCH ČASTIACH A POZEMKU, GARÁŽOVÉ STÁTIE, PIVNIČNÁ KOBKA",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "6550, 6595, 7072",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT, PODIEL NA SPOLOČNÝCH ČASTIACH, ZARIADENIACH A POZEMKOCH, PIVNIČNÁ KOBKA",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "23397, 23399",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "13. 05. 2021"
+            },
+            {
+              "type": "ZMLUVA O PÔŽIČKE",
+              "share": "1/1",
+              "date": "10. 02. 2021"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "24. 03. 2010"
+            },
+            {
+              "type": "HYPOTEÁRNY ÚVER",
+              "share": "1/1",
+              "date": "31. 05. 2013"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "24. 03. 2010"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "31. 05. 2013"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "13. 05. 2021"
+            },
+            {
+              "type": "ZMLUVA O PÔŽIČKE",
+              "share": "1/1",
+              "date": "10. 02. 2021"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 11 736 € → 48 912 € (+37 176 €)",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Záväzky: 4 → 4 (0)"
+    ]
+  },
   "slug": "judr-branislav-vanco",
   "context": {
     "latest_year": 2024,

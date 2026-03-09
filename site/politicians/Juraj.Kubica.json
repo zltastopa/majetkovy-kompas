@@ -1085,6 +1085,130 @@
     }
   ],
   "total_changes": 29,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Kubica.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Kubica.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÉ SUPERPOČÍTAČOVÉ CENTRUM)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÉ CENTRUM PRE KVANTOVÉ TECHNOLÓGIE)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÉ CENTRUM PRE KVANTOVÉ TECHNOLÓGIE)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÉ SUPERPOČÍTAČOVÉ CENTRUM)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 43039
+          },
+          "new": {
+            "public_function": 0,
+            "other": 35832
+          },
+          "old_total": 43039,
+          "new_total": 35832,
+          "delta": -7207,
+          "delta_pct": -16.7
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA SPOLOČENSTVA",
+              "organization": "SPOLOČENSTVO VLASTNÍKOV BYTOV NBK 1100",
+              "benefits": "NIE SÚ"
+            },
+            {
+              "role": "PREDSEDA ZÁKLADNEJ ORGANIZÁCIE",
+              "organization": "SLOVENSKÝ ZVÄZ ZÁHRADKÁROV ZO 3-25",
+              "benefits": "NIE SÚ"
+            },
+            {
+              "role": "ČLEN RIADIACEHO VÝBORU",
+              "organization": "SLOVENSKÉ PLANETÁRIÁ",
+              "benefits": "NIE SÚ"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN RIADIACEHO VÝBORU",
+              "organization": "SLOVENSKÉ PLANETÁRIÁ",
+              "benefits": "NIE SÚ"
+            },
+            {
+              "role": "PREDSEDA ZÁKLADNEJ ORGANIZÁCIE",
+              "organization": "SLOVENSKÝ ZVÄZ ZÁHRADKÁROV ZO 3-25",
+              "benefits": "NIE SÚ"
+            },
+            {
+              "role": "PREDSEDA SPOLOČENSTVA",
+              "organization": "SPOLOČENSTVO VLASTNÍKOV BYTOV NBK 1110",
+              "benefits": "NIE SÚ"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT OBÝVANÝ MATKOU",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3464",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT OBÝVANÝ SPOLOČNE S PARTNEROM",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "2754",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT OBÝVANÝ MATKOU",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3464",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT OBÝVANÝ SPOLOČNE S PARTNEROM",
+              "cadastral_territory": "BRATISLAVA VRAKUŇA",
+              "lv_number": "2754",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÉ VOZIDLO VO VLASTNÍCTVE PARTNERA",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2017
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 43 039 € → 35 832 € (-7 207 €)",
+      "Funkcie: 3 → 3 (0)",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Vozidlá"
+    ]
+  },
   "slug": "ing-juraj-kubica-phd",
   "context": {
     "latest_year": 2024,

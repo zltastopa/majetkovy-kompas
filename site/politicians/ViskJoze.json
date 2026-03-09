@@ -1090,6 +1090,165 @@
     }
   ],
   "total_changes": 19,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/ViskJoze.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/ViskJoze.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 79732,
+            "other": 0
+          },
+          "new": {
+            "public_function": 82128,
+            "other": 0
+          },
+          "old_total": 79732,
+          "new_total": 82128,
+          "delta": 2396,
+          "delta_pct": 3.0
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13431",
+              "share": "50%"
+            },
+            {
+              "type": "SPOLOČNÉ PRIESTORY BYTU",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13431",
+              "share": "11393/384440"
+            },
+            {
+              "type": "PRÍSLUŠENSTVO K BYTU (PIVNIČNÁ KOBKA 1)",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13431",
+              "share": "50%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "10375",
+              "share": "100%"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "12267",
+              "share": "6357/457436"
+            },
+            {
+              "type": "SPOLOČNÉ PRIESTORY BYTU",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "10375",
+              "share": "6357/457436"
+            },
+            {
+              "type": "PRÍSLUŠENSTVO K BYTU (PIVNIČNÁ KOBKA 2)",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13431",
+              "share": "50%"
+            },
+            {
+              "type": "PRÍSLUŠENSTVO K BYTU (GARÁŽOVÉ STÁTIE 1)",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13431",
+              "share": "1/29 50%"
+            },
+            {
+              "type": "PRÍSLUŠENSTVO K BYTU (GARÁŽOVÉ STÁTIE 2)",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13431",
+              "share": "1/29 50%"
+            },
+            {
+              "type": "PARKOVACIE MIESTO",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13710",
+              "share": "50%"
+            }
+          ],
+          "new": [
+            {
+              "type": "PRÍSLUŠENSTVO K BYTU (PIVNIČNÁ KOBKA 2)",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13431",
+              "share": "50%"
+            },
+            {
+              "type": "PRÍSLUŠENSTVO K BYTU (GARÁŽOVÉ STÁTIE 1)",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13431",
+              "share": "1/29 50%"
+            },
+            {
+              "type": "PRÍSLUŠENSTVO K BYTU (GARÁŽOVÉ STÁTIE 2)",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13431",
+              "share": "1/29 50%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13431",
+              "share": "50%"
+            },
+            {
+              "type": "SPOLOČNÉ PRIESTORY BYTU",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13431",
+              "share": "11393/384440"
+            },
+            {
+              "type": "PRÍSLUŠENSTVO K BYTU (PIVNIČNÁ KOBKA 1)",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13431",
+              "share": "50%"
+            },
+            {
+              "type": "PARKOVACIE MIESTO",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "13710",
+              "share": "50%"
+            }
+          ],
+          "old_count": 10,
+          "new_count": 7
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "HOTOVOSŤ NA ÚČTE, podiel: 50%",
+            "PODIEL V S.R.O., podiel: 100%",
+            "SPORENIE V BANKOVÝCH INŠTITÚCIÁCH, podiel: 50%"
+          ],
+          "new": [
+            "HOTOVOSŤ NA ÚČTE, podiel: 50%",
+            "SPORENIE V BANKOVÝCH INŠTITÚCIÁCH, podiel: 50%"
+          ],
+          "old_count": 3,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 79 732 € → 82 128 € (+2 396 €)",
+      "Nehnuteľnosti: 10 → 7 (-3)",
+      "Majetkové práva: 3 → 2 (-1)"
+    ]
+  },
   "slug": "mgr-jozef-viskupic",
   "context": {
     "latest_year": 2024,

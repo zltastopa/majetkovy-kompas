@@ -365,6 +365,50 @@
     }
   ],
   "total_changes": 10,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Andrian.Simora.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Andrian.Simora.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "likvidátor (POZEMNÉ STAVBY)likvidátor (DROBNÝ TOVAR BRATISLAVA)likvidátor (DOMÁCE POTREBY PREŠOV)likvidátor (DOMEP MICHALOVCE)likvidátor (STREDOSLOVENSKÉ KAMEŇOLOMY A ŠTRKOPIESKY )",
+          "new": "likvidátor (BANE SPIŠSKÁ NOVÁ VES, ŠTÁTNY PODNIK\r\nV LIKVIDÁCII)likvidátor (VÝCHODOSLOVENSKÉ KAMEŇOLOMY A\r\nŠTRKOPIESKY, ŠTÁTNY PODNIK V LIKVIDÁCII)likvidátor (SLOVENSKÝ ENERGETICKÝ PODNIK,\r\nŠTÁTNY PODNIK V LIKVIDÁCII)likvidátor (STREDOSLOVENSKÉ KAMEŇOLOMY A ŠTRKOPIESKY\r\nŠ.P. V LIKVIDÁCII)likvidátor (DROBNÝ TOVAR BRATISLAVA Š.P. \r\nV LIKVIDÁCII)likvidátor (DOMEP MICHALOVCE Š.P. \r\nV LIKVIDÁCII)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 43894
+          },
+          "new": {
+            "public_function": 0,
+            "other": 34599
+          },
+          "old_total": 43894,
+          "new_total": 34599,
+          "delta": -9295,
+          "delta_pct": -21.2
+        },
+        {
+          "field": "employment",
+          "old": "SLOVENSKAÁ POĽNOHOSPODÁRSKA UNIVERZITA V NITRE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÁ POĽNOHOSPODÁRSKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 43 894 € → 34 599 € (-9 295 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "judr-phdr-adrian-simora",
   "context": {
     "latest_year": 2024,

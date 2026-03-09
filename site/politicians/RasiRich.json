@@ -877,6 +877,44 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/RasiRich.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/RasiRich.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 52381,
+            "other": 1380
+          },
+          "new": {
+            "public_function": 55164,
+            "other": 0
+          },
+          "old_total": 53761,
+          "new_total": 55164,
+          "delta": 1403,
+          "delta_pct": 2.6
+        },
+        {
+          "field": "employment",
+          "old": "UNIVERZITNÁ NEMOCNICA L. PASTEURA KOŠICE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 53 761 € → 55 164 € (+1 403 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "mudr-richard-rasi-phd-mph",
   "context": {
     "latest_year": 2024,

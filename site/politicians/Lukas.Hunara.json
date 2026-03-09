@@ -318,6 +318,110 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lukas.Hunara.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lukas.Hunara.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 6600,
+            "other": 41598
+          },
+          "new": {
+            "public_function": 46791,
+            "other": 61986
+          },
+          "old_total": 48198,
+          "new_total": 108777,
+          "delta": 60579,
+          "delta_pct": 125.7
+        },
+        {
+          "field": "employment",
+          "old": "SMER - SOCIÁLNA DEMOKRACIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "1758",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "1758",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "1758",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "1758",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "1758",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "1758",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "1758",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HVIEZDOSLAVOV",
+              "lv_number": "1758",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "ÚSPORY, podiel: 1/1"
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 48 198 € → 108 777 € (+60 579 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Majetkové práva"
+    ]
+  },
   "slug": "mgr-lukas-hunara",
   "context": {
     "latest_year": 2024,

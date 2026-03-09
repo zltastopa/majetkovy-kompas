@@ -281,6 +281,104 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jan.Hrinko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jan.Hrinko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štátny tajomníkštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ INŠTITÚT VZDELÁVANIA A MLÁDEŽE)",
+          "new": "štátny tajomníkštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÝ INŠTITÚT VZDELÁVANIA \r\nA MLÁDEŽE)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1815,
+            "other": 0
+          },
+          "new": {
+            "public_function": 55679,
+            "other": 16951
+          },
+          "old_total": 1815,
+          "new_total": 72630,
+          "delta": 70815,
+          "delta_pct": 3901.7
+        },
+        {
+          "field": "employment",
+          "old": "EKONOMICKÁ UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "EKONOMICKÁ UNIVERZITA V BRATISLAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "PARKOVACIE STÁTIE",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7214",
+              "share": "1733/81330"
+            },
+            {
+              "type": "ROZOSTAVANÝ RODINNÝ DOM",
+              "cadastral_territory": "KOŠICE - ZÁPAD, TERASA",
+              "lv_number": "17651",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "KOŠICE - ZÁPAD, TERASA",
+              "lv_number": "17651",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "PARKOVACIE STÁTIE",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7214",
+              "share": "1733/81330"
+            },
+            {
+              "type": "ROZOSTAVANÝ RODINNÝ DOM",
+              "cadastral_territory": "KOŠICE -  ZÁPAD, TERASA",
+              "lv_number": "17651",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "KOŠICE -  ZÁPAD, TERASA",
+              "lv_number": "17651",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTOCH, podiel: 1/1"
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 1 815 € → 72 630 € (+70 815 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Majetkové práva"
+    ]
+  },
   "slug": "ing-jan-hrinko-phd",
   "context": {
     "latest_year": 2024,

@@ -388,6 +388,44 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Karel.Hampl.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Karel.Hampl.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŠTÁTNY KOMORNÝ ORCHESTER, ŽILINA)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŠTÁTNY KOMORNÝ ORCHESTER ŽILINA)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 40167,
+            "other": 0
+          },
+          "new": {
+            "public_function": 40082,
+            "other": 0
+          },
+          "old_total": 40167,
+          "new_total": 40082,
+          "delta": -85,
+          "delta_pct": -0.2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 40 167 € → 40 082 € (-85 €)"
+    ]
+  },
   "slug": "mga-karel-hampl",
   "context": {
     "latest_year": 2024,

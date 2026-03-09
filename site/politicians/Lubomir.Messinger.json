@@ -279,6 +279,136 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lubomir.Messinger.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lubomir.Messinger.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ POŠTA, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ POŠTA A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 5463,
+            "other": 79779
+          },
+          "old_total": 0,
+          "new_total": 85242,
+          "delta": 85242
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(FORZA CZ S.R.O.)ADVOKÁT(JUDr. ĽUBOMÍR MESSINGER)",
+          "new": "ADVOKÁT(JUDr. ĽUBOMÍR MESSINGER)"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ART FILM FEST N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ART FILM N.O. V LIKVIDÁCII",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NEZISKOVÁ ORGANIZÁCIA L PLUS S",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ALFEX A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "NEX ENERGY A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "SLOVENSKÁ VERITEĽSKÁ A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ART FILM FEST N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ART FILM N.O. V LIKVIDÁCII",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NEZISKOVÁ ORGANIZÁCIA L PLUS S",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KONATEĽ",
+              "organization": "FORZA CZ S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ALFEX A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "GILMOORE & CLAY SK A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "SLOVENSKÁ VERITEĽSKÁ A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 7
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "4-IZBOVÝ BYT, kat. územie RADVAŇ, rok zač. užívania: 2018, spôsob užívania: BÝVANIE",
+          "new": "BYT, kat. územie RADVAŇ, rok zač. užívania: 2018, spôsob užívania: BÝVANIE"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 85 242 € (+85 242 €)",
+      "Nezlučiteľnosť",
+      "Podnikanie",
+      "Funkcie: 6 → 7 (+1)",
+      "Užívanie nehnuteľností"
+    ]
+  },
   "slug": "judr-lubomir-messinger",
   "context": {
     "latest_year": 2024,

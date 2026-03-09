@@ -497,6 +497,108 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/GaspIvo.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/GaspIvo.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÚSCH, A. S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÚSCH, AS.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1496,
+            "other": 92401
+          },
+          "new": {
+            "public_function": 36525,
+            "other": 127567
+          },
+          "old_total": 93897,
+          "new_total": 164092,
+          "delta": 70195,
+          "delta_pct": 74.8
+        },
+        {
+          "field": "employment",
+          "old": "NÚSCH,  A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITA KOMENSKÉHO, LEKÁRSKA FAKULTA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ÚSTREDIE PRÁCE, SOCIÁLNYCH VECÍ A RODINY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITA KOMENSKÉHO, LEKÁRSKA FAKULTA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNÚSCH, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "VYBAVENIE DOMÁCNOSTÍ",
+              "share": "BSM"
+            },
+            {
+              "type": "OSOBNÉ CENNOSTI",
+              "share": "BSM"
+            },
+            {
+              "type": "MOTOCYKEL",
+              "brand": "HARLEY DAVIDSON",
+              "year_of_manufacture": 2018,
+              "share": "BSM"
+            },
+            {
+              "type": "LOVECKÉ ZBRANE",
+              "share": "BSM"
+            },
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "MERCEDES BENZ",
+              "year_of_manufacture": 2015,
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "VYBAVENIE DOMÁCNOSTÍ",
+              "share": "BSM"
+            },
+            {
+              "type": "OSOBNÉ CENNOSTI",
+              "share": "BSM"
+            },
+            {
+              "type": "MOTOCYKEL",
+              "brand": "HARLEY-DAVIDSON",
+              "year_of_manufacture": 2018,
+              "share": "BSM"
+            },
+            {
+              "type": "LOVECKÉ ZBRANE",
+              "share": "BSM"
+            },
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "MERCEDES BENZ",
+              "year_of_manufacture": 2015,
+              "share": "BSM"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 93 897 € → 164 092 € (+70 195 €)",
+      "Zamestnanie",
+      "Hnuteľný majetok: 5 → 5 (0)"
+    ]
+  },
   "slug": "mudr-ivo-gasparovic-phd-mph",
   "context": {
     "latest_year": 2024,

@@ -1139,6 +1139,330 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/MachLuka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/MachLuka.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO KULTÚRY\r\nSLOVENSKEJ REPUBLIKY)",
+          "new": "člen Rady RTVSgenerálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO KULTÚRY SLOVENSKEJ\r\nREPUBLIKY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 8370,
+            "other": 0
+          },
+          "new": {
+            "public_function": 89734,
+            "other": 0
+          },
+          "old_total": 8370,
+          "new_total": 89734,
+          "delta": 81364,
+          "delta_pct": 972.1
+        },
+        {
+          "field": "positions",
+          "old": null,
+          "new": [
+            {
+              "role": "SPOLOČNÍK",
+              "organization": "RÝDZO S.R.O.",
+              "benefits": ""
+            }
+          ]
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "211",
+              "share": "76/1080"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "255",
+              "share": "13/216"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "126",
+              "share": "7/80"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "101",
+              "share": "8/90"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "11",
+              "share": "85/26784"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "165",
+              "share": "85/26784"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "169",
+              "share": "85/26784"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "164",
+              "share": "8/90"
+            },
+            {
+              "type": "OVOCNÝ SAD",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "248",
+              "share": "152/1080"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "248",
+              "share": "13/216"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "242",
+              "share": "7/80"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZEMIANSKE PODHRADIE",
+              "lv_number": "255",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ZEMIANSKE PODHRADIE",
+              "lv_number": "255",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "ZEMIANSKE PODHRADIE",
+              "lv_number": "255",
+              "share": "1/1"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "160",
+              "share": "85/26784"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "128",
+              "share": "7/80"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "127",
+              "share": "7/80"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5210",
+              "share": "11434/7322036"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "4898",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "226",
+              "share": "76/1080"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "236",
+              "share": "13/216"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "234",
+              "share": "13/216"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "232",
+              "share": "76/1080"
+            }
+          ],
+          "new": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "126",
+              "share": "7/80"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "101",
+              "share": "8/90"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "11",
+              "share": "85/26784"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "160",
+              "share": "85/26784"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "128",
+              "share": "7/80"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "127",
+              "share": "7/80"
+            },
+            {
+              "type": "OVOCNÝ SAD",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "248",
+              "share": "152/1080"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "248",
+              "share": "13/216"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "242",
+              "share": "7/80"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZEMIANSKE PODHRADIE",
+              "lv_number": "255",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ZEMIANSKE PODHRADIE",
+              "lv_number": "255",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "ZEMIANSKE PODHRADIE",
+              "lv_number": "255",
+              "share": "1/1"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "165",
+              "share": "85/26784"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "169",
+              "share": "85/26784"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "164",
+              "share": "8/90"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5210",
+              "share": "11434/7322036"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "4898",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "226",
+              "share": "76/1080"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "236",
+              "share": "13/216"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "234",
+              "share": "13/216"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HRADISKO",
+              "lv_number": "232",
+              "share": "76/1080"
+            }
+          ],
+          "old_count": 23,
+          "new_count": 21
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 8 370 € → 89 734 € (+81 364 €)",
+      "Funkcie",
+      "Nehnuteľnosti: 23 → 21 (-2)"
+    ]
+  },
   "slug": "judr-mgr-lukas-machala",
   "context": {
     "latest_year": 2024,

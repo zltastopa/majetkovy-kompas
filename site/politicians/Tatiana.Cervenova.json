@@ -486,6 +486,116 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tatiana.Cervenova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tatiana.Cervenova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SR)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RÚVZ MARTIN)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY BRATISLAVA)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 49542,
+            "other": 17192
+          },
+          "new": {
+            "public_function": 58590,
+            "other": 23022
+          },
+          "old_total": 66734,
+          "new_total": 81612,
+          "delta": 14878,
+          "delta_pct": 22.3
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC, ČLEN KOMISIE LAÚP, ČLEN MSZ",
+              "organization": "MESTO MARTIN",
+              "benefits": "ODMENA POSLANCA"
+            },
+            {
+              "role": "POSLANEC ŽSK, PREDSEDA KOMISIE SOC. POMOCI A RODINY, ČLEN DR NADÁCIE ŽSK",
+              "organization": "VÚC ŽILINA - ŽSK",
+              "benefits": "ODMENA POSLANCA"
+            },
+            {
+              "role": "PREDSEDA DR AKO POSLANEC MSZ MARTIN",
+              "organization": "REGISTROVANÝ SOCIÁLNY PODNIK MESTA MARTIN",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PREDSEDA DR AKO POSLANEC MSZ MARTIN",
+              "organization": "TURVOD A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC, ČLEN KOMISIE L, ÚPAV, ČLEN MSZ, ČLEN DR NADÁCIE NOVÁ ŠANCA",
+              "organization": "MESTO MARTIN",
+              "benefits": "ODMENA POSLANCA"
+            },
+            {
+              "role": "POSLANEC ŽSK, PREDSEDA KSPAR, ČLEN DR ŽSK NADÁCIE",
+              "organization": "VÚC ŽILINA - ŽSK",
+              "benefits": "ODMENA POSLANCA"
+            },
+            {
+              "role": "PREDSEDA DR AKO POSLANEC MSZ MARTIN",
+              "organization": "REGISTROVANÝ SOCIÁLNY PODNIK MESTA  MT S.R.O.",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PREDSEDA DR AKO POSLANEC MSZ MARTIN",
+              "organization": "TURVOD A.S.",
+              "benefits": "NEMÁM"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MARTIN - PODHÁJ",
+              "lv_number": "3672/162, 276, 322",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MATIN - PODHÁJ",
+              "lv_number": "3672/162, 276, 322",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 66 734 € → 81 612 € (+14 878 €)",
+      "Funkcie: 4 → 4 (0)",
+      "Nehnuteľnosti: 1 → 1 (0)"
+    ]
+  },
   "slug": "mudr-mgr-tatiana-cervenova-mph-mha",
   "context": {
     "latest_year": 2024,

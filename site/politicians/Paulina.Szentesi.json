@@ -604,6 +604,50 @@
     }
   ],
   "total_changes": 22,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Paulina.Szentesi.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Paulina.Szentesi.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA, N. O. )štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DANUBIANA - CENTRUM MODERNÉHO UMENIA N.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2422,
+            "other": 64400
+          },
+          "new": {
+            "public_function": 0,
+            "other": 67404
+          },
+          "old_total": 66822,
+          "new_total": 67404,
+          "delta": 582,
+          "delta_pct": 0.9
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO KULTÚRY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nAUDIOVIZUÁLNY FOND\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO KULTÚRY SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 66 822 € → 67 404 € (+582 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "mgr-paulina-szentesi",
   "context": {
     "latest_year": 2024,

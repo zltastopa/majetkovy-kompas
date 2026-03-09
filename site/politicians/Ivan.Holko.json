@@ -467,6 +467,50 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ivan.Holko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ivan.Holko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ARRIVA NITRA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BIONT, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BIONT, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ARRIVA NITRA, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 13482,
+            "other": 27302
+          },
+          "new": {
+            "public_function": 14658,
+            "other": 38655
+          },
+          "old_total": 40784,
+          "new_total": 53313,
+          "delta": 12529,
+          "delta_pct": 30.7
+        },
+        {
+          "field": "employment",
+          "old": "BIOVETA SK, SPOL. S R. O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "BIOVETA SK, SPOL. S R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 40 784 € → 53 313 € (+12 529 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "doc-mvdr-ivan-holko-phd",
   "context": {
     "latest_year": 2024,

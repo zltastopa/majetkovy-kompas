@@ -552,6 +552,102 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tomas.Husenica.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tomas.Husenica.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZDRAVOTNÍCKA IMPLEMENTAČNÁ\r\nAGENTÚRA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FAKULTNÁ NEMOCNICA S POLIKLINIKOU\r\nNOVÉ ZÁMKY)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FAKULTNÁ NEMOCNICA S POLIKLINIKOU\r\nŽILINA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA\r\nHRONOVCE)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (UNIVERZITNÁ NEMOCNICA MARTIN)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (UNIVERZITNÁ NEMOCNICA\r\nBRATISLAVA)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FAKULTNÁ NEMOCNICA S POLIKLINIKOU ŽILINA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA HRONOVCE)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (UNIVERZITNÁ NEMOCNICA MARTIN)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (UNIVERZITNÁ NEMOCNICA BRATISLAVA)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1200,
+            "other": 38397
+          },
+          "new": {
+            "public_function": 0,
+            "other": 37964
+          },
+          "old_total": 39597,
+          "new_total": 37964,
+          "delta": -1633,
+          "delta_pct": -4.1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "8023",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR -  PARKOVACIE STÁTIE",
+              "cadastral_territory": "BRATISLAVÁ STARÉ MESTO",
+              "lv_number": "8023",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - PARKOVACIE STÁTIE",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "8023",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - PIVNICA",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "8023",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "8073",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR PARKOVACIE MIESTO",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "8023",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR PARKOVACIE MIESTO",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "8023",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRLESTOR PIVNICA",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "8023",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 39 597 € → 37 964 € (-1 633 €)",
+      "Nehnuteľnosti: 4 → 4 (0)"
+    ]
+  },
   "slug": "ing-tomas-husenica",
   "context": {
     "latest_year": 2024,

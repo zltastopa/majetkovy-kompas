@@ -357,6 +357,72 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Milan.Garaj.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Milan.Garaj.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 8892,
+            "other": 40101
+          },
+          "new": {
+            "public_function": 48784,
+            "other": 10001
+          },
+          "old_total": 48993,
+          "new_total": 58785,
+          "delta": 9792,
+          "delta_pct": 20.0
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "SUZUKI",
+              "year_of_manufacture": 2008,
+              "share": "1 / 1"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "SUZUKI",
+              "year_of_manufacture": 2020,
+              "share": "1 / 1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "SUZUKI",
+              "year_of_manufacture": 2008,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "SUZUKI",
+              "year_of_manufacture": 2020,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 48 993 € → 58 785 € (+9 792 €)",
+      "Hnuteľný majetok: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-milan-garaj-phd",
   "context": {
     "latest_year": 2024,

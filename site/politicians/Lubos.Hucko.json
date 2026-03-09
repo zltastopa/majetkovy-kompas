@@ -503,6 +503,150 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lubos.Hucko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lubos.Hucko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ\r\nPRENOSOVÁ SÚSTAVA)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA )"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1301,
+            "other": 0
+          },
+          "new": {
+            "public_function": 12428,
+            "other": 0
+          },
+          "old_total": 1301,
+          "new_total": 12428,
+          "delta": 11127,
+          "delta_pct": 855.3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "REKREAČNÝ DOM S POZEMKOM",
+              "cadastral_territory": "CESARICA",
+              "lv_number": "3772",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATKA A ZÁHRADA",
+              "cadastral_territory": "HRAŠNÉ",
+              "lv_number": "2180",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "8771",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATKA A ZÁHRADA",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "9439",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM S GARÁŽOU A POZEMKOM",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "4657",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT S GARÁŽOU",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "4908",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "6558",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADNÁ CHATKA A ZÁHRADA",
+              "cadastral_territory": "HRAŠNÉ",
+              "lv_number": "2180",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "8771",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATKA A ZÁHRADA",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "9439",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM S GARÁŽOU A POZEMKOM",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "4657",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT S GARÁŽOU",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "4908",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "6558",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÝ DOM S POZEMKOM",
+              "cadastral_territory": "CESARICA",
+              "lv_number": "3772",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "AKCIE VEREJNE OBCHODOVANÝCH SPOLOČNOSTÍ, podiel: 1/1"
+          ],
+          "new": [
+            "AKCIE VEREJNE OBCHODOVANÝCH SPOLOČNOSTÍ , podiel: 1/1"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 1 301 € → 12 428 € (+11 127 €)",
+      "Nehnuteľnosti: 7 → 7 (0)",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-lubos-hucko",
   "context": {
     "latest_year": 2024,

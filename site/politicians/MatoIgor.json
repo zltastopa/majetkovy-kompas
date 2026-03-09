@@ -824,6 +824,44 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/MatoIgor.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/MatoIgor.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 47099,
+            "other": 0
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 0
+          },
+          "old_total": 47099,
+          "new_total": 48912,
+          "delta": 1813,
+          "delta_pct": 3.8
+        },
+        {
+          "field": "employment",
+          "old": "OĽANO A PRIATELIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 47 099 € → 48 912 € (+1 813 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "igor-matovic",
   "context": {
     "latest_year": 2024,

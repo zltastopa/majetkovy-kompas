@@ -243,6 +243,64 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zdenka.Macicova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zdenka.Macicova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republiky",
+          "new": "poslanec Národnej rady Slovenskej republikystarosta obce"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 6179,
+            "other": 49796
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 12198
+          },
+          "old_total": 55975,
+          "new_total": 61110,
+          "delta": 5135,
+          "delta_pct": 9.2
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "STAROSTA OBCE",
+              "organization": "OBEC KOŠÚTY",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "STAROSTKA",
+              "organization": "OBEC KOŠÚTY",
+              "benefits": "PLAT"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 55 975 € → 61 110 € (+5 135 €)",
+      "Funkcie: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-zdenka-macicova",
   "context": {
     "latest_year": 2024,

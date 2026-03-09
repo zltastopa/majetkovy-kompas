@@ -226,6 +226,101 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tomas.Zanovit.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tomas.Zanovit.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 3585,
+            "other": 73262
+          },
+          "old_total": 0,
+          "new_total": 76847,
+          "delta": 76847
+        },
+        {
+          "field": "employment",
+          "old": "TURČIANSKA VODÁRENSKÁ SPOLOČNOSŤ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSÚKROMNÁ MATERSKÁ ŠKOLA T. ZANOVITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSÚKROMNÁ ZÁKLADNÁ ŠKOLA T. ZANOVITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nCENTRUM VOĽNÉHO ČASU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SÚKROMNÁ ZÁKLADNÁ ŠKOLA T. ZANOVITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nTURČIANSKÁ VODÁRENSKÁ SPOLOČNOSŤ A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nCENTRUM VOĽNÉHO ČASU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSTREDOSLOVENSKÁ ENERGETIKA A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSÚKROMNÁ MATERSKÁ ŠKOLA T. ZANOVITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ZÁTURČIE",
+              "lv_number": "1958",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZÁTURČIE",
+              "lv_number": "1984",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZÁTURČIE",
+              "lv_number": "1984",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "VRÚTKY",
+              "lv_number": "4070",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZÁTURČIE",
+              "lv_number": "1984",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZÁTURČIE",
+              "lv_number": "1984",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "VRÚTKY",
+              "lv_number": "4070",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATY PORAST",
+              "cadastral_territory": "ZÁTURČIE",
+              "lv_number": "1958",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 76 847 € (+76 847 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 4 → 4 (0)"
+    ]
+  },
   "slug": "paeddr-tomas-zanovit",
   "context": {
     "latest_year": 2024,

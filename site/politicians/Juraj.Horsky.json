@@ -433,6 +433,50 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Horsky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Horsky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNICE SLOVENSKEJ REPUBLIKY)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO M.R. ŠTEFÁNIKA - AIRPORT BRATISLAVA, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNICE SLOVENSKEJ REPUBLIKY)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO M.R.ŠTEFÁNIKA - AIRPORT BRATISLAVA\r\nA.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 29969,
+            "other": 32064
+          },
+          "new": {
+            "public_function": 34271,
+            "other": 32181
+          },
+          "old_total": 62033,
+          "new_total": 66452,
+          "delta": 4419,
+          "delta_pct": 7.1
+        },
+        {
+          "field": "employment",
+          "old": "IBM INTERNATIONAL SERVICES CENTRE S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "IBM INTERNATIONAL SERVICES CENTER\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 62 033 € → 66 452 € (+4 419 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "ing-juraj-horsky",
   "context": {
     "latest_year": 2024,

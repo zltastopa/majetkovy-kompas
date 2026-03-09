@@ -338,6 +338,86 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lucia.Plavakova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lucia.Plavakova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 12173,
+            "other": 21438
+          },
+          "new": {
+            "public_function": 51439,
+            "other": 8319
+          },
+          "old_total": 33611,
+          "new_total": 59758,
+          "delta": 26147,
+          "delta_pct": 77.8
+        },
+        {
+          "field": "employment",
+          "old": "PROGRESÍVNE SLOVENSKO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANKYŇA MESTSKÉHO ZASTUPITEĽSTVA",
+              "organization": "HLAVNÉ MESTO SLOVENSKEJ REPUBLIKY",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "PODPREDSEDNÍČKA",
+              "organization": "PROGRESÍVNE SLOVENSKO",
+              "benefits": "NEMÁM"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANKYŇA MESTSKÉHO ZASTUPITEĽSTVA",
+              "organization": "HLAVNÉ MESTO SLOVENSKEJ REPUBLIKY",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLENKA PREDSEDNÍCTVA",
+              "organization": "PROGRESÍVNE SLOVENSKO",
+              "benefits": "NEMÁM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%"
+          ],
+          "new": [
+            "PODIEL V S.R.O., podiel: 100%"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 33 611 € → 59 758 € (+26 147 €)",
+      "Zamestnanie",
+      "Funkcie: 2 → 2 (0)",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
+  },
   "slug": "judr-lucia-plavakova-phd",
   "context": {
     "latest_year": 2024,

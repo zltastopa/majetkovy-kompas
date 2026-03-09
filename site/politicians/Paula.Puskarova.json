@@ -577,6 +577,170 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Paula.Puskarova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Paula.Puskarova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7763,
+            "other": 6397
+          },
+          "new": {
+            "public_function": 50043,
+            "other": 49707
+          },
+          "old_total": 14160,
+          "new_total": 99750,
+          "delta": 85590,
+          "delta_pct": 604.4
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN RADY PARTNERSTVA",
+              "organization": "BRATISLAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN VEDECKEJ RADY",
+              "organization": "HELSINKI INSTITUTE OF SUSTAINABILITY SCIENCE - HELSUS",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN HODNOTIACEJ KOMISIE SASPRO2",
+              "organization": "SLOVENSKÁ AKADÉMIA VIED",
+              "benefits": "ODMENA ZA PRÁCU"
+            },
+            {
+              "role": "PODPREDSEDA RADY PRE EURÓPSKU SPOLUPRÁCU",
+              "organization": "AGENTÚRA NA PODPORU VÝSKUMU A VÝVOJA",
+              "benefits": "ODMENA ZA PRÁCU"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN VEDECKEJ RADY",
+              "organization": "HELSINKI INSTITUTE OF SUSTAINABILITY SCIENCE - HELSUS",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN HODNOTIACEJ KOMISIE SASPRO2",
+              "organization": "SLOVENSKÁ AKADÉMIA VIED",
+              "benefits": "ODMENA ZA PRÁCU"
+            },
+            {
+              "role": "PODPREDSEDA RADY PRE EURÓPSKU SPOLUPRÁCU",
+              "organization": "AGENTÚRA NA PODPORU VÝSKUMU A VÝVOJA",
+              "benefits": "ODMENA ZA PRÁCU"
+            },
+            {
+              "role": "ČLEN RADY PARTNERSTVA",
+              "organization": "BRATISLAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6617",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6680",
+              "share": "564/10000"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR Č. N01",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6617",
+              "share": "32/454"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR Č. N02",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6617",
+              "share": "32/454"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5868",
+              "share": "203/10000"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "7749",
+              "share": "203/10000"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6617",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6680",
+              "share": "564/10000"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6617",
+              "share": "32/454"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6617",
+              "share": "32/454"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5868",
+              "share": "203/10000"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "7749",
+              "share": "203/10000"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 14 160 € → 99 750 € (+85 590 €)",
+      "Funkcie: 4 → 4 (0)",
+      "Nehnuteľnosti: 6 → 6 (0)"
+    ]
+  },
   "slug": "doc-ing-paula-puskarova-dis-art-phd",
   "context": {
     "latest_year": 2024,

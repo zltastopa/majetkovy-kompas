@@ -121,6 +121,67 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Sona.Husovska.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Sona.Husovska.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VZDELÁVACIE A DOŠKOLOVACIE ZARIADENIE VS - FINANCIE TATRANSKÁ LOMNICA)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VZDELÁVACIE A DOŠKLOVACIE ZARIADENIE\r\nVS - FINANCIE TATRANSKÁ LOMNICA)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 28398,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 28398,
+          "delta": 28398
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚVER",
+              "share": "100%",
+              "date": "16. 08. 2024"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "BYT, kat. územie TATRANSKÁ LOMNICA, rok zač. užívania: 2015, spôsob užívania: BEZODPLATNÉ BÝVANIE",
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 28 398 € (+28 398 €)",
+      "Záväzky: 1 → 1 (0)",
+      "Užívanie nehnuteľností"
+    ]
+  },
   "slug": "bc-sona-husovska",
   "context": {
     "latest_year": 2024,

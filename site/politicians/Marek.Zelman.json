@@ -703,6 +703,50 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marek.Zelman.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marek.Zelman.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA HRONOVCE)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA HRONOVCE\r\n)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 74990,
+            "other": 116322
+          },
+          "new": {
+            "public_function": 75061,
+            "other": 79479
+          },
+          "old_total": 191312,
+          "new_total": 154540,
+          "delta": -36772,
+          "delta_pct": -19.2
+        },
+        {
+          "field": "business_activity",
+          "old": "SÚDNY ZNALEC(MUDr. MAREK ZELMAN - SÚDNY ZNALEC)",
+          "new": "SÚDNY ZNALEC(MUDr. MAREK ZELMAN, SÚDNY ZNALEC)"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 191 312 € → 154 540 € (-36 772 €)",
+      "Podnikanie"
+    ]
+  },
   "slug": "mudr-marek-zelman",
   "context": {
     "latest_year": 2024,

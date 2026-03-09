@@ -449,6 +449,144 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marcela.Cavojova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marcela.Cavojova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11736,
+            "other": 2819
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 0
+          },
+          "old_total": 14555,
+          "new_total": 48912,
+          "delta": 34357,
+          "delta_pct": 236.0
+        },
+        {
+          "field": "employment",
+          "old": "SMER - SOCIÁLNA DEMOKRACIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "KRAJSKÁ TAJOMNÍČKA",
+              "organization": "SMER - SOCIÁLNA DEMOKRACIA",
+              "benefits": "PLAT, FUNKCIA UKONČENÁ K 15.12.2023"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NITRA",
+              "lv_number": "1425",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "362",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "363",
+              "share": "1/8"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "429",
+              "share": "6/32"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "534",
+              "share": "3/32"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "535",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "536",
+              "share": "6/16"
+            }
+          ],
+          "new": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "429",
+              "share": "6/32"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "534",
+              "share": "3/32"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "535, 536",
+              "share": "1/4, 6/16"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NITRA",
+              "lv_number": "1425",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "362",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "363",
+              "share": "1/8"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 6
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 14 555 € → 48 912 € (+34 357 €)",
+      "Zamestnanie",
+      "Funkcie",
+      "Nehnuteľnosti: 7 → 6 (-1)"
+    ]
+  },
   "slug": "mgr-marcela-cavojova",
   "context": {
     "latest_year": 2024,

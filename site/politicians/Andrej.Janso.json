@@ -401,6 +401,50 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Andrej.Janso.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Andrej.Janso.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7200,
+            "other": 71196
+          },
+          "new": {
+            "public_function": 7200,
+            "other": 63906
+          },
+          "old_total": 78396,
+          "new_total": 71106,
+          "delta": -7290,
+          "delta_pct": -9.3
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "MANAŽÉR PODPORY RIADENIA",
+              "organization": "ŽELEZNIČNÁ SPOLOČNOSŤ SLOVENSKO, A.S.",
+              "benefits": "MZDA, SLUŽOBNÝ TELEFÓN"
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 78 396 € → 71 106 € (-7 290 €)",
+      "Funkcie"
+    ]
+  },
   "slug": "ing-andrej-janso-phd",
   "context": {
     "latest_year": 2024,

@@ -2510,6 +2510,258 @@
     }
   ],
   "total_changes": 30,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Magdalena.Hromcova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Magdalena.Hromcova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 3912,
+            "other": 69338
+          },
+          "new": {
+            "public_function": 25756,
+            "other": 67067
+          },
+          "old_total": 73250,
+          "new_total": 92823,
+          "delta": 19573,
+          "delta_pct": 26.7
+        },
+        {
+          "field": "business_activity",
+          "old": "ADVOKÁT(JUDr. MAGDALÉNA HROMCOVÁ)",
+          "new": "ADVOKÁT(JUDR. MAGDALÉNA HROMCOVÁ)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "10945",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "10385",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+              "lv_number": "4965",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR A PODIEL NA SPOLOČNÝCH ČASTIACH",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5335",
+              "share": "1/2"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "83",
+              "share": "1/8"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BYTČICA",
+              "lv_number": "853",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BYTČICA",
+              "lv_number": "853",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT A PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5167",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT A ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5073",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "TERCHOVÁ",
+              "lv_number": "5588",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "TERCHOVÁ",
+              "lv_number": "7989",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽE, ZASTAVANÉ PLOCHY A NÁDVORIA A OSTATNÉ PLOCHY",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "3002",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "RAJECKÉ TEPLICE",
+              "lv_number": "1283",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "BYSTRIČKA",
+              "lv_number": "1261",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "TERCHOVÁ",
+              "lv_number": "5722",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "TERCHOVÁ",
+              "lv_number": "6072",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+              "lv_number": "4965",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "10945",
+              "share": "BSM"
+            },
+            {
+              "type": "ZATAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "10385",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+              "lv_number": "4965",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR A PODIEL NA SPOLOČNÝCH ČAST.",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5335",
+              "share": "1/2"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "83",
+              "share": "1/8"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BYTČICA",
+              "lv_number": "853",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BYTČICA",
+              "lv_number": "853",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT A PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5167",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT A ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5073",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA, TTP, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "TERCHOVÁ",
+              "lv_number": "5588",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA, TTP",
+              "cadastral_territory": "TERCHOVÁ",
+              "lv_number": "7989",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽE, ZASTAVANÉ PLOCHY A NÁDVORIA A OST. PLOCH",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "3002",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "RAJECKÉ TEPLICE",
+              "lv_number": "1283",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA, TTP",
+              "cadastral_territory": "BYSTRIČKA",
+              "lv_number": "1261",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "TERCHOVÁ",
+              "lv_number": "5722",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "TERCHOVÁ",
+              "lv_number": "6072",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+              "lv_number": "4965",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 17,
+          "new_count": 17
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 73 250 € → 92 823 € (+19 573 €)",
+      "Podnikanie",
+      "Nehnuteľnosti: 17 → 17 (0)"
+    ]
+  },
   "slug": "judr-magdalena-hromcova",
   "context": {
     "latest_year": 2024,

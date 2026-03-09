@@ -2024,6 +2024,268 @@
     }
   ],
   "total_changes": 25,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Studencan.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Studencan.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 54776,
+            "other": 143885
+          },
+          "new": {
+            "public_function": 50343,
+            "other": 158667
+          },
+          "old_total": 198661,
+          "new_total": 209010,
+          "delta": 10349,
+          "delta_pct": 5.2
+        },
+        {
+          "field": "employment",
+          "old": "VÚSCH A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nLF UPJŠ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "VÚSCH A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nLF UPJS ÚVÄZOK 0,5\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "PODHRADÍK",
+              "lv_number": "173 537 538 728",
+              "share": "1/2"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "VYŠNÁ ŠEBASTOVÁ",
+              "lv_number": "1317",
+              "share": "10/140"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "VYŠNÁ ŠEBASTOVÁ",
+              "lv_number": "287",
+              "share": "1/7"
+            },
+            {
+              "type": "VODNÉ PLOCHY A LESNÉ POZEMKY",
+              "cadastral_territory": "OĽŠAVICA",
+              "lv_number": "631 632 633 634 635",
+              "share": "4/5390"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SPIŠSKÉ PODHRADIE",
+              "lv_number": "1908 2670 2702 3195",
+              "share": "11/420, 1/35, 2/70, 2/70"
+            },
+            {
+              "type": "ORNÁ PÔDA A LESNÉ POZEMKY",
+              "cadastral_territory": "STUDENEC",
+              "lv_number": "121 271 386 387",
+              "share": "4/5390, 1/35, 4/5390, 4/5390"
+            },
+            {
+              "type": "RODINNÝ DOM SO ZÁHRADOU A PRÍSTREŠOK",
+              "cadastral_territory": "KOŠICE MYSLAVA",
+              "lv_number": "2644",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "KOŠICE MYSLAVA",
+              "lv_number": "3796",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE LETNÁ",
+              "lv_number": "3778",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "KOŠICE MYSLAVA",
+              "lv_number": "3796",
+              "share": "1/6"
+            },
+            {
+              "type": "LESNÝ PORAST",
+              "cadastral_territory": "VYŠNÁ ŠEBASTOVÁ MAGLOVEC",
+              "lv_number": "1317",
+              "share": "10/110"
+            },
+            {
+              "type": "LESNÝ PORAST",
+              "cadastral_territory": "VYŠNÁ ŠEBASTOVÁ MAGLOVEC",
+              "lv_number": "1316",
+              "share": "1/14"
+            },
+            {
+              "type": "ŠTÚDIO",
+              "cadastral_territory": "KRK CHORVÁTSKO",
+              "lv_number": "2326",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "PODHRADÍK",
+              "lv_number": "173,537,538,728",
+              "share": "1/2"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "VYŠNÁ ŠEBASTOVÁ",
+              "lv_number": "1317",
+              "share": "10/140"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "VYŠNÁ ŠEBASTOVÁ",
+              "lv_number": "287",
+              "share": "1/7"
+            },
+            {
+              "type": "VODNÉ PLOCHY A LESNÉ POZEMKY",
+              "cadastral_territory": "OĽŠAVICA",
+              "lv_number": "631,632,633,634,635",
+              "share": "4/5390"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SPIŠSKÉ PODHRADIE",
+              "lv_number": "1908,2670,2702,3195",
+              "share": "11/420,1/35/,2/10,2/70"
+            },
+            {
+              "type": "ORNÁ PÔDA A LESNÉ POZEMKY",
+              "cadastral_territory": "STUDENEC",
+              "lv_number": "121,271,386,387",
+              "share": "4/5390,1/35,4/5390,4/5390"
+            },
+            {
+              "type": "RODINNÝ DOM SO ZÁHRADOU A PRÍSTREŠOK",
+              "cadastral_territory": "KOŠICE MYSĽAVA",
+              "lv_number": "2644",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "KOŠICE MYSĽAVA",
+              "lv_number": "3796",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE LETNÁ",
+              "lv_number": "3778",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE LETNÁ",
+              "lv_number": "3778",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "KOŠICE MYSĽAVA",
+              "lv_number": "3796",
+              "share": "1/6"
+            },
+            {
+              "type": "LESNÝ PORAST",
+              "cadastral_territory": "VYŠNÁ ŠEBASTOVÁ MAGLOVEC",
+              "lv_number": "1317",
+              "share": "10/140"
+            },
+            {
+              "type": "LESNÝ PORAST",
+              "cadastral_territory": "VYŠNÁ ŠEBASTOVÁ MAGLOVEC",
+              "lv_number": "1316",
+              "share": "1/14"
+            },
+            {
+              "type": "ŠTÚDIO",
+              "cadastral_territory": "KRK CHORVÁTSKO",
+              "lv_number": "2326",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 13,
+          "new_count": 14
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "VOLVO",
+              "year_of_manufacture": 2022,
+              "share": "1/1"
+            },
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "VOLVO",
+              "year_of_manufacture": 2018,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "VOLVO",
+              "year_of_manufacture": 2023,
+              "share": "1/1"
+            },
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "VOLVO",
+              "year_of_manufacture": 2018,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚČET, podiel: 1/2",
+            "ÚČET, podiel: 1/2",
+            "ÚČET, podiel: 1/1",
+            "ÚČET, podiel: 1/2"
+          ],
+          "new": [
+            "ÚČET V BANKE, podiel: 1/2",
+            "ÚČET V BANKE, podiel: 1/2",
+            "ÚČET V BANKE, podiel: 1/2",
+            "ÚČET V BANKE, podiel: 1/2"
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 198 661 € → 209 010 € (+10 349 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 13 → 14 (+1)",
+      "Hnuteľný majetok: 2 → 2 (0)",
+      "Majetkové práva: 4 → 4 (0)"
+    ]
+  },
   "slug": "doc-mudr-martin-studencan-phd",
   "context": {
     "latest_year": 2024,

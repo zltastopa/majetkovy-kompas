@@ -332,6 +332,78 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/DrucToma.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/DrucToma.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republikyčlen vlády Slovenskej republiky",
+          "new": "člen vlády Slovenskej republiky"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 16925,
+            "other": 0
+          },
+          "new": {
+            "public_function": 56637,
+            "other": 0
+          },
+          "old_total": 16925,
+          "new_total": 56637,
+          "delta": 39712,
+          "delta_pct": 234.6
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM, OSTATNÁ PLOCHA, ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "CHORVÁTSKY GROB",
+              "lv_number": "5720",
+              "share": "BSM"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA, ALTÁN, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "CHORVÁTSKY GROB",
+              "lv_number": "2006",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM, OSTAT. PLOCHA, ZAST. PLOCHA A NÁDVORIA",
+              "cadastral_territory": "CHORVÁTSKY GROB",
+              "lv_number": "5720",
+              "share": "BSM"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA, ALTÁN, ZAST. PLOCHA A NÁDVORIE",
+              "cadastral_territory": "CHORVÁTSKY GROB",
+              "lv_number": "2006",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 16 925 € → 56 637 € (+39 712 €)",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
+  },
   "slug": "judr-ing-tomas-drucker-msc",
   "context": {
     "latest_year": 2024,

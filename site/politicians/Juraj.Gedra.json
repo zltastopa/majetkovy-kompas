@@ -405,6 +405,115 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Gedra.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Gedra.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republikyvedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)",
+          "new": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD VLÁDY SR)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 13406,
+            "other": 0
+          },
+          "new": {
+            "public_function": 81303,
+            "other": 0
+          },
+          "old_total": 13406,
+          "new_total": 81303,
+          "delta": 67897,
+          "delta_pct": 506.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5561",
+              "share": "1/2 BSM"
+            },
+            {
+              "type": "NEBYT. PRIESTOR -  PIVNIČNÁ KOBKA",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5561",
+              "share": "1/2 BSM"
+            },
+            {
+              "type": "NEBYT. PRIESTOR -  PARKOVACIE STÁTIE",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "4654",
+              "share": "1/57 BSM"
+            },
+            {
+              "type": "POZEMOK -  PARKOVACIE STÁTIE",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "6943",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5561",
+              "share": "1/2 BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - PIVNIČNÁ KOBKA",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5561",
+              "share": "1/2 BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - PARKOVACIE STÁTIE",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "4654",
+              "share": "1/57 BSM"
+            },
+            {
+              "type": "POZEMOK - PARKOVACIE STÁTIE",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "6943",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "MERCEDES-BENZ",
+              "year_of_manufacture": 2018,
+              "share": "1/1"
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 13 406 € → 81 303 € (+67 897 €)",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Hnuteľný majetok"
+    ]
+  },
   "slug": "judr-juraj-gedra",
   "context": {
     "latest_year": 2024,

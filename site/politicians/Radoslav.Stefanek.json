@@ -1178,6 +1178,188 @@
     }
   ],
   "total_changes": 28,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Radoslav.Stefanek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Radoslav.Stefanek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "generálny riaditeľ Železníc Slovenskej republiky",
+          "new": "štátny tajomník"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 9787,
+            "other": 500
+          },
+          "new": {
+            "public_function": 0,
+            "other": 0
+          },
+          "old_total": 10287,
+          "new_total": 0,
+          "delta": -10287,
+          "delta_pct": -100.0
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "employment",
+          "old": "WISEPLAN S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERTVO PRÁCE, SOCIÁLNYCH VECÍ A RODINY SLOVENSKEJ REPUBLIKY - INŠPEKCIA V SOCIÁLNYCH VECIACH\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4180",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BOJNICE",
+              "lv_number": "4466",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BOJNICE",
+              "lv_number": "4466",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4212",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4212",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4180",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BOJNICE",
+              "lv_number": "4754",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ĽUBORČA",
+              "lv_number": "1873",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "4532",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4180",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4180",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BOJNICE",
+              "lv_number": "4466",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4212",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4212",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4180",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BOJNICE",
+              "lv_number": "4754",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ĽUBORČA",
+              "lv_number": "1873",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "4532",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 9
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: BSM",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: BSM",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: BSM"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: BSM"
+          ],
+          "old_count": 3,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 10 287 € → 0 € (-10 287 €)",
+      "Nezlučiteľnosť",
+      "Zamestnanie",
+      "Nehnuteľnosti: 9 → 9 (0)",
+      "Majetkové práva: 3 → 1 (-2)"
+    ]
+  },
   "slug": "ing-radoslav-stefanek",
   "context": {
     "latest_year": 2024,

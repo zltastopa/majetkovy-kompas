@@ -557,6 +557,38 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jelena.Pastekova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jelena.Pastekova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10432,
+            "other": 24133
+          },
+          "new": {
+            "public_function": 11440,
+            "other": 25993
+          },
+          "old_total": 34565,
+          "new_total": 37433,
+          "delta": 2868,
+          "delta_pct": 8.3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 34 565 € → 37 433 € (+2 868 €)"
+    ]
+  },
   "slug": "prof-phdr-jelena-pastekova-phd",
   "context": {
     "latest_year": 2024,

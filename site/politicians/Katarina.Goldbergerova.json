@@ -252,6 +252,62 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Katarina.Goldbergerova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Katarina.Goldbergerova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EUSTREAM, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VÝCHODOSLOVENSKÁ DISTRIBUČNÁ, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH TEPLÁRENSKÝ HOLDING A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 79785,
+            "other": 19271
+          },
+          "new": {
+            "public_function": 48285,
+            "other": 38687
+          },
+          "old_total": 99056,
+          "new_total": 86972,
+          "delta": -12084,
+          "delta_pct": -12.2
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO HOSPODÁRSTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO HOSPODÁRSTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "vehicles",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "TOYOTA",
+              "year_of_manufacture": 2024
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 99 056 € → 86 972 € (-12 084 €)",
+      "Zamestnanie",
+      "Vozidlá"
+    ]
+  },
   "slug": "mgr-katarina-goldbergerova",
   "context": {
     "latest_year": 2024,

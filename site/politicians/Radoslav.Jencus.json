@@ -164,6 +164,89 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Radoslav.Jencus.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Radoslav.Jencus.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 0,
+            "other": 56792
+          },
+          "old_total": 0,
+          "new_total": 56792,
+          "delta": 56792
+        },
+        {
+          "field": "employment",
+          "old": "FOND NA PODPORU ŠPORTU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO INVESTÍCIÍ, REGIONÁLNEHO ROZVOJA A INFORMATIZÁCIE SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nFOND NA PODPORU ŠPORTU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(INVENTCAP S.R.O.)KONATEĽ(BLUE MEDIA CONSULTING S.R.O.)KONATEĽ(BERMUDA GOLF S.R.O.)KONATEĽ(DATAINTECH S.R.O. V LIKVIDÁCII)",
+          "new": "KONATEĽ(BLUE MEDIA CONSULTING S.R.O.)KONATEĽ(INVENTCAP S.R.O.)KONATEĽ(BERMUDA GOLF S.R.O.)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "827207 TERASA",
+              "lv_number": "16677",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "827207 TERASA",
+              "lv_number": "16677",
+              "share": "1/1"
+            },
+            {
+              "type": "PARKOVCIE STÁTIE",
+              "cadastral_territory": "827207 TERASA",
+              "lv_number": "17273",
+              "share": "1/192"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/2"
+          ],
+          "new": [
+            "OBCHODNÝ PODIEL, podiel: 1/2"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 56 792 € (+56 792 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti: 1 → 2 (+1)",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-radoslav-jencus",
   "context": {
     "latest_year": 2024,

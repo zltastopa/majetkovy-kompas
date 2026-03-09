@@ -189,6 +189,104 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Petrovic.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Petrovic.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM V KOVÁČOVEJ)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ REHABILITAČNÉ CENTRUM KOVÁČOVÁ)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 0,
+            "other": 59905
+          },
+          "old_total": 0,
+          "new_total": 59905,
+          "delta": 59905
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO ZDRAVOTNÍCTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA III. - NOVÉ MESTO",
+              "lv_number": "2692",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO BRATISLAVA III",
+              "lv_number": "2692",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "VOLVO",
+              "year_of_manufacture": 2012,
+              "share": "1/1"
+            },
+            {
+              "type": "MOTOCYKEL",
+              "brand": "ČZ",
+              "year_of_manufacture": 1968,
+              "share": "1/1"
+            },
+            {
+              "type": "MOTOCYKEL",
+              "brand": "JAWA",
+              "year_of_manufacture": 1969,
+              "share": "1/1"
+            }
+          ]
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "ÚSPORY, podiel: 1/1"
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 59 905 € (+59 905 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 1 → 1 (0)",
+      "Hnuteľný majetok",
+      "Majetkové práva"
+    ]
+  },
   "slug": "mgr-juraj-petrovic-phd",
   "context": {
     "latest_year": 2024,

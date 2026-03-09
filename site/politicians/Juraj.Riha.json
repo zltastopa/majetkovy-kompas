@@ -1096,6 +1096,267 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Riha.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Riha.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 72567,
+            "other": 8630
+          },
+          "new": {
+            "public_function": 79347,
+            "other": 9720
+          },
+          "old_total": 81197,
+          "new_total": 89067,
+          "delta": 7870,
+          "delta_pct": 9.7
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "VÝKON PRÁV SPOLOČNÍKA ZA MESTO MALACKY",
+              "organization": "BRATISLAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NADÁCIA PRO MALACKY \"V LIKVIDÁCII\"",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "VÝKON PRÁV SPOLOČNÍKA ZA MESTO MALACKY",
+              "organization": "KULTURÁK, S.R.O.",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "POSLANEC ZASTUPITEĽSTVA",
+              "organization": "BRATISLAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "VÝKON PRÁV SPOLOČNÍKA ZA MESTO MALACKY",
+              "organization": "TEKOS, SPOL. S R.O.",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "VÝKON PRÁV SPOLOČNÍKA ZA MESTO MALACKY",
+              "organization": "ŠPORT ARÉNA MALACKY, S.R.O.",
+              "benefits": "BEZ ODMENY"
+            }
+          ],
+          "new": [
+            {
+              "role": "VÝKON PRÁV SPOLOČNÍKA ZA MESTO MALACKY",
+              "organization": "BRATISLAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NADÁCIA PRO MALACKY \" V LIKVIDÁCII\"",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "VÝKON PRÁV SPOLOČNÍKA ZA MESTO MALACKY",
+              "organization": "KULTURÁK, S.R.O.",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "POSLANEC ZASTUPITEĽSTVA",
+              "organization": "BRATISLAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA ZA VÝKON FUNKCIE"
+            },
+            {
+              "role": "VÝKON PRÁV SPOLOČNÍKA ZA MESTO MALACKY",
+              "organization": "TEKOS, SPOL. S R.O.",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "VÝKON PRÁV SPOLOČNÍKA ZA MESTO MALACKY",
+              "organization": "ŠPORT ARÉNA MALACKY, S.R.O.",
+              "benefits": "BEZ ODMENY"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "NEBYTOVÝ PRIESTOR - GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "4268",
+              "share": "3062/1606356"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
+              "cadastral_territory": "NIVY",
+              "lv_number": "4268",
+              "share": "1/169"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "MALACKY",
+              "lv_number": "10434",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "4270",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "4268",
+              "share": "3062/1606356"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MALACKY",
+              "lv_number": "8258",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MALACKY",
+              "lv_number": "8258",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MALACKY",
+              "lv_number": "8258",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "NEBYTOVÝ PRIESTOR - GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "4268",
+              "share": "3062/1606356"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR",
+              "cadastral_territory": "NIVY",
+              "lv_number": "4268",
+              "share": "1/169"
+            },
+            {
+              "type": "BYT A PRISLÚCHAJÚCE PODIELY NA POZEMKOCH",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "6014",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "6014",
+              "share": "1/256"
+            },
+            {
+              "type": "CHATA V PÔVODNOM STAVE",
+              "cadastral_territory": "MALÉ LEVÁRE",
+              "lv_number": "2927",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MALACKY",
+              "lv_number": "8258",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MALACKY",
+              "lv_number": "8258",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MALACKY",
+              "lv_number": "8258",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT V PÔVODNOM RODIČOVSKOM DOME",
+              "cadastral_territory": "MALACKY",
+              "lv_number": "10434",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT A PRISLÚCHAJÚCE PODIELY NA POZEMKOCH",
+              "cadastral_territory": "NIVY",
+              "lv_number": "4270",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "4268",
+              "share": "3062/1606356"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 11
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "27. 07. 2022"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "25. 04. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "24. 10. 2024"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "27. 07. 2022"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "25. 04. 2022"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 81 197 € → 89 067 € (+7 870 €)",
+      "Funkcie: 6 → 6 (0)",
+      "Nehnuteľnosti: 8 → 11 (+3)",
+      "Záväzky: 2 → 3 (+1)"
+    ]
+  },
   "slug": "judr-ing-juraj-riha-phd",
   "context": {
     "latest_year": 2024,

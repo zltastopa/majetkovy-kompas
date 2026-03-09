@@ -569,6 +569,287 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ivan.Siagi.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ivan.Siagi.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ KOALÍCIA PRE DIGITÁLNE ZRUČNOSTI\r\nA POVOLANIA SLOVENSKEJ REPUBLIKY)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ KOALÍCIA PRE DIGITÁLNE ZRUČNOSTI A POVOLANIA SR)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 0,
+            "other": 58321
+          },
+          "old_total": 0,
+          "new_total": 58321,
+          "delta": 58321
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO ŠKOLSTVA, VÝSKUMU, VÝVOJA A MLÁDEŽE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO ŠKOLSTVA, VÝSKUMU, VÝVOJA A MLÁDEŽE SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "423",
+              "share": "2/3 (BSM)"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "4632",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "423",
+              "share": "2/3 (BSM)"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "423",
+              "share": "2/3 (BSM)"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "165",
+              "share": "1/4 (BSM)"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ZOLNÁ",
+              "lv_number": "372",
+              "share": "2/5"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "1075",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZOLNÁ",
+              "lv_number": "372",
+              "share": "2/5"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "ZOLNÁ",
+              "lv_number": "372",
+              "share": "2/5"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "423",
+              "share": "2/3 (BSM)"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "423",
+              "share": "2/3 (BSM)"
+            }
+          ],
+          "new": [
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "423",
+              "share": "2/3 (BSM)"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PODUNAJSKÉ BISKUPICE",
+              "lv_number": "4632",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "423",
+              "share": "2/3 (BSM)"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "423",
+              "share": "2/3 (BSM)"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "165",
+              "share": "1/4 (BSM)"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ZOLNÁ",
+              "lv_number": "372",
+              "share": "2/5"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "1075",
+              "share": "1/1(BSM)"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZOLNÁ",
+              "lv_number": "372",
+              "share": "2/5"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "ZOLNÁ",
+              "lv_number": "372",
+              "share": "2/5"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "420",
+              "share": "1/1 (BSM)"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "423",
+              "share": "2/3 (BSM)"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČAVOJ",
+              "lv_number": "423",
+              "share": "2/3 (BSM)"
+            }
+          ],
+          "old_count": 19,
+          "new_count": 19
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 58 321 € (+58 321 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 19 → 19 (0)"
+    ]
+  },
   "slug": "ing-ivan-siagi",
   "context": {
     "latest_year": 2024,

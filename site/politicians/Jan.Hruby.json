@@ -587,6 +587,199 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jan.Hruby.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jan.Hruby.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republikyčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNA AGENTÚRA PRE SIEŤOVÉ A ELEKTRONICKÉ SLUŽBY)generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO INVESTÍCIÍ, REGIONÁLNEHO ROZVOJA A INFORMATIZÁCIE SLOVENSKEJ REPUBLIKY)",
+          "new": "poslanec Národnej rady Slovenskej republikyčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NASES)generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO INVESTÍCIÍ, REGIONÁLNEHO\r\nROZVOJA A INFORMATIZÁCIE SLOVENSKEJ REPUBLIKY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10369,
+            "other": 0
+          },
+          "new": {
+            "public_function": 75151,
+            "other": 0
+          },
+          "old_total": 10369,
+          "new_total": 75151,
+          "delta": 64782,
+          "delta_pct": 624.8
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "NASES",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADNÝ DOM S PRÍSTREŠKAMI",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2461",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BIELY KOSTOL",
+              "lv_number": "2110",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADNÝ DOM S PRÍSTREŠKAMI",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2461",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VODERADY",
+              "lv_number": "2451",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 14
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "31. 10. 2023"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "06. 06. 2018"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "26. 09. 2023"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 10 369 € → 75 151 € (+64 782 €)",
+      "Funkcie",
+      "Nehnuteľnosti: 4 → 14 (+10)",
+      "Záväzky: 1 → 2 (+1)"
+    ]
+  },
   "slug": "mgr-jan-hruby",
   "context": {
     "latest_year": 2024,

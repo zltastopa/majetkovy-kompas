@@ -2660,6 +2660,409 @@
     }
   ],
   "total_changes": 19,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Bahurinsky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Bahurinsky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK THU, S.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ SLOVENSKO, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ SLOVENSKO, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK THU, S.R.O.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1715,
+            "other": 76127
+          },
+          "new": {
+            "public_function": 21703,
+            "other": 113462
+          },
+          "old_total": 77842,
+          "new_total": 135165,
+          "delta": 57323,
+          "delta_pct": 73.6
+        },
+        {
+          "field": "employment",
+          "old": "ŽELEZNIČNÁ SPOLOČNOSŤ SLOVENSKO, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "positions",
+          "old": null,
+          "new": [
+            {
+              "role": "RIADITEĽ ODBORU PRÁVNYCH SLUŽIEB",
+              "organization": "ŽELEZNIČNÁ SPOLOČNOSŤ SLOVENSKO, A.S.",
+              "benefits": "SLUŽOBNÝ AUTOMOBIL, SLUŽOBNÝ TELEFÓN, MZDA"
+            }
+          ]
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "1848",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3062",
+              "share": "3412/1065956"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5537",
+              "share": "386/5298458"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5537",
+              "share": "10173/5298458"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5538",
+              "share": "1/710"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5167",
+              "share": "1/276"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5167",
+              "share": "1/2"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5167",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5537",
+              "share": "380462/731187204"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "540",
+              "share": "39/48600"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "700",
+              "share": "39/48600"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "945",
+              "share": "39/48600"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1368",
+              "share": "39/48600"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1369",
+              "share": "39/48600"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1371",
+              "share": "14/12312"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1376",
+              "share": "39/48600"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "900",
+              "share": "20/24300"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "948",
+              "share": "7/8100"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1370",
+              "share": "14/12312"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1375",
+              "share": "39/48600"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5167",
+              "share": "1/138"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5498",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TRSTENÉ",
+              "lv_number": "548",
+              "share": "1/12"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ MIKULÁŠ",
+              "lv_number": "7396",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ MIKULÁŠ",
+              "lv_number": "7295",
+              "share": "6/11"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ MIKULÁŠ",
+              "lv_number": "4264",
+              "share": "1/180"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1370",
+              "share": "14/12312"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1375",
+              "share": "39/48600"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5167",
+              "share": "1/138"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ MIKULÁŠ",
+              "lv_number": "7396",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ MIKULÁŠ",
+              "lv_number": "7295",
+              "share": "6/11"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ MIKULÁŠ",
+              "lv_number": "4264",
+              "share": "1/180"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5498",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TRSTENÉ",
+              "lv_number": "548",
+              "share": "1/12"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1376",
+              "share": "39/48600"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "900",
+              "share": "20/24300"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "948",
+              "share": "7/8100"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5537",
+              "share": "10173/5298458"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5538",
+              "share": "1/710"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5167",
+              "share": "1/276"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "1848",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3062",
+              "share": "3412/1065956"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5537",
+              "share": "386/5298458"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5167",
+              "share": "1/2"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5167",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "5537",
+              "share": "380462/731187204"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1368",
+              "share": "39/48600"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1369",
+              "share": "39/48600"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1371",
+              "share": "14/12312"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKY JÁN",
+              "lv_number": "540",
+              "share": "39/48600"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "700",
+              "share": "39/48600"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "945",
+              "share": "39/48600"
+            }
+          ],
+          "old_count": 26,
+          "new_count": 26
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2017,
+              "share": "1/1"
+            }
+          ]
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2017
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 77 842 € → 135 165 € (+57 323 €)",
+      "Zamestnanie",
+      "Funkcie",
+      "Nehnuteľnosti: 26 → 26 (0)",
+      "Hnuteľný majetok",
+      "Vozidlá"
+    ]
+  },
   "slug": "mgr-martin-bahurinsky",
   "context": {
     "latest_year": 2024,

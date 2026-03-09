@@ -292,6 +292,110 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Maria.Schwantzner.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Maria.Schwantzner.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ\r\nINŠPEKTORÁT)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 23688,
+            "other": 0
+          },
+          "new": {
+            "public_function": 45965,
+            "other": 0
+          },
+          "old_total": 23688,
+          "new_total": 45965,
+          "delta": 22277,
+          "delta_pct": 94.0
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "TRVALÉ TRÁVNE PORASTY",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11372",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11372",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11533",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11372",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11372",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "11533",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2021
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2023
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 23 688 € → 45 965 € (+22 277 €)",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Vozidlá: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-maria-schwantzer",
   "context": {
     "latest_year": 2024,

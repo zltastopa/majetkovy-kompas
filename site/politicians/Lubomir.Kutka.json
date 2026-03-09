@@ -763,6 +763,174 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lubomir.Kutka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lubomir.Kutka.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (CARGO WAGON, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO INTERMODAL, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DEPO SERVICES, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO INTERMODAL, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (CARGO WAGON, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DEPO SERVICES, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 14200,
+            "other": 126677
+          },
+          "new": {
+            "public_function": 1000,
+            "other": 130618
+          },
+          "old_total": 140877,
+          "new_total": 131618,
+          "delta": -9259,
+          "delta_pct": -6.6
+        },
+        {
+          "field": "employment",
+          "old": "ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nCARGO WAGON, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "DOM",
+              "cadastral_territory": "BERNOLÁKOVO",
+              "lv_number": "6247",
+              "share": "50%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7820",
+              "share": "50%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7819",
+              "share": "50%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - PARKOVACIE STÁTIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "8799",
+              "share": "50%"
+            }
+          ],
+          "new": [
+            {
+              "type": "DOM",
+              "cadastral_territory": "BERNOLÁKOVO",
+              "lv_number": "6247",
+              "share": "50%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7820",
+              "share": "50%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "7819",
+              "share": "50%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - PARKOVACIE STÁTIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "8799",
+              "share": "50%"
+            },
+            {
+              "type": "APARTMÁN",
+              "cadastral_territory": "RAČA",
+              "lv_number": "13704",
+              "share": "50%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - PARKOVACIE STÁTIE",
+              "cadastral_territory": "RAČA",
+              "lv_number": "13704",
+              "share": "50%"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 6
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "MITSUBISHI",
+              "year_of_manufacture": 2018,
+              "share": "50%"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "INVESTÍCIE V PODIELOVÝCH FONDOCH, podiel: 50%",
+            "PENIAZE NA ÚČTE, podiel: 50%"
+          ],
+          "new": [
+            "INVESTÍCIE V PODIELOVÝCH FONDOCH, podiel: 50%",
+            "PENIAZE NA ÚČTE, podiel: 50%",
+            "DLHOPISY, podiel: 50%",
+            "AKCIE, podiel: 50%"
+          ],
+          "old_count": 2,
+          "new_count": 4
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "50%",
+              "date": "05. 06. 2017"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "50%",
+              "date": "05. 06. 2017"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "50%",
+              "date": "06. 09. 2023"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 140 877 € → 131 618 € (-9 259 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 4 → 6 (+2)",
+      "Hnuteľný majetok",
+      "Majetkové práva: 2 → 4 (+2)",
+      "Záväzky: 1 → 2 (+1)"
+    ]
+  },
   "slug": "ing-lubomir-kutka",
   "context": {
     "latest_year": 2024,

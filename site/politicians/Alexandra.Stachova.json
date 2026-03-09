@@ -399,6 +399,95 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Alexandra.Stachova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Alexandra.Stachova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 55050,
+            "other": 0
+          },
+          "new": {
+            "public_function": 55944,
+            "other": 0
+          },
+          "old_total": 55050,
+          "new_total": 55944,
+          "delta": 894,
+          "delta_pct": 1.6
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "2X ZASTAVANÁ PLOCHA A NÁDVORIE - POZEMOK",
+              "cadastral_territory": "OĽDZA",
+              "lv_number": "214",
+              "share": "100%"
+            },
+            {
+              "type": "STAVBA - RODINNÝ DOM",
+              "cadastral_territory": "OĽDZA",
+              "lv_number": "214",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "2 X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "OĽDZA",
+              "lv_number": "214",
+              "share": "100%"
+            },
+            {
+              "type": "STAVBA - RODINNÝ DOM",
+              "cadastral_territory": "OĽDZA",
+              "lv_number": "214",
+              "share": "100%"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "05. 04. 2005"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "23. 06. 2005"
+            }
+          ],
+          "new": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 55 050 € → 55 944 € (+894 €)",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Záväzky: 2 → 1 (-1)"
+    ]
+  },
   "slug": "judr-alexandra-stachova",
   "context": {
     "latest_year": 2024,

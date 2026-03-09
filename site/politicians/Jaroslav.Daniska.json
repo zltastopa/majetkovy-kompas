@@ -1130,6 +1130,167 @@
     }
   ],
   "total_changes": 26,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jaroslav.Daniska.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jaroslav.Daniska.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A. S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (CARGO WAGON, A. S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (INTER CARGO SP. Z.O.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BULK TRANSSHIPMENT SLOVAKIA, A. S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZSSK CARGO INTERMODAL, A. S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DEPO SERVICES, A. S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (CARGO WAGON, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (INTER CARGO SP.Z.O.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BULK TRANSSHIPMENT SLOVAKIA, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZSSK CARGO INTERMODAL, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DEPO SERVICES, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 25253,
+            "other": 172141
+          },
+          "new": {
+            "public_function": 97577,
+            "other": 139706
+          },
+          "old_total": 197394,
+          "new_total": 237283,
+          "delta": 39889,
+          "delta_pct": 20.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "STARÉ MESTO, BRATISLAVA",
+              "lv_number": "6717",
+              "share": "BSM"
+            },
+            {
+              "type": "REKREAČNÝ DOM",
+              "cadastral_territory": "TURECKÁ",
+              "lv_number": "124",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "NITRA",
+              "lv_number": "1096",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "STARÉ MESTO, BRATISLAVA",
+              "lv_number": "6717",
+              "share": "BSM"
+            },
+            {
+              "type": "REKREAČNÝ DOM S POZEMKOM",
+              "cadastral_territory": "TURECKÁ",
+              "lv_number": "124",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "NITRA",
+              "lv_number": "1096",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "10572",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA,  ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "10576",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "10577",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "10578",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "10579",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 8
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "AUDI",
+              "year_of_manufacture": 2016,
+              "share": "BSM"
+            },
+            {
+              "type": "OSOBNYAUTOMOBIL",
+              "brand": "BMW",
+              "year_of_manufacture": 2018,
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "AUDI",
+              "year_of_manufacture": 2016,
+              "share": "BSM"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "BMW",
+              "year_of_manufacture": 2018,
+              "share": "BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PENIAZE NA ÚČTE, podiel: BSM",
+            "INVESTIČNÉ CERTIFIKÁTY, podiel: BSM"
+          ],
+          "new": [
+            "PENIAZE NA ÚČTE, podiel: BSM"
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 197 394 € → 237 283 € (+39 889 €)",
+      "Nehnuteľnosti: 3 → 8 (+5)",
+      "Hnuteľný majetok: 2 → 2 (0)",
+      "Majetkové práva: 2 → 1 (-1)"
+    ]
+  },
   "slug": "ing-jaroslav-daniska",
   "context": {
     "latest_year": 2024,

@@ -738,6 +738,112 @@
     }
   ],
   "total_changes": 19,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Viktor.Kosmovsky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Viktor.Kosmovsky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO\r\nSÍDLOM VO ZVOLENE)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA\r\nSO SÍDLOM VO ZVOLENE)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 48814,
+            "other": 0
+          },
+          "new": {
+            "public_function": 57999,
+            "other": 0
+          },
+          "old_total": 48814,
+          "new_total": 57999,
+          "delta": 9185,
+          "delta_pct": 18.8
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZVOLEN",
+              "lv_number": "5364",
+              "share": "1/2"
+            },
+            {
+              "type": "CHATA",
+              "cadastral_territory": "SLIAČ - RYBÁRE",
+              "lv_number": "1424",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZVOLEN",
+              "lv_number": "5364",
+              "share": "1/2"
+            },
+            {
+              "type": "CHATA",
+              "cadastral_territory": "SLIAČ RYBÁRE",
+              "lv_number": "1424",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "FORD",
+              "year_of_manufacture": 2007,
+              "share": "1/2"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "BMW",
+              "year_of_manufacture": 2017,
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "FORD",
+              "year_of_manufacture": 2007,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "BMW",
+              "year_of_manufacture": 2017,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 48 814 € → 57 999 € (+9 185 €)",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Hnuteľný majetok: 2 → 2 (0)"
+    ]
+  },
   "slug": "mudr-viktor-kosmovsky",
   "context": {
     "latest_year": 2024,

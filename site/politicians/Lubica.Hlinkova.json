@@ -466,6 +466,143 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lubica.Hlinkova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lubica.Hlinkova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 13436,
+            "other": 0
+          },
+          "new": {
+            "public_function": 5314,
+            "other": 0
+          },
+          "old_total": 13436,
+          "new_total": 5314,
+          "delta": -8122,
+          "delta_pct": -60.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2418",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2418",
+              "share": "8391/441152"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ČUŇOVO",
+              "lv_number": "1924",
+              "share": "1/1"
+            },
+            {
+              "type": "APARTMÁN",
+              "cadastral_territory": "NOVALJA CHORVÁTSKO",
+              "lv_number": "952/377",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NOVALJA CHORVÁTSKO",
+              "lv_number": "952/509",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2418",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ČUŇOVO",
+              "lv_number": "1924",
+              "share": "1/1"
+            },
+            {
+              "type": "APARTMÁN",
+              "cadastral_territory": "NOVALJA",
+              "lv_number": "952/377",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NOVALJA",
+              "lv_number": "952/509",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 4
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ PROSTRIEDKY, podiel: 100%",
+            "II. PILIER , podiel: 100%",
+            "III. PILIER , podiel: 100%"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTOCH, podiel: 100%",
+            "II. PILIER, podiel: 100%",
+            "II. PILIER, podiel: 100%"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "21. 07. 2015"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "17. 07. 2019"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER-REFINANC",
+              "share": "100%",
+              "date": "10. 07. 2019"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 13 436 € → 5 314 € (-8 122 €)",
+      "Nehnuteľnosti: 5 → 4 (-1)",
+      "Majetkové práva: 3 → 3 (0)",
+      "Záväzky: 2 → 1 (-1)"
+    ]
+  },
   "slug": "phdr-lubica-hlinkova-mph",
   "context": {
     "latest_year": 2024,

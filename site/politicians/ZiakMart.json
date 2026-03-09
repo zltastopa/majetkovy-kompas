@@ -575,6 +575,66 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/ZiakMart.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/ZiakMart.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD JADROVÉHO DOZORU SLOVENSKEJ REPUBLIKY)",
+          "new": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD JADROVÉHO DOZORU SR)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 51623,
+            "other": 0
+          },
+          "new": {
+            "public_function": 51821,
+            "other": 0
+          },
+          "old_total": 51623,
+          "new_total": 51821,
+          "delta": 198,
+          "delta_pct": 0.4
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "AUTO",
+              "brand": "MERCEDES-BENZ",
+              "year_of_manufacture": 2015,
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "AUTO",
+              "brand": "MERCEDES",
+              "year_of_manufacture": 2015,
+              "share": "100%"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 51 623 € → 51 821 € (+198 €)",
+      "Hnuteľný majetok: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-marta-ziakova-csc",
   "context": {
     "latest_year": 2024,

@@ -401,6 +401,72 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martina.Galabova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martina.Galabova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 45745
+          },
+          "new": {
+            "public_function": 0,
+            "other": 62310
+          },
+          "old_total": 45745,
+          "new_total": 62310,
+          "delta": 16565,
+          "delta_pct": 36.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3085",
+              "share": "1/1"
+            },
+            {
+              "type": "SPOLUVL. PODIEL PRIESTORU NA ČASŤ DOMU A NA POZEMKU",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3085",
+              "share": "6908/234026"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA-NOVÉ MESTO",
+              "lv_number": "3085",
+              "share": "1/1"
+            },
+            {
+              "type": "SPOLUVLASTNÍCKY PODIEL PRIESTORU NA ČASŤ DOMU A NA POZEMKU",
+              "cadastral_territory": "BRATISLAVA-NOVÉ MESTO",
+              "lv_number": "3085",
+              "share": "6908/234026"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 45 745 € → 62 310 € (+16 565 €)",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
+  },
   "slug": "mgr-martina-galabova",
   "context": {
     "latest_year": 2024,

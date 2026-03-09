@@ -549,6 +549,206 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Michal.Kalinak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Michal.Kalinak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republikyštátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND III., S.R.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S.)",
+          "new": "štátny tajomníkčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II. A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 13396,
+            "other": 7530
+          },
+          "new": {
+            "public_function": 73713,
+            "other": 8045
+          },
+          "old_total": 20926,
+          "new_total": 81758,
+          "delta": 60832,
+          "delta_pct": 290.7
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "AGENTÚRA REGIONÁLNEHO ROZVOJA PSK",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "PREŠOVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC PSK",
+              "organization": "PREŠOVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "AGENTÚRA REGIONÁLNEHO ROZVOJA PSK",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "MEDZILABORCE",
+              "lv_number": "9628",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MEDZILABORCE",
+              "lv_number": "1485",
+              "share": "1/4"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "MEDZILABORCE",
+              "lv_number": "1485",
+              "share": "1/4"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MEDZILABORCE",
+              "lv_number": "9628",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MEDZILABORCE",
+              "lv_number": "1485",
+              "share": "1/4"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "MEDZILABORCE",
+              "lv_number": "1485",
+              "share": "1/4"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MEDZILABORCE",
+              "lv_number": "9628",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "MEDZILABORCE",
+              "lv_number": "9628",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MEDZILABORCE",
+              "lv_number": "2465",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "MEDZILABORCE",
+              "lv_number": "2465",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 6
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "ÚČET",
+              "share": "100%"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "BANKOVÝ ÚČET, podiel: 100%"
+          ]
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "10. 10. 2014"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "10. 10. 2014"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "13. 03. 2024"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "BYT, kat. územie BRATISLAVA, rok zač. užívania: 2021, spôsob užívania: NÁJOMBYT, kat. územie PREŠOV, rok zač. užívania: 2010, spôsob užívania: NÁJOM",
+          "new": "BYT, kat. územie PREŠOV, rok zač. užívania: 2010, spôsob užívania: NÁJOMBYT, kat. územie BRATISLAVA, rok zač. užívania: 2021, spôsob užívania: NÁJOM"
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2021
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 20 926 € → 81 758 € (+60 832 €)",
+      "Funkcie: 2 → 2 (0)",
+      "Nehnuteľnosti: 4 → 6 (+2)",
+      "Hnuteľný majetok",
+      "Majetkové práva",
+      "Záväzky: 1 → 2 (+1)",
+      "Užívanie nehnuteľností",
+      "Vozidlá"
+    ]
+  },
   "slug": "phdr-michal-kalinak-phd",
   "context": {
     "latest_year": 2024,

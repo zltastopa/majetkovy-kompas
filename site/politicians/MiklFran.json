@@ -206,6 +206,60 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/MiklFran.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/MiklFran.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7433,
+            "other": 0
+          },
+          "new": {
+            "public_function": 40760,
+            "other": 0
+          },
+          "old_total": 7433,
+          "new_total": 40760,
+          "delta": 33327,
+          "delta_pct": 448.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT A NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "STARÉ MESTO BRATISLAVA 1",
+              "lv_number": "5651",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT A NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "STARÉ MESTO - BRATISLAVA 1",
+              "lv_number": "5651",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 7 433 € → 40 760 € (+33 327 €)",
+      "Nehnuteľnosti: 1 → 1 (0)"
+    ]
+  },
   "slug": "rndr-frantisek-miklosko",
   "context": {
     "latest_year": 2024,

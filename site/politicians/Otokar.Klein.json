@@ -1282,6 +1282,84 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Otokar.Klein.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Otokar.Klein.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 84369,
+            "other": 10148
+          },
+          "new": {
+            "public_function": 80557,
+            "other": 12000
+          },
+          "old_total": 94517,
+          "new_total": 92557,
+          "delta": -1960,
+          "delta_pct": -2.1
+        },
+        {
+          "field": "business_activity",
+          "old": null,
+          "new": "POUŽITIE DIELA A UMELECKÉHO VÝKONU - MINISTERSTVO KULTÚRY SLOVENSKEJ REPUBLIKY(PhDr.Mgr.art. OTOKAR KLEIN ArtD.)POUŽITIE DIELA A UMELECKÉHO VÝKONU - AGENTÚRA MCP S.R.O.(PhDr.Mgr.art. OTOKAR KLEIN ArtD.)"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "BYTKOMFORT S.R.O.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "POSLANEC ZASTUPITEĽSTVA",
+              "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "PREDSEDA PREDSTAVENSTVA",
+              "organization": "ZÁPADOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ A.S.",
+              "benefits": "NIE"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREDSEDA PREDSTAVENSTVA",
+              "organization": "ZÁPADOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC ZASTUPITEĽSTVA - PODPREDSEDA VÚC",
+              "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "BYTKOMFORT S.R.O.",
+              "benefits": "NIE"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 94 517 € → 92 557 € (-1 960 €)",
+      "Podnikanie",
+      "Funkcie: 3 → 3 (0)"
+    ]
+  },
   "slug": "phdr-mgr-art-otokar-klein-artd",
   "context": {
     "latest_year": 2024,

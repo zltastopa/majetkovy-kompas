@@ -308,6 +308,115 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Michal.Simecka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Michal.Simecka.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 12475,
+            "other": 0
+          },
+          "new": {
+            "public_function": 51756,
+            "other": 0
+          },
+          "old_total": 12475,
+          "new_total": 51756,
+          "delta": 39281,
+          "delta_pct": 314.9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY BRATISLAVA II.",
+              "lv_number": "2208",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY BRATISLAVA II",
+              "lv_number": "2208",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2021,
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ V0ZIDLO",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2021,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PROSTRIEDKY NA BEŽNOM ÚČTE, podiel: 100%"
+          ],
+          "new": [
+            "PROSTRIEDKY NA BEŽNOM ÚČTE, podiel: 1/1",
+            "DOČASNÝ PRÍSPEVOK PODĽA ČL.13 \r\nŠTATÚTU POSLANCOV EP , podiel: 1/1"
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "15. 06. 2020"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "15. 06. 2020"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 12 475 € → 51 756 € (+39 281 €)",
+      "Nehnuteľnosti: 1 → 1 (0)",
+      "Hnuteľný majetok: 1 → 1 (0)",
+      "Majetkové práva: 1 → 2 (+1)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "michal-simecka-dphil",
   "context": {
     "latest_year": 2024,

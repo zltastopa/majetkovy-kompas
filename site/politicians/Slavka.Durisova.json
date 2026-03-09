@@ -640,6 +640,74 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Slavka.Durisova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Slavka.Durisova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM VO VEĽKOM KRTÍŠI)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA VEĽKÝ KRTÍŠ)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 47606,
+            "other": 0
+          },
+          "new": {
+            "public_function": 45844,
+            "other": 0
+          },
+          "old_total": 47606,
+          "new_total": 45844,
+          "delta": -1762,
+          "delta_pct": -3.7
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "1/2",
+              "date": "20. 10. 2015"
+            },
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "1/2",
+              "date": "02. 09. 2016"
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚVER NA BYVANIE",
+              "share": "1/2",
+              "date": "20. 10. 2015"
+            },
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "1/2",
+              "date": "02. 09. 2016"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 47 606 € → 45 844 € (-1 762 €)",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "mudr-slavka-durisova",
   "context": {
     "latest_year": 2024,

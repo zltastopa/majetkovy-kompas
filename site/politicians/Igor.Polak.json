@@ -934,6 +934,104 @@
     }
   ],
   "total_changes": 22,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Igor.Polak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Igor.Polak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽPSV A.S. ČAŇA)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7200,
+            "other": 63410
+          },
+          "new": {
+            "public_function": 7200,
+            "other": 40738
+          },
+          "old_total": 70610,
+          "new_total": 47938,
+          "delta": -22672,
+          "delta_pct": -32.1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
+              "cadastral_territory": "ČEČEJOVCE",
+              "lv_number": "728, 1907",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE",
+              "lv_number": "10754",
+              "share": "BSM"
+            },
+            {
+              "type": "LES, ORNÁ PÔDA",
+              "cadastral_territory": "PLEŠIVEC",
+              "lv_number": "553, 357, 3035",
+              "share": "1/12 1/2 1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
+              "cadastral_territory": "ČEČEJOVCE",
+              "lv_number": "728, 1907",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE",
+              "lv_number": "10754",
+              "share": "BSM"
+            },
+            {
+              "type": "LES, ORNÁ PÔDA",
+              "cadastral_territory": "PLEŠIVEC",
+              "lv_number": "553, 357, 3035",
+              "share": "1/12, 1/2, 1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "BANKOVÝ ÚČET, TERMÍNOVANÉ VKLADY, podiel: BSM",
+            "DLHOPISY, podiel: BSM",
+            "ETF FONDY, podiel: BSM"
+          ],
+          "new": [
+            "BANKOVÝ ÚČET, FONDY, DLHOPISY, ETF FONDY, podiel: BSM"
+          ],
+          "old_count": 3,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 70 610 € → 47 938 € (-22 672 €)",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Majetkové práva: 3 → 1 (-2)"
+    ]
+  },
   "slug": "igor-polak",
   "context": {
     "latest_year": 2024,

@@ -215,6 +215,56 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Vagner.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Vagner.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LETISKO M. R. ŠTEFÁNIKA - AIRPORT BRATISLAVA, A. S. (BTS))",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LETISKO M.R. ŠTEFÁNIKA - AIRPORT\r\nBRATISLAVA, A.S. (BTS))"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2468,
+            "other": 26368
+          },
+          "new": {
+            "public_function": 30120,
+            "other": 75976
+          },
+          "old_total": 28836,
+          "new_total": 106096,
+          "delta": 77260,
+          "delta_pct": 267.9
+        },
+        {
+          "field": "employment",
+          "old": "LETISKO M. R. ŠTEFÁNIKA - AIRPORT BRATISLAVA, A. S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "LETISKO M.R. ŠTEFÁNIKA - AIRPORT BRATISLAVA, A.S. (BTS)\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "BYT, kat. územie NIVY, BRATISLAVA - RUŽINOV, rok zač. užívania: 2023, spôsob užívania: BÝVANIE",
+          "new": "BYT, kat. územie NIVY - BRATISLAVA, rok zač. užívania: 2023, spôsob užívania: BÝVANIE"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 28 836 € → 106 096 € (+77 260 €)",
+      "Zamestnanie",
+      "Užívanie nehnuteľností"
+    ]
+  },
   "slug": "ing-juraj-vagner",
   "context": {
     "latest_year": 2024,

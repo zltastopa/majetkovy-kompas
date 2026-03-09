@@ -430,6 +430,102 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Michal.Marhefka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Michal.Marhefka.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 38921,
+            "other": 0
+          },
+          "new": {
+            "public_function": 46770,
+            "other": 0
+          },
+          "old_total": 38921,
+          "new_total": 46770,
+          "delta": 7849,
+          "delta_pct": 20.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT V BYTOVOM DOME VRÁTANE SPOLOČNÝCH PRIESTOROV",
+              "cadastral_territory": "PODOLÍNEC",
+              "lv_number": "2449",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "POZEMKY V REKREAČNEJ ZÓNE",
+              "cadastral_territory": "VYŠNÉ RUŽBACHY",
+              "lv_number": "664",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM VRÁTANE POZEMKOV",
+              "cadastral_territory": "PODOLÍNEC",
+              "lv_number": "363",
+              "share": "1/6"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT V BYTOVOM DOME VRÁTANE SPOLOČNÝCH PRIESTOROV",
+              "cadastral_territory": "PODOLÍNEC",
+              "lv_number": "2449",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "POZEMKY V REKREAČNEJ ZÓNE KN-C 2527/102 A 2385/19",
+              "cadastral_territory": "VYŠNÉ RUŽBACHY",
+              "lv_number": "664",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM VRÁTANE POZEMKOV KN-C 118/2 A 118/1",
+              "cadastral_territory": "PODOLÍNEC",
+              "lv_number": "363",
+              "share": "1/6"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "INVESTIČNÝ FOND, podiel: 1/1",
+            "INVESTIČNÝ FOND, podiel: 1/1",
+            "INVESTIČNÝ FOND, podiel: 1/1",
+            "INVESTIČNÝ FOND, podiel: 1/1"
+          ],
+          "new": [
+            "INVESTIČNY FOND, podiel: 1/1",
+            "INVESTIČNÝ FOND, podiel: 1/1",
+            "INVESTIČNY FOND, podiel: 1/1",
+            "INVESTIČNY FOND, podiel: 1/1"
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 38 921 € → 46 770 € (+7 849 €)",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Majetkové práva: 4 → 4 (0)"
+    ]
+  },
   "slug": "mgr-michal-marhefka-mba",
   "context": {
     "latest_year": 2024,

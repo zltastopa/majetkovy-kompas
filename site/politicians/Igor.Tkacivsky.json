@@ -344,6 +344,107 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Igor.Tkacivsky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Igor.Tkacivsky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO VNÚTRA SLOVENSKEJ REPUBLIKY)",
+          "new": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO VNÚTRA SR)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10235,
+            "other": 0
+          },
+          "new": {
+            "public_function": 59109,
+            "other": 0
+          },
+          "old_total": 10235,
+          "new_total": 59109,
+          "delta": 48874,
+          "delta_pct": 477.5
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA ROZHODCOVSKEJ KOMISIE",
+              "organization": "HLAS - SOCIÁLNA DEMOKRACIA",
+              "benefits": "NIE"
+            }
+          ],
+          "new": [
+            {
+              "role": "GENERÁLNY MANAŽÉR STRANY",
+              "organization": "HLAS - SOCIÁLNA DEMOKRACIA",
+              "benefits": "NIE"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ ÚSPORY, podiel: 1/1"
+          ],
+          "new": [
+            "FINANČNÉ ÚSPORY, podiel: 1/1",
+            "FINANČNÉ ÚSPORY, podiel: BSM"
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "ÚVER",
+              "share": "1/1 V BSM",
+              "date": "07. 12. 2020"
+            },
+            {
+              "type": "PÔŽČKA",
+              "share": "1/1 V BSM",
+              "date": "18. 10. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚVER",
+              "share": "1/1 V BSM",
+              "date": "07. 12. 2020"
+            },
+            {
+              "type": "PÔŽIČKA",
+              "share": "1/1 V BSM",
+              "date": "18. 10. 2022"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 10 235 € → 59 109 € (+48 874 €)",
+      "Funkcie: 1 → 1 (0)",
+      "Majetkové práva: 1 → 2 (+1)",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "judr-igor-tkacivsky",
   "context": {
     "latest_year": 2024,

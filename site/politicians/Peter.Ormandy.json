@@ -452,6 +452,145 @@
     }
   ],
   "total_changes": 10,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Ormandy.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Ormandy.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11729,
+            "other": 0
+          },
+          "new": {
+            "public_function": 78859,
+            "other": 39155
+          },
+          "old_total": 11729,
+          "new_total": 118014,
+          "delta": 106285,
+          "delta_pct": 906.2
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "ŠTÁTNY INŠTITÚT ODBORNÉHO VZDELÁVANIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nALIANCIA SEKTOROVÝCH RÁD\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM, GARÁŽ, ZÁHRADA",
+              "cadastral_territory": "SEREĎ",
+              "lv_number": "17",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1971",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "2745",
+              "share": "4802/80179"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZAVAR",
+              "lv_number": "765",
+              "share": "1/6"
+            }
+          ],
+          "new": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZAVAR",
+              "lv_number": "765",
+              "share": "1/6"
+            },
+            {
+              "type": "RODINNÝ DOM, GARÁŽ, ZÁHRADA",
+              "cadastral_territory": "SEREĎ",
+              "lv_number": "17",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1971",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "2745",
+              "share": "4802/80179"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2019,
+              "share": "100%"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "22. 10. 2015"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "25. 02. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "21. 10. 2015"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "25. 02. 2022"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 11 729 € → 118 014 € (+106 285 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Hnuteľný majetok",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "phdr-peter-ormandy-msc",
   "context": {
     "latest_year": 2024,

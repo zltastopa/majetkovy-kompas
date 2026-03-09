@@ -1183,6 +1183,162 @@
     }
   ],
   "total_changes": 25,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ivan.Cernega.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ivan.Cernega.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ SLOVENSKO A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ SLOVENSKO, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 9062,
+            "other": 7367
+          },
+          "new": {
+            "public_function": 10867,
+            "other": 9340
+          },
+          "old_total": 16429,
+          "new_total": 20207,
+          "delta": 3778,
+          "delta_pct": 23.0
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "BOROV",
+              "lv_number": "218",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HABURA",
+              "lv_number": "1615",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "BOROV",
+              "lv_number": "1097",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BOROV",
+              "lv_number": "218",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BOROV",
+              "lv_number": "218",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "BOROV",
+              "lv_number": "218",
+              "share": "BSM"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "BOROV",
+              "lv_number": "1097",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BOROV",
+              "lv_number": "1097",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "BOROV",
+              "lv_number": "218",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HABURA",
+              "lv_number": "1615",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "BOROV",
+              "lv_number": "1097",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BOROV",
+              "lv_number": "218",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BOROV",
+              "lv_number": "218",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "BOROV",
+              "lv_number": "218",
+              "share": "BSM"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "BOROV",
+              "lv_number": "1097",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BOROV",
+              "lv_number": "1097",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - STAVBA CHATA",
+              "cadastral_territory": "MEDZILABORCE",
+              "lv_number": "2730",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 9
+        },
+        {
+          "field": "gifts",
+          "old": null,
+          "new": "CHATA LV 2730, dátum prijatia: 15. 02. 2024"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 16 429 € → 20 207 € (+3 778 €)",
+      "Nehnuteľnosti: 8 → 9 (+1)",
+      "Dary"
+    ]
+  },
   "slug": "ing-ivan-cernega",
   "context": {
     "latest_year": 2024,

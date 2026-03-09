@@ -550,6 +550,84 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Eva.Vacova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Eva.Vacova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2863,
+            "other": 67873
+          },
+          "new": {
+            "public_function": 2865,
+            "other": 38922
+          },
+          "old_total": 70736,
+          "new_total": 41787,
+          "delta": -28949,
+          "delta_pct": -40.9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE, OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3190",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA",
+              "cadastral_territory": "ČATAJ",
+              "lv_number": "1906",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE, OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3190",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA",
+              "cadastral_territory": "ČATAJ",
+              "lv_number": "1906",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "HUMENNÉ",
+              "lv_number": "8039",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        },
+        {
+          "field": "gifts",
+          "old": null,
+          "new": "DAROVANIE RODIČOVSKÉHO BYTU V HUMENNOM OD MATKY, dátum prijatia: 21. 08. 2024"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 70 736 € → 41 787 € (-28 949 €)",
+      "Nehnuteľnosti: 2 → 3 (+1)",
+      "Dary"
+    ]
+  },
   "slug": "ing-eva-vacova",
   "context": {
     "latest_year": 2024,

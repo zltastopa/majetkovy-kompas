@@ -292,6 +292,83 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Irena.Bihariova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Irena.Bihariova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 12105,
+            "other": 0
+          },
+          "new": {
+            "public_function": 50904,
+            "other": 0
+          },
+          "old_total": 12105,
+          "new_total": 50904,
+          "delta": 38799,
+          "delta_pct": 320.5
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDNÍČKA",
+              "organization": "ĽUDIA PROTI RASIZMU",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREDSEDNÍČKA",
+              "organization": "ĽUDIA PROTI RASIZMU ",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "AMERICKÁ HYPOTÉKA",
+              "share": "100%",
+              "date": "22. 03. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "AMERICKÁ HYPOTÉKA",
+              "share": "100%",
+              "date": "22. 03. 2022"
+            },
+            {
+              "type": "PÔŽIČKA",
+              "share": "100%",
+              "date": "25. 01. 2023"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 12 105 € → 50 904 € (+38 799 €)",
+      "Funkcie: 1 → 1 (0)",
+      "Záväzky: 1 → 2 (+1)"
+    ]
+  },
   "slug": "mgr-irena-bihariova",
   "context": {
     "latest_year": 2024,

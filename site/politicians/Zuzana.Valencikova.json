@@ -179,6 +179,83 @@
     }
   ],
   "total_changes": 2,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zuzana.Valencikova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zuzana.Valencikova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 9548,
+            "other": 41679
+          },
+          "old_total": 0,
+          "new_total": 51227,
+          "delta": 51227
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE + BYT",
+              "cadastral_territory": "NOVÉ MESTO NAD VÁHOM",
+              "lv_number": "4268",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "NOVÉ MESTO NAD VÁHOM",
+              "lv_number": "8656",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DUBODIEL",
+              "lv_number": "2031",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, BYT",
+              "cadastral_territory": "NOVÉ MESTO NAD VÁHOM",
+              "lv_number": "4268",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "NOVÉ MESTO NAD VÁHOM",
+              "lv_number": "8656",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DUBODIEL",
+              "lv_number": "2031",
+              "share": "1/1 BSM"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 51 227 € (+51 227 €)",
+      "Nehnuteľnosti: 3 → 3 (0)"
+    ]
+  },
   "slug": "mgr-zuzana-valencikova-phd",
   "context": {
     "latest_year": 2024,

@@ -862,6 +862,138 @@
     }
   ],
   "total_changes": 26,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Straka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Straka.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 61753,
+            "other": 725
+          },
+          "new": {
+            "public_function": 66962,
+            "other": 325
+          },
+          "old_total": 62478,
+          "new_total": 67287,
+          "delta": 4809,
+          "delta_pct": 7.7
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PREŠOV",
+              "lv_number": "15194",
+              "share": "1/1 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PREŠOV",
+              "lv_number": "15194",
+              "share": "1/1-BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "PREŠOV",
+              "lv_number": "18769",
+              "share": "1/1- BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "PREŠOV",
+              "lv_number": "18769",
+              "share": "1/1-BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PREŠOV",
+              "lv_number": "18769",
+              "share": "1/1-BSM"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 4
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2011,
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "CITROËN",
+              "year_of_manufacture": 2009,
+              "share": "1/1 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2024,
+              "share": "1/1-BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY NA ÚČTE V BANKE, podiel: 1/1 BSM"
+          ],
+          "new": [
+            "ÚSPORY NA ÚČTE V BANKE, podiel: 1/1-BSM"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "ÚVER",
+              "share": "1/1 BSM",
+              "date": "27. 09. 2015"
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚVER",
+              "share": "1/1-BSM",
+              "date": "27. 09. 2015"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 62 478 € → 67 287 € (+4 809 €)",
+      "Nehnuteľnosti: 1 → 4 (+3)",
+      "Hnuteľný majetok: 2 → 1 (-1)",
+      "Majetkové práva: 1 → 1 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "judr-peter-straka",
   "context": {
     "latest_year": 2024,

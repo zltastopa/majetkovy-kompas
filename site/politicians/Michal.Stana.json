@@ -464,6 +464,132 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Michal.Stana.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Michal.Stana.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LETISKO POPRAD-TATRY, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LETISKO POPRAD - TATRY A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2000,
+            "other": 59114
+          },
+          "new": {
+            "public_function": 21621,
+            "other": 51240
+          },
+          "old_total": 61114,
+          "new_total": 72861,
+          "delta": 11747,
+          "delta_pct": 19.2
+        },
+        {
+          "field": "employment",
+          "old": "LETISKO POPRAD-TATRY, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "LETISKO POPRAD - TATRY, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "SVIT",
+              "lv_number": "1874",
+              "share": "BMS 1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "5537",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "5537",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "5544",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA - POZEMOK",
+              "cadastral_territory": "JÁNOŠÍKOVÁ",
+              "lv_number": "2883",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "JÁNOŠÍKOVÁ",
+              "lv_number": "2883",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 4
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "AUTOMOBIL",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2017,
+              "share": "1/1"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "05. 10. 2021"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "01. 08. 2023"
+            }
+          ],
+          "new": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 61 114 € → 72 861 € (+11 747 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 4 (+2)",
+      "Hnuteľný majetok",
+      "Záväzky: 2 → 1 (-1)"
+    ]
+  },
   "slug": "ing-michal-stana",
   "context": {
     "latest_year": 2024,

@@ -3949,6 +3949,186 @@
     }
   ],
   "total_changes": 36,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Kanuscak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Kanuscak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec zastupiteľstva vyššieho územného celkučlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (KOŠICKÁ FUTBALOVÁ ARÉNA, A. S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA A.S., KOŠICE)",
+          "new": "poslanec zastupiteľstva vyššieho územného celkučlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (KOŠICKÁ FUTBALOVÁ ARÉNA, A. S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA, A.S. KOŠICE)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10128,
+            "other": 40958
+          },
+          "new": {
+            "public_function": 7333,
+            "other": 42809
+          },
+          "old_total": 51086,
+          "new_total": 50142,
+          "delta": -944,
+          "delta_pct": -1.8
+        },
+        {
+          "field": "employment",
+          "old": "PREŠOVSKÝ SAMOSPRÁVNY KRAJ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO ŠKOLSTVA VEDY VÝSKUMU A ŠPORTU SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "PREŠOVSKÝ SAMOSPRÁVNY KRAJ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO ŠKOLSTVA, VEDY, VÝSKUMU A ŠPORTU SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ, SPOLOČNÍK(JK LIPANY, S.R.O.)SPOLOČNÍK(PROFIT ACADEMY S.R.O.)",
+          "new": "KONATEĽ(JK LIPANY, S.R.O.)"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PODPREDSEDA PSK",
+              "organization": "PREŠOVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "PREDSEDA, ČLEN PRÍPRAVNÉHO VÝBORU",
+              "organization": "OZ LEPŠIE LIPANY",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLEN VÝBORU PRE OTÁZKY ZAMESTNANOSTI PREŠOV",
+              "organization": "ÚRAD PRÁCE SOCIÁLNYCH VECÍ A RODINY PREŠOV",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLEN ZBORU ZÁSTUPCOV ARR PSK",
+              "organization": "AGENTÚRA REGIONÁLNEHO ROZVOJA PSK",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLEN A PREDSEDA DOZORNEJ RADY",
+              "organization": "TECHNICKÉ SLUŽBY SPOL. S R.O. LIPANY",
+              "benefits": "NIE"
+            },
+            {
+              "role": "KRAJSKÝ PREDSEDA",
+              "organization": "SLOBODA A SOLIDARITA, POLITICKÁ STRANA",
+              "benefits": "NIE"
+            },
+            {
+              "role": "ČLEN REPUBLIKOVEJ RADY",
+              "organization": "SLOBODA A SOLIDARITA, POLITICKÁ STRANA",
+              "benefits": "NIE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "PREŠOVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "MESTO LIPANY",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN KOMORY REG.SAMOSPR. KOOPERAČNEJ RADY ŠARIŠ",
+              "organization": "PREŠOVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "NIE"
+            }
+          ],
+          "new": [
+            {
+              "role": "PODPREDSEDA PSK",
+              "organization": "PREŠOVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "PREDSEDA, ČLEN PRÍPRAVNÉHO VÝBORU",
+              "organization": "O.Z. LEPŠIE LIPANY",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN VÝBORU PRE OTÁZKY ZAMESTNANOSTI PREŠOV",
+              "organization": "ÚRAD PRÁCE SOCIÁLNYCH VECÍ A RODINY PREŠOV",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN ZBORU ZÁSTUPCOV ARR PSK",
+              "organization": "AGENTÚRA REGIONÁLNEHO ROZVOJA PSK",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "TECHNICKÉ SLUŽBY SPOL. S.R.O. LIPANY",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KRAJSKÝ PREDSEDA",
+              "organization": "SLOBODA A SOLIDARITA, POLITICKÁ STRANA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN REPUBLIKOVEJ RADY",
+              "organization": "SLOBODA A SOLIDARITA, POLITICKÁ STRANA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "PREŠOVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "MESTO LIPANY",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN KOMORY REGIONÁLNEJ SAMOSPRÁVY KOOPERAČNEJ RADY ŠARIŠ",
+              "organization": "PREŠOVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 10,
+          "new_count": 10
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PODIEL V S.R.O., podiel: 88,01%",
+            "PODIELV S.R.O., podiel: 50%",
+            "VKLAD V BANKÁCH, podiel: 1/1",
+            "STAVEBNÉ SPORENIA, DÔCHODKOVÉ POISTENIE, podiel: 1/1",
+            "INVESTIČNÝ FOND, ETF FOND, FOND REALITNÝCH INVESTÍCIÍ, podiel: 1/1"
+          ],
+          "new": [
+            "PODIEL V S.R.O., podiel: 88,01%",
+            "PODIEL V S.R.O., podiel: 50%",
+            "VKLAD V BANKÁCH, podiel: 1/1",
+            "STAVEBNÉ SPORENIA, DÔCHODKOVÉ POISTENIE, ŽIVOTNÉ POISTENIE, podiel: 1/1",
+            "INVESTIČNÝ FOND, ETF FOND, FOND REALITNÝCH INVESTÍCIÍ, podiel: 1/1"
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 51 086 € → 50 142 € (-944 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Funkcie: 10 → 10 (0)",
+      "Majetkové práva: 5 → 5 (0)"
+    ]
+  },
   "slug": "phdr-jozef-kanuscak-mba",
   "context": {
     "latest_year": 2024,

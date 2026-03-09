@@ -1372,6 +1372,136 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Atilla.Agocs.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Atilla.Agocs.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 57087,
+            "other": 8400
+          },
+          "new": {
+            "public_function": 62846,
+            "other": 9000
+          },
+          "old_total": 65487,
+          "new_total": 71846,
+          "delta": 6359,
+          "delta_pct": 9.7
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PODPREDSEDA",
+              "organization": "ZDRUŽENIE MIEST A OBCÍ NOVOHRADU",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "ČLEN RADY",
+              "organization": "ZDRUŽENIE MIEST A OBCÍ SLOVENSKA",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "ZPO GEOPARK NOVOHRAD-NÓGRÁD",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PODPREDSEDA",
+              "organization": "OBČIANSKE ZDRUŽENIE RODNÁ ZEM",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "POSLANEC ZASTUPITEĽSTVA",
+              "organization": "BANSKOBYSTRICKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "PLAT A PAUŠÁLNE CESTOVNÉ NÁHRADY"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "KLASTER POHRANIČNÝCH HRADOV",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE - AKO PRIMÁTOR MESTA FIĽAKOVO",
+              "organization": "FILBYT S.R.O.",
+              "benefits": "NEMÁM"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREDSEDA",
+              "organization": "ZDRUŽENIE MIEST A OBCÍ NOVOHRADU",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "ČLEN RADY",
+              "organization": "ZDRUŽENIE MIEST A OBCÍ SLOVENSKA",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "ZPO GEOPARK NOVOHRAD-NÓGRÁD",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "PODPREDSEDA",
+              "organization": "OBČIANSKE ZDRUŽENIE RODNÁ ZEM",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "POSLANEC ZASTUPITEĽSTVA",
+              "organization": "BANSKOBYSTRICKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "PLAT A PAUŠÁLNE CESTOVNÉ NÁHRADY"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "KLASTER POHRANIČNÝCH HRADOV",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "VALNÉ ZHROMAŽDENIE - AKO PRIMÁTOR MESTA FIĽAKOVO",
+              "organization": "FILBYT S.R.O.",
+              "benefits": "NEMÁM"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "14. 08. 2024"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 65 487 € → 71 846 € (+6 359 €)",
+      "Funkcie: 7 → 7 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-attila-agocs-phd",
   "context": {
     "latest_year": 2024,

@@ -345,6 +345,50 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Miroslav.Dufinec.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Miroslav.Dufinec.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 50427,
+            "other": 0
+          },
+          "new": {
+            "public_function": 55213,
+            "other": 0
+          },
+          "old_total": 50427,
+          "new_total": 55213,
+          "delta": 4786,
+          "delta_pct": 9.5
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "TV MISTRAL, S.R.O. MICHALOVCE",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 50 427 € → 55 213 € (+4 786 €)",
+      "Funkcie"
+    ]
+  },
   "slug": "mgr-miroslav-dufinec",
   "context": {
     "latest_year": 2024,

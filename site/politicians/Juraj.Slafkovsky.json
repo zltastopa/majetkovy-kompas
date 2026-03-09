@@ -323,6 +323,169 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Juraj.Slafkovsky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Juraj.Slafkovsky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 18805,
+            "other": 70159
+          },
+          "old_total": 0,
+          "new_total": 88964,
+          "delta": 88964
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE POD BUDOVOU",
+              "cadastral_territory": "KOŠICE - ZÁPAD",
+              "lv_number": "13733",
+              "share": "BSM"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "BUDIMÍR",
+              "lv_number": "1974",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA, ZÁHRADA",
+              "cadastral_territory": "BUDIMÍR",
+              "lv_number": "1974",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT + PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "KOŠICE - STARÉ MESTO",
+              "lv_number": "13031",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT + PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "KOŠICE - JUH",
+              "lv_number": "11492",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "KOŠICE - ZÁPAD",
+              "lv_number": "13733",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT + PODIEL NA SPOLOČNÝCH ČASTIACH BYTOVÉHO DOMU",
+              "cadastral_territory": "STARÝ SMOKOVEC",
+              "lv_number": "618",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT+PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "KOŠICE-STARÉ MESTO",
+              "lv_number": "13031",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT+PODIEL NA SPOLOČNÝCH ČASTIACH DOMU",
+              "cadastral_territory": "KOŠICE-JUH",
+              "lv_number": "11492",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR-BUDOVA",
+              "cadastral_territory": "KOŠICE-ZÁPAD",
+              "lv_number": "13733",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE POD BUDOVOU",
+              "cadastral_territory": "KOŠICE-ZÁPAD",
+              "lv_number": "13733",
+              "share": "BSM"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "BUDIMÍR",
+              "lv_number": "1974",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA, ZÁHRADA",
+              "cadastral_territory": "BUDIMÍR",
+              "lv_number": "1974",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT+PODIEL NA SPOLOČNÝCH ČASTIACH BYTOVÉHO DOMU",
+              "cadastral_territory": "STARÝ SMOKOVEC",
+              "lv_number": "618",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY, podiel: 1/1"
+          ],
+          "new": null
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "15. 02. 2016"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "15. 09. 2015"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "05. 02. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "15. 12. 2024"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 88 964 € (+88 964 €)",
+      "Nehnuteľnosti: 7 → 7 (0)",
+      "Majetkové práva",
+      "Záväzky: 3 → 1 (-2)"
+    ]
+  },
   "slug": "ing-juraj-slafkovsky",
   "context": {
     "latest_year": 2024,

@@ -2565,6 +2565,342 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jan.Toth.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jan.Toth.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 93384,
+            "other": 102438
+          },
+          "new": {
+            "public_function": 94080,
+            "other": 101620
+          },
+          "old_total": 195822,
+          "new_total": 195700,
+          "delta": -122,
+          "delta_pct": -0.1
+        },
+        {
+          "field": "employment",
+          "old": "NÁRODNÁ BANKA SLOVENSKA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nKANCELÁRIA RADY PRE ROZPOČTOVÚ ZODPOVEDNOSŤ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "KANCELÁRIA RADY PRE ROZPOČTOVÚ ZODPOVEDNOSŤ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "VRANOV NAD TOPĽOU",
+              "lv_number": "672",
+              "share": "50%"
+            },
+            {
+              "type": "ZÁHRADY, OVOCNÉ SADY, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "VRANOV NAD TOPĽOU",
+              "lv_number": "3067",
+              "share": "8%"
+            },
+            {
+              "type": "CHATA, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "VYŠNÁ KAMENICA",
+              "lv_number": "90",
+              "share": "25%"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "2749",
+              "share": "6%"
+            },
+            {
+              "type": "DOM, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "VRANOV NAD TOPĽOU",
+              "lv_number": "2097",
+              "share": "21%"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "VRANOV NAD TOPĽOU",
+              "lv_number": "6109",
+              "share": "17%"
+            },
+            {
+              "type": "BYT A PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "4000",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1832",
+              "share": "50%"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "2751",
+              "share": "17%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "HUŠTÁKY",
+              "lv_number": "10920",
+              "share": "13%"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "HUŠTÁKY",
+              "lv_number": "14944",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LIPTOVSKÝ TRNOVEC",
+              "lv_number": "1590",
+              "share": "100%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA, OSTATNÉ PLOCHY, DOM, GARÁŽ",
+              "cadastral_territory": "DEVÍN",
+              "lv_number": "2663",
+              "share": "50%"
+            },
+            {
+              "type": "BYT, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BYSTRÁ",
+              "lv_number": "850",
+              "share": "100%"
+            },
+            {
+              "type": "ROZOSTAVANÁ STAVBA",
+              "cadastral_territory": "DEVÍN",
+              "lv_number": "NEMÁ LV",
+              "share": "50%"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "DEVÍN",
+              "lv_number": "3578",
+              "share": "50%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "DEVÍN",
+              "lv_number": "2664",
+              "share": "25%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "DEVÍN",
+              "lv_number": "2387",
+              "share": "8%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LIPTOVSKÝ TRNOVEC",
+              "lv_number": "858",
+              "share": "17,55%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "3403",
+              "share": "3%"
+            },
+            {
+              "type": "BYT 3X",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "2816",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "VRANOV NAD TOPĽOU",
+              "lv_number": "672",
+              "share": "50%"
+            },
+            {
+              "type": "ZÁHRADY, OVOCNÉ SADY, ZAST.PLOCHY A NÁDVORIA",
+              "cadastral_territory": "VRANOV NAD TOPĽOU",
+              "lv_number": "3067",
+              "share": "8%"
+            },
+            {
+              "type": "CHATA A ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "VYŠNÁ KAMENICA",
+              "lv_number": "90",
+              "share": "25%"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "2749",
+              "share": "6%"
+            },
+            {
+              "type": "DOM A ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "VRANOV NAD TOPĽOU",
+              "lv_number": "2097",
+              "share": "21%"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "VRANOV NAD TOPĽOU",
+              "lv_number": "6109",
+              "share": "17%"
+            },
+            {
+              "type": "BYT A PODIEL PRIESTORU NA SPOL.ČASTIACH",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "4000",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "1832",
+              "share": "50%"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "MARIANKA",
+              "lv_number": "2751",
+              "share": "17%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "HUŠTÁKY",
+              "lv_number": "10920",
+              "share": "13%"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "HUŠTÁKY",
+              "lv_number": "14944",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LIPTOVSKÝ TRNOVEC",
+              "lv_number": "1590",
+              "share": "100%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA, OST.PLOCHY, DOM, GARÁŽ",
+              "cadastral_territory": "DEVÍN",
+              "lv_number": "2663",
+              "share": "50%"
+            },
+            {
+              "type": "BYT A ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BYSTRÁ",
+              "lv_number": "850",
+              "share": "100%"
+            },
+            {
+              "type": "ROZOSTAVANÁ STAVBA",
+              "cadastral_territory": "DEVÍN",
+              "lv_number": "NEMÁ LV",
+              "share": "50%"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "DEVÍN",
+              "lv_number": "3578",
+              "share": "50%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "DEVÍN",
+              "lv_number": "2664",
+              "share": "25%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "DEVÍN",
+              "lv_number": "2387",
+              "share": "8%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "LIPTOVSKÝ TRNOVEC",
+              "lv_number": "858",
+              "share": "17,55%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "3403",
+              "share": "3%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "2816",
+              "share": "100%"
+            }
+          ],
+          "old_count": 21,
+          "new_count": 21
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "AUDI",
+              "year_of_manufacture": 2003,
+              "share": "100%"
+            },
+            {
+              "type": "ZARIADENIE",
+              "share": "50%"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZARIADENIE",
+              "share": "50%"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "SLUŽOBNÝ AUTOMOBIL",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2021
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 195 822 € → 195 700 € (-122 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 21 → 21 (0)",
+      "Hnuteľný majetok: 2 → 1 (-1)",
+      "Vozidlá"
+    ]
+  },
   "slug": "mgr-jan-toth-m-a",
   "context": {
     "latest_year": 2024,

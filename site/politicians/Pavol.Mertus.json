@@ -639,6 +639,56 @@
     }
   ],
   "total_changes": 18,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Pavol.Mertus.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Pavol.Mertus.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPP - DISTRIBÚCIA, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SSE - METROLÓGIA, S.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SSE - PROJECT DEVELOPMENT, S.R.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ ENERGETIKA HOLDING, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PW GEOENERGY A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ ENERGETIKA HOLDING, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (PW GEOENERGY A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SSE - PROJECT DEVELOPMENT, S.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPP-DISTRIBÚCIA, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SSE - METROLÓGIA,S.R.O.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 140980,
+            "other": 4083
+          },
+          "new": {
+            "public_function": 139039,
+            "other": 4082
+          },
+          "old_total": 145063,
+          "new_total": 143121,
+          "delta": -1942,
+          "delta_pct": -1.3
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ENERGOTEL A.S.",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 145 063 € → 143 121 € (-1 942 €)",
+      "Funkcie"
+    ]
+  },
   "slug": "ing-pavol-mertus",
   "context": {
     "latest_year": 2024,

@@ -947,6 +947,142 @@
     }
   ],
   "total_changes": 22,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Chudik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Chudik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen Rady RTVS",
+          "new": "člen Rady RTVSštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AUDIOVIZUÁLNY FOND SR)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 15648,
+            "other": 10010
+          },
+          "new": {
+            "public_function": 10487,
+            "other": 13724
+          },
+          "old_total": 25658,
+          "new_total": 24211,
+          "delta": -1447,
+          "delta_pct": -5.6
+        },
+        {
+          "field": "employment",
+          "old": "TRIGON PRODUCTION\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "business_activity",
+          "old": null,
+          "new": "VYTVORENIE A POUŽITIE DIELA(Mgr. JOZEF CHUDÍK)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM A ZÁHRADA",
+              "cadastral_territory": "ZÁLESIE OKRES SENEC",
+              "lv_number": "432",
+              "share": "50%"
+            },
+            {
+              "type": "CHALUPA A NÁDVORIE",
+              "cadastral_territory": "LÁTKY OKRES DETVA",
+              "lv_number": "1507",
+              "share": "100%"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "LÁTKY OKRES DETVA",
+              "lv_number": "2838",
+              "share": "463/7695"
+            }
+          ],
+          "new": [
+            {
+              "type": "DOM, NÁDVORIE, ZAHRADA",
+              "cadastral_territory": "872270 ZÁLESIE",
+              "lv_number": "432",
+              "share": "50%"
+            },
+            {
+              "type": "CHALUPA A NÁDVORIE",
+              "cadastral_territory": "830747 LÁTKY",
+              "lv_number": "1507",
+              "share": "100%"
+            },
+            {
+              "type": "TRÁVNATY PORAST",
+              "cadastral_territory": "830747 LÁTKY",
+              "lv_number": "2838",
+              "share": "6019/107730"
+            },
+            {
+              "type": "TRÁVNATY PORAST",
+              "cadastral_territory": "830747 LÁTKY",
+              "lv_number": "2838",
+              "share": "463/7695"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 4
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "CITROËN",
+              "year_of_manufacture": 2019,
+              "share": "100%"
+            },
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "SUZUKI",
+              "year_of_manufacture": 2000,
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ",
+              "brand": "CITRÖEN",
+              "year_of_manufacture": 2019,
+              "share": "100%"
+            },
+            {
+              "type": "OSOBNÉ",
+              "brand": "SUZUKI",
+              "year_of_manufacture": 2000,
+              "share": "100%"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 25 658 € → 24 211 € (-1 447 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti: 3 → 4 (+1)",
+      "Hnuteľný majetok: 2 → 2 (0)"
+    ]
+  },
   "slug": "mgr-jozef-chudik",
   "context": {
     "latest_year": 2024,

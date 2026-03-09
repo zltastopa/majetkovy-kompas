@@ -364,6 +364,118 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lubica.Kostovicova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lubica.Kostovicova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2197,
+            "other": 3890
+          },
+          "new": {
+            "public_function": 40236,
+            "other": 106111
+          },
+          "old_total": 6087,
+          "new_total": 146347,
+          "delta": 140260,
+          "delta_pct": 2304.3
+        },
+        {
+          "field": "employment",
+          "old": "TRANSPETROL, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "TRANSPETROL. A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE, OSTATNÁ PLOCHA",
+              "cadastral_territory": "MARIÁNKA",
+              "lv_number": "1951, 2183",
+              "share": "1/1,1/3000"
+            },
+            {
+              "type": "BYT, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA IV - DÚBRAVKA",
+              "lv_number": "3537,3537,4714",
+              "share": "1/2,1584/376167"
+            },
+            {
+              "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA IV - LAMAČ",
+              "lv_number": "2258,3341",
+              "share": "1/1,4300/179456"
+            },
+            {
+              "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA IV - LAMAČ",
+              "lv_number": "2202,2974",
+              "share": "1/1,4300/179456"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA IV - LAMAČ",
+              "lv_number": "2202,2974",
+              "share": "1/1, 4300/179456"
+            },
+            {
+              "type": "RODINNÝ DOM, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE, OSTATNÉ PLOCHY",
+              "cadastral_territory": "MARIÁNKA",
+              "lv_number": "1951, 2183",
+              "share": "1/1, 1/3000"
+            },
+            {
+              "type": "BYTM, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLA IV - DÚBRAVKA",
+              "lv_number": "3537, 3537, 4714",
+              "share": "1/2, 1584/376167"
+            },
+            {
+              "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA IV - LAMAČ",
+              "lv_number": "2258, 3341",
+              "share": "1/1, 4300/179456"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OSOBNÉ BANKOVÉ ÚČTY, podiel: 1/1",
+            "AKCIE Z KUPÓNOVEJ PRIVATIZÁCIE, podiel: 1/1",
+            "DOPLNKOVÉ DÔCHODKOVÉ SPORENIE, podiel: 1/1"
+          ],
+          "new": [
+            "OSOBNÉ BANKOVÉ ÚČTY, podiel: 1/1",
+            "AKCIE, podiel: 1/1",
+            "DOPLNKOVÉ DÔCHODKOVÉ SPORENIE, podiel: 1/1"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 6 087 € → 146 347 € (+140 260 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Majetkové práva: 3 → 3 (0)"
+    ]
+  },
   "slug": "ing-lubica-kostovicova",
   "context": {
     "latest_year": 2024,

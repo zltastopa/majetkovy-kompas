@@ -1315,6 +1315,196 @@
     }
   ],
   "total_changes": 19,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/BaskJaro.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/BaskJaro.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 55555,
+            "other": 0
+          },
+          "new": {
+            "public_function": 58313,
+            "other": 0
+          },
+          "old_total": 55555,
+          "new_total": 58313,
+          "delta": 2758,
+          "delta_pct": 5.0
+        },
+        {
+          "field": "employment",
+          "old": "CONTINENTAL MATADOR RUBBER S. R. O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "CONTINENTAL TIRES SLOVAKIA, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN VALNÉHO ZHROMAŽDENIA ORGANIZÁCIE ZA TRENČIANSKY SAMOSPRÁVNY KRAJ",
+              "organization": "TRENČÍN REGION, KRAJSKÁ ORGAN. CESTOVNÉHO RUCHU",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "KREATÍVNY INŠTITÚT TRENČÍN, N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "REGIÓN BIELE KARPATY",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "REGIÓN BIELE KARPATY",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "KREATÍVNY INŠTITÚT TRENČÍN, N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN VALNÉHO ZHROMAŽDENIA ORGANIZÁCIE ZA TSK",
+              "organization": "TRENČÍN REGION, KRAJSKÁ ORGANIZÁCIA CESTOVNÉHO RUCHU",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT (1/1)  A GARÁŽ (1/200)",
+              "cadastral_territory": "BRATISLAVA II, RUŽINOV",
+              "lv_number": "3378",
+              "share": "BSM"
+            },
+            {
+              "type": "PODIEL SPOLOČNÉ PRIESTORY A POZEMOK (5977/2073955)",
+              "cadastral_territory": "BRATISLAVA II, RUŽINOV",
+              "lv_number": "3378",
+              "share": "BSM"
+            },
+            {
+              "type": "PODIEL SPOLOČNÉ PRIESTORY A POZEMOK (505600/2073955)",
+              "cadastral_territory": "BRATISLAVA II, RUŽINOV",
+              "lv_number": "3378",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM (1/1)",
+              "cadastral_territory": "DOHŇANY",
+              "lv_number": "2192",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA ZASTAVANÉ PLOCHY A NÁDVORIA (1/1)",
+              "cadastral_territory": "DOHŇANY",
+              "lv_number": "2192",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽ (1/1)",
+              "cadastral_territory": "DOHŇANY",
+              "lv_number": "2192",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT A GARÁŽ",
+              "cadastral_territory": "BRATISLAVA II. RUŽINOV",
+              "lv_number": "3378",
+              "share": "1/1, 1/200 BSM"
+            },
+            {
+              "type": "SPOLOČNÉ PRIESTORY A POZEMOK",
+              "cadastral_territory": "BRATISLAVA II, RUŽINOV",
+              "lv_number": "3378",
+              "share": "5977/2073955 BSM"
+            },
+            {
+              "type": "SPOLOČNÉ PRIESTORY A POZEMOK",
+              "cadastral_territory": "BRATISLAVA II, RUŽINOV",
+              "lv_number": "3378",
+              "share": "505600/2073955 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "DOHŇANY",
+              "lv_number": "2192",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "DOHŇANY",
+              "lv_number": "2192",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "DOHŇANY",
+              "lv_number": "2192",
+              "share": "BSM 1/1"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "19. 02. 2008"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "20. 12. 2010"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER NA BYT",
+              "share": "BSM",
+              "date": "19. 02. 2008"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER NA RODINNÝ DOM",
+              "share": "BSM",
+              "date": "20. 12. 2010"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 55 555 € → 58 313 € (+2 758 €)",
+      "Zamestnanie",
+      "Funkcie: 3 → 3 (0)",
+      "Nehnuteľnosti: 6 → 6 (0)",
+      "Záväzky: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-jaroslav-baska",
   "context": {
     "latest_year": 2024,

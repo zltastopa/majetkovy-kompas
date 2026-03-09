@@ -555,6 +555,44 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lubomir.Sarabok.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lubomir.Sarabok.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 52404,
+            "other": 0
+          },
+          "new": {
+            "public_function": 53068,
+            "other": 0
+          },
+          "old_total": 52404,
+          "new_total": 53068,
+          "delta": 664,
+          "delta_pct": 1.3
+        },
+        {
+          "field": "employment",
+          "old": "RÚVZ SENICA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA SENICA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 52 404 € → 53 068 € (+664 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "ing-lubomir-sarabok",
   "context": {
     "latest_year": 2024,

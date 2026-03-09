@@ -746,6 +746,169 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Martin.Galbavy.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Martin.Galbavy.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1114,
+            "other": 8091
+          },
+          "new": {
+            "public_function": 31872,
+            "other": 9100
+          },
+          "old_total": 9205,
+          "new_total": 40972,
+          "delta": 31767,
+          "delta_pct": 345.1
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(DEGARDE S.R.O.)KONATEĽ(KERS, S.R.O.)KONATEĽ(ETONK, S.R.O.)KONATEĽ(VILLERS S.R.O.)KONATEĽ(S BUBELINIM S.R.O.)KONATEĽ(RUMAPEX S.R.O.)",
+          "new": "KONATEĽ(DEGARDE, S.R.O.)KONATEĽ(KERS, S.R.O.)KONATEĽ(ETONK, S.R.O.)KONATEĽ(VILLERS, S.R.O.)KONATEĽ(S BUBELINIM S.R.O.)KONATEĽ(RUMAPEX S.R.O.)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM S PRISLÚCHAJÚCIMI POZEMKAMI",
+              "cadastral_territory": "VINOHRADY NAD VÁHOM",
+              "lv_number": "1744",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT A PRISLÚCHAJÚCE POZEMKY K BYTU",
+              "cadastral_territory": "BIELY KOSTOL",
+              "lv_number": "1966,1910,1884",
+              "share": "BSM"
+            },
+            {
+              "type": "2X RODINNÝ DOM S PRISLÚCHAJÚCIMI POZEMKAMI",
+              "cadastral_territory": "KOSTOLNÁ PRI DUNAJI",
+              "lv_number": "86",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMKY - OSTATNÁ PLOCHA",
+              "cadastral_territory": "ZEMIANSKE ŠÚROVCE",
+              "lv_number": "28",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZEMIANSKE ŠÚROVCE",
+              "lv_number": "1351",
+              "share": "100%"
+            },
+            {
+              "type": "POZEMKY - OSTATNÁ PLOCHA",
+              "cadastral_territory": "ZEMIANSKE ŠÚROVCE",
+              "lv_number": "1333",
+              "share": "33%"
+            },
+            {
+              "type": "VINICA",
+              "cadastral_territory": "ZVONČÍN",
+              "lv_number": "2018",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT + NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "LUČENEC",
+              "lv_number": "6417",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "VINOHRADY NAD VÁHOM",
+              "lv_number": "1744",
+              "share": "BSM"
+            },
+            {
+              "type": "2X RODINNÝ DOM S PRISLÚCHAJÚCIMI POZEMKAMI",
+              "cadastral_territory": "KOSTOLNÁ PRI DUNAJI",
+              "lv_number": "86",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMKY-OSTATNÁ PLOCHA",
+              "cadastral_territory": "ZEMIANSKE ŠÚROVCE",
+              "lv_number": "28",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZEMIANSKE ŠÚROVCE",
+              "lv_number": "1351",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY-OSTATNÁ PLOCHA",
+              "cadastral_territory": "ZEMIANSKE ŠÚROVCE",
+              "lv_number": "1333",
+              "share": "1/3"
+            },
+            {
+              "type": "VINICA",
+              "cadastral_territory": "ZVONČÍN",
+              "lv_number": "2018",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT+NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "LUČENEC",
+              "lv_number": "6417",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 7
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PODIEL V S.R.O., podiel: 20%",
+            "PODIEL V S.R.O., podiel: 50%",
+            "PODIEL V S.R.O., podiel: 100%",
+            "PODIEL V S.R.O., podiel: 25%",
+            "PÔŽIČKA, podiel: 100%",
+            "ŽIVOTNÉ POISTENIE, podiel: 100%",
+            "PODIEL V S.R.O., podiel: 50%"
+          ],
+          "new": [
+            "PODIEL V S.R.O., podiel: 20%",
+            "PODIEL V S.R.O., podiel: 50%",
+            "PODIEL V S.R.O., podiel: 100%",
+            "PODIEL V S.R.O., podiel: 25%",
+            "PÔŽIČKA, podiel: 100%",
+            "ŽIVOTNÉ POISTENIE, podiel: 100%",
+            "PODIEL V S.R.O., podiel: 50%",
+            "ÚSPORY, podiel: 100%"
+          ],
+          "old_count": 7,
+          "new_count": 8
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 9 205 € → 40 972 € (+31 767 €)",
+      "Podnikanie",
+      "Nehnuteľnosti: 8 → 7 (-1)",
+      "Majetkové práva: 7 → 8 (+1)"
+    ]
+  },
   "slug": "ing-martin-galbavy",
   "context": {
     "latest_year": 2024,

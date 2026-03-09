@@ -766,6 +766,50 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Pavol.Tanuska.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Pavol.Tanuska.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 46944,
+            "other": 51604
+          },
+          "new": {
+            "public_function": 51480,
+            "other": 49337
+          },
+          "old_total": 98548,
+          "new_total": 100817,
+          "delta": 2269,
+          "delta_pct": 2.3
+        },
+        {
+          "field": "positions",
+          "old": null,
+          "new": [
+            {
+              "role": "ČLEN RADY SPRÁVCOV, SPRÁVCA PODÚČTU",
+              "organization": "NÁRODNÝ JADROVÝ FOND",
+              "benefits": "MESAČNÁ ODMENA"
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 98 548 € → 100 817 € (+2 269 €)",
+      "Funkcie"
+    ]
+  },
   "slug": "prof-ing-pavol-tanuska-phd",
   "context": {
     "latest_year": 2024,

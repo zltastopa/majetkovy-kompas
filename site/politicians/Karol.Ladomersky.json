@@ -308,6 +308,50 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Karol.Ladomersky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Karol.Ladomersky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TRANSPETROL, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ENERGOTEL, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 38286,
+            "other": 110253
+          },
+          "new": {
+            "public_function": 18959,
+            "other": 90695
+          },
+          "old_total": 148539,
+          "new_total": 109654,
+          "delta": -38885,
+          "delta_pct": -26.2
+        },
+        {
+          "field": "employment",
+          "old": "TRANSPETROL, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "TRANSPETROL, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSPOLOČNOSŤ PRE SKLADOVANIE, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 148 539 € → 109 654 € (-38 885 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "ing-karol-ladomersky",
   "context": {
     "latest_year": 2024,

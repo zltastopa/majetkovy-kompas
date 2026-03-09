@@ -1581,6 +1581,204 @@
     }
   ],
   "total_changes": 26,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/GalkLubo.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/GalkLubo.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republikyštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LETECKÉ OPRAVOVNE TRENČÍN, A.S.)",
+          "new": "poslanec Národnej rady Slovenskej republiky"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 20249,
+            "other": 69503
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 0
+          },
+          "old_total": 89752,
+          "new_total": 48912,
+          "delta": -40840,
+          "delta_pct": -45.5
+        },
+        {
+          "field": "employment",
+          "old": "LETECKÉ OPRAVOVNE TRENČÍN, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - M.Č. STARÉ MESTO",
+              "lv_number": "3919",
+              "share": "50%"
+            },
+            {
+              "type": "POZEMOK POD BYTOM",
+              "cadastral_territory": "BRATISLAVA - M. Č. STARÉ MESTO",
+              "lv_number": "5158",
+              "share": "50%"
+            },
+            {
+              "type": "RODINNÝ DOM A POZEMOK K DOMU",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "1039",
+              "share": "50%"
+            },
+            {
+              "type": "GARÁŽ A POZEMOK KU GARÁŽI",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "1039",
+              "share": "50%"
+            },
+            {
+              "type": "APARTMÁNOVÝ BYT, POZEMOK A PARKOVACIE MIESTO",
+              "cadastral_territory": "RTINA BENICI, RAŽANAC, CHORVÁTSKO",
+              "lv_number": "1906",
+              "share": "50%"
+            },
+            {
+              "type": "BYT V APARTMÁNOVOM DOME",
+              "cadastral_territory": "VEĽKÁ LOMNICA",
+              "lv_number": "1340",
+              "share": "50%"
+            },
+            {
+              "type": "POZEMOK POD APARTMÁNOVÝM DOMOM",
+              "cadastral_territory": "VEĽKÁ LOMNICA",
+              "lv_number": "1340",
+              "share": "3%"
+            },
+            {
+              "type": "POZEMOK PRISLÚCHAJÚCI K APARTMÁNOVÉMU DOMU",
+              "cadastral_territory": "VEĽKÁ LOMNICA",
+              "lv_number": "1598",
+              "share": "3%"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA CESTNÁ KOMUNIKÁCIA",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "7606",
+              "share": "7%"
+            },
+            {
+              "type": "POZEMOK PRISLÚCHAJÚCI K BYTU A PARKOVACIE MIESTO",
+              "cadastral_territory": "VEĽKÁ LOMNICA",
+              "lv_number": "1975",
+              "share": "50%"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "7699",
+              "share": "50%"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA - CESTNÁ KOMUNIKÁCIA",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "7604",
+              "share": "7%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "3919",
+              "share": "50%"
+            },
+            {
+              "type": "POZEMOK POD BYTOM",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5158",
+              "share": "50%"
+            },
+            {
+              "type": "RODINNÝ DOM A POZEMOK K DOMU",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "1039",
+              "share": "50%"
+            },
+            {
+              "type": "GARÁŽ A POZEMOK KU GARÁŽI",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "1039",
+              "share": "50%"
+            },
+            {
+              "type": "APARTMÁNOVÝ BYT, POZEMOK A PARKOVACIE MIESTO",
+              "cadastral_territory": "RTINA BENIĆI, RAŽANAC, CHORVÁTSKO",
+              "lv_number": "1906",
+              "share": "50%"
+            },
+            {
+              "type": "BYT V APARTMÁNOVOM DOME",
+              "cadastral_territory": "VEĽKÁ LOMNICA",
+              "lv_number": "1340",
+              "share": "50%"
+            },
+            {
+              "type": "POZEMOK POD APARTMÁNOVÝM DOMOM",
+              "cadastral_territory": "VEĽKÁ LOMNICA",
+              "lv_number": "1340",
+              "share": "3%"
+            },
+            {
+              "type": "POZEMOK PRISLÚCHAJÚCI K APARTMÁNOVÉMU DOMU",
+              "cadastral_territory": "VEĽKÁ LOMNICA",
+              "lv_number": "1598",
+              "share": "3%"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA - CESTNÁ KOMUNIKÁCIA",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "7606",
+              "share": "4%"
+            },
+            {
+              "type": "POZEMOK PRISLÚCHAJÚCI K BYTU A PARKOVACIE MIESTO",
+              "cadastral_territory": "VEĽKÁ LOMNICA",
+              "lv_number": "1975",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PÔDA A OSTATNÁ PLOCHA",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "1039",
+              "share": "50%"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA - CESTNÁ KOMUNIKÁCIA",
+              "cadastral_territory": "STUPAVA",
+              "lv_number": "7604",
+              "share": "7%"
+            }
+          ],
+          "old_count": 12,
+          "new_count": 12
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 89 752 € → 48 912 € (-40 840 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 12 → 12 (0)"
+    ]
+  },
   "slug": "mgr-lubomir-galko",
   "context": {
     "latest_year": 2024,

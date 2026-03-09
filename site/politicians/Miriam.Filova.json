@@ -687,6 +687,102 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Miriam.Filova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Miriam.Filova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 15648,
+            "other": 27351
+          },
+          "new": {
+            "public_function": 11772,
+            "other": 32522
+          },
+          "old_total": 42999,
+          "new_total": 44294,
+          "delta": 1295,
+          "delta_pct": 3.0
+        },
+        {
+          "field": "employment",
+          "old": "ASOCIÁCIA ZAMESTNÁVATEĽSKÝCH ZVÄZOV A ZDRUŽENÍ SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ASOCIÁCIA ZAMESTNÁVATEĽSKÝCH ZVÄZOV A ZDRUŽENÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "4848",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "8057",
+              "share": "171/20000"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATA",
+              "cadastral_territory": "KUCHYŇA",
+              "lv_number": "2149",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "KUCHYŇA",
+              "lv_number": "2730",
+              "share": "1/79"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "4848",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "8057",
+              "share": "171/20000"
+            },
+            {
+              "type": "ZAHRADNÁ CHATA",
+              "cadastral_territory": "KUCHYŇA",
+              "lv_number": "2149",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "KUCHYŇA",
+              "lv_number": "2730",
+              "share": "1/79"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 42 999 € → 44 294 € (+1 295 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 4 → 4 (0)"
+    ]
+  },
   "slug": "ing-miriam-filova",
   "context": {
     "latest_year": 2024,

@@ -354,6 +354,44 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jozef.Miklosko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jozef.Miklosko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 47795,
+            "other": 8400
+          },
+          "new": {
+            "public_function": 49338,
+            "other": 10242
+          },
+          "old_total": 56195,
+          "new_total": 59580,
+          "delta": 3385,
+          "delta_pct": 6.0
+        },
+        {
+          "field": "employment",
+          "old": "VYSOKÁ ŠKOLA ZDRAVOTNÍCTVA A SOCIÁLNEJ PRÁCE SVÄTEJ ALŽBETY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "VYSOKÁ ŠKOLA ZDRAVOTNÍCTVA A SOCIÁLNEJ PRÁCE SV. ALŽBETY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 56 195 € → 59 580 € (+3 385 €)",
+      "Zamestnanie"
+    ]
+  },
   "slug": "prof-mudr-jozef-miklosko-phd",
   "context": {
     "latest_year": 2024,

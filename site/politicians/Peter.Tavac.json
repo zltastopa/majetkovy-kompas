@@ -1650,6 +1650,352 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Tavac.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Tavac.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 143116,
+            "other": 830
+          },
+          "new": {
+            "public_function": 138242,
+            "other": 460
+          },
+          "old_total": 143946,
+          "new_total": 138702,
+          "delta": -5244,
+          "delta_pct": -3.6
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC",
+              "organization": "OBEC VARÍN ",
+              "benefits": "POSLANECKÁ ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC",
+              "organization": "OBEC VARÍN",
+              "benefits": "POSLANECKÁ ODMENA"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "4078",
+              "share": "2/6 BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "1897",
+              "share": "6/96 BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "2151",
+              "share": "1/10 BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "4373",
+              "share": "1/10 BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "2226",
+              "share": "1/12 BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "3920",
+              "share": "48/1500 BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "3919",
+              "share": "48/1500 BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "2999",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "7863",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KREMNICA",
+              "lv_number": "1743",
+              "share": "BSM"
+            },
+            {
+              "type": "ROZOSTAVANÝ RODINNÝ DOM",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "12289",
+              "share": "BSM"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "9221",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "12613",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "3803",
+              "share": "2/10 BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "2804",
+              "share": "2/10 BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "137",
+              "share": "1/6 BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "136",
+              "share": "1/6 BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "3973",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSTATNÁ PLOCHA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "9221",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "12289",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "3803",
+              "share": "2/10 BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "PIEŠŤANY",
+              "lv_number": "12613",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "3804",
+              "share": "2/10 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "7863",
+              "share": "1/Z"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "3767",
+              "share": "101/192 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KREMNICA",
+              "lv_number": "1743",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "4373",
+              "share": "1/10 BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "2226",
+              "share": "1/12 BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "3920",
+              "share": "48/1500 BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "4078",
+              "share": "2/6 BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "1897",
+              "share": "6/96 BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "2151",
+              "share": "1/10 BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "1859",
+              "share": "29/72 BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "3919",
+              "share": "48/1500 BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "3766",
+              "share": "101/192 BSM"
+            },
+            {
+              "type": "TTP, ORNÁ PÔDA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "3973",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "136",
+              "share": "1/6 BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "137",
+              "share": "1/6 BSM"
+            }
+          ],
+          "old_count": 18,
+          "new_count": 20
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE , podiel: BSM",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: BSM"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY, podiel: BSM",
+            "ŽIVOTNÉ  POISTENIE, podiel: 1/1",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: BSM"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "06. 04. 2021"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "16. 04. 2021"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "25. 10. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "25. 10. 2022"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "06. 04. 2021"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "16. 04. 2021"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 143 946 € → 138 702 € (-5 244 €)",
+      "Funkcie: 1 → 1 (0)",
+      "Nehnuteľnosti: 18 → 20 (+2)",
+      "Majetkové práva: 3 → 3 (0)",
+      "Záväzky: 3 → 3 (0)"
+    ]
+  },
   "slug": "ing-pavol-tavac-mba",
   "context": {
     "latest_year": 2024,

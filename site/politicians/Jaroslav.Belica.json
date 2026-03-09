@@ -602,6 +602,63 @@
     }
   ],
   "total_changes": 19,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jaroslav.Belica.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jaroslav.Belica.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETOVÉ PREVÁDZKOVÉ SLUŽBY SR, Š.P.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (METRO BRATISLAVA A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETOVÉ PREVÁDZKOVÉ SLUŽBY SR, Š.P.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 14908,
+            "other": 142575
+          },
+          "new": {
+            "public_function": 19200,
+            "other": 138968
+          },
+          "old_total": 157483,
+          "new_total": 158168,
+          "delta": 685,
+          "delta_pct": 0.4
+        },
+        {
+          "field": "employment",
+          "old": "ALEF DISTRIBUTION SK S.R.O\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ALEF DISTRIBUTION SK S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MERCEDES-BENZ",
+              "year_of_manufacture": 2017,
+              "share": "1/1"
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 157 483 € → 158 168 € (+685 €)",
+      "Zamestnanie",
+      "Hnuteľný majetok"
+    ]
+  },
   "slug": "ing-jaroslav-belica",
   "context": {
     "latest_year": 2024,

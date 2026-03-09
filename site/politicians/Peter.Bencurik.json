@@ -191,6 +191,93 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Bencurik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Bencurik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 14430,
+            "other": 30800
+          },
+          "old_total": 0,
+          "new_total": 45230,
+          "delta": 45230
+        },
+        {
+          "field": "employment",
+          "old": "SLOVAKIA TRAVEL\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVAKIA TRAVEL\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "DEDINKA PRI DUNAJI",
+              "lv_number": "1221",
+              "share": "100%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "6199",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "6199",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "DEDINKA PRI DUNAJI",
+              "lv_number": "1221",
+              "share": "100%"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PENIAZE NA ÚČTE, podiel: 100%"
+          ],
+          "new": [
+            "GARÁŽ, HLOHOVEC, LV 6431 (MAJETKOVÉ PRÁVO)\r\nV ZMYSLE DOHODY POZOSTALÝCH A DEDIČSKÉHO KONANIA\r\nOKR. SÚD TRNAVA 104D/75/2024, podiel: 100%",
+            "ORNÁ PÔDA, DOLNÉ TRHOVIŠTE, LV 22 (MAJETKOVÉ PRÁVO)\r\nV ZMYSLE DOHODY POZOSTALÝCH A DEDIČSKÉHO KONANIA\r\nOKR. SÚD TRNAVA 104D/75/2024, podiel: 50%",
+            "ORNÁ PÔDA, VEĽKÉ KOSTOĽANY, LV 2073 (MAJETKOVÉ PRÁVO)\r\nV ZMYSLE DOHODY POZOSTALÝCH A DEDIČSKÉHO KONANIA\r\nOKR. SÚD TRNAVA 104D/75/2024, podiel: 50%",
+            "LESNÝ POZEMOK, PASTUCHOV, LV 393 (MAJETKOVÉ PRÁVO)\r\nV ZMYSLE DOHODY POZOSTALÝCH A DEDIČSKÉHO KONANIA\r\nOKR. SÚD TRNAVA 104D/75/2024, podiel: 1/6",
+            "PENIAZE NA ÚČTE, podiel: 100%"
+          ],
+          "old_count": 1,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 45 230 € (+45 230 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Majetkové práva: 1 → 5 (+4)"
+    ]
+  },
   "slug": "ing-peter-bencurik-phd",
   "context": {
     "latest_year": 2024,

@@ -457,6 +457,144 @@
     }
   ],
   "total_changes": 10,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Maros.Stano.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Maros.Stano.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1500,
+            "other": 990
+          },
+          "new": {
+            "public_function": 21912,
+            "other": 33263
+          },
+          "old_total": 2490,
+          "new_total": 55175,
+          "delta": 52685,
+          "delta_pct": 2115.9
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "KANCELÁRIA NÁRODNEJ RADY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "SZČO(Mgr. MAROŠ STANO - MS CONSULTING)",
+          "new": "ŽIVNOSTNÍK(Mgr. MAROŠ STANO - MS CONSULTING)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "2998",
+              "share": "1/2"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "3871",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "1128",
+              "share": "1/6"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5294",
+              "share": "1/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KÁLNICA",
+              "lv_number": "667",
+              "share": "7/8"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "2998",
+              "share": "1/2"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "3871",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "1128",
+              "share": "1/6"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5294",
+              "share": "1/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KÁLNICA",
+              "lv_number": "667",
+              "share": "7/8"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "VYBAVENIE DOMÁCNOSTI",
+              "share": "BSM"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÁ HOTOVOSŤ, podiel: BSM"
+          ],
+          "new": [
+            "VYBAVENIE DOMÁCNOSTI, podiel: BSM",
+            "FINANČNÁ HOTOVOSŤ, podiel: BSM"
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 2 490 € → 55 175 € (+52 685 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti: 5 → 5 (0)",
+      "Hnuteľný majetok",
+      "Majetkové práva: 1 → 2 (+1)"
+    ]
+  },
   "slug": "mgr-maros-stano",
   "context": {
     "latest_year": 2024,

@@ -184,6 +184,89 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Matus.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Matus.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ ÚSTAV TUBERKULÓZNYCH, PĽÚCNYCH CHORÔB A HRUDNÍKOVEJ CHIRURGIE VYŠNÉ HÁGY)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ ÚSTAV TUBERKULÓZY, PĽÚCNYCH CHORÔB A HRUDNÍKOVEJ CHIRURGIE, VYŠNÉ HÁGY )štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MH TEPLÁRENSKÝ HOLDING, A.S. BRATISLAVA)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 15914,
+            "other": 9876
+          },
+          "old_total": 0,
+          "new_total": 25790,
+          "delta": 25790
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "LUČENEC",
+              "lv_number": "8695",
+              "share": "1/1"
+            },
+            {
+              "type": "SPOLUVL. PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH V BYTOVOM DOME",
+              "cadastral_territory": "LUČENEC",
+              "lv_number": "8695",
+              "share": "754/62400"
+            },
+            {
+              "type": "3X RADOVÁ GARÁŽ",
+              "cadastral_territory": "LUČENEC",
+              "lv_number": "6613",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "LUČENEC",
+              "lv_number": "8695",
+              "share": "1/1"
+            },
+            {
+              "type": "SPOLUVLASTNÍCKY PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH V BYTOVOM DOME",
+              "cadastral_territory": "LUČENEC",
+              "lv_number": "8695",
+              "share": "754/62400"
+            },
+            {
+              "type": "3 X RADOVÁ GARÁŽ",
+              "cadastral_territory": "LUČENEC",
+              "lv_number": "6613",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 25 790 € (+25 790 €)",
+      "Nehnuteľnosti: 3 → 3 (0)"
+    ]
+  },
   "slug": "mgr-peter-matus-mba",
   "context": {
     "latest_year": 2024,

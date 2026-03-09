@@ -1143,6 +1143,126 @@
     }
   ],
   "total_changes": 20,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Pavol.Svec.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Pavol.Svec.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 17598,
+            "other": 147871
+          },
+          "new": {
+            "public_function": 19134,
+            "other": 130054
+          },
+          "old_total": 165469,
+          "new_total": 149188,
+          "delta": -16281,
+          "delta_pct": -9.8
+        },
+        {
+          "field": "employment",
+          "old": "ONKOLOGICKÝ ÚSTAV SVÄTEJ ALŽBETY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ONKOLOGICKÝ ÚSTAV SV. ALŽBETY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA",
+              "lv_number": "10394",
+              "share": "50%"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA, TRÁVNATÁ PORAST",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "2504/2 2006-7",
+              "share": "25%"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "DEVÍN",
+              "lv_number": "394 394/1/2",
+              "share": "50%"
+            },
+            {
+              "type": "POZEMOK, RODINNÝ DOM",
+              "cadastral_territory": "PRELLENKIRCHEN",
+              "lv_number": "491/20",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PLOCHA, ZÁHRADY-PORASTY",
+              "cadastral_territory": "NEDED",
+              "lv_number": "2099 AŽ 12442 4527 2466-68-72",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PLOCHA, PORASTY",
+              "cadastral_territory": "NEDED",
+              "lv_number": "3852/2 AŽ 12374",
+              "share": "50%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA",
+              "lv_number": "10394",
+              "share": "50%"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA TRÁVNATÝ PORAST",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "2504/2, 2006-7",
+              "share": "25%"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "DEVÍN",
+              "lv_number": "394, 394/1/2",
+              "share": "50%"
+            },
+            {
+              "type": "POZEMOK RODINNÝ DOM",
+              "cadastral_territory": "PRELLENKIRCHEN",
+              "lv_number": "491/20",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PLOCHA, ZÁHRADY - PORASTY",
+              "cadastral_territory": "NEDED",
+              "lv_number": "2099 AŽ 12442, 4527, 2466 - 68 - 72",
+              "share": "50%"
+            },
+            {
+              "type": "ORNÁ PLOCHA PORASTY",
+              "cadastral_territory": "NEDED",
+              "lv_number": "3852/2 AŽ 12374",
+              "share": "50%"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 165 469 € → 149 188 € (-16 281 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 6 → 6 (0)"
+    ]
+  },
   "slug": "rndr-ing-pavol-svec-csc",
   "context": {
     "latest_year": 2024,

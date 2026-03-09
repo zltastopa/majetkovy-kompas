@@ -191,6 +191,65 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jan.Kluch.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jan.Kluch.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MH MANAŽMENT, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TH SPRÁVA, S.R.O.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MH TEPLÁRENSKY HOLDING, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MH MANAŽMENT, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 14980,
+            "other": 94336
+          },
+          "old_total": 0,
+          "new_total": 109316,
+          "delta": 109316
+        },
+        {
+          "field": "employment",
+          "old": "MH MANAŽMENT, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MH TEPLÁRENSKÝ HOLDING, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%",
+            "ÚSPORY V BANKE, podiel: 1/1"
+          ],
+          "new": [
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%",
+            "ÚSPORY V BANKÁCH, podiel: 1/1"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 109 316 € (+109 316 €)",
+      "Zamestnanie",
+      "Majetkové práva: 3 → 3 (0)"
+    ]
+  },
   "slug": "ing-jan-kluch",
   "context": {
     "latest_year": 2024,

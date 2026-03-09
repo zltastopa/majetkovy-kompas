@@ -598,6 +598,136 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Radoslav.Prstek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Radoslav.Prstek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 38157,
+            "other": 0
+          },
+          "new": {
+            "public_function": 44410,
+            "other": 0
+          },
+          "old_total": 38157,
+          "new_total": 44410,
+          "delta": 6253,
+          "delta_pct": 16.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM, HOSPODÁRSKA BUDOVA",
+              "cadastral_territory": "ŠAŠTÍN",
+              "lv_number": "4449",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ŠAŠTÍN",
+              "lv_number": "1415",
+              "share": "1/6"
+            },
+            {
+              "type": "VRÁTNICA, SKLAD, PREVÁDZKOVÉ BUDOVY",
+              "cadastral_territory": "ŠAŠTÍN",
+              "lv_number": "3806",
+              "share": "1/4"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ŠAŠTÍN",
+              "lv_number": "2871",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAŠTÍN",
+              "lv_number": "3800",
+              "share": "8/270"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ŠAŠTÍN",
+              "lv_number": "2871",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAŠTÍN",
+              "lv_number": "3800",
+              "share": "8/270"
+            },
+            {
+              "type": "RODINNÝ DOM, HOSPODÁRSKA BUDOVA",
+              "cadastral_territory": "ŠAŠTÍN",
+              "lv_number": "4449",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ŠAŠTÍN",
+              "lv_number": "1415",
+              "share": "1/6"
+            },
+            {
+              "type": "VRÁTNICA, SKLAD, PREVÁDZKOVÉ BUDOVY",
+              "cadastral_territory": "ŠAŠTÍN",
+              "lv_number": "3806",
+              "share": "1/4"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "SUZUKI",
+              "year_of_manufacture": 2019,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "NISSAN",
+              "year_of_manufacture": 2007,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "SUZUKI",
+              "year_of_manufacture": 2014,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 38 157 € → 44 410 € (+6 253 €)",
+      "Nehnuteľnosti: 5 → 5 (0)",
+      "Hnuteľný majetok: 2 → 1 (-1)"
+    ]
+  },
   "slug": "ing-radovan-prstek",
   "context": {
     "latest_year": 2024,

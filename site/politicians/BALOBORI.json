@@ -609,6 +609,90 @@
     }
   ],
   "total_changes": 21,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/BALOBORI.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/BALOBORI.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP STORAGE, S.R.O)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND INOVÁCIÍ A TECHNOLÓGIÍ, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÝ ROZVOJOVÝ FOND, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ETERUS CAPITAL, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NATFA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH INVEST, S.R.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH INVEST II., S.R.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VALALIKY INDUSTRIAL PARK, S.R.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH MANŽMENT, A.S.)člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (RUDNÉ BANE, Š.P.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND INOVÁCIÍ A TECHNOLÓGIÍ A.S.\r\n)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ETERUS CAPITAL A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (RUDNÉ BANE, Š.P.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÝ ROZVOJOVÝ FOND A.S.\r\n)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NAFTA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH INVEST II. S.R.O.\r\n)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP-STORAGE, S.R.O.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH INVEST S.R.O.\r\n)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MH MANAŽMENT, A.S.\r\n)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VALALIKY INDUSTRIAL PARK S.R.O.\r\n)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 102192
+          },
+          "new": {
+            "public_function": 0,
+            "other": 100953
+          },
+          "old_total": 102192,
+          "new_total": 100953,
+          "delta": -1239,
+          "delta_pct": -1.2
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO HOSPODÁRSTVA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nPANEURÓPSKA VYSOKÁ ŠKOLA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "PANEURÓPSKA VYSOKÁ ŠKOLA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nKANCELÁRIA PREZIDENTA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3307",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3307",
+              "share": "8743/4908355"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3307",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3307",
+              "share": "8743/4908355"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "GRADO",
+              "lv_number": "6500",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 102 192 € → 100 953 € (-1 239 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 3 (+1)"
+    ]
+  },
   "slug": "doc-judr-boris-balog-phd",
   "context": {
     "latest_year": 2024,

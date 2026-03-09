@@ -641,6 +641,158 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/SakoAlex.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/SakoAlex.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ÚNIA DOPRAVY PÔŠT A TELEKOMUNIKÁCIÍ)generálny riaditeľ Železníc Slovenskej republiky",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STABILITA, DOPLNKOVÁ DÔCHODKOVÁ\r\nSPOLOČNOSŤ)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ÚNIA DOPRAVY, PÔŠT A TELEKOMUNIKÁCIÍ)generálny riaditeľ Železníc Slovenskej republiky"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11483,
+            "other": 1600
+          },
+          "new": {
+            "public_function": 87808,
+            "other": 0
+          },
+          "old_total": 13083,
+          "new_total": 87808,
+          "delta": 74725,
+          "delta_pct": 571.2
+        },
+        {
+          "field": "employment",
+          "old": "GEOTERM KOŠICE A. S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA, LESNÝ POZEMOK",
+              "cadastral_territory": "VAJNORY",
+              "lv_number": "3320",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA, TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "9785",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LIMBACH",
+              "lv_number": "218",
+              "share": "100%"
+            },
+            {
+              "type": "ZASTAVNÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "LIMBACH",
+              "lv_number": "218",
+              "share": "100%"
+            },
+            {
+              "type": "PODZEMNÁ GARÁŽ",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "6911",
+              "share": "100%"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "6912",
+              "share": "3156/56297"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "CHORVÁTSKO - SEVID",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "CHORVÁTSKO, SEVID",
+              "share": "100%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "LIMBACH",
+              "lv_number": "298",
+              "share": "100%"
+            },
+            {
+              "type": "PODZEMNÁ GARÁŽ",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "6911",
+              "share": "100%"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "6912",
+              "share": "3156/56297"
+            },
+            {
+              "type": "ORNÁ PÔDA, LESNÝ POZEMOK",
+              "cadastral_territory": "VAJNORY",
+              "lv_number": "3320",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA, TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "9785",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LIMBACH",
+              "lv_number": "298",
+              "share": "100%"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE , podiel: 100%",
+            "OBCHODNÝ PODIEL V S. R. O. , podiel: 100%",
+            "OBCHODNÝ PODIEL V S. R. O. , podiel: 100%"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: 100%",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 13 083 € → 87 808 € (+74 725 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 7 → 7 (0)",
+      "Majetkové práva: 3 → 3 (0)"
+    ]
+  },
   "slug": "judr-alexander-sako",
   "context": {
     "latest_year": 2024,

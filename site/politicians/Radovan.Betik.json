@@ -337,6 +337,169 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Radovan.Betik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Radovan.Betik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 10602,
+            "other": 15122
+          },
+          "old_total": 0,
+          "new_total": 25724,
+          "delta": 25724
+        },
+        {
+          "field": "employment",
+          "old": "UNIQUE MEDICAL S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nKLINIKA JUNÁCKA A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nCGA CONSULTING, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "UNIQUE MEDICAL S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nUNIVERZITNÁ NEMOCNICA MARTIN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nCGA CONSULTING, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nKLINIKA JUNÁCKA A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "13610",
+              "share": "1/8"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE PARC. Č. 3374/1",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "14296",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE PARC. Č. 3374/2",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "14296",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, PARC. Č. 3374/3",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "14296",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, PARC. Č. 3374/4",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "14296",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA, PARC. Č. 3375",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "14296",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "12433",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "12188",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "13610",
+              "share": "1/8"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "14296",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "14296",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "14296",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "14296",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "14296",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "12433",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "12188",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 8
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "50%",
+              "date": "07. 05. 2021"
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "50%",
+              "date": "05. 05. 2021"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 25 724 € (+25 724 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 8 → 8 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-radovan-betik",
   "context": {
     "latest_year": 2024,

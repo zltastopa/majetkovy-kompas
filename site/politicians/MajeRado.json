@@ -1283,6 +1283,144 @@
     }
   ],
   "total_changes": 23,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/MajeRado.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/MajeRado.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štátny tajomníkčlen dozornej rady Sociálnej poisťovneštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA SV. MICHALA, A.S.\r\n)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA SV. MICHALA, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNICE SLOVENSKEJ REPUBLIKY)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU VZDELÁVANIA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ A\r\nPRENOSOVÁ SÚSTAVA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (KOMPETENČNÉ A LEKTORSKÉ CENTRUM KYBERNETICKEJ BEZPEČNOSTI)",
+          "new": "štátny tajomníkčlen dozornej rady Sociálnej poisťovnečlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ JADROVÝ FOND)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ A\r\nPRENOSOVÁ SÚSTAVA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU CESTOVNÉHO\r\nRUCHU)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA SV. MICHALA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (KOMPETENČNÉ A CERTIFIKAČNÉ\r\nCENTRUM KYBERNETICKEJ BEZPEČNOSTI)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU VZDELÁVANIA)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNICE SR)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 84942,
+            "other": 33231
+          },
+          "new": {
+            "public_function": 28353,
+            "other": 62700
+          },
+          "old_total": 118173,
+          "new_total": 91053,
+          "delta": -27120,
+          "delta_pct": -22.9
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "MINISTERSTVO FINANCIÍ SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA 1",
+              "lv_number": "9643",
+              "share": "373150/3500010"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA 1",
+              "lv_number": "9773",
+              "share": "1/78"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA 1",
+              "lv_number": "9479",
+              "share": "1/78"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA 1",
+              "lv_number": "8802",
+              "share": "1/12"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA 1",
+              "lv_number": "5090",
+              "share": "1/78"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA 1",
+              "lv_number": "8802",
+              "share": "2/18"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "DUNAJSKÝ KLÁTOV",
+              "lv_number": "1434",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA 1",
+              "lv_number": "9643",
+              "share": "373750/3500010"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA 1",
+              "lv_number": "9773",
+              "share": "1/78"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA 1",
+              "lv_number": "9479",
+              "share": "1/78"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA 1",
+              "lv_number": "8802",
+              "share": "1/12"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA 1",
+              "lv_number": "5090",
+              "share": "1/78"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA 1",
+              "lv_number": "8802",
+              "share": "2/18"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "DUNAJSKÝ KLÁTOV",
+              "lv_number": "1434",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 118 173 € → 91 053 € (-27 120 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 7 → 7 (0)"
+    ]
+  },
   "slug": "ing-radovan-majersky-phd",
   "context": {
     "latest_year": 2024,

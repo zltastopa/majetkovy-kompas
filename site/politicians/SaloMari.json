@@ -6432,6 +6432,846 @@
     }
   ],
   "total_changes": 20,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/SaloMari.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/SaloMari.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 48807,
+            "other": 912
+          },
+          "new": {
+            "public_function": 50904,
+            "other": 474
+          },
+          "old_total": 49719,
+          "new_total": 51378,
+          "delta": 1659,
+          "delta_pct": 3.3
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "GENERÁLNY MANAŽÉR",
+              "organization": "POLITICKÁ STRANA SMER - SOCIÁLNA DEMOKRACIA",
+              "benefits": "BEZ ODMENY"
+            },
+            {
+              "role": "POSLANEC MESTSKÉHO ZASTUPITEĽSTVA",
+              "organization": "MESTO STARÁ ĽUBOVŇA",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC MESTSKÉHO ZASTUPITEĽSTVA",
+              "organization": "MESTO STARÁ ĽUBOVŇA",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "GENERÁLNY MANAŽÉR",
+              "organization": "POLITICKÁ STRANA SMER - SOCIÁLNA DEMOKRACIA",
+              "benefits": "BEZ ODMENY"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "4228",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "4316",
+              "share": "1/12"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "4317",
+              "share": "1/22"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "3107",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH DOMU",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "3107",
+              "share": "10745/82567"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "3107",
+              "share": "10745/82567"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK",
+              "cadastral_territory": "HROMOŠ",
+              "lv_number": "1030",
+              "share": "1/113"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK",
+              "cadastral_territory": "HROMOŠ",
+              "lv_number": "1031",
+              "share": "1/113"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK",
+              "cadastral_territory": "HROMOŠ",
+              "lv_number": "1079",
+              "share": "1/113"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK",
+              "cadastral_territory": "HROMOŠ",
+              "lv_number": "1080",
+              "share": "1/113"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "330",
+              "share": "7/54"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "795",
+              "share": "7/5760"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "804",
+              "share": "6/336"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "815",
+              "share": "277/960"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "843",
+              "share": "2/24"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "894",
+              "share": "1533/5120"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "903",
+              "share": "2/40"
+            },
+            {
+              "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "965",
+              "share": "1/6"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "980",
+              "share": "2/1200"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "986",
+              "share": "14/768"
+            },
+            {
+              "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "987",
+              "share": "1/15"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "990",
+              "share": "1/50"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1017",
+              "share": "1/15"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1018",
+              "share": "1/50"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBON",
+              "lv_number": "1019",
+              "share": "47/336"
+            },
+            {
+              "type": "TAVALÝ TRÁVNY PORAST, ORNÁ PÔDA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1022",
+              "share": "2/60"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1027",
+              "share": "2/27"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1029",
+              "share": "17/96"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1030",
+              "share": "1/90"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1033",
+              "share": "2/1200"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMRON",
+              "lv_number": "1040",
+              "share": "7/384"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1043",
+              "share": "3/36"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1044",
+              "share": "3/36"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1060",
+              "share": "47/336"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1063",
+              "share": "2/27"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1074",
+              "share": "3/36"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1082",
+              "share": "2/1200"
+            },
+            {
+              "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1090",
+              "share": "1/15"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1094",
+              "share": "5/256"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1095",
+              "share": "2/24"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1099",
+              "share": "63/2688"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1115",
+              "share": "365563/1453224"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK, OSTAT. PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1119",
+              "share": "365563/1453224"
+            },
+            {
+              "type": "OANÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1126",
+              "share": "2/480"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1128",
+              "share": "63/2688"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1130",
+              "share": "2/480"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1131",
+              "share": "5/2880"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1136",
+              "share": "2/192"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1137",
+              "share": "7/1152"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1138",
+              "share": "1/120"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1139",
+              "share": "7/432"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1140",
+              "share": "7/46080"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1141",
+              "share": "2/192"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1142",
+              "share": "277/7680"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1143",
+              "share": "2/216"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10374",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10374",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10374",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - GARÁŽ",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "664",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10374",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - GARÁŽ",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "3059",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "3709",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7569",
+              "share": "1/11"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7723",
+              "share": "2/12"
+            }
+          ],
+          "new": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1140",
+              "share": "7/46080"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1141",
+              "share": "2/192"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1142",
+              "share": "277/7680"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1137",
+              "share": "7/1152"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1138",
+              "share": "1/120"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1139",
+              "share": "7/432"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1143",
+              "share": "2/216"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10374",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10374",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7723",
+              "share": "2/12"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10374",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - GARÁŽ",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "664",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "10374",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - GARÁŽ",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "3059",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "3709",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "7569",
+              "share": "1/11"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "894",
+              "share": "1533/5120"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "903",
+              "share": "2/40"
+            },
+            {
+              "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "965",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "804",
+              "share": "6/336"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "815",
+              "share": "277/960"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "843",
+              "share": "2/24"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "990",
+              "share": "1/50"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1017",
+              "share": "1/15"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1018",
+              "share": "1/50"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "980",
+              "share": "2/1200"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "986",
+              "share": "14/768"
+            },
+            {
+              "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "987",
+              "share": "1/15"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "3107",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH DOMU",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "3107",
+              "share": "10745/82567"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÁ ĽUBOVŇA",
+              "lv_number": "3107",
+              "share": "10745/82567"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "4228",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "4316",
+              "share": "1/12"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "4317",
+              "share": "1/22"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK",
+              "cadastral_territory": "HROMOŠ",
+              "lv_number": "1080",
+              "share": "1/113"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "330",
+              "share": "7/54"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "795",
+              "share": "7/5760"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK",
+              "cadastral_territory": "HROMOŠ",
+              "lv_number": "1030",
+              "share": "1/113"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK",
+              "cadastral_territory": "HROMOŠ",
+              "lv_number": "1031",
+              "share": "1/113"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK",
+              "cadastral_territory": "HROMOŠ",
+              "lv_number": "1079",
+              "share": "1/113"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1095",
+              "share": "2/24"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1099",
+              "share": "63/2688"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1115",
+              "share": "365563/1453224"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1082",
+              "share": "2/1200"
+            },
+            {
+              "type": "ORNÁ PÔDA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1090",
+              "share": "1/15"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1094",
+              "share": "5/256"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1130",
+              "share": "2/480"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1131",
+              "share": "5/2880"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1136",
+              "share": "2/192"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK, OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1119",
+              "share": "365563/1453224"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1126",
+              "share": "2/480"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1128",
+              "share": "63/2688"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1029",
+              "share": "17/96"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1030",
+              "share": "1/90"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1033",
+              "share": "2/1200"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1019",
+              "share": "47/336"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1022",
+              "share": "2/60"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1027",
+              "share": "2/27"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1060",
+              "share": "47/336"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1063",
+              "share": "2/27"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1074",
+              "share": "3/36"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1040",
+              "share": "7/384"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1043",
+              "share": "3/36"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "ŠAMBRON",
+              "lv_number": "1044",
+              "share": "3/36"
+            }
+          ],
+          "old_count": 64,
+          "new_count": 64
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 49 719 € → 51 378 € (+1 659 €)",
+      "Funkcie: 2 → 2 (0)",
+      "Nehnuteľnosti: 64 → 64 (0)"
+    ]
+  },
   "slug": "ing-marian-salon-phd",
   "context": {
     "latest_year": 2024,

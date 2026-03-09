@@ -511,6 +511,78 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Milos.Svantner.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Milos.Svantner.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DLHOPIS, O.C.P., A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10477,
+            "other": 0
+          },
+          "new": {
+            "public_function": 10672,
+            "other": 0
+          },
+          "old_total": 10477,
+          "new_total": 10672,
+          "delta": 195,
+          "delta_pct": 1.9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT A NEBYTOVÉ PRIESTORY",
+              "cadastral_territory": "BRATISLAVA",
+              "lv_number": "3141",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA NÁDVORIE",
+              "cadastral_territory": "BZINCE POD JAVORINOU",
+              "lv_number": "21/PARCELA 18168, 18169",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT A NEBYTOVE PRIESTORY",
+              "cadastral_territory": "BRATISLAVA",
+              "lv_number": "3141",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NADVORIE",
+              "cadastral_territory": "BZINCE POD JAVORINOU",
+              "lv_number": "18168, 18169",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 10 477 € → 10 672 € (+195 €)",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-milos-svantner",
   "context": {
     "latest_year": 2024,

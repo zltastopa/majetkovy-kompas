@@ -986,6 +986,117 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Molnar.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Molnar.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 61279,
+            "other": 24415
+          },
+          "new": {
+            "public_function": 69304,
+            "other": 32354
+          },
+          "old_total": 85694,
+          "new_total": 101658,
+          "delta": 15964,
+          "delta_pct": 18.6
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MERCEDES BENZ",
+              "year_of_manufacture": 2014,
+              "share": "BSM"
+            },
+            {
+              "type": "ZARIADENIE NEHNUTEĽNOSTI",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZARIADENIE NEHNUTEĽNOSTI",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "PÔŽIČKA",
+              "share": "BSM",
+              "date": "05. 06. 2020"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "10. 12. 2020"
+            },
+            {
+              "type": "LEASINGOVÁ ZMLUVA",
+              "share": "BSM",
+              "date": "06. 10. 2021"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "10. 12. 2020"
+            },
+            {
+              "type": "LEASINGOVÁ ZMLUVA",
+              "share": "BSM",
+              "date": "26. 08. 2024"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 2
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "UŽÍVANIE PREDMETU LEASINGU",
+              "brand": "MERCEDES BENZ",
+              "year_of_manufacture": 2020
+            }
+          ],
+          "new": [
+            {
+              "type": "UŽÍVANIE PREDMETU LEASINGU",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2024
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 85 694 € → 101 658 € (+15 964 €)",
+      "Hnuteľný majetok: 2 → 1 (-1)",
+      "Záväzky: 3 → 2 (-1)",
+      "Vozidlá: 1 → 1 (0)"
+    ]
+  },
   "slug": "doc-judr-peter-molnar-phd",
   "context": {
     "latest_year": 2024,

@@ -398,6 +398,63 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Hanus.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Hanus.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 47162,
+            "other": 0
+          },
+          "new": {
+            "public_function": 52088,
+            "other": 0
+          },
+          "old_total": 47162,
+          "new_total": 52088,
+          "delta": 4926,
+          "delta_pct": 10.4
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "BINEKO SPOL. S R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "SEVAK, A.S.",
+              "benefits": "PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "BINEKO, SPOL. S R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 47 162 € → 52 088 € (+4 926 €)",
+      "Funkcie: 1 → 2 (+1)"
+    ]
+  },
   "slug": "mgr-peter-hanus",
   "context": {
     "latest_year": 2024,

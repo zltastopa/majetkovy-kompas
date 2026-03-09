@@ -2306,6 +2306,38 @@
     }
   ],
   "total_changes": 2,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Sokol.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Sokol.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7694,
+            "other": 0
+          },
+          "new": {
+            "public_function": 45961,
+            "other": 0
+          },
+          "old_total": 7694,
+          "new_total": 45961,
+          "delta": 38267,
+          "delta_pct": 497.4
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 7 694 € → 45 961 € (+38 267 €)"
+    ]
+  },
   "slug": "ing-peter-sokol",
   "context": {
     "latest_year": 2024,

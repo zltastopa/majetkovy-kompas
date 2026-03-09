@@ -204,6 +204,67 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Kalencik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Kalencik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DEBITUM, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÉ CENTRUM ZDRAVOTNÍCKYCH INFORMÁCIÍ)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FAKULTNÁ NEMOCNICA TRNAVA)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NEMOCNICA POPRAD, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DEBITUM, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NEMOCNICA BUDÚCNOSTI MARTIN, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (UNIVERZITNÁ NEMOCNICA MARTIN)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ ÚSTAV SRDCOVÝCH\r\nA CIEVNYCH CHORÔB, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 0,
+            "other": 77950
+          },
+          "old_total": 0,
+          "new_total": 77950,
+          "delta": 77950
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "VYBAVENIE DOMÁCNOSTI",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "VYBAVENIE DOMÁCNOSTI",
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2023,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 77 950 € (+77 950 €)",
+      "Hnuteľný majetok: 1 → 2 (+1)"
+    ]
+  },
   "slug": "ing-peter-kalencik-msc",
   "context": {
     "latest_year": 2024,

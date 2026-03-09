@@ -699,6 +699,70 @@
     }
   ],
   "total_changes": 25,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Milan.Valasik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Milan.Valasik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVAK LINES A.S.)",
+          "new": "vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (ÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SLOVENSKEJ REPUBLIKY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 720,
+            "other": 8404
+          },
+          "new": {
+            "public_function": 23146,
+            "other": 0
+          },
+          "old_total": 9124,
+          "new_total": 23146,
+          "delta": 14022,
+          "delta_pct": 153.7
+        },
+        {
+          "field": "employment",
+          "old": "BEKAPE A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(SPORT PALACE S.R.O.)KONATEĽ(NBC BRATISLAVA S.R.O.)KONATEĽ(CLP FINANCE S.R.O.)KONATEĽ(MARINEA S.R.O. V KONKURZE)KONATEĽ(ADVOKÁTSKA KANCELÁRIA VALASIK & PARTNER S.R.O.)KONATEĽ(ROYALDERM S.R.O.)",
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÉ PODIELY, podiel: 1/1",
+            "AKCIE, podiel: 1/1"
+          ],
+          "new": [
+            "OBCHODNÉ PODIELY , podiel: 1/1",
+            "AKCIE , podiel: 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 9 124 € → 23 146 € (+14 022 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "judr-milan-valasik",
   "context": {
     "latest_year": 2024,

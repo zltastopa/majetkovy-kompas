@@ -229,6 +229,50 @@
     }
   ],
   "total_changes": 10,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Darina.Gazdova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Darina.Gazdova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 4927,
+            "other": 8309
+          },
+          "new": {
+            "public_function": 5532,
+            "other": 6748
+          },
+          "old_total": 13236,
+          "new_total": 12280,
+          "delta": -956,
+          "delta_pct": -7.2
+        },
+        {
+          "field": "employment",
+          "old": "LIDL SLOVENSKÁ REPUBLIKA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nBILLA S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "BILLA S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nLIDL SLOVENSKÁ REPUBLIKA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "SZČO(DARINA GAZDOVÁ)",
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 13 236 € → 12 280 € (-956 €)",
+      "Zamestnanie",
+      "Podnikanie"
+    ]
+  },
   "slug": "mgr-darina-gazdova",
   "context": {
     "latest_year": 2024,

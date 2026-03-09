@@ -788,6 +788,138 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Miroslav.Hopta.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Miroslav.Hopta.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DEPO SERVICES, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BULK TRANSSHIPMENT SLOVAKIA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LOKORAIL, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DEPO SERVICES, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BULK TRANSSHIPMENT SLOVAKIA A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LOKORAIL, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 9129,
+            "other": 140003
+          },
+          "new": {
+            "public_function": 27454,
+            "other": 143473
+          },
+          "old_total": 149132,
+          "new_total": 170927,
+          "delta": 21795,
+          "delta_pct": 14.6
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUMENNÉ",
+              "lv_number": "5026",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZBUDSKÁ BELÁ",
+              "lv_number": "2907",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "HUMENNÉ",
+              "lv_number": "8523",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "HUMENNÉ",
+              "lv_number": "8593",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "HUMENNÉ",
+              "lv_number": "8365",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "HUMENNÉ",
+              "lv_number": "8353",
+              "share": "BSM"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "ČABINY",
+              "lv_number": "2718",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZBUDSKÁ BELÁ",
+              "lv_number": "2907",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "HUMENNÉ",
+              "lv_number": "8523",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "HUMENNÉ",
+              "lv_number": "8593",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "HUMENNÉ",
+              "lv_number": "8365",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "HUMENNÉ",
+              "lv_number": "8353",
+              "share": "BSM"
+            },
+            {
+              "type": "LESNÉ POZEMKY",
+              "cadastral_territory": "ČABINY",
+              "lv_number": "2718",
+              "share": "100%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUMENNÉ",
+              "lv_number": "5026",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 149 132 € → 170 927 € (+21 795 €)",
+      "Nehnuteľnosti: 7 → 7 (0)"
+    ]
+  },
   "slug": "ing-miroslav-hopta",
   "context": {
     "latest_year": 2024,

@@ -479,6 +479,132 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ladislav.Slobodnik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ladislav.Slobodnik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 8958,
+            "other": 0
+          },
+          "new": {
+            "public_function": 63646,
+            "other": 0
+          },
+          "old_total": 8958,
+          "new_total": 63646,
+          "delta": 54688,
+          "delta_pct": 610.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SELCE",
+              "lv_number": "2561",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BANSKÁ VYSTRICA",
+              "lv_number": "4213",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE PRIESTOR Č.6",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "4213",
+              "share": "1/14 BSM"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE PRIESTOR Č.7",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "4213",
+              "share": "1/14 BSM"
+            },
+            {
+              "type": "GARÁŽOVÝ PRIESTOR Č.K/1",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "5395",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SELCE",
+              "lv_number": "2561",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SELCE",
+              "lv_number": "2561",
+              "share": "1/1 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SELCE",
+              "lv_number": "2561",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "4213",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE Č.6",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "4213",
+              "share": "1/14 BSM"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE Č.7",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "4213",
+              "share": "1/14 BSM"
+            },
+            {
+              "type": "GARÁŽOVÝ PRIESTOR Č. K/1",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "5395",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SELCE",
+              "lv_number": "2561",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SELCE",
+              "lv_number": "2561",
+              "share": "1/1 BSM"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 7
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 8 958 € → 63 646 € (+54 688 €)",
+      "Nehnuteľnosti: 7 → 7 (0)"
+    ]
+  },
   "slug": "mudr-ladislav-slobodnik-mba",
   "context": {
     "latest_year": 2024,

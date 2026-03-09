@@ -808,6 +808,87 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Olga.Polaskova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Olga.Polaskova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 56484,
+            "other": 0
+          },
+          "new": {
+            "public_function": 61000,
+            "other": 0
+          },
+          "old_total": 56484,
+          "new_total": 61000,
+          "delta": 4516,
+          "delta_pct": 8.0
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DOBRÁ NIVA",
+              "lv_number": "1123",
+              "share": "1/10"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "DOBRÁ NIVA",
+              "lv_number": "1243",
+              "share": "1/10"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "DOBRÁ NIVA",
+              "lv_number": "2384",
+              "share": "1/10"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DOBRÁ NIVA",
+              "lv_number": "2033",
+              "share": "2/10"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "DOBRÁ NIVA",
+              "lv_number": "2213",
+              "share": "1/10"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "DOBRÁ NIVA",
+              "lv_number": "1758",
+              "share": "1/5"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "RODINNÝ DOM, kat. územie DEDINKA PRI DUNAJI, rok zač. užívania: 2010, spôsob užívania: TRVALÉ BÝVANIE",
+          "new": "RODINNÝ DOM, kat. územie DEDINKA PRI DUNAJI, rok zač. užívania: 2009, spôsob užívania: TRVALÉ BÝVANIE"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 56 484 € → 61 000 € (+4 516 €)",
+      "Nehnuteľnosti",
+      "Užívanie nehnuteľností"
+    ]
+  },
   "slug": "judr-olga-polaskova",
   "context": {
     "latest_year": 2024,

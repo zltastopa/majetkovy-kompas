@@ -212,6 +212,56 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Frantisek.Hampl.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Frantisek.Hampl.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÝ ÚSTAV SRDCOVO CIEVNYCH CHORÔB, A.S.\r\nBANSKÁ BYSTRICA)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÝ ÚSTAV SRDCOVO CIEVNYCH CHORÔB A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 496,
+            "other": 53064
+          },
+          "new": {
+            "public_function": 11206,
+            "other": 54095
+          },
+          "old_total": 53560,
+          "new_total": 65301,
+          "delta": 11741,
+          "delta_pct": 21.9
+        },
+        {
+          "field": "vehicles",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2021
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 53 560 € → 65 301 € (+11 741 €)",
+      "Vozidlá"
+    ]
+  },
   "slug": "mudr-frantisek-hampl",
   "context": {
     "latest_year": 2024,

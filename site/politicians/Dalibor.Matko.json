@@ -773,6 +773,114 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Dalibor.Matko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Dalibor.Matko.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 3149,
+            "other": 38197
+          },
+          "new": {
+            "public_function": 3432,
+            "other": 44690
+          },
+          "old_total": 41346,
+          "new_total": 48122,
+          "delta": 6776,
+          "delta_pct": 16.4
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO KULTÚRY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO KULTÚRY SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3012",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "2880",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM S GARÁŽOU",
+              "cadastral_territory": "BRATISLAVA - PODUNAJSKÉ BISKUPICE",
+              "lv_number": "1420",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - PODUNAJSKÉ BISKUPICE",
+              "lv_number": "1420",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - PODUNAJSKÉ BISKUPICE",
+              "lv_number": "9893",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - PODUNAJSKÉ BISKUPICE",
+              "lv_number": "1420",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - PODUNAJSKÉ BISKUPICE",
+              "lv_number": "9893",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3012",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "2880",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM S GARÁŽOU",
+              "cadastral_territory": "BRATISLAVA - PODUNAJSKÉ BISKUPICE",
+              "lv_number": "1420",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 41 346 € → 48 122 € (+6 776 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
+  },
   "slug": "mgr-dalibor-matko",
   "context": {
     "latest_year": 2024,

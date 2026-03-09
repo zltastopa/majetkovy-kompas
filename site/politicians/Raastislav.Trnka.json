@@ -887,6 +887,172 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Raastislav.Trnka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Raastislav.Trnka.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 76119,
+            "other": 0
+          },
+          "new": {
+            "public_function": 80835,
+            "other": 0
+          },
+          "old_total": 76119,
+          "new_total": 80835,
+          "delta": 4716,
+          "delta_pct": 6.2
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PODPREDSEDA",
+              "organization": "EZÚS VIA CARPATIA S RUČENÍM OBMEDZENÝM",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "SOCIÁLNY PODNIK KSK, S.R.O., R.S.P.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "KOŠICKÝ KLASTER NOVÉHO PRIEMYSLU",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "KOŠICE REGIÓN TURIZMUS",
+              "benefits": "NÁHRADA NÁKLADOV ZA VÝKON FUNKCIE"
+            },
+            {
+              "role": "PREDSEDA PREDSTAVENSTVA",
+              "organization": "INOVAČNÉ CENTRUM KOŠICKÉHO KRAJA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN A PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NADÁCIA KOŠICKÉHO SAMOSPRÁVNEHO KRAJA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "DOPRAVNÁ INFRAŠTRUKTÚRA KSK, N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN",
+              "organization": "EURÓPSKY VÝBOR REGIÓNOV",
+              "benefits": "PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "DOBROVOĽNÝ ZBOR CIVILNEJ OCHRANY KSK N.O.",
+              "benefits": "NÁHRADA PREUKÁZANÝCH VÝDAVKOV"
+            }
+          ],
+          "new": [
+            {
+              "role": "PODPREDSEDA",
+              "organization": "EZÚS VIA CARPATIA S RUČ. ODMEDZENÝM",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "SOCIÁLNY PODNIK KSK, S. R.O., V.S.P.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "KOŠICKÝ KLASTER NOVÉHO PRIEMYSLU",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "KOŠICE REGIÓN TURIZMUS",
+              "benefits": "ÚHRADA NÁKLADOV ZA VÝKON FUNKCIE"
+            },
+            {
+              "role": "PREDSEDA PREDSTAVENSTVA",
+              "organization": "INOVAČNÉ CENTRUM KOŠICKÉHO KRAJA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN A PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NADÁCIA KOŠICKÉHO SAMOSPRÁVNEHO KRAJA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "DOPRAVNÁ INFRAŠTRUKTÚRA KSK, N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN",
+              "organization": "EURÓPSKY VÝBOR REGIÓNOV",
+              "benefits": "PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "DOBROVOĽNÝ ZBOR CIVILNEJ OCHRANY KSK, N.O.",
+              "benefits": "NÁHRADA PREUKÁZANÝCH VÝDAVKOV"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "13196",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "14848",
+              "share": "210/10000"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "T3196",
+              "share": "111 %"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "14848",
+              "share": "210110000 %"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 76 119 € → 80 835 € (+4 716 €)",
+      "Funkcie: 9 → 9 (0)",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-rastislav-trnka",
   "context": {
     "latest_year": 2024,

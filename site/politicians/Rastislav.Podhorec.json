@@ -556,6 +556,68 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Rastislav.Podhorec.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Rastislav.Podhorec.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 168581,
+            "other": 0
+          },
+          "new": {
+            "public_function": 203146,
+            "other": 0
+          },
+          "old_total": 168581,
+          "new_total": 203146,
+          "delta": 34565,
+          "delta_pct": 20.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HAINBURG AD DONAU RAKÚSKO",
+              "lv_number": "2869/08",
+              "share": "50%"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HAINBURG A.D. DONAU RAKÚSKO",
+              "lv_number": "2869108",
+              "share": "50%"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL V SPOLOČNOSTI, podiel: 100%"
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 168 581 € → 203 146 € (+34 565 €)",
+      "Nehnuteľnosti: 1 → 1 (0)",
+      "Majetkové práva"
+    ]
+  },
   "slug": "ing-rastislav-podhorec-mba",
   "context": {
     "latest_year": 2024,

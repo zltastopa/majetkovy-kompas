@@ -671,6 +671,78 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zuzana.Pistekova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zuzana.Pistekova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD JADROVÉHO DOZORU SLOVENSKEJ REPUBLIKY )",
+          "new": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ÚRAD JADROVÉHO DOZORU SLOVENSKEJ REPUBLIKY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 60430,
+            "other": 0
+          },
+          "new": {
+            "public_function": 70190,
+            "other": 0
+          },
+          "old_total": 60430,
+          "new_total": 70190,
+          "delta": 9760,
+          "delta_pct": 16.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "4284",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "6880",
+              "share": "1/1 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA - ňRUŽINOV",
+              "lv_number": "4284",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "6880",
+              "share": "1/1 BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 60 430 € → 70 190 € (+9 760 €)",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
+  },
   "slug": "mgr-zuzana-pistekova",
   "context": {
     "latest_year": 2024,

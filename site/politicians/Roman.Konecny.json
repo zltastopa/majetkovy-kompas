@@ -1088,6 +1088,154 @@
     }
   ],
   "total_changes": 20,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Roman.Konecny.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Roman.Konecny.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 47069,
+            "other": 0
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 0
+          },
+          "old_total": 47069,
+          "new_total": 48912,
+          "delta": 1843,
+          "delta_pct": 3.9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "4094",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BIEL OKR. TREBIŠOV",
+              "lv_number": "864",
+              "share": "3/4"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "BIEL OKR. TREBIŠOV",
+              "lv_number": "684",
+              "share": "144/864"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA - RODINNÝ DOM",
+              "cadastral_territory": "NOVÁ DEDINKA - DEDINKA PRI DUNAJI",
+              "lv_number": "948",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "NOVÁ DEDINKA - DEDINKA PRI DUNAJI",
+              "lv_number": "948",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "4094",
+              "share": "1/4"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "4094",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BIEL OKR. TREBIŠOV",
+              "lv_number": "864",
+              "share": "3/4"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "BIEL OKR. TREBIŠOV",
+              "lv_number": "684",
+              "share": "144/864"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA  - RODINNÝ DOM (BSM)",
+              "cadastral_territory": "NOVÁ DEDINKA - DEDINKA PRI DUNAJI",
+              "lv_number": "948",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADY (BSM)",
+              "cadastral_territory": "NOVÁ DEDINKA - DEDINKA PRI DUNAJI",
+              "lv_number": "948",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "4094",
+              "share": "1/4"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2019,
+              "share": "1/1 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL (BSM)",
+              "brand": "KIA",
+              "year_of_manufacture": 2024,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY V BANKE, podiel: 1/1 BSM"
+          ],
+          "new": [
+            "ÚSPORY V BANKE (BSM), podiel: 1/1"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 47 069 € → 48 912 € (+1 843 €)",
+      "Nehnuteľnosti: 6 → 6 (0)",
+      "Hnuteľný majetok: 1 → 1 (0)",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
+  },
   "slug": "judr-roman-konecny",
   "context": {
     "latest_year": 2024,

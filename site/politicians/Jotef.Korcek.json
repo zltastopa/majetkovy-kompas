@@ -507,6 +507,124 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jotef.Korcek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jotef.Korcek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 30822,
+            "other": 96001
+          },
+          "new": {
+            "public_function": 34320,
+            "other": 116344
+          },
+          "old_total": 126823,
+          "new_total": 150664,
+          "delta": 23841,
+          "delta_pct": 18.8
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "840319 ZOBOR",
+              "lv_number": "2952",
+              "share": "1/2"
+            },
+            {
+              "type": "BYTOVÝ DOM S POZEMKOM",
+              "cadastral_territory": "839914 NITRA",
+              "lv_number": "537",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HLOHOVEC",
+              "lv_number": "732",
+              "share": "4/40"
+            },
+            {
+              "type": "BYT A NEBYTOVÝ PRIESTOR GARÁŽ",
+              "cadastral_territory": "NIVY",
+              "lv_number": "V20569/2022",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "840319 ZOBOR",
+              "lv_number": "2952",
+              "share": "1/2"
+            },
+            {
+              "type": "BYTOVÝ DOM S POZEMKOM",
+              "cadastral_territory": "839914 NITRA",
+              "lv_number": "537",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HLOHOVEC",
+              "lv_number": "732",
+              "share": "4/40"
+            },
+            {
+              "type": "BYT A NEBYTOVÝ PRIESTOR - GARÁŽ",
+              "cadastral_territory": "NIVY",
+              "lv_number": "V20569/2022",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "HONDA",
+              "year_of_manufacture": 2008,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "HONDA",
+              "year_of_manufacture": 2008,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "TOYOTA",
+              "year_of_manufacture": 2024,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 126 823 € → 150 664 € (+23 841 €)",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Hnuteľný majetok: 1 → 2 (+1)"
+    ]
+  },
   "slug": "doc-mudr-jozef-korcek-phd",
   "context": {
     "latest_year": 2024,

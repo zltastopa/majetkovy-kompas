@@ -359,6 +359,72 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Silvia.Hribova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Silvia.Hribova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 63845
+          },
+          "new": {
+            "public_function": 0,
+            "other": 65392
+          },
+          "old_total": 63845,
+          "new_total": 65392,
+          "delta": 1547,
+          "delta_pct": 2.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "VAJNORY",
+              "lv_number": "4539",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "FARNÁ",
+              "lv_number": "1177",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "FARNÁ",
+              "lv_number": "2858",
+              "share": "1/3"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "FARNÁ",
+              "lv_number": "1177",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 63 845 € → 65 392 € (+1 547 €)",
+      "Nehnuteľnosti: 3 → 1 (-2)"
+    ]
+  },
   "slug": "ing-silvia-hribova",
   "context": {
     "latest_year": 2024,

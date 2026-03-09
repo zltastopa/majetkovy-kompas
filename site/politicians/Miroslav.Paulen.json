@@ -659,6 +659,98 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Miroslav.Paulen.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Miroslav.Paulen.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10171,
+            "other": 0
+          },
+          "new": {
+            "public_function": 9934,
+            "other": 0
+          },
+          "old_total": 10171,
+          "new_total": 9934,
+          "delta": -237,
+          "delta_pct": -2.3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "1948",
+              "share": "50% BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3485",
+              "share": "50% BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "2170",
+              "share": "50%"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "1948",
+              "share": "50% BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "LAMAČ",
+              "lv_number": "2170",
+              "share": "50%"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 2
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2012
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "VW",
+              "year_of_manufacture": 2012
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 10 171 € → 9 934 € (-237 €)",
+      "Nehnuteľnosti: 3 → 2 (-1)",
+      "Vozidlá: 1 → 1 (0)"
+    ]
+  },
   "slug": "ing-miroslav-paulen",
   "context": {
     "latest_year": 2024,

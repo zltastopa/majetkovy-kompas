@@ -411,6 +411,104 @@
     }
   ],
   "total_changes": 8,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/GogaPavo.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/GogaPavo.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7818,
+            "other": 1797
+          },
+          "new": {
+            "public_function": 50054,
+            "other": 11661
+          },
+          "old_total": 9615,
+          "new_total": 61715,
+          "delta": 52100,
+          "delta_pct": 541.9
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC MSZ",
+              "organization": "MESTO TOPOĽČANY",
+              "benefits": "POSLANECKÁ ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC",
+              "organization": "NITRIANSKY SAMOSPRÁVNY KRAJ",
+              "benefits": "POSLANECKÁ ODMENA"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA",
+              "cadastral_territory": "TOPOĽČANY",
+              "lv_number": "2154",
+              "share": "BSM"
+            },
+            {
+              "type": "STARŠÍ RODINNÝ DOM, NÁDVORIE",
+              "cadastral_territory": "CHRABRANY",
+              "lv_number": "1134 1377",
+              "share": "100% 50%"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRÁVNY PORAST, NÁDVORIE",
+              "cadastral_territory": "CHRABRANY",
+              "lv_number": "666",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA",
+              "cadastral_territory": "TOPOĽČANY",
+              "lv_number": "2154",
+              "share": "BSM"
+            },
+            {
+              "type": "STARŠÍ RODINNÝ DOM",
+              "cadastral_territory": "CHRABRANY",
+              "lv_number": "1134, 1137",
+              "share": "100%, 50%"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRÁVNY PORAST, NÁDVORIE",
+              "cadastral_territory": "CHRABRANY",
+              "lv_number": "666",
+              "share": "100%"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 9 615 € → 61 715 € (+52 100 €)",
+      "Funkcie: 1 → 1 (0)",
+      "Nehnuteľnosti: 3 → 3 (0)"
+    ]
+  },
   "slug": "paeddr-pavol-goga",
   "context": {
     "latest_year": 2024,

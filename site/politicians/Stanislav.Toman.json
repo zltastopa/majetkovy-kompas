@@ -7304,6 +7304,894 @@
     }
   ],
   "total_changes": 19,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Stanislav.Toman.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Stanislav.Toman.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 33470,
+            "other": 10875
+          },
+          "new": {
+            "public_function": 7241,
+            "other": 42902
+          },
+          "old_total": 44345,
+          "new_total": 50143,
+          "delta": 5798,
+          "delta_pct": 13.1
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO ŽIVOTNÉHO PROSTREDIA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO DOPRAVY A VÝSTAVBY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "PÔDOHOSPODÁRSKA PLATOBNÁ AGENTÚRA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "75",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "74",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "341",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "399",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "487",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "188",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "488",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "602",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "475",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "358",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "476",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "477",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1201",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1076",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1180",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "615",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1301",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1330",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1302",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1331",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "616",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1329",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "623",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "624",
+              "share": "0,10%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1272",
+              "share": "1,00%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "614",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1300",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "625",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "539",
+              "share": "0,33%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "649",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "4005",
+              "share": "232/10000"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE - STARÉ MESTO",
+              "lv_number": "10836",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "2375",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "4005",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "DUBNICA",
+              "lv_number": "3208",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "2372",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "2756",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "2499",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "124",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "2373",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "2374",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1032",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1033",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1266",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1920",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1250",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1917",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "2244",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1246",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1075",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "2238",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1077",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1916",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1918",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1919",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1921",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "671",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "2246",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "587",
+              "share": "0,38%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1078",
+              "share": "0,61%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1282",
+              "share": "1,00%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1303",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1333",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1273",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1292",
+              "share": "0,25%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1025",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1026",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1352",
+              "share": "0,01%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "762",
+              "share": "0,50%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1306",
+              "share": "1,00%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "4005",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "DUBNICA",
+              "lv_number": "3208",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "4005",
+              "share": "232/10000"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE STARÉ MESTO",
+              "lv_number": "10836",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "2375",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "124",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "2373",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "2374",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "2372",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "2756",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁZTOČNO",
+              "lv_number": "2499",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "625",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "539",
+              "share": "0,33 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "649",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1302",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1331",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "616",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "615",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1301",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1330",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1272",
+              "share": "100%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "614",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁCICE",
+              "lv_number": "1300",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1329",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "623",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "624",
+              "share": "0,10 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1032",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1033",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1266",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1303",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1333",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁCICE",
+              "lv_number": "1273",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "587",
+              "share": "0,38 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1078",
+              "share": "0,61 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1282",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1352",
+              "share": "0,01 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "762",
+              "share": "0,50 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RÁCICE",
+              "lv_number": "1306",
+              "share": "100%"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1292",
+              "share": "0,25 %"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1025",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "1026",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RAČICE",
+              "lv_number": "671",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "2246",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "2244",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1246",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1075",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1920",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1250",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1917",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1918",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1919",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1921",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "2238",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1077",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1916",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1201",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1076",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "JALOVEC",
+              "lv_number": "1180",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "399",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "487",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "188",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "75",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "74",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "341",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "358",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "476",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "477",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "488",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "602",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MOROVNO",
+              "lv_number": "475",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 70,
+          "new_count": 70
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 44 345 € → 50 143 € (+5 798 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 70 → 70 (0)"
+    ]
+  },
   "slug": "ing-stanislav-toman",
   "context": {
     "latest_year": 2024,

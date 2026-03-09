@@ -255,6 +255,67 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Kostolny.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Kostolny.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen dozornej rady Sociálnej poisťovnečlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA A.S.)generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO PRÁCE, SOCIÁLNYCH VECÍ\r\nA RODINY SR)",
+          "new": "člen dozornej rady Sociálnej poisťovnečlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TECHNICKÁ INŠPEKCIA)generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO PRÁCE, SOCIÁLNYCH VECÍ A RODINY SLOVENSKEJ REPUBLIKY)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10836,
+            "other": 130
+          },
+          "new": {
+            "public_function": 77816,
+            "other": 0
+          },
+          "old_total": 10966,
+          "new_total": 77816,
+          "delta": 66850,
+          "delta_pct": 609.6
+        },
+        {
+          "field": "employment",
+          "old": "MESTO RAJECKÉ TEPLICE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PÔŽIČKA TRETEJ OSOBE, podiel: 100%",
+            "PÔŽIČKA TRETEJ OSOBE, podiel: 100%",
+            "PÔŽIČKA TRETEJ OSOBE, podiel: 100%"
+          ],
+          "new": [
+            "PÔŽIČKA TRETEJ OSOBE, podiel: 100%",
+            "PÔŽIČKA TRETEJ OSOBE, podiel: 100%",
+            "PÔŽIČKA TRETEJ OSOBE, podiel: 100%",
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: 100%"
+          ],
+          "old_count": 3,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 10 966 € → 77 816 € (+66 850 €)",
+      "Zamestnanie",
+      "Majetkové práva: 3 → 4 (+1)"
+    ]
+  },
   "slug": "ing-peter-kostolny",
   "context": {
     "latest_year": 2024,

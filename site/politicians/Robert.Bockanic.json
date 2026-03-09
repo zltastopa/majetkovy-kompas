@@ -299,6 +299,119 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Robert.Bockanic.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Robert.Bockanic.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA )"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 462,
+            "other": 77794
+          },
+          "old_total": 0,
+          "new_total": 78256,
+          "delta": 78256
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "SLOVENSKÁ ADVOKÁTSKA KOMORA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "PAŇA",
+              "lv_number": "750",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "PAŇA",
+              "lv_number": "108",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA",
+              "lv_number": "4328,6128",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NITRA",
+              "lv_number": "1811",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PAŇA",
+              "lv_number": "114",
+              "share": "3/7"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "4328,6128",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NITRA",
+              "lv_number": "1811",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "PAŇA",
+              "lv_number": "114",
+              "share": "3/7"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "PAŇA",
+              "lv_number": "750",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÝ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "PAŇA",
+              "lv_number": "108",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 78 256 € (+78 256 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
+  },
   "slug": "judr-robert-bockanic",
   "context": {
     "latest_year": 2024,

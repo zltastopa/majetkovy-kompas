@@ -698,6 +698,118 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Robert.Sorl.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Robert.Sorl.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 63059,
+            "other": 1128
+          },
+          "new": {
+            "public_function": 68953,
+            "other": 1431
+          },
+          "old_total": 64187,
+          "new_total": 70384,
+          "delta": 6197,
+          "delta_pct": 9.7
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HANDLOVÁ",
+              "lv_number": "1351",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "HANDLOVÁ",
+              "lv_number": "1351",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "HANDLOVÁ",
+              "lv_number": "1351",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOHA",
+              "cadastral_territory": "HANDLOVÁ",
+              "lv_number": "1351",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HANDLOVÁ",
+              "lv_number": "1351",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "HANDLOVÁ",
+              "lv_number": "1351",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "HANDLOVÁ",
+              "lv_number": "1351",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "HANDLOVÁ",
+              "lv_number": "1351",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "SUBARU",
+              "year_of_manufacture": 2022,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIIDLO",
+              "brand": "SUBARU",
+              "year_of_manufacture": 2022,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 64 187 € → 70 384 € (+6 197 €)",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Hnuteľný majetok: 1 → 1 (0)"
+    ]
+  },
   "slug": "judr-robert-sorl-phd",
   "context": {
     "latest_year": 2024,

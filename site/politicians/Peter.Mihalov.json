@@ -287,6 +287,131 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Mihalov.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Mihalov.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA HOLDING A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VYCHODOSLOVENSKÁ ENERGETIKA HOLDING A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 18805,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 18805,
+          "delta": 18805
+        },
+        {
+          "field": "employment",
+          "old": "TRIEN, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "JAZERO",
+              "lv_number": "11236",
+              "share": "1/1"
+            },
+            {
+              "type": "RADOVÁ GARÁŽ",
+              "cadastral_territory": "JAZERO",
+              "lv_number": "11236",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ ŤAHANOVCE",
+              "lv_number": "1714",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "10854",
+              "share": "1/2"
+            },
+            {
+              "type": "2X ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "10854",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "10854",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "JAZERO",
+              "lv_number": "11236",
+              "share": "1/1"
+            },
+            {
+              "type": "RADOVÁ GARÁŽ",
+              "cadastral_territory": "JAZERO",
+              "lv_number": "11236",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ ŤAHANOVCE",
+              "lv_number": "1714",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "10854",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "10854",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "10854",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 18 805 € (+18 805 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 6 → 6 (0)"
+    ]
+  },
   "slug": "ing-peter-mihalov-phd",
   "context": {
     "latest_year": 2024,

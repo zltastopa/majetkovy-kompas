@@ -378,6 +378,52 @@
     }
   ],
   "total_changes": 7,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Jan.Jobbagy.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Jan.Jobbagy.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1800,
+            "other": 26765
+          },
+          "new": {
+            "public_function": 1800,
+            "other": 33854
+          },
+          "old_total": 28565,
+          "new_total": 35654,
+          "delta": 7089,
+          "delta_pct": 24.8
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚČET SO SPORENÍM, podiel: 1/1",
+            "ŽIVOTNÁ POISTKA, podiel: 1/1"
+          ],
+          "new": [
+            "BANKOVÝ ÚČET SO SPORENÍM, podiel: 1/1",
+            "ŽIVOTNÁ POISTKA, podiel: 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 28 565 € → 35 654 € (+7 089 €)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "prof-ing-jan-jobbagy-phd",
   "context": {
     "latest_year": 2024,

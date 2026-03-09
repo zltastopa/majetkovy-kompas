@@ -251,6 +251,38 @@
     }
   ],
   "total_changes": 4,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Lukas.Pitek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Lukas.Pitek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11666,
+            "other": 46085
+          },
+          "new": {
+            "public_function": 24921,
+            "other": 49465
+          },
+          "old_total": 57751,
+          "new_total": 74386,
+          "delta": 16635,
+          "delta_pct": 28.8
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 57 751 € → 74 386 € (+16 635 €)"
+    ]
+  },
   "slug": "judr-lukas-pitek-phd",
   "context": {
     "latest_year": 2024,

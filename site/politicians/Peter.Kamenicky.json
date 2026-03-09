@@ -376,6 +376,137 @@
     }
   ],
   "total_changes": 10,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Peter.Kamenicky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Peter.Kamenicky.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NAFTA, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY A ROPNÝCH VÝROBKOV)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPOLOČNOSŤ PRE SKLADOVANIE, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NAFTA, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE NÚDZOVÉ ZÁSOBY ROPY\r\nA ROPNÝCH VÝROBKOV)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPOLOČNOSŤ PRE SKLADOVANIE, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 18347,
+            "other": 55508
+          },
+          "new": {
+            "public_function": 55397,
+            "other": 72562
+          },
+          "old_total": 73855,
+          "new_total": 127959,
+          "delta": 54104,
+          "delta_pct": 73.3
+        },
+        {
+          "field": "employment",
+          "old": "SPOLOČNOSŤ PRE SKLADOVANIE, A. S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SPOLOČNOSŤ PRE SKLADOVANIE, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA, ORNÁ PÔDA, ZAST. PLOCHY A NÁDV.",
+              "cadastral_territory": "BENOLÁKOVO",
+              "lv_number": "2226",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "PONTEVEDRA - ŠPANIELSKO",
+              "lv_number": "731",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA,ORNÁ PÔDA, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "BERNOLÁKOVO",
+              "lv_number": "2226",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PONTEVEDRA - ŠPANIELSKO",
+              "lv_number": "731",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "BMW",
+              "year_of_manufacture": 2009,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "VOLVO",
+              "year_of_manufacture": 2007,
+              "share": "1/1"
+            },
+            {
+              "type": "UMELECKÉ DIELA",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "BMW",
+              "year_of_manufacture": 2009,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "VOLVO",
+              "year_of_manufacture": 2007,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚČTY V BANKÁCH, podiel: 1/1",
+            "DLHOPISY, podiel: 1/1"
+          ],
+          "new": [
+            "ÚČTY V BANKÁCH, podiel: 1/1",
+            "DLHOPISY, podiel: 1/1",
+            "UMELECKÉ DIELA, podiel: 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 73 855 € → 127 959 € (+54 104 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Hnuteľný majetok: 3 → 2 (-1)",
+      "Majetkové práva: 2 → 3 (+1)"
+    ]
+  },
   "slug": "ing-peter-kamenicky",
   "context": {
     "latest_year": 2024,

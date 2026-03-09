@@ -426,6 +426,142 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Vladimir.Stupala.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Vladimir.Stupala.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2808,
+            "other": 11573
+          },
+          "new": {
+            "public_function": 29172,
+            "other": 234950
+          },
+          "old_total": 14381,
+          "new_total": 264122,
+          "delta": 249741,
+          "delta_pct": 1736.6
+        },
+        {
+          "field": "positions",
+          "old": null,
+          "new": [
+            {
+              "role": "BEZPEČNOSTNÝ MANAŽÉR",
+              "organization": "FC SPARTAK A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ]
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "TRNAVA MODRANKA",
+              "lv_number": "2638",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ  DOM",
+              "cadastral_territory": "MODRANKA TRNAVA",
+              "lv_number": "2638",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MODRANKA TRNAVA",
+              "lv_number": "2638",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/2"
+          ],
+          "new": [
+            "PODIEL V S.R.O., podiel: 1/1",
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: 1/2"
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "09. 11. 2023"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "17. 09. 2007"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "29. 06. 2015"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "17. 09. 2007"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "29. 06. 2015"
+            },
+            {
+              "type": "AMERICKÁ HYPOTÉKA",
+              "share": "BSM",
+              "date": "09. 11. 2023"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "28. 01. 2025"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 4
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 14 381 € → 264 122 € (+249 741 €)",
+      "Funkcie",
+      "Nehnuteľnosti: 1 → 2 (+1)",
+      "Majetkové práva: 1 → 2 (+1)",
+      "Záväzky: 3 → 4 (+1)"
+    ]
+  },
   "slug": "mgr-vladimir-stupala",
   "context": {
     "latest_year": 2024,

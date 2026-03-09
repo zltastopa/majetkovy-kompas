@@ -761,6 +761,94 @@
     }
   ],
   "total_changes": 20,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Erik.Krissak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Erik.Krissak.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 37574,
+            "other": 0
+          },
+          "new": {
+            "public_function": 37898,
+            "other": 0
+          },
+          "old_total": 37574,
+          "new_total": 37898,
+          "delta": 324,
+          "delta_pct": 0.9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "5150",
+              "share": "1/2 BSM"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "NIVY",
+              "lv_number": "2263",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYTOVÝ DOM - BYT",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "5150",
+              "share": "1/2 BSM"
+            },
+            {
+              "type": "BYTOVÝ DOM - BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "2263",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "AUTOMOBIL",
+              "brand": "MAZDA",
+              "year_of_manufacture": 2016,
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "MAZDA",
+              "year_of_manufacture": 2016,
+              "share": "1/2"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 37 574 € → 37 898 € (+324 €)",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Hnuteľný majetok: 1 → 1 (0)"
+    ]
+  },
   "slug": "mgr-erik-krissak",
   "context": {
     "latest_year": 2024,

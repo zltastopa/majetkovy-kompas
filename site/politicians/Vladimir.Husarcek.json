@@ -1266,6 +1266,158 @@
     }
   ],
   "total_changes": 20,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Vladimir.Husarcek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Vladimir.Husarcek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 72952,
+            "other": 0
+          },
+          "new": {
+            "public_function": 78062,
+            "other": 0
+          },
+          "old_total": 72952,
+          "new_total": 78062,
+          "delta": 5110,
+          "delta_pct": 7.0
+        },
+        {
+          "field": "incompatibility",
+          "old": true,
+          "new": false
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3735",
+              "share": "1/96"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA, ZASTAVANÁ PLOCHA A NÁDVORIA,\r\nROZOSTAVANÝ RODINNÝ DOM",
+              "cadastral_territory": "MALÝ SLAVKOV",
+              "lv_number": "915",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT, NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "9762"
+            },
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RADVAŇ",
+              "lv_number": "355",
+              "share": "1/6"
+            },
+            {
+              "type": "2X BYT, 2X INÝ NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3735",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3735",
+              "share": "1/96"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "5079",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ŠPANIA DOLINA",
+              "lv_number": "543",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ŠPANIA DOLINA",
+              "lv_number": "552",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "5079",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ŠPANIA DOLINA",
+              "lv_number": "543",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ŠPANIA DOLINA",
+              "lv_number": "552",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RADVAŇ",
+              "lv_number": "355",
+              "share": "1/6"
+            },
+            {
+              "type": "2X BYT, 2X INÝ NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3735",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3735",
+              "share": "1/96"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 6
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PEŇAŽNÉ PROSTRIEDKY V HOTOVOSTI, podiel: 1/1",
+            "TERMÍNOVANÝ VKLAD, podiel: 1/1"
+          ],
+          "new": [
+            "PEŇAŽNÉ PROSTRIEDKY V HOTOVOSTI, podiel: 1/1",
+            "PEŇAŽNÉ PROSTRIEDKY NA BEŽNOM ÚČTE, podiel: 1/1",
+            "TERMÍNOVANÝ VKLAD, podiel: 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 72 952 € → 78 062 € (+5 110 €)",
+      "Nezlučiteľnosť",
+      "Nehnuteľnosti: 9 → 6 (-3)",
+      "Majetkové práva: 2 → 3 (+1)"
+    ]
+  },
   "slug": "ing-vladimir-husarcek",
   "context": {
     "latest_year": 2024,

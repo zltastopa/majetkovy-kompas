@@ -789,6 +789,161 @@
     }
   ],
   "total_changes": 19,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/HorvJan.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/HorvJan.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (JAVYS A.S. JASLOVSKÉ BOHUNICE)",
+          "new": "poslanec Národnej rady Slovenskej republiky"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 49537,
+            "other": 172257
+          },
+          "new": {
+            "public_function": 22616,
+            "other": 29108
+          },
+          "old_total": 221794,
+          "new_total": 51724,
+          "delta": -170070,
+          "delta_pct": -76.7
+        },
+        {
+          "field": "employment",
+          "old": "JADROVÁ A VYRAĎOVACIA SPOLOČNOSŤ A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "positions",
+          "old": null,
+          "new": [
+            {
+              "role": "STAROSTA OBCE",
+              "organization": "OBEC CHTELNICA",
+              "benefits": "PLAT, SLUŽOBNÝ MOBIL, SLUŽOBNÉ AUTO"
+            }
+          ]
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM NA POZEMKU",
+              "cadastral_territory": "BANKA",
+              "lv_number": "1972",
+              "share": "BSM 100%"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "STRÁŽE PRI KRAKOVANOCH",
+              "lv_number": "556",
+              "share": "BSM 100%"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "HORNÁ LEHOTA",
+              "lv_number": "2027",
+              "share": "BSM 100%"
+            },
+            {
+              "type": "BYT SO SPOLOČNÝMI ČASŤAMI DOMU",
+              "cadastral_territory": "HORNÁ LEHOTA",
+              "lv_number": "3351",
+              "share": "BSM 100%"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "MORAVANY NAD VÁHOM",
+              "lv_number": "3297",
+              "share": "BSM 100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "CHTELNICA",
+              "lv_number": "328",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PADEROVCE",
+              "lv_number": "215",
+              "share": "21/24"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PADEROVCE",
+              "lv_number": "321",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "CHTELNICA",
+              "lv_number": "1013",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "CHTELNICA",
+              "lv_number": "1013",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "CHTELNICA",
+              "lv_number": "328",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 6
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "OPEL",
+              "year_of_manufacture": 2003,
+              "share": "1/1"
+            }
+          ]
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY V BANKÁCH A HOTOVOSŤ, podiel: 100%",
+            "DÔCHODKOVÉ SPORENIE, podiel: 100%",
+            "AKCIE, podiel: 100%"
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 221 794 € → 51 724 € (-170 070 €)",
+      "Zamestnanie",
+      "Funkcie",
+      "Nehnuteľnosti: 5 → 6 (+1)",
+      "Hnuteľný majetok",
+      "Majetkové práva"
+    ]
+  },
   "slug": "ing-jan-horvath",
   "context": {
     "latest_year": 2024,

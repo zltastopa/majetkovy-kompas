@@ -20,13 +20,52 @@ function initDetail() {
 
   nameEl.textContent = detail.name || "";
   functionEl.textContent = detail.public_function || "";
-  sourceEl.innerHTML = `<a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=${detail.user_id}" target="_blank" rel="noreferrer">→ Originál na nrsr.sk</a>`;
+  sourceEl.innerHTML = renderSourceLinks(detail);
 
   renderYearTabs(detail);
   renderDetailContext(detail);
   renderYearData(detail, detail.years[detail.years.length - 1]);
   renderIncomeChart(detail);
   renderTimeline(detail);
+}
+
+function renderSourceLinks(detail) {
+  const extraction = detail.latest_extraction || {};
+  const parts = [
+    `<a href="https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=${detail.user_id}" target="_blank" rel="noreferrer">→ Originál na nrsr.sk</a>`,
+  ];
+
+  if (extraction.file_url) {
+    parts.push(`<a href="${esc(extraction.file_url)}" target="_blank" rel="noreferrer">YAML na GitHube</a>`);
+  }
+
+  if (extraction.compare_url) {
+    parts.push(`<a href="${esc(extraction.compare_url)}" target="_blank" rel="noreferrer">Diff poslednej extrakcie</a>`);
+  } else if (extraction.commit_url) {
+    parts.push(`<a href="${esc(extraction.commit_url)}" target="_blank" rel="noreferrer">Commit poslednej extrakcie</a>`);
+  }
+
+  let html = parts.join(" · ");
+  if (!extraction.committed_at) {
+    return html;
+  }
+
+  const diff = extraction.diff || {};
+  let summary = `Posledná extrakcia: ${esc(extraction.committed_at)}. `;
+  if (diff.type === "changed" && Array.isArray(extraction.summary) && extraction.summary.length) {
+    summary += `Zachytené zmeny: ${extraction.summary.slice(0, 3).map(esc).join(" · ")}`;
+    if (extraction.summary.length > 3) {
+      summary += ` · a ďalšie ${extraction.summary.length - 3}`;
+    }
+  } else if (diff.type === "new") {
+    summary += "Priznanie pribudlo v poslednej extrakcii.";
+  } else if (diff.type === "removed") {
+    summary += "Priznanie v poslednej extrakcii zmizlo.";
+  } else {
+    summary += "Bez zmeny v poslednej extrakcii.";
+  }
+
+  return `${html}<div class="ctx-rank">${summary}</div>`;
 }
 
 function renderDetailContext(detail) {

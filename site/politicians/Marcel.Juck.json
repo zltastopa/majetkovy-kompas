@@ -656,6 +656,108 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marcel.Juck.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marcel.Juck.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MÚZEUM OBCHODU BRATISLAVA)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MÚZEUM OBCHODU BRATISLAVA )"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 30817,
+            "other": 0
+          },
+          "new": {
+            "public_function": 33776,
+            "other": 0
+          },
+          "old_total": 30817,
+          "new_total": 33776,
+          "delta": 2959,
+          "delta_pct": 9.6
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "DOM, ZÁHRADA",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "1372",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - RAČA",
+              "lv_number": "5224",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "DOM, ZÁHRADA",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "1372",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "AUTOMOBIL",
+              "brand": "DACIA",
+              "year_of_manufacture": 2016,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "AUTOMOBIL",
+              "brand": "DACIA",
+              "year_of_manufacture": 2016,
+              "share": "1/1"
+            },
+            {
+              "type": "AUTOMOBIL",
+              "brand": "DACIA",
+              "year_of_manufacture": 2024,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "CENNÉ PAPIERE, podiel: 1/1"
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 30 817 € → 33 776 € (+2 959 €)",
+      "Nehnuteľnosti: 2 → 1 (-1)",
+      "Hnuteľný majetok: 1 → 2 (+1)",
+      "Majetkové práva"
+    ]
+  },
   "slug": "marcel-juck",
   "context": {
     "latest_year": 2024,

@@ -322,6 +322,156 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Anna.Petovska.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Anna.Petovska.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 41000,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 41000,
+          "delta": 41000
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SAČUROV",
+              "lv_number": "BEZ LV",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT, NEBYTOVÝ PRIESTOR, ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5924",
+              "share": "BSM"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "ŠAJDÍKOVÉ HUMENCE",
+              "lv_number": "2157",
+              "share": "4/6"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORE",
+              "cadastral_territory": "ŠAJDÍKOVÉ HUMENCE",
+              "lv_number": "2719",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČEMERNÉ",
+              "lv_number": "BEZ LV",
+              "share": "2/18"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "DAVIDOV",
+              "lv_number": "BEZ LV",
+              "share": "17/19062"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "DAVIDOV",
+              "lv_number": "BEZ LV",
+              "share": "2/60"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK - TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČEMERNÉ",
+              "lv_number": "BEZ LV",
+              "share": "2/18"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "DAVIDOV",
+              "lv_number": "BEZ LV",
+              "share": "17/19062"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "DAVIDOV",
+              "lv_number": "BEZ LV",
+              "share": "2/60"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SAČUROV",
+              "lv_number": "BEZ LV",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5924",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5924",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5924",
+              "share": "BSM"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "ŠAJDÍKOVÉ HUMENCE",
+              "lv_number": "2154",
+              "share": "4/6"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ŠAJDÍKOVÉ HUMENCE",
+              "lv_number": "2719",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 9
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "AUTO",
+              "brand": "PEUGEOT",
+              "year_of_manufacture": 2017,
+              "share": "BSM"
+            }
+          ],
+          "new": null
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 41 000 € (+41 000 €)",
+      "Nehnuteľnosti: 7 → 9 (+2)",
+      "Hnuteľný majetok"
+    ]
+  },
   "slug": "judr-anna-petovska-phd",
   "context": {
     "latest_year": 2024,

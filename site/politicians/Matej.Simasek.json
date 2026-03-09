@@ -513,6 +513,84 @@
     }
   ],
   "total_changes": 12,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Matej.Simasek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Matej.Simasek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 50227,
+            "other": 0
+          },
+          "new": {
+            "public_function": 54934,
+            "other": 18120
+          },
+          "old_total": 50227,
+          "new_total": 73054,
+          "delta": 22827,
+          "delta_pct": 45.4
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC",
+              "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "ČLEN RADY SPF",
+              "organization": "SLOVENSKÝ POZEMKOVÝ FOND",
+              "benefits": "ODMENA A PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "SEVEROSLOVENSKÉ VODÁRNE A KANALIZÁCIE, A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "SEVEROSLOVENSKÉ VODÁRNE A KANLIZÁCIA, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA A PAUŠÁLNE NÁHRADY"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "UMELECKÉ DIELA A ARTEFAKTY",
+              "share": "1/1"
+            }
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 50 227 € → 73 054 € (+22 827 €)",
+      "Funkcie: 3 → 2 (-1)",
+      "Hnuteľný majetok"
+    ]
+  },
   "slug": "judr-phdr-matej-simasek-phd",
   "context": {
     "latest_year": 2024,

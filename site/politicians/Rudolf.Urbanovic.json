@@ -162,6 +162,73 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Rudolf.Urbanovic.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Rudolf.Urbanovic.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (KÚPEĽNO REHABILITAČNY ÚSTAV MINISTERSTVA VNÚTRA SLOVENSKEJ REPUBLIKY BYSTRÁ)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (KÚPEĽNO REHABILITAČNÝ ÚSTAV MV SR BYSTRÁ)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 18103,
+            "other": 54
+          },
+          "old_total": 0,
+          "new_total": 18157,
+          "delta": 18157
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "KOMISIA PRE BEZPEČNOSŤ A OCHRANU VEREJNÉHO PORIADKU",
+              "organization": "MESTSKÝ ÚRAD",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "KOMISIA PODNIKANIA, CESTOVNÉHO RUCHU A MEDZINÁRODNEJ SPOLUPRÁCE",
+              "organization": "MESTSKÝ ÚRAD",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "KOMISIA PRE BEZPEČNOSŤ A OCHRANU VEREJNÉHO PORIADKU",
+              "organization": "MESTSKÝ ÚRAD",
+              "benefits": "MZDA"
+            },
+            {
+              "role": "KOMISIA PODNIKANIA, CESTOVNÉHO RUCHU A MEDZINÁRODNEJ SPOLUPRÁCE",
+              "organization": "MESTSKÝ ÚRAD",
+              "benefits": "MZDA"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 18 157 € (+18 157 €)",
+      "Funkcie: 2 → 2 (0)"
+    ]
+  },
   "slug": "rudolf-urbanovic-m-a",
   "context": {
     "latest_year": 2024,

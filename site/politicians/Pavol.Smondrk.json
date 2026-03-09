@@ -974,6 +974,185 @@
     }
   ],
   "total_changes": 15,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Pavol.Smondrk.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Pavol.Smondrk.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7254,
+            "other": 49221
+          },
+          "new": {
+            "public_function": 8822,
+            "other": 53134
+          },
+          "old_total": 56475,
+          "new_total": 61956,
+          "delta": 5481,
+          "delta_pct": 9.7
+        },
+        {
+          "field": "employment",
+          "old": "ENVIRONMENTÁLNY FOND\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO ŽIVOTNÉHO PROSTREDIA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO VNÚTRA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO ŽIVOTNÉHO PROSTREDIA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nENVIRONMENTÁLNY FOND\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA V. - PETRŽALKA",
+              "lv_number": "5111",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA V. - PETRŽALKA",
+              "lv_number": "5111",
+              "share": "1/84"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA V. - PETRŽALKA",
+              "lv_number": "5111",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA V. - PETRŽALKA",
+              "lv_number": "5112",
+              "share": "1/312"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA V. - PETRŽALKA",
+              "lv_number": "5117",
+              "share": "5283/785948"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA V. -  PETRŽALKA",
+              "lv_number": "5117",
+              "share": "209740/66019632"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "5117",
+              "share": "5283/785948 BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "4951",
+              "share": "1/84 BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "5115",
+              "share": "209867/65826684 BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "5117",
+              "share": "209740/66019632 BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "5111",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "5111",
+              "share": "1/84"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "5111",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "5112",
+              "share": "1/312"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "5117",
+              "share": "5283/785948 BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "5117",
+              "share": "209740/66019632 BSM"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 10
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁTNY ÚVER",
+              "share": "1/1",
+              "date": "12. 05. 2016"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "12. 05. 2016"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1 BSM",
+              "date": "10. 12. 2024"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "12. 05. 2016"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "12. 05. 2016"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 56 475 € → 61 956 € (+5 481 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 6 → 10 (+4)",
+      "Záväzky: 2 → 3 (+1)"
+    ]
+  },
   "slug": "mgr-pavol-smondrk-phd",
   "context": {
     "latest_year": 2024,

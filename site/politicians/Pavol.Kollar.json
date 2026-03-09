@@ -530,6 +530,164 @@
     }
   ],
   "total_changes": 9,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Pavol.Kollar.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Pavol.Kollar.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.\r\n)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ELEKTRIZAČNÁ PRENOSOVÁ SÚSTAVA, A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1301,
+            "other": 10515
+          },
+          "new": {
+            "public_function": 15140,
+            "other": 10620
+          },
+          "old_total": 11816,
+          "new_total": 25760,
+          "delta": 13944,
+          "delta_pct": 118.0
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "KONATEĽ",
+              "organization": "ADVOKÁTSKA KANCELÁRIA JUDr. PAVOL KOLLÁR, S.R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "KONATEĽ",
+              "organization": "ADVOKÁTSKA KANCELÁRIA JUDr.PAVOL KOLLÁR, S.R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM, POZEMKY",
+              "cadastral_territory": "TOPOĽČIANKY",
+              "lv_number": "1382",
+              "share": "BSM 1/2"
+            },
+            {
+              "type": "RODINNÝ DOM, PRÍSTREŠOK, POZEMKY",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "7490",
+              "share": "1/3"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "6590",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, BAZÉN, ALTÁNOK, POZEMKY",
+              "cadastral_territory": "TOPOĽČIANKY",
+              "lv_number": "2179",
+              "share": "1/2"
+            },
+            {
+              "type": "PRÍSTREŠKY, HOSPODÁRSKA BUDOVA",
+              "cadastral_territory": "TOPOĽČIANKY",
+              "lv_number": "4019",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY, ZÁHRADNÁ KOMORA",
+              "cadastral_territory": "TOPOĽČIANKY",
+              "lv_number": "2694",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, GARÁŽ, POZEMKY",
+              "cadastral_territory": "TOPOĽČIANKY",
+              "lv_number": "162",
+              "share": "BSM 1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM, POZEMKY",
+              "cadastral_territory": "TOPOĽČIANKY",
+              "lv_number": "1382",
+              "share": "BSM 1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TOPOĽČIANKY",
+              "lv_number": "4192",
+              "share": "BSM 6/8"
+            },
+            {
+              "type": "RODINNÝ DOM, PRÍSTREŠOK, POZEMKY",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "7490",
+              "share": "1/3"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "6590",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, BAZÉN, ALTÁNOK, POZEMKY",
+              "cadastral_territory": "TOPOĽČIANKY",
+              "lv_number": "2179",
+              "share": "1/2"
+            },
+            {
+              "type": "PRÍSTREŠKY, HOSPODÁRSKA BUDOVA",
+              "cadastral_territory": "TOPOĽČIANKY",
+              "lv_number": "4019",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY, ZÁHRADNÁ KOMORA",
+              "cadastral_territory": "TOPOĽČIANKY",
+              "lv_number": "2694",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, GARÁŽ, POZEMKY",
+              "cadastral_territory": "TOPOĽČIANKY",
+              "lv_number": "162",
+              "share": "BSM 1/2"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 8
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 11 816 € → 25 760 € (+13 944 €)",
+      "Funkcie: 1 → 1 (0)",
+      "Nehnuteľnosti: 7 → 8 (+1)"
+    ]
+  },
   "slug": "judr-pavol-kollar",
   "context": {
     "latest_year": 2024,

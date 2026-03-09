@@ -581,6 +581,64 @@
     }
   ],
   "total_changes": 21,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Ivan.Makatura.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Ivan.Makatura.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 110281,
+            "other": 0
+          },
+          "new": {
+            "public_function": 92825,
+            "other": 1469
+          },
+          "old_total": 110281,
+          "new_total": 94294,
+          "delta": -15987,
+          "delta_pct": -14.5
+        },
+        {
+          "field": "incompatibility",
+          "old": true,
+          "new": false
+        },
+        {
+          "field": "business_activity",
+          "old": null,
+          "new": "KONATEĽ(MCCA, S.R.O.)"
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "DLHOPIS, podiel: 1/2 BSM",
+            "DLHOPIS, podiel: 1/2 BSM"
+          ],
+          "new": [
+            "DLHOPISY, podiel: 1/2 BSM",
+            "DLHOPISY, podiel: 1/2 BSM"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 110 281 € → 94 294 € (-15 987 €)",
+      "Nezlučiteľnosť",
+      "Podnikanie",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-ivan-makatura",
   "context": {
     "latest_year": 2024,

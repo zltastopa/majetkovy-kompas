@@ -820,6 +820,118 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Tomas.Sieber.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Tomas.Sieber.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 51186,
+            "other": 62108
+          },
+          "new": {
+            "public_function": 61864,
+            "other": 65308
+          },
+          "old_total": 113294,
+          "new_total": 127172,
+          "delta": 13878,
+          "delta_pct": 12.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "GRUNT",
+              "lv_number": "2205",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "GRUNT",
+              "lv_number": "2740",
+              "share": "3664/100000"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "GRUNT",
+              "lv_number": "2149",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "GRUNT",
+              "lv_number": "2149",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "GRUNT",
+              "lv_number": "2149",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "GRUNT",
+              "lv_number": "2205",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE X 4",
+              "cadastral_territory": "GRUNT",
+              "lv_number": "2740",
+              "share": "3664/100000"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "GRUNT",
+              "lv_number": "2149",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "KIA",
+              "year_of_manufacture": 2017,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2024,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 113 294 € → 127 172 € (+13 878 €)",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Hnuteľný majetok: 1 → 1 (0)"
+    ]
+  },
   "slug": "mudr-tomas-sieber-mph",
   "context": {
     "latest_year": 2024,

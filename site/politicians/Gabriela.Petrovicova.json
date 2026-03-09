@@ -946,6 +946,238 @@
     }
   ],
   "total_changes": 11,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Gabriela.Petrovicova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Gabriela.Petrovicova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY\r\nV TRENČÍNE)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ\r\nSPRÁVY V TRENČÍNE)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 34111,
+            "other": 0
+          },
+          "new": {
+            "public_function": 39047,
+            "other": 0
+          },
+          "old_total": 34111,
+          "new_total": 39047,
+          "delta": 4936,
+          "delta_pct": 14.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "TRÁVNATÝ PORAST",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1302, 1304, 1310",
+              "share": "1/24"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1436",
+              "share": "1/12"
+            },
+            {
+              "type": "VINICE",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "2235",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1438",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1439",
+              "share": "359/55320"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZLATOVCE",
+              "lv_number": "1694",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "523",
+              "share": "1/48"
+            },
+            {
+              "type": "VINICA, ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1271, 3195",
+              "share": "1/6"
+            },
+            {
+              "type": "VINICA, ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1666",
+              "share": "1/24"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZLATOVCE",
+              "lv_number": "2021",
+              "share": "1/2"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1290",
+              "share": "1/48"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZLATOVCE",
+              "lv_number": "1694",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "523",
+              "share": "1/48"
+            },
+            {
+              "type": "VINICA, ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1271, 3195",
+              "share": "1/6"
+            },
+            {
+              "type": "VINICA, ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1666",
+              "share": "1/24"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZLATOVCE",
+              "lv_number": "2021",
+              "share": "1/2"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1290",
+              "share": "1/48"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1302, 1304, 1310",
+              "share": "1/24"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1436",
+              "share": "1/12"
+            },
+            {
+              "type": "VINICE",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "2235",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1438",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1439",
+              "share": "359/55320"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "5123",
+              "share": "74/11942"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "3715",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "3556",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "956",
+              "share": "18/31"
+            }
+          ],
+          "old_count": 11,
+          "new_count": 15
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "MERCEDES-BENZ",
+              "year_of_manufacture": 2008,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "MERCEDES-BENZ",
+              "year_of_manufacture": 1996,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "MERCEDES-BENZ",
+              "year_of_manufacture": 2008,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 34 111 € → 39 047 € (+4 936 €)",
+      "Nehnuteľnosti: 11 → 15 (+4)",
+      "Hnuteľný majetok: 2 → 1 (-1)"
+    ]
+  },
   "slug": "mgr-gabriela-petrovicova",
   "context": {
     "latest_year": 2024,

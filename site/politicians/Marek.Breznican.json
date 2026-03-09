@@ -742,6 +742,152 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Marek.Breznican.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Marek.Breznican.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD ŠKOLSKEJ SPRÁVY V BANSKEJ BYSTRICI)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ A.S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 32192,
+            "other": 0
+          },
+          "new": {
+            "public_function": 9045,
+            "other": 0
+          },
+          "old_total": 32192,
+          "new_total": 9045,
+          "delta": -23147,
+          "delta_pct": -71.9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA - TRNÁVKA",
+              "lv_number": "853",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY, NÁDVORIA A ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - TRNÁVKA",
+              "lv_number": "853",
+              "share": "1/1"
+            },
+            {
+              "type": "REKR. CHATA, ZAST. PLOCHA, NÁDVORIE, TRÁVNATÝ PORAST",
+              "cadastral_territory": "SLOVENSKÁ ĽUPČA",
+              "lv_number": "5237",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA - TRNÁVKA",
+              "lv_number": "853",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY, NÁDVORIA A ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - TRNÁVKA",
+              "lv_number": "853",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÁ CHATA, ZAST. PLOCHA, NÁDVORIE,  TRÁVNATÝ PORAST",
+              "cadastral_territory": "SLOVENSKÁ ĽUPČA",
+              "lv_number": "5237",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "FORD",
+              "year_of_manufacture": 1970,
+              "share": "1/1"
+            },
+            {
+              "type": "ZBIERKA HODINIEK",
+              "share": "1/1"
+            },
+            {
+              "type": "ZBRANE",
+              "share": "1/1"
+            },
+            {
+              "type": "BYTOVÉ ZARIADENIE",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "FORD BRONCO",
+              "year_of_manufacture": 1970,
+              "share": "1/1"
+            },
+            {
+              "type": "ZBIERKA HODINIEK",
+              "share": "1/1"
+            },
+            {
+              "type": "ZBRANE",
+              "share": "1/1"
+            },
+            {
+              "type": "BYTOVÉ ZARIADENIE",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY NA BANKOVOM ÚČTE, podiel: 1/1",
+            "FINANČNÁ HOTOVOSŤ, podiel: 1/1",
+            "OBCHODNÝ PODIEL V S. R. O., podiel: 1/1"
+          ],
+          "new": [
+            "ÚSPORY NA BANKOVOM ÚČTE, podiel: 1/1",
+            "FINANČNÁ HOTOVOSŤ, podiel: 1/1",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 32 192 € → 9 045 € (-23 147 €)",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Hnuteľný majetok: 4 → 4 (0)",
+      "Majetkové práva: 3 → 3 (0)"
+    ]
+  },
   "slug": "ing-marek-breznican",
   "context": {
     "latest_year": 2024,

@@ -713,6 +713,79 @@
     }
   ],
   "total_changes": 31,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Roman.Karlubik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Roman.Karlubik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 19200,
+            "other": 43773
+          },
+          "new": {
+            "public_function": 19200,
+            "other": 44522
+          },
+          "old_total": 62973,
+          "new_total": 63722,
+          "delta": 749,
+          "delta_pct": 1.2
+        },
+        {
+          "field": "employment",
+          "old": "CHEMOX HOLDING, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "CHEMOX HOLDING, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nAZZZ SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nZCHFP SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nEUSTREAM, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nVUCHV A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA IV.",
+              "lv_number": "1155",
+              "share": "50%"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA IV",
+              "lv_number": "1155",
+              "share": "50%"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PODIEL V A.S., podiel: 50%"
+          ],
+          "new": [
+            "PODIEL V S.R.O., podiel: 100%",
+            "PODIEL V A.S., podiel: 50%"
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 62 973 € → 63 722 € (+749 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 1 → 1 (0)",
+      "Majetkové práva: 1 → 2 (+1)"
+    ]
+  },
   "slug": "ing-roman-karlubik-mba",
   "context": {
     "latest_year": 2024,

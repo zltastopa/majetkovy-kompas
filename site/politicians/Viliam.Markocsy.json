@@ -618,6 +618,38 @@
     }
   ],
   "total_changes": 13,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Viliam.Markocsy.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Viliam.Markocsy.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 4800,
+            "other": 84226
+          },
+          "new": {
+            "public_function": 4800,
+            "other": 127978
+          },
+          "old_total": 89026,
+          "new_total": 132778,
+          "delta": 43752,
+          "delta_pct": 49.1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 89 026 € → 132 778 € (+43 752 €)"
+    ]
+  },
   "slug": "ing-viliam-markocsy",
   "context": {
     "latest_year": 2024,

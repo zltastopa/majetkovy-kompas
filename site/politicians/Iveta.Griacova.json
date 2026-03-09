@@ -2025,6 +2025,570 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Iveta.Griacova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Iveta.Griacova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10865,
+            "other": 56929
+          },
+          "new": {
+            "public_function": 22308,
+            "other": 10360
+          },
+          "old_total": 67794,
+          "new_total": 32668,
+          "delta": -35126,
+          "delta_pct": -51.8
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO ZDRAVOTNÍCTVA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nÚSTREDIE PRÁCE, SOCIÁLNYCH VECÍ A RODINY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "EUROPEAN RESEARCH EXECUTIVE AGENCY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "3223",
+              "share": "1/6"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "3884",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "4791",
+              "share": "200/372400"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "9014",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "4952",
+              "share": "1/6"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "5035",
+              "share": "1/12"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1226",
+              "share": "11/5184"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "778",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "926",
+              "share": "1/180"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "955",
+              "share": "1/180"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "933",
+              "share": "1/144"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1018",
+              "share": "108/5184"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1020",
+              "share": "1/108"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1054",
+              "share": "18/2592"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1115",
+              "share": "1/180"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "BRATISLAVA IV",
+              "lv_number": "5447",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA A OSTATNÁ PLOCHA",
+              "cadastral_territory": "OKOLIČNÉ",
+              "lv_number": "2680",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "5237",
+              "share": "5/12"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "5265",
+              "share": "1/3"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "8620",
+              "share": "174/9865"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "8621",
+              "share": "174/9865"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "10366",
+              "share": "174/9866"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1117",
+              "share": "4536/653184"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1132",
+              "share": "4536/653184"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1152",
+              "share": "1/36"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1231",
+              "share": "1/144"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1253",
+              "share": "1/720"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1299",
+              "share": "1/144"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1302",
+              "share": "9/1650"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1302",
+              "share": "9/1650"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1341",
+              "share": "1/144"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1580",
+              "share": "1/720"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1892",
+              "share": "1/180"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1945",
+              "share": "1/144"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1983",
+              "share": "4536/653184"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "2044",
+              "share": "4536/653184"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "2311",
+              "share": "4536/653184"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1816",
+              "share": "4536/653184"
+            },
+            {
+              "type": "TRÁVNY PORAST",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1538",
+              "share": "1/1"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "2146",
+              "share": "11/5184"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "2147",
+              "share": "11/5184"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "2396",
+              "share": "1/180"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1311",
+              "share": "1/1530"
+            }
+          ],
+          "new": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1892",
+              "share": "1/180"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1945",
+              "share": "1/144"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1983",
+              "share": "4536/653184"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "2044",
+              "share": "4536/653184"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "2311",
+              "share": "4536/653184"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1816",
+              "share": "4536/653184"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1253",
+              "share": "1/720"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1299",
+              "share": "1/144"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1302",
+              "share": "9/1650"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1302",
+              "share": "9/1650"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1341",
+              "share": "1/144"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1580",
+              "share": "1/720"
+            },
+            {
+              "type": "TRÁVNY PORAST",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1538",
+              "share": "1/1"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "2146",
+              "share": "11/5184"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "2147",
+              "share": "11/5184"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "2396",
+              "share": "1/180"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1311",
+              "share": "1/1530"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1226",
+              "share": "11/5184"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "778",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "926",
+              "share": "1/180"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "955",
+              "share": "1/180"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "933",
+              "share": "1/144"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1018",
+              "share": "108/5184"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "3223",
+              "share": "1/6"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "3884",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "4791",
+              "share": "200/372400"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "9014",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "4952",
+              "share": "1/6"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "5035",
+              "share": "1/12"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1020",
+              "share": "1/108"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1054",
+              "share": "18/2592"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1115",
+              "share": "1/180"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "8621",
+              "share": "174/9865"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "10366",
+              "share": "174/9866"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1117",
+              "share": "4536/653184"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1132",
+              "share": "4536/653184"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1152",
+              "share": "1/36"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SVEDERNÍK",
+              "lv_number": "1231",
+              "share": "1/144"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "BRATISLAVA IV",
+              "lv_number": "5447",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA A OSTATNÁ PLOCHA",
+              "cadastral_territory": "OKOLIČNÉ",
+              "lv_number": "2680",
+              "share": "BSM"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "5237",
+              "share": "5/12"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "5265",
+              "share": "1/3"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "8620",
+              "share": "174/9865"
+            }
+          ],
+          "old_count": 43,
+          "new_count": 43
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 67 794 € → 32 668 € (-35 126 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 43 → 43 (0)"
+    ]
+  },
   "slug": "ing-iveta-griacova",
   "context": {
     "latest_year": 2024,

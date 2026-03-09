@@ -986,6 +986,132 @@
     }
   ],
   "total_changes": 23,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Janka.Staskova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Janka.Staskova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO\r\nZDRAVOTNÍCTVA SO SÍDLOM V MICHALOVCIACH)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO\r\nZDRAVOTNÍCTVA MICHALOVCE)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 54208,
+            "other": 1853
+          },
+          "new": {
+            "public_function": 57890,
+            "other": 2243
+          },
+          "old_total": 56061,
+          "new_total": 60133,
+          "delta": 4072,
+          "delta_pct": 7.3
+        },
+        {
+          "field": "employment",
+          "old": "STREDNÁ ZDRAVOTNÍCKA ŠKOLA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSYRÁREŇ BEL SLOVENSKO A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÝ ČERVENÝ KRÍŽ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "STREDNÁ ZDRAVOTNÍCKA ŠKOLA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÝ ČERVENÝ KRÍŽ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "KLOKOČOV",
+              "lv_number": "1192",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HLIVIŠTIA",
+              "lv_number": "282",
+              "share": "1/8"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "VYŠNÁ RYBNICA",
+              "lv_number": "466",
+              "share": "12845782/1111111111"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SOBRANCE",
+              "lv_number": "1648",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SOBRANCE",
+              "lv_number": "1169",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA A RODINNÝ DOM",
+              "cadastral_territory": "SOBRANCE",
+              "lv_number": "1768",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "KLOKOČOV",
+              "lv_number": "1192",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HLIVIŠTIA",
+              "lv_number": "782",
+              "share": "1/8"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "VYŠNÁ RYBNICA",
+              "lv_number": "466",
+              "share": "12845782/1111111111"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "SOBRANCE",
+              "lv_number": "1648",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "SOBRANCE",
+              "lv_number": "1169",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA A RODINNÝ DOM",
+              "cadastral_territory": "SOBRANCE",
+              "lv_number": "1769",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 56 061 € → 60 133 € (+4 072 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 6 → 6 (0)"
+    ]
+  },
   "slug": "mudr-janka-staskova-mph",
   "context": {
     "latest_year": 2024,

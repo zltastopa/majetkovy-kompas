@@ -194,6 +194,58 @@
     }
   ],
   "total_changes": 6,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Matej.Hambalek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Matej.Hambalek.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DEPO SERVICES, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DEPO SERVICES, A. S.)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 783,
+            "other": 6346
+          },
+          "new": {
+            "public_function": 17655,
+            "other": 86286
+          },
+          "old_total": 7129,
+          "new_total": 103941,
+          "delta": 96812,
+          "delta_pct": 1358.0
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PODIEL V S.R.O., podiel: 50%",
+            "ÚSPORY NA ÚČTE, podiel: 100%"
+          ],
+          "new": [
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI (S.R.O.), podiel: 50%",
+            "ÚSPORY NA ÚČTE, podiel: 100%"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 7 129 € → 103 941 € (+96 812 €)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "mgr-matej-hambalek",
   "context": {
     "latest_year": 2024,

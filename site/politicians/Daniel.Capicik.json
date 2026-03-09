@@ -400,6 +400,206 @@
     }
   ],
   "total_changes": 5,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Daniel.Capicik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Daniel.Capicik.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZSE ENERGIA, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZSE ENERGIA, A.S.\r\n)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 17664,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 17664,
+          "delta": 17664
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUŽINDOL",
+              "lv_number": "1524",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RUŽINDOL",
+              "lv_number": "1423",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RUŽINDOL",
+              "lv_number": "1484",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "592",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "8870",
+              "share": "BSM"
+            },
+            {
+              "type": "PODIEL K POZEMKU A SPOLOČNÝM ČASTIAM",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "9719",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "6570",
+              "share": "100%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "7055",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RUŽINDOL",
+              "lv_number": "1524",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RUŽINDOL",
+              "lv_number": "1423",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "RUŽINDOL",
+              "lv_number": "1484",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "592",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "8870",
+              "share": "BSM"
+            },
+            {
+              "type": "PODIEL K POZEMKU A SPOLOČNÝM ČASTIAM",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "9719",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "6748",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRNAVA",
+              "lv_number": "6570",
+              "share": "100%"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "7055",
+              "share": "100%"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 9
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "REALITNÝ FOND, podiel: BSM",
+            "CENNÉ PAPIERE, podiel: BSM",
+            "OBCHODNÝ PODIEL V SPOLOČNOSTI, podiel: 100%"
+          ],
+          "new": [
+            "REALITNÝ FOND, podiel: BSM",
+            "CENNÉ PAPIERE, podiel: BSM",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 100%"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "07. 02. 2020"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "27. 07. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "07. 02. 2020"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "27. 07. 2022"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "08. 11. 2024"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 0 € → 17 664 € (+17 664 €)",
+      "Nehnuteľnosti: 8 → 9 (+1)",
+      "Majetkové práva: 3 → 3 (0)",
+      "Záväzky: 2 → 3 (+1)"
+    ]
+  },
   "slug": "ing-daniel-capicik",
   "context": {
     "latest_year": 2024,

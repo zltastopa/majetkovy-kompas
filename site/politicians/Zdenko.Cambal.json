@@ -1332,6 +1332,130 @@
     }
   ],
   "total_changes": 29,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zdenko.Cambal.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zdenko.Cambal.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 65443,
+            "other": 13584
+          },
+          "new": {
+            "public_function": 71977,
+            "other": 14184
+          },
+          "old_total": 79027,
+          "new_total": 86161,
+          "delta": 7134,
+          "delta_pct": 9.0
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "FAKULTNÁ NEMOCNICA AGEL SKALICA, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "TRNAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "UNIVERZITA SV. CYRILA A METODA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "FAKULTNÁ NEMOCNICA AGEL SKALICA A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "TRNAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 3
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "FORD",
+              "year_of_manufacture": 1967,
+              "share": "100%"
+            }
+          ]
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ PROSTRIEDKY - SÚKROMNÉ, podiel: 50%",
+            "POHĽADÁVKY - FINANČNÉ PROSTRIEDKY - SÚKROMNÉ, podiel: 50%"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY - SÚKROMNÉ, podiel: 50%",
+            "POHĽADÁVKY - FINANČNÉ PROSTRIEDKY SÚKROMNÉ, podiel: 50%"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "ÚŽITKOVÉ MOTOROVÉ VOZIDLO",
+              "brand": "FORD",
+              "year_of_manufacture": 2018
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MERCEDES",
+              "year_of_manufacture": 2014
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚŽITKOVÉ MOTOROVÉ VOZIDLO",
+              "brand": "FORD",
+              "year_of_manufacture": 2018
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "MERCEDES BENZ",
+              "year_of_manufacture": 2014
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 79 027 € → 86 161 € (+7 134 €)",
+      "Funkcie: 2 → 3 (+1)",
+      "Hnuteľný majetok",
+      "Majetkové práva: 2 → 2 (0)",
+      "Vozidlá: 2 → 2 (0)"
+    ]
+  },
   "slug": "phdr-zdenko-cambal-phd",
   "context": {
     "latest_year": 2024,

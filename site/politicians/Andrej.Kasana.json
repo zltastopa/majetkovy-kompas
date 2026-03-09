@@ -642,6 +642,150 @@
     }
   ],
   "total_changes": 14,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Andrej.Kasana.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Andrej.Kasana.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SAT - SYSTÉMY AUTOMATIZAČNEJ TECHNIKY, S.R.O.)riaditeľ štátneho podniku (VODOHOSPODÁRSKA VÝSTAVBA, ŠTÁTNY PODNIK)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SAT SYSTÉMY AUTOMATIZAČNEJ TECHNIKY, S.R.O.)riaditeľ štátneho podniku (VODOHOSPODÁRSKA VÝSTAVBA, ŠTÁTNY PODNIK)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 99861
+          },
+          "new": {
+            "public_function": 0,
+            "other": 114990
+          },
+          "old_total": 99861,
+          "new_total": 114990,
+          "delta": 15129,
+          "delta_pct": 15.2
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PODPREDSEDA OBČIANSKEHO ZDRUŽENIA",
+              "organization": "POBOČKA SLOV. VODOHOS. SPOLOČ. PRI VV Š.P. BRATISLAVA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN KONTROLNEJ KOMISIE",
+              "organization": "SLOVENSKÝ PRIEHRADNÝ VÝBOR (OBČIANSKE ZDRUŽENIE)",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN PREDSEDNÍCTVA",
+              "organization": "SLOVENSKÝ PLAVEBNÝ KONGRES",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN KONTROLNEJ KOMISIE",
+              "organization": "SLOVENSKÝ PRIEHRADNÝ VÝBOR (OBČIANSKE ZDRUŽENIE)",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3815",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "2399",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM, ORNÁ PÔDA A TRÁVNE PORASTY",
+              "cadastral_territory": "CINOBAŇA",
+              "lv_number": "712",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM A ZÁHRADA",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "2971",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "3618",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "3815",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "2399",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM, ORNÁ PÔDA A TRÁVNE PORASTY",
+              "cadastral_territory": "CINOBAŇA",
+              "lv_number": "712",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM A ZÁHRADA",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "2971",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "VINOHRADY",
+              "lv_number": "3618",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5369",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 6
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 99 861 € → 114 990 € (+15 129 €)",
+      "Funkcie: 2 → 2 (0)",
+      "Nehnuteľnosti: 5 → 6 (+1)"
+    ]
+  },
   "slug": "ing-andrej-kasana-phd",
   "context": {
     "latest_year": 2024,

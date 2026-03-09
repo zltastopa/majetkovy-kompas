@@ -410,6 +410,201 @@
     }
   ],
   "total_changes": 3,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Zuzana.Valkova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Zuzana.Valkova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 35471,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 35471,
+          "delta": 35471
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TEKOLĎANY",
+              "lv_number": "15",
+              "share": "1/2"
+            },
+            {
+              "type": "4X ORNÁ PÔDA",
+              "cadastral_territory": "TEKOLĎANY",
+              "lv_number": "176",
+              "share": "14/336"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "1029",
+              "share": "2/51"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "1093",
+              "share": "2/51"
+            },
+            {
+              "type": "11X ORNÁ PÔDA, ZÁHRADA, LESNÝ POZEMOK, TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "TEKOLĎANY",
+              "lv_number": "3",
+              "share": "14/336"
+            },
+            {
+              "type": "RODINNÝ DOM, PLOCHA A NÁDVDRIE, OSTATNÁ PLOCHA",
+              "cadastral_territory": "CHORVÁTSKY GROB",
+              "lv_number": "5774",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "259",
+              "share": "1/31"
+            },
+            {
+              "type": "3X ORNÁ PÔDA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "539",
+              "share": "2/3"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "70",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "72",
+              "share": "2/51"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "1028",
+              "share": "2/51"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "259",
+              "share": "1/31"
+            },
+            {
+              "type": "3X ORNÁ PÔDA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "539",
+              "share": "2/3"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "70",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "72",
+              "share": "2/51"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "1028",
+              "share": "2/51"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "CHORVÁTSKY GROB",
+              "lv_number": "5774",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TEKOLĎANY",
+              "lv_number": "15",
+              "share": "1/2"
+            },
+            {
+              "type": "4X ORNÁ PÔDA",
+              "cadastral_territory": "TEKOLĎANY",
+              "lv_number": "176",
+              "share": "14/336"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "1029",
+              "share": "2/51"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "HORNÉ OTROKOVCE",
+              "lv_number": "1093",
+              "share": "2/51"
+            },
+            {
+              "type": "11X ORNÁ PÔDA, ZÁHRADA, LESNÝ POZEMOK, TRÁVNY PORAST",
+              "cadastral_territory": "TEKOLĎANY",
+              "lv_number": "3",
+              "share": "14/336"
+            }
+          ],
+          "old_count": 11,
+          "new_count": 11
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "KIA",
+              "year_of_manufacture": 2021,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "KIA",
+              "year_of_manufacture": 2021,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 0 € → 35 471 € (+35 471 €)",
+      "Nehnuteľnosti: 11 → 11 (0)",
+      "Hnuteľný majetok: 1 → 1 (0)"
+    ]
+  },
   "slug": "judr-zuzana-valkova",
   "context": {
     "latest_year": 2024,

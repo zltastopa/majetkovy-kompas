@@ -746,6 +746,38 @@
     }
   ],
   "total_changes": 17,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/KaliVlas.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/KaliVlas.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 78927,
+            "other": 0
+          },
+          "new": {
+            "public_function": 80304,
+            "other": 0
+          },
+          "old_total": 78927,
+          "new_total": 80304,
+          "delta": 1377,
+          "delta_pct": 1.7
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 78 927 € → 80 304 € (+1 377 €)"
+    ]
+  },
   "slug": "ing-vlastimil-kalinec",
   "context": {
     "latest_year": 2024,

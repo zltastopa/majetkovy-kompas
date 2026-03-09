@@ -387,6 +387,50 @@
     }
   ],
   "total_changes": 16,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/Beata.Simorova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/Beata.Simorova.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2640,
+            "other": 75350
+          },
+          "new": {
+            "public_function": 2640,
+            "other": 76710
+          },
+          "old_total": 77990,
+          "new_total": 79350,
+          "delta": 1360,
+          "delta_pct": 1.7
+        },
+        {
+          "field": "employment",
+          "old": "POLIKLINIKA TEHELNÁ A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMESTSKÁ ČASŤ BRATISLAVA - RUŽINOV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MESTSKÁ ČASŤ BRATISLAVA - RUŽINOV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nPOLIKLINIKA TEHELNÁ A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(BM TENDER&CONSULTING, S.R.O.)ŽIVNOSTNÍK(Mgr. BEÁTA ŠIMOROVÁ)",
+          "new": "ŽIVNOSTNÍK(Mgr.  BEÁTA ŠIMOROVÁ)KONATEĽ(BM TENDER&CONSULTING,  S.R.O.)"
+        }
+      ]
+    },
+    "summary": [
+      "Príjmy: 77 990 € → 79 350 € (+1 360 €)",
+      "Zamestnanie",
+      "Podnikanie"
+    ]
+  },
   "slug": "mgr-beata-simorova",
   "context": {
     "latest_year": 2024,

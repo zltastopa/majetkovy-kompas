@@ -693,6 +693,130 @@
     }
   ],
   "total_changes": 22,
+  "latest_extraction": {
+    "committed_at": "2026-03-07",
+    "commit": "0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "previous_commit": "f03245faa3888584d70a97980f6084b3226eaf8a",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/f03245faa3888584d70a97980f6084b3226eaf8a...0a8659ecd2530065c7e00c5f1349c7c9131540eb",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/0a8659ecd2530065c7e00c5f1349c7c9131540eb/data/BartMart.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/f03245faa3888584d70a97980f6084b3226eaf8a/data/BartMart.yaml",
+    "diff": {
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SLOVENSKÁ REPUBLIKA, A.S.)člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP-DISTRIBÚCIA, A.S.)štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV SR, A.S.\r\n)"
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 67750,
+            "other": 73376
+          },
+          "new": {
+            "public_function": 68827,
+            "other": 60877
+          },
+          "old_total": 141126,
+          "new_total": 129704,
+          "delta": -11422,
+          "delta_pct": -8.1
+        },
+        {
+          "field": "employment",
+          "old": "TAURIS GROUP, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "TAURIS, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC",
+              "organization": "BRATISLAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA POSLANCA"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC",
+              "organization": "BRATISLAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "2926",
+              "share": "1/4"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "2926",
+              "share": "1/8"
+            },
+            {
+              "type": "PRIĽAHLÝ POZEMOK, ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "7027",
+              "share": "27378/1122929"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "2926",
+              "share": "1/4"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "2926",
+              "share": "1/8"
+            },
+            {
+              "type": "PRIĽAHLÝ POZEMOK, ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "7027",
+              "share": "2,44%"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "SPORIACI ÚČET, podiel: 1/1",
+            "BEŽNÝ ÚČET, podiel: 1/1"
+          ],
+          "new": [
+            "BEŽNÝ ÚČET, podiel: 1/1",
+            "SPORIACI ÚČET, podiel: 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
+    },
+    "summary": [
+      "Verejná funkcia",
+      "Príjmy: 141 126 € → 129 704 € (-11 422 €)",
+      "Zamestnanie",
+      "Funkcie: 1 → 1 (0)",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
+  },
   "slug": "ing-martin-barto-csc",
   "context": {
     "latest_year": 2024,
