@@ -280,11 +280,11 @@ def _parse_public_functions(td):
             text = re.sub(r"\s+", " ", text).strip()
             if text:
                 entries.append(text)
-        return entries
+        return _sorted_text_items(entries)
 
     text = " ".join(td.stripped_strings)
     text = re.sub(r"\s+", " ", text).strip()
-    return [text] if text else []
+    return _sorted_text_items([text] if text else [])
 
 
 def _null_if(td, null_text):
@@ -329,7 +329,16 @@ def _parse_positions(td):
                 elif line.startswith("požitky:"):
                     benefits = line.replace("požitky:", "").strip()
         positions.append({"role": role, "organization": org, "benefits": benefits})
-    return positions or None
+    if not positions:
+        return None
+    positions.sort(
+        key=lambda item: (
+            str(item.get("role") or ""),
+            str(item.get("organization") or ""),
+            str(item.get("benefits") or ""),
+        )
+    )
+    return positions
 
 
 def _parse_real_estate(td):
@@ -370,7 +379,16 @@ def _parse_obligations(td):
             "dátum vzniku": "date",
         })
         items.append(item)
-    return items or None
+    if not items:
+        return None
+    items.sort(
+        key=lambda item: (
+            str(item.get("type") or ""),
+            str(item.get("date") or ""),
+            str(item.get("share") or ""),
+        )
+    )
+    return items
 
 
 def _parse_vehicles(td):
@@ -391,7 +409,16 @@ def _parse_vehicles(td):
             except ValueError:
                 pass
         items.append(item)
-    return items or None
+    if not items:
+        return None
+    items.sort(
+        key=lambda item: (
+            str(item.get("type") or ""),
+            str(item.get("brand") or ""),
+            str(item.get("year_of_manufacture") or ""),
+        )
+    )
+    return items
 
 
 def _parse_movable_property(td):
@@ -412,7 +439,17 @@ def _parse_movable_property(td):
             except ValueError:
                 pass
         items.append(item)
-    return items or None
+    if not items:
+        return None
+    items.sort(
+        key=lambda item: (
+            str(item.get("type") or ""),
+            str(item.get("brand") or ""),
+            str(item.get("year_of_manufacture") or ""),
+            str(item.get("share") or ""),
+        )
+    )
+    return items
 
 
 def _parse_divs_as_text(td):
@@ -422,7 +459,11 @@ def _parse_divs_as_text(td):
         text = div.get_text(strip=True)
         if text and text.lower() not in ("nevlastním", "nemám"):
             items.append(text)
-    return items if items else None
+    return _sorted_text_items(items) or None
+
+
+def _sorted_text_items(items):
+    return sorted(items, key=lambda value: re.sub(r"\s+", " ", str(value or "")).strip())
 
 
 def _parse_semicolon_entry(text, field_map):
