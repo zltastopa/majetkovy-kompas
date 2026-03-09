@@ -61,6 +61,11 @@ def fetch(url):
 def fetch_politician_list():
     """Return list of dicts with 'user_id' and 'display_name'."""
     html = fetch(LIST_URL)
+    return parse_politician_list(html)
+
+
+def parse_politician_list(html):
+    """Return list of dicts with 'user_id' and 'display_name'."""
     soup = BeautifulSoup(html, "html.parser")
     politicians = []
     for link in soup.select('a[href*="vnf/oznamenie"]'):
@@ -434,9 +439,16 @@ def main():
     parser.add_argument("--year", type=int, help="Scrape a specific year (default: latest available)")
     parser.add_argument("--limit", type=int, help="Limit number of politicians to scrape")
     parser.add_argument("--workers", type=int, default=8, help="Number of parallel workers (default: 8)")
+    parser.add_argument(
+        "--data-dir",
+        type=Path,
+        default=DATA_DIR,
+        help="Output directory for scraped YAML files (default: data/)",
+    )
     args = parser.parse_args()
 
-    DATA_DIR.mkdir(exist_ok=True)
+    data_dir = args.data_dir
+    data_dir.mkdir(parents=True, exist_ok=True)
 
     if args.user_id:
         politicians = [{"user_id": args.user_id, "display_name": args.user_id}]
@@ -457,7 +469,7 @@ def main():
         uid = pol["user_id"]
         data = scrape_one(uid, year=args.year)
         if data:
-            out_path = DATA_DIR / f"{uid}.yaml"
+            out_path = data_dir / f"{uid}.yaml"
             out_path.write_text(dump_yaml(data), encoding="utf-8")
         return uid, data
 

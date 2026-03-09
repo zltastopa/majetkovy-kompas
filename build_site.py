@@ -119,16 +119,22 @@ def data_branch_ref():
 
 
 def get_commits():
-    """Get ordered list of (commit_hash, year) from data branch."""
+    """Get ordered list of (commit_hash, year) from data branch.
+
+    The data branch may contain multiple snapshot commits for the same
+    reporting year as the scraper re-checks the latest declarations over
+    time. For site generation we only want the newest commit for each year,
+    while preserving the original year order.
+    """
     hashes = git("rev-list", "--reverse", data_branch_ref()).split("\n")
-    commits = []
+    commits_by_year = {}
     for commit_hash in hashes:
         msg = git("log", "--format=%s", "-1", commit_hash)
         for word in msg.split():
             if word.isdigit() and len(word) == 4:
-                commits.append((commit_hash, int(word)))
+                commits_by_year[int(word)] = commit_hash
                 break
-    return commits
+    return [(commit_hash, year) for year, commit_hash in commits_by_year.items()]
 
 
 def read_yaml_at_commit(commit, path):

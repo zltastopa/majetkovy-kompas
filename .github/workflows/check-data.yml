@@ -1,0 +1,92 @@
+name: Check latest data daily
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-check
+  cancel-in-progress: true
+
+jobs:
+  scrape-latest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch data branch
+        run: git fetch origin data:data
+
+      - name: Prepare data worktree
+        run: git worktree add ../data-branch data
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Scrape latest available declarations
+        run: |
+          rm -rf ../data-branch/data
+          uv run python scrape.py --workers 16 --data-dir ../data-branch/data
+
+      - name: Generate declaration content hashes
+        run: |
+          uv run python generate_content_hashes.py \
+            --data-dir ../data-branch/data \
+            --output ../data-branch/data/_checks/content-hashes.json
+
+      - name: Detect latest reporting year
+        id: latest-year
+        run: |
+          latest_year=$(python - <<'PY'
+          from pathlib import Path
+          import yaml
+
+          latest = 0
+          for path in Path("../data-branch/data").glob("*.yaml"):
+              data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+              year = data.get("year")
+              if isinstance(year, int):
+                  latest = max(latest, year)
+
+          if not latest:
+              raise SystemExit("No scraped declarations found.")
+
+          print(latest)
+          PY
+          )
+          echo "value=$latest_year" >> "$GITHUB_OUTPUT"
+
+      - name: Commit updated data snapshot
+        working-directory: ../data-branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+
+          if git diff --cached --quiet; then
+            echo "No upstream data changes detected."
+            exit 0
+          fi
+
+          git commit -F - <<EOF
+          data: daily check for ${{ steps.latest-year.outputs.value }}
+
+          Previously the data branch only changed on manual updates; this
+          commit records the latest daily scrape snapshot and canonical
+          content hashes so extracted declaration changes are visible in git.
+
+          - Re-scrape the latest available NR SR declarations into \`data/\`
+          - Store content hashes in \`data/_checks/content-hashes.json\`
+          - Keep the newest snapshot for reporting year ${{ steps.latest-year.outputs.value }}
+          EOF
+
+          git push origin HEAD:data
+
+      - name: Clean up worktree
+        if: always()
+        run: git worktree remove ../data-branch --force
