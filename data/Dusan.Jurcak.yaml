@@ -1,7 +1,7 @@
 id: ZC202906
-declaration_id: 20954
+declaration_id: 24924
 name: RNDr. DUŠAN JURČÁK
-year: 2020
+year: 2021
 filed: k 30. aprílu
 public_function: 'štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA PRE RIEŠENIE
   KRÍZOVÝCH SITUÁCIÍ)
@@ -11,7 +11,7 @@ public_functions:
 - štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ)
 - štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŠTÁTNA POKLADNICA)
 income:
-  public_function: 67948
+  public_function: 68398
   other: 0
 incompatibility: true
 employment: null
@@ -54,10 +54,6 @@ real_estate:
   cadastral_territory: DOBRÁ
   lv_number: '1079'
   share: 1/576
-- type: ORNÁ PÔDA
-  cadastral_territory: OPATOVA
-  lv_number: '1994'
-  share: 1/144
 - type: ORNÁ PÔDA
   cadastral_territory: OPATOVÁ
   lv_number: '1219'
@@ -244,6 +240,10 @@ real_estate:
   share: 1/144
 - type: ORNÁ PÔDA
   cadastral_territory: OPATOVÁ
+  lv_number: '1994'
+  share: 1/144
+- type: ORNÁ PÔDA
+  cadastral_territory: OPATOVÁ
   lv_number: '1995'
   share: 1/108
 - type: ORNÁ PÔDA
@@ -381,7 +381,7 @@ real_estate:
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: STARÉ MESTO
   lv_number: '9825'
-  share: 7141/90310
+  share: 7141/90370
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: STUPAVA
   lv_number: '3872'
@@ -427,6 +427,7 @@ movable_property:
   share: BSM
 - type: OSOBNÉ MOTOROVÉ VOZIDLO
   brand: VOLKSWAGEN
+  year_of_manufacture: 2008
   share: BSM
 - type: UMELECKÉ DIELA
   share: BSM

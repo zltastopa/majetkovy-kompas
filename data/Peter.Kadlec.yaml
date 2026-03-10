@@ -1,33 +1,25 @@
 id: ZC202612
-declaration_id: 20702
+declaration_id: 24562
 name: Ing. PETER KADLEC
-year: 2020
+year: 2021
 filed: k 30. aprílu
 public_function: štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ
-  INŠPEKTORÁT)
+  INSPEKTORÁT)
 public_functions:
-- štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INŠPEKTORÁT)
+- štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ METROLOGICKÝ INSPEKTORÁT)
 income:
-  public_function: 53834
+  public_function: 39322
   other: 0
 incompatibility: true
 employment: null
 business_activity: null
 positions: null
 real_estate:
-- type: BYT
-  cadastral_territory: NOVÉ MESTO
+- type: BYT, GARÁŽOVÉ STÁTIE
+  cadastral_territory: BRATISLAVA - NOVÉ MESTO
   lv_number: '5069'
   share: 1/1
-- type: GARÁŽOVÉ STÁTIE
-  cadastral_territory: NOVÉ MESTO
-  lv_number: '5069'
-  share: 1310/14022
-- type: OSTATNÁ PLOCHA
-  cadastral_territory: PEZINOK
-  lv_number: '9312'
-  share: 1/1
-- type: RODINNÝ DOM S GARÁŽOU
+- type: RODINNÝ DOM S GARÁŽOU, OSTATNÁ PLOCHA
   cadastral_territory: PEZINOK
   lv_number: '9312'
   share: 1/1
@@ -36,11 +28,12 @@ real_estate:
   lv_number: '6630'
   share: 1/1
 movable_property: null
-property_rights: null
+property_rights:
+- 'CENNÉ PAPIERE, podiel: BSM'
 obligations:
 - type: HYPOTEKÁRNY ÚVER
-  share: 1/1
-  date: 04. 09. 2019
+  share: BSM
+  date: 28. 03. 2019
 use_of_others_real_estate: null
 vehicles: null
 gifts: null

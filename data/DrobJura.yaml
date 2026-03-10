@@ -1,13 +1,13 @@
 id: R202501
-declaration_id: 19556
+declaration_id: 24015
 name: Mgr. JURAJ DROBA, MBA, M.A.
-year: 2020
+year: 2021
 filed: k 30. aprílu
 public_function: predseda vyššieho územného celku
 public_functions:
 - predseda vyššieho územného celku
 income:
-  public_function: 67286
+  public_function: 66826
   other: 0
 incompatibility: true
 employment: null
@@ -34,8 +34,24 @@ real_estate:
   share: 100%
 - type: BYT
   cadastral_territory: STARÉ MESTO
+  lv_number: '5029'
+  share: 1/1
+- type: BYT
+  cadastral_territory: STARÉ MESTO
+  lv_number: '5029'
+  share: 1/1
+- type: BYT
+  cadastral_territory: STARÉ MESTO
   lv_number: '5806'
   share: 100%
+- type: NEBYTOVÝ PRIESTOR PIVNICA
+  cadastral_territory: STARÉ MESTO
+  lv_number: '5029'
+  share: 1/1
+- type: NEBYTOVÝ PRIESTOR PIVNICA
+  cadastral_territory: STARÉ MESTO
+  lv_number: '5029'
+  share: 1/1
 - type: PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH
   cadastral_territory: STARÉ MESTO
   lv_number: '3028'
@@ -44,34 +60,36 @@ real_estate:
   cadastral_territory: STARÉ MESTO
   lv_number: '3972'
   share: 8128/266429
+- type: PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH
+  cadastral_territory: STARÉ MESTO
+  lv_number: '5029'
+  share: 426/165289
+- type: PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH
+  cadastral_territory: STARÉ MESTO
+  lv_number: '5029'
+  share: 5903/165289
 - type: PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU
   cadastral_territory: STARÉ MESTO
-  lv_number: '3972'
-  share: 12650/266429
+  lv_number: '5029'
+  share: 462/165289
 - type: PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU
   cadastral_territory: STARÉ MESTO
   lv_number: '5806'
   share: 244/10000
+- type: PODIEL PRIESTORU V SPOLOČNÝCH ČASTIACH DOMU
+  cadastral_territory: STARÉ MESTO
+  lv_number: '5029'
+  share: 5258/165289
 - type: ZASTAVANÁ PLOCHA A NÁDVORIA
   cadastral_territory: STARÉ MESTO
   lv_number: '6559'
   share: 728/10000
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE
-  cadastral_territory: STARÉ MESTO
-  lv_number: '6602'
-  share: 10000/469450
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE
-  cadastral_territory: STARÉ MESTO
-  lv_number: '6602'
-  share: 8128/234725
-- type: ZASTAVANÁ PLOCHY A NÁDVORIA
+- type: ZASTAVANÉ PLOCHY A NÁDVORIA
   cadastral_territory: STARÉ MESTO
   lv_number: '5807'
   share: 244/10000
 movable_property:
 - type: BYTOVÉ ZARIADENIE
-  share: 100%
-- type: OBRAZY
   share: 100%
 property_rights:
 - 'FINANČNÁ HOTOVOSŤ, podiel: 100%'
@@ -79,6 +97,9 @@ property_rights:
 - 'PÔŽIČKY VOČI TRETÍM OSOBÁM, podiel: 100%'
 - 'ÚSPORY NA BANKOVOM ÚČTE, podiel: 100%'
 obligations:
+- type: HYPOTEKÁRNY ÚVER
+  share: 100%
+  date: 11. 02. 2021
 - type: HYPOTEKÁRNY ÚVER
   share: 100%
   date: 15. 03. 2010

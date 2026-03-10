@@ -1,30 +1,27 @@
 id: P203042
-declaration_id: 19565
+declaration_id: 24810
 name: Ing. JÁN RAGAN
-year: 2020
+year: 2021
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 52020
-  other: 6940
+  public_function: 61683
+  other: 7476
 incompatibility: true
 employment: null
 business_activity: null
 positions:
-- role: POSLANEC
-  organization: PREŠOVSKÝ SAMOSPRÁVNY KRAJ
-  benefits: ODMENA
 - role: ČLEN PREDSTAVENSTVA
   organization: VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.
-  benefits: ŽIADNE
+  benefits: NIE
 real_estate:
-- type: GARÁŽ
+- type: GARÁŽ, PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH
   cadastral_territory: VRANOV NAD TOPĽOU
   lv_number: '5217'
-  share: 1/1
-- type: GARÁŽ + ZASTAVANÁ PLOCHA A NÁDVORIE
+  share: BSM
+- type: GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: VRANOV NAD TOPĽOU
   lv_number: '2545'
   share: 1/1
@@ -59,23 +56,11 @@ real_estate:
 - type: ORNÁ PÔDA
   cadastral_territory: NIŽNÝ HRUŠOV
   lv_number: '2518'
-  share: 161/288
-- type: ORNÁ PÔDA
-  cadastral_territory: NIŽNÝ HRUŠOV
-  lv_number: '2518'
-  share: 2/12
-- type: ORNÁ PÔDA
-  cadastral_territory: NIŽNÝ HRUŠOV
-  lv_number: '2518'
-  share: 4/24
+  share: 257/288
 - type: ORNÁ PÔDA
   cadastral_territory: NIŽNÝ HRUŠOV
   lv_number: '2519'
-  share: 11/36
-- type: ORNÁ PÔDA
-  cadastral_territory: NIŽNÝ HRUŠOV
-  lv_number: '2519'
-  share: 22/72
+  share: 44/72
 - type: ORNÁ PÔDA
   cadastral_territory: NIŽNÝ HRUŠOV
   lv_number: '319'
@@ -95,53 +80,46 @@ real_estate:
 - type: ORNÁ PÔDA
   cadastral_territory: NIŽNÝ HRUŠOV
   lv_number: '928'
-  share: 10/48
-- type: ORNÁ PÔDA
-  cadastral_territory: NIŽNÝ HRUŠOV
-  lv_number: '928'
-  share: 2/192
-- type: ORNÁ PÔDA, TRVALÝ TRÁVNATÝ PORAST
-  cadastral_territory: NIŽNÝ HRUŠOV
-  lv_number: '929'
-  share: 122/336
-- type: ORNÁ PÔDA, TRVALÝ TRÁVNATÝ PORASŤ
+  share: 42/192
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: NIŽNÝ HRUŠOV
   lv_number: '236'
   share: 2/96
-- type: OSTATNÁ PLOCHA + ZASTAVANÁ PLOCHA A NÁDVORIE, REKREAĆNÁ CHATA
-  cadastral_territory: HOLČÍKOVCE
-  lv_number: '649'
-  share: 1/1
-- type: POZEMOK POD GARÁŽOU
-  cadastral_territory: VRANOV NAD TOPĽOU
-  lv_number: '5217'
-  share: 2100/100746
-- type: TRVALÝ TRÁVNATÝ PORAST
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: NIŽNÝ HRUŠOV
-  lv_number: '240'
-  share: 108/672
-- type: TRVALÝ TRÁVNATÝ PORAST
-  cadastral_territory: NIŽNÝ HRUŠOV
-  lv_number: '357'
-  share: 2/12
-- type: TRVALÝ TRÁVNATÝ PORAST
-  cadastral_territory: NIŽNÝ HRUŠOV
-  lv_number: '358'
-  share: 4/48
-- type: TRVALÝ TRÁVNATÝ PORAST, ORNÁ PÔDA
-  cadastral_territory: NIŽNÝ HRUŠOV
-  lv_number: '244'
-  share: 2/96
-- type: ZÁHRADA, ZASTAVANÁ PLOCHA, ZÁHRADA, RODINNÝ DOM
+  lv_number: '929'
+  share: 122/336
+- type: ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA
   cadastral_territory: NIŽNÝ HRUŠOV
   lv_number: '50'
   share: 1/8
+- type: OSTATNÁ PLOCHA
+  cadastral_territory: HOLČÍKOVCE
+  lv_number: '649'
+  share: 1/1
+- type: TRVALÝ TRÁVNY PORAST
+  cadastral_territory: NIŽNÝ HRUŠOV
+  lv_number: '240'
+  share: 108/672
+- type: TRVALÝ TRÁVNY PORAST
+  cadastral_territory: NIŽNÝ HRUŠOV
+  lv_number: '358'
+  share: 4/48
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
+  cadastral_territory: NIŽNÝ HRUŠOV
+  lv_number: '244'
+  share: 2/96
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
+  cadastral_territory: NIŽNÝ HRUŠOV
+  lv_number: '357'
+  share: 2/12
 movable_property:
-- type: OSOBNÉ VOZIDLO
+- type: OSOBNÝ AUTOMOBIL
   brand: SUZUKI
   year_of_manufacture: 2004
   share: 1/1
-property_rights: null
+property_rights:
+- 'FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: BSM'
 obligations:
 - type: žiadny
 use_of_others_real_estate: null
