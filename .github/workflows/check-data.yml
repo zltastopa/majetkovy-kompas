@@ -28,9 +28,14 @@ jobs:
 
       - uses: astral-sh/setup-uv@v5
 
+      - name: Capture current snapshot size
+        id: before-count
+        run: |
+          count=$(find ../data-branch/data -maxdepth 1 -name '*.yaml' | wc -l | tr -d ' ')
+          echo "value=$count" >> "$GITHUB_OUTPUT"
+
       - name: Scrape latest available declarations
         run: |
-          rm -rf ../data-branch/data
           uv run python scrape.py --workers 16 --data-dir ../data-branch/data
 
       - name: Generate declaration content hashes
@@ -38,6 +43,17 @@ jobs:
           uv run python generate_content_hashes.py \
             --data-dir ../data-branch/data \
             --output ../data-branch/data/_checks/content-hashes.json
+
+      - name: Guard against suspicious data loss
+        run: |
+          before=${{ steps.before-count.outputs.value }}
+          after=$(find ../data-branch/data -maxdepth 1 -name '*.yaml' | wc -l | tr -d ' ')
+          drop=$((before - after))
+
+          if [ "$before" -gt 0 ] && [ "$after" -lt "$before" ] && [ "$drop" -gt 25 ] && [ $((after * 100)) -lt $((before * 95)) ]; then
+            echo "Refusing to commit a suspicious drop from $before to $after declarations."
+            exit 1
+          fi
 
       - name: Detect latest reporting year
         id: latest-year

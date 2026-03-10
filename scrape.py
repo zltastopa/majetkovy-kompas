@@ -78,6 +78,28 @@ def parse_politician_list(html):
     return politicians
 
 
+def parse_available_years(html):
+    """Return available declaration years and the selected dropdown year."""
+    soup = BeautifulSoup(html, "html.parser")
+    dropdown = soup.select_one("#_sectionLayoutContainer_ctl01_OznameniaList")
+    if not dropdown:
+        return [], None
+
+    years = []
+    selected_year = None
+    for opt in dropdown.select("option"):
+        try:
+            year = int(opt.get_text(strip=True))
+        except ValueError:
+            continue
+        years.append(year)
+        if opt.has_attr("selected"):
+            selected_year = year
+
+    years = sorted(set(years), reverse=True)
+    return years, selected_year
+
+
 def fetch_declaration_html(user_id, year=None):
     """Fetch the declaration page for a given UserId.
     If year is None, returns the latest year.
@@ -499,7 +521,19 @@ def _parse_comma_entry(text, field_map):
 def scrape_one(user_id, year=None):
     """Scrape one politician, return structured data or None."""
     html = fetch_declaration_html(user_id, year=year)
-    return parse_declaration(html)
+    data = parse_declaration(html)
+    if year is not None or data:
+        return data
+
+    available_years, selected_year = parse_available_years(html)
+    for candidate_year in available_years:
+        if candidate_year == selected_year:
+            continue
+        candidate_html = fetch_declaration_html(user_id, year=candidate_year)
+        data = parse_declaration(candidate_html)
+        if data:
+            return data
+    return None
 
 
 def main():
