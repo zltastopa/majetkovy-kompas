@@ -1,16 +1,19 @@
 :root {
-  --bg: #f8f9fa;
-  --fg: #1a1a2e;
-  --muted: #64748b;
-  --border: #e2e8f0;
+  --bg: #f3f3f3;
+  --fg: #000000;
+  --muted: #4b5563;
+  --border: rgb(0 0 0 / 0.14);
   --accent: #2563eb;
-  --green: #16a34a;
-  --red: #dc2626;
-  --orange: #ea580c;
-  --card-bg: #fff;
+  --green: #15803d;
+  --red: #b91c1c;
+  --orange: #d97706;
+  --yellow: #ffc400;
+  --card-bg: #ffffff;
   --diff-add: #dcfce7;
   --diff-rm: #fee2e2;
-  --radius: 10px;
+  --radius: 14px;
+  --shadow-soft: 0 10px 24px rgb(0 0 0 / 0.08), 0 2px 8px rgb(0 0 0 / 0.05);
+  --shadow-lift: 0 14px 28px rgb(0 0 0 / 0.1), 0 3px 10px rgb(0 0 0 / 0.06);
 }
 
 * {
@@ -20,14 +23,14 @@
 }
 
 body {
-  font-family: -apple-system, system-ui, "Segoe UI", sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: var(--bg);
   color: var(--fg);
   line-height: 1.6;
 }
 
 a {
-  color: var(--accent);
+  color: var(--fg);
   text-decoration: none;
 }
 
@@ -42,13 +45,24 @@ a:hover {
 }
 
 .site-header {
-  padding: 2rem 0 1rem;
+  padding: 2rem 0 1.2rem;
 }
 
 .site-header h1 {
-  font-size: 1.75rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 800;
   letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+.site-header h1::before {
+  content: "";
+  display: block;
+  width: 92px;
+  height: 92px;
+  margin: 0 0 0.55rem;
+  border-radius: 18px;
+  background: url("majetkovy-kompas-logo.png") center / contain no-repeat;
 }
 
 .site-brand {
@@ -62,22 +76,29 @@ a:hover {
 }
 
 .stats {
-  display: flex;
-  gap: 1.5rem;
-  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-top: 1.15rem;
   font-size: 0.85rem;
-  flex-wrap: wrap;
 }
 
 .stat {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  min-height: 132px;
+  padding: 0.7rem 0.82rem;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--card-bg);
+  box-shadow: var(--shadow-soft);
 }
 
 .stat-value {
   font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--accent);
+  font-weight: 800;
+  color: var(--fg);
 }
 
 .stat-label {
@@ -92,53 +113,53 @@ a:hover {
 }
 
 .stat--median {
-  padding: 0.55rem 0.8rem;
-  border: 1px solid #c7d2fe;
-  border-radius: 12px;
-  background: #eef2ff;
+  padding: 0.7rem 0.82rem;
+  background: #fff8db;
 }
 
 .stat--median .stat-value {
-  color: #1d4ed8;
+  color: var(--fg);
 }
 
 .stat--median-secondary {
-  background: #f8fbff;
-  border-color: #dbeafe;
+  background: var(--card-bg);
 }
 
 .landing-tabs {
   display: flex;
-  gap: 0.25rem;
-  border-bottom: 2px solid var(--border);
+  gap: 0.45rem;
+  border-bottom: 0;
   margin: 1.5rem 0 1rem;
   overflow-x: auto;
 }
 
 .landing-tabs button,
 .landing-tabs a {
-  padding: 0.5rem 1rem;
-  border: none;
-  background: none;
+  padding: 0.52rem 0.98rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--card-bg);
   cursor: pointer;
-  font-size: 0.85rem;
-  color: var(--muted);
-  border-bottom: 2px solid transparent;
-  margin-bottom: -2px;
+  font-size: 0.84rem;
+  color: var(--fg);
   white-space: nowrap;
-  font-weight: 500;
+  font-weight: 700;
+  box-shadow: var(--shadow-soft);
 }
 
 .landing-tabs button.active,
 .landing-tabs a[aria-current="page"] {
-  color: var(--accent);
-  border-bottom-color: var(--accent);
+  color: var(--fg);
+  border-color: #eeb800;
+  background: var(--yellow);
+  box-shadow: none;
 }
 
 .landing-tabs button:hover:not(.active),
 .landing-tabs a:hover {
   color: var(--fg);
   text-decoration: none;
+  background: #fff7d6;
 }
 
 .landing-section {
@@ -179,11 +200,14 @@ a:hover {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  transition: border-color 0.15s;
+  box-shadow: var(--shadow-soft);
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
 }
 
 .highlight-card:hover {
-  border-color: var(--accent);
+  border-color: #eeb800;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-lift);
 }
 
 .highlight-card a {
@@ -268,18 +292,19 @@ a:hover {
 .explainer {
   margin-top: 0.85rem;
   padding: 0.7rem 0.95rem;
-  border: 1px solid #c7d2fe;
+  border: 1px solid var(--border);
   border-radius: var(--radius);
-  background: #eef2ff;
-  color: #3730a3;
+  background: var(--card-bg);
+  color: var(--fg);
   font-size: 0.82rem;
   line-height: 1.5;
+  box-shadow: var(--shadow-soft);
 }
 
 .explainer summary {
   cursor: pointer;
-  font-weight: 600;
-  color: #4338ca;
+  font-weight: 700;
+  color: var(--fg);
 }
 
 .explainer p {
@@ -310,8 +335,8 @@ a:hover {
 .search-box input:focus,
 .sort-select select:focus {
   outline: none;
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  border-color: #eeb800;
+  box-shadow: 0 0 0 3px rgb(255 196 0 / 0.22);
 }
 
 .sort-select select,
@@ -322,6 +347,7 @@ a:hover {
   background: var(--card-bg);
   font-size: 0.85rem;
   cursor: pointer;
+  box-shadow: var(--shadow-soft);
 }
 
 .politician-list {
@@ -338,12 +364,15 @@ a:hover {
   align-items: center;
   gap: 1rem;
   margin-bottom: 0.4rem;
-  transition: border-color 0.15s;
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
   color: inherit;
+  box-shadow: var(--shadow-soft);
 }
 
 .person-row__link:hover {
-  border-color: var(--accent);
+  border-color: #eeb800;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-lift);
   text-decoration: none;
 }
 
@@ -444,9 +473,9 @@ a:hover {
 }
 
 .detail-switch__button.is-active {
-  border-color: var(--accent);
-  background: rgba(37, 99, 235, 0.08);
-  color: var(--accent);
+  border-color: #eeb800;
+  background: #fff7d6;
+  color: var(--fg);
 }
 
 .detail-mode[hidden] {
@@ -470,9 +499,10 @@ a:hover {
 }
 
 .year-tabs button.active {
-  background: var(--accent);
-  color: #fff;
-  border-color: var(--accent);
+  background: var(--yellow);
+  color: var(--fg);
+  border-color: #eeb800;
+  box-shadow: none;
 }
 
 .context-card {
@@ -487,12 +517,13 @@ a:hover {
   border-radius: var(--radius);
   background: var(--card-bg);
   padding: 0.8rem 0.9rem;
+  box-shadow: var(--shadow-soft);
 }
 
 .ctx-item--median {
-  border-color: #c7d2fe;
-  background: #f8fbff;
-  box-shadow: inset 0 0 0 1px rgba(59, 130, 246, 0.08);
+  border-color: var(--border);
+  background: #fff8db;
+  box-shadow: var(--shadow-soft);
 }
 
 .ctx-val {
@@ -515,7 +546,7 @@ a:hover {
 }
 
 .ctx-item--median .ctx-val {
-  color: #1d4ed8;
+  color: var(--fg);
 }
 
 .ctx-meter {
@@ -556,6 +587,7 @@ a:hover {
   border-radius: var(--radius);
   padding: 0.85rem 1rem;
   font-size: 0.875rem;
+  box-shadow: var(--shadow-soft);
 }
 
 .section-empty {
@@ -762,11 +794,12 @@ a:hover {
 .compare-intro {
   margin-bottom: 0.9rem;
   padding: 0.75rem 0.9rem;
-  border: 1px solid #dbeafe;
+  border: 1px solid var(--border);
   border-radius: var(--radius);
-  background: #f8fbff;
+  background: var(--card-bg);
   color: var(--muted);
   font-size: 0.84rem;
+  box-shadow: var(--shadow-soft);
 }
 
 .compare-selectors {
@@ -819,6 +852,7 @@ a:hover {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--card-bg);
+  box-shadow: var(--shadow-soft);
 }
 
 .compare-card-eyebrow,
@@ -971,6 +1005,20 @@ a:hover {
 }
 
 @media (max-width: 640px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .site-header h1 {
+    font-size: 1.7rem;
+  }
+
+  .site-header h1::before {
+    width: 76px;
+    height: 76px;
+    margin-bottom: 0.45rem;
+  }
+
   .data-row {
     flex-direction: column;
   }
@@ -981,10 +1029,6 @@ a:hover {
 
   .controls {
     flex-direction: column;
-  }
-
-  .stats {
-    flex-wrap: wrap;
   }
 
   .person-row__link {
