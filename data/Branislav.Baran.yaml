@@ -1,13 +1,13 @@
 id: P225139
-declaration_id: 25613
+declaration_id: 28032
 name: BRANISLAV BARAN
-year: 2021
-filed: pri ujatí sa funkcie
+year: 2022
+filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 0
+  public_function: 6456
   other: 0
 incompatibility: true
 employment: null
@@ -49,7 +49,7 @@ real_estate:
 - type: POZEMOK
   cadastral_territory: DRAHOVCE
   lv_number: '2843'
-  share: 10/20080
+  share: 10/22080
 - type: POZEMOK
   cadastral_territory: DRAHOVCE
   lv_number: '2856'
@@ -78,7 +78,11 @@ real_estate:
   cadastral_territory: DRAHOVCE
   lv_number: '832'
   share: 1/3
-movable_property: null
+movable_property:
+- type: OSOBNÉ MOTOROVÉ VOZIDLO
+  brand: ŠKODA
+  year_of_manufacture: 2019
+  share: 1/1
 property_rights: null
 obligations:
 - type: žiadny

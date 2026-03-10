@@ -1,23 +1,28 @@
 id: ZD224511
-declaration_id: 21772
+declaration_id: 28130
 name: Mgr. TOMÁŠ KUBÁŇ
-year: 2021
-filed: pri ujatí sa funkcie
-public_function: 'likvidátor (GODDYCOM, ZÁHORSKÉ TKÁČOVNE, ŠTÁTNY PODNIK V LIKVIDÁCII)
-
-  likvidátor (ÚSTAV TECHNOLÓGIE A RACIONALIZÁCIE, ŠTÁTNY PODNIK V LIKVIDÁCII)'
+year: 2022
+filed: k 30. aprílu
+public_function: likvidátor (ÚSTAV TECHNOLÓGIE A RACIONALIZÁCIE, ŠTÁTNY PODNIK V LIKVIDÁCII)
 public_functions:
-- likvidátor (GODDYCOM, ZÁHORSKÉ TKÁČOVNE, ŠTÁTNY PODNIK V LIKVIDÁCII)
 - likvidátor (ÚSTAV TECHNOLÓGIE A RACIONALIZÁCIE, ŠTÁTNY PODNIK V LIKVIDÁCII)
 income:
-  public_function: 0
-  other: 0
+  public_function: 5900
+  other: 37926
 incompatibility: true
 employment: null
 business_activity: ADVOKÁT(Mgr. TOMÁŠ KUBÁŇ)
 positions: null
 real_estate:
-- type: ORNÁ PÔDA, ZÁHRADA, OSTATNÁ PLOCHA
+- type: BYT
+  cadastral_territory: NOVÉ MESTO
+  lv_number: '3856'
+  share: 1/1
+- type: NEBYTOVÝ PRIESTOR
+  cadastral_territory: NOVÉ MESTO
+  lv_number: '3856'
+  share: 14/951
+- type: ORNÁ PÔDA,  ZÁHRADA, OSTATNÁ PLOCHA
   cadastral_territory: LUDROVÁ
   lv_number: '3184'
   share: 1/1
@@ -30,7 +35,7 @@ real_estate:
   lv_number: '3184'
   share: 1/1
 movable_property:
-- type: MALÝ MOTOCYKEL
+- type: MOTOCYKEL
   brand: JAWA
   year_of_manufacture: 1982
   share: 1/1
@@ -39,6 +44,9 @@ obligations:
 - type: HYPOTÉKA
   share: 1/1
   date: 30. 12. 2021
+- type: SPOTREBNÝ ÚVER
+  share: 1/1
+  date: 10. 05. 2022
 use_of_others_real_estate: null
 vehicles: null
 gifts: null

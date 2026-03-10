@@ -1,24 +1,21 @@
 id: ZC203954
-declaration_id: 24018
+declaration_id: 29220
 name: Ing. LUKÁŠ BONKO
-year: 2021
+year: 2022
 filed: k 30. aprílu
 public_function: 'štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BURZA CENNÝCH
   PAPIEROV V BRATISLAVE, A.S.)
 
   štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV
-  SR, A.S.)
-
-  štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DLHOPIS, O.C.P., A.S.)'
+  SR, A.S.)'
 public_functions:
 - štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE,
   A.S.)
 - štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (CENTRÁLNY DEPOZITÁR CENNÝCH PAPIEROV
   SR, A.S.)
-- štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DLHOPIS, O.C.P., A.S.)
 income:
-  public_function: 18285
-  other: 35579
+  public_function: 22002
+  other: 75840
 incompatibility: true
 employment: 'BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.
 
@@ -29,17 +26,17 @@ business_activity: null
 positions: null
 real_estate:
 - type: BYT
-  cadastral_territory: BRATISLAVA - NOVÉ MESTO
+  cadastral_territory: BRATISLAVA NOVÉ MESTO
   lv_number: '6233'
   share: 1/1
-- type: NEBYTOVÝ PRIESTOR - GARÁŽ
-  cadastral_territory: BRATISLAVA - NOVÉ MESTO
-  lv_number: '6233'
-  share: 2/411
 - type: NEBYTOVÝ PRIESTOR - SKLADOVÝ PRIESTOR
   cadastral_territory: BRATISLAVA - NOVÉ MESTO
   lv_number: '6233'
   share: 1/34
+- type: NEBYTOVÝ PRIESTOR GARÁŽ
+  cadastral_territory: BRATISLAVA - NOVÉ MESTO
+  lv_number: '6233'
+  share: 2/411
 - type: POZEMOK
   cadastral_territory: BRATISLAVA - NOVÉ MESTO
   lv_number: '6532'
@@ -49,8 +46,13 @@ real_estate:
   lv_number: '6400'
   share: 2/978
 movable_property: null
-property_rights: null
+property_rights:
+- 'FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: 1/1'
+- 'ZMLUVA O BUDÚCEJ ZMLUVE - KÚPA BYTU, podiel: 1/2'
 obligations:
+- type: ÚVER
+  share: 1/2
+  date: 07. 06. 2022
 - type: ÚVER
   share: 1/1
   date: 12. 01. 2018

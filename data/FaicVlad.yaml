@@ -1,13 +1,13 @@
 id: B06667
-declaration_id: 24824
+declaration_id: 27840
 name: VLADIMÍR FAIČ
-year: 2021
+year: 2022
 filed: k 30. aprílu
 public_function: poslanec Národnej rady Slovenskej republiky
 public_functions:
 - poslanec Národnej rady Slovenskej republiky
 income:
-  public_function: 36720
+  public_function: 39240
   other: 0
 incompatibility: true
 employment: null
@@ -29,7 +29,7 @@ real_estate:
 - type: PODIEL NA POZEMKU
   cadastral_territory: RUŽINOV
   lv_number: '7090'
-  share: 75431293693 BSM
+  share: 7543/293693 BSM
 - type: PODIEL NA SPOLOČNÝCH ČASTIACH DOMU
   cadastral_territory: RUŽINOV
   lv_number: '7088'
@@ -40,12 +40,16 @@ real_estate:
   share: 1/1 BSM
 - type: POZEMOK - ORNÁ PÔDA
   cadastral_territory: KRUŠOVCE
-  lv_number: '1476'
-  share: 1/1
-- type: POZEMOK - ORNÁ PÔDA
-  cadastral_territory: KRUŠOVCE
   lv_number: '1789'
   share: 1/1 BSM
+- type: POZEMOK - ORNÁ PÔDA
+  cadastral_territory: KRUŠOVCE
+  lv_number: '2476'
+  share: 1/1
+- type: POZEMOK - ZASTAVANÁ PLOCHA
+  cadastral_territory: KRUŠOVCE
+  lv_number: '1491'
+  share: 3/20
 - type: POZEMOK - ZASTAVANÁ PLOCHA
   cadastral_territory: KRUŠOVCE
   lv_number: '1491'
@@ -78,10 +82,6 @@ real_estate:
   cadastral_territory: RUŽINOV
   lv_number: '7192'
   share: 1/1 BSM
-- type: POZEMOK - ZASTAVANÁPLOCHA
-  cadastral_territory: KRUŠOVCE
-  lv_number: '1491'
-  share: 3/20
 - type: POZEMOK - ZÁHRADA
   cadastral_territory: KRUŠOVCE
   lv_number: '1491'
@@ -99,15 +99,15 @@ real_estate:
   lv_number: '111'
   share: 1/1 BSM
 movable_property:
-- type: ZARIADENIE DOMU
-  share: BSM
+- type: OSOBNÝ AUTOMOBIL
+  brand: AUDI
+  year_of_manufacture: 2018
+  share: 1/1 BSM
 property_rights:
+- 'ZARIADENIE DOMU, podiel: BSM'
 - 'ÚČTY V PEŇAŽNÝCH ÚSTAVOCH, podiel: BSM'
 obligations:
 - type: žiadny
 use_of_others_real_estate: null
-vehicles:
-- type: OSOBNÝ AUTOMOBIL
-  brand: AUDI
-  year_of_manufacture: 2018
+vehicles: null
 gifts: null

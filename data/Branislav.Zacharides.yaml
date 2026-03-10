@@ -1,14 +1,14 @@
 id: P203066
-declaration_id: 23691
+declaration_id: 27958
 name: Mgr. BRANISLAV ZACHARIDES
-year: 2021
+year: 2022
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 48152
-  other: 0
+  public_function: 57567
+  other: 6358
 incompatibility: true
 employment: null
 business_activity: null
@@ -16,11 +16,14 @@ positions:
 - role: PODPREDSEDA
   organization: ZDRUŽENIE MIEST A OBCÍ TURCA
   benefits: ŽIADNE
+- role: POSLANEC ZASTUPITEĽSTVA ŽSK
+  organization: ŽILINSKÝ SAMOSPRÁVNY KRAJ
+  benefits: ODMENA
 - role: PREDSEDA VALNÉHO ZHROMAŽDENIA
   organization: MESTSKÝ PODNIK SLUŽIEB VRÚTKY
   benefits: ŽIADNE
 - role: ČLEN DOZORNEJ RADY
-  organization: TURČIANSKA VODÁRENSKÁ SPOLOČNOSŤ, A.S.
+  organization: 'TURČIANSKA VODÁRENSKÁ SPOLOČNOSŤ, A. S. '
   benefits: ŽIADNE
 real_estate:
 - type: ORNÁ PÔDA
@@ -38,12 +41,16 @@ real_estate:
 - type: RODINNÝ DOM
   cadastral_territory: VRÚTKY
   lv_number: '4837'
-  share: 1/1(BSM)
+  share: 1/1 (BSM)
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: VRÚTKY
   lv_number: '2900'
   share: 1/1
-movable_property: null
+movable_property:
+- type: MOTOROVÉ VOZIDLO
+  brand: KIA
+  year_of_manufacture: 2017
+  share: 1/1
 property_rights: null
 obligations:
 - type: žiadny

@@ -1,7 +1,7 @@
 id: B202360
-declaration_id: 24731
+declaration_id: 27795
 name: Mgr. IGOR HUS
-year: 2021
+year: 2022
 filed: k 30. aprílu
 public_function: 'poslanec Národnej rady Slovenskej republiky
 
@@ -10,10 +10,16 @@ public_functions:
 - poslanec Národnej rady Slovenskej republiky
 - primátor mesta
 income:
-  public_function: 44387
-  other: 0
+  public_function: 47085
+  other: 926
 incompatibility: true
-employment: 'SLOVENSKÁ NÁRODNÁ KNIŽNICA
+employment: 'SLOVENSKÁ NÁRODNÁ KNIŽNICA - ZAMESTNANEC
+
+  Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
+
+  áno
+
+  MESTSKÝ ÚRAD TURČIANSKE TEPLICE - PRIMÁTOR
 
   Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
 
@@ -22,19 +28,19 @@ business_activity: null
 positions:
 - role: KOMISIA DOPRAVY ZASTUPITEĽSTVA ŽSK - ČLEN KOMISIE
   organization: ÚRAD ŽSK
-  benefits: ŽIADNE
+  benefits: ŽIADNE - VZDANIE SA ODMENY
 - role: ČLEN DOZORNEJ RADY Z POZÍCIE PRIMÁTORA MESTA
-  organization: SLOVENSKÉ LIEČEBNÉ KÚPELE TURČIANSKE TEPLICE, A.S.
+  organization: SLOVENSKÉ LIEČEBNÉ KÚPELE TURČIANSKE TEPLICE,A.S.
   benefits: ŽIADNE
 - role: ČLEN DOZORNEJ RADY Z POZÍCIE PRIMÁTORA MESTA
   organization: TURČIANSKA VODÁRENSKÁ SPOLOČNOSŤ, A.S.
-  benefits: ŽIADNE
+  benefits: ŽIADNE - VZDANIE SA ODMENY
 real_estate:
 - type: PARCELA REGISTRA E - POZEMOK - 35X
   cadastral_territory: KAĽAMENOVÁ
   lv_number: '536'
   share: 1/72
-- type: POZEMKY - 2 X ZASTAVANÁ PLOCHA A NÁDVORIE + 3 X ZÁHRADA
+- type: POZEMKY  - 2 X ZASTAVANÁ PLOCHA A NÁDVORIE, 3 X ZÁHRADA
   cadastral_territory: BUDIŠ
   lv_number: '359'
   share: 2/4
@@ -42,26 +48,26 @@ real_estate:
   cadastral_territory: KAĽAMENOVÁ
   lv_number: '239'
   share: 25/96
-- type: POZEMOK  - 1 X LESNÝ POZEMOK + 1X OSTATNÁ PLOCHA
-  cadastral_territory: BUDIŠ
-  lv_number: '186'
-  share: 1/26
-- type: POZEMOK  - 5 X TRVALÝ TRÁVNY PORAST
-  cadastral_territory: BUDIŠ
-  lv_number: '316'
-  share: 1/20
-- type: POZEMOK - 1 X LESNÝ POZEMOK + 2 X TRVALÝ TRÁVNY PORAST
-  cadastral_territory: BUDIŠ
-  lv_number: '257'
-  share: 1/126
-- type: POZEMOK - 2 X OSTATNÁ PLOCHA + 1X TRVALÝ TRÁVNY PORAST
-  cadastral_territory: BUDIŠ
-  lv_number: '545'
-  share: 2/48
-- type: POZEMOK - 2 X TRVALÝ TRÁVNY PORAST
+- type: POZEMOK  - 2 X TRVALÝ TRÁVNY PORAST
   cadastral_territory: BUDIŠ
   lv_number: '258'
   share: 1/126
+- type: POZEMOK -  ZASTAVANÁ PLOCHA A NÁDVORIE
+  cadastral_territory: BUDIŠ
+  lv_number: '67'
+  share: 1/57
+- type: POZEMOK - 1 X LESNÝ POZEMOK, 1 X OSTATNÁ PLOCHA
+  cadastral_territory: BUDIŠ
+  lv_number: '186'
+  share: 1/26
+- type: POZEMOK - 1 X LESNÝ POZEMOK, 2 X TRVALÝ TRÁVNY PORAST
+  cadastral_territory: BUDIŠ
+  lv_number: '257'
+  share: 1/126
+- type: POZEMOK - 2 X OSTATNÁ PLOCHA, 1 X TRAVALÝ TRÁVNY PORAST
+  cadastral_territory: BUDIŠ
+  lv_number: '545'
+  share: 2/48
 - type: POZEMOK - 2X TRVALÝ TRÁVNY PORAST
   cadastral_territory: KAĽAMENOVÁ
   lv_number: '137'
@@ -78,7 +84,7 @@ real_estate:
   cadastral_territory: BUDIŠ
   lv_number: '406'
   share: 1/12
-- type: POZEMOK - 3X ORNÁ PÔDA + 2X OSTATNÁ PLOCHA
+- type: POZEMOK - 3X ORNÁ PÔDA, 2X OSTATNÁ PLOCHA
   cadastral_territory: BUDIŠ
   lv_number: '270'
   share: 1/12
@@ -94,7 +100,11 @@ real_estate:
   cadastral_territory: KAĽAMENOVÁ
   lv_number: '146'
   share: 1/6
-- type: POZEMOK - 6X PARCELY REGISTRA E
+- type: POZEMOK - 5 X TRVALÝ TRÁVNY PORAST
+  cadastral_territory: BUDIŠ
+  lv_number: '316'
+  share: 1/20
+- type: POZEMOK - 6 X PARCELY REGISTRA E
   cadastral_territory: KAĽAMENOVÁ
   lv_number: '141'
   share: 9/24
@@ -105,7 +115,7 @@ real_estate:
 - type: POZEMOK - LESNÝ POZEMOK
   cadastral_territory: BUDIŠ
   lv_number: '302'
-  share: 1/96 + 2/48 + 1/32
+  share: 1/96, 2/48, 1/32
 - type: POZEMOK - ORNÁ PÔDA
   cadastral_territory: BUDIŠ
   lv_number: '308'
@@ -150,14 +160,14 @@ real_estate:
   cadastral_territory: RUDNO
   lv_number: '610'
   share: 1/26
+- type: POZEMOK - PARCELA REGISTRA E - 2X
+  cadastral_territory: LIEŠNO
+  lv_number: '224'
+  share: 1/20
 - type: POZEMOK - PARCELA REGISTRA E - 5 X
   cadastral_territory: BUDIŠ
   lv_number: '117'
   share: 3/12
-- type: POZEMOK - PARCELA REGISTRA E -2X
-  cadastral_territory: LIEŠNO
-  lv_number: '224'
-  share: 1/20
 - type: POZEMOK - PARCELY REGISTRA E - 2X
   cadastral_territory: LIEŠNO
   lv_number: '297'
@@ -166,7 +176,7 @@ real_estate:
   cadastral_territory: KAĽAMENOVÁ
   lv_number: '135'
   share: 50/192
-- type: POZEMOK - PARCELY REGISTRA E - 9 X
+- type: POZEMOK - PARCELY REGISTRA E 9 X
   cadastral_territory: BUDIŠ
   lv_number: '119'
   share: 1/4
@@ -226,10 +236,6 @@ real_estate:
   cadastral_territory: BUDIŠ
   lv_number: '358'
   share: 3/4
-- type: POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE
-  cadastral_territory: BUDIŠ
-  lv_number: '67'
-  share: 1/57
 - type: POZEMOK - ZÁHRADA
   cadastral_territory: BUDIŠ
   lv_number: '361'
@@ -238,14 +244,14 @@ real_estate:
   cadastral_territory: BUDIŠ
   lv_number: '397'
   share: 1/4
-- type: RODINNÝ DOM, HOSPODÁRSKA BUDOVA, GARÁŽ, POZEMKY
+- type: RODINNÝ DOM, HOSPODÁRSKA BUDOVÁ, GARÁŽ, POZEMKY
   cadastral_territory: TURČIANSKE TEPLICE
   lv_number: '31'
   share: 1/2
 movable_property: null
 property_rights:
-- 'OSOBNÝ ÚČET + VKLADNÁ KNIŽKA + SPORENIA + TERMINOVANÝ VKLAD, podiel: 1/2 BSM'
-- 'TERMÍNOVANÝ VKLAD, podiel: 1/2 BSM'
+- 'OSOBNY ÚČET, VKLADNÁ KNIŽKA, SPORENIA, TERMÍNOVANÝ VKLAD, podiel: 1/2 BSM'
+- 'TERMÍNOVANÝ VKLAD  - BANKA 2, podiel: 1/2 BSM'
 obligations:
 - type: žiadny
 use_of_others_real_estate: null

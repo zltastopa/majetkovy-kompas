@@ -1,13 +1,13 @@
 id: Z235181
-declaration_id: 25611
+declaration_id: 28093
 name: Mgr. MARTIN DOROCIAK
-year: 2021
-filed: pri ujatí sa funkcie
+year: 2022
+filed: k 30. aprílu
 public_function: riaditeľ Kancelárie Rady pre vysielanie a retransmisiu
 public_functions:
 - riaditeľ Kancelárie Rady pre vysielanie a retransmisiu
 income:
-  public_function: 0
+  public_function: 7103
   other: 0
 incompatibility: true
 employment: 'RADA PRE MEDIÁLNE SLUŽBY
@@ -26,7 +26,7 @@ real_estate:
   cadastral_territory: TURZOVKA
   lv_number: '6060'
   share: 5/18
-- type: LESNÝ POZEMOK + TRVALÝ TRÁVNY PORAST
+- type: LESNÝ POZEMOK, TRVALÝ TRÁVNY PORAST
   cadastral_territory: TURZOVKA
   lv_number: '6059'
   share: 1/6
@@ -46,15 +46,15 @@ real_estate:
   cadastral_territory: TURZOVKA
   lv_number: '9466'
   share: 7/128
-- type: ORNÁ PÔDA + TRVALÝ TRÁVNY PORAST
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: TURZOVKA
   lv_number: '4958'
   share: 7/128
-- type: ORNÁ PÔDA + TRVALÝ TRÁVNY PORAST
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: TURZOVKA
   lv_number: '6050'
   share: 1/2
-- type: ORNÁ PÔDA + ZASTAVANÁ PLOCHA A NÁDVORIE
+- type: ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: TURZOVKA
   lv_number: '8316'
   share: 7/128
@@ -90,11 +90,11 @@ real_estate:
   cadastral_territory: TURZOVKA
   lv_number: '4908'
   share: 259/1024
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE + GARÁŽ
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE, GARÁŽ
   cadastral_territory: LIPTOVSKÝ MIKULÁŠ
   lv_number: '1850'
   share: 1/2
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE + ORNÁ PÔDA
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA
   cadastral_territory: TURZOVKA
   lv_number: '4785'
   share: 5/64
@@ -107,8 +107,7 @@ movable_property:
   brand: ŠKODA
   year_of_manufacture: 2016
   share: BSM
-property_rights:
-- 'PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 16%'
+property_rights: null
 obligations:
 - type: HYPOTEKÁRNY ÚVER
   share: 1/1
