@@ -36,6 +36,39 @@
 
   const rows = Array.from(list.querySelectorAll(".person-row"));
   const collator = new Intl.Collator("sk", { sensitivity: "base" });
+  const searchHints = [
+    "Robert Fico",
+    "minister financií",
+    "primátor Bratislava",
+    "župan",
+    "predseda úradu",
+  ];
+
+  function setupSearchHints() {
+    if (!searchHints.length) {
+      return;
+    }
+
+    let index = 0;
+    const renderHint = () => {
+      if (search.value.trim() || document.activeElement === search) {
+        return;
+      }
+      search.placeholder = `Skús: ${searchHints[index]}`;
+      index = (index + 1) % searchHints.length;
+    };
+
+    renderHint();
+    window.setInterval(renderHint, 2600);
+
+    search.addEventListener("focus", () => {
+      search.placeholder = "Hľadať meno, funkciu...";
+    });
+
+    search.addEventListener("blur", () => {
+      renderHint();
+    });
+  }
 
   function getMetric(row, key) {
     return Number(row.dataset[key] || 0);
@@ -93,5 +126,6 @@
 
   search.addEventListener("input", applyFilters);
   sort.addEventListener("change", applyFilters);
+  setupSearchHints();
   applyFilters();
 })();

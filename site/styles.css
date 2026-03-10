@@ -45,7 +45,7 @@ a:hover {
 }
 
 .site-header {
-  padding: 2rem 0 1.2rem;
+  padding: 1.2rem 0 0.65rem;
 }
 
 .site-header h1 {
@@ -58,9 +58,9 @@ a:hover {
 .site-header h1::before {
   content: "";
   display: block;
-  width: 92px;
-  height: 92px;
-  margin: 0 0 0.55rem;
+  width: 84px;
+  height: 84px;
+  margin: 0 0 0.38rem;
   border-radius: 18px;
   background: url("majetkovy-kompas-logo.png") center / contain no-repeat;
 }
@@ -72,23 +72,24 @@ a:hover {
 .subtitle {
   color: var(--muted);
   font-size: 0.9rem;
-  margin-top: 0.15rem;
+  margin-top: 0.08rem;
 }
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 0.9rem;
-  margin-top: 1.15rem;
+  grid-template-columns: 1fr 1fr 1.08fr 1.14fr 1.24fr;
+  gap: 0.75rem;
+  margin-top: 0.68rem;
   font-size: 0.85rem;
 }
 
 .stat {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 132px;
-  padding: 0.7rem 0.82rem;
+  justify-content: flex-start;
+  gap: 0.34rem;
+  min-height: 108px;
+  padding: 0.58rem 0.82rem;
   border: 1px solid var(--border);
   border-radius: 14px;
   background: var(--card-bg);
@@ -103,13 +104,15 @@ a:hover {
 
 .stat-label {
   color: var(--muted);
-  font-size: 0.75rem;
+  font-size: 0.74rem;
+  line-height: 1.22;
 }
 
 .stat-source {
-  margin-top: 0.15rem;
+  margin-top: 0.08rem;
   color: var(--muted);
   font-size: 0.68rem;
+  line-height: 1.2;
 }
 
 .stat--median {
@@ -125,11 +128,21 @@ a:hover {
   background: var(--card-bg);
 }
 
+.stat--median-secondary .stat-label {
+  font-size: 0.7rem;
+  line-height: 1.16;
+}
+
+.stat--median-secondary .stat-source {
+  font-size: 0.62rem;
+  line-height: 1.16;
+}
+
 .landing-tabs {
   display: flex;
   gap: 0.45rem;
   border-bottom: 0;
-  margin: 1.5rem 0 1rem;
+  margin: 0.82rem 0 0.75rem;
   overflow-x: auto;
 }
 
@@ -290,14 +303,14 @@ a:hover {
 }
 
 .explainer {
-  margin-top: 0.85rem;
-  padding: 0.7rem 0.95rem;
+  margin-top: 0.55rem;
+  padding: 0.76rem 0.95rem;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--card-bg);
   color: var(--fg);
-  font-size: 0.82rem;
-  line-height: 1.5;
+  font-size: 0.96rem;
+  line-height: 1.52;
   box-shadow: var(--shadow-soft);
 }
 
@@ -305,6 +318,7 @@ a:hover {
   cursor: pointer;
   font-weight: 700;
   color: var(--fg);
+  font-size: 0.99rem;
 }
 
 .explainer p {
@@ -314,7 +328,7 @@ a:hover {
 .controls {
   display: flex;
   gap: 0.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.72rem;
   flex-wrap: wrap;
 }
 
@@ -325,11 +339,17 @@ a:hover {
 
 .search-box input {
   width: 100%;
-  padding: 0.65rem 1rem;
-  font-size: 0.95rem;
+  padding: 0.82rem 1rem;
+  font-size: 1.02rem;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--card-bg);
+  font-weight: 560;
+}
+
+.search-box input::placeholder {
+  color: var(--muted);
+  opacity: 0.9;
 }
 
 .search-box input:focus,
@@ -341,11 +361,11 @@ a:hover {
 
 .sort-select select,
 .year-tabs button {
-  padding: 0.65rem 0.75rem;
+  padding: 0.82rem 0.82rem;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--card-bg);
-  font-size: 0.85rem;
+  font-size: 0.98rem;
   cursor: pointer;
   box-shadow: var(--shadow-soft);
 }
@@ -1004,6 +1024,18 @@ a:hover {
   border: 0;
 }
 
+@media (max-width: 1100px) {
+  .stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 860px) {
+  .stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 640px) {
   .stats {
     grid-template-columns: 1fr;
@@ -1014,9 +1046,9 @@ a:hover {
   }
 
   .site-header h1::before {
-    width: 76px;
-    height: 76px;
-    margin-bottom: 0.45rem;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 0.35rem;
   }
 
   .data-row {

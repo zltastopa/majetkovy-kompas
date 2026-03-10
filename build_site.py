@@ -495,7 +495,7 @@ def header_stats(meta, stats=None):
         slovak_median = SK_MEDIAN_INCOME[slovak_median_year]
         median_markup = f"""
   <div class="stat stat--median"><span class="stat-value">{fmt_currency(stats["median_income"])}</span><span class="stat-label">medián funkcionárov</span></div>
-  <div class="stat stat--median stat--median-secondary"><span class="stat-value">{fmt_currency(slovak_median)}</span><span class="stat-label"><a href="{SK_MEDIAN_SOURCE}" target="_blank" rel="noreferrer">ročný medián na Slovensku</a></span><span class="stat-source">zdroj {slovak_median_year}: {fmt_int(annual_to_monthly(slovak_median))} €/mes.</span></div>
+  <div class="stat stat--median stat--median-secondary"><span class="stat-value">{fmt_currency(slovak_median)}</span><span class="stat-label"><a href="{SK_MEDIAN_SOURCE}" target="_blank" rel="noreferrer">ročný medián SR</a></span><span class="stat-source">zdroj {slovak_median_year}: {fmt_int(annual_to_monthly(slovak_median))} €/mes.</span></div>
 """
     return f"""
 <div class="stats">
@@ -509,7 +509,7 @@ def header_stats(meta, stats=None):
 
 def header_explainer():
     return f"""
-<details class="explainer" open>
+<details class="explainer">
   <summary>Čo ukazujú údaje a grafy?</summary>
   <p>Majetkový kompas spracúva verejné majetkové priznania z <a href="{NRSR_LIST_URL}" target="_blank" rel="noreferrer">NR SR</a>. Profil osoby ukazuje posledné priznania po rokoch, graf príjmov zobrazuje vývoj v čase a režim porovnania kladie starší rok vľavo a novší vpravo.</p>
 </details>
@@ -581,7 +581,7 @@ def render_home(index, highlights, meta, stats):
   <div class="controls">
     <label class="search-box">
       <span class="sr-only">Hľadať</span>
-      <input id="search" type="search" placeholder="Hľadať meno, funkciu...">
+      <input id="search" type="search" placeholder="Skús: Robert Fico, minister financií, primátor">
     </label>
     <label class="sort-select">
       <span class="sr-only">Triediť</span>
