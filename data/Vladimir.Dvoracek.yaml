@@ -1,14 +1,14 @@
 id: N141778
-declaration_id: 10542
+declaration_id: 15286
 name: Ing. VLADIMÍR DVOŘÁČEK
-year: 2018
-filed: k 31. marcu
+year: 2019
+filed: k 30. aprílu
 public_function: člen Bankovej rady Národnej banky Slovenska
 public_functions:
 - člen Bankovej rady Národnej banky Slovenska
 income:
   public_function: 48000
-  other: 0
+  other: 125794
 incompatibility: true
 employment: 'NÁRODNÁ BANKA SLOVENSKA
 
@@ -26,31 +26,42 @@ positions:
 real_estate:
 - type: BYT
   cadastral_territory: BRATISLAVA STARÉ MESTO
-  share: 100 %
+  lv_number: '3606'
+  share: BSM
 - type: BYT
   cadastral_territory: DONOVALY
-  share: 100 %
-- type: RODINNÝ DOM
-  cadastral_territory: STUPAVA
-  share: 100 %
-- type: TRVALÉ TRÁVNE PORASTY
+  lv_number: '730'
+  share: BSM
+- type: RODINNÝ DOM, ZÁHRADNÁ CHATA, ZÁHRADA
+  cadastral_territory: STÚPAVA
+  lv_number: '429'
+  share: BSM
+- type: ZASTAVANÉ PLOCHY A NÁDVORIA
+  cadastral_territory: STÚPAVA
+  lv_number: '1723'
+  share: BSM
+- type: ZASTAVANÉ PLOCHY A NÁDVORIA, TRVALÉ TRÁVNE PORASTY
   cadastral_territory: DONOVALY
+  lv_number: '2813'
   share: 25 %
-- type: TRVALÉ TRÁVNE PORASTY
+- type: ZASTAVANÉ PLOCHY A NÁDVORIA, TRVALÉ TRÁVNE PORASTY
   cadastral_territory: DONOVALY
+  lv_number: '2814'
   share: 50 %
-- type: ZASTAVANÉ PLOCHY A NÁDVORIA
-  cadastral_territory: DONOVALY
-  share: 25 %
-- type: ZASTAVANÉ PLOCHY A NÁDVORIA
-  cadastral_territory: DONOVALY
-  share: 50 %
-- type: ZASTAVANÉ PLOCHY A NÁDVORIA
-  cadastral_territory: STUPAVA
-  share: 100 %
-- type: ZÁHRADA
-  cadastral_territory: STUPAVA
-  share: 100 %
-- type: ZÁHRADNÁ CHATA
-  cadastral_territory: STUPAVA
-  share: 100 %
+movable_property:
+- type: OSOBNÉ MOTOROVÉ VOZIDLO
+  brand: LAND ROVER
+  year_of_manufacture: 2010
+  share: BSM
+- type: ZARIADENIE
+  share: BSM
+property_rights:
+- 'VKLADY V BANKÁCH, podiel: BSM'
+obligations:
+- type: žiadny
+use_of_others_real_estate: null
+vehicles:
+- type: OSOBNÉ MOTOROVÉ VOZIDLO
+  brand: VOLKSWAGEN
+  year_of_manufacture: 2014
+gifts: null

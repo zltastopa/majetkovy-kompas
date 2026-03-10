@@ -1,13 +1,14 @@
 id: D192288
-declaration_id: 10706
+declaration_id: 16510
 name: JUDr. ROMAN KONEČNÝ
-year: 2018
-filed: pri ujatí sa funkcie
-public_function: vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky
+year: 2019
+filed: k 30. aprílu
+public_function: vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (NÁRODNÝ BEZPEČNOSTNÝ
+  ÚRAD)
 public_functions:
-- vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky
+- vedúci ústredného orgánu štátnej správy, ktorý nie je členom vlády Slovenskej republiky (NÁRODNÝ BEZPEČNOSTNÝ ÚRAD)
 income:
-  public_function: 0
+  public_function: 21509
   other: 0
 incompatibility: true
 employment: null
@@ -16,22 +17,39 @@ positions: null
 real_estate:
 - type: ORNÁ PÔDA
   cadastral_territory: BIEL OKR. TREBIŠOV
-  share: 75 %
+  lv_number: '864'
+  share: 3/4
 - type: TRVALÝ TRÁVNATÝ PORAST
   cadastral_territory: BIEL OKR. TREBIŠOV
-  share: 0,16 %
+  lv_number: '684'
+  share: 144/864
 - type: ZASTAVANÉ PLOCHY A NÁDVORIA
   cadastral_territory: NOVÉ ZÁMKY
-  share: 25 %
-- type: ZASTAVANÉ PLOCHY A NÁDVORIA
-  cadastral_territory: NOVÉ ZÁMKY
-  share: 25 %
-- type: ZASTAVANÉ PLOCHY A NÁDVORIA-RODINNÝ DOM (BSM)
-  cadastral_territory: NOVÁ DEDINKA-DEDINKA PRI DUNAJI
-  share: 100 %
+  lv_number: '4094'
+  share: 1/4
+- type: ZASTAVANÉ PLOCHY A NÁDVORIA - RODINNÝ DOM
+  cadastral_territory: NOVÁ DEDINKA - DEDINKA PRI DUNAJI
+  lv_number: '948'
+  share: 1/1
+- type: ZÁHRADY
+  cadastral_territory: NOVÁ DEDINKA - DEDINKA PRI DUNAJI
+  lv_number: '948'
+  share: 1/1
 - type: ZÁHRADY
   cadastral_territory: NOVÉ ZÁMKY
-  share: 25 %
-- type: ZÁHRADY (BSM)
-  cadastral_territory: NOVÁ DEDINKA-DEDINKA PRI DUNAJI
-  share: 100 %
+  lv_number: '4094'
+  share: 1/4
+movable_property:
+- type: OSOBNÝ AUTOMOBIL
+  brand: VOLKSWAGEN
+  year_of_manufacture: 2019
+  share: 1/2
+property_rights:
+- 'ÚSPORY V BANKE, podiel: 1/1'
+obligations:
+- type: LEASING NA MOTOROVÉ VOZIDLO
+  share: 1/1 (BSM)
+  date: 24. 09. 2019
+use_of_others_real_estate: null
+vehicles: null
+gifts: null
