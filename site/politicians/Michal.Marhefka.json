@@ -10,7 +10,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -442,17 +443,84 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "P225151",
+        "declaration_id": 37882,
+        "name": "Mgr. MICHAL MARHEFKA, MBA",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
+        "income": {
+          "public_function": 46770,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT V BYTOVOM DOME VRÁTANE SPOLOČNÝCH PRIESTOROV",
+            "cadastral_territory": "PODOLÍNEC",
+            "lv_number": "2449",
+            "share": "1/1 BSM"
+          },
+          {
+            "type": "POZEMKY V REKREAČNEJ ZÓNE KN-C 2527/102 A 2385/19",
+            "cadastral_territory": "VYŠNÉ RUŽBACHY",
+            "lv_number": "664",
+            "share": "1/1 BSM"
+          },
+          {
+            "type": "RODINNÝ DOM VRÁTANE POZEMKOV KN-C 118/2 A 118/1",
+            "cadastral_territory": "PODOLÍNEC",
+            "lv_number": "363",
+            "share": "1/6"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "INVESTIČNY FOND, podiel: 1/1",
+          "INVESTIČNY FOND, podiel: 1/1",
+          "INVESTIČNY FOND, podiel: 1/1",
+          "INVESTIČNÝ FOND, podiel: 1/1"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "1/1",
+            "date": "29. 01. 2021"
+          },
+          {
+            "type": "ÚVER V KOMERČNEJ BANKE",
+            "share": "1/1",
+            "date": "20. 07. 2020"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 7,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Michal.Marhefka.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Michal.Marhefka.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Michal.Marhefka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Michal.Marhefka.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -460,7 +528,7 @@
   },
   "slug": "mgr-michal-marhefka-mba",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 46770,
     "properties": 3,
     "obligations": 2,

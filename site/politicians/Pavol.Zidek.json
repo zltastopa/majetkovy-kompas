@@ -8,7 +8,8 @@
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO SÍDLOM VO VARÍNE)",
   "years": [
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -226,17 +227,105 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC246206",
+        "declaration_id": 36760,
+        "name": "Ing. PAVOL ŽÍDEK",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO SÍDLOM VO VARÍNE)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA NÁRODNÉHO PARKU MALÁ FATRA SO SÍDLOM VO VARÍNE)"
+        ],
+        "income": {
+          "public_function": 23708,
+          "other": 528
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": [
+          {
+            "role": "POSLANEC OBECNÉHO ZASTUPITEĽSTVA",
+            "organization": "OBEC PETROVICE",
+            "benefits": "ODMENA"
+          }
+        ],
+        "real_estate": [
+          {
+            "type": "LESNÝ POZEMOK",
+            "cadastral_territory": "PETROVICE",
+            "lv_number": "1735",
+            "share": "575/61560"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "PETROVICE",
+            "lv_number": "3383",
+            "share": "8/11"
+          },
+          {
+            "type": "TRVALÝ TRÁVNATÝ PORAST",
+            "cadastral_territory": "HLBOKÉ NAD VÁHOM",
+            "lv_number": "2053",
+            "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "HLBOKÉ NAD VÁHOM",
+            "lv_number": "1835",
+            "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "PETROVICE",
+            "lv_number": "2880",
+            "share": "1/2"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "PETROVICE",
+            "lv_number": "3209",
+            "share": "1/2"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "MOTOROVÉ VOZIDLO",
+            "brand": "DACIA",
+            "year_of_manufacture": 2017,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "ÚVER NA BÝVANIE",
+            "share": "BSM",
+            "date": "28. 09. 2003"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 3,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Pavol.Zidek.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Pavol.Zidek.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Pavol.Zidek.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Pavol.Zidek.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -244,7 +333,7 @@
   },
   "slug": "ing-pavol-zidek",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 24236,
     "properties": 6,
     "obligations": 1,

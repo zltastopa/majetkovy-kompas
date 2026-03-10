@@ -8,7 +8,9 @@
   "role": "poslanec Národnej rady Slovenskej republiky",
   "years": [
     2022,
-    2023
+    2023,
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -98,33 +100,195 @@
           }
         ]
       }
+    },
+    {
+      "year": 2024,
+      "data": {
+        "id": "B235500",
+        "declaration_id": 37229,
+        "name": "VILIAM TANKÓ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
+        "income": {
+          "public_function": 48912,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "VÁHOVCE",
+            "lv_number": "100",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "DONGFENG",
+            "year_of_manufacture": 2024,
+            "share": "100%"
+          }
+        ],
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "BSM",
+            "date": "04. 07. 2024"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "changed",
+        "changes": [
+          {
+            "field": "income",
+            "old": {
+              "public_function": 11736,
+              "other": 0
+            },
+            "new": {
+              "public_function": 48912,
+              "other": 0
+            },
+            "old_total": 11736,
+            "new_total": 48912,
+            "delta": 37176,
+            "delta_pct": 316.8
+          },
+          {
+            "field": "real_estate",
+            "old": null,
+            "new": [
+              {
+                "type": "RODINNÝ DOM",
+                "cadastral_territory": "VÁHOVCE",
+                "lv_number": "100",
+                "share": "BSM"
+              }
+            ]
+          },
+          {
+            "field": "movable_property",
+            "old": null,
+            "new": [
+              {
+                "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+                "brand": "DONGFENG",
+                "year_of_manufacture": 2024,
+                "share": "100%"
+              }
+            ]
+          },
+          {
+            "field": "obligations",
+            "old": [
+              {
+                "type": "žiadny"
+              }
+            ],
+            "new": [
+              {
+                "type": "HYPOTEKÁRNY ÚVER",
+                "share": "BSM",
+                "date": "04. 07. 2024"
+              }
+            ],
+            "old_count": 1,
+            "new_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "B235500",
+        "declaration_id": 37229,
+        "name": "VILIAM TANKÓ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
+        "income": {
+          "public_function": 48912,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "VÁHOVCE",
+            "lv_number": "100",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "DONGFENG",
+            "year_of_manufacture": 2024,
+            "share": "100%"
+          }
+        ],
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "BSM",
+            "date": "04. 07. 2024"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
-  "total_changes": 1,
+  "total_changes": 5,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Viliam.Tanko.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Viliam.Tanko.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Viliam.Tanko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Viliam.Tanko.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "viliam-tanko",
   "context": {
-    "latest_year": 2023,
-    "income": 11736,
-    "properties": 0,
+    "latest_year": 2025,
+    "income": 48912,
+    "properties": 1,
     "obligations": 1,
-    "income_percentile": 21,
-    "property_percentile": 9,
+    "income_percentile": 47,
+    "property_percentile": 20,
     "median_income": 57012,
     "median_properties": 3,
-    "slovak_median_income": 17200,
-    "slovak_income_multiple": 0.7
+    "slovak_median_income": 18000,
+    "slovak_income_multiple": 2.7
   }
 }

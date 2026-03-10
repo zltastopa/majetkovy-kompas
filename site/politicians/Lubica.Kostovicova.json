@@ -8,6 +8,7 @@
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TRANSPETROL, A.S.)",
   "years": [
     2022,
+    2023,
     2024
   ],
   "timeline": [
@@ -77,6 +78,144 @@
       }
     },
     {
+      "year": 2023,
+      "data": {
+        "id": "ZC235720",
+        "declaration_id": 33646,
+        "name": "Ing. ĽUBICA KOSTOVIČOVÁ",
+        "year": 2023,
+        "filed": "k 30. aprílu",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TRANSPETROL, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TRANSPETROL, A.S.)"
+        ],
+        "income": {
+          "public_function": 2197,
+          "other": 3890
+        },
+        "incompatibility": true,
+        "employment": "TRANSPETROL, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "BRATISLAVA IV - DÚBRAVKA",
+            "lv_number": "3537,3537,4714",
+            "share": "1/2,1584/376167"
+          },
+          {
+            "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "BRATISLAVA IV - LAMAČ",
+            "lv_number": "2202,2974",
+            "share": "1/1,4300/179456"
+          },
+          {
+            "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "BRATISLAVA IV - LAMAČ",
+            "lv_number": "2258,3341",
+            "share": "1/1,4300/179456"
+          },
+          {
+            "type": "RODINNÝ DOM, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE, OSTATNÁ PLOCHA",
+            "cadastral_territory": "MARIÁNKA",
+            "lv_number": "1951, 2183",
+            "share": "1/1,1/3000"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "AKCIE Z KUPÓNOVEJ PRIVATIZÁCIE, podiel: 1/1",
+          "DOPLNKOVÉ DÔCHODKOVÉ SPORENIE, podiel: 1/1",
+          "OSOBNÉ BANKOVÉ ÚČTY, podiel: 1/1"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "changed",
+        "changes": [
+          {
+            "field": "income",
+            "old": {
+              "public_function": 0,
+              "other": 0
+            },
+            "new": {
+              "public_function": 2197,
+              "other": 3890
+            },
+            "old_total": 0,
+            "new_total": 6087,
+            "delta": 6087
+          },
+          {
+            "field": "real_estate",
+            "old": [
+              {
+                "type": "BYT, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "BRATISLAVA IV-DÚBRAVKA",
+                "lv_number": "3537,3537,4714",
+                "share": "1/2,1584/376167"
+              },
+              {
+                "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "BRATISLAVA IV-LAMAČ",
+                "lv_number": "2202,2974",
+                "share": "1/1,4300/179456"
+              },
+              {
+                "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "BRATISLAVA IV-LAMAČ",
+                "lv_number": "2258,3341",
+                "share": "1/1,4300/179456"
+              },
+              {
+                "type": "RODINNÝ DOM, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE, OSTATNÁ PLOCHA",
+                "cadastral_territory": "MARIÁNKA",
+                "lv_number": "1951,2183",
+                "share": "1/1,1/3000"
+              }
+            ],
+            "new": [
+              {
+                "type": "BYT, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "BRATISLAVA IV - DÚBRAVKA",
+                "lv_number": "3537,3537,4714",
+                "share": "1/2,1584/376167"
+              },
+              {
+                "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "BRATISLAVA IV - LAMAČ",
+                "lv_number": "2202,2974",
+                "share": "1/1,4300/179456"
+              },
+              {
+                "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "BRATISLAVA IV - LAMAČ",
+                "lv_number": "2258,3341",
+                "share": "1/1,4300/179456"
+              },
+              {
+                "type": "RODINNÝ DOM, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE, OSTATNÁ PLOCHA",
+                "cadastral_territory": "MARIÁNKA",
+                "lv_number": "1951, 2183",
+                "share": "1/1,1/3000"
+              }
+            ],
+            "old_count": 4,
+            "new_count": 4
+          }
+        ]
+      }
+    },
+    {
       "year": 2024,
       "data": {
         "id": "ZC235720",
@@ -138,21 +277,115 @@
         "gifts": null
       },
       "diff": {
-        "type": "new"
+        "type": "changed",
+        "changes": [
+          {
+            "field": "income",
+            "old": {
+              "public_function": 2197,
+              "other": 3890
+            },
+            "new": {
+              "public_function": 40236,
+              "other": 106111
+            },
+            "old_total": 6087,
+            "new_total": 146347,
+            "delta": 140260,
+            "delta_pct": 2304.3
+          },
+          {
+            "field": "employment",
+            "old": "TRANSPETROL, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+            "new": "TRANSPETROL. A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+          },
+          {
+            "field": "real_estate",
+            "old": [
+              {
+                "type": "BYT, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "BRATISLAVA IV - DÚBRAVKA",
+                "lv_number": "3537,3537,4714",
+                "share": "1/2,1584/376167"
+              },
+              {
+                "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "BRATISLAVA IV - LAMAČ",
+                "lv_number": "2202,2974",
+                "share": "1/1,4300/179456"
+              },
+              {
+                "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "BRATISLAVA IV - LAMAČ",
+                "lv_number": "2258,3341",
+                "share": "1/1,4300/179456"
+              },
+              {
+                "type": "RODINNÝ DOM, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE, OSTATNÁ PLOCHA",
+                "cadastral_territory": "MARIÁNKA",
+                "lv_number": "1951, 2183",
+                "share": "1/1,1/3000"
+              }
+            ],
+            "new": [
+              {
+                "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "BRATISLAVA IV - LAMAČ",
+                "lv_number": "2202,2974",
+                "share": "1/1, 4300/179456"
+              },
+              {
+                "type": "BYT, ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "BRATISLAVA IV - LAMAČ",
+                "lv_number": "2258, 3341",
+                "share": "1/1, 4300/179456"
+              },
+              {
+                "type": "BYTM, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE",
+                "cadastral_territory": "BRATISLA IV - DÚBRAVKA",
+                "lv_number": "3537, 3537, 4714",
+                "share": "1/2, 1584/376167"
+              },
+              {
+                "type": "RODINNÝ DOM, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE, OSTATNÉ PLOCHY",
+                "cadastral_territory": "MARIÁNKA",
+                "lv_number": "1951, 2183",
+                "share": "1/1, 1/3000"
+              }
+            ],
+            "old_count": 4,
+            "new_count": 4
+          },
+          {
+            "field": "property_rights",
+            "old": [
+              "AKCIE Z KUPÓNOVEJ PRIVATIZÁCIE, podiel: 1/1",
+              "DOPLNKOVÉ DÔCHODKOVÉ SPORENIE, podiel: 1/1",
+              "OSOBNÉ BANKOVÉ ÚČTY, podiel: 1/1"
+            ],
+            "new": [
+              "AKCIE, podiel: 1/1",
+              "DOPLNKOVÉ DÔCHODKOVÉ SPORENIE, podiel: 1/1",
+              "OSOBNÉ BANKOVÉ ÚČTY, podiel: 1/1"
+            ],
+            "old_count": 3,
+            "new_count": 3
+          }
+        ]
       }
     }
   ],
-  "total_changes": 0,
+  "total_changes": 6,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Lubica.Kostovicova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Lubica.Kostovicova.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Lubica.Kostovicova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Lubica.Kostovicova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "removed"
     },
     "summary": []
   },

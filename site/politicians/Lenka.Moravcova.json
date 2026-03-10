@@ -9,7 +9,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -281,17 +282,70 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC235685",
+        "declaration_id": 37768,
+        "name": "Ing. LENKA MORAVCOVÁ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AUTOMOBILOVÉ OPRAVOVNE MINISTERSTVA VNÚTRA SLOVENSKEJ REPUBLIKY, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (AUTOMOBILOVÉ OPRAVOVNE MINISTERSTVA VNÚTRA SLOVENSKEJ REPUBLIKY, A.S.)"
+        ],
+        "income": {
+          "public_function": 10768,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": "KONATEĽ(WIDIES S.R.O.)",
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "3653",
+            "share": "4/12 BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "3653",
+            "share": "4/12 BSM"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "OBCHODNÝ PODIEL V S.R.O., podiel: 100%"
+        ],
+        "obligations": [
+          {
+            "type": "ÚVER NA BYVANIE",
+            "share": "BSM",
+            "date": "09. 01. 2020"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 8,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Lenka.Moravcova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Lenka.Moravcova.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Lenka.Moravcova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Lenka.Moravcova.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -299,7 +353,7 @@
   },
   "slug": "ing-lenka-moravcova",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 10768,
     "properties": 2,
     "obligations": 1,

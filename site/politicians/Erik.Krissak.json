@@ -12,7 +12,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -779,17 +780,77 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC202740",
+        "declaration_id": 36832,
+        "name": "Mgr. ERIK KRIŠŠÁK",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÉ OSVETOVÉ CENTRUM)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÉ OSVETOVÉ CENTRUM)"
+        ],
+        "income": {
+          "public_function": 37898,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYTOVÝ DOM - BYT",
+            "cadastral_territory": "NIVY",
+            "lv_number": "2263",
+            "share": "1/2"
+          },
+          {
+            "type": "BYTOVÝ DOM - BYT",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "5150",
+            "share": "1/2 BSM"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "MAZDA",
+            "year_of_manufacture": 2016,
+            "share": "1/2"
+          }
+        ],
+        "property_rights": [
+          "ÚSPORY, podiel: 1/1"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTÉKA",
+            "share": "1/1",
+            "date": "16. 03. 2022"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 20,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Erik.Krissak.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Erik.Krissak.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Erik.Krissak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Erik.Krissak.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -797,11 +858,11 @@
   },
   "slug": "mgr-erik-krissak",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 37898,
     "properties": 2,
     "obligations": 1,
-    "income_percentile": 33,
+    "income_percentile": 34,
     "property_percentile": 36,
     "median_income": 57012,
     "median_properties": 3,

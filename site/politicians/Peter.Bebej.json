@@ -10,7 +10,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -722,17 +723,101 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "G224971",
+        "declaration_id": 37944,
+        "name": "JUDr. PETER BEBEJ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen Súdnej rady Slovenskej republiky",
+        "public_functions": [
+          "člen Súdnej rady Slovenskej republiky"
+        ],
+        "income": {
+          "public_function": 0,
+          "other": 78874
+        },
+        "incompatibility": true,
+        "employment": "OKRESNÝ SÚD NÁMESTOVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "DOLNÝ KUBÍN",
+            "lv_number": "4307",
+            "share": "1/1- BSM"
+          },
+          {
+            "type": "GARÁŽ RADOVÁ + POZEMOK",
+            "cadastral_territory": "DOLNÝ KUBÍN",
+            "lv_number": "3172",
+            "share": "1/1"
+          },
+          {
+            "type": "GARÁŽ RADOVÁ - SPODNÁ + POZEMOK",
+            "cadastral_territory": "DOLNÝ KUBÍN",
+            "lv_number": "4984, 4578",
+            "share": "1/1 - BSM, 1/2 - BSM"
+          },
+          {
+            "type": "POZEMKY A PRÍSLUŠENSTVO ROD.DOMU",
+            "cadastral_territory": "DOLNÝ KUBÍN",
+            "lv_number": "3172, 6284",
+            "share": "1/1, 4/5"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "DOLNÝ KUBÍN",
+            "lv_number": "5732",
+            "share": "4/5, 1/5- BSM"
+          },
+          {
+            "type": "SPOLOČNÁ NEHNUTEĽNOSŤ - URBÁR",
+            "cadastral_territory": "ZÁBIEDOVO",
+            "lv_number": "863, 2497",
+            "share": "197701/2783121"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "MOBILNÝ DOM",
+            "share": "1/1- BSM"
+          },
+          {
+            "type": "ÚSPORY",
+            "share": "1/1 - BSM"
+          }
+        ],
+        "property_rights": [
+          "PODIELOVÉ FONDY A INVESTIČNÉ POISTENIE, podiel: 1/1-BSM"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 13,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Peter.Bebej.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Peter.Bebej.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Peter.Bebej.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Peter.Bebej.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -740,7 +825,7 @@
   },
   "slug": "judr-peter-bebej",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 78874,
     "properties": 6,
     "obligations": 1,

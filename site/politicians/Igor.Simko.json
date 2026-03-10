@@ -9,7 +9,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -281,17 +282,88 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "B235479",
+        "declaration_id": 38402,
+        "name": "Ing. IGOR ŠIMKO, PhD.,MBA",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
+        "income": {
+          "public_function": 49002,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": [
+          {
+            "role": "EXTERNÝ ČLEN VEDECKEJ RADY",
+            "organization": "FAKULTA BERG, TECHNICKÁ UNIVERZITA KOŠICE",
+            "benefits": "FUNKCIA JE ČESTNÁ - AKADEMICKÁ, NEPOBERÁM ŽIADNE POŽITKY"
+          }
+        ],
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "TERASA",
+            "lv_number": "13841",
+            "share": "1/1"
+          },
+          {
+            "type": "RADOVÝ RODINNÝ DOM",
+            "cadastral_territory": "MALÁ IDA",
+            "lv_number": "1419",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "MOTOROVÉ VOZIDLO",
+            "brand": "MITSUBISHI",
+            "year_of_manufacture": 2016,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": [
+          "OBCHODNÝ PODIEL V SPOLOČNOSTI, podiel: 1/1"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "1/1",
+            "date": "04. 04. 2022"
+          },
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "BSM",
+            "date": "09. 05. 2019"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 4,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Igor.Simko.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Igor.Simko.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Igor.Simko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Igor.Simko.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -299,11 +371,11 @@
   },
   "slug": "ing-igor-simko-phd-mba",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 49002,
     "properties": 2,
     "obligations": 2,
-    "income_percentile": 47,
+    "income_percentile": 48,
     "property_percentile": 36,
     "median_income": 57012,
     "median_properties": 3,

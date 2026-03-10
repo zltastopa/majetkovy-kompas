@@ -8,7 +8,8 @@
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPP CZ, A.S.)",
   "years": [
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -170,17 +171,89 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC246024",
+        "declaration_id": 38098,
+        "name": "Mgr. VALÉR FERKO",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPP CZ, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPP CZ, A.S.)"
+        ],
+        "income": {
+          "public_function": 37604,
+          "other": 1800
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": [
+          {
+            "role": "POSLANEC OBECNÉHO ZASTUPITEĽSTVA",
+            "organization": "OBEC ROVINKA",
+            "benefits": "ODMENA"
+          }
+        ],
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "KOŠICE ZÁPAD",
+            "lv_number": "14671",
+            "share": "1/1"
+          },
+          {
+            "type": "RODINNÝ DOM, OSTATNÁ PLOCHA, ORNÁ PÔDA",
+            "cadastral_territory": "ROVINKA",
+            "lv_number": "4311",
+            "share": "BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+            "cadastral_territory": "ROVINKA",
+            "lv_number": "4311",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "ZARIADENIE DOMÁCNOSTI",
+            "share": "BSM"
+          }
+        ],
+        "property_rights": [
+          "FINANČNÉ ÚSPORY, podiel: BSM",
+          "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 100%",
+          "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 15%"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "BSM",
+            "date": "07. 01. 2022"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 1,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Valer.Ferko.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Valer.Ferko.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Valer.Ferko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Valer.Ferko.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -188,7 +261,7 @@
   },
   "slug": "mgr-valer-ferko",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 39404,
     "properties": 3,
     "obligations": 1,

@@ -12,7 +12,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -1264,17 +1265,119 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZN202324",
+        "declaration_id": 37016,
+        "name": "Mgr. MARTIN KATRIAK",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "vedúci Kancelárie Súdnej rady SR",
+        "public_functions": [
+          "vedúci Kancelárie Súdnej rady SR"
+        ],
+        "income": {
+          "public_function": 51984,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "GARÁŽ",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "9762",
+            "share": "1/76"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "9762",
+            "share": "1/1"
+          },
+          {
+            "type": "OSTATNÁ PLOCHA",
+            "cadastral_territory": "CHORVÁTSKY GROB",
+            "lv_number": "1958",
+            "share": "1/1 BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "CHORVÁTSKY GROB",
+            "lv_number": "1958",
+            "share": "1/1 BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "CHORVÁTSKY GROB",
+            "lv_number": "1958",
+            "share": "1/1 BSM"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "BMW",
+            "year_of_manufacture": 2013,
+            "share": "1/1"
+          },
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "PORSCHE",
+            "year_of_manufacture": 2015,
+            "share": "1/1"
+          },
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "PORSCHE",
+            "year_of_manufacture": 2018,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": [
+          "FINANČNÉ PROSTRIEDKY NA BANKOVÝCH ÚČTOCH, podiel: 1/1",
+          "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 1/2",
+          "ZARIADENIE DOMÁCNOSTI, podiel: 1/1"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "1/1",
+            "date": "19. 10. 2017"
+          },
+          {
+            "type": "PÔŽIČKA",
+            "share": "1/1",
+            "date": "31. 05. 2005"
+          },
+          {
+            "type": "ÚVER",
+            "share": "1/1",
+            "date": "16. 05. 2019"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 18,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Martin.Katriak.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Martin.Katriak.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Martin.Katriak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Martin.Katriak.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -1282,7 +1385,7 @@
   },
   "slug": "mgr-martin-katriak",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 51984,
     "properties": 5,
     "obligations": 3,

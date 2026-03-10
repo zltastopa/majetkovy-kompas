@@ -8,7 +8,8 @@
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA )",
   "years": [
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -316,17 +317,117 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC256476",
+        "declaration_id": 38190,
+        "name": "JUDr. RÓBERT BOCKANIČ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA )",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA )"
+        ],
+        "income": {
+          "public_function": 462,
+          "other": 77794
+        },
+        "incompatibility": true,
+        "employment": "SLOVENSKÁ ADVOKÁTSKA KOMORA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": "ADVOKÁT(ADVOKÁT)",
+        "positions": [
+          {
+            "role": "KONATEĽ",
+            "organization": "B&T CAPITAL",
+            "benefits": "ŽIADNE"
+          }
+        ],
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "BRATISLAVA RUŽINOV",
+            "lv_number": "4328,6128",
+            "share": "BSM"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "NITRA",
+            "lv_number": "1811",
+            "share": "1/2"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "PAŇA",
+            "lv_number": "750",
+            "share": "1/2"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "PAŇA",
+            "lv_number": "114",
+            "share": "3/7"
+          },
+          {
+            "type": "ZASTAVANÝ PLOCHY A NÁDVORIA",
+            "cadastral_territory": "PAŇA",
+            "lv_number": "108",
+            "share": "1/2"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "TOYOTA",
+            "year_of_manufacture": 2018,
+            "share": "100%"
+          },
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "TOYOTA",
+            "year_of_manufacture": 2021,
+            "share": "100%"
+          },
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "TOYOTA",
+            "year_of_manufacture": 2021,
+            "share": "100%"
+          },
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "TOYOTA",
+            "year_of_manufacture": 2023,
+            "share": "100%"
+          }
+        ],
+        "property_rights": [
+          "OBCHODNÝ PODIEL V SPOLOČNOSTI, podiel: 50%"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 5,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Robert.Bockanic.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Robert.Bockanic.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Robert.Bockanic.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Robert.Bockanic.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -334,11 +435,11 @@
   },
   "slug": "judr-robert-bockanic",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 78256,
     "properties": 5,
     "obligations": 1,
-    "income_percentile": 77,
+    "income_percentile": 78,
     "property_percentile": 66,
     "median_income": 57012,
     "median_properties": 3,

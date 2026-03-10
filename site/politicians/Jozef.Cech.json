@@ -9,7 +9,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -444,17 +445,127 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "B235510",
+        "declaration_id": 37929,
+        "name": "PaedDr. JOZEF CECH",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
+        "income": {
+          "public_function": 49908,
+          "other": 18797
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": [
+          {
+            "role": "POSLANEC",
+            "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
+            "benefits": "NOTEBOOK, ODMENA"
+          },
+          {
+            "role": "STAROSTA",
+            "organization": "OBEC SKALITÉ",
+            "benefits": "ODMENA, NOTEBOOK, TELEFÓN"
+          }
+        ],
+        "real_estate": [
+          {
+            "type": "BUDOVA",
+            "cadastral_territory": "SKALITÉ",
+            "lv_number": "6533",
+            "share": "100%"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "SKALITÉ",
+            "lv_number": "6533",
+            "share": "100%"
+          },
+          {
+            "type": "OSTATNÁ PLOCHA",
+            "cadastral_territory": "SKALITÉ",
+            "lv_number": "6533",
+            "share": "100%"
+          },
+          {
+            "type": "REKREAČNÝ DOMČEK",
+            "cadastral_territory": "SKALITÉ",
+            "lv_number": "6533",
+            "share": "100%"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "SKALITÉ",
+            "lv_number": "6533",
+            "share": "100%"
+          },
+          {
+            "type": "TRVALÝ TRÁVNY PORAST",
+            "cadastral_territory": "SKALITÉ",
+            "lv_number": "6533",
+            "share": "100%"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "SKALITÉ",
+            "lv_number": "6533",
+            "share": "100%"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "SKALITÉ",
+            "lv_number": "6533",
+            "share": "100%"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÉ VOZIDLO",
+            "brand": "ŠKODA",
+            "year_of_manufacture": 2021,
+            "share": "100%"
+          }
+        ],
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "100%",
+            "date": "14. 01. 2015"
+          },
+          {
+            "type": "SPOTREBITEĽSKÝ ÚVER",
+            "share": "100%",
+            "date": "18. 09. 2024"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 6,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jozef.Cech.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jozef.Cech.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Jozef.Cech.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Jozef.Cech.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -462,7 +573,7 @@
   },
   "slug": "paeddr-jozef-cech",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 68705,
     "properties": 8,
     "obligations": 2,

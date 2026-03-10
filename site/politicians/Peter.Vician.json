@@ -10,7 +10,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -456,17 +457,85 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZD224531",
+        "declaration_id": 37565,
+        "name": "Mgr. PETER VICIAN",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (SLOVTHERMAE KÚPELE DIAMANT DUDINCE Š.P.)",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (SLOVTHERMAE KÚPELE DIAMANT DUDINCE Š.P.)"
+        ],
+        "income": {
+          "public_function": 8400,
+          "other": 36367
+        },
+        "incompatibility": true,
+        "employment": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK Š.P.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "KRUPINA",
+            "lv_number": "3897",
+            "share": "1/1"
+          },
+          {
+            "type": "CHATA REKREAČNÁ",
+            "cadastral_territory": "ČABRADSKÝ VRBOVOK",
+            "lv_number": "241",
+            "share": "1/1"
+          },
+          {
+            "type": "TRVALE TRÁVNATÝ PORAST",
+            "cadastral_territory": "SVÄTÝ ANTON",
+            "lv_number": "172",
+            "share": "1/1"
+          },
+          {
+            "type": "TRVALE TRÁVNATÝ PORAST",
+            "cadastral_territory": "SVÄTÝ ANTON",
+            "lv_number": "312",
+            "share": "1/2"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "MITSUBISHI",
+            "year_of_manufacture": 2007,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 13,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Peter.Vician.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Peter.Vician.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Peter.Vician.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Peter.Vician.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -474,7 +543,7 @@
   },
   "slug": "mgr-peter-vician",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 44767,
     "properties": 4,
     "obligations": 1,

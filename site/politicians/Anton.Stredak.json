@@ -12,7 +12,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -1499,17 +1500,110 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "B202375",
+        "declaration_id": 37200,
+        "name": "PaedDr. ANTON STREDÁK",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
+        "income": {
+          "public_function": 48912,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "NITRA",
+            "lv_number": "4797",
+            "share": "1/1, 1/51"
+          },
+          {
+            "type": "BYT + PIVNIČNÉ A OBCHODNÉ PRIESTORY",
+            "cadastral_territory": "NOVÉ ZÁMKY",
+            "lv_number": "7658",
+            "share": "1/2"
+          },
+          {
+            "type": "GARÁŽ",
+            "cadastral_territory": "NOVÉ ZÁMKY",
+            "lv_number": "5425",
+            "share": "1/2"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "NITRA",
+            "lv_number": "7395, 7554, 7937",
+            "share": "1/1, 10/24, 8/877"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "NITRA",
+            "lv_number": "7486, 7483, 7788",
+            "share": "7/18, 5/8, 47/150"
+          },
+          {
+            "type": "TRVALÉ TRÁVNATÉ PORASTY",
+            "cadastral_territory": "NITRA",
+            "lv_number": "7491, 7940",
+            "share": "1/34, 195/9290"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "VYBAVENIE DOMÁCNOSTI",
+            "share": "1/1"
+          },
+          {
+            "type": "ŠPERKY",
+            "share": "1/1"
+          }
+        ],
+        "property_rights": [
+          "PODIEL V OBCHODNEJ SPOLOČNOSTI D.O.O., podiel: 1/2",
+          "VKLADY NA ÚČTOCH, podiel: 1/1"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "1/1",
+            "date": "09. 03. 2021"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": [
+          {
+            "type": "OSOBNÉ AUTO",
+            "brand": "AUDI",
+            "year_of_manufacture": 2020
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 22,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Anton.Stredak.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Anton.Stredak.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Anton.Stredak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Anton.Stredak.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -1517,7 +1611,7 @@
   },
   "slug": "paeddr-anton-stredak",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 48912,
     "properties": 6,
     "obligations": 1,

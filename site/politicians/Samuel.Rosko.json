@@ -8,7 +8,8 @@
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
   "years": [
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -197,17 +198,80 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC256383",
+        "declaration_id": 37758,
+        "name": "PaedDr. SAMUEL ROŠKO, MBA",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (FOND NA PODPORU ŠPORTU)"
+        ],
+        "income": {
+          "public_function": 0,
+          "other": 45379
+        },
+        "incompatibility": true,
+        "employment": "SLOVENSKÝ PARALYMPIJSKÝ VÝBOR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "1X ORNÁ PÔDA, 1X TRVALÝ TRÁVNY PORAST",
+            "cadastral_territory": "MÝTO POD ĎUMBIEROM",
+            "lv_number": "11323,11309",
+            "share": "1/512,1/256"
+          },
+          {
+            "type": "4X ORNÁ PÔDA, 2X TRVALÝ TRÁVNY PORAST, 1X OSTATNÁ PLOCHA",
+            "cadastral_territory": "BREZNO",
+            "lv_number": "4017,4938,4940,5789,6187,6190",
+            "share": "5/768,1/3843,3/512"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "MALINOVO",
+            "lv_number": "2142",
+            "share": "1/1"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "ÚSPORY, AKCIE, FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: 1/2"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": [
+          {
+            "type": "OSOBNÉ VOZIDLO",
+            "brand": "TOYOTA",
+            "year_of_manufacture": 2020
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 2,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Samuel.Rosko.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Samuel.Rosko.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Samuel.Rosko.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Samuel.Rosko.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -215,7 +279,7 @@
   },
   "slug": "paeddr-samuel-rosko-mba",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 45379,
     "properties": 3,
     "obligations": 1,

@@ -7,7 +7,8 @@
   ],
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ, A.S.)",
   "years": [
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -75,17 +76,83 @@
       "diff": {
         "type": "new"
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC256446",
+        "declaration_id": 35357,
+        "name": "JUDr. JOZEF ŠOKA, MBA",
+        "year": 2024,
+        "filed": "pri ujatí sa funkcie",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ, A.S.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ, A.S.)"
+        ],
+        "income": {
+          "public_function": 0,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "TRNAVA",
+            "lv_number": "10745",
+            "share": "1/1"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "TRNAVA",
+            "lv_number": "6610",
+            "share": "1/3"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "HLOHOVEC",
+            "lv_number": "9698",
+            "share": "1/1"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "OBCHODNÝ PODIEL V SPOLOČNOSTI, podiel: 16,67%",
+          "OBCHODNÝ PODIEL V SPOLOČNOSTI, podiel: 50%"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTÉKA",
+            "share": "100%",
+            "date": "07. 11. 2017"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": [
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "AUDI",
+            "year_of_manufacture": 2024
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 0,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jozef.Soka.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jozef.Soka.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Jozef.Soka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Jozef.Soka.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -93,7 +160,7 @@
   },
   "slug": "judr-jozef-soka-mba",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 0,
     "properties": 3,
     "obligations": 1,

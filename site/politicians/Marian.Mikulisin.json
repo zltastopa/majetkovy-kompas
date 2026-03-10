@@ -9,8 +9,10 @@
   "role": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DETSKÁ FAKULTNÁ NEMOCNICA KOŠICE) · člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)",
   "years": [
     2021,
+    2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -77,6 +79,95 @@
       }
     },
     {
+      "year": 2022,
+      "data": {
+        "id": "ZC224479",
+        "declaration_id": 28523,
+        "name": "PaedDr. MARIÁN MIKULIŠIN",
+        "year": 2022,
+        "filed": "k 30. aprílu",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DETSKÁ FAKULTNÁ NEMOCNICA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DETSKÁ FAKULTNÁ NEMOCNICA)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)"
+        ],
+        "income": {
+          "public_function": 6186,
+          "other": 79615
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": "KONATEĽ(MARIÁN MIKULIŠIN)",
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "KOŠICE - ZÁPAD",
+            "lv_number": "2515",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KOŠICE - SEVER",
+            "lv_number": "15803",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "changed",
+        "changes": [
+          {
+            "field": "income",
+            "old": {
+              "public_function": 0,
+              "other": 0
+            },
+            "new": {
+              "public_function": 6186,
+              "other": 79615
+            },
+            "old_total": 0,
+            "new_total": 85801,
+            "delta": 85801
+          },
+          {
+            "field": "positions",
+            "old": [
+              {
+                "role": "POSLANEC",
+                "organization": "MIESTNE ZASTUPITEĽSTVO KOŠICE - SÍDLISKO KVP",
+                "benefits": "PLAT"
+              }
+            ],
+            "new": null
+          },
+          {
+            "field": "movable_property",
+            "old": [
+              {
+                "type": "OSOBNÉ VOZIDLO",
+                "brand": "MERCEDES BENZ",
+                "year_of_manufacture": 2005,
+                "share": "100%"
+              }
+            ],
+            "new": null
+          }
+        ]
+      }
+    },
+    {
       "year": 2023,
       "data": {
         "id": "ZC224479",
@@ -123,7 +214,42 @@
         "gifts": null
       },
       "diff": {
-        "type": "new"
+        "type": "changed",
+        "changes": [
+          {
+            "field": "public_function",
+            "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DETSKÁ FAKULTNÁ NEMOCNICA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)",
+            "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DETSKÁ FAKULTNÁ NEMOCNICA KOŠICE)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)"
+          },
+          {
+            "field": "public_functions",
+            "old": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DETSKÁ FAKULTNÁ NEMOCNICA)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)"
+            ],
+            "new": [
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DETSKÁ FAKULTNÁ NEMOCNICA KOŠICE)",
+              "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)"
+            ],
+            "old_count": 2,
+            "new_count": 2
+          },
+          {
+            "field": "income",
+            "old": {
+              "public_function": 6186,
+              "other": 79615
+            },
+            "new": {
+              "public_function": 8400,
+              "other": 72046
+            },
+            "old_total": 85801,
+            "new_total": 80446,
+            "delta": -5355,
+            "delta_pct": -6.2
+          }
+        ]
       }
     },
     {
@@ -216,17 +342,74 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC224479",
+        "declaration_id": 37575,
+        "name": "PaedDr. MARIÁN MIKULIŠIN",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DETSKÁ FAKULTNÁ NEMOCNICA KOŠICE)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (DETSKÁ FAKULTNÁ NEMOCNICA KOŠICE)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁCHRANNÁ SLUŽBA KOŠICE)"
+        ],
+        "income": {
+          "public_function": 8696,
+          "other": 73336
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": "SZČO(MARIÁN MIKULIŠIN)",
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "KOŠICE - ZÁPAD",
+            "lv_number": "2515",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "KOŠICE - SEVER",
+            "lv_number": "15803",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÉ VOZIDLO",
+            "brand": "MERCEDES BENZ",
+            "year_of_manufacture": 2005,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
-  "total_changes": 3,
+  "total_changes": 9,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Marian.Mikulisin.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Marian.Mikulisin.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Marian.Mikulisin.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Marian.Mikulisin.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -234,7 +417,7 @@
   },
   "slug": "paeddr-marian-mikulisin",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 82032,
     "properties": 2,
     "obligations": 1,

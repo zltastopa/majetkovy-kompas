@@ -14,7 +14,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -938,17 +939,83 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "K235541",
+        "declaration_id": 37198,
+        "name": "Ing. DANIELA KLUČKOVÁ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚRAD PRE DOHĽAD NAD VÝKONOM AUDITU)\nštátny tajomník",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ ZÁRUČNÁ A ROZVOJOVÁ BANKA, A.S.)",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ÚRAD PRE DOHĽAD NAD VÝKONOM AUDITU)",
+          "štátny tajomník"
+        ],
+        "income": {
+          "public_function": 62700,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": "MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT V BYTOVOM DOME",
+            "cadastral_territory": "HUMENNÉ",
+            "lv_number": "8528",
+            "share": "1/2"
+          },
+          {
+            "type": "GARÁŽ A POZEMOK",
+            "cadastral_territory": "HUMENNÉ",
+            "lv_number": "3453",
+            "share": "1/2"
+          },
+          {
+            "type": "RODINNÝ DOM, POZEMOK",
+            "cadastral_territory": "KALINKOVO",
+            "lv_number": "784",
+            "share": "1/1 BSM"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "TOYOTA",
+            "year_of_manufacture": 2017,
+            "share": "1/1 BSM"
+          }
+        ],
+        "property_rights": [
+          "OSOBNÝ BEŽNÝ ÚČET, podiel: 1/1 BSM"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 27,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Daniela.Kluckova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Daniela.Kluckova.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Daniela.Kluckova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Daniela.Kluckova.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -956,7 +1023,7 @@
   },
   "slug": "ing-daniela-kluckova",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 62700,
     "properties": 3,
     "obligations": 1,

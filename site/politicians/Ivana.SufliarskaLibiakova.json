@@ -7,7 +7,8 @@
   ],
   "role": "štátny tajomník",
   "years": [
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -76,17 +77,84 @@
       "diff": {
         "type": "new"
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "K256481",
+        "declaration_id": 35355,
+        "name": "Ing.Mgr. IVANA ŠUFLIARSKÁ LIBIAKOVÁ",
+        "year": 2024,
+        "filed": "pri ujatí sa funkcie",
+        "public_function": "štátny tajomník",
+        "public_functions": [
+          "štátny tajomník"
+        ],
+        "income": {
+          "public_function": 0,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "DETVA",
+            "lv_number": "5401",
+            "share": "1/1"
+          },
+          {
+            "type": "OSTATNÁ PLOCMA",
+            "cadastral_territory": "DETVA",
+            "lv_number": "5401",
+            "share": "1/1"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "DETVA",
+            "lv_number": "5401",
+            "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "DETVA",
+            "lv_number": "5401",
+            "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "DETVA",
+            "lv_number": "5401",
+            "share": "1/1"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 0,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Ivana.SufliarskaLibiakova.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Ivana.SufliarskaLibiakova.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Ivana.SufliarskaLibiakova.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Ivana.SufliarskaLibiakova.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -94,7 +162,7 @@
   },
   "slug": "ing-mgr-ivana-sufliarska-libiakova",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 0,
     "properties": 5,
     "obligations": 1,

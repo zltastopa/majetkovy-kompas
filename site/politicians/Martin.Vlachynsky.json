@@ -10,7 +10,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -394,17 +395,77 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC224533",
+        "declaration_id": 36814,
+        "name": "MARTIN VLACHYNSKÝ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ INŠTITÚT PRE HODNOTU A TECHNOLÓGIE V ZDRAVOTNÍCTVE)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÝ INŠTITÚT PRE HODNOTU A TECHNOLÓGIE V ZDRAVOTNÍCTVE)"
+        ],
+        "income": {
+          "public_function": 4759,
+          "other": 36264
+        },
+        "incompatibility": true,
+        "employment": "PEDAL CONSULTING S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": "KONATEĽ(ECONOIR CONSULTING S.R.O.)",
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "PIEŠŤANY",
+            "lv_number": "10827",
+            "share": "100%"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "AUTOMOBIL",
+            "brand": "MAZDA",
+            "year_of_manufacture": 2002,
+            "share": "100%"
+          },
+          {
+            "type": "AUTOMOBIL",
+            "brand": "RENAULT",
+            "year_of_manufacture": 2009,
+            "share": "100%"
+          }
+        ],
+        "property_rights": [
+          "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 100%"
+        ],
+        "obligations": [
+          {
+            "type": "ÚVER NA BÝVANIE",
+            "share": "100%",
+            "date": "27. 04. 2011"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 9,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Martin.Vlachynsky.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Martin.Vlachynsky.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Martin.Vlachynsky.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Martin.Vlachynsky.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -412,11 +473,11 @@
   },
   "slug": "martin-vlachynsky",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 41023,
     "properties": 1,
     "obligations": 1,
-    "income_percentile": 36,
+    "income_percentile": 37,
     "property_percentile": 20,
     "median_income": 57012,
     "median_properties": 3,

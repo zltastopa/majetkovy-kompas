@@ -8,7 +8,8 @@
   "role": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AUDIOVIZUÁLNY FOND SR)",
   "years": [
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -256,17 +257,81 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC246235",
+        "declaration_id": 37484,
+        "name": "Mgr. ŠTEFAN NIŽŇANSKÝ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AUDIOVIZUÁLNY FOND SR)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AUDIOVIZUÁLNY FOND SR)"
+        ],
+        "income": {
+          "public_function": 3678,
+          "other": 1502
+        },
+        "incompatibility": true,
+        "employment": "SLOVENSKÁ TELEVÍZIA A ROZHLAS\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": [
+          {
+            "role": "PREDSEDA",
+            "organization": "ÚNIA SLOVENSKÝCH NOVINÁROV",
+            "benefits": "ŽIADNE"
+          }
+        ],
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+            "lv_number": "3156",
+            "share": "50%"
+          },
+          {
+            "type": "POZEMKY ZDEDENÉ",
+            "cadastral_territory": "BRESTOVANY OKR. TRNAVA",
+            "lv_number": "151",
+            "share": "1/8"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "INVESTIČNÉ FONDY, podiel: 100%",
+          "OBCHODNÝ PODIEL V SPOLOČNOSTI, podiel: 100%"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": "REKREAČNÝ DOM - CHALUPA, kat. územie BORSKÝ SVÄTÝ JUR, rok zač. užívania: 2009, spôsob užívania: TVORIVÝ AZYL / REKREÁCIA",
+        "vehicles": [
+          {
+            "type": "OSOBNÉ AUTO",
+            "brand": "KIA",
+            "year_of_manufacture": 2022
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 9,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/NiznanskyStefan.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/NiznanskyStefan.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/NiznanskyStefan.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/NiznanskyStefan.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -274,11 +339,11 @@
   },
   "slug": "mgr-stefan-niznansky",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 5180,
     "properties": 2,
     "obligations": 1,
-    "income_percentile": 17,
+    "income_percentile": 18,
     "property_percentile": 36,
     "median_income": 57012,
     "median_properties": 3,

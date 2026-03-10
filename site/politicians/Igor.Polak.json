@@ -12,7 +12,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -999,17 +1000,81 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC203746",
+        "declaration_id": 37538,
+        "name": "IGOR POLÁK",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)"
+        ],
+        "income": {
+          "public_function": 7200,
+          "other": 40738
+        },
+        "incompatibility": true,
+        "employment": "ŽELEZNICE SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "KOŠICE",
+            "lv_number": "10754",
+            "share": "BSM"
+          },
+          {
+            "type": "LES, ORNÁ PÔDA",
+            "cadastral_territory": "PLEŠIVEC",
+            "lv_number": "553, 357, 3035",
+            "share": "1/12, 1/2, 1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA, DOM, ZÁHRADA, ORNÁ PÔDA",
+            "cadastral_territory": "ČEČEJOVCE",
+            "lv_number": "728, 1907",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÉ AUTO",
+            "brand": "KIA",
+            "year_of_manufacture": 2013,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": [
+          "BANKOVÝ ÚČET, FONDY, DLHOPISY, ETF FONDY, podiel: BSM"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 26,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Igor.Polak.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Igor.Polak.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Igor.Polak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Igor.Polak.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -1017,7 +1082,7 @@
   },
   "slug": "igor-polak",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 47938,
     "properties": 3,
     "obligations": 1,

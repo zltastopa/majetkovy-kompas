@@ -10,7 +10,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -492,17 +493,109 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC235758",
+        "declaration_id": 38062,
+        "name": "Ing. ROBERT SEDLÁK",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen Rady Slovenského pozemkového fondu\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (OKTE, A.S.)",
+        "public_functions": [
+          "člen Rady Slovenského pozemkového fondu",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (OKTE, A.S.)"
+        ],
+        "income": {
+          "public_function": 29808,
+          "other": 180925
+        },
+        "incompatibility": true,
+        "employment": "OKTE, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "LESNÝ POZEMOK",
+            "cadastral_territory": "HODEJOV",
+            "lv_number": "463,464,465,491,494",
+            "share": "1/6"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "HODEJOV",
+            "lv_number": "875",
+            "share": "1/6"
+          },
+          {
+            "type": "TRVALÝ  TRÁVNATÝ PORAST",
+            "cadastral_territory": "HODEJOV",
+            "lv_number": "892, 1024",
+            "share": "1/6"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÉ VOZIDLO",
+            "brand": "AUDI",
+            "year_of_manufacture": 2007,
+            "share": "BSM"
+          },
+          {
+            "type": "OSOBNÉ VOZIDLO",
+            "brand": "OPEL",
+            "year_of_manufacture": 2018,
+            "share": "BSM"
+          },
+          {
+            "type": "VYBAVENIE DOMÁCNOSTI",
+            "share": "BSM"
+          },
+          {
+            "type": "ZBIERKA OBRAZOV A STAROŽITNOSTÍ",
+            "share": "BSM"
+          },
+          {
+            "type": "ŠPERKY",
+            "share": "BSM"
+          }
+        ],
+        "property_rights": [
+          "PÔŽIČKA, podiel: BSM",
+          "ÚSPORY, podiel: BSM",
+          "ŽIVOTNÉ SPORENIE/POISTENIE, podiel: BSM"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "BSM",
+            "date": "03. 02. 2021"
+          },
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "BSM",
+            "date": "20. 06. 2017"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 9,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/SedlRobe.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/SedlRobe.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/SedlRobe.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/SedlRobe.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -510,7 +603,7 @@
   },
   "slug": "ing-robert-sedlak",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 210733,
     "properties": 3,
     "obligations": 2,

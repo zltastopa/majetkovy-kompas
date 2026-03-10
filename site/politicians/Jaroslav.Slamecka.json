@@ -10,7 +10,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -575,17 +576,97 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZD225035",
+        "declaration_id": 38119,
+        "name": "doc. Ing. JAROSLAV SLAMEČKA, CSc.",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠTÁTNY ŽREBČÍN TOPOĽČIANKY)",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (ŠTÁTNY ŽREBČÍN TOPOĽČIANKY)"
+        ],
+        "income": {
+          "public_function": 800,
+          "other": 27832
+        },
+        "incompatibility": true,
+        "employment": "SLOVENSKÁ POĽNOHOSPODÁRSKA UNIVERZITA V NITRE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT V BYTOVOM DOME",
+            "cadastral_territory": "NITRA",
+            "lv_number": "5222",
+            "share": "1/2"
+          },
+          {
+            "type": "BYT V BYTOVOM DOME",
+            "cadastral_territory": "NITRA",
+            "lv_number": "5330",
+            "share": "1/1"
+          },
+          {
+            "type": "BYT V BYTOVOM DOME",
+            "cadastral_territory": "ŽILINA",
+            "lv_number": "4967",
+            "share": "1/1"
+          },
+          {
+            "type": "RODINNÝ DOM S POZEMKOM",
+            "cadastral_territory": "DOLNÁ LEHOTA",
+            "lv_number": "41",
+            "share": "1/2"
+          },
+          {
+            "type": "RODINÝ DOM S POZEMKOM",
+            "cadastral_territory": "NITRA ZOBOR",
+            "lv_number": "2530",
+            "share": "1/1"
+          },
+          {
+            "type": "VINICE",
+            "cadastral_territory": "VEĽKÝ CETÍN",
+            "lv_number": "1683",
+            "share": "1/2"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "ŠKODA",
+            "year_of_manufacture": 2010,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 10,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jaroslav.Slamecka.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jaroslav.Slamecka.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Jaroslav.Slamecka.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Jaroslav.Slamecka.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -593,7 +674,7 @@
   },
   "slug": "doc-ing-jaroslav-slamecka-csc",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 28632,
     "properties": 6,
     "obligations": 1,

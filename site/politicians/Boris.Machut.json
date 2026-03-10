@@ -11,7 +11,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -464,17 +465,96 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC235698",
+        "declaration_id": 36859,
+        "name": "Mgr. BORIS MACHÚT",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EKOFOND SPP, N.O.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NADÁCIA SPP)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (EKOFOND SPP, N.O.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NADÁCIA SPP)",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL, A.S.)"
+        ],
+        "income": {
+          "public_function": 63259,
+          "other": 81473
+        },
+        "incompatibility": true,
+        "employment": "SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT V BYTOVOM DOME",
+            "cadastral_territory": "BRATISLAVA - RUŽINOV",
+            "lv_number": "6052",
+            "share": "1/1"
+          },
+          {
+            "type": "GARÁŽOVÝ BOX",
+            "cadastral_territory": "BRATISLAVA RUŽINOV",
+            "lv_number": "3657",
+            "share": "1/1"
+          },
+          {
+            "type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH - GARÁŽE",
+            "cadastral_territory": "BRATISLAVA - RUŽINOV",
+            "lv_number": "3646",
+            "share": "1/32"
+          },
+          {
+            "type": "PODIEL NA SPOLOČNÝCH PRIESTOROCH V BYTOVOM DOME",
+            "cadastral_territory": "BRATISLAVA - RUŽINOV",
+            "lv_number": "6052",
+            "share": "1930/100000"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "BRATISLAVA - RUŽINOV",
+            "lv_number": "6750",
+            "share": "1930/100000"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "FINANČNÉ PROSTRIEDKY NA ÚČTE, AKCIE A ÚSPORY, podiel: BSM"
+        ],
+        "obligations": [
+          {
+            "type": "LÍZINGOVÁ ZMLUVA",
+            "share": "BSM",
+            "date": "30. 09. 2022"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": [
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "BMW",
+            "year_of_manufacture": 2021
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 10,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Boris.Machut.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Boris.Machut.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Boris.Machut.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Boris.Machut.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -482,7 +562,7 @@
   },
   "slug": "mgr-boris-machut",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 144732,
     "properties": 5,
     "obligations": 1,

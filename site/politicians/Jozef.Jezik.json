@@ -9,7 +9,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -402,17 +403,99 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "B235429",
+        "declaration_id": 37711,
+        "name": "MUDr. JOZEF JEŽÍK",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
+        "income": {
+          "public_function": 54498,
+          "other": 9277
+        },
+        "incompatibility": true,
+        "employment": "STEFE ZVOLEN, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nDEJ, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": [
+          {
+            "role": "POSLANEC MSU",
+            "organization": "MESTSKÝ ÚRAD ZVOLEN",
+            "benefits": "ODMENA"
+          }
+        ],
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "ZVOLEN",
+            "lv_number": "5560",
+            "share": "1/10"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR",
+            "cadastral_territory": "ZVOLEN",
+            "lv_number": "5560",
+            "share": "1/10"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "SLOVENSKÁ ĽUPČA",
+            "lv_number": "2523",
+            "share": "1/2"
+          },
+          {
+            "type": "REKREAČNÁ CHATA",
+            "cadastral_territory": "HRIŇOVÁ",
+            "lv_number": "1696",
+            "share": "1/2"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "BACÚROV",
+            "lv_number": "637",
+            "share": "1/2"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "PÔŽIČKA TRETEJ OSOBE, podiel: 1/1"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "1/1",
+            "date": "09. 10. 2014"
+          },
+          {
+            "type": "PÔŽIČKA OD TRETEJ OSOBY",
+            "share": "1/1",
+            "date": "04. 05. 2012"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 6,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Jozef.Jezik.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Jozef.Jezik.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Jozef.Jezik.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Jozef.Jezik.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -420,7 +503,7 @@
   },
   "slug": "mudr-jozef-jezik",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 63775,
     "properties": 5,
     "obligations": 2,

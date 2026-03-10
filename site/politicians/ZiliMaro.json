@@ -12,7 +12,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -926,17 +927,95 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "H214129",
+        "declaration_id": 38338,
+        "name": "Dr.h.c.  JUDr. MAROŠ ŽILINKA, PhD.",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "generálny prokurátor Slovenskej republiky",
+        "public_functions": [
+          "generálny prokurátor Slovenskej republiky"
+        ],
+        "income": {
+          "public_function": 86705,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "OSTATNÉ PLOCHY",
+            "cadastral_territory": "MORAVANY NAD VÁHOM",
+            "lv_number": "2687",
+            "share": "1/2"
+          },
+          {
+            "type": "OSTATNÉ PLOCHY",
+            "cadastral_territory": "MORAVANY NAD VÁHOM",
+            "lv_number": "2688",
+            "share": "1/1 BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "PIEŠŤANY",
+            "lv_number": "10602",
+            "share": "1/1 BSM"
+          },
+          {
+            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+            "cadastral_territory": "PIEŠŤANY",
+            "lv_number": "8144",
+            "share": "1/2"
+          },
+          {
+            "type": "ZÁHRADY",
+            "cadastral_territory": "PIESŤANY",
+            "lv_number": "8144",
+            "share": "1/2"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÉ VOZIDLO",
+            "brand": "SEAT",
+            "year_of_manufacture": 2021,
+            "share": "1/1 BSM"
+          }
+        ],
+        "property_rights": [
+          "CENNÉ PAPIERE, podiel: 1/1 BSM",
+          "STAROBNÉ DÔCHODKOVÉ SPORENIE - II. PILIER, podiel: 1/1 BSM",
+          "ÚSPORY- FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: 1/1 BSM"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 17,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/ZiliMaro.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/ZiliMaro.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/ZiliMaro.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/ZiliMaro.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -944,7 +1023,7 @@
   },
   "slug": "dr-h-c-judr-maros-zilinka-phd",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 86705,
     "properties": 5,
     "obligations": 1,

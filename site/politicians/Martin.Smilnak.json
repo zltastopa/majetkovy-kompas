@@ -9,7 +9,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -644,17 +645,125 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "B235433",
+        "declaration_id": 37025,
+        "name": "Mgr. MARTIN ŠMILŇÁK",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "poslanec Národnej rady Slovenskej republiky",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky"
+        ],
+        "income": {
+          "public_function": 49442,
+          "other": 1572
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": [
+          {
+            "role": "POSLANEC MESTSKÉHO ZASTUPITEĽSTVA",
+            "organization": "MESTO BARDEJOV",
+            "benefits": "FINANČNÁ ODMENA"
+          },
+          {
+            "role": "ČLEN PREDSEDNÍCTVA",
+            "organization": "KDH - POLITICKÁ STRANA",
+            "benefits": "NEPOBERÁM"
+          }
+        ],
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "BARDEJOV",
+            "lv_number": "15577",
+            "share": "BSM"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "BARDEJOV",
+            "lv_number": "15577",
+            "share": "BSM"
+          },
+          {
+            "type": "GARÁŽ",
+            "cadastral_territory": "BARDEJOV",
+            "lv_number": "15577",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "BARDEJOV",
+            "lv_number": "6",
+            "share": "BSM"
+          },
+          {
+            "type": "TRVALÝ TRÁVNY PORAST, ZASTAVANÉ PLOCHY A NÁDVORIA",
+            "cadastral_territory": "BARDEJOV",
+            "lv_number": "15577",
+            "share": "192/2774 BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+            "cadastral_territory": "BARDEJOV",
+            "lv_number": "6",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "BARDEJOV",
+            "lv_number": "6",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "VOLKSWAGEN",
+            "year_of_manufacture": 2024,
+            "share": "BSM"
+          }
+        ],
+        "property_rights": [
+          "VKLAD V BANKE, podiel: BSM",
+          "VKLAD V BANKE, podiel: BSM",
+          "ZARIADENIE DOMU, podiel: BSM"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "BSM",
+            "date": "04. 07. 2018"
+          },
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "BSM",
+            "date": "13. 06. 2017"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 10,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Martin.Smilnak.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Martin.Smilnak.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Martin.Smilnak.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Martin.Smilnak.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -662,7 +771,7 @@
   },
   "slug": "mgr-martin-smilnak",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 51014,
     "properties": 7,
     "obligations": 2,

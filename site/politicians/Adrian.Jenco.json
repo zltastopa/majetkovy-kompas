@@ -9,7 +9,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -574,17 +575,116 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC235692",
+        "declaration_id": 37636,
+        "name": "Ing. ADRIÁN JENČO",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MH INVEST, S.R.O.)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MH INVEST, S.R.O.)"
+        ],
+        "income": {
+          "public_function": 98818,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": [
+          {
+            "role": "NÁČELNÍK",
+            "organization": "INDIÁNI BOKŠA OBČIANSKE ZDRUŽENIE",
+            "benefits": "ŽIADNE"
+          },
+          {
+            "role": "PREDSEDA",
+            "organization": "DÔSTOJNÝ ŽIVOT SENIOROV OBČIANSKE ZDRUŽENIE",
+            "benefits": "ŽIADNE"
+          },
+          {
+            "role": "PREDSEDA",
+            "organization": "ŽIVOT A DOM V EKOLOGICKEJ ROVNOVÁHE OZ",
+            "benefits": "ŽIADNE"
+          },
+          {
+            "role": "PREDSEDA",
+            "organization": "ŽIVOT V SÚLADE S PRÍRODOU OBČIANSKE ZDRUŽENIE",
+            "benefits": "ŽIADNE"
+          }
+        ],
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+            "lv_number": "2802",
+            "share": "BSM"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+            "lv_number": "678",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "CHORVÁTSKY GROB-ČIERNA VODA",
+            "lv_number": "2334",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "STROPKOV",
+            "lv_number": "1408",
+            "share": "2/6"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "DLHOPISY, podiel: BSM",
+          "ÚSPORY NA ÚČTE, podiel: BSM",
+          "ŽIVOTNÉ POISTENIE, podiel: BSM"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "BSM",
+            "date": "12. 05. 2016"
+          },
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "BSM",
+            "date": "27. 01. 2014"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": [
+          {
+            "type": "OSOBNÉ AUTO",
+            "brand": "HYUNDAI",
+            "year_of_manufacture": 2021
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 13,
   "latest_extraction": {
-    "committed_at": "2026-03-09",
-    "commit": "6f9bb85c676fec2cf606814a85fda914d9590402",
-    "previous_commit": "475bc6d482a83b07ead67b26a0da3678fada7d82",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/6f9bb85c676fec2cf606814a85fda914d9590402",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/475bc6d482a83b07ead67b26a0da3678fada7d82...6f9bb85c676fec2cf606814a85fda914d9590402",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/6f9bb85c676fec2cf606814a85fda914d9590402/data/Adrian.Jenco.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/475bc6d482a83b07ead67b26a0da3678fada7d82/data/Adrian.Jenco.yaml",
+    "committed_at": "2026-03-10",
+    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/Adrian.Jenco.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/Adrian.Jenco.yaml",
     "diff": {
       "type": "unchanged"
     },
@@ -592,7 +692,7 @@
   },
   "slug": "ing-adrian-jenco",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 98818,
     "properties": 4,
     "obligations": 2,
