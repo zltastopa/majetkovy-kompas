@@ -1,17 +1,17 @@
 id: ZC202898
-declaration_id: 29233
+declaration_id: 34125
 name: Mgr. JÁN FOLTÁN
-year: 2022
+year: 2023
 filed: k 30. aprílu
 public_function: štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND
   INVESTÍCIÍ)
 public_functions:
 - štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (GARANČNÝ FOND INVESTÍCIÍ)
 income:
-  public_function: 1260
-  other: 52172
+  public_function: 1680
+  other: 55606
 incompatibility: true
-employment: 'MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY
+employment: 'MINISTERSTVO FINANCIÍ SR
 
   Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
 
@@ -75,11 +75,15 @@ real_estate:
   cadastral_territory: PETRŽALKA
   lv_number: '4177'
   share: 100%
-- type: TRVALÉ TRÁVNATÉ PORATY
+- type: TRVALÉ TRÁVNATÉ PORASTY
   cadastral_territory: PRESTAVLKY
   lv_number: '418'
-  share: 1/3
-- type: TRVALÝ TRÁVNATÝ PORASTY
+  share: 33%
+- type: TRVALÝ TRÁVNATÝ PORAST
+  cadastral_territory: PRESTAVLKY
+  lv_number: '1006'
+  share: 25%
+- type: TRVALÝ TRÁVNATÝ PORAST
   cadastral_territory: PRESTAVLKY
   lv_number: '564'
   share: 25%
@@ -87,10 +91,12 @@ real_estate:
   cadastral_territory: PRESTAVLKY
   lv_number: '418'
   share: 33%
-movable_property: null
-property_rights:
-- 'CENNÉ PAPIERE, podiel: 1/1'
-- 'ÚSPORY, podiel: 1/1'
+movable_property:
+- type: CENNÉ PAPIERE
+  share: 1/1
+- type: PENIAZE NA ÚČTE
+  share: 1/1
+property_rights: null
 obligations:
 - type: žiadny
 use_of_others_real_estate: null

@@ -1,20 +1,29 @@
 id: P235193
-declaration_id: 28008
+declaration_id: 32943
 name: JUDr. PhDr. MATEJ ŠIMÁŠEK, PhD.
-year: 2022
+year: 2023
 filed: k 30. aprílu
-public_function: primátor mesta
+public_function: 'primátor mesta
+
+  člen Rady Slovenského pozemkového fondu'
 public_functions:
 - primátor mesta
+- člen Rady Slovenského pozemkového fondu
 income:
-  public_function: 2854
-  other: 833
+  public_function: 50227
+  other: 0
 incompatibility: true
 employment: null
 business_activity: null
 positions:
 - role: POSLANEC
   organization: ŽILINSKÝ SAMOSPRÁVNY KRAJ
+  benefits: PAUŠÁLNE NÁHRADY
+- role: ČLEN PREDSTAVENSTVA
+  organization: SEVEROSLOVENSKÉ VODÁRNE A KANALIZÁCIE, A.S.
+  benefits: ŽIADNE
+- role: ČLEN RADY SPF
+  organization: SLOVENSKÝ POZEMKOVÝ FOND
   benefits: ODMENA A PAUŠÁLNE NÁHRADY
 real_estate:
 - type: BYT V RODINNOM DOME S PODIELOM NA POZEMKU
@@ -29,14 +38,9 @@ real_estate:
   cadastral_territory: ČADCA
   lv_number: '13547'
   share: 1/1
-movable_property:
-- type: OSOBNÝ AUTOMOBIL
-  brand: MERCEDES
-  year_of_manufacture: 2018
-  share: 1/1
+movable_property: null
 property_rights:
 - 'OBCHODNÝ PODIEL V S.R.O., podiel: 1/1'
-- 'UMELECKÉ DIELA A ARTEFAKTY, podiel: 1/1'
 obligations:
 - type: ÚVER
   share: 1/2

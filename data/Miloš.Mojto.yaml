@@ -1,13 +1,13 @@
 id: P203033
-declaration_id: 27961
+declaration_id: 33361
 name: MILOŠ MOJTO
-year: 2022
+year: 2023
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 53700
+  public_function: 54379
   other: 0
 incompatibility: true
 employment: null
@@ -23,22 +23,14 @@ positions:
   organization: RVSVV, S.R.O.
   benefits: ŽIADNE
 real_estate:
-- type: POZEMKY
-  cadastral_territory: HORNÉ SRNIE
-  lv_number: '4056'
-  share: 1/1 BSM
-- type: POZEMKY
-  cadastral_territory: NEMŠOVÁ
-  lv_number: '2562'
-  share: 1/1 BSM
 - type: POZEMOK
   cadastral_territory: BORČICE
   lv_number: '262'
-  share: 200/255000
+  share: 200/255000 BSM
 - type: POZEMOK
   cadastral_territory: HORNÉ SRNIE
   lv_number: '1687'
-  share: 200/255000
+  share: 200/255000 BSM
 - type: POZEMOK
   cadastral_territory: HORNÉ SRNIE
   lv_number: '2865'
@@ -66,7 +58,7 @@ real_estate:
 - type: POZEMOK
   cadastral_territory: HORNÉ SRNIE
   lv_number: '5537'
-  share: 200/255000
+  share: 200/255000 BSM
 - type: POZEMOK
   cadastral_territory: HORNÉ SRNIE
   lv_number: '5551'
@@ -91,10 +83,6 @@ real_estate:
   cadastral_territory: SIDONIE
   lv_number: '384'
   share: 1/2
-- type: STAVBA
-  cadastral_territory: NEMŠOVÁ
-  lv_number: '2562'
-  share: 1/1 BSM
 movable_property: null
 property_rights: null
 obligations:

@@ -1,24 +1,18 @@
 id: ZC235695
-declaration_id: 29684
+declaration_id: 32611
 name: doc. Ing. VOJTECH FERENCZ, PhD.
-year: 2022
-filed: pri ujatí sa funkcie
+year: 2023
+filed: k 30. aprílu
 public_function: štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ
   PRIEMYSEL A.S.)
 public_functions:
 - štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL
   A.S.)
 income:
-  public_function: 0
-  other: 0
+  public_function: 16744
+  other: 63737
 incompatibility: true
-employment: 'TECHNICKÁ UNIVERZITA V KOŠICIACH
-
-  Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
-
-  nie
-
-  STREDOSLOVENSKÁ ENERGETIKA HOLDING, A.S.
+employment: 'SLOVENSKÝ PLYNÁRENSKÝ PRIEMYSEL A.S.
 
   Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
 
@@ -30,18 +24,34 @@ real_estate:
   cadastral_territory: SKLADNÁ, OKRES KOŠICE
   lv_number: '11484'
   share: BSM
-- type: DOM
-  cadastral_territory: BOHDANOVCE
-  lv_number: '99'
-  share: 100%
 - type: DVOJGARÁŽ
   cadastral_territory: BOHDANOVCE
   lv_number: '99'
   share: 100%
+- type: GARÁŽ
+  cadastral_territory: SVÄTUŠE OKR. TREBIŠOV
+  lv_number: '125'
+  share: 1/2
+- type: HOSPODÁRSKA BUDOVA
+  cadastral_territory: SVÄTUŠE OKR. TREBIŠOV
+  lv_number: '125'
+  share: 1/2
 - type: ORNÁ PÔDA
   cadastral_territory: BOHDANOVCE
   lv_number: '99'
   share: 100%
+- type: ORNÁ PÔDA
+  cadastral_territory: SVÄTUŠE OKR. TREBIŠOV
+  lv_number: '1108'
+  share: 1/72
+- type: RODINNÝ DOM
+  cadastral_territory: BOHDANOVCE
+  lv_number: '99'
+  share: 100%
+- type: RODINNÝ DOM
+  cadastral_territory: SVÄTUŠE OKR. TREBIŠOV
+  lv_number: '125'
+  share: 1/2
 - type: TRVALÉ TRÁVNATÉ PORASTY
   cadastral_territory: SLANEC
   lv_number: '1492'
@@ -50,7 +60,11 @@ real_estate:
   cadastral_territory: BOHDANOVCE
   lv_number: '836'
   share: BSM
-- type: ZASTAVANÁ PLOCHA A NADVORIA
+- type: VINICA
+  cadastral_territory: SVÄTUŠE OKR. TREBIŠOV
+  lv_number: '1353'
+  share: 1/72
+- type: ZASTAVANÁ PLOCHA A NÁDVORIA
   cadastral_territory: BOHDANOVCE
   lv_number: '836'
   share: BSM
@@ -59,17 +73,29 @@ real_estate:
   lv_number: '99'
   share: 100%
 - type: ZASTAVANÁ PLOCHA A NÁDVORIA
-  cadastral_territory: SKLADNÁ, OKR. KOŠICE
+  cadastral_territory: SKLADNÁ OKR. KOŠICE
   lv_number: '11484'
   share: BSM
-- type: ZASTAVANÉ PLOCHY A NÁDVORIA
-  cadastral_territory: BOHDANOVCE
-  lv_number: '99'
-  share: 100%
-- type: ZASTAVANÉ PLOCHY A NÁDVORIA
+- type: ZASTAVANÁ PLOCHA A NÁDVORIA
+  cadastral_territory: SVÄTUŠE
+  lv_number: '125'
+  share: 1/2
+- type: ZASTAVANÁ PLOCHA A NÁDVORIA
+  cadastral_territory: SVÄTUŠE OKR. TREBIŠOV
+  lv_number: '646'
+  share: 1/2
+- type: ZASTAVANÁ PLOCHA A NÁDVORIA
   cadastral_territory: VYŠNÁ KAMENICA
   lv_number: '744'
   share: BSM
+- type: ZÁHRADA
+  cadastral_territory: SVÄTUŠE OKR. TREBIŠOV
+  lv_number: '125'
+  share: 1/2
+- type: ZÁHRADA
+  cadastral_territory: SVÄTUŠE OKR. TREBIŠOV
+  lv_number: '943'
+  share: 1/72
 - type: ZÁHRADY
   cadastral_territory: BOHDANOVCE
   lv_number: '99'
@@ -83,7 +109,7 @@ property_rights:
 - 'FINANČNÉ ÚSPORY ULOŽENÉ V PEŇAŽNÝCH ÚSTAVOCH, podiel: BSM'
 - 'VKLAD V OBCHODNEJ SPOLOČNOSTI, podiel: 100%'
 obligations:
-- type: HYPOTEKÁRNY ÚVER V BANKE
+- type: HYPOTEKÁRNY ÚVER
   share: BSM
   date: 14. 11. 2016
 use_of_others_real_estate: null

@@ -1,25 +1,28 @@
 id: P225128
-declaration_id: 28057
+declaration_id: 34016
 name: MVDr. LADISLAV SMATANA
-year: 2022
+year: 2023
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 3317
-  other: 10026
+  public_function: 56947
+  other: 8400
 incompatibility: true
 employment: null
 business_activity: null
 positions:
-- role: POSLANEC TSK
-  organization: TRENČIANSKY SAMOSPRÁVNY KRAJ
+- role: POSLANEC
+  organization: TERNČIANSKY SAMOSPRÁVNY KRAJ
   benefits: ODMENA POSLANCA
+- role: SOBÁŠIACI
+  organization: KULTÚRNE CENTRUM BOJNICE
+  benefits: ODMENA
 real_estate:
 - type: BYT
   cadastral_territory: BOJNICE
-  lv_number: '4466'
+  lv_number: '4781'
   share: 1/1
 - type: BYT
   cadastral_territory: RUŽINOV
@@ -27,10 +30,6 @@ real_estate:
   share: 1/1
 - type: BYT
   cadastral_territory: ST. ANDREWS, ŠKÓTSKO
-  share: 1/1
-- type: BYT V POLYFUNKČNEJ BUDOVE
-  cadastral_territory: BOJNICE
-  lv_number: '4781'
   share: 1/1
 - type: INÁ BUDOVA
   cadastral_territory: BOJNICE
@@ -44,23 +43,7 @@ real_estate:
   cadastral_territory: RUŽINOV
   lv_number: '1903'
   share: 1195/75754
-- type: NEBYTOVÝ PRIESTOR GARÁŽ
-  cadastral_territory: BOJNICE
-  lv_number: '4466'
-  share: 1/42
 - type: POZEMOK
-  cadastral_territory: BOJNICE
-  lv_number: '762'
-  share: 1/1
-- type: POZEMOK - ZÁHRADA
-  cadastral_territory: BOJNICE
-  lv_number: '762'
-  share: 1/1
-- type: POZEMOK, ZASTAVANÁ PLOCHA A NÁDVORIE
-  cadastral_territory: BOJNICE
-  lv_number: '762'
-  share: 1/1
-- type: POZEMOK, ZÁHRADA
   cadastral_territory: BOJNICE
   lv_number: '762'
   share: 1/1
@@ -72,15 +55,23 @@ real_estate:
   cadastral_territory: BOJNICE
   lv_number: '4781'
   share: 1/1
-movable_property:
-- type: AUTOMOBIL
-  brand: OPEL
-  year_of_manufacture: 2018
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE
+  cadastral_territory: BOJNICE
+  lv_number: '762'
   share: 1/1
+- type: ZÁHRADA
+  cadastral_territory: BOJNICE
+  lv_number: '762'
+  share: 1/1
+- type: ZÁHRADA
+  cadastral_territory: BOJNICE
+  lv_number: '762'
+  share: 1/1
+movable_property: null
 property_rights:
-- 'OBCHODNÝ PODIEL S.R.O., podiel: 100%'
-- 'OBCHODNÝ PODIEL S.R.O., podiel: 20%'
-- 'OBCHODNÝ PODIEL S.R.O., podiel: 31%'
+- 'OBCHODNÝ PODIEL S.R.O., podiel: 1/1'
+- 'OBCHODNÝ PODIEL V S.R.O., podiel: 1/1'
+- 'OBCHODNÝ PODIEL V S.R.O., podiel: 1/1'
 obligations:
 - type: HYPOTEKÁRNY ÚVER
   share: 1/2

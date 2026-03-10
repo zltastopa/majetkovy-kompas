@@ -1,13 +1,13 @@
 id: ZC235700
-declaration_id: 30016
+declaration_id: 33256
 name: Ing. ŠTEFAN KAPUSTA
-year: 2022
-filed: pri ujatí sa funkcie
-public_function: člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP, A.S. BRATISLAVA)
+year: 2023
+filed: k 30. aprílu
+public_function: člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP A.S. BRATISLAVA)
 public_functions:
-- člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP, A.S. BRATISLAVA)
+- člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SPP A.S. BRATISLAVA)
 income:
-  public_function: 0
+  public_function: 1469
   other: 0
 incompatibility: true
 employment: null
@@ -22,10 +22,6 @@ real_estate:
   cadastral_territory: 881317 SKLADNÁ
   lv_number: '11512'
   share: BSM
-- type: GARAŽOVÉ STOJISKO
-  cadastral_territory: 881317 SKLADNÁ
-  lv_number: '115112'
-  share: BSM
 - type: GARÁŽOVÉ STOJISKO
   cadastral_territory: 881317 SKLADNÁ
   lv_number: '11512'
@@ -35,8 +31,12 @@ real_estate:
   lv_number: '11512'
   share: BSM
 - type: GARÁŽOVÉ STOJISKO
-  cadastral_territory: 88317 SKLADNÁ
-  lv_number: 115/2
+  cadastral_territory: 881317 SKLADNÁ
+  lv_number: '11512'
+  share: BSM
+- type: GARÁŽOVÉ STOJISKO
+  cadastral_territory: 881317 SKLADNÁ
+  lv_number: '11512'
   share: BSM
 - type: OSTATNÁ PLOCHA PRI BYTOVOM DOME
   cadastral_territory: 881317 SKLADNÁ
@@ -54,11 +54,12 @@ real_estate:
   cadastral_territory: 881317 SKLADNÁ
   lv_number: '11512'
   share: 4% BSM
-movable_property: null
-property_rights:
-- 'VYBAVENIE DOMÁCNOSTI, podiel: BSM'
-- 'ÚČTY V BANKE, podiel: BSM'
-- 'ŠPERKY, podiel: BSM'
+movable_property:
+- type: VYBAVENIE DOMÁCNOSTI
+  share: BSM
+- type: ŠPERKY
+  share: BSM
+property_rights: null
 obligations:
 - type: HYPOTEKÁRNY ÚVER
   share: BSM

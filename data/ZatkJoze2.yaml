@@ -1,13 +1,13 @@
 id: ZD04380
-declaration_id: 28210
+declaration_id: 33899
 name: Ing. JOZEF ZAŤKO
-year: 2022
+year: 2023
 filed: k 30. aprílu
-public_function: člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA ŠTÁTNY PODNIK)
+public_function: člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, KREMNICA )
 public_functions:
-- člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA ŠTÁTNY PODNIK)
+- člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, KREMNICA )
 income:
-  public_function: 11550
+  public_function: 5035
   other: 0
 incompatibility: true
 employment: null
@@ -18,6 +18,14 @@ real_estate:
   cadastral_territory: PETRŽALKA
   lv_number: '2786'
   share: 1/1
+- type: BYT + PARKOVACIE STÁTIE
+  cadastral_territory: PETRŽALKA
+  lv_number: '5167'
+  share: 1/2
+- type: BYT + PARKOVACIE STÁTIE
+  cadastral_territory: PETRŽALKA
+  lv_number: '5576'
+  share: 1/2
 - type: POZEMOK
   cadastral_territory: BERNOLÁKOVO
   lv_number: '5223'
@@ -37,17 +45,15 @@ real_estate:
 - type: ZÁHRADA - SPOLOČNÁ CESTA
   cadastral_territory: GABČÍKOVO
   lv_number: '1984'
-  share: 1/1
+  share: 1/9
 movable_property:
-- type: BYTOVÉ ZARIADENIE
-  share: 1/1
 - type: OSOBNÉ AUTO
   brand: RENAULT
   year_of_manufacture: 2019
   share: 1/1
-- type: ÚSPORY
-  share: 1/1
-property_rights: null
+property_rights:
+- 'BYTOVÉ ZARIADENIE , podiel: 1/1'
+- 'ÚSPORY , podiel: 1/1'
 obligations:
 - type: žiadny
 use_of_others_real_estate: null

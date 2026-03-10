@@ -1,18 +1,21 @@
 id: P225144
-declaration_id: 27987
+declaration_id: 33382
 name: Ing. VLADIMÍR MAŇKA
-year: 2022
+year: 2023
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 6626
+  public_function: 75417
   other: 0
 incompatibility: true
 employment: null
 business_activity: null
-positions: null
+positions:
+- role: ČLEN PREDSTAVENSTVA
+  organization: STREDOSLOVENSKÁ VODÁRENSKÁ, A.S.
+  benefits: ŽIADNE
 real_estate:
 - type: CHATA
   cadastral_territory: LIPTOVSKÝ JÁN
@@ -22,22 +25,6 @@ real_estate:
   cadastral_territory: LONTOV
   lv_number: '1149'
   share: 1/5
-- type: LESNÝ POZEMOK
-  cadastral_territory: NOVÉ HONY
-  lv_number: '124'
-  share: 105 /2016
-- type: LESNÝ POZEMOK
-  cadastral_territory: VEĽKÉ DRAVCE
-  lv_number: '1125'
-  share: 5/96
-- type: LESNÝ POZEMOK
-  cadastral_territory: VEĽKÉ DRAVCE
-  lv_number: '1126'
-  share: 5/96
-- type: LESNÝ POZEMOK
-  cadastral_territory: VEĽKÉ DRAVCE
-  lv_number: '717'
-  share: 5/96
 - type: LESNÝ POZEMOK
   cadastral_territory: ZELENÉ
   lv_number: '1453'
@@ -58,10 +45,6 @@ real_estate:
   cadastral_territory: ZELENÉ
   lv_number: '1707'
   share: 3/24
-- type: ORNA PÔDA
-  cadastral_territory: NOVÉ HONY
-  lv_number: '454'
-  share: 105/2016
 - type: ORNÁ PÔDA
   cadastral_territory: BIELOVCE
   lv_number: '1123'
@@ -76,19 +59,7 @@ real_estate:
   share: 1/5
 - type: ORNÁ PÔDA
   cadastral_territory: NOVÉ HONY
-  lv_number: '122'
-  share: 60/36288
-- type: ORNÁ PÔDA
-  cadastral_territory: NOVÉ HONY
-  lv_number: '123'
-  share: 105/4032
-- type: ORNÁ PÔDA
-  cadastral_territory: NOVÉ HONY
-  lv_number: '442'
-  share: 105/2016
-- type: ORNÁ PÔDA
-  cadastral_territory: VEĽKÉ DRAVCE
-  lv_number: '923'
+  lv_number: '750'
   share: 1/1
 - type: ORNÁ PÔDA
   cadastral_territory: ZELENÉ
@@ -129,12 +100,12 @@ real_estate:
 - type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: ZELENÉ
   lv_number: '1705'
-  share: 8/24 BSM
-- type: ORNÁ PÔDA,TRVALÝ TRÁVNY PORAST
+  share: 3/24
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: ZELENÉ
   lv_number: '1705'
-  share: 3/24
-- type: ORNÁ PÔDA,TRVALÝ TRÁVNY PORAST, ZASTAVANÁ PLOCHA, OSTATNÁ P LOCHA
+  share: 8/24 BSM
+- type: "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, \r\nZASTAVANÁ PLOCHA, OSTATNÁ PLOCHA"
   cadastral_territory: LONTOV
   lv_number: '1150'
   share: 1/5
@@ -150,7 +121,7 @@ real_estate:
   cadastral_territory: ZVOLEN
   lv_number: '4876'
   share: BSM
-- type: RODINNÝ DOM,GARÁŽ, ZÁHRADA, ZASTAVANÁ PLOCHA
+- type: RODINNÝ DOM, GARÁŽ, ZÁHRADA, ZASTAVANÁ PLOCHA
   cadastral_territory: ZVOLEN
   lv_number: '1616'
   share: 1/2
@@ -186,6 +157,10 @@ real_estate:
   cadastral_territory: ZELENÉ
   lv_number: '1718'
   share: 3/48
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE
+  cadastral_territory: NOVÉ HONY
+  lv_number: '125'
+  share: 75/30240
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: ZELENÉ
   lv_number: '1068'

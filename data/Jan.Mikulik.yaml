@@ -1,7 +1,7 @@
 id: ZC202797
-declaration_id: 28953
+declaration_id: 33604
 name: Ing. JÁN MIKULÍK
-year: 2022
+year: 2023
 filed: k 30. aprílu
 public_function: 'člen dozornej rady Sociálnej poisťovne
 
@@ -18,8 +18,8 @@ public_functions:
 - štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ČLEN RADY PRE RIEŠENIE KRÍZOVÝCH
   SITUÁCIÍ)
 income:
-  public_function: 19705
-  other: 69995
+  public_function: 19964
+  other: 75890
 incompatibility: true
 employment: 'MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY
 
@@ -39,12 +39,8 @@ real_estate:
   share: BSM
 - type: RODINNÝ DOM S POZEMKOM
   cadastral_territory: LAKŠÁRSKA NOVÁ VES
-  lv_number: '71'
+  lv_number: '74'
   share: 1/2
-- type: SPOLOČNÉ NEHNUTEĽNOST (ZÁKON 97/2013) - UPS HYBE
-  cadastral_territory: HYBE
-  lv_number: '5732'
-  share: 6000/7032000
 - type: SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE
   cadastral_territory: DOVALOVO
   lv_number: '2597'
@@ -109,6 +105,10 @@ real_estate:
   cadastral_territory: HYBE
   lv_number: '5358'
   share: 6000/6696000
+- type: SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE
+  cadastral_territory: HYBE
+  lv_number: '5732'
+  share: 6000/7032000
 - type: SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE
   cadastral_territory: HYBE
   lv_number: '5733'
@@ -179,20 +179,24 @@ real_estate:
   share: 6000/7032000
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE - UPS HYBE
   cadastral_territory: HYBE
-  lv_number: '5989'
-  share: 6000/6696000
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE - UPS HYBE
-  cadastral_territory: HYBE
   lv_number: '6027'
   share: 6000/7032000
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE - UPS HYBE
   cadastral_territory: HYBE
   lv_number: '6041'
   share: 6000/7032000
+- type: ZASTAVNÁ PLOCHA A NÁDVORIE - UPS HYBE
+  cadastral_territory: HYBE
+  lv_number: '5989'
+  share: 6000/6696000
 movable_property:
 - type: OSOBNÉ VOZIDLO
   brand: TOYOTA
   year_of_manufacture: 2022
+  share: BSM
+- type: OSOBNÉ VOZIDLO
+  brand: TOYOTA
+  year_of_manufacture: 2023
   share: BSM
 property_rights: null
 obligations:
@@ -201,4 +205,4 @@ obligations:
   date: 10. 10. 2019
 use_of_others_real_estate: null
 vehicles: null
-gifts: 'VYSPORIADANIE ŽIVOTNEJ POISTKY PO MATKE, dátum prijatia: 13. 07. 2022'
+gifts: null

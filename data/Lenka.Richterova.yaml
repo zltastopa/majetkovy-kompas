@@ -1,19 +1,23 @@
 id: ZC224454
-declaration_id: 29184
+declaration_id: 33131
 name: Ing. LENKA RICHTEROVÁ
-year: 2022
+year: 2023
 filed: k 30. aprílu
 public_function: člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A.S.)
 public_functions:
 - člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ, A.S.)
 income:
-  public_function: 7813
-  other: 0
+  public_function: 8259
+  other: 10
 incompatibility: true
 employment: null
-business_activity: KONATEĽ(MEARES S.R.O.)KONATEĽ(MEARES REAL S.R.O.)
+business_activity: KONATEĽ(MEARES REAL S.R.O.)KONATEĽ(MEARES S.R.O.)
 positions: null
 real_estate:
+- type: BYT
+  cadastral_territory: PRIEVIDZA
+  lv_number: '6235'
+  share: 1/2
 - type: BYT
   cadastral_territory: PRIEVIDZA
   lv_number: '6236'
@@ -22,25 +26,27 @@ real_estate:
   cadastral_territory: NITRIANSKE PRAVNO
   lv_number: '2235'
   share: 1/2
-- type: POZEMOK + ROZOSTAVANÁ STAVBA
+- type: POZEMOK
   cadastral_territory: ČAVOJ
   lv_number: '704'
   share: 1/2
-- type: RODINNÝ DOM + POZEMOK
+- type: RODINNÝ DOM
   cadastral_territory: KANIANKA
   lv_number: '626'
   share: 1/2
 movable_property:
 - type: AUTOMOBIL
   brand: VOLKSWAGEN
-  year_of_manufacture: 2018
-  share: 100%
+  year_of_manufacture: 2019
+  share: 1/1
 property_rights:
-- 'AKCIE, podiel: 100%'
-- 'BEŽNÉ ÚČTY, podiel: 100%'
-- 'PODIELOVÉ LISTY, podiel: 100%'
+- 'PODIELOVÉ LISTY, podiel: 1/1'
+- 'ÚSPORY, podiel: 1/1'
 obligations:
-- type: HYPOTÉKA
+- type: ÚVER
+  share: 1/2
+  date: 03. 04. 2023
+- type: ÚVER
   share: 1/2
   date: 26. 04. 2022
 use_of_others_real_estate: null

@@ -1,14 +1,14 @@
 id: P203039
-declaration_id: 30549
+declaration_id: 32503
 name: Ing. KAROL PATAKY
-year: 2022
+year: 2023
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 55981
-  other: 8801
+  public_function: 57708
+  other: 16850
 incompatibility: true
 employment: null
 business_activity: null
@@ -23,13 +23,13 @@ real_estate:
 - type: BYT
   cadastral_territory: KRÁĽOVSKÝ CHLMEC
   lv_number: '8715'
-  share: 1/2
+  share: BSM
 - type: GARÁŽ
-  cadastral_territory: KRÁĽOVSKY CHLMEC
+  cadastral_territory: KRÁĽOVSKÝ CHLMEC
   lv_number: '3340'
   share: 1/1
 - type: RODINNÝ DOM
-  cadastral_territory: KRÁĽOVSKY CHLMEC
+  cadastral_territory: KRÁĽOVSKÝ CHLMEC
   lv_number: '76'
   share: 1/2
 - type: RODINNÝ DOM
@@ -38,7 +38,7 @@ real_estate:
   share: 1/2
 - type: STAVBA NA INDIVIDUÁLNU REKREÁCIU
   cadastral_territory: PÁCIN, MAĎARSKO
-  share: 1/2
+  share: BSM
 - type: ZÁHRADA
   cadastral_territory: KRÁĽOVSKÝ CHLMEC
   lv_number: '76'
@@ -47,13 +47,14 @@ real_estate:
   cadastral_territory: PEREŠ
   lv_number: '237'
   share: 1/2
-movable_property: null
+movable_property:
+- type: OSOBNÉ MOTOROVÉ VOZIDLO
+  brand: ŠKODA
+  year_of_manufacture: 2017
+  share: 1/1
 property_rights: null
 obligations:
 - type: žiadny
 use_of_others_real_estate: null
-vehicles:
-- type: OSOBNÉ MOTOROVÉ VOZIDLO
-  brand: ŠKODA
-  year_of_manufacture: 2017
+vehicles: null
 gifts: null

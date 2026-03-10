@@ -1,14 +1,14 @@
 id: P202525
-declaration_id: 28037
+declaration_id: 33323
 name: Ing. JÁN PRÍLEPOK
-year: 2022
+year: 2023
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 40719
-  other: 7752
+  public_function: 43830
+  other: 7630
 incompatibility: true
 employment: null
 business_activity: null
@@ -16,8 +16,8 @@ positions:
 - role: POSLANEC
   organization: ŽILINSKÝ SAMOSPRÁVNY KRAJ
   benefits: ODMENA
-- role: ČLEN DOZORNEJ RADY
-  organization: ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.
+- role: PREDSEDA DOZORNEJ RADY
+  organization: ORAVSKÁ VODÁRENSKÁ SPOLOČNOSŤ
   benefits: ŽIADNE
 real_estate:
 - type: BYT
@@ -29,9 +29,13 @@ real_estate:
   lv_number: '4162'
   share: 1/1
 - type: POZEMKY
-  cadastral_territory: ZÁZRIVÁ
-  lv_number: 6820/10692/6804/10980/6772
+  cadastral_territory: DOLNÝ KUBÍN
+  lv_number: 6820, 10692, 6804, 10980, 6772
   share: 3/8
+- type: POZEMKY
+  cadastral_territory: ZÁZRIVÁ
+  lv_number: '6774'
+  share: 3/16
 - type: POZEMOK
   cadastral_territory: PÁRNICA
   lv_number: '2645'
@@ -39,15 +43,11 @@ real_estate:
 - type: POZEMOK
   cadastral_territory: ZÁZRIVÁ
   lv_number: '6761'
-  share: 9/32
+  share: 9/23
 - type: POZEMOK
   cadastral_territory: ZÁZRIVÁ
   lv_number: '6762'
   share: 69/245
-- type: POZEMOK
-  cadastral_territory: ZÁZRIVÁ
-  lv_number: '6774'
-  share: 3/16
 - type: POZEMOK
   cadastral_territory: ZÁZRIVÁ
   lv_number: '6776'
@@ -60,19 +60,20 @@ real_estate:
   cadastral_territory: ZÁZRIVÁ
   lv_number: '6821'
   share: 93/244
-- type: POZEMOK URBÁR
+- type: POZEMOK - URBÁR
   cadastral_territory: ZÁZRIVÁ
   lv_number: '4791'
   share: 13500/3724000
 - type: ZÁLOHA NA BYT
   cadastral_territory: DOLNÝ KUBÍN
   share: 1/1
-movable_property: null
+movable_property:
+- type: OSOBNÝ AUTOMOBIL
+  brand: VOLKSWAGEN
+  year_of_manufacture: 2020
+  share: 1/1
 property_rights: null
 obligations:
-- type: OSOBNÝ AUTOMOBIL - LEASING
-  share: 1/1
-  date: 14. 09. 2020
 - type: PÔŽIČKA NA ZÁLOHU NA BYT
   share: 1/1
   date: 20. 02. 2022

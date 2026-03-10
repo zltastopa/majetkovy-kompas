@@ -1,14 +1,15 @@
 id: ZP224997
-declaration_id: 27993
+declaration_id: 33983
 name: JUDr. MARIÁN TRENČAN
-year: 2022
+year: 2023
 filed: k 30. aprílu
-public_function: verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (NAJVYŠŠÍ SPRÁVNY SÚD
-  SLOVENSKEJ REPUBLIKY)
+public_function: verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (PODPREDSEDA NAJVYŠŠIEHO
+  SPRÁVNEHO SÚDU SLOVENSKEJ REPUBLIKY )
 public_functions:
-- verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (NAJVYŠŠÍ SPRÁVNY SÚD SLOVENSKEJ REPUBLIKY)
+- verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (PODPREDSEDA NAJVYŠŠIEHO SPRÁVNEHO
+  SÚDU SLOVENSKEJ REPUBLIKY )
 income:
-  public_function: 79922
+  public_function: 86322
   other: 0
 incompatibility: true
 employment: null
@@ -17,24 +18,24 @@ positions: null
 real_estate:
 - type: BYT
   cadastral_territory: KARLOVA VES
-  lv_number: '4629'
+  lv_number: 4629, 4691
+  share: 1/1
+- type: POZEMOK
+  cadastral_territory: PERNEK
+  lv_number: '2412'
   share: 1/1
 - type: POZEMOK
   cadastral_territory: PERNEK
   lv_number: '2413'
-  share: 1/4
-- type: POZEMOK
-  cadastral_territory: PERNEK
-  lv_number: '2417'
   share: 1/1
-movable_property:
-- type: OSOBNÝ AUTOMOBIL
-  brand: TOYOTA
-  year_of_manufacture: 2016
-  share: 1/1
-property_rights: null
+movable_property: null
+property_rights:
+- 'INVESTIČNÝ ÚČET, podiel: 1/1'
+- 'ÚSPORY, podiel: 1/1'
 obligations:
-- type: žiadny
+- type: HYPOTEKÁRNY ÚVER
+  share: 1/1
+  date: 27. 04. 2023
 use_of_others_real_estate: null
 vehicles: null
 gifts: null
