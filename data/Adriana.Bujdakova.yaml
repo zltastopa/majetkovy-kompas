@@ -1,16 +1,16 @@
 id: ZC245805
-declaration_id: 33149
+declaration_id: 36862
 name: Ing. ADRIANA BUJDÁKOVÁ
-year: 2023
+year: 2024
 filed: k 30. aprílu
 public_function: štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TIPOS, NÁRODNÁ
-  LOTÉRIOVÁ SPOLOČNOSŤ, A.S)
+  LOTÉRIOVÁ SPOLOČNOSŤ, A.S.)
 public_functions:
 - štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ,
-  A.S)
+  A.S.)
 income:
-  public_function: 2282
-  other: 77060
+  public_function: 30030
+  other: 134510
 incompatibility: true
 employment: 'TIPOS, NÁRODNÁ LOTÉRIOVÁ SPOLOČNOSŤ, A.S.
 
@@ -36,22 +36,30 @@ real_estate:
   cadastral_territory: RUŽINOV
   lv_number: '7269'
   share: 658/200000 BSM
-- type: PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH
-  cadastral_territory: STARÉ MESTO
-  lv_number: '5927'
-  share: 29/10000 BSM
-- type: PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH DOMU
+- type: PODIEL NA SPOLOČNÝCH ČASTIACH DOMU
   cadastral_territory: KARLOVA VES
   lv_number: '3136'
   share: 1621/764281 BSM
-- type: PODIEL NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH DOMU
+- type: PODIEL NA SPOLOČNÝCH ČASTIACH DOMU
   cadastral_territory: RUŽINOV
   lv_number: '4471'
   share: 658/200000 BSM
+- type: PODIEL NA SPOLOČNÝCH ČASTIACH DOMU
+  cadastral_territory: STARÉ MESTO
+  lv_number: '5927'
+  share: 29/10000 BSM
 - type: POZEMOK
   cadastral_territory: CHORVÁTSKY GROB
   lv_number: '5335'
   share: 1/2 BSM
+- type: STAVBA - INÁ BUDOVA
+  cadastral_territory: NIVY
+  lv_number: '416'
+  share: 10/80 BSM
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE
+  cadastral_territory: NIVY
+  lv_number: '416'
+  share: 10/80 BSM
 movable_property:
 - type: ZBIERKA UMELECKÝCH PREDMETOV
   share: BSM
@@ -60,6 +68,12 @@ property_rights:
 - 'PEŇAŽNÉ PROSTRIEDKY V HOTOVOSTI, podiel: BSM'
 - 'PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 20%'
 obligations:
+- type: BEZÚČELOVÝ ÚVER
+  share: BSM
+  date: 04. 10. 2024
+- type: HYPOTEKÁRNY ÚVER
+  share: BSM
+  date: 07. 10. 2024
 - type: HYPOTEKÁRNY ÚVER
   share: BSM
   date: 26. 08. 1997
@@ -67,8 +81,5 @@ obligations:
   share: BSM
   date: 24. 05. 2017
 use_of_others_real_estate: null
-vehicles:
-- type: MOTOROVÉ VOZIDLO
-  brand: ŠKODA
-  year_of_manufacture: 2020
+vehicles: null
 gifts: null

@@ -1,13 +1,13 @@
 id: P203012
-declaration_id: 33348
+declaration_id: 37188
 name: Mgr. MARCELA IVANČOVÁ
-year: 2023
+year: 2024
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 58778
+  public_function: 60478
   other: 0
 incompatibility: true
 employment: 'GYMNÁZIUM DUKLIANSKYCH HRDINOV
@@ -25,6 +25,10 @@ real_estate:
   cadastral_territory: RAČA
   lv_number: '5244'
   share: 1/1
+- type: BYT
+  cadastral_territory: SVIDNÍK
+  lv_number: '2497'
+  share: 1/2
 - type: BYT A GARÁŽOVÉ STÁTIE
   cadastral_territory: KARLOVA VES
   lv_number: '4346'
@@ -33,7 +37,7 @@ real_estate:
   cadastral_territory: KARLOVA VES
   lv_number: '4577'
   share: 1/1
-- type: GARÁŽ
+- type: DVOJGARÁŽ
   cadastral_territory: SVIDNÍK
   lv_number: '2082'
   share: 1/1
@@ -41,27 +45,31 @@ real_estate:
   cadastral_territory: ZÁTURČIE
   lv_number: '3779'
   share: 1/1
-- type: LESNÉ POZEMKY A TRÁVNATÉ PORASTY
+- type: LESNÉ POZEMKY A TRÁVNE PORASTY
   cadastral_territory: RAKOVČÍK
   lv_number: 273, 281
-  share: 1/150 1/135
-- type: OSTATNÁ PLOCHA A GARÁŽ
+  share: 1/150, 1/135
+- type: OSTATNÁ PLOCHA
   cadastral_territory: SVIDNÍK
   lv_number: '2082'
   share: 1/1
-- type: PARCELA POD GARÁŽOU
+- type: PARCELA POD DVOJGARÁŽOU
   cadastral_territory: SVIDNÍK
   lv_number: '2176'
   share: 2/4
+- type: PODIEL NA POZEMKU POD BYTOVÝM DOMOM
+  cadastral_territory: SVIDNÍK
+  lv_number: '2497'
+  share: 8894/860088
 - type: POZEMOK - PODIEL POD BYTOVÝM DOMOM
   cadastral_territory: RAČA
   lv_number: '5244'
   share: 6446/495311
-- type: REKREAČNÝ DOM, ZÁHRADA A OSTATNÁ PLOCHA
+- type: REKREAČNÝ DOM, ZÁHRADA, OSTATNÁ PLOCHA
   cadastral_territory: KRAJNÉ ČIERNO
   lv_number: '109'
   share: 1/1
-- type: RODINNÝ DOM
+- type: RODINNÝ DOM, OSTATNÁ PLOCHA
   cadastral_territory: SVIDNÍK
   lv_number: '1261'
   share: 1/1
@@ -71,13 +79,10 @@ movable_property:
   year_of_manufacture: 2023
   share: 1/1
 property_rights:
-- 'OSOBNÝ ÚČET, podiel: 1/1'
+- 'OSOBNÉ ÚČTY, podiel: 1/1'
 - 'SPORIACE AKCIOVÉ FONDY, podiel: 1/1'
 - 'ŽIVOTNÉ POISTENIE, podiel: 1/1'
 obligations:
-- type: BANKOVÝ ÚVER
-  share: 1/1
-  date: 09. 06. 2023
 - type: BANKOVÝ ÚVER
   share: 1/1
   date: 16. 06. 2020

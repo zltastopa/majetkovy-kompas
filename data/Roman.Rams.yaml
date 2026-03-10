@@ -1,7 +1,7 @@
 id: ZC235200
-declaration_id: 33770
+declaration_id: 38084
 name: Mgr. ROMAN RAMS, MPH
-year: 2023
+year: 2024
 filed: k 30. aprílu
 public_function: štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD
   VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V POPRADE)
@@ -9,8 +9,8 @@ public_functions:
 - štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA
   SO SÍDLOM V POPRADE)
 income:
-  public_function: 48607
-  other: 1744
+  public_function: 43956
+  other: 1839
 incompatibility: true
 employment: 'KATOLÍCKA UNIVERZITA V RUŽOMBERKU
 
@@ -20,7 +20,11 @@ employment: 'KATOLÍCKA UNIVERZITA V RUŽOMBERKU
 business_activity: null
 positions: null
 real_estate:
-- type: DVOJIZBOVÝ BYT A SPOLOČNÉ ZARIADENIA A PLOCHY
+- type: BYT
+  cadastral_territory: VRBOV
+  lv_number: '790'
+  share: 1/1
+- type: BYT A SPOLOČNÉ ZARIADENIA A PLOCHY
   cadastral_territory: POPRAD
   lv_number: '3680'
   share: 1/1
@@ -28,10 +32,6 @@ real_estate:
   cadastral_territory: POPRAD
   lv_number: '3680'
   share: 1/1
-- type: LESNY POZEMOK
-  cadastral_territory: PODOLÍNEC
-  lv_number: '4717'
-  share: 5/2160
 - type: LESNÝ POZEMOK
   cadastral_territory: PODOLÍNEC
   lv_number: '4555'
@@ -52,6 +52,10 @@ real_estate:
   cadastral_territory: PODOLÍNEC
   lv_number: '4700'
   share: 1/18
+- type: LESNÝ POZEMOK
+  cadastral_territory: PODOLÍNEC
+  lv_number: '4717'
+  share: 5/2160
 - type: LESNÝ POZEMOK
   cadastral_territory: PODOLÍNEC
   lv_number: '4722'
@@ -80,7 +84,7 @@ real_estate:
   cadastral_territory: ABRAHÁMOVCE
   lv_number: '5'
   share: 2/6
-- type: SPOLOČNÉ ČAST DOMU,PLÔCH, ZÁHRAD
+- type: SPOLOČNÉ ČAST DOMU, PLÔCH, ZÁHRAD
   cadastral_territory: VRBOV
   lv_number: '2743'
   share: 643/3211
@@ -88,18 +92,21 @@ real_estate:
   cadastral_territory: POPRAD
   lv_number: '3680'
   share: 3370/93900
-- type: TROJIZOBOVÝ BYT
-  cadastral_territory: VRBOV
-  lv_number: '790'
-  share: 1/1
-- type: TRVALÝ TRÁVNATY PORAST
+- type: TRVALÝ TRÁVNATÝ PORAST
   cadastral_territory: PODOLÍNEC
   lv_number: '6445'
   share: 1/8
 movable_property: null
-property_rights: null
+property_rights:
+- 'ÚSPORY/ FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: 1/1'
+- 'ŽIVOTNÉ POISTENIE, podiel: 1/1'
 obligations:
-- type: žiadny
+- type: HYPOTEKÁRNY ÚVER
+  share: 1/1
+  date: 16. 06. 2021
+- type: HYPOTEKÁRNY ÚVER
+  share: 1/1
+  date: 21. 07. 2022
 use_of_others_real_estate: null
 vehicles: null
 gifts: null

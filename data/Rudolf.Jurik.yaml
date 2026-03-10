@@ -1,14 +1,20 @@
 id: ZC245899
-declaration_id: 30120
+declaration_id: 37720
 name: JUDr. RUDOLF JURÍK
-year: 2023
-filed: pri ujatí sa funkcie
-public_function: štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (CARGO WAGON, A.S.)
+year: 2024
+filed: k 30. aprílu
+public_function: 'člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO INTERMODAL, A.S.)
+
+  štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (CARGO WAGON, A.S.)
+
+  štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DEPO SERVICES, A.S.)'
 public_functions:
+- člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZSSK CARGO INTERMODAL, A.S.)
 - štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (CARGO WAGON, A.S.)
+- štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DEPO SERVICES, A.S.)
 income:
-  public_function: 0
-  other: 0
+  public_function: 22000
+  other: 123701
 incompatibility: true
 employment: 'CARGO WAGON, A.S.
 
@@ -24,42 +30,47 @@ employment: 'CARGO WAGON, A.S.
 business_activity: null
 positions: null
 real_estate:
-- type: POZEMOK - OSTATNÉ PLOCHY
+- type: POZEMOK OSTATNÉ PLOCHY
   cadastral_territory: STARÉ MESTO, OKRES BRATISLAVA I
   lv_number: '9761'
   share: 1/340
-- type: POZEMOK - OSTATNÉ PLOCHY, ZASTAVANÉ PLOCHY A NÁDVORIA
-  cadastral_territory: STARÉ MESTO, OKRES BRATISLAVA I
+- type: POZEMOK-OSTATNÉ PLOCHY, ZASTAVANÉ PLOCHY A NÁDVORIA
+  cadastral_territory: STARÉ MESTO-OKRES BRATISLAVA I
   lv_number: '9958'
   share: 1/340
-- type: POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA
+- type: POZEMOK-ZASTAVANÉ PLOCHY A NÁDVORIA
   cadastral_territory: MICHALOVCE
   lv_number: '10432'
-  share: 6774/311728
-- type: POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA
+  share: 1/1
+- type: POZEMOK-ZASTAVANÉ PLOCHY A NÁDVORIA
   cadastral_territory: STARÉ MESTO, OKRES BRATISLAVA I
   lv_number: '9935'
   share: 376/778140
-- type: POZEMOK - ZASTAVANÉ PLOCHY A NÁDVORIA
+- type: POZEMOK-ZASTAVANÉ PLOCHY A NÁDVORIA
   cadastral_territory: STARÉ MESTO, OKRES BRATISLAVA I
   lv_number: '9935'
   share: 7380/778140
-- type: STAVBA - BYT
+- type: STAVBA-BYT
   cadastral_territory: MICHALOVCE
   lv_number: '7257'
   share: 1/1
-- type: STAVBA - NEBYTOVÝ PRIESTOR - SKLAD - PIVNICA
-  cadastral_territory: STARÉ MESTO, OKRES BRATISLAVA1
+- type: STAVBA-BYT
+  cadastral_territory: STARÉ MESTO, OKRES BRATISLAVA I
   lv_number: '9935'
   share: 1/2
-- type: STAVBA BYT
+- type: STAVBA-NEBYTOVÝ PRIESTOR-SKLAD-PIVNICA
   cadastral_territory: STARÉ MESTO, OKRES BRATISLAVA I
   lv_number: '9935'
   share: 1/2
 movable_property: null
-property_rights: null
+property_rights:
+- 'DOPLNKOVÉ DÔCHODKOVÉ SPORENIE, podiel: 100%'
+- 'FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: BSM'
+- 'ŽIVOTNÉ POISTENIE, podiel: 100%'
 obligations:
-- type: žiadny
+- type: HYPOTEKÁRNY ÚVER
+  share: 100%
+  date: 11. 11. 2015
 use_of_others_real_estate: null
 vehicles: null
 gifts: null

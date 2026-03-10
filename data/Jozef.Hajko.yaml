@@ -1,13 +1,13 @@
 id: B235453
-declaration_id: 33040
+declaration_id: 37129
 name: Ing. JOZEF HAJKO
-year: 2023
+year: 2024
 filed: k 30. aprílu
 public_function: poslanec Národnej rady Slovenskej republiky
 public_functions:
 - poslanec Národnej rady Slovenskej republiky
 income:
-  public_function: 11921
+  public_function: 48835
   other: 0
 incompatibility: true
 employment: null
@@ -18,10 +18,6 @@ positions:
   benefits: ŽIADNE
 real_estate:
 - type: DOM
-  cadastral_territory: BRATISLAVA NOVÉ MESTO VINOHRADY
-  lv_number: '3531'
-  share: BSM
-- type: DOM
   cadastral_territory: BREZOVÁ POD BRADLOM
   lv_number: '4650'
   share: BSM
@@ -32,6 +28,10 @@ real_estate:
 - type: POZEMKY
   cadastral_territory: BREZOVÁ POD BRADLOM
   lv_number: '4650'
+  share: BSM
+- type: RODINNÝ DOM
+  cadastral_territory: BRATISLAVA NOVÉ MESTO VINOHRADY
+  lv_number: '3531'
   share: BSM
 movable_property:
 - type: OSOBNÉ VOZIDLO
@@ -40,10 +40,9 @@ movable_property:
   share: BSM
 property_rights:
 - 'AKCIE V SPOLOČNOSTI, podiel: BSM'
-- 'FINANČNÉ INVESTÍCIE, podiel: BSM'
-- 'FINANČNÉ PROSTREDKY NA ÚČTE, podiel: BSM'
+- 'FINANČNÉ INVESTÍCIE, podiel: 100%'
+- 'FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: BSM'
 - 'PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 50%'
-- 'ŽVOTNÁ POISTKA, podiel: 1/1'
 obligations:
 - type: žiadny
 use_of_others_real_estate: null

@@ -1,16 +1,19 @@
 id: X245867
-declaration_id: 29981
+declaration_id: 37888
 name: Ing. MATEJ FEKETE, MBA
-year: 2023
-filed: pri ujatí sa funkcie
-public_function: štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne
+year: 2024
+filed: k 30. aprílu
+public_function: 'štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne
+
+  štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAKIA TRAVEL)'
 public_functions:
 - štatutárny orgán alebo člen štatutárneho orgánu Všeobecnej zdravotnej poisťovne
+- štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAKIA TRAVEL)
 income:
-  public_function: 0
-  other: 0
-incompatibility: false
-employment: 'VŠEOBECNÁ ZDRAVOTNÁ POISŤOVŇA, A.S.
+  public_function: 49902
+  other: 121150
+incompatibility: true
+employment: 'VŠEOBECNÁ ZDRAVOTNÁ POISŤOVŇA
 
   Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
 
@@ -19,21 +22,33 @@ business_activity: null
 positions: null
 real_estate:
 - type: BYT
-  cadastral_territory: STARÉ MESTO
+  cadastral_territory: STARÉ MESTO (804096)
   lv_number: '6200'
+  share: 1/1
+- type: BYT
+  cadastral_territory: STARÉ MESTO (804096)
+  lv_number: '9856'
   share: 1/1
 - type: NEBYTOVÝ PRIESTOR
-  cadastral_territory: STARÉ MESTO
+  cadastral_territory: STARÉ MESTO (804096)
   lv_number: '9856'
   share: 1/1
-- type: SPOLUVLASTNÍCKY PODIEL NA SPOLOČNÝCH ČASTIACH, POZEMKU
-  cadastral_territory: STARÉ MESTO
-  lv_number: '6200'
-  share: 662/10000
-- type: SPOLUVLASTNÍCKY PODIEL NA SPOLOČNÝCH ČASTIACH, POZEMKU
-  cadastral_territory: STARÉ MESTO
+- type: PODIEL NA SPOL ČASTIACH DOMU A POZEMKU 10174/1388260
+  cadastral_territory: STARÉ MESTO (804096)
   lv_number: '9856'
-  share: 319/1388260
+  share: 1/1
+- type: PODIEL NA SPOL ČASTIACH DOMU A POZEMKU 662/10000
+  cadastral_territory: STARÉ MESTO (804096)
+  lv_number: '6200'
+  share: 1/1
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE V PODIELE 10174/671930
+  cadastral_territory: STARÉ MESTO (804096)
+  lv_number: '10249'
+  share: 1/1
+- type: ZÁHRADA
+  cadastral_territory: NOVÁ BOŠÁCA (841501)
+  lv_number: '825'
+  share: BSM
 movable_property:
 - type: BYTOVÉ ZARIADENIE A ZARIADENIE DOMU
   share: 100%
@@ -42,9 +57,6 @@ movable_property:
 property_rights:
 - '2. DÔCHODKOVÝ PILIER, podiel: 100%'
 - 'PEŇAŽNÉ PROSTRIEDKY V BANKE, podiel: 100%'
-- 'PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 100%'
-- 'PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 100%'
-- 'PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 15%'
 - 'SPORENIE V BANKE, podiel: 100%'
 obligations:
 - type: HYPOTEKÁRNY ÚVER

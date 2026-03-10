@@ -1,15 +1,15 @@
 id: K245998
-declaration_id: 30487
+declaration_id: 36986
 name: Bc. PETER PAMULA
-year: 2023
-filed: pri ujatí sa funkcie
+year: 2024
+filed: k 30. aprílu
 public_function: štátny tajomník
 public_functions:
 - štátny tajomník
 income:
-  public_function: 0
+  public_function: 49276
   other: 0
-incompatibility: false
+incompatibility: true
 employment: null
 business_activity: null
 positions: null
@@ -27,10 +27,6 @@ real_estate:
   lv_number: '287'
   share: 8/12
 - type: LESNÉ POZEMKY
-  cadastral_territory: VYŠNÁ SLANA
-  lv_number: '1585'
-  share: 1/1376
-- type: LESNÉ POZEMKY
   cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '1271'
   share: 1/600
@@ -38,6 +34,10 @@ real_estate:
   cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '1452'
   share: 1/8640
+- type: LESNÉ POZEMKY
+  cadastral_territory: VYŠNÁ SLANÁ
+  lv_number: '1585'
+  share: 1/1376
 - type: LESNÉ POZEMKY
   cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '1605'
@@ -106,7 +106,7 @@ real_estate:
   cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '1659'
   share: 1/1376
-- type: ORNÁ PÔDA, OSTATNÉ A VODNÉ PLOCHY, TRVALÝ TRÁVNY PORAST
+- type: ORNÁ PÔDA, OSTATNÉ A VODNÉ PLOCHY, TRVALÝ TRÁVNATÝ PORAST
   cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '1179'
   share: 7/8160
@@ -118,10 +118,6 @@ real_estate:
   cadastral_territory: DEDINKY
   lv_number: '326'
   share: 1/1
-- type: TRVALÉ TRAVNATÉ PORASTY, LESNÝ POZEMOK
-  cadastral_territory: VYŠNÁ SLANÁ
-  lv_number: '1450'
-  share: 7/5504
 - type: TRVALÉ TRÁVNATÉ PORASTY
   cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '1180'
@@ -150,6 +146,10 @@ real_estate:
   cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '1637'
   share: 8229/1820503
+- type: TRVALÉ TRÁVNATÉ PORASTY, LESNÝ POZEMOK
+  cadastral_territory: VYŠNÁ SLANÁ
+  lv_number: '1450'
+  share: 7/5504
 - type: TRVALÉ TRÁVNATÉ PORASTY, ORNÁ PÔDA
   cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '1137'
@@ -166,22 +166,22 @@ real_estate:
   cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '1419'
   share: 7/5504
-- type: TRVALÉ TRÁVNE PORASTY, LESNÝ POZEMOK, ORNÁ PÔDA, OSTATNÁ PLOCHA
-  cadastral_territory: VYŠNÁ SLANÁ
-  lv_number: '1291'
-  share: 1/688
-- type: TRVALÝ TRÁVNATÝ PORAST,  LESNÝ POZEMOK
-  cadastral_territory: VYŠNÁ SLANÁ
-  lv_number: '1304'
-  share: 1/1376
 - type: TRVALÝ TRÁVNATÝ PORAST, LESNÝ POZEMOK
   cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '1265'
   share: 1/600
 - type: TRVALÝ TRÁVNATÝ PORAST, LESNÝ POZEMOK
   cadastral_territory: VYŠNÁ SLANÁ
+  lv_number: '1304'
+  share: 1/1376
+- type: TRVALÝ TRÁVNATÝ PORAST, LESNÝ POZEMOK
+  cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '1632'
   share: 1/8640
+- type: "TRVALÝ TRÁVNATÝ PORAST, LESNÝ POZEMOK,\r\nORNÁ PÔDA, OSTATNÁ PLOCHA"
+  cadastral_territory: VYŠNÁ SLANÁ
+  lv_number: '1291'
+  share: 1/688
 - type: TRVALÝ TRÁVNATÝ PORAST, ORNÁ PÔDA, VODNÉ PLOCHY
   cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '1678'
@@ -190,7 +190,7 @@ real_estate:
   cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '1320'
   share: 1/600
-- type: VODNÁ A OSTATNÁ PLOCHA, LESNÝ POZEMOK, TRVALÉ TRÁVNE PORASTY, ORNÁ PÔDA
+- type: "VODNÁ A OSTATNÁ PLOCHA, LESNÝ POZEMOK, \r\nTRVALÝ TRÁVNATÝ PORAST, ORNÁ PÔDA"
   cadastral_territory: VYŠNÁ SLANÁ
   lv_number: '970'
   share: 1/688
@@ -230,14 +230,6 @@ movable_property:
 - type: MOTOCYKEL
   brand: KAWASAKI
   year_of_manufacture: 2010
-  share: 1/1
-- type: MOTOCYKEL
-  brand: KAWASAKI
-  year_of_manufacture: 2010
-  share: 1/1
-- type: OSOBNÉ VOZIDLO
-  brand: JEEP
-  year_of_manufacture: 2012
   share: 1/1
 - type: OSOBNÉ VOZIDLO
   brand: JEEP

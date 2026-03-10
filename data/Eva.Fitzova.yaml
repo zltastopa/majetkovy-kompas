@@ -1,15 +1,15 @@
 id: ZC224915
-declaration_id: 33089
+declaration_id: 38167
 name: Mgr. EVA FITZOVÁ, MPH
-year: 2023
+year: 2024
 filed: k 30. aprílu
 public_function: štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD
-  VEREJNÉHO ZDRAVOTNÍCTVA BRATISLAVA HLAVNÉ MESTO SO SÍDLOM V BRATISLAVE)
+  VEREJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V BRATISLAVE )
 public_functions:
 - štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA
-  BRATISLAVA HLAVNÉ MESTO SO SÍDLOM V BRATISLAVE)
+  SO SÍDLOM V BRATISLAVE )
 income:
-  public_function: 58500
+  public_function: 59700
   other: 0
 incompatibility: true
 employment: null
@@ -23,6 +23,10 @@ real_estate:
 - type: ORNÁ PÔDA
   cadastral_territory: MALÉ ŠENKVICE
   lv_number: '649'
+  share: 1/1
+- type: ORNÁ PÔDA
+  cadastral_territory: MALÉ ŠENKVICE
+  lv_number: '680'
   share: 1/1
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ ŠENKVICE
@@ -48,10 +52,14 @@ real_estate:
   cadastral_territory: MALÉ ŠENKVICE
   lv_number: '462'
   share: 1/2
-- type: TRVALÝ TRÁVNY PORAST
+- type: TRVALÝ TRÁVNATÝ PORAST
   cadastral_territory: BUDMERICE
   lv_number: '1757'
   share: 1/1
+- type: VINICA
+  cadastral_territory: MALÉ  ŠENKVICE
+  lv_number: '786'
+  share: 1/2
 - type: VINICA
   cadastral_territory: MALÉ ŠENKVICE
   lv_number: '649'
@@ -59,7 +67,7 @@ real_estate:
 - type: VINICA
   cadastral_territory: MALÉ ŠENKVICE
   lv_number: '786'
-  share: 1/2
+  share: 1/1
 - type: VINICA
   cadastral_territory: MODRA
   lv_number: '11310'
@@ -68,23 +76,23 @@ real_estate:
   cadastral_territory: VEĽKÉ ŠENKVICE
   lv_number: '2702'
   share: 1/1
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE - PIVNICA
-  cadastral_territory: VEĽKÉ ŠENKVICE
-  lv_number: '3134'
-  share: 1/1
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE - RODINNÝ DOM
-  cadastral_territory: VEĽKÉ ŠENKVICE
-  lv_number: '2954'
-  share: 1/2
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE - RODINNÝ DOM
+- type: ZASTAVANÁ  PLOCHA A NÁDVORIE - RODINNÝ DOM
   cadastral_territory: VEĽKÉ ŠENKVICE
   lv_number: '2984'
   share: 1/1
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE - PIVNICA
+  cadastral_territory: VEĽKÉ ŠENKVICE
+  lv_number: '3137'
+  share: 1/1
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE - ROD. DOM
+  cadastral_territory: VEĽKÉ ŠENKVICE
+  lv_number: '2954'
+  share: 1/2
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE - SKLAD
   cadastral_territory: VEĽKÉ ŠENKVICE
   lv_number: '1098'
   share: 1/1
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE - SKLAD
+- type: ZASTAVANÁ PLOCHA A NÁVORIE - SKLAD
   cadastral_territory: VEĽKÉ ŠENKVICE
   lv_number: '1098'
   share: 1/1
@@ -94,7 +102,7 @@ real_estate:
   share: 1/2
 - type: ZÁHRADA
   cadastral_territory: VEĽKÉ ŠENKVICE
-  lv_number: '2954'
+  lv_number: '2959'
   share: 1/2
 movable_property:
 - type: OSOBNÉ MOTOROVÉ VOZIDLO

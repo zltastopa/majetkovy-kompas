@@ -1,15 +1,20 @@
 id: ZO235563
-declaration_id: 33923
+declaration_id: 38326
 name: Mgr. MIROSLAV KOČAN
-year: 2023
+year: 2024
 filed: k 30. aprílu
-public_function: generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO ŠKOLSTVA, VÝSKUMU, VÝVOJA
+public_function: 'generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO ŠKOLSTVA, VÝSKUMU, VÝVOJA
   A MLÁDEŽE SLOVENSKEJ REPUBLIKY)
+
+  člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ KOALÍCIA PRE DIGITÁLNE ZRUČNOSTI A POVOLANIA SLOVENSKEJ
+  REPUBLIKY)'
 public_functions:
 - generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO ŠKOLSTVA, VÝSKUMU, VÝVOJA A MLÁDEŽE SLOVENSKEJ
   REPUBLIKY)
+- člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NÁRODNÁ KOALÍCIA PRE DIGITÁLNE ZRUČNOSTI A POVOLANIA SLOVENSKEJ
+  REPUBLIKY)
 income:
-  public_function: 8693
+  public_function: 51594
   other: 0
 incompatibility: true
 employment: null
@@ -20,19 +25,19 @@ real_estate:
   cadastral_territory: VRAKUŇA
   lv_number: '4156'
   share: 1/1
-- type: BYT, PODIEL PRIESTORU NA SPOL. ČAST. DOMU
+- type: BYT, PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU
+  cadastral_territory: BRATISLAVA STARÉ MESTO
+  lv_number: '2945'
+  share: 11141242110000 %
+- type: BYT, PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU
   cadastral_territory: BRATISLAVA STARÉ MESTO
   lv_number: '7358'
   share: 1/1 + 13/1000
-- type: BYT, PODIEL PRIESTORU NA SPOL. ČAST. DOMU
-  cadastral_territory: PODUNAJSKÉ BBSKUPICE
+- type: BYT, PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU
+  cadastral_territory: PODUNAJSKÉ BISKUPICE
   lv_number: '5935'
-  share: 1/1 4950/430320
-- type: BYT, PODIEL PRIESTORU NA SPOL. ČASTIACH DOMU
-  cadastral_territory: BRATISLAVA STARÉ MESTO
-  lv_number: '2945'
-  share: 1/1 + 1242/10000
-- type: BYT, ZAST. PLOCHA A NÁDVORIE
+  share: 1/1 + 4950/430320
+- type: BYT, ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: BRATISLAVA STARÉ MESTO
   lv_number: '5432'
   share: 1/1
@@ -52,62 +57,58 @@ real_estate:
   cadastral_territory: BRATISLAVA STARÉ MESTO
   lv_number: '7650'
   share: 1/1
-- type: NEBYTOVÝ PRIESTOR, POD. PRIEST. NA SPOL. ČAST. DOMU
-  cadastral_territory: BRATISLAVA -  PODUNAJSKÉ BISKUPICE
+- type: NEBYTOVÝ PRIESTOR, PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU
+  cadastral_territory: BRATISLAVA - PODUNAJSKÉ BISKUPICE
   lv_number: '5935'
-  share: 1/1 + 1640/430320
-- type: ORNÁ PÔDA
-  cadastral_territory: DOLNE BZINCE
-  lv_number: '1702'
-  share: 1/18
-- type: ORNÁ PÔDA
+  share: 1/H1640/430320
+- type: ORNÁ PÓDA
   cadastral_territory: DOLNÉ BZINCE
   lv_number: '1893'
   share: 1/6
-- type: PODIEL PRIESTORU NA SPOL. ČASTIACH DOMU
+- type: ORNÁ PÔDA
+  cadastral_territory: DOLNÉ BZINCE
+  lv_number: '1702'
+  share: 1/18
+- type: PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU
   cadastral_territory: BRATISLAVA STARÉ MESTO
   lv_number: '5432'
   share: 961/100000
-- type: PODIEL PRIESTORU NA SPOL. ČASTIACH DOMU
-  cadastral_territory: BRATISLAVA VRAKUŇA
-  lv_number: '4156'
-  share: 4354/54874
-- type: PODIEL PRIESTORU NA SPOL. ČASŤ. DOMU
+- type: PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU
   cadastral_territory: BRATISLAVA STARÉ MESTO
   lv_number: '6434'
   share: 985/10000
-- type: PODIEL PRIESTORU NA SPOL. ČASŤ. DOMU
+- type: PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU
   cadastral_territory: BRATISLAVA STARÉ MESTO
   lv_number: '7718'
   share: 1155/10000
+- type: PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH DOMU
+  cadastral_territory: BRATISLAVA VRAKUŇA
+  lv_number: '4156'
+  share: 4354/54874
 - type: REKREAČNÝ DOM
   cadastral_territory: DOLNÉ BZINCE
   lv_number: '4667'
   share: 3/4
 - type: RODINNÝ DOM
-  cadastral_territory: PODUNAJSKE B8SKUP8CE
+  cadastral_territory: PODUNAJSKE BISKUPICE
   lv_number: '3584'
   share: 1/2
-- type: RODINNÝ DOM, ZAST. PLOCHA A NÁDV., OSTATNÁ PL., ZÁHRADA
+- type: RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE, OSTATNÁ PLOCHA, ZÁHRADA
   cadastral_territory: BRATISLAVA STARÉ MESTO
   lv_number: '1571'
   share: 3/4
-- type: ZAST. PL. A NÁDV. 5X, TRV. TRÁVNY PORAST, ORNÁ PÔDA
+- type: TRVALÝ TRÁVNATÝ PORAST 2X, ORNÁ PÔDA 2X
+  cadastral_territory: DOLNÉ BZINCE
+  lv_number: '3238'
+  share: 1/1
+- type: ZASTAVANÁ PLOCHA A NÁDVORIA 5X, TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
   cadastral_territory: BRATISLAVA PODUNAJSKÉ BISKUPICE
   lv_number: '3584'
   share: 1/2
-- type: ZAST. PLOCHA A NÁDVORIE 2X, ZÁHRADA 2X
-  cadastral_territory: BRATISLAVA STARÉ MESTO
-  lv_number: '6116'
-  share: 1242/10000
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: BRATISLAVA STARÉ MESTO
   lv_number: '7863'
   share: 779/10000
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE
-  cadastral_territory: BRATISLAVA VRAKUŇA
-  lv_number: '3763'
-  share: 1/7
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: BRATISLAVA VRAKUŇA
   lv_number: '4313'
@@ -136,6 +137,18 @@ real_estate:
   cadastral_territory: BRATISLAVA PODUNAJSKÉ BISKUPICE
   lv_number: '5859'
   share: 4950/430320
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE 2X
+  cadastral_territory: BRATISLAVA VRAKUŇA
+  lv_number: '3763'
+  share: 1/7
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE 2X, ZÁHRADA
+  cadastral_territory: BRATISLAVA VRAKUŇA
+  lv_number: '3731'
+  share: 1/21
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE 2X, ZÁHRADA 2X
+  cadastral_territory: BRATISLAVA STARÉ MESTO
+  lv_number: '6116'
+  share: 1242/10000
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE 4X
   cadastral_territory: BRATISLAVA PODUNAJSKÉ BISKUPICE
   lv_number: '3119'
@@ -148,41 +161,33 @@ real_estate:
   cadastral_territory: BRATISLAVA STARÉ MESTO
   lv_number: '9765'
   share: 1/1
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA
-  cadastral_territory: BRATISLAVA VRAKUŇA
-  lv_number: '3731'
-  share: 1/21
 - type: ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE 3X
   cadastral_territory: DOLNÉ BZINCE
   lv_number: '4495'
   share: 1/2
 movable_property:
 - type: AUTOMOBIL
-  brand: JEEP
+  brand: JEEP CHEROKEE
   year_of_manufacture: 2017
-  share: 1/1
+  share: 111%
 - type: AUTOMOBIL
   brand: TOYOTA
   year_of_manufacture: 2005
   share: 1/1
 - type: UMELECKÉ DIELA
-  share: 1/1
+  share: 111%
 property_rights:
 - 'OBCHODNÝ PODIEL AKCIOVÁ SPOLOČNOSŤ, podiel: 99/100'
 - 'OBCHODNÝ PODIEL SPOL. S RUČENÍM OBMEDZENÝM, podiel: 1/1'
 - 'OBCHODNÝ PODIEL SPOL. S RUČENÍM OBMEDZENÝM, podiel: 1/2'
 - 'OBCHODNÝ PODIEL SPOL. S RUČENÍM OBMEDZENÝM, podiel: 1/3'
-- 'OBCHODNÝ PODIEL. SPOL S RUČENÍM OBMEDZENÝM, podiel: 1/1'
-- 'PODIELY VO VEREJNE OBCHODOVANÝCH SPOLOČNOSTIACH, podiel: 1/1'
-- 'ÚSPORY, podiel: 1/1'
-- 'ÚČTY V BANKÁCH, podiel: 1/1'
+- 'PODIELY VO VEREJNE OBCHODOVANÝCH SPOLOČNOSTIACH, podiel: 111%'
+- 'ÚSPORY, podiel: 111%'
+- 'ÚČTY V BANKÁCH, podiel: 111%'
 obligations:
 - type: HYPOTÉKA
   share: 1/1
   date: 16. 09. 2010
-- type: HYPOTÉKA
-  share: 1/1
-  date: 22. 03. 2010
 use_of_others_real_estate: null
 vehicles: null
 gifts: null

@@ -1,13 +1,13 @@
 id: P225156
-declaration_id: 33368
+declaration_id: 37952
 name: Ing. JÁN SKLÁR
-year: 2023
+year: 2024
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 46154
+  public_function: 47592
   other: 0
 incompatibility: true
 employment: 'MV SR, OKRESNÝ ÚRAD SOBRANCE
@@ -22,7 +22,7 @@ real_estate:
   cadastral_territory: ÚBREŽ
   lv_number: '64'
   share: 1/1
-- type: ORNÁ PÔDA
+- type: ORNÁ PÓDA
   cadastral_territory: SOBRANCE
   lv_number: '960'
   share: BSM
@@ -42,6 +42,14 @@ real_estate:
   cadastral_territory: ÚBREŽ
   lv_number: '64'
   share: 1/1
+- type: ZASTAVANÁ PLOCHA A NADVORIE
+  cadastral_territory: ÚBREŽ
+  lv_number: '64'
+  share: 1/1
+- type: ZASTAVANÁ PLOCHA A NADVORIE
+  cadastral_territory: ÚBREŽ
+  lv_number: '64'
+  share: 1/1
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: SOBRANCE
   lv_number: '960'
@@ -50,14 +58,6 @@ real_estate:
   cadastral_territory: SOBRANCE
   lv_number: '960'
   share: BSM
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE
-  cadastral_territory: ÚBREŽ
-  lv_number: '64'
-  share: 1/1
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE
-  cadastral_territory: ÚBREŽ
-  lv_number: '64'
-  share: 1/1
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: ÚBREŽ
   lv_number: '64'
@@ -74,6 +74,10 @@ movable_property:
 - type: AUTO
   brand: TOYOTA
   year_of_manufacture: 2005
+  share: BSM
+- type: AUTO
+  brand: ŠKODA
+  year_of_manufacture: 1981
   share: BSM
 property_rights: null
 obligations:

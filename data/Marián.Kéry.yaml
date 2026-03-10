@@ -1,14 +1,14 @@
 id: B121507
-declaration_id: 32457
+declaration_id: 36979
 name: Mgr. MARIÁN KÉRY
-year: 2023
+year: 2024
 filed: k 30. aprílu
 public_function: poslanec Národnej rady Slovenskej republiky
 public_functions:
 - poslanec Národnej rady Slovenskej republiky
 income:
-  public_function: 49521
-  other: 8400
+  public_function: 51071
+  other: 9000
 incompatibility: true
 employment: null
 business_activity: null
@@ -18,21 +18,9 @@ positions:
   benefits: ODMENA
 real_estate:
 - type: ORNÁ PÔDA
-  cadastral_territory: BÁTOROVE KOSIHY
-  lv_number: '2061'
-  share: 100%
-- type: ORNÁ PÔDA
-  cadastral_territory: KRÁTKE KESY
-  lv_number: '2043'
-  share: 100%
-- type: ORNÁ PÔDA
   cadastral_territory: MALÉ VOZOKANY
-  lv_number: 825, 1098
-  share: 100%
-- type: ORNÁ PÔDA
-  cadastral_territory: MALÉ VOZOKANY
-  lv_number: '880'
-  share: 50%
+  lv_number: 825, 1098, 880
+  share: 100%, 50%
 - type: ORNÁ PÔDA
   cadastral_territory: MODRANY
   lv_number: '988'
@@ -46,40 +34,32 @@ real_estate:
   lv_number: '1633'
   share: 100%
 - type: ORNÁ PÔDA
-  cadastral_territory: NEVIDZANY
-  lv_number: '1633'
-  share: 100%
-- type: ORNÁ PÔDA
   cadastral_territory: SVÄTÝ PETER
   lv_number: '4317'
   share: 100%
-- type: ORNÁ PÔDA
-  cadastral_territory: ČERVENÝ HRÁDOK
-  lv_number: 493, 863, 868
-  share: 0,0035%
+- type: ORNÁ PÔDA A OSTATNÉ PLOCHY
+  cadastral_territory: BÁTOROVE KOSIHY
+  lv_number: '2061'
+  share: 100%
 - type: ORNÁ PÔDA A TRVALÝ TRÁVNY PORAST
   cadastral_territory: MUDROŇOVO
   lv_number: 93, 111
   share: 25%
 - type: ORNÁ PÔDA A TRVALÝ TRÁVNY PORAST
   cadastral_territory: ČERVENÝ HRÁDOK
-  lv_number: 497, 823
-  share: 50%
-- type: ORNÁ PÔDA A TRVALÝ TRÁVNY PORAST
-  cadastral_territory: ČERVENÝ HRÁDOK
   lv_number: '538'
   share: 50%
-- type: ORNÁ PÔDA A TRVALÝ TRÁVNY PORAST
-  cadastral_territory: ČERVENÝ HRÁDOK
-  lv_number: 863, 868, 869
-  share: 0,0071%
 - type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK
   cadastral_territory: ČERVENÝ HRÁDOK
   lv_number: 493, 587, 596, 657, 705, 734, 856, 857
   share: 0,0071%
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, VINICA
+  cadastral_territory: ČERVENÝ HRÁDOK
+  lv_number: 497, 823, 96
+  share: 50%
 - type: ORNÁ PÔDA, ZÁHRADA A VINICA
   cadastral_territory: ČERVENÝ HRÁDOK
-  lv_number: '624'
+  lv_number: 624, 345
   share: 25%
 - type: RODINNÝ DOM
   cadastral_territory: ČERVENÝ HRÁDOK
@@ -89,29 +69,17 @@ real_estate:
   cadastral_territory: ZLATÉ MORAVCE
   lv_number: '7925'
   share: 100%
-- type: TRVALÝ TRÁVNY PORAST
-  cadastral_territory: ČERVENÝ HRÁDOK
-  lv_number: 734, 856, 857, 862, 869
-  share: 0,0035%
 - type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA, LESNÝ POZEMOK
   cadastral_territory: ČERVENÝ HRÁDOK
-  lv_number: 587, 705, 596, 657
+  lv_number: 587, 705, 596, 657, 734, 856, 857, 862
   share: 0,0035%
-- type: VINICA
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: ČERVENÝ HRÁDOK
-  lv_number: '345'
-  share: 25%
-- type: VINICA
-  cadastral_territory: ČERVENÝ HRÁDOK
-  lv_number: '96'
-  share: 50%
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE, TRVALÝ TRÁVNY PORAST
-  cadastral_territory: ČERVENÝ HRÁDOK
-  lv_number: '429'
+  lv_number: 429, 493, 863, 868, 869
   share: 0,0035%
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE, TRVALÝ TRÁVNY PORAST
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: ČERVENÝ HRÁDOK
-  lv_number: 429, 862
+  lv_number: 429, 862, 863, 868, 869
   share: 0,0071%
 - type: ZASTAVANÉ PLOCHY A NÁDVORIA
   cadastral_territory: ČERVENÝ HRÁDOK

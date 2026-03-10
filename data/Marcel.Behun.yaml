@@ -1,13 +1,13 @@
 id: ZC225010
-declaration_id: 33521
+declaration_id: 37439
 name: doc. Ing. MARCEL BEHÚN, PhD.
-year: 2023
+year: 2024
 filed: k 30. aprílu
 public_function: člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU VZDELÁVANIA)
 public_functions:
 - člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU VZDELÁVANIA)
 income:
-  public_function: 1304
+  public_function: 1430
   other: 0
 incompatibility: true
 employment: 'TECHNICKÁ UNIVERZITA V KOŠICIACH
@@ -19,7 +19,7 @@ business_activity: null
 positions: null
 real_estate:
 - type: BYT
-  cadastral_territory: LETNÁ - KOŠICE
+  cadastral_territory: LETNÁ KOŠICE
   lv_number: '12456'
   share: 1/1
 - type: DOM
@@ -31,9 +31,13 @@ real_estate:
   lv_number: '644'
   share: 1/1
 - type: LESNÝ POZEMOK
-  cadastral_territory: JABLOŇ, HUMENNÉ
+  cadastral_territory: JABLON - HUMENNÉ
   lv_number: '200'
   share: 193/295920
+- type: LESNÝ POZEMOK
+  cadastral_territory: PTIČIE
+  lv_number: '200'
+  share: 1/2
 - type: ORNÁ PÔDA
   cadastral_territory: PTIČIE
   lv_number: '116'
@@ -64,12 +68,8 @@ real_estate:
   share: 12/1608
 - type: OSTATNÁ PLOCHA
   cadastral_territory: VINNÉ
-  lv_number: '5288'
+  lv_number: '1550'
   share: 1/1
-- type: TRVALÝ TRÁVNATÝ PORAST
-  cadastral_territory: PTIČIE
-  lv_number: '200'
-  share: 1/2
 - type: TRVALÝ TRÁVNATÝ PORAST
   cadastral_territory: PTIČIE
   lv_number: '275'
@@ -80,14 +80,14 @@ real_estate:
   share: 1/1
 - type: TRVALÝ TRÁVNATÝ PORAST
   cadastral_territory: PTIČIE
-  lv_number: '73'
-  share: 1/1
-- type: TRVALÝ TRÁVNATÝ PORAST
-  cadastral_territory: PTIČIE
   lv_number: '981'
   share: 12/1608
+- type: TRÁVNATÝ PORAST
+  cadastral_territory: PTIČIE
+  lv_number: '73'
+  share: 1/1
 - type: ZASTAVANÁ PLOCHA
-  cadastral_territory: LETNÁ - KOŠICE
+  cadastral_territory: LETNÁ KOŠICE
   lv_number: '12456'
   share: 183/10000
 - type: ZASTAVANÉ PLOCHY A NÁDVORIA
@@ -96,7 +96,7 @@ real_estate:
   share: 1/1
 - type: ZASTAVANÉ PLOCHY A NÁDVORIA
   cadastral_territory: VINNÉ
-  lv_number: '1550'
+  lv_number: '5288'
   share: 1/1
 movable_property:
 - type: OSOBNÉ AUTO
