@@ -489,10 +489,13 @@ def header_stats(meta, stats=None):
     median_markup = ""
     if stats:
         latest_year = meta["years"][-1]
-        slovak_median = SK_MEDIAN_INCOME[latest_year]
+        slovak_median_year = latest_year
+        if slovak_median_year not in SK_MEDIAN_INCOME:
+            slovak_median_year = max(SK_MEDIAN_INCOME)
+        slovak_median = SK_MEDIAN_INCOME[slovak_median_year]
         median_markup = f"""
   <div class="stat stat--median"><span class="stat-value">{fmt_currency(stats["median_income"])}</span><span class="stat-label">medián funkcionárov</span></div>
-  <div class="stat stat--median stat--median-secondary"><span class="stat-value">{fmt_currency(slovak_median)}</span><span class="stat-label"><a href="{SK_MEDIAN_SOURCE}" target="_blank" rel="noreferrer">ročný medián na Slovensku</a></span><span class="stat-source">zdroj {latest_year}: {fmt_int(annual_to_monthly(slovak_median))} €/mes.</span></div>
+  <div class="stat stat--median stat--median-secondary"><span class="stat-value">{fmt_currency(slovak_median)}</span><span class="stat-label"><a href="{SK_MEDIAN_SOURCE}" target="_blank" rel="noreferrer">ročný medián na Slovensku</a></span><span class="stat-source">zdroj {slovak_median_year}: {fmt_int(annual_to_monthly(slovak_median))} €/mes.</span></div>
 """
     return f"""
 <div class="stats">
