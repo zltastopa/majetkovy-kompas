@@ -314,6 +314,21 @@ a:hover {
   box-shadow: var(--shadow-soft);
 }
 
+.explainer-title {
+  margin: 0;
+  font-size: 1.12rem;
+  line-height: 1.18;
+  letter-spacing: -0.02em;
+  font-weight: 820;
+}
+
+.explainer-mini {
+  margin-top: 0.42rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
 .explainer summary {
   cursor: pointer;
   font-weight: 700;

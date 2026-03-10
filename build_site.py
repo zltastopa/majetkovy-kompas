@@ -509,10 +509,11 @@ def header_stats(meta, stats=None):
 
 def header_explainer():
     return f"""
-<details class="explainer">
-  <summary>Čo ukazujú údaje a grafy?</summary>
-  <p>Majetkový kompas spracúva verejné majetkové priznania z <a href="{NRSR_LIST_URL}" target="_blank" rel="noreferrer">NR SR</a>. Profil osoby ukazuje posledné priznania po rokoch, graf príjmov zobrazuje vývoj v čase a režim porovnania kladie starší rok vľavo a novší vpravo.</p>
-</details>
+<section class="explainer explainer-static" aria-label="Ako čítať Majetkový kompas">
+  <h2 class="explainer-title">Ako čítať tento kompas</h2>
+  <p>Majetkový kompas spracúva verejné majetkové priznania z <a href="{NRSR_LIST_URL}" target="_blank" rel="noreferrer">NR SR</a>. Vidíš príjmy, nehnuteľnosti, záväzky aj medziročné zmeny na jednom mieste.</p>
+  <p class="explainer-mini">Tip: porovnanie rokov ukáže starší rok vľavo a novší vpravo.</p>
+</section>
 """
 
 
@@ -581,7 +582,7 @@ def render_home(index, highlights, meta, stats):
   <div class="controls">
     <label class="search-box">
       <span class="sr-only">Hľadať</span>
-      <input id="search" type="search" placeholder="Skús: Robert Fico, minister financií, primátor">
+      <input id="search" type="search" placeholder="Skús: Robert, minister financií, primátor">
     </label>
     <label class="sort-select">
       <span class="sr-only">Triediť</span>

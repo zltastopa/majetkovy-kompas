@@ -37,7 +37,7 @@
   const rows = Array.from(list.querySelectorAll(".person-row"));
   const collator = new Intl.Collator("sk", { sensitivity: "base" });
   const searchHints = [
-    "Robert Fico",
+    "Robert",
     "minister financií",
     "primátor Bratislava",
     "župan",
