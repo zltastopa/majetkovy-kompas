@@ -1,13 +1,13 @@
 id: P203012
-declaration_id: 15866
+declaration_id: 19413
 name: Mgr. MARCELA IVANČOVÁ
-year: 2019
+year: 2020
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 34956
+  public_function: 38730
   other: 0
 incompatibility: true
 employment: 'GYMNÁZIUM DUKLIANSKYCH HRDINOV
@@ -16,33 +16,40 @@ employment: 'GYMNÁZIUM DUKLIANSKYCH HRDINOV
 
   áno'
 business_activity: null
-positions: null
+positions:
+- role: KONATEĽKA
+  organization: SOCIÁLNY PODNIK MESTA SVIDNÍK, S.R.O.
+  benefits: ŽIADNE
 real_estate:
 - type: BYT A GARÁŽOVÉ STÁTIE
-  cadastral_territory: BRATISLAVA
+  cadastral_territory: KARLOVA VES
   lv_number: '4346'
   share: 1/1
-- type: BYT A GARÁŽOVÉ STÁTIE
-  cadastral_territory: BRATISLAVA
+- type: BYT, GARÁŽOVÉ STÁTIE
+  cadastral_territory: KARLOVA VES
   lv_number: '4577'
   share: 1/1
-- type: DOM - REKREAČNÝ A ZÁHRADA A ZASTAVANÁ PLOCHA
+- type: DOM - REKREAČNÝ, ZÁHRADA A ZASTAVANÁ PLOCHA
   cadastral_territory: KRAJNÉ ČIERNO
   lv_number: '109'
   share: 1/1
-- type: GARÁŽ
+- type: DVOJGARÁŽ
   cadastral_territory: SVIDNÍK
   lv_number: '2082'
   share: 1/1
-- type: LESNÝ POZEMOK
+- type: LESNÉ POZEMKY
+  cadastral_territory: ZÁTURČIE
+  lv_number: '3779'
+  share: 1/1
+- type: LESNÉ POZEMKY A TRVALÉ TRÁVNE PORASTY
   cadastral_territory: RAKOVČÍK
-  lv_number: '273'
-  share: 1/150
-- type: PARCELA C
+  lv_number: 273, 281, 294
+  share: 1/150, 1/75, 1/150
+- type: OSTATNÁ PLOCHA
   cadastral_territory: SVIDNÍK
   lv_number: '2082'
   share: 1/1
-- type: PARCELA C
+- type: PARCELA POD DVOJGARÁŽOU
   cadastral_territory: SVIDNÍK
   lv_number: '2176'
   share: 2/4
@@ -50,23 +57,17 @@ real_estate:
   cadastral_territory: SVIDNÍK
   lv_number: '1261'
   share: 1/1
-- type: TRVALÝ TRÁVNATÝ PORAST
-  cadastral_territory: RAKOVČÍK
-  lv_number: '281'
-  share: 1/150
 movable_property:
 - type: OSOBNÝ AUTOMOBIL
   brand: BMW
   year_of_manufacture: 2014
   share: 1/1
-- type: OSOBNÝ AUTOMOBIL
-  brand: NISSAN
-  year_of_manufacture: 2004
-  share: 1/1
 property_rights:
-- 'VLADY NA OSOBNÝCH ÚČTOCH, PODIELOVÝCH FONDOCH A ŽIVOTNOM POISTENÍ, podiel: 1/1'
+- 'VKLADY NA ÚČTOCH, PODIELOVÝCH FONDOCH, ŽIVOTNÉ POISTENIE, podiel: 1/1'
 obligations:
-- type: žiadny
+- type: BANKOVÝ ÚVER
+  share: 1/1
+  date: 16. 06. 2020
 use_of_others_real_estate: null
 vehicles: null
 gifts: null

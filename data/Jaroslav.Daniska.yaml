@@ -1,17 +1,28 @@
 id: ZC202703
-declaration_id: 16615
+declaration_id: 19914
 name: Ing. JAROSLAV DANIŠKA
-year: 2019
+year: 2020
 filed: k 30. aprílu
-public_function: 'člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (CARGO WAGON, A.S.)
+public_function: 'člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BULK TRANSSHIPMENT SLOVAKIA, A.S.)
 
-  člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (INTER CARGO SP, Z O.O. KATOWICE)'
+  člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (CARGO WAGON, A.S.)
+
+  člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (INTER CARGO SP.Z.O.O.)
+
+  štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZSSK CARGO INTERMODAL, A.S.)
+
+  štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,
+  A.S.)'
 public_functions:
+- člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BULK TRANSSHIPMENT SLOVAKIA, A.S.)
 - člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (CARGO WAGON, A.S.)
-- člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (INTER CARGO SP, Z O.O. KATOWICE)
+- člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (INTER CARGO SP.Z.O.O.)
+- štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZSSK CARGO INTERMODAL, A.S.)
+- štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA,
+  A.S.)
 income:
-  public_function: 0
-  other: 0
+  public_function: 21336
+  other: 155069
 incompatibility: true
 employment: 'ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.
 
@@ -19,24 +30,27 @@ employment: 'ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA, A.S.
 
   nie'
 business_activity: null
-positions: null
+positions:
+- role: ČLEN DOZORNEJ RADY
+  organization: LOKORAIL, A.S.
+  benefits: POBERÁM
 real_estate:
 - type: BYT
-  cadastral_territory: STARÉ MESTO
+  cadastral_territory: STARÉ MESTO, BRATISLAVA
   lv_number: '6717'
   share: BSM
-- type: REKREAČNÝ DOM (VRÁTANE POZEMKU)
+- type: REKREAČNÝ DOM
   cadastral_territory: TURECKÁ
   lv_number: '124'
+  share: 100%
+- type: RODINNÝ DOM
+  cadastral_territory: NITRA
+  lv_number: '1096'
   share: 100%
 - type: RODINNÝ DOM
   cadastral_territory: RIVERHEAD, SEVENOAKS, VEĽKÁ BRITÁNIA
   lv_number: K433847
   share: BSM
-- type: RODINNÝ DOM (VRÁTANE POZEMKU)
-  cadastral_territory: NITRA
-  lv_number: '1096'
-  share: 100%
 movable_property:
 - type: OSOBNÝ AUTOMOBIL
   brand: AUDI
@@ -47,7 +61,7 @@ movable_property:
   year_of_manufacture: 2018
   share: BSM
 property_rights:
-- 'PRÍJEM Z PRENÁJMU NEHNUTEĽNOSTI, podiel: BSM'
+- 'FINANČNÉ PROSTRIEDKY NA BANKOVOM ÚČTE, podiel: BSM'
 obligations:
 - type: HYPOTEKÁRNY ÚVER
   share: BSM

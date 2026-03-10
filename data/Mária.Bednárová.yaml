@@ -1,14 +1,14 @@
 id: P204206
-declaration_id: 15309
+declaration_id: 20185
 name: Ing. MÁRIA BEDNÁROVÁ
-year: 2019
+year: 2020
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 26998
-  other: 837
+  public_function: 30134
+  other: 0
 incompatibility: true
 employment: 'SOCIÁLNA POISŤOVŇA
 
@@ -18,10 +18,6 @@ employment: 'SOCIÁLNA POISŤOVŇA
 business_activity: null
 positions: null
 real_estate:
-- type: ORNÁ PÓDA
-  cadastral_territory: ZAVAR
-  lv_number: '708'
-  share: 1/42
 - type: ORNÁ PÔDA
   cadastral_territory: MODRÝ KAMEŇ
   lv_number: '1792'
@@ -38,6 +34,10 @@ real_estate:
   cadastral_territory: ZAVAR
   lv_number: '2181'
   share: 13/84
+- type: ORNÁ PÔDA
+  cadastral_territory: ZAVAR
+  lv_number: '708'
+  share: 1/42
 - type: ORNÁ PÔDA
   cadastral_territory: ZAVAR
   lv_number: '710'
@@ -58,13 +58,13 @@ real_estate:
   cadastral_territory: MODRÝ KAMEŇ
   lv_number: '876'
   share: 1/1 (BSM)
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE, LESNÝ POZEMOK
-  cadastral_territory: MODRÝ KAMEŇ
-  lv_number: '1037'
-  share: 2/331
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE, TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA, ZÁHRADA, LESNÝ PORAST, OSTATNÁ PÔDA
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE, TRVALÝ TRÁVNY PORAST,ORNÁ PÔDA, ZÁHRADA, LESNÝ POZEMOK, OSTATNÁ PLOCHA
   cadastral_territory: MODRÝ KAMEŇ
   lv_number: '962'
+  share: 2/331
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE,LESNÝ POZEMOK
+  cadastral_territory: MODRÝ KAMEŇ
+  lv_number: '1037'
   share: 2/331
 - type: ZÁHRADA
   cadastral_territory: MODRÝ KAMEŇ
@@ -75,7 +75,7 @@ real_estate:
   lv_number: '876'
   share: 1/1 (BSM)
 - type: ZÁHRADA, ORNÁ PÔDA, OSTATNÁ PLOCHA
-  cadastral_territory: MODRY KAMEŇ
+  cadastral_territory: MODRÝ KAMEŇ
   lv_number: '1662'
   share: 1/6
 movable_property: null

@@ -1,33 +1,33 @@
 id: P203018
-declaration_id: 16821
+declaration_id: 20187
 name: MVDr. MICHAL KAPUSTA
-year: 2019
+year: 2020
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 32333
+  public_function: 32405
   other: 0
 incompatibility: true
 employment: null
 business_activity: null
 positions:
 - role: PODPREDSEDA ZDRUŽENIA
-  organization: SPIŠSKÝ HRADPODBRANISKO ZÁUJMOVÉ ZDRUŽENIE PO
-  benefits: BEZ POŽITKOV
+  organization: SPIŠSKÝ HRAD-PODBRANISKO ZÁUJMOVÉ ZDRUŽENIE PO
+  benefits: ŽIADNE
 - role: RIADITEĽ
   organization: PRO COMITATU N. O.
-  benefits: BEZ POŽITKOV
+  benefits: ŽIADNE
 - role: ČLEN DOZORNEJ RADY
-  organization: EKOVER S.R.O.
-  benefits: BEZ POŽITKOV
+  organization: EKOVER S. R. O.
+  benefits: ŽIADNE
 - role: ČLEN DOZORNEJ RADY
   organization: PODTATRANSKÁ VODÁRENSKÁ SPOLOČNOSŤ A.S.
-  benefits: BEZ POŽITKOV
+  benefits: ŽIADNE
 - role: ČLEN DOZORNEJ RADY
   organization: SEZO-SPIŠ, ZDRUŽENIE OBCÍ
-  benefits: BEZ POŽITKOV
+  benefits: ŽIADNE
 real_estate:
 - type: LESNÝ POZEMOK
   cadastral_territory: SPIŠSKÝ HRHOV
@@ -86,7 +86,7 @@ real_estate:
   lv_number: '5863'
   share: 1/8
 - type: ORNÁ PÔDA
-  cadastral_territory: SPIŠSKÉ PODHRADIE
+  cadastral_territory: SPIŠŠSKÉ PODHRADIE
   lv_number: '3263'
   share: 1/6
 - type: OSTATNÁ PLOCHA
@@ -98,17 +98,13 @@ real_estate:
   lv_number: '832'
   share: 18/5740
 - type: RODINNÝ DOM, ZASTAVANÉ PLOCHY
-  cadastral_territory: SPIŠSKÉ PODHRADIE
+  cadastral_territory: SPIŠŠSKÉ PODHRADIE
   lv_number: '1265'
   share: 1/1
 - type: RODINNÝ DOM, ZASTAVANÉ PLOCHY
-  cadastral_territory: SPIŠSKÉ PODHRADIE
+  cadastral_territory: SPIŠŠSKÉ PODHRADIE
   lv_number: '1327'
   share: 1/1
-- type: TRVALY TRÁVNY PORAST
-  cadastral_territory: LEVOČA
-  lv_number: '6445'
-  share: 1/16
 - type: TRVALÝ TRÁVNY PORAST
   cadastral_territory: LEVOČA
   lv_number: '4444'
@@ -129,6 +125,10 @@ real_estate:
   cadastral_territory: LEVOČA
   lv_number: '5133'
   share: 2/48
+- type: TRVALÝ TRÁVNY PORAST
+  cadastral_territory: LEVOČA
+  lv_number: '6445'
+  share: 1/16
 - type: TRVALÝ TRÁVNY PORAST
   cadastral_territory: LIESKOVANY
   lv_number: '76'
@@ -169,27 +169,10 @@ real_estate:
   cadastral_territory: LEVOČA
   lv_number: '3401'
   share: 1/24
-movable_property:
-- type: OSOBNÝ AUTOMOBIL
-  brand: CITROEN
-  year_of_manufacture: 2008
-  share: 1/1
-- type: OSOBNÝ AUTOMOBIL
-  brand: SUZUKI
-  year_of_manufacture: 1995
-  share: 1/1
-- type: PRÍVESNY VOZÍK
-  brand: PONGRÁTZ
-  year_of_manufacture: 2006
-  share: 1/1
+movable_property: null
 property_rights: null
 obligations:
-- type: HYPOTEKÁRNY ÚVER
-  share: BSM
-  date: 20. 05. 2001
-- type: SPOTREBNÝ ÚVER
-  share: BSM
-  date: 20. 12. 2018
+- type: žiadny
 use_of_others_real_estate: null
 vehicles: null
 gifts: null

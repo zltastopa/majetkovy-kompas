@@ -1,50 +1,47 @@
 id: P202499
-declaration_id: 16986
+declaration_id: 19426
 name: Ing. JAROSLAV POLAČEK
-year: 2019
+year: 2020
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 64741
-  other: 10402
+  public_function: 57653
+  other: 6637
 incompatibility: true
 employment: null
 business_activity: null
 positions:
-- role: POSLANEC ZASTUPITEĽSTVA KSK
+- role: POSLANEC ZASTUPITEĽSTVA KOŠICKÉHO SAMOSPRÁVNEHO KRAJA
   organization: KOŠICKÝ SAMOSPRÁVNY KRAJ
   benefits: PLAT POSLANCA
 - role: PREDSEDA SPRÁVNEJ RADY
-  organization: CREATIVE INDUSTRY KOŠICE,  N.O.
-  benefits: NEMÁM
-- role: PREDSEDA SPRÁVNEJ RADY
-  organization: PRO CASSOVIA, NADÁCIA
+  organization: CREATIVE INDUSTRY KOŠICE, N.O.
   benefits: NEMÁM
 - role: VÝKON OPRÁVNENÍ MESTA KOŠICE
   organization: BYTOVÝ PODNIK MESTA KOŠICE, S.R.O
   benefits: NEMÁM
 - role: VÝKON OPRÁVNENÍ MESTA KOŠICE
-  organization: DOPRAVNÝ PODNIK MESTA KOŠICE,  AKCIOVÁ SPOLOČNOSŤ
+  organization: DOPRAVNÝ PODNIK MESTA KOŠICE, AKCIOVÁ SPOLOČNOSŤ
   benefits: NEMÁM
 - role: VÝKON OPRÁVNENÍ MESTA KOŠICE
   organization: GEOTERM KOŠICE, A.S.
   benefits: NEMÁM
 - role: VÝKON OPRÁVNENÍ MESTA KOŠICE
-  organization: KFA. A.S.
+  organization: KFA, A.S.
   benefits: NEMÁM
 - role: VÝKON OPRÁVNENÍ MESTA KOŠICE
   organization: KOSIT, A.S.
   benefits: NEMÁM
 - role: VÝKON OPRÁVNENÍ MESTA KOŠICE
-  organization: MESTSKÉ LESY KOŠICE A.S.
+  organization: MESTSKÉ LESY KOŠICE, A.S.
   benefits: NEMÁM
 - role: VÝKON OPRÁVNENÍ MESTA KOŠICE
   organization: NTC KOŠICE A.S.
   benefits: NEMÁM
 - role: VÝKON OPRÁVNENÍ MESTA KOŠICE
-  organization: TEPELNÉ HOSPODÁRSTVO, SPOL.S.R.O.
+  organization: TEPELNÉ HOSPODÁRSTVO, SPOL. S.R.O.
   benefits: NEMÁM
 - role: VÝKON OPRÁVNENÍ MESTA KOŠICE
   organization: VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.
@@ -77,10 +74,13 @@ positions:
   organization: ÚNIA MIEST SLOVENSKA
   benefits: NEMÁM
 - role: ČLEN DOZORNEJ RADY ZA KOŠICKÝ SAMOSPRÁVNY KRAJ
-  organization: GLIP KOŠICE A.S.
+  organization: GLIP KOŠICE, A.S.
   benefits: NEMÁM
 - role: ČLEN DOZORNEJ RADY ZA KOŠICKÝ SAMOSPRÁVNY KRAJ
   organization: IDS VÝCHOD, S.R.O.
+  benefits: NEMÁM
+- role: ČLEN SPRÁVNEJ RADY
+  organization: PRO CASSOVIA, NADÁCIA
   benefits: NEMÁM
 - role: ČLEN SPRÁVNEJ RADY A II. VICEPREZIDENT
   organization: OBČIANSKE ZDRUŽENIE KOŠICKÁ ARÉNA
@@ -101,7 +101,7 @@ real_estate:
 - type: DOM
   cadastral_territory: MALÁ VIESKA
   lv_number: '1799'
-  share: BSM
+  share: 1/1
 - type: ORNÁ PÔDA
   cadastral_territory: KOŠICKÁ NOVÁ VES
   lv_number: '3521'
@@ -128,7 +128,9 @@ movable_property:
 property_rights:
 - 'PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 50%'
 obligations:
-- type: žiadny
+- type: HYPOTEKÁRNY ÚVER
+  share: 100%
+  date: 14. 09. 2020
 use_of_others_real_estate: null
 vehicles: null
 gifts: null

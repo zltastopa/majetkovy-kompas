@@ -1,13 +1,13 @@
 id: P202981
-declaration_id: 16689
+declaration_id: 20236
 name: JUDr. ONDREJ BRENDZA
-year: 2019
+year: 2020
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 44553
+  public_function: 48015
   other: 0
 incompatibility: true
 employment: null
@@ -23,7 +23,7 @@ positions:
   organization: ZDRUŽENIE MIEST A OBCÍ SLOVENSKA
   benefits: ŽIADNE
 - role: ČLEN VALNÉHO ZHROMAŽDENIA
-  organization: BYHOS, SPOL. S R.O.
+  organization: BYHOS, SPOL. S.R.O.
   benefits: ŽIADNE
 - role: ČLEN VALNÉHO ZHROMAŽDENIA
   organization: MŠK TESLA STROPKOV, S.R.O.
@@ -53,10 +53,6 @@ real_estate:
   cadastral_territory: STROPKOV
   lv_number: '3767'
   share: 181/15900
-- type: ORNÁ PÔDA
-  cadastral_territory: BREZNCA
-  lv_number: '416'
-  share: 2025/8640
 - type: ORNÁ PÔDA
   cadastral_territory: BREZNICA
   lv_number: '149'
@@ -91,6 +87,10 @@ real_estate:
   share: 5/18
 - type: ORNÁ PÔDA
   cadastral_territory: BREZNICA
+  lv_number: '416'
+  share: 2025/8640
+- type: ORNÁ PÔDA
+  cadastral_territory: BREZNICA
   lv_number: '455'
   share: 900/2400
 - type: ORNÁ PÔDA
@@ -116,7 +116,7 @@ real_estate:
 - type: ORNÁ PÔDA
   cadastral_territory: BRUSNICA
   lv_number: '574'
-  share: 719/63600
+  share: 779/63600
 - type: ORNÁ PÔDA
   cadastral_territory: BRUSNICA
   lv_number: '620'
@@ -158,10 +158,6 @@ real_estate:
   lv_number: '613'
   share: BSM 1/1
 - type: OSTATNÁ PLOCHA
-  cadastral_territory: BREZNICA
-  lv_number: '592'
-  share: 20/2061
-- type: OSTATNÁ PLOCHA
   cadastral_territory: BRUSNICA
   lv_number: '620'
   share: 1680/117600
@@ -177,6 +173,10 @@ real_estate:
   cadastral_territory: TISINEC
   lv_number: '613'
   share: BSM 1/1
+- type: OSTATNÉ PLOCHY
+  cadastral_territory: BREZNICA
+  lv_number: '592'
+  share: 20/2061
 - type: RODINNÝ DOM
   cadastral_territory: STROPKOV
   lv_number: '1674'
@@ -232,7 +232,7 @@ real_estate:
 - type: TRVALÝ TRÁVNY PORAST
   cadastral_territory: BRUSNICA
   lv_number: '574'
-  share: 719/63600
+  share: 779/63600
 - type: TRVALÝ TRÁVNY PORAST
   cadastral_territory: BRUSNICA
   lv_number: '619'
@@ -285,6 +285,10 @@ movable_property:
 - type: OSOBNÝ AUTOMOBIL
   brand: ŠKODA
   year_of_manufacture: 2004
+  share: BSM 1/1
+- type: OSOBNÝ AUTOMOBIL
+  brand: ŠKODA
+  year_of_manufacture: 2020
   share: BSM 1/1
 property_rights: null
 obligations:

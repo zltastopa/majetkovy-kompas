@@ -1,7 +1,7 @@
 id: ZC202918
-declaration_id: 16224
+declaration_id: 20688
 name: Ing. DAGMAR TEŠLIAROVÁ
-year: 2019
+year: 2020
 filed: k 30. aprílu
 public_function: štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VZDELÁVACIE A
   DOŠKOĽOVACIE ZARIADENIE VS - FINANCIE TATRANSKÁ LOMNICA)
@@ -9,8 +9,8 @@ public_functions:
 - štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (VZDELÁVACIE A DOŠKOĽOVACIE ZARIADENIE
   VS - FINANCIE TATRANSKÁ LOMNICA)
 income:
-  public_function: 30008
-  other: 7870
+  public_function: 53829
+  other: 0
 incompatibility: true
 employment: null
 business_activity: null
@@ -19,6 +19,10 @@ real_estate:
 - type: BYT
   cadastral_territory: MATEJOVCE
   lv_number: '584'
+  share: 1/2
+- type: BYT
+  cadastral_territory: POPRAD
+  lv_number: '3461'
   share: 1/2
 - type: OSTATNÁ PLOCHA
   cadastral_territory: FILICE
@@ -32,6 +36,10 @@ real_estate:
   cadastral_territory: MATEJOVCE
   lv_number: '584'
   share: 10030/288704
+- type: PODIEL PRIESTORU A SPOLUVLASTNÍCKY PODIEL K POZEMKU
+  cadastral_territory: POPRAD
+  lv_number: '3461'
+  share: 6578/301941
 - type: RODINNÝ DOM
   cadastral_territory: FILICE
   lv_number: '33'
@@ -41,9 +49,12 @@ movable_property:
   brand: AUDI
   year_of_manufacture: 2007
   share: 1/2
-property_rights: null
+property_rights:
+- ŽIADNE
 obligations:
-- type: žiadny
+- type: PÔŽIČKA OD TRETEJ OSOBY
+  share: 1/2
+  date: 01. 01. 2020
 use_of_others_real_estate: null
 vehicles: null
 gifts: null

@@ -1,7 +1,7 @@
 id: B202375
-declaration_id: 15357
+declaration_id: 20496
 name: PaedDr. ANTON STREDÁK
-year: 2019
+year: 2020
 filed: k 30. aprílu
 public_function: 'poslanec Národnej rady Slovenskej republiky
 
@@ -10,7 +10,7 @@ public_functions:
 - poslanec Národnej rady Slovenskej republiky
 - štátny tajomník
 income:
-  public_function: 40239
+  public_function: 44780
   other: 0
 incompatibility: true
 employment: null
@@ -20,94 +20,55 @@ real_estate:
 - type: BYT
   cadastral_territory: NITRA
   lv_number: '4797'
-  share: 1/52
-- type: BYT
+  share: 1/1,1/51
+- type: BYT, GARÁŽ + PIVNICA
   cadastral_territory: ROGOZNICA
-  lv_number: P.Č. 141/14, 147/08, 148/13
+  lv_number: 141/14,147/08,148/13
   share: 1/2
-- type: BYT Č.8, (POZOSTÁVA Z BYTOV Č. 9,10,11), BYT Č. 12 + PIVNIČNÉ PRIESTORY
+- type: BYT, PIVNIČNÉ A OBCHODNÉ PRIESTORY
   cadastral_territory: NOVÉ ZÁMKY
   lv_number: '7658'
+  share: 1/2
+- type: DOM, ZASTAVANÉ PLOCHY
+  cadastral_territory: ROGOZNICA
+  lv_number: 330191,674,669
   share: 1/2
 - type: GARÁŽ
   cadastral_territory: NOVÉ ZÁMKY
   lv_number: '5425'
   share: 1/2
-- type: NEBYTOVÝ PRIESTOR (OBCHOD)
-  cadastral_territory: NOVÉ ZÁMKY
-  lv_number: '7658'
-  share: 1/2
 - type: ORNÁ PÔDA
   cadastral_territory: NITRA - KYNEK
-  lv_number: '7395'
+  lv_number: 7395, 7554, 7937
+  share: 1/1,10/24,8/877
+- type: ORNÁ PÔDA
+  cadastral_territory: NITRA - KYNEK CESTA
+  lv_number: 7486,7483,7788
+  share: 7/18,5/8,47/150
+- type: POZEMOK
+  cadastral_territory: NITRA - ŠUDOL
+  lv_number: '2025'
   share: 1/1
-- type: ORNÁ PÔDA
-  cadastral_territory: NITRA - KYNEK
-  lv_number: '7554'
-  share: 10/24
-- type: ORNÁ PÔDA
-  cadastral_territory: NITRA - KYNEK
-  lv_number: '7917'
-  share: 6/8
-- type: ORNÁ PÔDA
-  cadastral_territory: NITRA - KYNEK
-  lv_number: '7918'
-  share: 5/9
-- type: ORNÁ PÔDA
-  cadastral_territory: NITRA - KYNEK
-  lv_number: '7937'
-  share: 8/877
-- type: ORNÁ PÔDA
-  cadastral_territory: NITRA - KYNEK CESTA
-  lv_number: '7483'
-  share: 5/8
-- type: ORNÁ PÔDA
-  cadastral_territory: NITRA - KYNEK CESTA
-  lv_number: '7486'
-  share: 7/18
-- type: ORNÁ PÔDA
-  cadastral_territory: NITRA - KYNEK CESTA
-  lv_number: '7781'
-  share: 59/120
-- type: ORNÁ PÔDA
-  cadastral_territory: NITRA - KYNEK CESTA
-  lv_number: '7782'
-  share: 53/150
-- type: ORNÁ PÔDA
-  cadastral_territory: NITRA - KYNEK CESTA
-  lv_number: '7788'
-  share: 47/150
-- type: RODINNÝ DOM, ZASTAVANÉ PLOCHY, DVOJGARÁŽ
+- type: RODINNÝ DOM,ZASTAVANÉ PLOCHY, DVOJGARÁŽ
   cadastral_territory: NOVÉ ZÁMKY
   lv_number: '505'
   share: 1/2
-- type: STAVEBNÝ POZEMOK
-  cadastral_territory: NITRA - ŠÚDOL
-  lv_number: '2025'
-  share: 1/1
-- type: STAVEBNÝ POZEMOK + DOM
-  cadastral_territory: ROGOZNICA
-  lv_number: 330191 P.Č. 674
-  share: 1/2
-- type: TRVALÉ TRÁVNE PORASTY
+- type: TRVALÉ TRÁVNATÉ PORASTY
   cadastral_territory: NITRA - KYNEK CESTA
-  lv_number: '7491'
-  share: 1/34
-- type: TRVALÉ TRÁVNE PORASTY
-  cadastral_territory: NITRA - KYNEK CESTA
-  lv_number: '7940'
-  share: 195/9290
+  lv_number: 7491,7940
+  share: 1/34,195/9290
 movable_property:
 - type: VYBAVENIE DOMÁCNOSTI
-  share: 1/2
 - type: ŠPERKY
-  share: 1/2
 property_rights:
-- 'PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 50%'
-- 'PODIEL V S.R.O., podiel: 100%'
+- 'PODIEL V OBCHODNEJ SPOLOČNOSTI D.O.O., podiel: 50%'
+- 'PODIEL V S.R.O., podiel: 85%'
 - 'VKLADY NA ÚČTOCH, podiel: 1/2'
 obligations:
 - type: žiadny
 use_of_others_real_estate: null
-vehicles: null
+vehicles:
+- type: OSOBNÉ AUTO
+  brand: AUDI
+  year_of_manufacture: 2013
 gifts: null

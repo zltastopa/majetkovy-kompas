@@ -1,31 +1,27 @@
 id: P202989
-declaration_id: 16665
+declaration_id: 20256
 name: MICHAL DOMIK
-year: 2019
+year: 2020
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 34281
-  other: 3251
+  public_function: 36934
+  other: 0
 incompatibility: true
 employment: null
-business_activity: null
+business_activity: MAJITEĽ(MICHAL DOMIK-DOVAJ)
 positions: null
 real_estate:
-- type: BUDOVA
-  cadastral_territory: ROŽnAVA
-  lv_number: '2042'
-  share: 1/1
 - type: BYT
   cadastral_territory: ROŽŇAVA
   lv_number: '3970'
-  share: 1/2
-- type: LESNÝ POZEMOK
+  share: 1/1
+- type: DOM,ZÁHRADA
   cadastral_territory: ČUČMA
-  lv_number: '2389'
-  share: 1/245
+  lv_number: '116'
+  share: 1/5
 - type: LESNÝ POZEMOK
   cadastral_territory: ČUČMA
   lv_number: '2390'
@@ -41,7 +37,7 @@ real_estate:
 - type: LESNÝ POZEMOK
   cadastral_territory: ČUČMA
   lv_number: '2484'
-  share: 2400/252000
+  share: 1/245
 - type: LESNÝ POZEMOK
   cadastral_territory: ČUČMA
   lv_number: '2526'
@@ -57,27 +53,27 @@ real_estate:
 - type: LESNÝ POZEMOK
   cadastral_territory: ČUČMA
   lv_number: '2530'
-  share: 2400/252000
+  share: 1/245
 - type: LESNÝ POZEMOK
   cadastral_territory: ČUČMA
   lv_number: '2531'
-  share: 2400/252000
+  share: 1/245
 - type: LESNÝ POZEMOK
   cadastral_territory: ČUČMA
   lv_number: '2532'
-  share: 2400/252000
+  share: 1/245
 - type: LESNÝ POZEMOK
   cadastral_territory: ČUČMA
   lv_number: '2534'
   share: 1/245
-- type: LESNÝ POZEMOK
-  cadastral_territory: ČUČMA
-  lv_number: '2574'
-  share: 1/245
-- type: LESNÝ POZEMOK
-  cadastral_territory: ČUČMA
-  lv_number: '2575'
-  share: 1/245
+- type: NEBYTOVÝ PRIESTOR
+  cadastral_territory: ROŽŇAVA
+  lv_number: '4141'
+  share: 1/1
+- type: ORNÁ PÔDA
+  cadastral_territory: ROŽŇAVA
+  lv_number: '4785'
+  share: 1/2
 - type: ORNÁ PÔDA
   cadastral_territory: ČUČMA
   lv_number: '2030'
@@ -90,34 +86,30 @@ real_estate:
   cadastral_territory: ČUČMA
   lv_number: '2533'
   share: 1/245
-- type: ORNÁ PÔDA, LESNÝ POZEMOK
+- type: ORNÁ PÔDA
   cadastral_territory: ČUČMA
-  lv_number: '497'
+  lv_number: '2574'
+  share: 1/245
+- type: ORNÁ PÔDA
+  cadastral_territory: ČUČMA
+  lv_number: '2575'
+  share: 1/245
+- type: ORNÁ PÔDA,LESNÝ POZEMOK
+  cadastral_territory: ČUČMA
+  lv_number: '407'
   share: 1/2
-- type: POZEMKY
-  cadastral_territory: ROŽŇAVA
-  lv_number: '1305'
-  share: 1/1
-- type: POZEMOK
-  cadastral_territory: ROŽŇAVA
-  lv_number: '4785'
-  share: 1/1
-- type: POZEMOK
+- type: OSTATNÉ PLOCHY
   cadastral_territory: ROŽŇAVA
   lv_number: '6129'
   share: 1/1
-- type: POZEMOK A OBCHODNÉ PRIESTORY
-  cadastral_territory: ROŽŇAVA
-  lv_number: '4141'
-  share: 1/1
-- type: POZEMOK TRÁVNATY PORAST
+- type: TRÁVNATY PORAST
   cadastral_territory: ČUČMA
   lv_number: '373'
-  share: 1/5
+  share: 5/10
 - type: TRÁVNATÝ PORAST
   cadastral_territory: ČUČMA
   lv_number: '2035'
-  share: 1/5
+  share: 5/10
 - type: TRÁVNATÝ PORAST
   cadastral_territory: ČUČMA
   lv_number: '2336'
@@ -125,45 +117,48 @@ real_estate:
 - type: TRÁVNATÝ PORAST
   cadastral_territory: ČUČMA
   lv_number: '2353'
-  share: 2400/252000
+  share: 1/245
 - type: ZASTAVANÁ PLOCHA
   cadastral_territory: ČUČMA
   lv_number: '2406'
   share: 1/1
-- type: ZÁHRAD
-  cadastral_territory: ČUČMA
-  lv_number: '37'
+- type: ZASTAVANÁ PLOCHA A NÁDVODIA
+  cadastral_territory: ROŽŇAVA
+  lv_number: '2042'
   share: 1/1
-- type: ZÁHRADA
-  cadastral_territory: ČUČMA
-  lv_number: '116'
-  share: 1/5
+- type: ZÁHRADY
+  cadastral_territory: ROŽŇAVA
+  lv_number: '1305'
+  share: 1/1
 movable_property:
-- type: NÁKLADNÉ VOZIDLO
-  brand: IVECO
-  year_of_manufacture: 2014
+- type: NÁKLADNÉ AUTO
+  brand: MERCEDES
+  year_of_manufacture: 2010
   share: 1/1
-- type: NÁKLADNÉ VOZIDLO
-  brand: MERCEDES-BENZ
-  year_of_manufacture: 1999
-  share: 1/1
-- type: NÁKLADNÉ VOZIDLO
-  brand: MERCEDES-BENZ
-  year_of_manufacture: 2009
-  share: 1/1
-- type: NÁKLADNÉ VOZIDLO
+- type: NÁKLADNÉ AUTO
   brand: RENAULT
-  year_of_manufacture: 2007
+  year_of_manufacture: 2013
   share: 1/1
-- type: OSOBNÉ VOZIDLO
-  brand: MERCEDES-BENZ
+- type: NÁKLADNÉ AUTO
+  brand: RENAULT
+  year_of_manufacture: 2013
+  share: 1/1
+- type: OSOBNÉ AUTO
+  brand: MERCEDES
+  year_of_manufacture: 2013
+  share: 1/1
+- type: OSOBNÉ AUTO
+  brand: MERCEDES
   year_of_manufacture: 2015
   share: 1/1
 property_rights: null
 obligations:
-- type: ÚVER V BANKE
+- type: ÚVER
   share: 1/1
   date: 20. 07. 2015
+- type: ÚVER
+  share: 1/1
+  date: 21. 07. 2016
 use_of_others_real_estate: null
 vehicles: null
 gifts: null

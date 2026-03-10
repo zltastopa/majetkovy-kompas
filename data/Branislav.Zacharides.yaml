@@ -1,42 +1,54 @@
 id: P203066
-declaration_id: 16797
+declaration_id: 20278
 name: Mgr. BRANISLAV ZACHARIDES
-year: 2019
+year: 2020
 filed: k 30. aprílu
 public_function: primátor mesta
 public_functions:
 - primátor mesta
 income:
-  public_function: 45476
+  public_function: 41312
   other: 0
 incompatibility: true
 employment: null
 business_activity: null
 positions:
+- role: PODPREDSEDA
+  organization: ZDRUŽENIE MIEST A OBCÍ TURCA
+  benefits: ŽIADNE
+- role: PREDSEDA VALNÉHO ZHROMAŽDENIA
+  organization: MESTSKÝ PODNIK SLUŽIEB VRÚTKY
+  benefits: ŽIADNE
 - role: ČLEN DOZORNEJ RADY
-  organization: TURČIANSKA VODÁRENSKÁ SPOLOČNOSŤ, A.S.
+  organization: TURČIANSKA VODÁRENSKÁ SPOLOČNOST, A.S.
   benefits: ŽIADNE
 real_estate:
 - type: ORNÁ PÔDA
   cadastral_territory: VRÚTKY
-  lv_number: '2926'
+  lv_number: '2900'
+  share: 1/1
+- type: ORNÁ PÔDA
+  cadastral_territory: VRÚTKY
+  lv_number: '4757'
   share: 21/216
 - type: ORNÁ PÔDA
   cadastral_territory: VRÚTKY
   lv_number: '4757'
-  share: 21/216 + 21/432
-- type: ORNÁ PÔDA A ZASTAVANÁ PLOCHA
-  cadastral_territory: VRÚTKY
-  lv_number: '2900'
-  share: 1/1
+  share: 21/432
 - type: RODINNÝ DOM
   cadastral_territory: VRÚTKY
   lv_number: '4837'
-  share: BSM
+  share: 1/1 (BSM)
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE
+  cadastral_territory: VRÚTKY
+  lv_number: '7900'
+  share: 1/1
 movable_property: null
 property_rights: null
 obligations:
-- type: žiadny
+- type: ÚVER
+  share: 1/1 (BSM)
+  date: 15. 10. 2015
 use_of_others_real_estate: null
 vehicles: null
 gifts: null

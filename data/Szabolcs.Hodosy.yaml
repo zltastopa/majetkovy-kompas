@@ -1,30 +1,30 @@
 id: ZA203907
-declaration_id: 15848
+declaration_id: 19602
 name: JUDr. SZABOLCS HODOSY
-year: 2019
-filed: pri ujatí sa funkcie
+year: 2020
+filed: k 30. aprílu
 public_function: podpredseda Úradu pre reguláciu sieťových odvetví
 public_functions:
 - podpredseda Úradu pre reguláciu sieťových odvetví
 income:
-  public_function: 0
-  other: 0
+  public_function: 20166
+  other: 3221
 incompatibility: true
-employment: null
+employment: 'ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.
+
+  Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
+
+  áno'
 business_activity: null
 positions:
-- role: POSLANEC MSZ,PREDSEDA FINANČNEJ KOMISIE,ČLEN MANDÁTOVEJ KOMISIE
+- role: POSLANEC MESTSKÉHO ZASTUPITEĽSTVA, PREDSEDA FINANČNEJ KOMISIE, LEN MANDÁTOVEJ KOMISIE
   organization: MESTO DUNAJSKÁ STREDA
   benefits: ODMENA POSLANCA
 real_estate:
-- type: BYT V BYTOVOM DOME + PODIEL NA POZEMKU
-  cadastral_territory: BRATISLAVA-STARÉ MESTO
+- type: BYT, GARÁŽ, ZASTAVANÁ PLOCHA A NÁDVORIE
+  cadastral_territory: STARÉ MESTO
   lv_number: '6980'
-  share: 1/1,783/10000
-- type: GARÁŽ V BYTOVOM DOME + PODIEL NA POZEMKU
-  cadastral_territory: BRATISLAVA-STARÉ MESTO
-  lv_number: '6980'
-  share: 1/1,103/10000
+  share: 1/1
 - type: LESNÝ POZEMOK
   cadastral_territory: DOLNÁ POTÔŇ
   lv_number: '1060'
@@ -34,17 +34,17 @@ real_estate:
   lv_number: '3931'
   share: 1/1
 - type: LESNÝ POZEMOK
-  cadastral_territory: ORECHOVÁ POTÔŇ
-  lv_number: '1530'
-  share: 11/60
-- type: LESNÝ POZEMOK
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1024'
   share: 1/30
 - type: LESNÝ POZEMOK
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '1421'
-  share: 2/27
+  lv_number: '1440'
+  share: 1/30
+- type: LESNÝ POZEMOK
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1500'
+  share: 7/80
 - type: LESNÝ POZEMOK
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1504'
@@ -55,8 +55,8 @@ real_estate:
   share: 3/8
 - type: LESNÝ POZEMOK
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '1848'
-  share: 2/27
+  lv_number: '649'
+  share: 1/30
 - type: LESNÝ POZEMOK
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '689'
@@ -108,27 +108,39 @@ real_estate:
 - type: LESNÝ POZEMOK
   cadastral_territory: ŠORIAKOŠ
   lv_number: '682'
-  share: 1 %
+  share: 1/1
 - type: LESNÝ POZEMOK
   cadastral_territory: ŠORIAKOŠ
   lv_number: '690'
   share: 7/72
 - type: LESNÝ POZEMOK, ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1169'
+  share: 1/4
+- type: LESNÝ POZEMOK, ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1305'
   share: 1/6
+- type: LESNÝ POZEMOK, ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1146'
+  share: 1/30
+- type: LESNÝ POZEMOK, OSTATNÁ PLOCHA, VODNÁ PLOCHA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '743'
+  share: 1/10
 - type: LESNÝ POZEMOK, TRVALÝ TRÁVNY PORAST
   cadastral_territory: MALÉ BLAHOVO
   lv_number: '3920'
   share: 1/2
-- type: LESNÝ POZEMOK,ORNÁ PÔDA TRVALÝ TRÁVNY PORAST
+- type: LESNÝ POZEMOK, TRVALÝ TRÁVNY PORAST
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '1146'
-  share: 1/30
-- type: ORNÁ PÓDA
-  cadastral_territory: VYDRANY
-  lv_number: '2432'
-  share: 1 %
+  lv_number: '650'
+  share: 1/16
+- type: LESNÝ POZEMOK, VODNÁ PLOCHA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1513'
+  share: 1/20
 - type: ORNÁ PÔDA
   cadastral_territory: DOLNÁ POTÔŇ
   lv_number: '1059'
@@ -164,10 +176,22 @@ real_estate:
 - type: ORNÁ PÔDA
   cadastral_territory: MALÉ BLAHOVO
   lv_number: '3925'
-  share: 1 %
+  share: 1/1
 - type: ORNÁ PÔDA
   cadastral_territory: MLIEČNO
   lv_number: '1529'
+  share: 61/420
+- type: ORNÁ PÔDA
+  cadastral_territory: MLIEČNO
+  lv_number: '1850'
+  share: 61/420
+- type: ORNÁ PÔDA
+  cadastral_territory: MLIEČNO
+  lv_number: '1851'
+  share: 61/420
+- type: ORNÁ PÔDA
+  cadastral_territory: MLIEČNO
+  lv_number: '1895'
   share: 61/420
 - type: ORNÁ PÔDA
   cadastral_territory: TÖBÖRÉTE
@@ -203,32 +227,64 @@ real_estate:
   share: 1/4
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '1048'
-  share: 1/2
+  lv_number: '1046'
+  share: 1/120
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1082'
   share: 1/3
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1091'
+  share: 7/48
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1097'
   share: 13/18
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1109'
+  share: 7/8
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1145'
   share: 1/48
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1196'
+  share: 1/2
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1296'
+  share: 1/3
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1351'
   share: 5/8
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1353'
+  share: 3/20
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1360'
   share: 1/70
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1375'
+  share: 1/4
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1415'
   share: 1/10
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1428'
+  share: 1/12
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1454'
+  share: 1/84
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1501'
@@ -255,8 +311,24 @@ real_estate:
   share: 1/4
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1514'
+  share: 1/20
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1524'
+  share: 7/8
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1877'
+  share: 1/10
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1909'
   share: 31/40
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1910'
+  share: 13/28
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1915'
@@ -275,12 +347,92 @@ real_estate:
   share: 1/2
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '1956'
-  share: 1 %
+  lv_number: '2023'
+  share: 5/24
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '2024'
+  share: 1/12
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '2034'
+  share: 11/30
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '2036'
+  share: 1/10
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '2037'
+  share: 1/10
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '2038'
+  share: 1/10
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '2039'
+  share: 1/10
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '2057'
+  share: 1/2
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '2058'
+  share: 1/2
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '2101'
+  share: 7/48
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '2103'
+  share: 19/180
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '240'
+  share: 1/2
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '653'
+  share: 1/6
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '655'
+  share: 1/96
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '703'
+  share: 1/8
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '707'
+  share: 7/24
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '719'
   share: 1/3
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '727'
+  share: 27/40
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '736'
+  share: 1/18
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '768'
+  share: 1/9
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '771'
+  share: 1/36
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '779'
+  share: 1/10
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '782'
@@ -291,8 +443,16 @@ real_estate:
   share: 1/12
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '865'
+  share: 1/9
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '883'
   share: 1/12
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '887'
+  share: 1/96
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '890'
@@ -307,15 +467,19 @@ real_estate:
   share: 19/48
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '902'
+  share: 1/2
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '905'
   share: 1/2
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '918'
-  share: 3/4
+  lv_number: '916'
+  share: 1/40
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '920'
+  lv_number: '918'
   share: 3/4
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
@@ -337,6 +501,14 @@ real_estate:
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '969'
   share: 1/16
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '973'
+  share: 1/12
+- type: ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BĽAHOVO
+  lv_number: '1048'
+  share: 1/2
 - type: ORNÁ PÔDA
   cadastral_territory: VEĽKÝ MEDER
   lv_number: '5324'
@@ -384,7 +556,7 @@ real_estate:
 - type: ORNÁ PÔDA
   cadastral_territory: VYDRANY
   lv_number: '2127'
-  share: 1 %
+  share: 1/1
 - type: ORNÁ PÔDA
   cadastral_territory: VYDRANY
   lv_number: '2214'
@@ -392,6 +564,10 @@ real_estate:
 - type: ORNÁ PÔDA
   cadastral_territory: VYDRANY
   lv_number: '2290'
+  share: 1/1
+- type: ORNÁ PÔDA
+  cadastral_territory: VYDRANY
+  lv_number: '2432'
   share: 1/1
 - type: ORNÁ PÔDA
   cadastral_territory: VYDRANY
@@ -415,10 +591,6 @@ real_estate:
   share: 1/2
 - type: ORNÁ PÔDA
   cadastral_territory: VYDRANY
-  lv_number: '2800'
-  share: 1/9
-- type: ORNÁ PÔDA
-  cadastral_territory: VYDRANY
   lv_number: '699'
   share: 1/1
 - type: ORNÁ PÔDA
@@ -437,9 +609,13 @@ real_estate:
   cadastral_territory: VYDRANY
   lv_number: '971'
   share: 1/9
-- type: ORNÁ PÔDA, LESNÝ POZEMOK
+- type: ORNÁ PÔDA,  LESNÝ POZEMOK
   cadastral_territory: DOLNÁ POTÔŇ
   lv_number: '1181'
+  share: 1/1
+- type: ORNÁ PÔDA, LESNÝ POZEMOK, TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1640'
   share: 1/1
 - type: ORNÁ PÔDA, OSTATNÁ PLOCHA
   cadastral_territory: MLIEČNO
@@ -449,6 +625,14 @@ real_estate:
   cadastral_territory: VYDRANY
   lv_number: '1052'
   share: 7/20
+- type: ORNÁ PÔDA, OSTATNÁ PLOCHA
+  cadastral_territory: VYDRANY
+  lv_number: '1055'
+  share: 11/30
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNV PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '742'
+  share: 1/10
 - type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: HEĎBENEÉTE
   lv_number: '878'
@@ -459,20 +643,68 @@ real_estate:
   share: 1/12
 - type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '1762'
-  share: 1 %
+  lv_number: '1424'
+  share: 19/180
 - type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '795'
-  share: 5/24
+  lv_number: '1429'
+  share: 1/12
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1430'
+  share: 1/48
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1762'
+  share: 1/1
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '2109'
+  share: 19/180
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '643'
+  share: 2/15
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '657'
+  share: 1/12
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '744'
+  share: 2/15
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '755'
+  share: 1/21
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '756'
+  share: 1/21
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '903'
+  share: 1/1
 - type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '945'
   share: 3/8
-- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, VODNÁ PLOCHA
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '968'
   share: 1/8
+- type: ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, VODNÁ PLOCHA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '706'
+  share: 1/96
+- type: ORNÁ PÔDA, TVALÝ TRÁVNY PORAST, ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE, OTATNÁ PLOCHA, LESNÝ POZEMOK
+  cadastral_territory: DOLNÁ POTÔŇ
+  lv_number: '1185'
+  share: 588/93462
+- type: ORNÁ PÔDA, VODNÁ PLOCHA, TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1539'
+  share: 1/4
 - type: ORNÁ PÔDA, VODNÁ PLOCHA, TRVALÝ TRÁVNY PORAST
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1760'
@@ -484,30 +716,34 @@ real_estate:
 - type: ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: VYDRANY
   lv_number: '826'
-  share: 1/1
-- type: ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE, TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA, KRAVÍN
+  share: 1 %
+- type: ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE, TRVALÝ TRÁVNY PORAST,  OSTATNÁ PLOCHA, KRAVÍN
   cadastral_territory: VYDRANY
   lv_number: '1508'
   share: 1/1
-- type: ORNÁ PÔDA,LESNÝ POZEMOK,TRVALÝ TRÁVNY PORAST
+- type: OSTATNÁ PLOCHA
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '1640'
+  lv_number: '101'
+  share: 1/96
+- type: OSTATNÁ PLOCHA, LESNÝ POZEMOK
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1461'
+  share: 3/700
+- type: OSTATNÁ PLOCHA, ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1956'
   share: 1/1
-- type: ORNÁ PÔDA,OSTATNÁ PLOCHA
-  cadastral_territory: VYDRANY
-  lv_number: '1055'
-  share: 11/30
-- type: ORNÁ PÔDA,VODNÁ PLOCHA,TRVALÝ TRÁVNY PORAST
-  cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '1539'
-  share: 1/4
-- type: OSTATNÁ PLOCHA,ORNÁ PÔDA,ZASTAVANÁ PLOCHA A NÁDVORIE
+- type: OSTATNÉ PLOCHY, ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '856'
   share: 31/36
-- type: RODINNÝ DOM,GARÁŽ, POZEMKY
+- type: RODINNÝ DOM, GARÁŽ, ZÁHRADA, ZASTAVANÉ PLOCHY A NÁDVORIA
   cadastral_territory: BANSKÁ ŠTIAVNICA
   lv_number: '745'
+  share: 1/1
+- type: TRVALÝ TRÁVNY PORAST
+  cadastral_territory: DOLNÁ POTÔŇ
+  lv_number: '1246'
   share: 1/1
 - type: TRVALÝ TRÁVNY PORAST
   cadastral_territory: MALÉ BLAHOVO
@@ -523,40 +759,64 @@ real_estate:
   share: 3/8
 - type: TRVALÝ TRÁVNY PORAST
   cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1058'
+  share: 1/5
+- type: TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1397'
   share: 1/4
 - type: TRVALÝ TRÁVNY PORAST
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '1420'
-  share: 2/27
+  lv_number: '1431'
+  share: 1/48
+- type: TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1453'
+  share: 1/84
 - type: TRVALÝ TRÁVNY PORAST
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1809'
   share: 1/2
 - type: TRVALÝ TRÁVNY PORAST
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '1847'
-  share: 2/27
+  lv_number: '1886'
+  share: 1/16
+- type: TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '2187'
+  share: 7/10
+- type: TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '651'
+  share: 1/24
+- type: TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '654'
+  share: 1/8
 - type: TRVALÝ TRÁVNY PORAST
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '676'
   share: 1/7
 - type: TRVALÝ TRÁVNY PORAST
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '810'
-  share: 1/2
+  lv_number: '735'
+  share: 1/6
+- type: TRVALÝ TRÁVNY PORAST
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '776'
+  share: 1/24
 - type: TRVALÝ TRÁVNY PORAST
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '963'
   share: 1/4
-- type: TRVALÝ TRÁVNY PORAST
-  cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '970'
-  share: 1/16
 - type: TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK
   cadastral_territory: MALÉ BLAHOVO
   lv_number: '3524'
   share: 1/9
+- type: TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1483'
+  share: 1/2
 - type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
   cadastral_territory: MALÉ BLAHOVO
   lv_number: '3523'
@@ -567,12 +827,24 @@ real_estate:
   share: 1/18
 - type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
   cadastral_territory: MALÉ BLAHOVO
+  lv_number: '4147'
+  share: 1/18
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
+  cadastral_territory: MALÉ BLAHOVO
   lv_number: '4148'
   share: 1/3
 - type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '1058'
-  share: 1/5
+  lv_number: '1426'
+  share: 1/1
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1427'
+  share: 1/6
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1455'
+  share: 1/78
 - type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1484'
@@ -583,8 +855,36 @@ real_estate:
   share: 3/8
 - type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '652'
+  share: 1/24
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '690'
   share: 1/47
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '691'
+  share: 4/45
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '748'
+  share: 3/28
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '773'
+  share: 1/72
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '795'
+  share: 5/24
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '869'
+  share: 1/6
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '882'
+  share: 1/4
 - type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '906'
@@ -595,44 +895,32 @@ real_estate:
   share: 1/2
 - type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA
   cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '940'
-  share: 1/8
+  lv_number: '955'
+  share: 1/24
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE
+  cadastral_territory: VYDRANY
+  lv_number: '1506'
+  share: 1/1
+- type: TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA, ZASTAVANÁ PLOCHA A NÁDVORIE
+  cadastral_territory: VYDRANY
+  lv_number: '927'
+  share: 1/1
+- type: TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1425'
+  share: 19/180
 - type: TRVALÝ TRÁVNY PORAST, VODNÁ PLOCHA
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1506'
   share: 3/8
-- type: TRVALÝ TRÁVNY PORAST,LESNÝ POZEMOK
-  cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '1483'
-  share: 1/2
-- type: TRVALÝ TRÁVNY PORAST,ORNÁ PÔDA
-  cadastral_territory: MALÉ BLAHOVO
-  lv_number: '4147'
-  share: 1/18
-- type: TRVALÝ TRÁVNY PORAST,ORNÁ PÔDA
-  cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '1426'
-  share: 1 %
-- type: TRVALÝ TRÁVNY PORAST,ORNÁ PÔDA
-  cadastral_territory: VEĽKÉ BLAHOVO
-  lv_number: '691'
-  share: 4/45
-- type: TRVALÝ TRÁVNY PORAST,ORNÁ PÔDA,ZASTAVANÁ PLOCHA A NÁDVORIE
-  cadastral_territory: VYDRANY
-  lv_number: '1506'
-  share: 1/1
-- type: TRVALÝ TRÁVNY PORAST,ORNÁ PÔDA,ZASTAVANÝ PLOCHA A NÁDVORIE
-  cadastral_territory: VYDRANY
-  lv_number: '927'
-  share: 1 %
-- type: TRVALÝ TRÁVNY PORST
-  cadastral_territory: DOLNÁ POTÔŇ
-  lv_number: '1246'
-  share: 1/1
 - type: VODNÁ PLOCHA
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1541'
   share: 1/4
+- type: VODNÁ PLOCHA
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1864'
+  share: 1/18
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: VEĽKÉ BLAHOVO
   lv_number: '1743'
@@ -669,19 +957,19 @@ real_estate:
   cadastral_territory: VYDRANY
   lv_number: '1922'
   share: 1/2
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA
+  cadastral_territory: VYDRANY
+  lv_number: '2692'
+  share: 1/2
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA
+  cadastral_territory: VYDRANY
+  lv_number: '850'
+  share: 4/33
 - type: ZASTAVANÁ PLOCHA A NÁDVORIE, OSTATNÁ PLOCHA
   cadastral_territory: VYDRANY
   lv_number: '1885'
   share: 7/48
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE,ORNÁ PÔDA
-  cadastral_territory: VYDRANY
-  lv_number: '2692'
-  share: 1/2
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE,ORNÁ PÔDA
-  cadastral_territory: VYDRANY
-  lv_number: '850'
-  share: 4/33
-- type: ZASTAVANÁ PLOCHA A NÁDVORIE,VINICA
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE, VINICA
   cadastral_territory: VYDRANY
   lv_number: '813'
   share: 1/12
@@ -689,15 +977,29 @@ real_estate:
   cadastral_territory: VYDRANY
   lv_number: '972'
   share: 1/9
-movable_property: null
-property_rights: null
+- type: ZÁHRADA, LESNÝ POZEMOK
+  cadastral_territory: VEĽKÉ BLAHOVO
+  lv_number: '1439'
+  share: 1/30
+movable_property:
+- type: OBRAZY A RÔZNE UMELECKÉ DIELA
+  share: 100%
+- type: VYBAVENIE DOMÁCNOSTI
+  share: 100%
+property_rights:
+- 'FINANČNÉ PROSTRIEDKY NA BEŹNOM ÚČTE A V HOTOVOSTI, podiel: 100%'
+- 'OBCHODNÝ PODIEL V S.R.O., podiel: 100%'
+- 'PODIEL V DSS A DDS, podiel: 100%'
 obligations:
 - type: HYPOTEKÁRNY ÚVER
-  share: 1/1
+  share: 100%
   date: 08. 10. 2015
 - type: HYPOTEKÁRNY ÚVER
-  share: 1/1
+  share: 100%
   date: 16. 04. 2012
 use_of_others_real_estate: null
-vehicles: null
+vehicles:
+- type: OSOBNÉ MOTOROVÉ VOZIDLO
+  brand: MERCEDES
+  year_of_manufacture: 2020
 gifts: null

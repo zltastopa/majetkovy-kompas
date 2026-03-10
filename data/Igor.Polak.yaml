@@ -1,14 +1,17 @@
 id: ZH192309
-declaration_id: 16761
+declaration_id: 20652
 name: Ing. IGOR POLÁK
-year: 2019
+year: 2020
 filed: k 30. aprílu
-public_function: generálny riaditeľ Železníc Slovenskej republiky
+public_function: 'generálny riaditeľ Železníc Slovenskej republiky
+
+  štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)'
 public_functions:
 - generálny riaditeľ Železníc Slovenskej republiky
+- štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ŽPSV A.S. ČAŇA)
 income:
-  public_function: 77853
-  other: 0
+  public_function: 35926
+  other: 32346
 incompatibility: true
 employment: 'ŽELEZNICE SLOVENSKEJ REPUBLIKY
 
@@ -18,14 +21,18 @@ employment: 'ŽELEZNICE SLOVENSKEJ REPUBLIKY
 business_activity: null
 positions: null
 real_estate:
-- type: LESNÝ POZEMOK, ORNÁ PÔDA, RODINNÝ DOM
+- type: LESNÝ POZEMOK, ORNÁ PÔDA, ORNÁ PÔDA
   cadastral_territory: PLEŠIVEC
-  lv_number: 553, 3575, 3035, 1436
-  share: 1/2, 1/2, 1/1, 1/2
-- type: ZASTAVANÁ PLOCHA, RODINNÝ DOM, ORNÁ PÔDA
-  cadastral_territory: ČEČEJOVCE
-  lv_number: 728, 1907
-  share: BSM, 1/1
+  lv_number: 553,3575,3035
+  share: 1/12,1/2,1/1
+- type: ZASTAVANÁ PLOCHA A NÁDVORIE, ORNÁ PÔDA
+  cadastral_territory: ČEČENOVCE
+  lv_number: '728'
+  share: BSM
+- type: ZÁHRADA
+  cadastral_territory: ČEČENOVCE
+  lv_number: '1907'
+  share: 1/1
 movable_property:
 - type: OSOBNÉ VOZIDLO
   brand: KIA
@@ -40,9 +47,9 @@ movable_property:
   year_of_manufacture: 2016
   share: 1/1
 property_rights:
-- 'DLHOPISY, podiel: 1/1'
+- 'DLHOPISY CCA 150KS, podiel: 1/2'
 - 'STAVEBNÉ SPORENIE, podiel: BSM'
-- 'VKLAD V BANKÁCH - OSOBNÝ ÚČET, podiel: BSM'
+- 'VKLAD V BANKE, podiel: 1/2'
 obligations:
 - type: žiadny
 use_of_others_real_estate: null

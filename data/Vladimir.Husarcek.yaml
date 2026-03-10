@@ -1,15 +1,15 @@
 id: ZC203115
-declaration_id: 16552
+declaration_id: 20511
 name: Ing. VLADIMÍR HUSÁRČEK
-year: 2019
+year: 2020
 filed: k 30. aprílu
 public_function: štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (PSYCHIATRICKÁ
-  NEMOCNICA PROFESORA MATULAYA KREMNICA )
+  NEMOCNOCA PROFESORA MATULAYA KREMNICA)
 public_functions:
-- štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNICA PROFESORA
-  MATULAYA KREMNICA )
+- štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (PSYCHIATRICKÁ NEMOCNOCA PROFESORA
+  MATULAYA KREMNICA)
 income:
-  public_function: 0
+  public_function: 55058
   other: 0
 incompatibility: true
 employment: 'PSYCHIATRICKÁ NEMOCNICA PROFESORA MATULAYA KREMNICA
@@ -24,11 +24,7 @@ real_estate:
   cadastral_territory: BANSKÁ BYSTRICA
   lv_number: '5079'
   share: 1/2
-- type: BYT
-  cadastral_territory: BANSKÁ BYSTRICA
-  lv_number: '5079'
-  share: 1/2
-- type: BYT, BYT, INÝ NEBYTOVÝ PRIESTOR, INÝ NEBYTOVÝ PRIESTOR
+- type: BYT, INÝ NEBYTOVÝ PRIESTOR
   cadastral_territory: PETRŽALKA
   lv_number: '3735'
   share: 1/1
@@ -44,17 +40,21 @@ real_estate:
   cadastral_territory: VEĽKÁ LOMNICA
   lv_number: '1784'
   share: 1/1
-- type: RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA
-  cadastral_territory: ŠPANIA DOLINA
-  lv_number: 543,552
-  share: 1/2
 - type: RODINNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: RADVAŇ
   lv_number: '355'
   share: 1/6
+- type: RODNNÝ DOM, ZÁHRADA, ZASTAVANÁ PLOCHA
+  cadastral_territory: ŠPANIA DOLINA
+  lv_number: 543,552
+  share: 1/2
 - type: ROZOSTAVANÁ STAVBA, ZASTAVANÁ PLOCHA A NÁDVORIE
   cadastral_territory: RADVAŇ
-  lv_number: 8080, 5307
+  lv_number: 8080,5307
+  share: 1/2
+- type: byt
+  cadastral_territory: BANSKÁ BYSTRICA
+  lv_number: '5079'
   share: 1/2
 movable_property: null
 property_rights:

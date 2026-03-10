@@ -1,16 +1,16 @@
 id: B06667
-declaration_id: 15574
+declaration_id: 20372
 name: VLADIMÍR FAIČ
-year: 2019
-filed: pri ujatí sa funkcie
+year: 2020
+filed: k 30. aprílu
 public_function: poslanec Národnej rady Slovenskej republiky
 public_functions:
 - poslanec Národnej rady Slovenskej republiky
 income:
-  public_function: 36468
-  other: 5760
+  public_function: 39312
+  other: 1280
 incompatibility: true
-employment: 'ÚV SR DOHODA O PRACOVNEJ ČINNOSTI
+employment: 'ÚV SR DOHODA O PRACOVAEJ ČINNOSTI
 
   Dlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:
 
@@ -18,10 +18,26 @@ employment: 'ÚV SR DOHODA O PRACOVNEJ ČINNOSTI
 business_activity: null
 positions: null
 real_estate:
+- type: ADMINISTRATÍVA BUDOVA
+  cadastral_territory: KRUŠOVCE
+  lv_number: '1789'
+  share: 1/1 BSM
 - type: BYT
   cadastral_territory: RUŽINOV
   lv_number: '7088'
   share: 1/1 BSM
+- type: PIZEMOK-ZASTAVANÁ PLOCHA
+  cadastral_territory: KRUŠOVCE
+  lv_number: '1491'
+  share: 3/20
+- type: PIZEMOK-ZASTAVANÁ PLOCHA
+  cadastral_territory: RUŽINOV
+  lv_number: '7192'
+  share: 1/1 BSM
+- type: PIZEMOK-ZASTAVÁ PLOCHA
+  cadastral_territory: KRUŠOVCE
+  lv_number: '1491'
+  share: 3/20
 - type: PODIEL NA POZEMKU
   cadastral_territory: RUŽINOV
   lv_number: '7088'
@@ -34,34 +50,54 @@ real_estate:
   cadastral_territory: RUŽINOV
   lv_number: '7088'
   share: 8801/143537 BSM
-- type: POZEMOK - ORNÁ PÔDA
+- type: POZEMOK-ORNÁ PÔDA
   cadastral_territory: KRUŠOVCE
   lv_number: '1371'
   share: 1/1 BSM
-- type: POZEMOK - ORNÁ PÔDA
+- type: POZEMOK-ORNÁ PÔDA
   cadastral_territory: KRUŠOVCE
-  lv_number: '2476'
-  share: 1/1
-- type: POZEMOK - ZASTAVANÁ PLOCHA
-  cadastral_territory: KRUŠOVCE
-  lv_number: '2476'
-  share: 1/1
-- type: POZEMOK - ZASTAVANÁ PLOCHA
-  cadastral_territory: KRUŠOVCE
-  lv_number: '2476'
-  share: 1/1
-- type: POZEMOK - ZASTAVANÁ PLOCHA
-  cadastral_territory: PRAŠICE
-  lv_number: '111'
+  lv_number: '1789'
   share: 1/1 BSM
-- type: POZEMOK - ZÁHRADA
-  cadastral_territory: PRAŠICE
-  lv_number: '111'
+- type: POZEMOK-ORNÁ PÔDA
+  cadastral_territory: KRUŠOVCE
+  lv_number: '2476'
+  share: 1/1
+- type: POZEMOK-ZASTAVANÁ PLOCHA
+  cadastral_territory: KRUŠOVCE
+  lv_number: '1491'
+  share: 3/20
+- type: POZEMOK-ZASTAVANÁ PLOCHA
+  cadastral_territory: KRUŠOVCE
+  lv_number: '1789'
   share: 1/1 BSM
 - type: POZEMOK-ZASTAVANÁ PLOCHA
-  cadastral_territory: RUŽINOV
-  lv_number: '7192'
+  cadastral_territory: KRUŠOVCE
+  lv_number: '2476'
+  share: 1/1
+- type: POZEMOK-ZASTAVANÁ PLOCHA
+  cadastral_territory: KRUŠOVCE
+  lv_number: '2476'
+  share: 1/1
+- type: POZEMOK-ZASTAVANÁ PLOCHA
+  cadastral_territory: PRAŠICE
+  lv_number: '111'
   share: 1/1 BSM
+- type: POZEMOK-ZASTAVÁ PLOCHA
+  cadastral_territory: KRUŠOVCE
+  lv_number: '1491'
+  share: 3/20
+- type: POZEMOK-ZÁHRADA
+  cadastral_territory: KRUŠOVCE
+  lv_number: '1491'
+  share: 3/20
+- type: POZEMOK-ZÁHRADA
+  cadastral_territory: PRAŠICE
+  lv_number: '111'
+  share: 1/1 BSM
+- type: RODINNÝ DOM
+  cadastral_territory: KRUŠOVCE
+  lv_number: '1491'
+  share: 3/20
 - type: RODINNÝ DOM
   cadastral_territory: PRAŠICE
   lv_number: '111'
@@ -70,7 +106,6 @@ movable_property:
 - type: ZARIADENIE DOMU
   share: BSM
 property_rights:
-- 'CENNÉ PAPIERE, podiel: BSM'
 - 'ÚČTY V PEŇAŽNÝCH ÚSTAVOCH, podiel: BSM'
 obligations:
 - type: žiadny
