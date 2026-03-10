@@ -12,8 +12,7 @@
     2021,
     2022,
     2023,
-    2024,
-    2025
+    2024
   ],
   "timeline": [
     {
@@ -772,98 +771,25 @@
           }
         ]
       }
-    },
-    {
-      "year": 2025,
-      "data": {
-        "id": "B161879",
-        "declaration_id": 37230,
-        "name": "Mgr. ONDREJ DOSTÁL",
-        "year": 2024,
-        "filed": "k 30. aprílu",
-        "public_function": "poslanec Národnej rady Slovenskej republiky",
-        "public_functions": [
-          "poslanec Národnej rady Slovenskej republiky"
-        ],
-        "income": {
-          "public_function": 49908,
-          "other": 0
-        },
-        "incompatibility": true,
-        "employment": null,
-        "business_activity": null,
-        "positions": [
-          {
-            "role": "PREDSEDA",
-            "organization": "OBČIANSKA KONZERVATÍVNA STRANA",
-            "benefits": "NIE"
-          },
-          {
-            "role": "PREDSEDA",
-            "organization": "PRIATELIA SLOBODNÝCH INFORMÁCIÍ",
-            "benefits": "NIE"
-          }
-        ],
-        "real_estate": [
-          {
-            "type": "BYT + PODIEL NA POZEMKU A SPOL. ČASTIACH DOMU",
-            "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
-            "lv_number": "2895",
-            "share": "33,33%"
-          },
-          {
-            "type": "BYT + PODIEL NA POZEMKU A SPOL. ČASTIACH DOMU",
-            "cadastral_territory": "BRATISLAVA - VRAKUŇA",
-            "lv_number": "3423",
-            "share": "100%"
-          },
-          {
-            "type": "ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
-            "cadastral_territory": "LEHNICE - SÁSA",
-            "lv_number": "1168",
-            "share": "33,33%"
-          }
-        ],
-        "movable_property": null,
-        "property_rights": null,
-        "obligations": [
-          {
-            "type": "HYPOTEKÁRNY ÚVER",
-            "share": "100%",
-            "date": "11. 07. 2008"
-          },
-          {
-            "type": "SPOTREBNÝ ÚVER",
-            "share": "50%",
-            "date": "18. 07. 2018"
-          }
-        ],
-        "use_of_others_real_estate": null,
-        "vehicles": null,
-        "gifts": null
-      },
-      "diff": {
-        "type": "unchanged"
-      }
     }
   ],
   "total_changes": 19,
   "latest_extraction": {
     "committed_at": "2026-03-10",
-    "commit": "3bfedc188a0a7ff13653e4097909a524bdac7c54",
-    "previous_commit": "9893534e7a4d9260f652ed53832b2c09d8aca8f1",
-    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/3bfedc188a0a7ff13653e4097909a524bdac7c54",
-    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/9893534e7a4d9260f652ed53832b2c09d8aca8f1...3bfedc188a0a7ff13653e4097909a524bdac7c54",
-    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/3bfedc188a0a7ff13653e4097909a524bdac7c54/data/DostOndr.yaml",
-    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/9893534e7a4d9260f652ed53832b2c09d8aca8f1/data/DostOndr.yaml",
+    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
+    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
+    "commit_url": "https://github.com/mrshu/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
+    "compare_url": "https://github.com/mrshu/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
+    "file_url": "https://github.com/mrshu/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/DostOndr.yaml",
+    "previous_file_url": "https://github.com/mrshu/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/DostOndr.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "new"
     },
     "summary": []
   },
   "slug": "mgr-ondrej-dostal",
   "context": {
-    "latest_year": 2025,
+    "latest_year": 2024,
     "income": 49908,
     "properties": 3,
     "obligations": 2,
