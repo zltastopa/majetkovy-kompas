@@ -48,11 +48,65 @@ a:hover {
   padding: 1.2rem 0 0.65rem;
 }
 
+.site-header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.parent-crumb {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.26rem;
+  width: fit-content;
+  margin-bottom: 0.22rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 760;
+  letter-spacing: -0.01em;
+}
+
+.parent-crumb a {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.parent-crumb a:hover {
+  color: var(--fg);
+  border-color: var(--yellow);
+  text-decoration: none;
+}
+
 .site-header h1 {
   font-size: 2rem;
   font-weight: 800;
   letter-spacing: -0.02em;
   line-height: 1.05;
+}
+
+.corner-brand-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 3px solid var(--yellow);
+  background: var(--card-bg);
+  padding: 0.16rem 0.48rem;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.corner-brand-badge img {
+  display: block;
+  width: 88px;
+  height: auto;
+}
+
+.corner-brand-badge:hover {
+  text-decoration: none;
+  background: #fffdf3;
 }
 
 .site-header h1::before {
@@ -61,7 +115,6 @@ a:hover {
   width: 84px;
   height: 84px;
   margin: 0 0 0.38rem;
-  border-radius: 18px;
   background: url("majetkovy-kompas-logo.png") center / contain no-repeat;
 }
 
@@ -1025,6 +1078,25 @@ a:hover {
   padding-top: 1rem;
   font-size: 0.84rem;
   color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.parent-footer-link {
+  font-weight: 750;
+  border-bottom: 1px solid currentColor;
+}
+
+.parent-footer-link:hover {
+  text-decoration: none;
+  background: #fff7d6;
 }
 
 .sr-only {
@@ -1058,6 +1130,23 @@ a:hover {
 
   .site-header h1 {
     font-size: 1.7rem;
+  }
+
+  .site-header-top {
+    align-items: flex-start;
+  }
+
+  .corner-brand-badge {
+    border-width: 2px;
+    padding: 0.14rem 0.4rem;
+  }
+
+  .corner-brand-badge img {
+    width: 72px;
+  }
+
+  .parent-crumb {
+    font-size: 0.72rem;
   }
 
   .site-header h1::before {

@@ -28,6 +28,8 @@ import yaml
 SITE_DIR = Path("site")
 DATA_BRANCH = "data"
 SITE_NAME = "Majetkový kompas"
+PARENT_SITE_NAME = "Žltá Stopa"
+PARENT_SITE_URL = "https://www.zltastopa.sk"
 SITE_DESCRIPTION = (
     "Majetkové priznania verejných funkcionárov na Slovensku v prehľadnej, "
     "porovnateľnej podobe."
@@ -444,7 +446,12 @@ def shell(
 <body>
 <div class="container">
   <header class="site-header">
-    <h1><a class="site-brand" href="{esc(prefix or './')}">{SITE_NAME}</a></h1>
+    <div class="site-header-top">
+      <h1><a class="site-brand" href="{esc(prefix or './')}">{SITE_NAME}</a></h1>
+      <a class="corner-brand-badge" href="{PARENT_SITE_URL}" target="_blank" rel="noreferrer" aria-label="Projekt {PARENT_SITE_NAME}">
+        <img src="{esc(prefix)}projekt-zlta-stopa.png" alt="Projekt {PARENT_SITE_NAME}">
+      </a>
+    </div>
     <div class="subtitle">{subtitle_markup}</div>
     {header_extra}
     {header_note}
@@ -455,6 +462,7 @@ def shell(
   {body}
   <footer class="site-footer">
     <p>Dáta: <a href="{NRSR_LIST_URL}" target="_blank" rel="noreferrer">Národná rada SR</a>.</p>
+    <p><a class="parent-footer-link" href="{PARENT_SITE_URL}" target="_blank" rel="noreferrer">Projekt {PARENT_SITE_NAME} ↗</a></p>
   </footer>
 </div>
 </body>
@@ -755,23 +763,30 @@ def join_parts(parts):
 
 
 def render_real_estate_item(item):
+    parts = []
+    if item.get("cadastral_territory"):
+        parts.append(f"Kat. územie: {normalize_whitespace(item.get('cadastral_territory'))}")
+    if item.get("lv_number"):
+        parts.append(f"LV: {normalize_whitespace(item.get('lv_number'))}")
+    if item.get("share"):
+        parts.append(f"Podiel: {normalize_whitespace(item.get('share'))}")
+
     return (
         f"<strong>{esc(normalize_whitespace(item.get('type')))}</strong>"
-        f"<span>{esc(join_parts([
-            f'Kat. územie: {normalize_whitespace(item.get("cadastral_territory"))}' if item.get('cadastral_territory') else '',
-            f'LV: {normalize_whitespace(item.get("lv_number"))}' if item.get('lv_number') else '',
-            f'Podiel: {normalize_whitespace(item.get("share"))}' if item.get('share') else '',
-        ]))}</span>"
+        f"<span>{esc(join_parts(parts))}</span>"
     )
 
 
 def render_obligation_item(item):
+    parts = []
+    if item.get("share"):
+        parts.append(f"Podiel: {normalize_whitespace(item.get('share'))}")
+    if item.get("date"):
+        parts.append(f"Vznik: {normalize_whitespace(item.get('date'))}")
+
     return (
         f"<strong>{esc(normalize_whitespace(item.get('type')))}</strong>"
-        f"<span>{esc(join_parts([
-            f'Podiel: {normalize_whitespace(item.get("share"))}' if item.get('share') else '',
-            f'Vznik: {normalize_whitespace(item.get("date"))}' if item.get('date') else '',
-        ]))}</span>"
+        f"<span>{esc(join_parts(parts))}</span>"
     )
 
 
