@@ -387,6 +387,30 @@ def page_title(*parts):
     return " | ".join([*parts, PROJECT_TITLE_SUFFIX])
 
 
+def clamp_meta_description(value, limit=160):
+    text = normalize_whitespace(value)
+    if len(text) <= limit:
+        return text
+    trimmed = text[: limit - 1].rsplit(" ", 1)[0].rstrip(" ,;:-")
+    return f"{trimmed}…"
+
+
+def person_seo_fields(person, meta):
+    role = display_role(person.get("public_function"))
+    year_from = meta["years"][0]
+    year_to = meta["years"][-1]
+    title = page_title(
+        f'{person["name"]} – majetkové priznania verejných funkcionárov',
+        SITE_NAME,
+    )
+    description = clamp_meta_description(
+        f'{person["name"]} – {role}. Pozri majetkové priznania verejných '
+        f'funkcionárov, príjmy, nehnuteľnosti, záväzky a zmeny za roky '
+        f"{year_from}–{year_to}."
+    )
+    return title, description, role
+
+
 def meta_tags(title, description, path, *, image_path="", noindex=False):
     tags = [
         f"<title>{esc(title)}</title>",
@@ -822,9 +846,7 @@ def field_summary(change):
 
 
 def render_person_page(person, meta, stats):
-    role = display_role(person.get("public_function"))
-    description = role
-    title = page_title(person["name"], SITE_NAME)
+    title, description, role = person_seo_fields(person, meta)
 
     breadcrumb_ld = {
         "@context": "https://schema.org",
