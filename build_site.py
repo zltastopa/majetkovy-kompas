@@ -387,6 +387,10 @@ def page_title(*parts):
     return " | ".join([*parts, PROJECT_TITLE_SUFFIX])
 
 
+def json_ld_script(data):
+    return f'<script type="application/ld+json">{json.dumps(data, ensure_ascii=False)}</script>'
+
+
 def clamp_meta_description(value, limit=160):
     text = normalize_whitespace(value)
     if len(text) <= limit:
@@ -476,7 +480,7 @@ def shell(
 <div class="container">
   <header class="site-header">
     <div class="site-header-top">
-      <h1><a class="site-brand" href="{esc(prefix or './')}">{SITE_NAME}</a></h1>
+      <div class="site-brand-block"><a class="site-brand" href="{esc(prefix or './')}">{SITE_NAME}</a></div>
       <a class="corner-brand-badge" href="{PARENT_SITE_URL}" target="_blank" rel="noreferrer" aria-label="Projekt {PARENT_SITE_NAME}">
         <img src="{esc(prefix)}projekt-zlta-stopa.png" alt="Projekt {PARENT_SITE_NAME}">
       </a>
@@ -598,24 +602,40 @@ def person_row(person, prefix=""):
 
 def render_home(index, highlights, meta, stats):
     latest_year = meta["years"][-1]
-    ld = {
-        "@context": "https://schema.org",
-        "@type": "Dataset",
-        "name": SITE_NAME,
-        "description": SITE_DESCRIPTION,
-        "license": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "creator": {"@type": "Organization", "name": SITE_NAME},
-        "url": abs_url("/") or "/",
-        "keywords": [
-            "majetkové priznania",
-            "verejní funkcionári",
-            "Slovensko",
-            "transparentnosť",
-        ],
-    }
+    base_url = abs_url("/") or "/"
+    ld = [
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": SITE_NAME,
+            "url": base_url,
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": f"{base_url}?q={{search_term_string}}",
+                "query-input": "required name=search_term_string",
+            },
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Dataset",
+            "name": SITE_NAME,
+            "description": SITE_DESCRIPTION,
+            "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "creator": {"@type": "Organization", "name": SITE_NAME},
+            "url": base_url,
+            "keywords": [
+                "majetkové priznania",
+                "verejní funkcionári",
+                "Slovensko",
+                "transparentnosť",
+            ],
+        },
+    ]
     body = f"""
 <div id="list-view">
 <div class="landing-section active" id="tab-search">
+  <h1 class="page-title">Majetkové priznania verejných funkcionárov</h1>
+  <p class="section-note">Vyhľadávaj v majetkových priznaniach, príjmoch, nehnuteľnostiach a záväzkoch verejných funkcionárov na Slovensku.</p>
   <div class="controls">
     <label class="search-box">
       <span class="sr-only">Hľadať</span>
@@ -666,7 +686,7 @@ def render_home(index, highlights, meta, stats):
   </div>
 </div>
 </div>
-<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
+{json_ld_script(ld)}
 <script src="app.js"></script>
 """
     nav_markup = """
@@ -747,6 +767,27 @@ def highlight_card(item, kind, prefix=""):
 def render_section_page(kind, page, items, meta, stats):
     title = page_title(page["title"], SITE_NAME)
     description = f"{page['intro']} {SITE_NAME} spracúva dáta z NR SR."
+    page_path = f"/{page['slug']}/"
+    page_url = abs_url(page_path) or page_path
+    json_ld = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": page["title"],
+        "description": description,
+        "url": page_url,
+        "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": index + 1,
+                    "url": abs_url(person_path(item["slug"])) or person_path(item["slug"]),
+                    "name": item["name"],
+                }
+                for index, item in enumerate(items)
+            ],
+        },
+    }
     extra_link = ""
     if kind != "top_earners":
         extra_link = (
@@ -755,6 +796,7 @@ def render_section_page(kind, page, items, meta, stats):
         )
     body = f"""
 <div class="landing-section active">
+  <h1 class="page-title">{esc(page['title'])}</h1>
   <p class="section-note">{esc(page['intro'])}</p>
   <div class="highlight-list">
     {''.join(highlight_card(item, kind, '../') for item in items)}
@@ -769,6 +811,7 @@ def render_section_page(kind, page, items, meta, stats):
         body,
         prefix="../",
         current_nav=kind,
+        json_ld=json_ld_script(json_ld),
         header_extra=header_stats(meta, stats),
         header_note=header_explainer(),
         subtitle=(
@@ -874,7 +917,7 @@ def render_person_page(person, meta, stats):
 <article class="detail-page">
   <a href="../../" class="back-link">&larr; Späť na zoznam</a>
   <div class="detail-header">
-    <h2 id="detail-name">{esc(person['name'])}</h2>
+    <h1 id="detail-name">{esc(person['name'])}</h1>
     <div class="function" id="detail-function">{esc(role)}</div>
     <div class="source-link" id="detail-source"><a href="{NRSR_DECL_URL}{person['user_id']}" target="_blank" rel="noreferrer">→ Originál na nrsr.sk</a></div>
   </div>

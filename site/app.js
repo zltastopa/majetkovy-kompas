@@ -36,6 +36,7 @@
 
   const rows = Array.from(list.querySelectorAll(".person-row"));
   const collator = new Intl.Collator("sk", { sensitivity: "base" });
+  const initialUrl = new URL(window.location.href);
   const searchHints = [
     "Robert",
     "poslanec",
@@ -104,6 +105,22 @@
     return (a, b) => collator.compare(a.dataset.name || "", b.dataset.name || "");
   }
 
+  function syncSearchParam() {
+    const rawQuery = search.value.trim();
+    const nextUrl = new URL(window.location.href);
+    if (rawQuery) {
+      nextUrl.searchParams.set("q", rawQuery);
+    } else {
+      nextUrl.searchParams.delete("q");
+    }
+
+    const nextHref = `${nextUrl.pathname}${nextUrl.search}${nextUrl.hash}`;
+    const currentHref = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+    if (nextHref !== currentHref) {
+      window.history.replaceState({}, "", nextHref);
+    }
+  }
+
   function applyFilters() {
     const query = normalizeSearchText(search.value.trim());
     const visible = rows.filter((row) => {
@@ -136,6 +153,13 @@
       note.textContent = `...a ${visible.length - 200} ďalších — upresnite hľadanie`;
       list.appendChild(note);
     }
+
+    syncSearchParam();
+  }
+
+  const initialQuery = initialUrl.searchParams.get("q");
+  if (initialQuery) {
+    search.value = initialQuery;
   }
 
   search.addEventListener("input", applyFilters);

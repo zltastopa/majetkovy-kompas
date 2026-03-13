@@ -79,7 +79,7 @@ a:hover {
   text-decoration: none;
 }
 
-.site-header h1 {
+.site-brand-block {
   font-size: 2rem;
   font-weight: 800;
   letter-spacing: -0.02em;
@@ -109,7 +109,7 @@ a:hover {
   background: #fffdf3;
 }
 
-.site-header h1::before {
+.site-brand-block::before {
   content: "";
   display: block;
   width: 84px;
@@ -120,6 +120,14 @@ a:hover {
 
 .site-brand {
   color: var(--fg);
+}
+
+.page-title {
+  margin: 0 0 0.35rem;
+  font-size: 1.55rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.12;
 }
 
 .subtitle {
@@ -535,7 +543,7 @@ a:hover {
   margin-bottom: 1.25rem;
 }
 
-.detail-header h2 {
+.detail-header h1 {
   font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: -0.01em;
@@ -1128,7 +1136,7 @@ a:hover {
     grid-template-columns: 1fr;
   }
 
-  .site-header h1 {
+  .site-brand-block {
     font-size: 1.7rem;
   }
 
@@ -1149,10 +1157,14 @@ a:hover {
     font-size: 0.72rem;
   }
 
-  .site-header h1::before {
+  .site-brand-block::before {
     width: 70px;
     height: 70px;
     margin-bottom: 0.35rem;
+  }
+
+  .page-title {
+    font-size: 1.35rem;
   }
 
   .data-row {
