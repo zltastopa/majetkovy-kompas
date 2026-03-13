@@ -19,7 +19,8 @@ import argparse
 import json
 import re
 import sys
-import time
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 import requests
@@ -28,37 +29,25 @@ from scrape import parse_declaration, dump_yaml
 
 
 WAYBACK_RAW_URL = "https://web.archive.org/web/{timestamp}id_/{url}"
-REQUEST_DELAY = 1.5  # seconds between requests
 
 
-def fetch_wayback(timestamp, url, retries=3):
-    """Fetch archived page from Wayback Machine with conservative retries."""
+def fetch_wayback(timestamp, url, retries=2):
+    """Fetch archived page from Wayback Machine. Returns HTML or None."""
     wb_url = WAYBACK_RAW_URL.format(timestamp=timestamp, url=url)
     for attempt in range(retries):
         try:
             resp = requests.get(wb_url, timeout=60)
-            if resp.status_code == 429:
-                wait = 30 * (attempt + 1)
-                print(f"    Rate limited, waiting {wait}s...", file=sys.stderr)
-                time.sleep(wait)
-                continue
-            if resp.status_code == 503:
-                wait = 20 * (attempt + 1)
-                print(f"    503, waiting {wait}s...", file=sys.stderr)
-                time.sleep(wait)
-                continue
+            if resp.status_code in (429, 503):
+                return None
             resp.encoding = "utf-8"
             resp.raise_for_status()
             return resp.text
         except requests.exceptions.ConnectionError:
-            wait = 30 * (attempt + 1)
-            print(f"    Connection error, waiting {wait}s...", file=sys.stderr)
-            time.sleep(wait)
-        except Exception as e:
-            if attempt == retries - 1:
-                raise
-            time.sleep(10)
-    return None
+            if attempt < retries - 1:
+                continue
+            return None
+        except Exception:
+            return None
 
 
 def strip_wayback_toolbar(html):
@@ -74,6 +63,32 @@ def strip_wayback_toolbar(html):
     return html
 
 
+def process_user(uid, snapshots, data_dir):
+    """Fetch and parse all snapshots for one user. Save YAMLs immediately."""
+    saved = []
+    for snap in snapshots:
+        ts = snap["timestamp"]
+        url = snap["url"]
+        try:
+            html = fetch_wayback(ts, url)
+            if not html:
+                continue
+            html = strip_wayback_toolbar(html)
+            data = parse_declaration(html)
+            if data and data.get("year"):
+                year = data["year"]
+                if year in [d["year"] for d in saved]:
+                    continue
+                saved.append(data)
+                year_dir = data_dir / str(year)
+                year_dir.mkdir(parents=True, exist_ok=True)
+                out_path = year_dir / f"{uid}.yaml"
+                out_path.write_text(dump_yaml(data), encoding="utf-8")
+        except Exception:
+            pass
+    return uid, saved
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Scrape archived declarations from Wayback Machine"
@@ -87,8 +102,8 @@ def main():
         help="Output directory for YAML files (organized by year subdir)",
     )
     parser.add_argument(
-        "--delay", type=float, default=REQUEST_DELAY,
-        help=f"Delay between requests in seconds (default: {REQUEST_DELAY})",
+        "--workers", type=int, default=3,
+        help="Parallel workers (default: 3)",
     )
     parser.add_argument("--limit", type=int, help="Limit number of users")
     args = parser.parse_args()
@@ -105,7 +120,6 @@ def main():
             for yaml_file in year_dir.glob("*.yaml"):
                 already_done.add(yaml_file.stem)
 
-    # Filter out already-done users
     remaining = {uid: snaps for uid, snaps in to_fetch.items() if uid not in already_done}
     if already_done:
         print(f"Resuming: {len(already_done)} already done, {len(remaining)} remaining", file=sys.stderr)
@@ -115,61 +129,46 @@ def main():
 
     total = len(remaining)
     total_snaps = sum(len(s) for s in remaining.values())
-    print(f"Fetching {total_snaps} snapshots for {total} users (delay={args.delay}s)...", file=sys.stderr)
+    print(f"Fetching {total_snaps} snapshots for {total} users ({args.workers} workers)...", file=sys.stderr)
 
     users_ok = 0
     users_empty = 0
     declarations = 0
-    errors = 0
+    done = 0
 
-    for i, (uid, snapshots) in enumerate(remaining.items(), 1):
-        user_decls = []
-
-        for snap in snapshots:
-            ts = snap["timestamp"]
-            url = snap["url"]
+    with ThreadPoolExecutor(max_workers=args.workers) as pool:
+        futures = {
+            pool.submit(process_user, uid, snaps, args.data_dir): uid
+            for uid, snaps in remaining.items()
+        }
+        for future in as_completed(futures):
+            uid = futures[future]
+            done += 1
             try:
-                html = fetch_wayback(ts, url)
-                if not html:
-                    continue
-                html = strip_wayback_toolbar(html)
-                data = parse_declaration(html)
-                if data and data.get("year"):
-                    year = data["year"]
-                    # Skip if we already have this year for this user
-                    if any(d.get("year") == year for d in user_decls):
-                        continue
-                    user_decls.append(data)
-
-                    # Save immediately
-                    year_dir = args.data_dir / str(year)
-                    year_dir.mkdir(parents=True, exist_ok=True)
-                    out_path = year_dir / f"{uid}.yaml"
-                    out_path.write_text(dump_yaml(data), encoding="utf-8")
-                    declarations += 1
-
+                uid, saved = future.result()
+                if saved:
+                    users_ok += 1
+                    declarations += len(saved)
+                    years = sorted(d["year"] for d in saved)
+                    print(f"[{done}/{total}] {uid}: {len(saved)} ({years})", file=sys.stderr)
+                else:
+                    users_empty += 1
             except Exception as e:
-                print(f"  {uid} ts={ts}: {e}", file=sys.stderr)
-                errors += 1
+                users_empty += 1
 
-            time.sleep(args.delay)
-
-        if user_decls:
-            users_ok += 1
-            years = sorted(d["year"] for d in user_decls)
-            print(f"[{i}/{total}] {uid}: {len(user_decls)} declarations ({years})", file=sys.stderr)
-        else:
-            users_empty += 1
-            if i % 20 == 0:
-                print(f"[{i}/{total}] ... {users_ok} ok, {users_empty} empty, {errors} errors", file=sys.stderr)
+            if done % 100 == 0:
+                print(
+                    f"  --- {done}/{total}: {users_ok} ok, {declarations} decls, "
+                    f"{users_empty} empty ---",
+                    file=sys.stderr,
+                )
 
     print(
-        f"\nDone: {users_ok} users with data, {declarations} declarations, "
-        f"{users_empty} empty, {errors} errors",
+        f"\nDone: {users_ok} users, {declarations} declarations, "
+        f"{users_empty} empty",
         file=sys.stderr,
     )
 
-    # Summary by year
     year_counts = {}
     for year_dir in args.data_dir.iterdir():
         if year_dir.is_dir() and year_dir.name.isdigit():
@@ -177,7 +176,7 @@ def main():
             if count:
                 year_counts[int(year_dir.name)] = count
     for year in sorted(year_counts):
-        print(f"  {year}: {year_counts[year]} declarations", file=sys.stderr)
+        print(f"  {year}: {year_counts[year]}", file=sys.stderr)
 
 
 if __name__ == "__main__":
