@@ -38,9 +38,9 @@
   const collator = new Intl.Collator("sk", { sensitivity: "base" });
   const searchHints = [
     "Robert",
-    "minister financií",
-    "primátor Bratislava",
-    "župan",
+    "poslanec",
+    "primátor mesta",
+    "štátny tajomník",
     "predseda úradu",
   ];
 

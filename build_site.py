@@ -150,7 +150,7 @@ def get_commits():
             if word.isdigit() and len(word) == 4:
                 commits_by_year[int(word)] = commit_hash
                 break
-    return [(commit_hash, year) for year, commit_hash in commits_by_year.items()]
+    return [(commit_hash, year) for year, commit_hash in sorted(commits_by_year.items())]
 
 
 def latest_data_commit_info():
@@ -590,7 +590,7 @@ def render_home(index, highlights, meta, stats):
   <div class="controls">
     <label class="search-box">
       <span class="sr-only">Hľadať</span>
-      <input id="search" type="search" placeholder="Skús: Robert, minister financií, primátor">
+      <input id="search" type="search" placeholder="Skús: Robert, poslanec, primátor mesta">
     </label>
     <label class="sort-select">
       <span class="sr-only">Triediť</span>
