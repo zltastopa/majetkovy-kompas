@@ -9,7 +9,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -331,31 +332,91 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZO235535",
+        "declaration_id": 36943,
+        "name": "Mgr. PETER KRAJČÍROVIČ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO OBRANY SLOVENSKEJ REPUBLIKY )",
+        "public_functions": [
+          "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO OBRANY SLOVENSKEJ REPUBLIKY )"
+        ],
+        "income": {
+          "public_function": 72956,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "5X ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "DÚBRAVKA",
+            "lv_number": "3505",
+            "share": "8256/320119"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "DÚBRAVKA",
+            "lv_number": "1840",
+            "share": "1/1"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "PEUGEOT",
+            "year_of_manufacture": 2014,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": [
+          "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: 1/1"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "1/1",
+            "date": "06. 06. 2022"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 11,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Peter.Krajcirovic.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Peter.Krajcirovic.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Peter.Krajcirovic.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Peter.Krajcirovic.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "mgr-peter-krajcirovic",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 72956,
     "properties": 2,
     "obligations": 1,
-    "income_percentile": 74,
-    "property_percentile": 36,
-    "median_income": 57012,
+    "income_percentile": 77,
+    "property_percentile": 38,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.1

@@ -12,7 +12,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -1146,31 +1147,109 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC203389",
+        "declaration_id": 36833,
+        "name": "Ing. ĽUBOMÍR KUCHTA",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA SPRÁVCOV NÁRODNÉHO JADROVÉHO FONDU)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA SPRÁVCOV NÁRODNÉHO JADROVÉHO FONDU)"
+        ],
+        "income": {
+          "public_function": 51499,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "BRATISLAVA",
+            "lv_number": "3253",
+            "share": "1/2"
+          },
+          {
+            "type": "GARÁŽ V DOME",
+            "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+            "lv_number": "ČP 1860/59",
+            "share": "1/2"
+          },
+          {
+            "type": "OSTATNÉ PLOCHY",
+            "cadastral_territory": "BRATISLAVA - RUSOVCE",
+            "lv_number": "2267",
+            "share": "1/2"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "LUDANICE OKR. TOPOĽČANY",
+            "lv_number": "1281",
+            "share": "1/2"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "RUSOVCE",
+            "lv_number": "2267",
+            "share": "1/2"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "AUTO OSOBNÉ",
+            "brand": "TOYOTA",
+            "year_of_manufacture": 2022,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": [
+          "BEŽNÝ ÚČET V BANKE A TERMINOVANÝ ÚČET, podiel: 1/2",
+          "BEŽNÝ ÚČET, podiel: 1/2",
+          "ZARIADENIE DOMU, podiel: 1/2"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 26,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Lubomir.Kuchta.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Lubomir.Kuchta.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Lubomir.Kuchta.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Lubomir.Kuchta.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "ing-lubomir-kuchta",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 51499,
     "properties": 5,
     "obligations": 1,
-    "income_percentile": 52,
-    "property_percentile": 66,
-    "median_income": 57012,
+    "income_percentile": 56,
+    "property_percentile": 68,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.9

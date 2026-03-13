@@ -36,7 +36,8 @@ jobs:
 
       - name: Scrape latest available declarations
         run: |
-          uv run python scrape.py --workers 16 --data-dir ../data-branch/data
+          uv run python scrape.py --workers 16 --data-dir ../data-branch/data \
+            --supplementary-ids supplementary_user_ids.txt
 
       - name: Generate declaration content hashes
         run: |

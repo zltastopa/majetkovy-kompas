@@ -10,7 +10,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -997,31 +998,140 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "P225115",
+        "declaration_id": 37957,
+        "name": "Ing. PAVOL KVÁL",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
+        "income": {
+          "public_function": 65837,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "SENEC",
+            "lv_number": "11401",
+            "share": "1/1"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "SENEC",
+            "lv_number": "6261",
+            "share": "1/1"
+          },
+          {
+            "type": "GARÁŽ",
+            "cadastral_territory": "SENEC",
+            "lv_number": "11401",
+            "share": "1/49"
+          },
+          {
+            "type": "GARÁŽ",
+            "cadastral_territory": "SENEC",
+            "lv_number": "11401",
+            "share": "1/49"
+          },
+          {
+            "type": "GARÁŽ",
+            "cadastral_territory": "SENEC",
+            "lv_number": "5067",
+            "share": "1/1"
+          },
+          {
+            "type": "NEBYTOVÝ PRIESTOR",
+            "cadastral_territory": "SENEC",
+            "lv_number": "11401",
+            "share": "1/1"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "SENEC",
+            "lv_number": "11669",
+            "share": "1/1"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "SENEC",
+            "lv_number": "6187",
+            "share": "8/28"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "SENEC",
+            "lv_number": "6695",
+            "share": "13/3429"
+          },
+          {
+            "type": "POZEMOK",
+            "cadastral_territory": "SENEC",
+            "lv_number": "6866",
+            "share": "1/1"
+          },
+          {
+            "type": "POZEMOK - PREVÁDZKOVÝ OBJEKT",
+            "cadastral_territory": "SENEC",
+            "lv_number": "6688",
+            "share": "1/1"
+          },
+          {
+            "type": "SUTERÉN - NEBYT. PRIESTOR",
+            "cadastral_territory": "SENEC",
+            "lv_number": "7333",
+            "share": "1/1"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 8,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Pavol.Kval.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Pavol.Kval.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Pavol.Kval.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Pavol.Kval.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "ing-pavol-kval",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 65837,
     "properties": 12,
     "obligations": 1,
-    "income_percentile": 68,
-    "property_percentile": 87,
-    "median_income": 57012,
+    "income_percentile": 71,
+    "property_percentile": 88,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.7

@@ -11,7 +11,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -409,31 +410,122 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC235360",
+        "declaration_id": 37461,
+        "name": "Mgr. VLADISLAV KUPKA",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NADÁCIA SLOVENSKEJ POŠTY)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SKPAY, A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA, A.S.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (NADÁCIA SLOVENSKEJ POŠTY)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SKPAY, A.S.)",
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ POŠTA, A.S.)"
+        ],
+        "income": {
+          "public_function": 58834,
+          "other": 104594
+        },
+        "incompatibility": true,
+        "employment": "SLOVENSKÁ POŠTA, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "NIVY",
+            "lv_number": "4180",
+            "share": "BSM"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "10119",
+            "share": "BSM"
+          },
+          {
+            "type": "NEBYTOVÉ PRIESTORY - KOBKA A GARÁŽ",
+            "cadastral_territory": "STARÉ MESTO",
+            "lv_number": "10103",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM A POZEMKY",
+            "cadastral_territory": "CHORVÁSKY GROB",
+            "lv_number": "1952",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "AUDI",
+            "year_of_manufacture": 2015,
+            "share": "BSM"
+          },
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "MINI COOPER",
+            "year_of_manufacture": 2018,
+            "share": "BSM"
+          },
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "MINI COOPER",
+            "year_of_manufacture": 2020,
+            "share": "BSM"
+          }
+        ],
+        "property_rights": [
+          "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: BSM",
+          "ŽIVOTNÉ POISTENIE, podiel: BSM"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": [
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "ŠKODA",
+            "year_of_manufacture": 2020
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 7,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Vladislav.Kupka.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Vladislav.Kupka.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Vladislav.Kupka.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Vladislav.Kupka.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "mgr-vladislav-kupka",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 163428,
     "properties": 4,
     "obligations": 1,
     "income_percentile": 96,
-    "property_percentile": 60,
-    "median_income": 57012,
+    "property_percentile": 61,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 9.1

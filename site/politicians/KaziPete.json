@@ -12,7 +12,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -1518,31 +1519,134 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "N192283",
+        "declaration_id": 37419,
+        "name": "Ing. PETER KAŽIMÍR",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen Bankovej rady Národnej banky Slovenska",
+        "public_functions": [
+          "člen Bankovej rady Národnej banky Slovenska"
+        ],
+        "income": {
+          "public_function": 89100,
+          "other": 289635
+        },
+        "incompatibility": true,
+        "employment": "NÁRODNÁ BANKA SLOVENSKA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "INÁ BUDOVA",
+            "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+            "lv_number": "1101",
+            "share": "100%"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+            "lv_number": "9561",
+            "share": "100%"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "HRÁDOK, OKR. NOVÉ MESTO NAD VÁHOM",
+            "lv_number": "40",
+            "share": "100%"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+            "lv_number": "1101",
+            "share": "100%"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+            "lv_number": "9561",
+            "share": "100%"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+            "cadastral_territory": "HRÁDOK, OKR. NOVÉ MESTO NAD VÁHOM",
+            "lv_number": "40",
+            "share": "100%"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+            "lv_number": "9561",
+            "share": "100%"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "HRADOK, OKR. NOVÉ MESTO NAD VÁHOM",
+            "lv_number": "40",
+            "share": "100%"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "HRÁDOK, OKR. NOVÉ MESTO NAD VÁHOM",
+            "lv_number": "40",
+            "share": "100%"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "ZBIERKA LITOGRAFIÍ A HISTORICKÝCH MÁP",
+            "share": "100%"
+          }
+        ],
+        "property_rights": [
+          "AKCIE, podiel: 25%",
+          "PÔŽIČKA, podiel: 100%",
+          "ZMLUVA O ÚVERE, podiel: 100%",
+          "ZMLUVA O ÚVERE, podiel: 100%"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER - ÚVER NA BÝVANIE",
+            "share": "100%",
+            "date": "21. 08. 2020"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 27,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/KaziPete.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/KaziPete.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/KaziPete.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/KaziPete.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "ing-peter-kazimir",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 378735,
     "properties": 9,
     "obligations": 1,
     "income_percentile": 100,
-    "property_percentile": 82,
-    "median_income": 57012,
+    "property_percentile": 83,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 21.0

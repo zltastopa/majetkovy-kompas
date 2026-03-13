@@ -8,7 +8,8 @@
   "role": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ŮRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SLOVENSKEJ REPUBLIKY)",
   "years": [
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -193,31 +194,104 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZO246188",
+        "declaration_id": 37145,
+        "name": "Ing. MIROSLAV ŠTEFÁNIK, MBA",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ŮRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SLOVENSKEJ REPUBLIKY)",
+        "public_functions": [
+          "generálny tajomník služobného úradu ústredného orgánu štátnej správy (ŮRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU SLOVENSKEJ REPUBLIKY)"
+        ],
+        "income": {
+          "public_function": 45185,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+            "lv_number": "3160",
+            "share": "1/1"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "5636",
+            "share": "1/1"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "BERNOLÁKOVO",
+            "lv_number": "5755",
+            "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+            "cadastral_territory": "PETRŽALKA",
+            "lv_number": "5698",
+            "share": "7621/1042359"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": [
+          "CENNÉ PAPIERE, podiel: 1/1",
+          "PENIAZE NA ÚČTE, podiel: 1/1",
+          "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 1/1",
+          "VYBAVENIE DOMÁCNOSTI, podiel: 1/1"
+        ],
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "1/1",
+            "date": "03. 07. 2012"
+          },
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "1/1",
+            "date": "30. 09. 2020"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 4,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Miroslav.Stefanik.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Miroslav.Stefanik.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Miroslav.Stefanik.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Miroslav.Stefanik.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "ing-miroslav-stefanik-mba",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 45185,
     "properties": 4,
     "obligations": 2,
-    "income_percentile": 40,
-    "property_percentile": 60,
-    "median_income": 57012,
+    "income_percentile": 45,
+    "property_percentile": 61,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.5

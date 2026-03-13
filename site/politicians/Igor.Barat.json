@@ -14,7 +14,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -893,31 +894,104 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC224647",
+        "declaration_id": 38376,
+        "name": "IGOR BARÁT",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)\nčlen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+        "public_functions": [
+          "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (LETOVÉ PREVÁDZKOVÉ SLUŽBY, Š. P.)",
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (BURZA CENNÝCH PAPIEROV V BRATISLAVE, A.S.)",
+          "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky"
+        ],
+        "income": {
+          "public_function": 137227,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": [
+          {
+            "role": "ČLEN SPRÁVNEJ RADY",
+            "organization": "INŠTITÚT PRE DOPRAVU A HOSPODÁRSTVO",
+            "benefits": "ŽIADNE"
+          }
+        ],
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "3157",
+            "share": "100%"
+          },
+          {
+            "type": "BYT + 0,1% PODIEL NA PARCELE",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "4596, 4604",
+            "share": "100%"
+          },
+          {
+            "type": "GARÁŽ + 0,6% PODIEL NA PARCELE",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "2578, 4853",
+            "share": "100%"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "BMW",
+            "year_of_manufacture": 2015,
+            "share": "100%"
+          }
+        ],
+        "property_rights": [
+          "ZARIADENIE DOMÁCNOSTI, podiel: 100%",
+          "ÚSPORY V BANKÁCH A CENNÉ PAPIERE, podiel: 100%"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 31,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Igor.Barat.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Igor.Barat.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Igor.Barat.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Igor.Barat.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "igor-barat",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 137227,
     "properties": 3,
     "obligations": 1,
     "income_percentile": 94,
-    "property_percentile": 53,
-    "median_income": 57012,
+    "property_percentile": 54,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 7.6

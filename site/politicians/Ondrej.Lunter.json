@@ -10,7 +10,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -724,31 +725,126 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "R225099",
+        "declaration_id": 38008,
+        "name": "Mgr. ONDREJ LUNTER",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "predseda vyššieho územného celku",
+        "public_functions": [
+          "predseda vyššieho územného celku"
+        ],
+        "income": {
+          "public_function": 79944,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": "ALFA BIO S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT, SPOLUVLASTNÍCKY PODIEL",
+            "cadastral_territory": "BANSKÁ BYSTRICA, RADVAŇ",
+            "lv_number": "3607",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM TELGÁRT",
+            "cadastral_territory": "TELGÁRT",
+            "lv_number": "214",
+            "share": "1/4"
+          },
+          {
+            "type": "RODINNÝ DOM, BANSKÁ BYSTRICA",
+            "cadastral_territory": "BANSKÁ BYSTRICA",
+            "lv_number": "514",
+            "share": "BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+            "cadastral_territory": "BANSKÁ BYSTRICA",
+            "lv_number": "514",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA",
+            "cadastral_territory": "BANSKÁ BYSTRICA",
+            "lv_number": "514",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "BSM",
+            "date": "19. 12. 2023"
+          },
+          {
+            "type": "OSOBNÁ PÔŽIČKA",
+            "share": "100%",
+            "date": "01. 03. 2023"
+          },
+          {
+            "type": "OSOBNÁ PÔŽIČKA",
+            "share": "100%",
+            "date": "01. 03. 2023"
+          },
+          {
+            "type": "OSOBNÁ PÔŽIČKA",
+            "share": "100%",
+            "date": "01. 03. 2023"
+          },
+          {
+            "type": "OSOBNÁ PÔŽIČKA",
+            "share": "100%",
+            "date": "12. 12. 2023"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": [
+          {
+            "type": "OSOBNÉ VOZIDLO",
+            "brand": "VOLKSWAGEN",
+            "year_of_manufacture": 2018
+          }
+        ],
+        "gifts": "FINANČNÝ DAR, dátum prijatia: 02. 09. 2024AKCIE -  DAR, dátum prijatia: 13. 09. 2024"
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 11,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Ondrej.Lunter.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Ondrej.Lunter.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Ondrej.Lunter.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Ondrej.Lunter.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "mgr-ondrej-lunter",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 79944,
     "properties": 5,
     "obligations": 5,
-    "income_percentile": 79,
-    "property_percentile": 66,
-    "median_income": 57012,
+    "income_percentile": 81,
+    "property_percentile": 68,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.4

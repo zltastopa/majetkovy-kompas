@@ -9,7 +9,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -251,31 +252,100 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC235589",
+        "declaration_id": 37506,
+        "name": "Ing. TOMÁŠ HETTYCH",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (KOMPETENČNÉ A CERTIFIKAČNÉ CENTRUM KYBERNETICKEJ BEZPEČNOSTI)",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (KOMPETENČNÉ A CERTIFIKAČNÉ CENTRUM KYBERNETICKEJ BEZPEČNOSTI)"
+        ],
+        "income": {
+          "public_function": 0,
+          "other": 92445
+        },
+        "incompatibility": true,
+        "employment": "KOMPETENČNÉ A CERTIFIKAČNÉ CENTRUM KYBERNETICKEJ BEZPEČNOSTI\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "BANSKÁ BYSTRICA RADVAŇ",
+            "lv_number": "3679",
+            "share": "BSM"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "BANSKÁ BYSTRICA RADVAŇ",
+            "lv_number": "5300",
+            "share": "BSM"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "BRATISLAVA PODUNAJSKÉ BISKUPICE",
+            "lv_number": "5394",
+            "share": "BSM"
+          },
+          {
+            "type": "GARÁŽ",
+            "cadastral_territory": "BANSKÁ BYSTRICA RADVAŇ",
+            "lv_number": "7982",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINNÝ DOM",
+            "cadastral_territory": "BRATISLAVA VRAKUŇA",
+            "lv_number": "1768",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "BSM",
+            "date": "16. 06. 2015"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 2,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Tomas.Hettych.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Tomas.Hettych.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Tomas.Hettych.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Tomas.Hettych.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "ing-tomas-hettych",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 92445,
     "properties": 5,
     "obligations": 1,
-    "income_percentile": 84,
-    "property_percentile": 66,
-    "median_income": 57012,
+    "income_percentile": 85,
+    "property_percentile": 68,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 5.1

@@ -10,7 +10,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -448,31 +449,115 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "B235438",
+        "declaration_id": 37818,
+        "name": "Mgr. FRANTIŠEK MAJERSKÝ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "poslanec Národnej rady Slovenskej republiky\nposlanec zastupiteľstva vyššieho územného celku",
+        "public_functions": [
+          "poslanec Národnej rady Slovenskej republiky",
+          "poslanec zastupiteľstva vyššieho územného celku"
+        ],
+        "income": {
+          "public_function": 58808,
+          "other": 120
+        },
+        "incompatibility": true,
+        "employment": "ZÁCHRANNÁ SLUŽBA KOŠICE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nRZP, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": [
+          {
+            "role": "POSLANEC KRAJSKÉHO ZASTUPITEĽSTVA",
+            "organization": "PREŠOVSKÝ SAMOSPRÁVNY KRAJ",
+            "benefits": "ODMENA"
+          },
+          {
+            "role": "POSLANEC MESTSKÉHO ZASTUPITEĽSTVA",
+            "organization": "MESTO POPRAD",
+            "benefits": "ODMENA"
+          },
+          {
+            "role": "PREDSEDA",
+            "organization": "ZÁCHRANA, OBČIANSKE ZDRUŽENIE",
+            "benefits": "ŽIADNE"
+          },
+          {
+            "role": "PREZIDENT",
+            "organization": "SLOVENSKÁ KOMORA ZDRAVOTNÍCKYCH ZÁCHRANÁROV",
+            "benefits": "ŽIADNE"
+          }
+        ],
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "SPIŠSKÁ SOBOTA",
+            "lv_number": "2720",
+            "share": "BSM"
+          },
+          {
+            "type": "ORNÁ PÔDA",
+            "cadastral_territory": "ŠVÁBOVCE",
+            "lv_number": "2451",
+            "share": "BSM"
+          },
+          {
+            "type": "RODINÝ DOM",
+            "cadastral_territory": "ŠVÁBOVCE",
+            "lv_number": "2451",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": null,
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "1/2",
+            "date": "06. 09. 2021"
+          },
+          {
+            "type": "HYPOTEKÁRNY ÚVER",
+            "share": "1/2",
+            "date": "10. 02. 2023"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 9,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Frantisek.Majersky.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Frantisek.Majersky.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Frantisek.Majersky.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Frantisek.Majersky.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "mgr-frantisek-majersky",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 58928,
     "properties": 3,
     "obligations": 2,
-    "income_percentile": 61,
-    "property_percentile": 53,
-    "median_income": 57012,
+    "income_percentile": 64,
+    "property_percentile": 54,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.3

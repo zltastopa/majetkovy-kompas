@@ -10,7 +10,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -894,31 +895,129 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC224939",
+        "declaration_id": 37740,
+        "name": "MUDr. ANDREJ KOMAN",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DETSKÁ FAKULTNÁ NEMOCNICA KOŠICE )",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DETSKÁ FAKULTNÁ NEMOCNICA KOŠICE )"
+        ],
+        "income": {
+          "public_function": 99458,
+          "other": 25721
+        },
+        "incompatibility": true,
+        "employment": "DETSKÁ FAKULTNÁ NEMOCNICA KOŠICE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "TERASA",
+            "lv_number": "14619",
+            "share": "BSM"
+          },
+          {
+            "type": "ORNÁ PÔDA, GARÁŽ, PIVNICA, RODINNÝ DOM",
+            "cadastral_territory": "OLŠOVANY",
+            "lv_number": "927",
+            "share": "BSM"
+          },
+          {
+            "type": "RADOVÁ GARÁŽ",
+            "cadastral_territory": "TERASA",
+            "lv_number": "11341",
+            "share": "1/1"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA 2X",
+            "cadastral_territory": "OLŠOVANY",
+            "lv_number": "927",
+            "share": "BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA 3X, DOM, GARÁŽ",
+            "cadastral_territory": "ŠTÓS",
+            "lv_number": "97",
+            "share": "BSM"
+          },
+          {
+            "type": "ZASTAVANÁ PLOCHA 5X",
+            "cadastral_territory": "OLŠOVANY",
+            "lv_number": "25",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADA, 2X GARÁŽ, DOM,  HOSPODÁRSKA BUDOVA 2X",
+            "cadastral_territory": "OLŠOVANY",
+            "lv_number": "25",
+            "share": "BSM"
+          },
+          {
+            "type": "ZÁHRADNÁ CHATA",
+            "cadastral_territory": "KOSTOĽANY NAD HORNÁDOM",
+            "lv_number": "815",
+            "share": "1/1"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "MOTOROVÉ VOZIDLO",
+            "brand": "CITROEN",
+            "year_of_manufacture": 2002,
+            "share": "1/1"
+          },
+          {
+            "type": "MOTOROVÉ VOZIDLO",
+            "brand": "CITROEN",
+            "year_of_manufacture": 2010,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 13,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Andrej.Koman.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Andrej.Koman.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Andrej.Koman.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Andrej.Koman.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "mudr-andrej-koman",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 125179,
     "properties": 8,
     "obligations": 1,
     "income_percentile": 92,
-    "property_percentile": 79,
-    "median_income": 57012,
+    "property_percentile": 80,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 7.0

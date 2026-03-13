@@ -536,12 +536,33 @@ def scrape_one(user_id, year=None):
     return None
 
 
+def load_supplementary_ids(path):
+    """Load additional user IDs from a text file (one per line)."""
+    ids = []
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            uid = line.strip()
+            if uid and not uid.startswith("#"):
+                ids.append(uid)
+    return ids
+
+
 def main():
     parser = argparse.ArgumentParser(description="Scrape NR SR asset declarations")
     parser.add_argument("--user-id", help="Scrape a single politician by UserId (e.g., Tomas.Abel)")
     parser.add_argument("--year", type=int, help="Scrape a specific year (default: latest available)")
     parser.add_argument("--limit", type=int, help="Limit number of politicians to scrape")
     parser.add_argument("--workers", type=int, default=8, help="Number of parallel workers (default: 8)")
+    parser.add_argument(
+        "--supplementary-ids",
+        type=Path,
+        help="File with additional UserId values (one per line) to scrape alongside the NRSR list",
+    )
+    parser.add_argument(
+        "--only-supplementary",
+        action="store_true",
+        help="Scrape only the supplementary IDs (skip fetching the NRSR list)",
+    )
     parser.add_argument(
         "--data-dir",
         type=Path,
@@ -555,10 +576,30 @@ def main():
 
     if args.user_id:
         politicians = [{"user_id": args.user_id, "display_name": args.user_id}]
+    elif args.only_supplementary:
+        if not args.supplementary_ids or not args.supplementary_ids.exists():
+            print("--only-supplementary requires --supplementary-ids", file=sys.stderr)
+            sys.exit(1)
+        extra_ids = load_supplementary_ids(args.supplementary_ids)
+        politicians = [{"user_id": uid, "display_name": uid} for uid in extra_ids]
+        print(f"Loaded {len(politicians)} supplementary politicians", file=sys.stderr)
     else:
         print("Fetching politician list...", file=sys.stderr)
         politicians = fetch_politician_list()
-        print(f"Found {len(politicians)} politicians", file=sys.stderr)
+        print(f"Found {len(politicians)} politicians from NRSR", file=sys.stderr)
+
+        if args.supplementary_ids and args.supplementary_ids.exists():
+            existing_ids = {p["user_id"] for p in politicians}
+            extra_ids = load_supplementary_ids(args.supplementary_ids)
+            added = 0
+            for uid in extra_ids:
+                if uid not in existing_ids:
+                    politicians.append({"user_id": uid, "display_name": uid})
+                    existing_ids.add(uid)
+                    added += 1
+            print(f"Added {added} supplementary politicians", file=sys.stderr)
+
+        print(f"Total: {len(politicians)} politicians", file=sys.stderr)
 
     if args.limit:
         politicians = politicians[: args.limit]

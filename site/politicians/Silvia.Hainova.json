@@ -10,7 +10,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -370,31 +371,95 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC224923",
+        "declaration_id": 37703,
+        "name": "Mgr. SILVIA HAINOVÁ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TI TELEKOM S.R.O.)",
+        "public_functions": [
+          "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (TI TELEKOM S.R.O.)"
+        ],
+        "income": {
+          "public_function": 0,
+          "other": 50449
+        },
+        "incompatibility": true,
+        "employment": "MINISTERSTVO PRÁCE, SOCIÁLNYCH VECÍ A RODINY SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "BERNOLÁKOVO",
+            "lv_number": "8476",
+            "share": "1/2"
+          },
+          {
+            "type": "POZEMOK ZÁHRADA",
+            "cadastral_territory": "BERNOLÁKOVO",
+            "lv_number": "8542",
+            "share": "9231/51988"
+          },
+          {
+            "type": "POZEMOK ZÁHRADA",
+            "cadastral_territory": "BERNOLÁKOVO",
+            "lv_number": "8597",
+            "share": "1/2"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "OSOBNÉ VOZIDLO",
+            "brand": "VOLKSWAGEN",
+            "year_of_manufacture": 2014,
+            "share": "1/1"
+          }
+        ],
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "ÚVER NA BÝVANIE",
+            "share": "1/2",
+            "date": "20. 04. 2017"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 7,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Silvia.Hainova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Silvia.Hainova.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Silvia.Hainova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Silvia.Hainova.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "mgr-silvia-hainova",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 50449,
     "properties": 3,
     "obligations": 1,
-    "income_percentile": 50,
-    "property_percentile": 53,
-    "median_income": 57012,
+    "income_percentile": 54,
+    "property_percentile": 54,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.8

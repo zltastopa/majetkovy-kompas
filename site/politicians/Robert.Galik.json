@@ -9,7 +9,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -532,31 +533,114 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "ZC245795",
+        "declaration_id": 38106,
+        "name": "Ing. ROBERT GÁLIK, MBA",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (CENTRUM VEDECKO TECHNICKÝCH INFORMÁCIÍ )",
+        "public_functions": [
+          "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (CENTRUM VEDECKO TECHNICKÝCH INFORMÁCIÍ )"
+        ],
+        "income": {
+          "public_function": 73766,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": null,
+        "real_estate": [
+          {
+            "type": "BYT",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "3651/182/290   3167",
+            "share": "100%"
+          },
+          {
+            "type": "BYT",
+            "cadastral_territory": "NOVÉ MESTO",
+            "lv_number": "3643",
+            "share": "100%"
+          },
+          {
+            "type": "GARÁŽE",
+            "cadastral_territory": "KARLOVA VES",
+            "lv_number": "3651/182/290   3167",
+            "share": "100%"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "MOOTOCYKEL",
+            "brand": "VESPA",
+            "year_of_manufacture": 2016,
+            "share": "100%"
+          },
+          {
+            "type": "MOTOCYKEL",
+            "brand": "HD",
+            "year_of_manufacture": 2018,
+            "share": "100%"
+          },
+          {
+            "type": "MOTOCYKEL",
+            "brand": "MOTO GUZZI",
+            "year_of_manufacture": 2018,
+            "share": "100%"
+          },
+          {
+            "type": "MOTOCYKEL",
+            "brand": "VESPA",
+            "year_of_manufacture": 2022,
+            "share": "100%"
+          }
+        ],
+        "property_rights": [
+          "CENNÉ PAPIERE, podiel: 100%",
+          "HOTOVOSŤ, podiel: 100%"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 9,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Robert.Galik.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Robert.Galik.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Robert.Galik.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Robert.Galik.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "ing-robert-galik-mba",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 73766,
     "properties": 3,
     "obligations": 1,
-    "income_percentile": 75,
-    "property_percentile": 53,
-    "median_income": 57012,
+    "income_percentile": 77,
+    "property_percentile": 54,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.1

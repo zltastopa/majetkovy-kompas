@@ -10,7 +10,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -517,31 +518,108 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "P225118",
+        "declaration_id": 37116,
+        "name": "Ing. ONDREJ KURBEL",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "primátor mesta",
+        "public_functions": [
+          "primátor mesta"
+        ],
+        "income": {
+          "public_function": 65108,
+          "other": 0
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": null,
+        "positions": [
+          {
+            "role": "VALNÉ ZHROMAŽDENIE",
+            "organization": "MESTSKÝ BYTOVÝ PODNIK SEREĎ, SPOL. S R.O.",
+            "benefits": "ŽIADNE"
+          },
+          {
+            "role": "VALNÉ ZHROMAŽDENIE",
+            "organization": "SPRÁVA MAJETKU SEREĎ, S.R.O.",
+            "benefits": "ŽIADNE"
+          },
+          {
+            "role": "ČLEN DOZORNEJ RADY",
+            "organization": "ZÁPADOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+            "benefits": "ŽIADNE"
+          },
+          {
+            "role": "ČLEN VALNÉHO ZHROMAŽDENIA",
+            "organization": "KOMPLEX - ZÁUJMOVÉ ZDRUŽENIE OBCÍ",
+            "benefits": "ŽIADNE"
+          },
+          {
+            "role": "ČLEN VALNÉHO ZHROMAŽDENIA",
+            "organization": "NAŠA DOMOVÁ SPRÁVA, S.R.O.",
+            "benefits": "ŽIADNE"
+          }
+        ],
+        "real_estate": null,
+        "movable_property": [
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "FORD",
+            "year_of_manufacture": 2007,
+            "share": "100%"
+          },
+          {
+            "type": "OSOBNÝ AUTOMOBIL",
+            "brand": "KIA",
+            "year_of_manufacture": 2021,
+            "share": "100%"
+          }
+        ],
+        "property_rights": null,
+        "obligations": [
+          {
+            "type": "LEASING",
+            "share": "1/1",
+            "date": "30. 04. 2025"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": null,
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 9,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Ondrej.Kurbel.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Ondrej.Kurbel.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Ondrej.Kurbel.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Ondrej.Kurbel.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "ing-ondrej-kurbel",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 65108,
     "properties": 0,
     "obligations": 1,
-    "income_percentile": 67,
-    "property_percentile": 9,
-    "median_income": 57012,
+    "income_percentile": 70,
+    "property_percentile": 8,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.6

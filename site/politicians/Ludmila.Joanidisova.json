@@ -9,7 +9,8 @@
   "years": [
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "timeline": [
     {
@@ -438,31 +439,112 @@
           }
         ]
       }
+    },
+    {
+      "year": 2025,
+      "data": {
+        "id": "G235576",
+        "declaration_id": 37941,
+        "name": "JUDr. ĽUDMILA JOANIDISOVÁ",
+        "year": 2024,
+        "filed": "k 30. aprílu",
+        "public_function": "člen Súdnej rady Slovenskej republiky",
+        "public_functions": [
+          "člen Súdnej rady Slovenskej republiky"
+        ],
+        "income": {
+          "public_function": 25740,
+          "other": 250387
+        },
+        "incompatibility": true,
+        "employment": null,
+        "business_activity": "NOTÁR(JUDr. ĽUDMILA JOANIDISOVÁ - NOTÁR)",
+        "positions": [
+          {
+            "role": "ČLEN PREZÍDIA, ČLEN VZDELÁVACEJ KOMISIE",
+            "organization": "NOTÁRSKA KOMORA SLOVENSKEJ REPUBLIKY",
+            "benefits": "NÁHRADA ZA STRATU ČASU"
+          }
+        ],
+        "real_estate": [
+          {
+            "type": "BYT,  NEBYTOVÝ PRIESTOR,  PRÍSLUŠENSTVO A POZEMKY",
+            "cadastral_territory": "BRATISLAVA KARLOVA VES",
+            "lv_number": "4059, 4133",
+            "share": "BSM"
+          },
+          {
+            "type": "REKREAČNÁ CHATA S POZEMKAMI",
+            "cadastral_territory": "OŠČADNICA",
+            "lv_number": "8986, 8972, 8980",
+            "share": "BSM"
+          }
+        ],
+        "movable_property": [
+          {
+            "type": "MOTOCYKEL",
+            "brand": "JAMAHA",
+            "year_of_manufacture": 2011,
+            "share": "BSM"
+          },
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "MITSUBISHI",
+            "year_of_manufacture": 1996,
+            "share": "BSM"
+          }
+        ],
+        "property_rights": [
+          "ÚSPORY, podiel: BSM"
+        ],
+        "obligations": [
+          {
+            "type": "žiadny"
+          }
+        ],
+        "use_of_others_real_estate": null,
+        "vehicles": [
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "AUDI",
+            "year_of_manufacture": 2019
+          },
+          {
+            "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+            "brand": "VOLKSWAGEN",
+            "year_of_manufacture": 2025
+          }
+        ],
+        "gifts": null
+      },
+      "diff": {
+        "type": "unchanged"
+      }
     }
   ],
   "total_changes": 8,
   "latest_extraction": {
-    "committed_at": "2026-03-10",
-    "commit": "018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "previous_commit": "48f211a149e9b486d21903e6d1004ae5a6443ff0",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/48f211a149e9b486d21903e6d1004ae5a6443ff0...018ad199e97ec0b31f2c93bd1fc82b2d06b07e43",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/018ad199e97ec0b31f2c93bd1fc82b2d06b07e43/data/Ludmila.Joanidisova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/48f211a149e9b486d21903e6d1004ae5a6443ff0/data/Ludmila.Joanidisova.yaml",
+    "committed_at": "2026-03-13",
+    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Ludmila.Joanidisova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Ludmila.Joanidisova.yaml",
     "diff": {
-      "type": "new"
+      "type": "unchanged"
     },
     "summary": []
   },
   "slug": "judr-ludmila-joanidisova",
   "context": {
-    "latest_year": 2024,
+    "latest_year": 2025,
     "income": 276127,
     "properties": 2,
     "obligations": 1,
-    "income_percentile": 99,
-    "property_percentile": 36,
-    "median_income": 57012,
+    "income_percentile": 100,
+    "property_percentile": 38,
+    "median_income": 52713,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 15.3
