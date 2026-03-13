@@ -1,12 +1,14 @@
 id: B0473
-declaration_id: 3684
+declaration_id: 3794
 name: Mgr. DUŠAN JARJABEK
-year: 2008
+year: 2009
 filed: k 31. marcu
 public_function: poslanec Národnej rady Slovenskej republiky
 public_functions:
 - poslanec Národnej rady Slovenskej republiky
-income: 756000 Sk (z výkonu verejnej funkcie), 389059 Sk (iné)
+income:
+  public_function: 25104
+  other: 34778
 incompatibility: true
 employment: 'NOVÁ SCÉNA DIVADLO
 
@@ -16,8 +18,9 @@ employment: 'NOVÁ SCÉNA DIVADLO
 business_activity: null
 positions: null
 real_estate:
-- type: 1 IZBOVÝ BYT
-- type: BYT, GARÁŽ
+- type: BYT
+- type: BYT + GARÁŽ
 - type: RODINNÝ DOM
-- type: RODINNÝ DOM SO ZÁHRADOU
+- type: RODINNÝ DOM
+- type: ZÁHRADA
 - type: ZÁHRADY
