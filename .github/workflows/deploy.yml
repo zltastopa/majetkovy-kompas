@@ -28,6 +28,8 @@ jobs:
       - uses: astral-sh/setup-uv@v5
 
       - name: Build site from git history
+        env:
+          SITE_URL: https://kompas.zltastopa.sk
         run: uv run python build_site.py
 
       - uses: actions/upload-pages-artifact@v3
