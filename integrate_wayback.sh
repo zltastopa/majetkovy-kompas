@@ -112,13 +112,13 @@ for year in "${WAYBACK_YEARS[@]}"; do
     echo "  No diff, skipping"
   else
     git commit -F - <<COMMITEOF
-data: add Wayback Machine declarations for year $year
+data: add live all-years scrape for year $year
 
-Add $added archived declarations recovered from the Wayback Machine
-for officials whose data was wiped from the live NRSR site.
+Add $added declarations scraped from the live nrsr.sk site by
+querying every available year for every known official.
 
-- Fetched from web.archive.org archived snapshots
-- Parsed with the same scrape.py declaration parser
+- Source: https://www.nrsr.sk/web/?sid=vnf/oznamenie
+- Parsed with scrape.py declaration parser
 - Reporting year: $year
 - Total declarations for $year after merge: $new_count
 COMMITEOF
@@ -170,8 +170,10 @@ while IFS= read -r hash; do
       batch=2
     elif [[ "$msg" == *"Wayback"* ]]; then
       batch=3
+    elif [[ "$msg" == *"live all-years"* ]]; then
+      batch=5
     elif [[ "$msg" == *"daily check"* ]]; then
-      batch=4
+      batch=6
     fi
     COMMIT_SORT[$hash]=$(printf "%d%02d%04d" "$year" "$batch" "$i")
   else

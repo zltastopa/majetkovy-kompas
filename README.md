@@ -3,7 +3,8 @@
 Prehľadný nástroj na prezeranie a porovnávanie majetkových priznaní
 verejných funkcionárov Slovenskej republiky. Dáta pochádzajú z
 [Národnej rady SR](https://www.nrsr.sk/web/?sid=oznamenia_funkcionarov)
-a pokrývajú roky 2019 – 2024.
+a pokrývajú roky 2004 – 2025 (podľa dostupnosti na stránke NR SR
+a v archíve Wayback Machine).
 
 **[→ Živá verzia](https://kompas.zltastopa.sk/)**
 
@@ -30,20 +31,33 @@ a pokrývajú roky 2019 – 2024.
 ## Štruktúra projektu
 
 ```
-scrape.py          # Scraper (NR SR → YAML)
-build_site.py      # Generátor statického webu (git história → JSON)
-backfill.sh        # Jednorázový skript na scrape všetkých rokov
+scrape.py              # Scraper (NR SR → YAML) — jeden rok
+scrape_all_years.py    # Scraper všetkých rokov pre každú osobu
+scrape_wayback.py      # Obnova deklarácií z Wayback Machine
+build_site.py          # Generátor statického webu (git história → JSON)
+backfill.sh            # Jednorázový skript na scrape rokov 2019–2024
+integrate_wayback.sh   # Integrácia Wayback dát + chronologické zoradenie
+supplementary_user_ids.txt  # ~2 700 doplnkových ID funkcionárov
 site/
-  index.html       # Frontend (HTML + inline CSS/JS)
-  index.json       # Zoznam funkcionárov (generovaný)
-  highlights.json  # Rebríčky a signály (generovaný)
-  meta.json        # Metadáta (generovaný)
-  politicians/     # Detail JSON pre každého funkcionára (generovaný)
+  index.html           # Frontend (HTML + inline CSS/JS)
+  index.json           # Zoznam funkcionárov (generovaný)
+  highlights.json      # Rebríčky a signály (generovaný)
+  meta.json            # Metadáta (generovaný)
+  politicians/         # Detail JSON pre každého funkcionára (generovaný)
 ```
 
-Dáta žijú na samostatnej git vetve `data` — každý commit
-predstavuje jeden rok. Build skript prechádza túto históriu a
-počíta diffy.
+Dáta žijú na samostatnej git vetve `data` — commity sú zoradené
+chronologicky podľa roka uznámenia (najstaršie prvé). Pre každý rok
+môže existovať viacero commitov (pôvodný scrape, doplnkový scrape,
+Wayback Machine). Build skript prechádza túto históriu, použije
+posledný commit pre každý rok a počíta diffy.
+
+### Zoradenie dátovej vetvy
+
+Commity na vetve `data` **musia** byť chronologicky zoradené podľa
+roku (napr. 2004, 2005, …, 2025). Po pridaní nových dát sa vetva
+preradí pomocou `git commit-tree` (zachová stromy, zmení len rodičov)
+a force-pushne.
 
 ## Spustenie lokálne
 
@@ -66,8 +80,14 @@ open site/index.html
 ### Scraper
 
 ```bash
-# Jeden politik
+# Jeden politik, jeden rok
 uv run python scrape.py --user-id Tomas.Abel --year 2023
+
+# Všetky roky pre všetkých funkcionárov (z živej stránky nrsr.sk)
+uv run python scrape_all_years.py --data-dir /tmp/all_years --workers 8
+
+# Obnova z Wayback Machine archívu
+uv run python scrape_wayback.py --input manifest.json --data-dir /tmp/wb
 
 # Obmedzený počet (na testovanie)
 uv run python scrape.py --year 2024 --limit 10
