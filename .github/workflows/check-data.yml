@@ -91,15 +91,16 @@ jobs:
           fi
 
           git commit -F - <<EOF
-          data: daily check for ${{ steps.latest-year.outputs.value }}
+          data: daily declaration baseline
 
-          Previously the data branch only changed on manual updates; this
-          commit records the latest daily scrape snapshot and canonical
-          content hashes so extracted declaration changes are visible in git.
+          Daily scrape of the latest available NR SR declarations.
+          The commit message intentionally omits the reporting year so
+          that build_site.py does not treat this mixed-year snapshot as
+          a single-year data commit.
 
           - Re-scrape the latest available NR SR declarations into \`data/\`
           - Store content hashes in \`data/_checks/content-hashes.json\`
-          - Keep the newest snapshot for reporting year ${{ steps.latest-year.outputs.value }}
+          - Latest reporting year detected: ${{ steps.latest-year.outputs.value }}
           EOF
 
           git push origin HEAD:data
