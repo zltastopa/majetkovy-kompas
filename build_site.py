@@ -30,6 +30,7 @@ DATA_BRANCH = "data"
 SITE_NAME = "Majetkový kompas"
 PARENT_SITE_NAME = "Žltá Stopa"
 PARENT_SITE_URL = "https://www.zltastopa.sk"
+PROJECT_TITLE_SUFFIX = f"Projekt {PARENT_SITE_NAME}"
 SITE_DESCRIPTION = (
     "Majetkové priznania verejných funkcionárov na Slovensku v prehľadnej, "
     "porovnateľnej podobe."
@@ -382,6 +383,10 @@ def json_for_script(data):
     return json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
 
 
+def page_title(*parts):
+    return " | ".join([*parts, PROJECT_TITLE_SUFFIX])
+
+
 def meta_tags(title, description, path, *, image_path="", noindex=False):
     tags = [
         f"<title>{esc(title)}</title>",
@@ -479,7 +484,7 @@ def render_person_redirect(person):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{meta_tags(f"{person['name']} | {SITE_NAME}", description, target_path, noindex=True)}
+{meta_tags(page_title(person["name"], SITE_NAME), description, target_path, noindex=True)}
 <meta http-equiv="refresh" content="0; url={esc(target_href)}">
 </head>
 <body>
@@ -648,7 +653,7 @@ def render_home(index, highlights, meta, stats):
 <button data-tab="top_earners">Najvyššie príjmy</button>
 """
     return shell(
-        SITE_NAME,
+        page_title(SITE_NAME),
         SITE_DESCRIPTION,
         "/",
         body,
@@ -716,7 +721,7 @@ def highlight_card(item, kind, prefix=""):
 
 
 def render_section_page(kind, page, items, meta, stats):
-    title = f"{page['title']} | {SITE_NAME}"
+    title = page_title(page["title"], SITE_NAME)
     description = f"{page['intro']} {SITE_NAME} spracúva dáta z NR SR."
     extra_link = ""
     if kind != "top_earners":
@@ -819,7 +824,7 @@ def field_summary(change):
 def render_person_page(person, meta, stats):
     role = display_role(person.get("public_function"))
     description = role
-    title = f"{person['name']} | {SITE_NAME}"
+    title = page_title(person["name"], SITE_NAME)
 
     breadcrumb_ld = {
         "@context": "https://schema.org",
