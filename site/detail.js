@@ -358,6 +358,9 @@ function renderIncomeChart(detail) {
     line.remove();
   });
 
+  // Default long timelines to the most recent years on first render.
+  wrap.scrollLeft = Math.max(wrap.scrollWidth - wrap.clientWidth, 0);
+
   const context = detail.context || {};
   if (maxIncome <= 0) {
     return;
