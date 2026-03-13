@@ -431,16 +431,120 @@
   "total_changes": 9,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Vladimir.Kesjar.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Vladimir.Kesjar.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Vladimir.Kesjar.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Vladimir.Kesjar.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO FINANCIÍ SR)",
+          "new": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY)\nčlen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, ŠTÁTNY PODNIK)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO FINANCIÍ SR)"
+          ],
+          "new": [
+            "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO FINANCIÍ SLOVENSKEJ REPUBLIKY)",
+            "člen dozornej rady štátneho podniku, ktorého do funkcie ustanovuje štát (MINCOVŇA KREMNICA, ŠTÁTNY PODNIK)"
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 19706,
+            "other": 0
+          },
+          "new": {
+            "public_function": 61500,
+            "other": 0
+          },
+          "old_total": 19706,
+          "new_total": 61500,
+          "delta": 41794,
+          "delta_pct": 212.1
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NADÁCIA NA OCHRANU FAUNY A FLÓRY KREMNICKÝCH A ŠTIAVNICKÝCH VRCHOV",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NADÁCIA NA OCHRANU FAUNY A FLÓRY KREMNICKÝCH \r\nA ŠTIAVNICKÝCH VRCHOV",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "2704",
+              "share": "1/2"
+            },
+            {
+              "type": "OVOCNÉ SADY",
+              "cadastral_territory": "MILOSLAVOV",
+              "lv_number": "594",
+              "share": "1/4"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5223",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA - RUSOVCE",
+              "lv_number": "392",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "OVOCNÉ SADY",
+              "cadastral_territory": "MILOSLAVOV",
+              "lv_number": "594",
+              "share": "1/4"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA - RUSOVCE",
+              "lv_number": "392",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 2 (+1)",
+      "Príjmy: 19 706 € → 61 500 € (+41 794 €)",
+      "Funkcie: 1 → 1 (0)",
+      "Nehnuteľnosti: 4 → 2 (-2)"
+    ]
   },
   "slug": "ing-vladimir-kesjar",
   "context": {
@@ -450,7 +554,7 @@
     "obligations": 1,
     "income_percentile": 67,
     "property_percentile": 38,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.4

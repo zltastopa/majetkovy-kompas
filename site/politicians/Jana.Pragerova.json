@@ -397,16 +397,146 @@
   "total_changes": 3,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Jana.Pragerova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Jana.Pragerova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Jana.Pragerova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Jana.Pragerova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 3677,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 3677,
+          "delta": 3677
+        },
+        {
+          "field": "employment",
+          "old": "APA ART PRODUCTION AGENCY S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "APARTMÁN 27",
+              "cadastral_territory": "NIVY BRATISLAVA 2",
+              "lv_number": "5134",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO BRATISLAVA",
+              "lv_number": "5455",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO BRATISLAVA 3",
+              "lv_number": "5455",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "NOVÉ MESTO BRATISLAVA 3",
+              "lv_number": "5455",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE 4",
+              "cadastral_territory": "NIVY BRATISLAVA 2",
+              "lv_number": "5134",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE 98",
+              "cadastral_territory": "NOVÉ MESTO BRATISLAVA 3",
+              "lv_number": "3289",
+              "share": "BSM"
+            },
+            {
+              "type": "KOPKA PIVNIČNÁ",
+              "cadastral_territory": "NOVÉ MESTO BRATISLAVA 3",
+              "lv_number": "5455",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "CHORVÁTSKY GROB",
+              "lv_number": "2092",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "APARTMÁN",
+              "cadastral_territory": "BRATISLAVA - NIVY",
+              "lv_number": "5134",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "5455",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "5455",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "BRATISLAVA - NIVY",
+              "lv_number": "5134",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3289",
+              "share": "BSM"
+            },
+            {
+              "type": "GARÁŽOVÉ STÁTIE",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "5455",
+              "share": "BSM"
+            },
+            {
+              "type": "KOBKA PIVNIČNÁ",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "5455",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "CHORVÁTSKY GROB",
+              "lv_number": "2092",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 8
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 0 € → 3 677 € (+3 677 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 8 → 8 (0)"
+    ]
   },
   "slug": "mgr-jana-pragerova",
   "context": {
@@ -416,7 +546,7 @@
     "obligations": 1,
     "income_percentile": 16,
     "property_percentile": 80,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0.2

@@ -410,16 +410,142 @@
   "total_changes": 5,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Ivana.ValaMagatova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Ivana.ValaMagatova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Ivana.ValaMagatova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Ivana.ValaMagatova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAKIA TRAVEL ROZPOČTOVÁ ORGANIZÁCIA)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAKIA TRAVEL)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAKIA TRAVEL ROZPOČTOVÁ ORGANIZÁCIA)"
+          ],
+          "new": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAKIA TRAVEL)"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 73140,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 73140,
+          "delta": 73140
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "APARTMÁN",
+              "cadastral_territory": "HORNÁ LEHOTA - TÁLE",
+              "lv_number": "2103",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "7212",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "3218",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "4918",
+              "share": "109/1000"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "BRATISLAVA - ČUNOVO",
+              "lv_number": "2100",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK A REKREAČNÁ CHATA",
+              "cadastral_territory": "SENEC",
+              "lv_number": "2781",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "APARTMÁN",
+              "cadastral_territory": "HORNÁ LEHOTA TÁLE",
+              "lv_number": "2103",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
+              "lv_number": "7212",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BRATISLAVA-PETRŽALKA",
+              "lv_number": "3218",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
+              "lv_number": "4918",
+              "share": "109/1000"
+            },
+            {
+              "type": "POZEMOK A REKREČNÁ CHATA",
+              "cadastral_territory": "SENEC",
+              "lv_number": "2781",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK-ORNÁ PÔDA",
+              "cadastral_territory": "BRATISLAVA-ČUŇOVO",
+              "lv_number": "2100",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTOCH, podiel: 1/1"
+          ]
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 1 (0)",
+      "Príjmy: 0 € → 73 140 € (+73 140 €)",
+      "Nehnuteľnosti: 6 → 6 (0)",
+      "Majetkové práva"
+    ]
   },
   "slug": "ing-ivana-vala-magatova-phd",
   "context": {
@@ -429,7 +555,7 @@
     "obligations": 1,
     "income_percentile": 77,
     "property_percentile": 74,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.1

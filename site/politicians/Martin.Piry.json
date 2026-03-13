@@ -507,16 +507,176 @@
   "total_changes": 4,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Martin.Piry.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Martin.Piry.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Martin.Piry.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Martin.Piry.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 0,
+            "other": 27962
+          },
+          "old_total": 0,
+          "new_total": 27962,
+          "delta": 27962
+        },
+        {
+          "field": "employment",
+          "old": "PRÁVNICKÁ FAKULTA UMB\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "BRATISLAVSKÝ SAMOSPRÁVNY KRAJ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNAJVYŠŠÍ SPRÁVNY SÚD SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ KOMORA EXEKÚTOROV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nADVOKÁTSKA KANCELÁRIA JUDr. EVA LADIVEROVÁ, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nPRÁVNICKÁ FAKULTA UNIVERZITY MATEJA BELA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": null,
+          "new": "SÚDNY EXEKÚTOR(JUDr. MARTIN PÍRY)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT OBYTNÉHO DOMU",
+              "cadastral_territory": "ZÁVODIE",
+              "lv_number": "1672",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "OROVNICA",
+              "lv_number": "1631",
+              "share": "1/40"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "OROVNICA",
+              "lv_number": "2469",
+              "share": "1/14824"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1710",
+              "share": "1/32"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1711",
+              "share": "1/8"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1712",
+              "share": "1/16"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1718",
+              "share": "1/48"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1877",
+              "share": "1/8"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1878",
+              "share": "3/32"
+            },
+            {
+              "type": "POZEMOK - TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1713",
+              "share": "1/40"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZÁVODIE",
+              "lv_number": "1672",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "OROVNICA",
+              "lv_number": "1631",
+              "share": "1/40"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "OROVNICA",
+              "lv_number": "2469",
+              "share": "1/14824"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1710",
+              "share": "1/32"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1711",
+              "share": "1/8"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1712",
+              "share": "1/16"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1718",
+              "share": "1/48"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1877",
+              "share": "1/8"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1878",
+              "share": "3/32"
+            },
+            {
+              "type": "POZEMOK - TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "TEKOVSKÁ BREZNICA",
+              "lv_number": "1713",
+              "share": "1/40"
+            }
+          ],
+          "old_count": 10,
+          "new_count": 10
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 0 € → 27 962 € (+27 962 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti: 10 → 10 (0)"
+    ]
   },
   "slug": "judr-martin-piry-phd",
   "context": {
@@ -526,7 +686,7 @@
     "obligations": 1,
     "income_percentile": 31,
     "property_percentile": 85,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.6

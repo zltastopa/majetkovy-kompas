@@ -640,16 +640,185 @@
   "total_changes": 12,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Peter.Kovacik.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Peter.Kovacik.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Peter.Kovacik.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Peter.Kovacik.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ A.S. )",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ A.S.)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ A.S. )"
+          ],
+          "new": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ KONSOLIDAČNÁ A.S.)"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 5525,
+            "other": 1894
+          },
+          "new": {
+            "public_function": 21450,
+            "other": 71192
+          },
+          "old_total": 7419,
+          "new_total": 92642,
+          "delta": 85223,
+          "delta_pct": 1148.7
+        },
+        {
+          "field": "employment",
+          "old": "SLOVENSKÁ KONSOLIDAČNÁ A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMIESTNY ÚRAD PODUNAJSKÉ BISKUPICE - BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÁ KONSOLIDAČNÁ A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV, BRATISLAVA",
+              "lv_number": "7214",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR, GARÁŽ",
+              "cadastral_territory": "RUŽINOV, BRATISLAVA",
+              "lv_number": "7214",
+              "share": "1414/81330"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR, INÝ NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "RUŽINOV, BRATISLAVA",
+              "lv_number": "7214",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK -  V ZASTAVANOM ÚZEMÍ (OST. PLOCHA)",
+              "cadastral_territory": "RUŽINOV, BRATISLAVA II.",
+              "lv_number": "4172",
+              "share": "1/10"
+            },
+            {
+              "type": "POZEMOK -  V ZASTAVANOM ÚZEMÍ (OSTATNÉ PLOCHY)",
+              "cadastral_territory": "VEĽKÁ LOMNICA",
+              "lv_number": "1993",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATA",
+              "cadastral_territory": "RUŽINOV, BRATISLAVA",
+              "lv_number": "2728",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV, BRATISLAVA",
+              "lv_number": "7214",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR GARÁŽ",
+              "cadastral_territory": "RUŽINOV, BRATISLAVA",
+              "lv_number": "7214",
+              "share": "1414/81330"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR, INÝ NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "RUŽINOV, BRATISLAVA",
+              "lv_number": "7214",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - V ZASTAVANOM ÚZEMÍ (OSTATNÁ PLOCHA)",
+              "cadastral_territory": "RUŽINOV, BRATISLAVA II.",
+              "lv_number": "4172",
+              "share": "1/10"
+            },
+            {
+              "type": "POZEMOK - V ZASTAVANOM ÚZEMÍ (OSTATNÉ PLOCHY)",
+              "cadastral_territory": "VEĽKÁ LOMNICA",
+              "lv_number": "1993",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATA",
+              "cadastral_territory": "RUŽINOV, BRATISLAVA",
+              "lv_number": "2728",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2016,
+              "share": "1/1"
+            },
+            {
+              "type": "UMELECKÉ DIELA",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "UMELECKÉ DIELA",
+              "share": "100%"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "08. 02. 2018"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER NA BYT",
+              "share": "1/1",
+              "date": "08. 02. 2018"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 1 (0)",
+      "Príjmy: 7 419 € → 92 642 € (+85 223 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 6 → 6 (0)",
+      "Hnuteľný majetok: 2 → 1 (-1)",
+      "Záväzky: 1 → 1 (0)"
+    ]
   },
   "slug": "ing-peter-kovacik-phd-mph",
   "context": {
@@ -659,7 +828,7 @@
     "obligations": 1,
     "income_percentile": 86,
     "property_percentile": 74,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 5.1

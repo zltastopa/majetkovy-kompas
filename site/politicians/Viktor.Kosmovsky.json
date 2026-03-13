@@ -841,16 +841,103 @@
   "total_changes": 20,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Viktor.Kosmovsky.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Viktor.Kosmovsky.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Viktor.Kosmovsky.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Viktor.Kosmovsky.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 48814,
+            "other": 0
+          },
+          "new": {
+            "public_function": 57999,
+            "other": 0
+          },
+          "old_total": 48814,
+          "new_total": 57999,
+          "delta": 9185,
+          "delta_pct": 18.8
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZVOLEN",
+              "lv_number": "5364",
+              "share": "1/2"
+            },
+            {
+              "type": "CHATA",
+              "cadastral_territory": "SLIAČ - RYBÁRE",
+              "lv_number": "1424",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZVOLEN",
+              "lv_number": "5364",
+              "share": "1/2"
+            },
+            {
+              "type": "CHATA",
+              "cadastral_territory": "SLIAČ RYBÁRE",
+              "lv_number": "1424",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "BMW",
+              "year_of_manufacture": 2017,
+              "share": "1/2"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "FORD",
+              "year_of_manufacture": 2007,
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "BMW",
+              "year_of_manufacture": 2017,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "FORD",
+              "year_of_manufacture": 2007,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 48 814 € → 57 999 € (+9 185 €)",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Hnuteľný majetok: 2 → 2 (0)"
+    ]
   },
   "slug": "mudr-viktor-kosmovsky",
   "context": {
@@ -860,7 +947,7 @@
     "obligations": 1,
     "income_percentile": 63,
     "property_percentile": 38,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.2

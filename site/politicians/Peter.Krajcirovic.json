@@ -397,16 +397,89 @@
   "total_changes": 11,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Peter.Krajcirovic.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Peter.Krajcirovic.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Peter.Krajcirovic.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Peter.Krajcirovic.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO OBRANY SR)",
+          "new": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO OBRANY SLOVENSKEJ REPUBLIKY )"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO OBRANY SR)"
+          ],
+          "new": [
+            "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO OBRANY SLOVENSKEJ REPUBLIKY )"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 12535,
+            "other": 0
+          },
+          "new": {
+            "public_function": 72956,
+            "other": 0
+          },
+          "old_total": 12535,
+          "new_total": 72956,
+          "delta": 60421,
+          "delta_pct": 482.0
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "DÚBRAVKA BRATISLAVA",
+              "lv_number": "1840",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "5X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "3505",
+              "share": "8256/320119"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "1840",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: 1/1"
+          ]
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 1 (0)",
+      "Príjmy: 12 535 € → 72 956 € (+60 421 €)",
+      "Nehnuteľnosti: 1 → 2 (+1)",
+      "Majetkové práva"
+    ]
   },
   "slug": "mgr-peter-krajcirovic",
   "context": {
@@ -416,7 +489,7 @@
     "obligations": 1,
     "income_percentile": 77,
     "property_percentile": 38,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.1

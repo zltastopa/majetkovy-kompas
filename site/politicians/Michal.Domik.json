@@ -4085,16 +4085,492 @@
   "total_changes": 23,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Michal.Domik.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Michal.Domik.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Michal.Domik.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Michal.Domik.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 67190,
+            "other": 8073
+          },
+          "new": {
+            "public_function": 73630,
+            "other": 8642
+          },
+          "old_total": 75263,
+          "new_total": 82272,
+          "delta": 7009,
+          "delta_pct": 9.3
+        },
+        {
+          "field": "business_activity",
+          "old": "POZASTAVENÉ OD 22.7.2024 DO 31.10.2026(MICHAL DOMIK - DOVAJ)",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ROŽŇAVA",
+              "lv_number": "3970",
+              "share": "1/1"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2482",
+              "share": "1/245"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2483",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2484",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2526",
+              "share": "1/245"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2527",
+              "share": "1/245"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2528",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2530",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2531",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2531",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2532",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2533",
+              "share": "1/245"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2574",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2575",
+              "share": "1/245"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "ROŽŇAVA",
+              "lv_number": "4141",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ROŽŇAVA",
+              "lv_number": "475",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2030",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2031",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA, LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "407",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "116",
+              "share": "1/5"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2035",
+              "share": "1/5"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2336",
+              "share": "1/245"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2353",
+              "share": "2400/252000"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2389",
+              "share": "1/245"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "373",
+              "share": "5/10"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2390",
+              "share": "2400/25200"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "ROŽNAVA",
+              "lv_number": "2042",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "ROŽŇAVA",
+              "lv_number": "6129",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2403",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "ROŽŇAVA",
+              "lv_number": "1305",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ROŽŇAVA",
+              "lv_number": "3970",
+              "share": "1/1"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2482",
+              "share": "1/245"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2483",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2484",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2526",
+              "share": "1/245"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2528",
+              "share": "1/245"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2528",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2530",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2531",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2532",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2533",
+              "share": "1/245"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2534",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2574",
+              "share": "2400/252000"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2575",
+              "share": "1/245"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "ROŽŇAVA",
+              "lv_number": "4141",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ROŽŇAVA",
+              "lv_number": "475",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2030",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2031",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA, LESNÝ POZEMOK",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "407",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "116",
+              "share": "1/5"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2035",
+              "share": "1/5"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2336",
+              "share": "1/245"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2389",
+              "share": "1/245"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2389",
+              "share": "2400/252000"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "373",
+              "share": "5/10"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2390",
+              "share": "2400/25200"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "ROŽŇAVA",
+              "lv_number": "2042",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "ROŽŇAVA",
+              "lv_number": "6129",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "ČUČMA",
+              "lv_number": "2406",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "ROŽŇAVA",
+              "lv_number": "1305",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 30,
+          "new_count": 30
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "NÁKLADNÉ AUTO",
+              "brand": "IVECO",
+              "year_of_manufacture": 2014,
+              "share": "1/1"
+            },
+            {
+              "type": "NÁKLADNÉ AUTO",
+              "brand": "MERCEDES BENZ",
+              "year_of_manufacture": 2009,
+              "share": "1/1"
+            },
+            {
+              "type": "NÁKLADNÉ AUTO",
+              "brand": "RENAULT",
+              "year_of_manufacture": 2016,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "MERCEDES",
+              "year_of_manufacture": 2015,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "NÁKLADNÉ AUTO",
+              "brand": "IVECO",
+              "year_of_manufacture": 2014,
+              "share": "1/1"
+            },
+            {
+              "type": "NÁKLADNÉ AUTO",
+              "brand": "MERCEDES BENZ",
+              "year_of_manufacture": 2009,
+              "share": "1/1"
+            },
+            {
+              "type": "NÁKLADNÉ AUTO",
+              "brand": "RENAULT",
+              "year_of_manufacture": 2016,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "MERCEDES BENZ",
+              "year_of_manufacture": 2015,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "new": [
+            {
+              "type": "ÚVER",
+              "share": "1/1",
+              "date": "20. 07. 2015"
+            },
+            {
+              "type": "ÚVER",
+              "share": "1/1",
+              "date": "21. 06. 2016"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 75 263 € → 82 272 € (+7 009 €)",
+      "Podnikanie",
+      "Nehnuteľnosti: 30 → 30 (0)",
+      "Hnuteľný majetok: 4 → 4 (0)",
+      "Záväzky: 1 → 2 (+1)"
+    ]
   },
   "slug": "michal-domik",
   "context": {
@@ -4104,7 +4580,7 @@
     "obligations": 2,
     "income_percentile": 82,
     "property_percentile": 96,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.6

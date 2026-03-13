@@ -1060,16 +1060,152 @@
   "total_changes": 23,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Jozef.Chudik.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Jozef.Chudik.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Jozef.Chudik.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Jozef.Chudik.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen Rady RTVS",
+          "new": "člen Rady RTVS\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AUDIOVIZUÁLNY FOND SR)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "člen Rady RTVS"
+          ],
+          "new": [
+            "člen Rady RTVS",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AUDIOVIZUÁLNY FOND SR)"
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 15648,
+            "other": 10010
+          },
+          "new": {
+            "public_function": 10487,
+            "other": 13724
+          },
+          "old_total": 25658,
+          "new_total": 24211,
+          "delta": -1447,
+          "delta_pct": -5.6
+        },
+        {
+          "field": "employment",
+          "old": "TRIGON PRODUCTION\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "business_activity",
+          "old": null,
+          "new": "VYTVORENIE A POUŽITIE DIELA(Mgr. JOZEF CHUDÍK)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "CHALUPA A NÁDVORIE",
+              "cadastral_territory": "LÁTKY OKRES DETVA",
+              "lv_number": "1507",
+              "share": "100%"
+            },
+            {
+              "type": "RODINNÝ DOM A ZÁHRADA",
+              "cadastral_territory": "ZÁLESIE OKRES SENEC",
+              "lv_number": "432",
+              "share": "50%"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "LÁTKY OKRES DETVA",
+              "lv_number": "2838",
+              "share": "463/7695"
+            }
+          ],
+          "new": [
+            {
+              "type": "CHALUPA A NÁDVORIE",
+              "cadastral_territory": "830747 LÁTKY",
+              "lv_number": "1507",
+              "share": "100%"
+            },
+            {
+              "type": "DOM, NÁDVORIE, ZAHRADA",
+              "cadastral_territory": "872270 ZÁLESIE",
+              "lv_number": "432",
+              "share": "50%"
+            },
+            {
+              "type": "TRÁVNATY PORAST",
+              "cadastral_territory": "830747 LÁTKY",
+              "lv_number": "2838",
+              "share": "463/7695"
+            },
+            {
+              "type": "TRÁVNATY PORAST",
+              "cadastral_territory": "830747 LÁTKY",
+              "lv_number": "2838",
+              "share": "6019/107730"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 4
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "CITROËN",
+              "year_of_manufacture": 2019,
+              "share": "100%"
+            },
+            {
+              "type": "OSOBNÉ AUTO",
+              "brand": "SUZUKI",
+              "year_of_manufacture": 2000,
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ",
+              "brand": "CITRÖEN",
+              "year_of_manufacture": 2019,
+              "share": "100%"
+            },
+            {
+              "type": "OSOBNÉ",
+              "brand": "SUZUKI",
+              "year_of_manufacture": 2000,
+              "share": "100%"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 2 (+1)",
+      "Príjmy: 25 658 € → 24 211 € (-1 447 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti: 3 → 4 (+1)",
+      "Hnuteľný majetok: 2 → 2 (0)"
+    ]
   },
   "slug": "mgr-jozef-chudik",
   "context": {
@@ -1079,7 +1215,7 @@
     "obligations": 1,
     "income_percentile": 29,
     "property_percentile": 61,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.3

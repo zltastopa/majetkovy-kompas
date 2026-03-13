@@ -1236,16 +1236,147 @@
   "total_changes": 30,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Tibor.Szucs.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Tibor.Szucs.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Tibor.Szucs.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Tibor.Szucs.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE-AIRPORT A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE-AIRPORT A.S.)"
+          ],
+          "new": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (LETISKO KOŠICE - AIRPORT A.S.)"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2863,
+            "other": 43725
+          },
+          "new": {
+            "public_function": 2865,
+            "other": 45748
+          },
+          "old_total": 46588,
+          "new_total": 48613,
+          "delta": 2025,
+          "delta_pct": 4.3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "CHATA A NÁDVORIE",
+              "cadastral_territory": "KOŠICKÉ HÁMRE",
+              "lv_number": "849",
+              "share": "1/2"
+            },
+            {
+              "type": "PARCELA ZÁHRADA",
+              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+              "lv_number": "11419",
+              "share": "1/1"
+            },
+            {
+              "type": "PARCLELA ZÁHRADA",
+              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+              "lv_number": "11466",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKAMI",
+              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+              "lv_number": "11537",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA + NÁDVORIE + ZÁHRADA",
+              "cadastral_territory": "UBĽA",
+              "lv_number": "1704",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+              "lv_number": "11412",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT S POZEMKAMI",
+              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+              "lv_number": "11236",
+              "share": "1/2"
+            },
+            {
+              "type": "CHATA A NÁDVORIE",
+              "cadastral_territory": "KOŠICKÉ HÁMRE",
+              "lv_number": "1704",
+              "share": "1/2"
+            },
+            {
+              "type": "PARCELA ZÁHRADA",
+              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+              "lv_number": "11419",
+              "share": "1/1"
+            },
+            {
+              "type": "PARCELA ZÁHRADA",
+              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+              "lv_number": "11466",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA, NÁDVORIE, ZÁHRADA",
+              "cadastral_territory": "UBĽA",
+              "lv_number": "849",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "KOŠICE STREDNÉ MESTO",
+              "lv_number": "11412",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2023
+            }
+          ],
+          "new": null
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 1 (0)",
+      "Príjmy: 46 588 € → 48 613 € (+2 025 €)",
+      "Nehnuteľnosti: 6 → 6 (0)",
+      "Vozidlá"
+    ]
   },
   "slug": "ing-tibor-szucs",
   "context": {
@@ -1255,7 +1386,7 @@
     "obligations": 1,
     "income_percentile": 49,
     "property_percentile": 74,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.7

@@ -220,16 +220,59 @@
   "total_changes": 6,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Eva.Viglasova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Eva.Viglasova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Eva.Viglasova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Eva.Viglasova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (JADROVÁ VYRAĎOVACIA SPOLOČNOSŤ, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (JADROVÁ VYRAĎOVACIA SPOLOČNOSŤ, A.S. JASLOVSKÉ BOHUNICE)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (JADROVÁ VYRAĎOVACIA SPOLOČNOSŤ, A.S.)"
+          ],
+          "new": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (JADROVÁ VYRAĎOVACIA SPOLOČNOSŤ, A.S. JASLOVSKÉ BOHUNICE)"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 687,
+            "other": 76570
+          },
+          "new": {
+            "public_function": 12756,
+            "other": 85815
+          },
+          "old_total": 77257,
+          "new_total": 98571,
+          "delta": 21314,
+          "delta_pct": 27.6
+        },
+        {
+          "field": "employment",
+          "old": "UNIVERZITA KOMENSKÉHO V BRATISLAVE (REKTORÁT, PRIF UK)\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "UNIVERZITA KOMENSKÉHO V BRATISLAVE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 1 (0)",
+      "Príjmy: 77 257 € → 98 571 € (+21 314 €)",
+      "Zamestnanie"
+    ]
   },
   "slug": "doc-rndr-eva-viglasova-phd",
   "context": {
@@ -239,7 +282,7 @@
     "obligations": 1,
     "income_percentile": 88,
     "property_percentile": 8,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 5.5

@@ -597,16 +597,115 @@
   "total_changes": 14,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Jan.Hvorecky.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Jan.Hvorecky.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Jan.Hvorecky.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Jan.Hvorecky.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky",
+          "new": "poslanec Národnej rady Slovenskej republiky"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "poslanec Národnej rady Slovenskej republiky",
+            "člen vlády Slovenskej republiky"
+          ],
+          "new": [
+            "poslanec Národnej rady Slovenskej republiky"
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 63435,
+            "other": 4236
+          },
+          "new": {
+            "public_function": 49908,
+            "other": 10257
+          },
+          "old_total": 67671,
+          "new_total": 60165,
+          "delta": -7506,
+          "delta_pct": -11.1
+        },
+        {
+          "field": "employment",
+          "old": "FELIX BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nSÚKROMNÉ GYMNÁZIUM FELIX\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "RÍMSKO-KATOLICKÁ CIRKEV, BRATISLAVSKÁ ARCIDIECÉZA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSÚKROMNÉ GYMNÁZIUM FELIX\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nFELIX BRATISLAVA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN RADY ŠKOLY",
+              "organization": "SÚKROMNÁ ZAKLADNÁ ŠKOLA FELIX",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN RADY ŠKOLY",
+              "organization": "SÚKROMNÁ ZÁKLADNÁ ŠKOLA FELIX",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "10. 12. 2018"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "18. 02. 2010"
+            },
+            {
+              "type": "PÔŽIČKA",
+              "share": "1/1",
+              "date": "02. 10. 2023"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "18. 02. 2010"
+            },
+            {
+              "type": "PÔŽIČKA",
+              "share": "1/1",
+              "date": "02. 10. 2023"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 2 → 1 (-1)",
+      "Príjmy: 67 671 € → 60 165 € (-7 506 €)",
+      "Zamestnanie",
+      "Funkcie: 1 → 1 (0)",
+      "Záväzky: 3 → 2 (-1)"
+    ]
   },
   "slug": "mgr-jan-horecky",
   "context": {
@@ -616,7 +715,7 @@
     "obligations": 2,
     "income_percentile": 66,
     "property_percentile": 38,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.3

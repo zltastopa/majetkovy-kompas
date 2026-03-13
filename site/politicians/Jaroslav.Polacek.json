@@ -3445,16 +3445,327 @@
   "total_changes": 15,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Jaroslav.Polacek.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Jaroslav.Polacek.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Jaroslav.Polacek.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Jaroslav.Polacek.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 87207,
+            "other": 7695
+          },
+          "new": {
+            "public_function": 68827,
+            "other": 8635
+          },
+          "old_total": 94902,
+          "new_total": 77462,
+          "delta": -17440,
+          "delta_pct": -18.4
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC ZASTUPITEĽSTVA KSK",
+              "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "PLAT POSLANCA"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "BYTOVÝ PODNIK MESTA KOŠICE, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "DOPRAVNÝ PODNIK MESTA KOŠICE, AKCIOVÁ SPOLOČNOSŤ",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "GEOTERM KOŠICE, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "KOSIT, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "KOŠICKÁ FUTBALOVÁ ARÉNA A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "MESTSKÉ LESY KOŠICE A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "NTC KOŠICE A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "TEPELNÉ HOSPODÁRSTVO SPOL. S R.O. KOŠICE",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "ASOCIÁCIA KOMUNÁLNYCH EKONÓMOV SLOVENSKA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "AVIATION CLUSTER SLOVAKIA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "KARPATSKÝ EUROREGIÓN SLOVENSKO",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "KOŠICE IT VALLEY Z.P.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "VISIT KOŠICE (PREDTÝM OOCR KOŠICE - TURIZMUS)",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "VÝCHODOSLOVENSKÁ INVESTIČNÁ AGENTÚRA, O.Z.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "ZDRUŽENIE K8",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "ÚNIA MIEST SLOVENSKA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ZÁSTUPCA MESTA",
+              "organization": "SMART CITIES KLUB, O.Z.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ZÁSTUPCA MESTA",
+              "organization": "ZDRUŽENIE HISTORICKÝCH MIEST A OBCÍ SR",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "HOKEJOVÝ CLUB KOŠICE O.Z.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY ZA KOŠICKÝ SAMOSPRÁVNY KRAJ",
+              "organization": "IDS VÝCHOD, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "INOVAČNÉ CENTRUM KOŠICKÉHO KRAJA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "KOŠICKÝ KLASTER NOVÉHO PRIEMYSLU",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY A II. VICEPREZIDENT",
+              "organization": "KOŠICKÁ ARÉNA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY, PREDSEDA SPRÁVNEJ RADY",
+              "organization": "CREATIVE INDUSTRY KOŠICE, N.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY, PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NADÁCIA PRO CASOVIA V LIKVIDÁCII",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC ZASTUPITEĽSTVA KSK",
+              "organization": "KOŠICKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "PLAT POSLANCA"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "BYTOVÝ PODNIK MESTA KOŠICE, S.R.O",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "DOPRAVNÝ PODNIK MESTA KOŠICE, AKCIOVÁ SPOLOČNOSŤ",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "GEOTERM KOŠICE, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "KOSIT, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "KOŠICKÁ FUTBALOVÁ ARÉNA A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "MESTSKÉ LESY KOŠICE A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "NTC KOŠICE A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "TEPELNÉ HOSPODÁRSTVO SPOL. S R. O. KOŠICE",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "VÝCHODOSLOVENSKÁ VODÁRENSKÁ SPOLOČNOSŤ, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "ASOCIÁCIA KOMUNÁLNYCH EKONÓMOV SLOVENSKA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "AVIATION CLUSTER SLOVAKIA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "KARPATSKÝ EUROREGIÓN SLOVENSKO",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "KOŠICE IT VALLEY Z.P.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "VISIT KOŠICE (PREDTÝM OOCR KOŠICE - TURIZMUS)",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "ZDRUŽENIE K8",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE",
+              "organization": "ÚNIA MIEST SLOVENSKA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "VÝKON ČLENSKÝCH OPRÁVNENÍ MESTA KOŠICE (DO 8.2.2024)",
+              "organization": "VÝCHODOSLOVENSKÁ INVESTIČNÁ AGENTÚRA, O.Z.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ZÁSTUPCA MESTA",
+              "organization": "SMART CITIES KLUB, O.Z.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ZÁSTUPCA MESTA",
+              "organization": "ZDRUŽENIE HISTORICKÝCH MIEST A OBCÍ SR",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "HOKEJOVÝ CLUB KOŠICE O.Z.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY ZA KOŠICKÝ SAMOSPRÁVNY KRAJ",
+              "organization": "IDS VÝCHOD, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "INOVAČNÉ CENTRUM KOŠICKÉHO KRAJA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "KOŠICKÝ KLASTER NOVÉHO PRIEMYSLU",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY A II. VICEPREZIDENT",
+              "organization": "KOŠICKÁ ARÉNA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY,  PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NADÁCIA PRO CASOVIA V LIKVIDÁCII",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY, PREDSEDA SPRÁVNEJ RADY",
+              "organization": "CREATIVE INDUSTRY KOŠICE, N. O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 27,
+          "new_count": 27
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 50%"
+          ],
+          "new": [
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI , podiel: 50%"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 94 902 € → 77 462 € (-17 440 €)",
+      "Funkcie: 27 → 27 (0)",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
   },
   "slug": "ing-jaroslav-polacek",
   "context": {
@@ -3464,7 +3775,7 @@
     "obligations": 2,
     "income_percentile": 80,
     "property_percentile": 85,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.3

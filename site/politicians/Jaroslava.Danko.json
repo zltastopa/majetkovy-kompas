@@ -324,16 +324,136 @@
   "total_changes": 6,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Jaroslava.Danko.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Jaroslava.Danko.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Jaroslava.Danko.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Jaroslava.Danko.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 5373,
+            "other": 14122
+          },
+          "old_total": 0,
+          "new_total": 19495,
+          "delta": 19495
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "A1D, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nHOKEJOVÝ KLUB ŠPORTOVÝ KLUB POLÍCIE POPRAD, O.Z.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "KONATEĽ",
+              "organization": "A1D, S.R.O.",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "OBJEKT TROCH SAMOSTATNÝCH SKLADOVÝCH PRIESTOROV",
+              "cadastral_territory": "POPRAD",
+              "lv_number": "6144",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÉ PÔDY",
+              "cadastral_territory": "POPRAD",
+              "lv_number": "6144",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "POPRAD",
+              "lv_number": "6144",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "POPRAD",
+              "lv_number": "6144",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "3X ORNÁ PÔDA",
+              "cadastral_territory": "POPRAD",
+              "lv_number": "6144",
+              "share": "1/1"
+            },
+            {
+              "type": "5X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "POPRAD",
+              "lv_number": "6144",
+              "share": "1/1"
+            },
+            {
+              "type": "OBJEKT TROCH SAMOSTATNÝCH SKLADOVÝCH PRIESTOROV",
+              "cadastral_territory": "POPRAD",
+              "lv_number": "6144",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "POPRAD",
+              "lv_number": "7333",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "16. 03. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "16. 03. 2022"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 0 € → 19 495 € (+19 495 €)",
+      "Nezlučiteľnosť",
+      "Zamestnanie",
+      "Funkcie",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
   },
   "slug": "ing-jaroslava-danko",
   "context": {
@@ -343,7 +463,7 @@
     "obligations": 1,
     "income_percentile": 26,
     "property_percentile": 61,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.1

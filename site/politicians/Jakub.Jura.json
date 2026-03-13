@@ -228,16 +228,95 @@
   "total_changes": 7,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Jakub.Jura.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Jakub.Jura.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Jakub.Jura.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Jakub.Jura.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 6300,
+            "other": 30422
+          },
+          "old_total": 0,
+          "new_total": 36722,
+          "delta": 36722
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "SPRÁVA ŠTÁTNYCH HMOTNÝCH REZERV SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": null,
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "HUŠTÁKY",
+              "lv_number": "15707",
+              "share": "50% BSM"
+            }
+          ]
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "new": [
+            {
+              "type": "SPLÁTKOVÝ ÚVER NA BÝVANIE",
+              "share": "BSM",
+              "date": "11. 11. 2024"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "BYT, kat. územie STARÉ MESTO, rok zač. užívania: 2017, spôsob užívania: BÝVANIE",
+          "new": null
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "AUDI",
+              "year_of_manufacture": 2015
+            }
+          ],
+          "new": null
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 0 € → 36 722 € (+36 722 €)",
+      "Nezlučiteľnosť",
+      "Zamestnanie",
+      "Nehnuteľnosti",
+      "Záväzky: 1 → 1 (0)",
+      "Užívanie nehnuteľností",
+      "Vozidlá"
+    ]
   },
   "slug": "mgr-jakub-jura-ll-m",
   "context": {
@@ -247,7 +326,7 @@
     "obligations": 1,
     "income_percentile": 37,
     "property_percentile": 21,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.0

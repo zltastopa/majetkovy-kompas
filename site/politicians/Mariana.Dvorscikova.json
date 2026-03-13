@@ -811,16 +811,137 @@
   "total_changes": 13,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Mariana.Dvorscikova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Mariana.Dvorscikova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Mariana.Dvorscikova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Mariana.Dvorscikova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MINISTERSTVO ŠKOLSTVA, VEDY, VÝSKUMU A ŠPORTU SLOVENSKEJ REPUBLIKY - HLAVNÝ KONTROLÓR ŠPORTU)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MINISTERSTVO CESTOVNÉHO RUCHU A ŠPORTU A MINISTERSTVO ŠKOLSTVA, VEDY, VÝSKUMU A ŠPORTU SLOVENSKEJ REPUBLIKY - HLAVNÝ KONTROLÓR ŠPORTU)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MINISTERSTVO ŠKOLSTVA, VEDY, VÝSKUMU A ŠPORTU SLOVENSKEJ REPUBLIKY - HLAVNÝ KONTROLÓR ŠPORTU)"
+          ],
+          "new": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (MINISTERSTVO CESTOVNÉHO RUCHU A ŠPORTU A MINISTERSTVO ŠKOLSTVA, VEDY, VÝSKUMU A ŠPORTU SLOVENSKEJ REPUBLIKY - HLAVNÝ KONTROLÓR ŠPORTU)"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 50131,
+            "other": 3020
+          },
+          "new": {
+            "public_function": 66604,
+            "other": 2740
+          },
+          "old_total": 53151,
+          "new_total": 69344,
+          "delta": 16193,
+          "delta_pct": 30.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "OSTATNÉ PLOCHY, TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "4334",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM A ZÁHRADA",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "626",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "549",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "550",
+              "share": "1/4"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSTATNÉ PLOCHY, TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "SVÁTÝ JUR",
+              "lv_number": "4334",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, RODINNÝ DOM A ZÁHRADA",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "626",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "549",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ JUR",
+              "lv_number": "550",
+              "share": "1/4"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "BEŽNÝ ÚČET, podiel: 1/1",
+            "BEŽNÝ ÚČET, podiel: 1/1",
+            "BEŽNÝ ÚČET, podiel: 1/1",
+            "INVESTIČNÝ ÚČET, podiel: 1/1",
+            "POHREBNÉ POISTENIE, podiel: 1/1",
+            "ÚSPORY NA REZERVU, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1"
+          ],
+          "new": [
+            "BEŽNÝ ÚČET A DLHOPISY, podiel: 1/1",
+            "BEŽNÝ ÚČET A TERMÍNOVANÝ VKLAD, podiel: 1/1",
+            "BEŽNÝ ÚČET, podiel: 1/1",
+            "INVESTIČNÝ ÚČET, podiel: 1/1",
+            "POHREBNÉ POISTENIE, podiel: 1/1",
+            "ÚSPORY NA REZERVU, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1"
+          ],
+          "old_count": 8,
+          "new_count": 8
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 1 (0)",
+      "Príjmy: 53 151 € → 69 344 € (+16 193 €)",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Majetkové práva: 8 → 8 (0)"
+    ]
   },
   "slug": "ing-mariana-dvorscikova",
   "context": {
@@ -830,7 +951,7 @@
     "obligations": 1,
     "income_percentile": 74,
     "property_percentile": 61,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.9

@@ -1776,16 +1776,235 @@
   "total_changes": 23,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Jozef.Grapa.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Jozef.Grapa.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Jozef.Grapa.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Jozef.Grapa.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 57368,
+            "other": 7630
+          },
+          "new": {
+            "public_function": 63050,
+            "other": 8100
+          },
+          "old_total": 64998,
+          "new_total": 71150,
+          "delta": 6152,
+          "delta_pct": 9.5
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "MESTO KRÁSNO NAD KYSUCOU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC",
+              "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ÁNO"
+            },
+            {
+              "role": "PREDSEDA DOZORNEJ RADY",
+              "organization": "SEVEROSLOVENSKÉ VODÁRNE A KANALIZÁCIE, A.S.",
+              "benefits": "NIE"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC",
+              "organization": "ŽILINSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "PREDSEDA DOZORNEJ RADY",
+              "organization": "SEVEROSLOVENSKÉ VODÁRNE A KANALIZÁCIE, A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "CHALUPA, TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA, ZASTAVANÁ PLOCHA, POLYFUNKČNÝ DOM",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU,  ČADCA",
+              "lv_number": "1838, 223, 6226, 2889",
+              "share": "1/2, 1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA,  TRVALÝ TRÁVNY PORAST, OSTATNÉ PLOCHY,  LES",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "6324, 6330, 6325, 6329",
+              "share": "1/16, 1/12"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, LES",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "5552, 5536, 5554, 7246, 7287, 7504",
+              "share": "6/3733"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, OSTATNÉ PLOCHY, LES",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "4513, 6842, 6889",
+              "share": "13/1200"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, OSTATNÉ PLOCHY, LES",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "4521, 6322, 6334, 6336, 7315",
+              "share": "1/432, 13/432"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, OSTATNÉ PLOCHY, LES",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "5643, 5418, 5511, 5893",
+              "share": "6/3733"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, OSTATNÉ PLOCHY, LES",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "6842, 6889, 6903, 6939, 6959, 7173",
+              "share": "6/3733"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, OSTATNÉ PLOCHY, LES, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "4432, 4498, 2751, 6526",
+              "share": "1/144, 1/48, 1/96"
+            },
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA,  GARÁŽ, CHATA",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU, NÁMESTOVO",
+              "lv_number": "1502, 1471",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "CHALUPA, TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA, ZP, POLYFUNKČNÝ DOM",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU, ČADCA",
+              "lv_number": "1838,223,6226,2889",
+              "share": "1/2,1/4"
+            },
+            {
+              "type": "OP, TTP, OST. PLOCHY, LES, ZPAH",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "4432,4498,2751,6526",
+              "share": "1/144,1/48,1/96"
+            },
+            {
+              "type": "ORNÁ PÔDA, TTP, LES",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "5552,5536,5554,7246,7287,7504",
+              "share": "6/3733"
+            },
+            {
+              "type": "ORNÁ PÔDA, TTP, OST. PLOCHY, LES",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "4513,6842,6889",
+              "share": "13/1200"
+            },
+            {
+              "type": "ORNÁ PÔDA, TTP, OST. PLOCHY, LES",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "4521,6322,6334,6336,7315",
+              "share": "1/432,13/432"
+            },
+            {
+              "type": "ORNÁ PÔDA, TTP, OST. PLOCHY, LES",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "5643,5418,551,5893",
+              "share": "6/3733"
+            },
+            {
+              "type": "ORNÁ PÔDA, TTP, OST. PLOCHY, LES",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "6324,6330,6325,6329",
+              "share": "1/16,1/12"
+            },
+            {
+              "type": "ORNÁ PÔDA, TTP, OST. PLOCHY, LES",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU",
+              "lv_number": "6842,6889,6903,6939,6959,7173",
+              "share": "6/3733"
+            },
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA, GARÁŽ, CHATA",
+              "cadastral_territory": "KRÁSNO NAD KYSUCOU, NÁMESTOVO",
+              "lv_number": "1502,1471",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 9
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2015,
+              "share": "1/2"
+            },
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2009,
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "HYUNDAY",
+              "year_of_manufacture": 2015,
+              "share": "1/2"
+            },
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2009,
+              "share": "1/2"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ÚSPORY V BANKE,  CENNÉ PAPIERE, podiel: 1/2"
+          ],
+          "new": [
+            "ÚSPORY V BANKE, CENNÉ PAPIERE, podiel: 1/2"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 64 998 € → 71 150 € (+6 152 €)",
+      "Zamestnanie",
+      "Funkcie: 2 → 2 (0)",
+      "Nehnuteľnosti: 9 → 9 (0)",
+      "Hnuteľný majetok: 2 → 2 (0)",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
   },
   "slug": "ing-jozef-grapa",
   "context": {
@@ -1795,7 +2014,7 @@
     "obligations": 1,
     "income_percentile": 75,
     "property_percentile": 83,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.0

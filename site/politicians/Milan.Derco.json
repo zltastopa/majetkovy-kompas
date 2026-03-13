@@ -2544,16 +2544,435 @@
   "total_changes": 13,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Milan.Derco.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Milan.Derco.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Milan.Derco.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Milan.Derco.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 114156,
+            "other": 0
+          },
+          "new": {
+            "public_function": 105570,
+            "other": 0
+          },
+          "old_total": 114156,
+          "new_total": 105570,
+          "delta": -8586,
+          "delta_pct": -7.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "84",
+              "share": "9/240"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1049, 1051, 1052",
+              "share": "1/25, 1/200, 1/50"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1050, 1192, 1197",
+              "share": "3/150, 3/90, 3/120"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1054, 1055, 1156",
+              "share": "1/25,1/50,1/5"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1063, 1084, 1085",
+              "share": "1/25, 1/50, 1/30"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1089, 1083",
+              "share": "1/50, 1/30"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1092, 1093, 1425",
+              "share": "1/15, 1/25, 1/10"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1157, 1057, 1058",
+              "share": "1/10, 1/75, 1/100"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1200, 1616, 1618",
+              "share": "3/120, 3/120, 3/120"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1203, 1218, 1528",
+              "share": "1/30, 1/10, 1/15"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1324, 1327, 1330",
+              "share": "1/100, 1/100, 1/100"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1326, 945, 1048",
+              "share": "1/75, 3/200, 1/25"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1332, 1059, 1061",
+              "share": "1/75, 1/75, 1/50"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1409, 1214, 1033",
+              "share": "1/10, 1/30, 1/15"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "180, 377, 1325",
+              "share": "1/5, 1/75, 1/75"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "38, 1133, 41",
+              "share": "1/90, 1/90, 1/150"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "45, 1222, 177",
+              "share": "1/150, 1/150, 1/30"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "618, 977, 177",
+              "share": "1/50, 3/90, 1/30"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "977, 516, 242",
+              "share": "1/10, 1/40, 7/150"
+            },
+            {
+              "type": "PASIENOK",
+              "cadastral_territory": "LADOMÍROVÁ",
+              "lv_number": "57",
+              "share": "1/456"
+            },
+            {
+              "type": "PASIENOK",
+              "cadastral_territory": "LADOMÍROVÁ",
+              "lv_number": "57",
+              "share": "1/456"
+            },
+            {
+              "type": "PASIENOK, LES, ROĽA, LÚKA",
+              "cadastral_territory": "LADOMÍROVÁ",
+              "lv_number": "81, 83, 82",
+              "share": "1/4, 1/8, 1/8"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BANKA",
+              "lv_number": "1183",
+              "share": "1/1"
+            },
+            {
+              "type": "ROĽA",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "87, 85",
+              "share": "9/240, 9/240"
+            },
+            {
+              "type": "ROĽA",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "87, 85",
+              "share": "9/240, 9/240"
+            },
+            {
+              "type": "ROĽA",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "90, 89, 88",
+              "share": "9/240, 9/240, 9/240"
+            },
+            {
+              "type": "ROĽA",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "90, 89, 88",
+              "share": "9/240, 9/240, 9/240"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "100, 101",
+              "share": "33/1800, 9/240"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "102, 91",
+              "share": "1/128, 33/1800"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "33",
+              "share": "3/10368"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "92, 93",
+              "share": "9/240, 33/1800"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "94, 95",
+              "share": "33/1800, 33/1800"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "LADOMÍROVÁ",
+              "lv_number": "54, 153",
+              "share": "1/336, 1/8"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA DOM",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "173",
+              "share": "1/6"
+            }
+          ],
+          "new": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "84",
+              "share": "9/240"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1049,1051,1052",
+              "share": "1/25,1/200,1/50"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1050,1192,1197",
+              "share": "3/150,3/90,3/120"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1054,1055,1156",
+              "share": "1/25,1/150,1/5"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1063,1084,1085",
+              "share": "1/25,1/50,1/30"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1089,1083",
+              "share": "1/50,1/30"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1092,1093,1425",
+              "share": "1/15,1/25,1/10"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1157,1057,1058",
+              "share": "1/10,1/75,1/100"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1200,1616,1618",
+              "share": "3/120,3/120,3/120"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1203,1218,1528",
+              "share": "1/30,1/10,1/15"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1324,1327,1330",
+              "share": "1/100,1/100,1/100"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1326,945,1048",
+              "share": "1/75,3/200,1/25"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1332,1059,1061",
+              "share": "1/75,1/75,1/50"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "1409,1214,1033",
+              "share": "1/10,1/30,1/15"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "180,377,1325",
+              "share": "1/5,1/75,1/75"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "38,1133,41",
+              "share": "1/90,1/90,1/150"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "45,1222,177",
+              "share": "1/150,1/150,1/30"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "618,977,177",
+              "share": "1/50,3/90,1/30"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "977,516,242",
+              "share": "1/10, 1/40,7/150"
+            },
+            {
+              "type": "PASIENOK",
+              "cadastral_territory": "LADOMÍROVÁ",
+              "lv_number": "57",
+              "share": "1/456"
+            },
+            {
+              "type": "PASIENOK, LES, ROĽA, LÚKA",
+              "cadastral_territory": "LADOMÍROVÁ",
+              "lv_number": "81,83,82",
+              "share": "1/4,1/8,1/8"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BANKA",
+              "lv_number": "1183",
+              "share": "1/1"
+            },
+            {
+              "type": "ROĽA",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "87,85",
+              "share": "9/240,9/240"
+            },
+            {
+              "type": "ROĽA",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "90,89,88",
+              "share": "9/240,9/240,9/240"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "100,101",
+              "share": "33/1800,9/240"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "102,91",
+              "share": "1/128, 33/1800"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "33",
+              "share": "3/10368"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "92,93",
+              "share": "9/240,33/1800"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HUNKOVCE",
+              "lv_number": "94,95",
+              "share": "33/1800,33/1800"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "LADOMÍROVÁ",
+              "lv_number": "54,153",
+              "share": "1/336,1/8"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA, DOM",
+              "cadastral_territory": "TREBATICE",
+              "lv_number": "173",
+              "share": "1/6"
+            }
+          ],
+          "old_count": 34,
+          "new_count": 31
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 114 156 € → 105 570 € (-8 586 €)",
+      "Nehnuteľnosti: 34 → 31 (-3)"
+    ]
   },
   "slug": "mudr-milan-derco",
   "context": {
@@ -2561,9 +2980,9 @@
     "income": 105570,
     "properties": 31,
     "obligations": 1,
-    "income_percentile": 89,
+    "income_percentile": 90,
     "property_percentile": 96,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 5.9

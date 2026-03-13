@@ -942,16 +942,229 @@
   "total_changes": 7,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Gabriela.Petrovicova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Gabriela.Petrovicova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Gabriela.Petrovicova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Gabriela.Petrovicova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 34111,
+            "other": 0
+          },
+          "new": {
+            "public_function": 39047,
+            "other": 0
+          },
+          "old_total": 34111,
+          "new_total": 39047,
+          "delta": 4936,
+          "delta_pct": 14.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZLATOVCE",
+              "lv_number": "1694",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZLATOVCE",
+              "lv_number": "2021",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1438",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1439",
+              "share": "359/55320"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1302, 1304, 1310",
+              "share": "1/24"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1436",
+              "share": "1/12"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1290",
+              "share": "1/48"
+            },
+            {
+              "type": "VINICA, ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1271, 3195",
+              "share": "1/6"
+            },
+            {
+              "type": "VINICA, ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1666",
+              "share": "1/24"
+            },
+            {
+              "type": "VINICE",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "2235",
+              "share": "1/6"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "523",
+              "share": "1/48"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "3715",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZLATOVCE",
+              "lv_number": "1694",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZLATOVCE",
+              "lv_number": "2021",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1438",
+              "share": "1/6"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1439",
+              "share": "359/55320"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1302, 1304, 1310",
+              "share": "1/24"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1436",
+              "share": "1/12"
+            },
+            {
+              "type": "TRÁVNATÝ PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1290",
+              "share": "1/48"
+            },
+            {
+              "type": "VINICA, ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1271, 3195",
+              "share": "1/6"
+            },
+            {
+              "type": "VINICA, ORNÁ PÔDA",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "1666",
+              "share": "1/24"
+            },
+            {
+              "type": "VINICE",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "2235",
+              "share": "1/6"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "3556",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "5123",
+              "share": "74/11942"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "956",
+              "share": "18/31"
+            },
+            {
+              "type": "ZÁHRADY",
+              "cadastral_territory": "VINIČNÉ",
+              "lv_number": "523",
+              "share": "1/48"
+            }
+          ],
+          "old_count": 11,
+          "new_count": 15
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "MERCEDES-BENZ",
+              "year_of_manufacture": 1996,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "MERCEDES-BENZ",
+              "year_of_manufacture": 2008,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "MERCEDES-BENZ",
+              "year_of_manufacture": 2008,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 34 111 € → 39 047 € (+4 936 €)",
+      "Nehnuteľnosti: 11 → 15 (+4)",
+      "Hnuteľný majetok: 2 → 1 (-1)"
+    ]
   },
   "slug": "mgr-gabriela-petrovicova",
   "context": {
@@ -961,7 +1174,7 @@
     "obligations": 1,
     "income_percentile": 39,
     "property_percentile": 91,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.2

@@ -577,16 +577,60 @@
   "total_changes": 15,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Peter.Kmec.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Peter.Kmec.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Peter.Kmec.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Peter.Kmec.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky",
+          "new": "člen vlády Slovenskej republiky"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "poslanec Národnej rady Slovenskej republiky",
+            "člen vlády Slovenskej republiky"
+          ],
+          "new": [
+            "člen vlády Slovenskej republiky"
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 54774,
+            "other": 0
+          },
+          "new": {
+            "public_function": 62839,
+            "other": 0
+          },
+          "old_total": 54774,
+          "new_total": 62839,
+          "delta": 8065,
+          "delta_pct": 14.7
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO ZAHRANIČNÝCH VECÍ A EURÓPSKYCH ZÁLEŽITOSTÍ SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": null
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 2 → 1 (-1)",
+      "Príjmy: 54 774 € → 62 839 € (+8 065 €)",
+      "Zamestnanie"
+    ]
   },
   "slug": "judr-peter-kmec",
   "context": {
@@ -596,7 +640,7 @@
     "obligations": 1,
     "income_percentile": 69,
     "property_percentile": 21,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.5

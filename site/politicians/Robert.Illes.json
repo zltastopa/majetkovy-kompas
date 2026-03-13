@@ -970,16 +970,243 @@
   "total_changes": 12,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Robert.Illes.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Robert.Illes.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Robert.Illes.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Robert.Illes.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 630,
+            "other": 8020
+          },
+          "new": {
+            "public_function": 630,
+            "other": 135130
+          },
+          "old_total": 8650,
+          "new_total": 135760,
+          "delta": 127110,
+          "delta_pct": 1469.5
+        },
+        {
+          "field": "employment",
+          "old": "SLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO VNÚTRA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nCINRE S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO VNÚTRA SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNEUROILL S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO VNÚTRA SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNEUROILL S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nCINRE S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": null,
+          "new": [
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "UDZS",
+              "benefits": "ŽIADNE"
+            }
+          ]
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "5X OSTATNÁ PLOCHA, 3X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PUSTÝ CHOTÁR",
+              "lv_number": "765",
+              "share": "1/1"
+            },
+            {
+              "type": "APARTMÁN",
+              "cadastral_territory": "ALCAIDESA LINX II., ŠPANIELSKO",
+              "lv_number": "LINX2",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "3199",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5718",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BANSKÁ ŠTIAVNICA",
+              "lv_number": "6116",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
+              "cadastral_territory": "BANSKÁ ŠTIAVNICA",
+              "lv_number": "6116",
+              "share": "9687/55462"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "3199",
+              "share": "10904/97437"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5718",
+              "share": "145/10000"
+            },
+            {
+              "type": "RODINNÝ DOM, LETNÁ KUCHYŇA, ZÁHRADA, ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "CABAJ",
+              "lv_number": "29",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ROZOSTAVANÝ RODINNÝ DOM, 3X ZÁHRADA",
+              "cadastral_territory": "PUSTÝ CHOTÁR",
+              "lv_number": "765",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1833",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BANSKÁ ŠTIAVNICA",
+              "lv_number": "6125",
+              "share": "1/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6143",
+              "share": "10904/97437"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5179",
+              "share": "145/10000"
+            }
+          ],
+          "new": [
+            {
+              "type": "5X OSTATNÁ PLOCHA, 3X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PUSTÝ CHOTÁR",
+              "lv_number": "765",
+              "share": "1/1"
+            },
+            {
+              "type": "APARTMÁN",
+              "cadastral_territory": "ALCAIDESA LINX II, ŠPANIELSKO",
+              "lv_number": "LINX 2",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "3199",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
+              "lv_number": "5718",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT V BYTOVOM DOME, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BANSKÁ ŠTIAVNICA",
+              "lv_number": "6116",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
+              "cadastral_territory": "BANSKÁ ŠTIAVNICA",
+              "lv_number": "6116",
+              "share": "9687/55462"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "3199",
+              "share": "10904/97437"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH A ZARIADENIACH",
+              "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
+              "lv_number": "5718",
+              "share": "145/10000"
+            },
+            {
+              "type": "RODINNÝ DOM, LETNÁ KUCHYŇA, ZÁHRADA, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "CABAJ",
+              "lv_number": "29",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ROZOSTAVANÝ RODINNÝ DOM, 3X ZÁHRADA",
+              "cadastral_territory": "PUSTÝ CHOTÁR",
+              "lv_number": "765",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TURÁ LÚKA",
+              "lv_number": "1833",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BANSKÁ ŠTIAVNICA",
+              "lv_number": "6125",
+              "share": "1/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "6143",
+              "share": "10904/97437"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA-STARÉ MESTO",
+              "lv_number": "5179",
+              "share": "145/10000"
+            }
+          ],
+          "old_count": 14,
+          "new_count": 14
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "2X BEŽNÝ ÚČET, podiel: 1/2"
+          ],
+          "new": [
+            "2X BEŽNY ÚČET, podiel: 1/2"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 8 650 € → 135 760 € (+127 110 €)",
+      "Zamestnanie",
+      "Funkcie",
+      "Nehnuteľnosti: 14 → 14 (0)",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
   },
   "slug": "doc-mudr-robert-illes-phd-mph",
   "context": {
@@ -989,7 +1216,7 @@
     "obligations": 4,
     "income_percentile": 94,
     "property_percentile": 90,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 7.5

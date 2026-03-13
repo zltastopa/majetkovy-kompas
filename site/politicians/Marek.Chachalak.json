@@ -970,16 +970,176 @@
   "total_changes": 23,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Marek.Chachalak.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Marek.Chachalak.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Marek.Chachalak.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Marek.Chachalak.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LOKORAIL A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZSSK CARGO INTERMODAL A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LOKORAIL A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZSSK CARGO INTERMODAL, A.S.)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LOKORAIL A.S.)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZSSK CARGO INTERMODAL A.S.)"
+          ],
+          "new": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (LOKORAIL A.S.)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZSSK CARGO INTERMODAL, A.S.)"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 398,
+            "other": 80108
+          },
+          "new": {
+            "public_function": 398,
+            "other": 95264
+          },
+          "old_total": 80506,
+          "new_total": 95662,
+          "delta": 15156,
+          "delta_pct": 18.8
+        },
+        {
+          "field": "employment",
+          "old": "ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ŽELEZNIČNÁ SPOLOČNOSŤ CARGO SLOVAKIA A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nLOKORAIL, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE JUŽNÉ MESTO",
+              "lv_number": "13393",
+              "share": "3/7"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE ZÁPAD",
+              "lv_number": "13739",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "VEĽKÁ LOMNICA",
+              "lv_number": "1447",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BYSTER",
+              "lv_number": "1566",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BYSTER",
+              "lv_number": "1566",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "VEĽKÁ LOMNICA",
+              "lv_number": "1447",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BYSTER",
+              "lv_number": "1566",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BYSTER",
+              "lv_number": "1566",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 3
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "KIA",
+              "year_of_manufacture": 2023,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "KIA",
+              "year_of_manufacture": 2022,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "16. 12. 2014"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "27. 09. 2021"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "28. 09. 2021"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "3/7",
+              "date": "31. 01. 2017"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "14. 08. 2024"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 2 → 2 (0)",
+      "Príjmy: 80 506 € → 95 662 € (+15 156 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 5 → 3 (-2)",
+      "Hnuteľný majetok: 1 → 1 (0)",
+      "Záväzky: 4 → 1 (-3)"
+    ]
   },
   "slug": "ing-marek-chachalak",
   "context": {
@@ -989,7 +1149,7 @@
     "obligations": 1,
     "income_percentile": 87,
     "property_percentile": 54,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 5.3

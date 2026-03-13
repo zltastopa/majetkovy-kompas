@@ -547,16 +547,125 @@
   "total_changes": 5,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Adam.Lucansky.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Adam.Lucansky.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Adam.Lucansky.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Adam.Lucansky.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 8707,
+            "other": 0
+          },
+          "new": {
+            "public_function": 49058,
+            "other": 240
+          },
+          "old_total": 8707,
+          "new_total": 49298,
+          "delta": 40591,
+          "delta_pct": 466.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "8214",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "8214",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATY PORAST",
+              "cadastral_territory": "KLÁŠTOR POD ZNIEVOM",
+              "lv_number": "780",
+              "share": "3/1376"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATY PORAST",
+              "cadastral_territory": "KLÁŠTOR POD ZNIEVOM",
+              "lv_number": "930, 1009",
+              "share": "1/1032"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATY PORAST",
+              "cadastral_territory": "KLÁŠTOR POD ZNIEVOM",
+              "lv_number": "995",
+              "share": "2341/415200"
+            },
+            {
+              "type": "VONKAJŠIE PARKOVACIE STÁTIE",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "8389",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "8214",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "8214",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "KLÁŠTOR POD ZNIEVOM",
+              "lv_number": "780",
+              "share": "3/1376"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "KLÁŠTOR POD ZNIEVOM",
+              "lv_number": "930, 1009",
+              "share": "1/1032"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "KLÁŠTOR POD ZNIEVOM",
+              "lv_number": "995",
+              "share": "2341/415200"
+            },
+            {
+              "type": "VONKAJŠIE PARKOVACIE STÁTIE",
+              "cadastral_territory": "MARTIN",
+              "lv_number": "8389",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "AKCIE, podiel: 1/1"
+          ]
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 8 707 € → 49 298 € (+40 591 €)",
+      "Nehnuteľnosti: 6 → 6 (0)",
+      "Majetkové práva"
+    ]
   },
   "slug": "ing-adam-lucansky",
   "context": {
@@ -564,9 +673,9 @@
     "income": 49298,
     "properties": 6,
     "obligations": 1,
-    "income_percentile": 52,
+    "income_percentile": 53,
     "property_percentile": 74,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.7

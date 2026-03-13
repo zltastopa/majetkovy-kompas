@@ -1057,16 +1057,360 @@
   "total_changes": 4,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Jan.Kacmar.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Jan.Kacmar.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Jan.Kacmar.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Jan.Kacmar.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 22615,
+            "other": 1174
+          },
+          "old_total": 0,
+          "new_total": 23789,
+          "delta": 23789
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "ÚSTREDIE PRÁCE, SOCIÁLNYCH VECÍ A RODINY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "11",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "11",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "11",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "11",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "453",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "456",
+              "share": "1/240"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "456",
+              "share": "1/240"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "469",
+              "share": "5/60"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "469",
+              "share": "5/60"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "500",
+              "share": "1/240"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "509",
+              "share": "1/240"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "509",
+              "share": "1/240"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "510",
+              "share": "1/240"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "510",
+              "share": "1/240"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "511",
+              "share": "1/240"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "512",
+              "share": "1/240"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "513",
+              "share": "1/240"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "764",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "764",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "765",
+              "share": "1/240"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "794",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "794",
+              "share": "300/14400"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "794",
+              "share": "300/14400"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "TISINEC",
+              "lv_number": "11",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 46
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2008,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "AUTOMOBIL",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2009,
+              "share": "1/1"
+            },
+            {
+              "type": "AUTOMOBIL",
+              "brand": "HYUNDAI",
+              "year_of_manufacture": 2022,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 0 € → 23 789 € (+23 789 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 1 → 46 (+45)",
+      "Hnuteľný majetok: 1 → 2 (+1)"
+    ]
   },
   "slug": "ing-jozef-kacmar",
   "context": {
@@ -1076,7 +1420,7 @@
     "obligations": 1,
     "income_percentile": 28,
     "property_percentile": 98,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.3

@@ -8040,16 +8040,1161 @@
   "total_changes": 35,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Miroslav.Sim.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Miroslav.Sim.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Miroslav.Sim.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Miroslav.Sim.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (KONŠTRUKTA DEFENCE, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZVS HOLDING, A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DMD GROUP, A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZTS - ŠPECIAL A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (KONŠTRUKTA-DEFENCE, A.S)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZVS HOLDING, A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DMD GROUP, A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZTS ŠPECIAL, A.S.)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (KONŠTRUKTA DEFENCE, A.S.)",
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZVS HOLDING, A.S.)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DMD GROUP, A.S.)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZTS - ŠPECIAL A.S.)"
+          ],
+          "new": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (KONŠTRUKTA-DEFENCE, A.S)",
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZVS HOLDING, A.S.)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DMD GROUP, A.S.)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ZTS ŠPECIAL, A.S.)"
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 43395,
+            "other": 60066
+          },
+          "new": {
+            "public_function": 100864,
+            "other": 107586
+          },
+          "old_total": 103461,
+          "new_total": 208450,
+          "delta": 104989,
+          "delta_pct": 101.5
+        },
+        {
+          "field": "employment",
+          "old": "ZTS - ŠPECIÁL, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nDMD GROUP, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "DMD GROUP, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nZTS-ŠPECIÁL, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BARDEJOV",
+              "lv_number": "14985",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BARDEJOV",
+              "lv_number": "9033",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BARDEJOV",
+              "lv_number": "9033",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "8046",
+              "share": "1/1"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "274",
+              "share": "17820/216480"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "283",
+              "share": "17820/216480"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "8046",
+              "share": "1362/206005"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "208",
+              "share": "12/64"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "249",
+              "share": "17/40"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "257",
+              "share": "12/64"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "288",
+              "share": "17/40"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "316",
+              "share": "17/40"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "329",
+              "share": "3/220"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "330",
+              "share": "1/3"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "332",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "127",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "208",
+              "share": "12/64"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "215",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "217",
+              "share": "3/24"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "238",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "249",
+              "share": "17/40"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "283",
+              "share": "1320/216480"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "283",
+              "share": "16500/216480"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "328",
+              "share": "36/64"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "332",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "55",
+              "share": "60/480"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "263",
+              "share": "2/48"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1036",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1180",
+              "share": "30/2940"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1204",
+              "share": "1/3"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1296",
+              "share": "4/35"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1297",
+              "share": "4/35"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1302",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "136",
+              "share": "1/3"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "915",
+              "share": "1/7"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "930",
+              "share": "4/35"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "257",
+              "share": "12/64"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "274",
+              "share": "17820/216480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "285",
+              "share": "12/64"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "288",
+              "share": "17/40"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "308",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "316",
+              "share": "17/40"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "323",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "324",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "325",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "329",
+              "share": "3/220"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "330",
+              "share": "1/3"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "345",
+              "share": "1/3"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "362",
+              "share": "18/144"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "363",
+              "share": "2/3"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "267",
+              "share": "1160/1920"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "310",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "369",
+              "share": "4/4992"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "370",
+              "share": "4/4992"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "371",
+              "share": "4/4992"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "486",
+              "share": "4/4992"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1058",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1087",
+              "share": "60/8736"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1101",
+              "share": "34/2940"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1292",
+              "share": "4/105"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1303",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1304",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1305",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1312",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1313",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1314",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1315",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1337",
+              "share": "84/6048"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1344",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1362",
+              "share": "2/6048"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1366",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1367",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1368",
+              "share": "30/2940"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1369",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1371",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1400",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1414",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1416",
+              "share": "4/35"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1425",
+              "share": "4/7"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1454",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "7843",
+              "share": "10035/664961"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "7843",
+              "share": "679687032/136985"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "127",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "285",
+              "share": "12/64"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "BARDEJOV",
+              "lv_number": "9033",
+              "share": "7137/447880"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "263",
+              "share": "2/48"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "324",
+              "share": "15/24"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "325",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "55",
+              "share": "60/480"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BARDEJOV",
+              "lv_number": "14985",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BARDEJOV",
+              "lv_number": "9033",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "BARDEJOV",
+              "lv_number": "9033",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "8046",
+              "share": "1/1"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "274",
+              "share": "17820/216480"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "283",
+              "share": "17820/216480"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "8046",
+              "share": "1362/206005"
+            },
+            {
+              "type": "ORNA PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "329",
+              "share": "3/220"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "208",
+              "share": "12/64"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "249",
+              "share": "17/40"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "257",
+              "share": "12/64"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "288",
+              "share": "17/40"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "316",
+              "share": "17/40"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "330",
+              "share": "1/3"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "332",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HURKA",
+              "lv_number": "332",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "127",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "208",
+              "share": "12/64"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "215",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "217",
+              "share": "3/24"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "238",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "249",
+              "share": "17/40"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "283",
+              "share": "1320/216480"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "283",
+              "share": "16500/216480"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "328",
+              "share": "36/64"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "55",
+              "share": "60/480"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "263",
+              "share": "2/48"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1036",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1180",
+              "share": "30/2940"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1204",
+              "share": "1/3"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1296",
+              "share": "4/35"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1297",
+              "share": "4/35"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1302",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "136",
+              "share": "1/3"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "915",
+              "share": "1/7"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "930",
+              "share": "4/35"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "257",
+              "share": "12/64"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "274",
+              "share": "17820/216480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "285",
+              "share": "12/64"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "288",
+              "share": "17/40"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "308",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "316",
+              "share": "17/40"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "323",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "324",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "325",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "329",
+              "share": "3/220"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "330",
+              "share": "1/3"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "345",
+              "share": "1/3"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "362",
+              "share": "18/144"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "363",
+              "share": "2/3"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "267",
+              "share": "1160/1920"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "310",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "369",
+              "share": "4/4992"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "370",
+              "share": "4/4992"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "371",
+              "share": "4/4992"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "486",
+              "share": "4/4992"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1058",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1087",
+              "share": "60/8736"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1101",
+              "share": "34/2940"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1292",
+              "share": "4/105"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1303",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1304",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1305",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1312",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1313",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1314",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1315",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1337",
+              "share": "84/6048"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1344",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1362",
+              "share": "2/6048"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1366",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1367",
+              "share": "ZC2026273/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1368",
+              "share": "30/2940"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1369",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1371",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1400",
+              "share": "2016720/88512480"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1414",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1416",
+              "share": "4/35"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1425",
+              "share": "4/7"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SMILNO",
+              "lv_number": "1454",
+              "share": "3/735"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "7843",
+              "share": "10035/664961"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "7843",
+              "share": "679687032/136985"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "127",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "285",
+              "share": "12/64"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "BARDEJOV",
+              "lv_number": "9033",
+              "share": "7137/447880"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "NIŽNÁ POLIANKA",
+              "lv_number": "263",
+              "share": "2/48"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "324",
+              "share": "15/24"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "325",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA, ZASTAVANÁ PLOCHA",
+              "cadastral_territory": "HUTKA",
+              "lv_number": "55",
+              "share": "60/480"
+            }
+          ],
+          "old_count": 89,
+          "new_count": 89
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ PROSTRIEDKY V HOTOVOSTI, podiel: BSM",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 33%",
+            "ÚSPORY V BANKE, podiel: BSM"
+          ],
+          "new": [
+            "FINANČNE PROSTRIEDKY V HOTOVOSTI, podiel: BSM",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/3",
+            "OBCHODNÝ PODIEL V  SPOL. S. R. O. , podiel: 1/1-33%",
+            "ÚSPORY V BANKE, podiel: BSM",
+            "ÚSPORY V BANKE, podiel: BSM"
+          ],
+          "old_count": 3,
+          "new_count": 5
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 4 → 4 (0)",
+      "Príjmy: 103 461 € → 208 450 € (+104 989 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 89 → 89 (0)",
+      "Majetkové práva: 3 → 5 (+2)"
+    ]
   },
   "slug": "ing-miroslav-sim",
   "context": {
@@ -8059,7 +9204,7 @@
     "obligations": 1,
     "income_percentile": 98,
     "property_percentile": 99,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 11.6

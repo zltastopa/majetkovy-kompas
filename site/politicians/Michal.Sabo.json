@@ -602,16 +602,162 @@
   "total_changes": 9,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Michal.Sabo.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Michal.Sabo.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Michal.Sabo.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Michal.Sabo.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11736,
+            "other": 22340
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 9720
+          },
+          "old_total": 34076,
+          "new_total": 58632,
+          "delta": 24556,
+          "delta_pct": 72.1
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC",
+              "organization": "BRATISLAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA POSLANCA"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "HLAVNÉ MESTO SLOVENSKEJ REPUBLIKY BRATISLAVA",
+              "benefits": "ODMENA POSLANCA"
+            },
+            {
+              "role": "POSLANEC",
+              "organization": "MIESTNY ÚRAD PETRŽALKA",
+              "benefits": "ODMENA POSLANCA"
+            },
+            {
+              "role": "ČLEN PREDSEDNÍCTVA",
+              "organization": "PROGRESÍVNE SLOVENSKO",
+              "benefits": "ŽIADNE V"
+            },
+            {
+              "role": "ČLEN RADY ŠKOLY",
+              "organization": "MATERSKÁ ŠKOLA IĽJUŠINOVA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN RADY ŠKOLY",
+              "organization": "MATERSKÁ ŠKOLA TUPOLEVOVA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN RADY ŠKOLY",
+              "organization": "ZÁKLADNÁ ŠKOLA TUPOLEVOVA",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC",
+              "organization": "BRATISLAVSKÝ SAMOSPRÁVNY KRAJ",
+              "benefits": "ODMENA"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "2815",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNYCH ČASTIACH A ZARIADENIACH DOMU",
+              "cadastral_territory": "BRATISLAVAPETRŽALKA",
+              "lv_number": "2815",
+              "share": "1/56"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "2815",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "2815",
+              "share": "1/56"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "MINI COOPER",
+              "year_of_manufacture": 2023,
+              "share": "1/1"
+            }
+          ]
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTÉKA",
+              "share": "1/1",
+              "date": "20. 02. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "MINI COOPER",
+              "year_of_manufacture": 2016
+            }
+          ],
+          "new": null
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 34 076 € → 58 632 € (+24 556 €)",
+      "Funkcie: 7 → 1 (-6)",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Hnuteľný majetok",
+      "Záväzky: 1 → 1 (0)",
+      "Vozidlá"
+    ]
   },
   "slug": "mgr-michal-sabo",
   "context": {
@@ -621,7 +767,7 @@
     "obligations": 1,
     "income_percentile": 64,
     "property_percentile": 38,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.3

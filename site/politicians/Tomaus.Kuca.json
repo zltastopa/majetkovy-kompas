@@ -223,16 +223,74 @@
   "total_changes": 3,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Tomaus.Kuca.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Tomaus.Kuca.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Tomaus.Kuca.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Tomaus.Kuca.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 30754,
+            "other": 44807
+          },
+          "old_total": 0,
+          "new_total": 75561,
+          "delta": 75561
+        },
+        {
+          "field": "employment",
+          "old": "NÁRODNÝ ÚSTAV DETSKÝCH CHORÔB\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "FINANČNÉ RIADITEĽSTVO SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNÁRODNÝ ÚSTAV DETSKÝCH CHORÔB\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nBIONT, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "HAINBURG AN DER DONAU (RAKÚSKO)",
+              "lv_number": "2282",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HAINBURG AN DER DONAU (RAKÚSKO)",
+              "lv_number": "3383",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "HAINBURG AN DER DONAU",
+              "lv_number": "2282",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HAINBURG AN DER DONAU",
+              "lv_number": "3383",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 0 € → 75 561 € (+75 561 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
   },
   "slug": "ing-tomas-kuca",
   "context": {
@@ -242,7 +300,7 @@
     "obligations": 1,
     "income_percentile": 78,
     "property_percentile": 38,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.2

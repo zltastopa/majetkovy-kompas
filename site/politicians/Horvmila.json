@@ -1160,16 +1160,69 @@
   "total_changes": 33,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Horvmila.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Horvmila.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Horvmila.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Horvmila.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S. )",
+          "new": "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A. S. )"
+          ],
+          "new": [
+            "člen štatutárneho orgánu Exportno-importnej banky Slovenskej republiky",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÉ ELEKTRÁRNE, A.S.)"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 55312,
+            "other": 74884
+          },
+          "new": {
+            "public_function": 139339,
+            "other": 0
+          },
+          "old_total": 130196,
+          "new_total": 139339,
+          "delta": 9143,
+          "delta_pct": 7.0
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "VKLADY V BANKE, BEŽNÝ ÚČET, PODIELOVÉ FONDY V BANKE., podiel: 50%",
+            "ŽIVOTNÉ POISTENIE OSOBNÉ, ŽIVOTNÉ POISTENIE MANŽELKY,, podiel: 50%"
+          ],
+          "new": [
+            "VKLADY V BANKE, BEŽNÝ ÚČET, PODIELOVÉ FONDY V BANKE,\r\nASSET MANAGEMENT V BANKE, podiel: 50%",
+            "ŽIVOTNÉ POISTENIE OSOBNÉ, ŽIVOTNÉ POISTENIE MANŽELKY,\r\nDOPLNKOVÉ DÔCHODKOVÉ SPORENIE, podiel: 50%"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 2 → 2 (0)",
+      "Príjmy: 130 196 € → 139 339 € (+9 143 €)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
   },
   "slug": "ing-milan-horvath",
   "context": {
@@ -1179,7 +1232,7 @@
     "obligations": 1,
     "income_percentile": 94,
     "property_percentile": 54,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 7.7

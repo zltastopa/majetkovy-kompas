@@ -572,16 +572,81 @@
   "total_changes": 12,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Dusan.Novota.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Dusan.Novota.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Dusan.Novota.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Dusan.Novota.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2482,
+            "other": 13112
+          },
+          "new": {
+            "public_function": 30293,
+            "other": 114243
+          },
+          "old_total": 15594,
+          "new_total": 144536,
+          "delta": 128942,
+          "delta_pct": 826.9
+        },
+        {
+          "field": "employment",
+          "old": "LETISKO M.R. ŠTEFÁNIKA AIRPORT BRATISLAVA A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "LETISKO M.R. ŠTEFÁNIKA - AIRPORT BRATISLAVA BTS\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "REKREAČNÝ DOM",
+              "cadastral_territory": "SEMMERING RAKÚSKO",
+              "lv_number": "NR 765/02",
+              "share": "100%"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "3989",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "REKREAČNÝ DOM",
+              "cadastral_territory": "SEMMERING RAKÚSKO",
+              "lv_number": "NR765/02",
+              "share": "100%"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - PETRŽALKA",
+              "lv_number": "3989",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "RODINNÝ DOM, kat. územie BRATISLAVA - PETRŽALKA, rok zač. užívania: 2002, spôsob užívania: TRVALO",
+          "new": "RODINNÝ DOM, kat. územie BRATISLAVA PETRŽALKA, rok zač. užívania: 2002, spôsob užívania: TRVALÉ UŽÍVANIE"
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 15 594 € → 144 536 € (+128 942 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Užívanie nehnuteľností"
+    ]
   },
   "slug": "ing-dusan-novota",
   "context": {
@@ -591,7 +656,7 @@
     "obligations": 1,
     "income_percentile": 95,
     "property_percentile": 38,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 8.0

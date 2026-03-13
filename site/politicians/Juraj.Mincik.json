@@ -585,16 +585,89 @@
   "total_changes": 11,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Juraj.Mincik.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Juraj.Mincik.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Juraj.Mincik.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Juraj.Mincik.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 58244,
+            "other": 0
+          },
+          "new": {
+            "public_function": 55523,
+            "other": 0
+          },
+          "old_total": 58244,
+          "new_total": 55523,
+          "delta": -2721,
+          "delta_pct": -4.7
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OBYTNÝ PRÍVES",
+              "brand": "MUFLÓN",
+              "year_of_manufacture": 2013,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "JEEP",
+              "year_of_manufacture": 2015,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OBYTNÝ PRÍVES",
+              "brand": "MUFLÓN",
+              "year_of_manufacture": 2023,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "JEEP",
+              "year_of_manufacture": 2021,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "JEEP",
+              "year_of_manufacture": 2015
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "JEEP",
+              "year_of_manufacture": 2021
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 58 244 € → 55 523 € (-2 721 €)",
+      "Hnuteľný majetok: 2 → 2 (0)",
+      "Vozidlá: 1 → 1 (0)"
+    ]
   },
   "slug": "mgr-juraj-mincik",
   "context": {
@@ -604,7 +677,7 @@
     "obligations": 1,
     "income_percentile": 60,
     "property_percentile": 8,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.1

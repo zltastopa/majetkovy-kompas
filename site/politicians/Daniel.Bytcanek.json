@@ -1026,16 +1026,145 @@
   "total_changes": 23,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Daniel.Bytcanek.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Daniel.Bytcanek.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Daniel.Bytcanek.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Daniel.Bytcanek.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE RIADENIE DLHU A LIKVIDITY)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE RIADENIE DLHU A LIKVIDITY)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ )"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE RIADENIE DLHU A LIKVIDITY)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ)"
+          ],
+          "new": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (AGENTÚRA PRE RIADENIE DLHU A LIKVIDITY)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (RADA PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ )"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 96312,
+            "other": 0
+          },
+          "new": {
+            "public_function": 105320,
+            "other": 0
+          },
+          "old_total": 96312,
+          "new_total": 105320,
+          "delta": 9008,
+          "delta_pct": 9.4
+        },
+        {
+          "field": "incompatibility",
+          "old": true,
+          "new": false
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4187",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVÁ VES",
+              "lv_number": "3187",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVÁ VES",
+              "lv_number": "3261",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "2371",
+              "share": "1/3"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4187",
+              "share": "2/146"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4187",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3187",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3261",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ROVINKA",
+              "lv_number": "2371",
+              "share": "1/3"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4187",
+              "share": "2/146"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "DLHOPISY, podiel: 1/1",
+            "POHĽADÁVKY Z ÚČTU V BANKE, podiel: 1/1"
+          ],
+          "new": [
+            "DLHOPISY, podiel: 1/1",
+            "POHĽADÁVKA Z ÚČTU V BANKE , podiel: 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 2 → 2 (0)",
+      "Príjmy: 96 312 € → 105 320 € (+9 008 €)",
+      "Nezlučiteľnosť",
+      "Nehnuteľnosti: 5 → 5 (0)",
+      "Majetkové práva: 2 → 2 (0)"
+    ]
   },
   "slug": "ing-daniel-bytcanek",
   "context": {
@@ -1045,7 +1174,7 @@
     "obligations": 1,
     "income_percentile": 89,
     "property_percentile": 68,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 5.9

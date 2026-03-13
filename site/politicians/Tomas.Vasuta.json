@@ -654,16 +654,126 @@
   "total_changes": 20,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Tomas.Vasuta.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Tomas.Vasuta.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Tomas.Vasuta.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Tomas.Vasuta.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11327,
+            "other": 30538
+          },
+          "new": {
+            "public_function": 13588,
+            "other": 33646
+          },
+          "old_total": 41865,
+          "new_total": 47234,
+          "delta": 5369,
+          "delta_pct": 12.8
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "SENEC",
+              "lv_number": "2456",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC",
+              "lv_number": "2441",
+              "share": "1/16"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC",
+              "lv_number": "2708",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC",
+              "lv_number": "2709",
+              "share": "1/4"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "SENEC - MILOSLAVOV",
+              "lv_number": "2456",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC - MILOSLAVOV",
+              "lv_number": "2441",
+              "share": "1/16"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC - MILOSLAVOV",
+              "lv_number": "2708",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SENEC - MILOSLAVOV",
+              "lv_number": "2709",
+              "share": "1/4"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2018,
+              "share": "1/1"
+            }
+          ]
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "17. 01. 2023"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "17. 01. 2025"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 41 865 € → 47 234 € (+5 369 €)",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Hnuteľný majetok",
+      "Záväzky: 1 → 1 (0)"
+    ]
   },
   "slug": "ing-tomas-vasuta",
   "context": {
@@ -673,7 +783,7 @@
     "obligations": 1,
     "income_percentile": 48,
     "property_percentile": 61,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.6

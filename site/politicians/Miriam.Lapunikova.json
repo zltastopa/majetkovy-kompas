@@ -1622,16 +1622,147 @@
   "total_changes": 24,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Miriam.Lapunikova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Miriam.Lapunikova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Miriam.Lapunikova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Miriam.Lapunikova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 92825,
+            "other": 3724
+          },
+          "new": {
+            "public_function": 167527,
+            "other": 4464
+          },
+          "old_total": 96549,
+          "new_total": 171991,
+          "delta": 75442,
+          "delta_pct": 78.1
+        },
+        {
+          "field": "employment",
+          "old": "SLOVENSKÁ ZDRAVOTNÍCKA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "INŠTITÚT VZDELÁVANIA PORADENSTVA A INFORMATIZÁCIE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "8882",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RADVAŇ",
+              "lv_number": "3775",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "5675",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "7926",
+              "share": "1/14"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "8491",
+              "share": "1/2"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "298",
+              "share": "1/14"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ŠALKOVÁ",
+              "lv_number": "1551",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "3643",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "NEMCE",
+              "lv_number": "997, 998",
+              "share": "1/34"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "8882",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽOMBEROK",
+              "lv_number": "5675",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "7926",
+              "share": "1/14"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "8491",
+              "share": "1/2"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "298",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÉ TRÁVNATÉ PORASTY",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "3643",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "NEMCE",
+              "lv_number": "997 A 998",
+              "share": "1/34"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 7
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 96 549 € → 171 991 € (+75 442 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 9 → 7 (-2)"
+    ]
   },
   "slug": "ing-miriam-lapunikova-mba",
   "context": {
@@ -1641,7 +1772,7 @@
     "obligations": 3,
     "income_percentile": 97,
     "property_percentile": 78,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 9.6

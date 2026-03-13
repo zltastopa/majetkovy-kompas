@@ -399,16 +399,141 @@
   "total_changes": 6,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Michal.Cornak.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Michal.Cornak.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Michal.Cornak.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Michal.Cornak.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ AGENTÚRA PRE MEDZINÁRODNÚ ROZVOJOVÚ SPOLUPRÁCU)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ GENTÚRA PRE MEDZINÁRODNÚ ROZVOJOVÚ SPOLUPRÁCU)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ AGENTÚRA PRE MEDZINÁRODNÚ ROZVOJOVÚ SPOLUPRÁCU)"
+          ],
+          "new": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVENSKÁ GENTÚRA PRE MEDZINÁRODNÚ ROZVOJOVÚ SPOLUPRÁCU)"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 39585,
+            "other": 17775
+          },
+          "old_total": 0,
+          "new_total": 57360,
+          "delta": 57360
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "MESTO ŽILINA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO, VINOHORADY",
+              "lv_number": "5775",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "10475",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO, VINOHRADY",
+              "lv_number": "5775",
+              "share": "1/12"
+            },
+            {
+              "type": "STAVEBNÝ POZEMOK",
+              "cadastral_territory": "LIETAVSKÁ LÚČKA",
+              "lv_number": "1918",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "LIETAVA",
+              "lv_number": "2435",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO, VINOHORADY",
+              "lv_number": "5775",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "10475",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO, VINOHRADY",
+              "lv_number": "5775",
+              "share": "1/12"
+            },
+            {
+              "type": "STAVEBNY POZEMOK",
+              "cadastral_territory": "LIETAVSKÁ LÚČKA",
+              "lv_number": "1918",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "LIETAVA",
+              "lv_number": "2435",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 100%",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 100%"
+          ],
+          "new": [
+            "OBCHODNÉ PODIELY, podiel: 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 1 (0)",
+      "Príjmy: 0 € → 57 360 € (+57 360 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 5 → 5 (0)",
+      "Majetkové práva: 2 → 1 (-1)"
+    ]
   },
   "slug": "ing-michal-cornak",
   "context": {
@@ -418,7 +543,7 @@
     "obligations": 1,
     "income_percentile": 62,
     "property_percentile": 68,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.2

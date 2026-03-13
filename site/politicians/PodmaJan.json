@@ -2198,16 +2198,190 @@
   "total_changes": 30,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/PodmaJan.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/PodmaJan.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/PodmaJan.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/PodmaJan.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 8750,
+            "other": 70324
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 17101
+          },
+          "old_total": 79074,
+          "new_total": 66013,
+          "delta": -13061,
+          "delta_pct": -16.5
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ORNA PÔDA, EKN 5402",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "4958",
+              "share": "5/108"
+            },
+            {
+              "type": "ORNÁ PÔDA, EKN 5401",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "4957",
+              "share": "3/10"
+            },
+            {
+              "type": "ORNÁ PÔDA, EKN 5416",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "4972",
+              "share": "41/216"
+            },
+            {
+              "type": "ORNÁ PÔDA, EKN 5420/2",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "8940",
+              "share": "1/180"
+            },
+            {
+              "type": "ORNÁ PÔDA, EKN 5684",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "5096",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA, EKN 5696",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "5108",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÁ CHATA S PRÍSLUŠENSTVOM",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "9876",
+              "share": "1/4"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, EKN 4169",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "4096",
+              "share": "14/432"
+            }
+          ],
+          "new": [
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "4957",
+              "share": "3/10"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "4958",
+              "share": "5/108"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "4972",
+              "share": "41/216"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "5096",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "5108",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "8940",
+              "share": "1/180"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "9876",
+              "share": "1/4"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "4096",
+              "share": "14/432"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÁ BYSTRICA",
+              "lv_number": "10442",
+              "share": "14/432"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 9
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ŽIVOTNÉ POISTENIE, podiel: 100%"
+          ],
+          "new": [
+            "ŽIVOTNÉ POISTENIE, podiel: 100 %"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "BANKOVÁ PÔŽIČKA",
+              "share": "100%",
+              "date": "16. 09. 2019"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "21. 03. 2006"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "21. 03. 2006"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "POSLANECKÁ KANCELÁRIA, kat. územie ČADCA, rok zač. užívania: 2024, spôsob užívania: NÁJOMNÁ ZMLUVAPOSLANECKÁ KANCELÁRIA, kat. územie RUŽOMBEROK, rok zač. užívania: 2024, spôsob užívania: NÁJOMNÁ ZMLUVARODINNÝ DOM NA C KN 3563/11, ZASTAVANÁ PLOCHA A NÁDVORIE, kat. územie STARÁ BYSTRICA, rok zač. užívania: 2021, spôsob užívania: DOŽIVOTNÉ BÝVANIE A UŽÍVANIECKN 3563/10, CKN 3563/9, CKN 3563/8, CKN 3563/22, kat. územie STARÁ BYSTRICA, rok zač. užívania: 2021, spôsob užívania: DOŽIVOTNÉ BÝVANIE A UŽÍVANIE",
+          "new": "POSLANECKÁ KANCELÁRIA, kat. územie ČADCA, rok zač. užívania: 2024, spôsob užívania: NÁJOMNÁ ZMLUVAPOSLANECKÁ KANCELÁRIA, kat. územie RUŽOMBEROK, rok zač. užívania: 2024, spôsob užívania: NÁJOMNÁ ZMLUVARODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE, kat. územie STARÁ BYSTRICA, rok zač. užívania: 2021, spôsob užívania: DOŽIVOTNÉ BÝVANIE A UŽÍVANIECKN 3563/10, CKN 3563/9, CKN 3563/8, CKN 3563/22, kat. územie STARÁ BYSTRICA, rok zač. užívania: 2021, spôsob užívania: DOŽIVOTNÉ BÝVANIE A UŽÍVANIE"
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 79 074 € → 66 013 € (-13 061 €)",
+      "Nehnuteľnosti: 8 → 9 (+1)",
+      "Majetkové práva: 1 → 1 (0)",
+      "Záväzky: 2 → 1 (-1)",
+      "Užívanie nehnuteľností"
+    ]
   },
   "slug": "judr-phdr-jan-podmanicky-phd",
   "context": {
@@ -2217,7 +2391,7 @@
     "obligations": 1,
     "income_percentile": 71,
     "property_percentile": 83,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.7

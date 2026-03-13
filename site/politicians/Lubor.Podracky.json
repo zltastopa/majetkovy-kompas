@@ -783,16 +783,113 @@
   "total_changes": 16,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Lubor.Podracky.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Lubor.Podracky.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Lubor.Podracky.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Lubor.Podracky.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7968,
+            "other": 0
+          },
+          "new": {
+            "public_function": 10992,
+            "other": 0
+          },
+          "old_total": 7968,
+          "new_total": 10992,
+          "delta": 3024,
+          "delta_pct": 38.0
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT V OBYTNOM DOME",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "4136",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "PODLAVICE",
+              "lv_number": "1259",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT V OBYTNOM DOME",
+              "cadastral_territory": "BANSKÁ BYSTRICA",
+              "lv_number": "4136",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT V OBYTNOM DOME",
+              "cadastral_territory": "BANSKÁ BYSTRICA RADVAŇ",
+              "lv_number": "3618",
+              "share": "1/3"
+            },
+            {
+              "type": "BYT V OBYTNOM DOME",
+              "cadastral_territory": "SELCE",
+              "lv_number": "755",
+              "share": "1/3"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BANSKÁ BYSTRICA RADVAŇ",
+              "lv_number": "1199",
+              "share": "1/3"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "PODLAVICE",
+              "lv_number": "1259",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADNÝ POZEMOK",
+              "cadastral_territory": "BADIN",
+              "lv_number": "2193",
+              "share": "1/3"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 6
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "BMW",
+              "year_of_manufacture": 2019
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "BMW",
+              "year_of_manufacture": 2023
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 7 968 € → 10 992 € (+3 024 €)",
+      "Nehnuteľnosti: 2 → 6 (+4)",
+      "Vozidlá: 1 → 1 (0)"
+    ]
   },
   "slug": "ing-lubor-podracky",
   "context": {
@@ -802,7 +899,7 @@
     "obligations": 1,
     "income_percentile": 21,
     "property_percentile": 74,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0.6

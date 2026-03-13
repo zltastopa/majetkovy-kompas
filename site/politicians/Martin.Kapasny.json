@@ -1173,16 +1173,150 @@
   "total_changes": 26,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Martin.Kapasny.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Martin.Kapasny.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Martin.Kapasny.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Martin.Kapasny.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VERJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V ŽILINE)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA V ŽILINE)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VERJNÉHO ZDRAVOTNÍCTVA SO SÍDLOM V ŽILINE)"
+          ],
+          "new": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (REGIONÁLNY ÚRAD VEREJNÉHO ZDRAVOTNÍCTVA V ŽILINE)"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 56543,
+            "other": 6289
+          },
+          "new": {
+            "public_function": 55626,
+            "other": 7138
+          },
+          "old_total": 62832,
+          "new_total": 62764,
+          "delta": -68,
+          "delta_pct": -0.1
+        },
+        {
+          "field": "employment",
+          "old": "KATOLÍCKA UNIVERZITA RUŽOMBEROK ÚVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nŽILINSKÝ SAMOSPRÁVNY KRAJ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ŽILINSKÝ SAMOSPRÁVNY KRAJ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nKATOLÍCKA UNIVERZITA RUŽOMBEROK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK POD RODINNÝM DOMOM",
+              "cadastral_territory": "RAJECKÉ TEPLICE",
+              "lv_number": "PARCELA 373/3",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK POD RODINNÝM DOMOM",
+              "cadastral_territory": "RAJECKÉ TEPLICE",
+              "lv_number": "PARCELA Č. 372/2",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RAJECKÉ TEPLICE",
+              "lv_number": "134 PARCELA 372/2",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "VARIN",
+              "lv_number": "1361 PARCELA 737",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA PRI RODINNOM DOME",
+              "cadastral_territory": "RAJECKÉ TEPLICE",
+              "lv_number": "PARCELA 273/1",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK POD RODINNÝM DOMOM",
+              "cadastral_territory": "RAJECKÉ TEPLICE",
+              "lv_number": "342/2",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK POD RODINNÝM DOMOM",
+              "cadastral_territory": "RAJECKÉ TEPLICE",
+              "lv_number": "343/3",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "RAJECKÉ TEPLICE",
+              "lv_number": "137",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "VARÍN",
+              "lv_number": "1361",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA PRI RODINNOM DOME",
+              "cadastral_territory": "RAJECKÉ TEPLICE",
+              "lv_number": "273/1",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "BEŽNÝ ÚČET, podiel: 1/1",
+            "FONDY, podiel: 1/1",
+            "SPORIACI ÚČET, podiel: 1/1",
+            "SPORIACI ÚČET, podiel: 1/1",
+            "TERMINOVANÝ VKLAD, podiel: 1/1",
+            "VKLADOVÝ ÚČET, podiel: 1/1"
+          ],
+          "new": [
+            "BEŽNÝ ÚČET, podiel: 1/1",
+            "FONDY, podiel: 1/1",
+            "SPORIACI ÚCET, podiel: 1/1",
+            "SPORIACI ÚČET, podiel: 1/1",
+            "VKLADOVÝ ÚČET, podiel: 1/1"
+          ],
+          "old_count": 6,
+          "new_count": 5
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 1 (0)",
+      "Príjmy: 62 832 € → 62 764 € (-68 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 5 → 5 (0)",
+      "Majetkové práva: 6 → 5 (-1)"
+    ]
   },
   "slug": "mudr-martin-kapasny-phd-mph",
   "context": {
@@ -1192,7 +1326,7 @@
     "obligations": 1,
     "income_percentile": 68,
     "property_percentile": 68,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.5

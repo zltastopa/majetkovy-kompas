@@ -705,16 +705,274 @@
   "total_changes": 4,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/HullPete.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/HullPete.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/HullPete.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/HullPete.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 74296
+          },
+          "new": {
+            "public_function": 0,
+            "other": 81846
+          },
+          "old_total": 74296,
+          "new_total": 81846,
+          "delta": 7550,
+          "delta_pct": 10.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "DUBOVÉ",
+              "lv_number": "996",
+              "share": "10/48"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "POLTÁR",
+              "lv_number": "3145",
+              "share": "2/49"
+            },
+            {
+              "type": "LESNÝ POZEMOK 2X",
+              "cadastral_territory": "POLTÁR",
+              "lv_number": "3143",
+              "share": "2/49"
+            },
+            {
+              "type": "LESNÝ POZEMOK, ORNÁ PÔDA 2X",
+              "cadastral_territory": "HRABOVO",
+              "lv_number": "666",
+              "share": "1/10"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POLTÁR",
+              "lv_number": "3144",
+              "share": "1/24"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST 2X",
+              "cadastral_territory": "POLTÁR",
+              "lv_number": "3146",
+              "share": "1/24"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "DUBOVÉ",
+              "lv_number": "463",
+              "share": "56/1260"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "KORDÍKY",
+              "lv_number": "720",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "DUBOVÉ",
+              "lv_number": "1047",
+              "share": "2/12"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "DUBOVÉ",
+              "lv_number": "846",
+              "share": "1/12"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HRABOVO",
+              "lv_number": "586",
+              "share": "1/10"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST 2X, ORNÁ PÔDA",
+              "cadastral_territory": "BREZNIČKA",
+              "lv_number": "125",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST 3X, ZASTAVANÁ PLOCHA A NÁDVORIA",
+              "cadastral_territory": "KORDÍKY",
+              "lv_number": "469",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "HRABOVO",
+              "lv_number": "665",
+              "share": "12/90"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "POLTÁR",
+              "lv_number": "3160",
+              "share": "1/24"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE 2X",
+              "cadastral_territory": "RUSOVCE",
+              "lv_number": "2430",
+              "share": "BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE 3X, ZÁHRADA, TRVALÝ TRÁVNY PORAST 2X",
+              "cadastral_territory": "POLTÁR",
+              "lv_number": "1528",
+              "share": "3/6"
+            }
+          ],
+          "new": [
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "DUBOVÉ",
+              "lv_number": "996",
+              "share": "10/48"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "POLTÁR",
+              "lv_number": "3145",
+              "share": "2/49"
+            },
+            {
+              "type": "LESNÝ POZEMOK 2X",
+              "cadastral_territory": "POLTÁR",
+              "lv_number": "3143",
+              "share": "2/49"
+            },
+            {
+              "type": "LESNÝ POZEMOK, ORNÁ PÔDA 2X",
+              "cadastral_territory": "HRABOVO",
+              "lv_number": "666",
+              "share": "1/10"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "BREZNIČKA",
+              "lv_number": "1027",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POLTÁR",
+              "lv_number": "3144",
+              "share": "1/24"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST 2X",
+              "cadastral_territory": "POLTÁR",
+              "lv_number": "3146",
+              "share": "1/24"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "DUBOVÉ",
+              "lv_number": "463",
+              "share": "56/1260"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "KORDÍKY",
+              "lv_number": "720",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "DUBOVÉ",
+              "lv_number": "1047",
+              "share": "2/12"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "DUBOVÉ",
+              "lv_number": "846",
+              "share": "1/12"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HRABOVO",
+              "lv_number": "586",
+              "share": "1/10"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST 3X, ZAST. PLOCHA A NÁDVORIA",
+              "cadastral_territory": "KORDÍKY",
+              "lv_number": "469",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "HRABOVO",
+              "lv_number": "665",
+              "share": "12/90"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, ORNÁ PÔDA",
+              "cadastral_territory": "POLTÁR",
+              "lv_number": "3160",
+              "share": "1/24"
+            },
+            {
+              "type": "ZAST. PLOCHA A NÁDVORIE 3X, ZÁHRADA, TR. TR. PORAST 2X",
+              "cadastral_territory": "POLTÁR",
+              "lv_number": "1528",
+              "share": "3/6"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE 2X",
+              "cadastral_territory": "RUSOVCE",
+              "lv_number": "2430",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 17,
+          "new_count": 17
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "MITSUBISHI",
+              "year_of_manufacture": 2011,
+              "share": "BSM"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PEŇAŽNÝ VKLAD V BANKE - ÚSPORY, podiel: BSM"
+          ],
+          "new": [
+            "PEŇAŽNY VKLAD V BANKE ÚSPORY, podiel: BSM"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 74 296 € → 81 846 € (+7 550 €)",
+      "Nehnuteľnosti: 17 → 17 (0)",
+      "Hnuteľný majetok",
+      "Majetkové práva: 1 → 1 (0)"
+    ]
   },
   "slug": "judr-peter-hulla",
   "context": {
@@ -724,7 +982,7 @@
     "obligations": 1,
     "income_percentile": 82,
     "property_percentile": 91,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.5

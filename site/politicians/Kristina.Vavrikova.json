@@ -716,16 +716,187 @@
   "total_changes": 11,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Kristina.Vavrikova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Kristina.Vavrikova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Kristina.Vavrikova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Kristina.Vavrikova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO PÔDOHOSPODÁRSTVA A ROZVOJA VIDIEKA SR)",
+          "new": "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO PÔDOHOSPODÁRSTVA A ROZVOJA VIDIEKA SLOVENSKEJ REPUBLIKY)\nštátny tajomník"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO PÔDOHOSPODÁRSTVA A ROZVOJA VIDIEKA SR)"
+          ],
+          "new": [
+            "generálny tajomník služobného úradu ústredného orgánu štátnej správy (MINISTERSTVO PÔDOHOSPODÁRSTVA A ROZVOJA VIDIEKA SLOVENSKEJ REPUBLIKY)",
+            "štátny tajomník"
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10766,
+            "other": 13890
+          },
+          "new": {
+            "public_function": 66927,
+            "other": 0
+          },
+          "old_total": 24656,
+          "new_total": 66927,
+          "delta": 42271,
+          "delta_pct": 171.4
+        },
+        {
+          "field": "employment",
+          "old": "ÚRAD VLÁDY SR, ÚRAD PODPREDSEDU VLÁDY, KT. NERIADI MINISTERSTVO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "ÚRAD PODPREDSEDU VLÁDY SR PRE PLÁN OBNOVY A ZNALOSTNÚ EKONOMIKU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "3282",
+              "share": "BSM"
+            },
+            {
+              "type": "KANCELÁRIA - OBCHODNÝ PRIESTOR",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "4485",
+              "share": "BSM"
+            },
+            {
+              "type": "PODIEL PRIESTORY NA SPOLOČNÝCH ČASTIACH A SPOLOČNÝCH ZARIADENIACH DOMU, NA PRÍSLUŠENSTVE A SPOLUVLASTNÍCKY PODIEL K POZEMKU",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "3282",
+              "share": "6953/1368823 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "12615",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "3093",
+              "share": "3/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "4485",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "3093",
+              "share": "3/4"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "3093",
+              "share": "3/4"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "4485",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "3282",
+              "share": "BSM"
+            },
+            {
+              "type": "KANCELÁRIA - OBCHODNÝ PRIESTOR",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "4485",
+              "share": "BSM"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOL. ČASTIACH A SPOL. ZARIADENIACH DOMU,\r\nNA PRÍSLUŠENSTVE A SPOLUVLASTNÍCKY PODIEL K POZEMKU",
+              "cadastral_territory": "DONOVALY",
+              "lv_number": "3282",
+              "share": "6953/1368823"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "12615",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "3093",
+              "share": "3/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "4485",
+              "share": "BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "3093",
+              "share": "3/4"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "3093",
+              "share": "3/4"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "NOVÉ ZÁMKY",
+              "lv_number": "4485",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 9
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "DOPLNKOVÉ DÔCHODKOVÉ SPORENIE, podiel: 1/1",
+            "ÚSPORY, podiel: BSM"
+          ]
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 2 (+1)",
+      "Príjmy: 24 656 € → 66 927 € (+42 271 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 9 → 9 (0)",
+      "Majetkové práva"
+    ]
   },
   "slug": "judr-kristina-vavrikova",
   "context": {
@@ -735,7 +906,7 @@
     "obligations": 1,
     "income_percentile": 72,
     "property_percentile": 83,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.7

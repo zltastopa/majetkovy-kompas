@@ -739,16 +739,111 @@
   "total_changes": 15,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Slavomira.Salajova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Slavomira.Salajova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Slavomira.Salajova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Slavomira.Salajova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 10432,
+            "other": 52869
+          },
+          "new": {
+            "public_function": 11926,
+            "other": 40133
+          },
+          "old_total": 63301,
+          "new_total": 52059,
+          "delta": -11242,
+          "delta_pct": -17.8
+        },
+        {
+          "field": "employment",
+          "old": "AUDIOVIZUÁLNY FOND\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nRADA PRE MEDIÁLNE SLUŽBY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ KOMORA STAVEBNÝCH INŽINIEROV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÁ INŠPEKCIA ŽIVOTNÉHO PROSTREDIA - ÚSTREDIE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ KOMORA STAVEBNÝCH INŽINIEROV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMINISTERSTVO DOPRAVY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nÚRAD PRE ÚZEMNÉ PLÁNOVANIE A VÝSTAVBU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nRADA PRE MEDIÁLNE SLUŽBY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "3352",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK POD STAVBOU",
+              "cadastral_territory": "BRATISLAVA STARÉ MESTO",
+              "lv_number": "7368",
+              "share": "4403/81869"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+              "lv_number": "313",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO VINOHRADY",
+              "lv_number": "313",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO VINOHRADY",
+              "lv_number": "313",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "3352",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK POD STAVBOU",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "7368",
+              "share": "4403/81869"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "313",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO VINOHRADY",
+              "lv_number": "313",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO VINOHRADY",
+              "lv_number": "313",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 63 301 € → 52 059 € (-11 242 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
   },
   "slug": "mgr-slavomira-salajova",
   "context": {
@@ -758,7 +853,7 @@
     "obligations": 1,
     "income_percentile": 56,
     "property_percentile": 68,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.9

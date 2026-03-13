@@ -3081,16 +3081,391 @@
   "total_changes": 20,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/SaskIvan.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/SaskIvan.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/SaskIvan.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/SaskIvan.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 69006,
+            "other": 9341
+          },
+          "new": {
+            "public_function": 85032,
+            "other": 9341
+          },
+          "old_total": 78347,
+          "new_total": 94373,
+          "delta": 16026,
+          "delta_pct": 20.5
+        },
+        {
+          "field": "employment",
+          "old": "MESTO TVRDOŠÍN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nURBÁRI, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "URBÁRI, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nMESTO TVRDOŠÍN\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "KONATEĽ ZASTUPUJÚCI MESTO",
+              "organization": "TERMALŠPORT TS, S. R. O.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "PREDSEDA SPOLOČENSTVA",
+              "organization": "URBÁRSKI SPOLUMAJITELIA, POZEMKOVÉ SPOLOČENSTVO",
+              "benefits": "ÁNO"
+            },
+            {
+              "role": "PREDSEDA SPOLOČENSTVA",
+              "organization": "ZDRUŽENIE SÚKROMNÝCH VLASTNÍKOV LESOV",
+              "benefits": "ÁNO"
+            }
+          ],
+          "new": [
+            {
+              "role": "KONATEĽ ZASTUPUJÚCI MESTO",
+              "organization": "TERMALŠPORT TS, S.R.O.",
+              "benefits": "NIE"
+            },
+            {
+              "role": "PREDSEDA SPOLOČENSTVA",
+              "organization": "URBÁRSKI SPOLUMAJITELIA, POZEMKOVÉ SPOLOČENSTVO",
+              "benefits": "ÁNO"
+            },
+            {
+              "role": "PREDSEDA SPOLOČENSTVA",
+              "organization": "ZDRUŽENIE SÚKROMNÝCH VLASTNÍKOV LESOV",
+              "benefits": "ÁNO"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYTOVÝ DOM",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "780",
+              "share": "1/8"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "180, 229",
+              "share": "1/3, 3/16"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "218, 186, 382",
+              "share": "1/9, 1/1, 84/256"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "296, 303, 609, 190",
+              "share": "2/6, 2/6, 217/864, 6/8"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "700",
+              "share": "2400/29952"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "701",
+              "share": "2400/29952"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "793, 203, 585, 127",
+              "share": "24/32, 1/8, 3/16, 1/1"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "1939, 2591, 4917",
+              "share": "1/8, 3/16, 2/16"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "2749, 3077",
+              "share": "1/1, 802/999999"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "2787, 4261, 3885",
+              "share": "217, 864, 3/16, 3/16"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3077, 3637",
+              "share": "802/999999, 1/3"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3125, 3828, 491",
+              "share": "6/18, 1/1, 7/72"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3236, 3128",
+              "share": "3/16, 1/8"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3411, 3586, 1159",
+              "share": "6944/26451, 2/6, 2/6"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3412",
+              "share": "262522/999999"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3439",
+              "share": "585366/999999"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3521, 3000, 3164",
+              "share": "24/32, 1/1, 384/656"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3543, 3639, 515",
+              "share": "17/72, 1/3, 1/9"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3642, 3820",
+              "share": "36/216, 36/216"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "4144",
+              "share": "262522/999999"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "4230, 270, 271",
+              "share": "2/7, 5/24, 1/6"
+            },
+            {
+              "type": "REKREAČNÁ CHATA -  POZEMOK POD CHATOU",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "50, 46",
+              "share": "1/1, 1/1 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MEDVEDZIE",
+              "lv_number": "199",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "RODIČOVSKÝ DOM",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "270, 271",
+              "share": "5/24, 1/16"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "2357, 270, 271",
+              "share": "1/1 BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYTOVÝ DOM",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "780",
+              "share": "1/8"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "180, 229",
+              "share": "1/3, 3/16"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "218, 186, 382",
+              "share": "1/9, 1/1, 84/256"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "296, 303, 609, 190",
+              "share": "2/6, 2/6, 217/864, 6/8"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "700",
+              "share": "2400/29952"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "701",
+              "share": "2400/29952"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "793, 203, 585, 127",
+              "share": "24/32, 1/8, 3/16, 1/1"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "1939, 2591, 4917",
+              "share": "1/8, 3/16, 2/16"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "2749, 3077",
+              "share": "1/1, 802/999999"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "2787, 4261, 3885",
+              "share": "217/864, 3/16, 3/16"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3077, 3637",
+              "share": "802/999999,  1/3"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3125, 3828, 491",
+              "share": "6/18, 1/1, 7/72"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3236, 3128",
+              "share": "3/16, 1/8"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3411, 3586, 1159",
+              "share": "6944/26451, 2/6, 2/6"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3412",
+              "share": "262522/999999"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3439",
+              "share": "585366/999999"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3521, 3000, 3164",
+              "share": "24/32, 1/1, 384/656"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3543, 3639, 515",
+              "share": "17/72, 1/3, 1/9"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "3642, 3820",
+              "share": "36/216, 36/216"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "4144",
+              "share": "262522/999999"
+            },
+            {
+              "type": "POĽNOHOSPODÁRSKA A LESNÁ PÔDA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "4230, 270, 271",
+              "share": "2/7, 5/24, 1/6"
+            },
+            {
+              "type": "REKREAČNÁ CHATA - POZEMOK POD CHATOU",
+              "cadastral_territory": "ORAVICE",
+              "lv_number": "50,46",
+              "share": "1/1, 1/1 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MEDVEDZIE",
+              "lv_number": "199",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "RODIČOVSKÝ DOM",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "270, 271",
+              "share": "5/24, 1/16"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "TVRDOŠÍN",
+              "lv_number": "2357, 270, 271",
+              "share": "1/1 BSM"
+            }
+          ],
+          "old_count": 25,
+          "new_count": 25
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 78 347 € → 94 373 € (+16 026 €)",
+      "Zamestnanie",
+      "Funkcie: 3 → 3 (0)",
+      "Nehnuteľnosti: 25 → 25 (0)"
+    ]
   },
   "slug": "ing-ivan-sasko",
   "context": {
@@ -3100,7 +3475,7 @@
     "obligations": 1,
     "income_percentile": 86,
     "property_percentile": 95,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 5.2

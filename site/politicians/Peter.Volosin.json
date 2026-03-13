@@ -1876,16 +1876,369 @@
   "total_changes": 8,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Peter.Volosin.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Peter.Volosin.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Peter.Volosin.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Peter.Volosin.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 43940,
+            "other": 7490
+          },
+          "new": {
+            "public_function": 47962,
+            "other": 8100
+          },
+          "old_total": 51430,
+          "new_total": 56062,
+          "delta": 4632,
+          "delta_pct": 9.0
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SNINA",
+              "lv_number": "10300",
+              "share": "910991/162943345"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SNINA",
+              "lv_number": "10310",
+              "share": "1/3632"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "7108",
+              "share": "1/12"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8052",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8310",
+              "share": "1/128"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8469",
+              "share": "1/128"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8778",
+              "share": "1/128"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8780",
+              "share": "1/3632"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "9366",
+              "share": "1/128"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "5927",
+              "share": "910991/16294334"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATY PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8310",
+              "share": "1/128"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "10008",
+              "share": "1/24"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "10310",
+              "share": "1/3632"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "5121",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8437",
+              "share": "191338/75526250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8469",
+              "share": "1/128"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8768",
+              "share": "191338/75526250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8780",
+              "share": "1/3632"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8966",
+              "share": "1/3632"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "9218",
+              "share": "1/128"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "9512",
+              "share": "191338/755262508"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "9513",
+              "share": "191338/755262508"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "9606",
+              "share": "1/12"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST, LESNÝ POZEMOK",
+              "cadastral_territory": "SNINA",
+              "lv_number": "5927",
+              "share": "910991/16294334"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8768",
+              "share": "191338/75526250"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - DOM",
+              "cadastral_territory": "SNINA",
+              "lv_number": "1886",
+              "share": "1/8"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - RODINNÝ DOM",
+              "cadastral_territory": "SNINA",
+              "lv_number": "5121",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SNINA",
+              "lv_number": "10300",
+              "share": "910991/162943345"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SNINA",
+              "lv_number": "10310",
+              "share": "1/3632"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "7108",
+              "share": "1/12"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8052",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8310",
+              "share": "1/128"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8469",
+              "share": "1/128"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8778",
+              "share": "1/128"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8780",
+              "share": "1/3632"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "9366",
+              "share": "1/128"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "SNINA",
+              "lv_number": "5927",
+              "share": "910991/16294334"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "10008",
+              "share": "1/24"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "10310",
+              "share": "1/3632"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "5121",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8310",
+              "share": "1/128"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8437",
+              "share": "191338/75526250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8469",
+              "share": "1/128"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8768",
+              "share": "191338/75526250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8780",
+              "share": "1/3632"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8966",
+              "share": "1/3632"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "9218",
+              "share": "1/128"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "9512",
+              "share": "191338/755262508"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "9513",
+              "share": "191338/755262508"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "SNINA",
+              "lv_number": "9606",
+              "share": "1/12"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST, LESNÝ POZEMOK",
+              "cadastral_territory": "SNINA",
+              "lv_number": "5927",
+              "share": "910991/16294334"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SNINA",
+              "lv_number": "8768",
+              "share": "191338/75526250"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - DOM",
+              "cadastral_territory": "SNINA",
+              "lv_number": "1886",
+              "share": "1/8"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - RODINNÝ DOM",
+              "cadastral_territory": "SNINA",
+              "lv_number": "5121",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 27,
+          "new_count": 27
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 51 430 € → 56 062 € (+4 632 €)",
+      "Nehnuteľnosti: 27 → 27 (0)"
+    ]
   },
   "slug": "peter-volosin",
   "context": {
@@ -1893,9 +2246,9 @@
     "income": 56062,
     "properties": 27,
     "obligations": 1,
-    "income_percentile": 60,
+    "income_percentile": 61,
     "property_percentile": 95,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.1

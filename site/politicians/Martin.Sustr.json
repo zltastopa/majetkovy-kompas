@@ -2089,16 +2089,507 @@
   "total_changes": 5,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Martin.Sustr.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Martin.Sustr.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Martin.Sustr.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Martin.Sustr.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 2929,
+            "other": 5355
+          },
+          "new": {
+            "public_function": 53572,
+            "other": 139550
+          },
+          "old_total": 8284,
+          "new_total": 193122,
+          "delta": 184838,
+          "delta_pct": 2231.3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "MICHALOVCE",
+              "lv_number": "7802",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "SENEC",
+              "lv_number": "4343",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3559",
+              "share": "1/92"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - PARKOVACIE STÁTIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "1387/199265"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - PARKOVACIE STÁTIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "1387/199265"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - PIVNIČNÁ KOBKA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "406/13040"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KRÁĽOVÁ PRI SENCI",
+              "lv_number": "331",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "1387/199265, 1387/199265, 349078/1314466"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "7923/1314466"
+            },
+            {
+              "type": "POZEMOK - OSTATNÉ PLOCHY",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "406/13040, 18569/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NADVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3559",
+              "share": "12800/159377 1/92"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KRÁĽOVÁ PRI SENCI",
+              "lv_number": "331",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MICHALOVCE",
+              "lv_number": "9457",
+              "share": "5735/392256"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3559",
+              "share": "12800/159377 1/92"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3559",
+              "share": "12800/159377 1/92"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "1387/199265, 1387/199265, 349078/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "1387/199265, 1387/199265, 349078/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "1387/199265, 1387/199265, 349078/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "406/13040, 18569/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "406/13040, 18569/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "406/13040, 18569/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "7923/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "7923/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "7923/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "4343",
+              "share": "6137/442670"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "4343",
+              "share": "6137/442670"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "4343",
+              "share": "6137/442670"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "4343",
+              "share": "6137/442670"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "8806",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "8806",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "8806",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VRÚTKY",
+              "lv_number": "2818",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHAA NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3559",
+              "share": "12800/159377 1/92"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "KRÁĽOVÁ PRI SENCI",
+              "lv_number": "331",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "VRÚTKY",
+              "lv_number": "2818",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KRÁĽOVÁ PRI SENCI",
+              "lv_number": "331",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "MICHALOVCE",
+              "lv_number": "7802",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "SENEC",
+              "lv_number": "4343",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - GARÁŽ",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3559",
+              "share": "1/92"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - PARKOVACIE STÁTIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "1387/199265"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - PARKOVACIE STÁTIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "1387/199265"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR - PIVNIČNÁ KOBKA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "406/13040"
+            },
+            {
+              "type": "POZEMOK - ORNÁ PÔDA",
+              "cadastral_territory": "KRÁĽOVÁ PRI SENCI",
+              "lv_number": "331",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "7923/1314466"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV VL. PODIEL: 1387/199265, 1387/199265",
+              "lv_number": "2065",
+              "share": "349078/1314466"
+            },
+            {
+              "type": "POZEMOK - OSTATNÁ PLOCHA",
+              "cadastral_territory": "RUŽINOV VL. PODIEL: 406/13040",
+              "lv_number": "2065",
+              "share": "18569/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KRÁĽOVÁ PRI SENCI",
+              "lv_number": "331",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MICHALOVCE",
+              "lv_number": "9457",
+              "share": "5735/392256"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3559",
+              "share": "12800/159377   1/92"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3559",
+              "share": "12800/159377   1/92"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3559",
+              "share": "12800/159377  1/92"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3559",
+              "share": "12800/159377  1/92"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "7923/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "7923/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV",
+              "lv_number": "2065",
+              "share": "7923/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV VL. PODIEL:  406/13040",
+              "lv_number": "2065",
+              "share": "18569/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV VL. PODIEL: 1387/199265, 1387/199265",
+              "lv_number": "2065",
+              "share": "349078/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV VL. PODIEL: 1387/199265, 1387/199265",
+              "lv_number": "2065",
+              "share": "349078/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV VL. PODIEL: 1387/199265, 1387/199265",
+              "lv_number": "2065",
+              "share": "349078/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV VL. PODIEL: 406/13040",
+              "lv_number": "2065",
+              "share": "18569/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RUŽINOV VL. PODIEL: 406/13040",
+              "lv_number": "2065",
+              "share": "18569/1314466"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "4343",
+              "share": "6137/442670"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "4343",
+              "share": "6137/442670"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "4343",
+              "share": "6137/442670"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "4343",
+              "share": "6137/442670"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "8806",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "8806",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SENEC",
+              "lv_number": "8806",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "VRÚTKY",
+              "lv_number": "2818",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK - ZÁHRADA",
+              "cadastral_territory": "KRÁĽOVÁ PRI SENCI",
+              "lv_number": "331",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "VRÚTKY",
+              "lv_number": "2818",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KRÁĽOVÁ PRI SENCI",
+              "lv_number": "331",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 37,
+          "new_count": 37
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "DOPLNKOVÉ DÔCHODKOVÉ SPORENIE - III.PILIER, podiel: 1/1",
+            "STAROBNÉ DÔCHODKOVÉ SPORENIE - II.PILIER, podiel: 1/1",
+            "ÚČTY V BANKÁCH, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1"
+          ],
+          "new": [
+            "DOPLKOVÉ DÔCHODKOVÉ SPORENIE - III. PILIER, podiel: 1/1",
+            "STAROBNÉ DÔCHODKOVÉ SPORENIE - II. PILIER, podiel: 1/1",
+            "ÚČTY V BANKÁCH, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1"
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 8 284 € → 193 122 € (+184 838 €)",
+      "Nehnuteľnosti: 37 → 37 (0)",
+      "Majetkové práva: 4 → 4 (0)"
+    ]
   },
   "slug": "ing-martin-sustr-phd",
   "context": {
@@ -2108,7 +2599,7 @@
     "obligations": 1,
     "income_percentile": 98,
     "property_percentile": 97,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 10.7

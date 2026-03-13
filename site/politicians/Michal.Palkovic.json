@@ -659,16 +659,55 @@
   "total_changes": 9,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Michal.Palkovic.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Michal.Palkovic.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Michal.Palkovic.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Michal.Palkovic.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "predseda Úradu pre dohľad nad zdravotnou starostlivosťou\nčlen vlády Slovenskej republiky\nštátny tajomník",
+          "new": "predseda Úradu pre dohľad nad zdravotnou starostlivosťou"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "predseda Úradu pre dohľad nad zdravotnou starostlivosťou",
+            "člen vlády Slovenskej republiky",
+            "štátny tajomník"
+          ],
+          "new": [
+            "predseda Úradu pre dohľad nad zdravotnou starostlivosťou"
+          ],
+          "old_count": 3,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 45586,
+            "other": 78287
+          },
+          "new": {
+            "public_function": 90438,
+            "other": 27126
+          },
+          "old_total": 123873,
+          "new_total": 117564,
+          "delta": -6309,
+          "delta_pct": -5.1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 3 → 1 (-2)",
+      "Príjmy: 123 873 € → 117 564 € (-6 309 €)"
+    ]
   },
   "slug": "mudr-mgr-michal-palkovic-phd-mha-mph",
   "context": {
@@ -678,7 +717,7 @@
     "obligations": 1,
     "income_percentile": 92,
     "property_percentile": 78,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 6.5

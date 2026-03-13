@@ -541,16 +541,87 @@
   "total_changes": 7,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Radoslav.Gedeon.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Radoslav.Gedeon.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Radoslav.Gedeon.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Radoslav.Gedeon.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 45473,
+            "other": 0
+          },
+          "new": {
+            "public_function": 49983,
+            "other": 0
+          },
+          "old_total": 45473,
+          "new_total": 49983,
+          "delta": 4510,
+          "delta_pct": 9.9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "DOM",
+              "cadastral_territory": "MEDZEV",
+              "lv_number": "898",
+              "share": "1/4"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MEDZEV",
+              "lv_number": "5251",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "MEDZEV",
+              "lv_number": "898",
+              "share": "1/4"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "MEDZEV",
+              "lv_number": "5307",
+              "share": "BSM 1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "MEDZEV",
+              "lv_number": "5307",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, OSTATNÁ PLOCHA",
+              "cadastral_territory": "MEDZEV",
+              "lv_number": "5251",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA, DOM, 4X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "MEDZEV",
+              "lv_number": "898",
+              "share": "1/4"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 3
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 45 473 € → 49 983 € (+4 510 €)",
+      "Nehnuteľnosti: 4 → 3 (-1)"
+    ]
   },
   "slug": "mgr-ing-radoslav-gedeon",
   "context": {
@@ -558,9 +629,9 @@
     "income": 49983,
     "properties": 3,
     "obligations": 1,
-    "income_percentile": 53,
+    "income_percentile": 54,
     "property_percentile": 54,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.8

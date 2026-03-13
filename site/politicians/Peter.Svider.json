@@ -283,16 +283,112 @@
   "total_changes": 5,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Peter.Svider.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Peter.Svider.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Peter.Svider.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Peter.Svider.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 10356,
+            "other": 73351
+          },
+          "old_total": 0,
+          "new_total": 83707,
+          "delta": 83707
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "employment",
+          "old": "MORIS SLOVAKIA S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNÁRODNÝ INŠPEKTORÁT PRÁCE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MINISTERSTVO VNÚTRA SR, OKRESNÝ ÚRAD KOŠICE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMORIS SIOVAKIA S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "FURČA",
+              "lv_number": "10895",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT A PIVNICA",
+              "cadastral_territory": "LORINČÍK",
+              "lv_number": "2173",
+              "share": "1/2"
+            },
+            {
+              "type": "PARKOVACIE MIESTA",
+              "cadastral_territory": "LORINĆÍK",
+              "lv_number": "2191",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "FURČA",
+              "lv_number": "10895",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT A PIVNICA",
+              "cadastral_territory": "LORINČÍK",
+              "lv_number": "2173",
+              "share": "1/2"
+            },
+            {
+              "type": "PARKOVACIE MIESTO",
+              "cadastral_territory": "LORINČÍK",
+              "lv_number": "2191",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "SPLÁTKOVÝ ÚVER NA BÝVANIE",
+              "share": "1/2",
+              "date": "04. 01. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "SPLÁTKOVÝ ÚVER NA  BÝVANIE",
+              "share": "1/2",
+              "date": "04. 01. 2022"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 0 € → 83 707 € (+83 707 €)",
+      "Nezlučiteľnosť",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
   },
   "slug": "judr-phdr-peter-svider-l-l-m",
   "context": {
@@ -300,9 +396,9 @@
     "income": 83707,
     "properties": 3,
     "obligations": 1,
-    "income_percentile": 82,
+    "income_percentile": 83,
     "property_percentile": 54,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.7

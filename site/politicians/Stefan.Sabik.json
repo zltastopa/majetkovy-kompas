@@ -8597,16 +8597,1229 @@
   "total_changes": 11,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Stefan.Sabik.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Stefan.Sabik.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Stefan.Sabik.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Stefan.Sabik.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 46800,
+            "other": 135429
+          },
+          "new": {
+            "public_function": 56160,
+            "other": 184166
+          },
+          "old_total": 182229,
+          "new_total": 240326,
+          "delta": 58097,
+          "delta_pct": 31.9
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "SPRÁVNY RIADITEĽ",
+              "organization": "ESCO SLOVENSKO, A.S.",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "CAPEXUS SK, S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ELIMER, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "ESCO DISTRIBUČNÉ SÚSTAVY, A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "SPRÁVNY RIADITEĽ",
+              "organization": "ESCO SLOVENSKO, A.S.",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "CAPEXUS SK. S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "ELIMER, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "ESCO DISTRIBUČNÉ SÚSTAVY, A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3790",
+              "share": "1/1"
+            },
+            {
+              "type": "BYTOVÝ DOM",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3790",
+              "share": "8309/358594"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "657",
+              "share": "1323/364176"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VEĽKÉ VOZOKANY",
+              "lv_number": "1623",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "493",
+              "share": "1323/364176"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "495",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "596",
+              "share": "1323/364176"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "672",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "672",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "672",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "674",
+              "share": "2/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "674",
+              "share": "2/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "863",
+              "share": "1323/364176"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "868",
+              "share": "1323/364176"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "7303",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KRAHULE",
+              "lv_number": "397",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "7303",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "KRAHULE",
+              "lv_number": "397",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "KRAHULE",
+              "lv_number": "398",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "12178",
+              "share": "7/14250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "420",
+              "share": "7/1425"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "429",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "474",
+              "share": "7/14250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "474",
+              "share": "7/14250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "495",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "526",
+              "share": "7/14250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "527",
+              "share": "7/14250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "587",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "705",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "734",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "856",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "857",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "859",
+              "share": "7/14250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "862",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "869",
+              "share": "1323/364176"
+            },
+            {
+              "type": "VINICA",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "4006",
+              "share": "1/1"
+            },
+            {
+              "type": "VINICA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "494",
+              "share": "1/14"
+            },
+            {
+              "type": "VINIČNÝ DOMČEK",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "4006",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KRAHULE",
+              "lv_number": "397",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KRAHULE",
+              "lv_number": "397",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "4006",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "4006",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "7303",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3790",
+              "share": "8309/358594"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "429",
+              "share": "1323/364176"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "858",
+              "share": "7/14250"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3790",
+              "share": "1/1"
+            },
+            {
+              "type": "BYTOVÝ DOM",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3790",
+              "share": "8309/358594"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "657",
+              "share": "1323/364176"
+            },
+            {
+              "type": "ORNÁ PÓDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "VEĽKÉ VOZOKANY",
+              "lv_number": "1623",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČEREVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČEREVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENY HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENY HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "493",
+              "share": "1323/364176"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "495",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "596",
+              "share": "1323/364176"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "672",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "672",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "672",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "674",
+              "share": "2/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "674",
+              "share": "2/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "863",
+              "share": "1323/364176"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "868",
+              "share": "1323/364176"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "7303",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KRAHULE",
+              "lv_number": "397",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "7303",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATY PORAST",
+              "cadastral_territory": "ČERVENY HRÁDOK",
+              "lv_number": "420",
+              "share": "7/1425"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "KRAHULE",
+              "lv_number": "397",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "KRAHULE",
+              "lv_number": "398",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENY HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "12178",
+              "share": "7/14250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "429",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "474",
+              "share": "7/14250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "474",
+              "share": "7/14250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "495",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "526",
+              "share": "7/14250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "587",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "673",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "705",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "734",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "856",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "857",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "859",
+              "share": "7/14250"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "862",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "869",
+              "share": "1323/364176"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "ČREVENÝ HRÁDOK",
+              "lv_number": "527",
+              "share": "7/14250"
+            },
+            {
+              "type": "VINICA",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "4006",
+              "share": "1/1"
+            },
+            {
+              "type": "VINICA",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "494",
+              "share": "1/14"
+            },
+            {
+              "type": "VINIČNÝ DOMČEK",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "4006",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KRAHULE",
+              "lv_number": "397",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KRAHULE",
+              "lv_number": "397",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "4006",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "4006",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LEVICE",
+              "lv_number": "7303",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NIVY",
+              "lv_number": "3790",
+              "share": "8309/358594"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "429",
+              "share": "1323/364176"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ČERVENÝ HRÁDOK",
+              "lv_number": "858",
+              "share": "7/14250"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "ČERVENY HRÁDOK",
+              "lv_number": "425",
+              "share": "1/14"
+            }
+          ],
+          "old_count": 94,
+          "new_count": 95
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 182 229 € → 240 326 € (+58 097 €)",
+      "Funkcie: 4 → 4 (0)",
+      "Nehnuteľnosti: 94 → 95 (+1)"
+    ]
   },
   "slug": "ing-stefan-sabik",
   "context": {
@@ -8616,7 +9829,7 @@
     "obligations": 1,
     "income_percentile": 99,
     "property_percentile": 99,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 13.4

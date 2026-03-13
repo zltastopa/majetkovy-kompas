@@ -541,16 +541,143 @@
   "total_changes": 5,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Zuzana.Mesterova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Zuzana.Mesterova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Zuzana.Mesterova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Zuzana.Mesterova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11736,
+            "other": 13838
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 16776
+          },
+          "old_total": 25574,
+          "new_total": 65688,
+          "delta": 40114,
+          "delta_pct": 156.9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "STREDNÉ MESTO",
+              "lv_number": "11872",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA",
+              "cadastral_territory": "STAKČÍN",
+              "lv_number": "72",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STREDNÉ MESTO",
+              "lv_number": "11872",
+              "share": "4010/228359"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "7239",
+              "share": "BSM"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "STREDNÉ MESTO",
+              "lv_number": "11872",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA",
+              "cadastral_territory": "STAKČÍN",
+              "lv_number": "72",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STREDNÉ MESTO",
+              "lv_number": "11872",
+              "share": "4010/228359"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "7783",
+              "share": "1558/10000"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 5
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "08. 10. 2020"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "09. 06. 2023"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "12. 07. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "BEZÚČELOVÝ ÚVER",
+              "share": "BSM",
+              "date": "23. 02. 2024"
+            },
+            {
+              "type": "HVPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "08. 10. 2020"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "09. 06. 2023"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "12. 07. 2022"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "BSM",
+              "date": "21. 02. 2024"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 5
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 25 574 € → 65 688 € (+40 114 €)",
+      "Nehnuteľnosti: 3 → 5 (+2)",
+      "Záväzky: 3 → 5 (+2)"
+    ]
   },
   "slug": "judr-zuzana-mesterova",
   "context": {
@@ -560,7 +687,7 @@
     "obligations": 5,
     "income_percentile": 71,
     "property_percentile": 68,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.6

@@ -579,16 +579,182 @@
   "total_changes": 12,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Svetlana.Gavorova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Svetlana.Gavorova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Svetlana.Gavorova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Svetlana.Gavorova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 900,
+            "other": 700
+          },
+          "new": {
+            "public_function": 26669,
+            "other": 22646
+          },
+          "old_total": 1600,
+          "new_total": 49315,
+          "delta": 47715,
+          "delta_pct": 2982.2
+        },
+        {
+          "field": "employment",
+          "old": "SLOVENSKÁ AGENTÚRA ŽIVOTNÉHO PROSTREDIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "SLOVENSKÁ AGENTÚRA PRE MEDZINÁRODNÚ ROZVOJOVÚ POMOC\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(4 LIVE S.R.O.)ADVOKÁT/KONATEĽ(AK GAVOROVÁ A PARTNER S.R.O.)",
+          "new": "KONATEĽ(RV INVESTMENT S.R.O.)KONATEĽ(4 LIVE S.R.O.)ADVOKÁT KONATEĽ(AK GAVOROVÁ A PARTNER S.R.O.)"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN PREDSEDNÍCTVA",
+              "organization": "SLOVENSKÁ BATÉRIOVÁ ALIANCIA",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "RADA SLOVENSKÝCH EXPORTÉROV",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSEDNÍCTVA",
+              "organization": "SLOVENSKÁ BATÉRIOVÁ ALIANCIA",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "GRADO, TALIANSKO",
+              "lv_number": "16946",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2431",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZÁHORSKÁ BYSTRICA",
+              "lv_number": "4927",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZÁHORSKÁ BYSTRICA",
+              "lv_number": "5659",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "GRADO, TALIANSKO",
+              "lv_number": "16949",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "5494",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZAHORSKÁ BYSTRICA",
+              "lv_number": "4927",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ZÁHORSKÁ BYSTRICA",
+              "lv_number": "5659",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "UMELECKÉ DIELA",
+              "share": "1/1"
+            },
+            {
+              "type": "VYBAVENIE DOMÁCNOSTI",
+              "share": "1/1"
+            },
+            {
+              "type": "ŠPERKY",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "UMELECKÉ DIELA",
+              "share": "1/1"
+            },
+            {
+              "type": "VYBAVENIE DOMÁCNOSTÍ",
+              "share": "1/1"
+            },
+            {
+              "type": "ŠPERKY",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 1/1",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 1/1",
+            "ÚSPORY, podiel: 1/1"
+          ],
+          "new": [
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 1/1",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 1/1",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 1/1",
+            "PODIEL V OBCHODNEJ SPOLOČNOSTI, podiel: 1/1",
+            "ÚSPORY, podiel: 1/1"
+          ],
+          "old_count": 3,
+          "new_count": 5
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 1 600 € → 49 315 € (+47 715 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Funkcie: 1 → 2 (+1)",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Hnuteľný majetok: 3 → 3 (0)",
+      "Majetkové práva: 3 → 5 (+2)"
+    ]
   },
   "slug": "judr-svetlana-gavorova",
   "context": {
@@ -598,7 +764,7 @@
     "obligations": 1,
     "income_percentile": 53,
     "property_percentile": 61,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.7

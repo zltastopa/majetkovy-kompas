@@ -588,16 +588,117 @@
   "total_changes": 4,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Paula.Puskarova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Paula.Puskarova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Paula.Puskarova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Paula.Puskarova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 7763,
+            "other": 6397
+          },
+          "new": {
+            "public_function": 50043,
+            "other": 49707
+          },
+          "old_total": 14160,
+          "new_total": 99750,
+          "delta": 85590,
+          "delta_pct": 604.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6617",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR Č. N01",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6617",
+              "share": "32/454"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR Č. N02",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6617",
+              "share": "32/454"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "7749",
+              "share": "203/10000"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6680",
+              "share": "564/10000"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5868",
+              "share": "203/10000"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6617",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6617",
+              "share": "32/454"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6617",
+              "share": "32/454"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "7749",
+              "share": "203/10000"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "6680",
+              "share": "564/10000"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BRATISLAVA - STARÉ MESTO",
+              "lv_number": "5868",
+              "share": "203/10000"
+            }
+          ],
+          "old_count": 6,
+          "new_count": 6
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 14 160 € → 99 750 € (+85 590 €)",
+      "Nehnuteľnosti: 6 → 6 (0)"
+    ]
   },
   "slug": "doc-ing-paula-puskarova-dis-art-phd",
   "context": {
@@ -607,7 +708,7 @@
     "obligations": 1,
     "income_percentile": 88,
     "property_percentile": 74,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 5.5

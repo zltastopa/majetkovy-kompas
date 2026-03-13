@@ -515,16 +515,137 @@
   "total_changes": 11,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Peter.Demcak.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Peter.Demcak.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Peter.Demcak.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Peter.Demcak.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (PODPREDSEDA PROTIMONOPOLNÝ ÚRAD SLOVENSKEJ REPUBLIKY )",
+          "new": "verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (PODPREDSEDA PROTIMONOPOLNÝ ÚRAD SLOVENSKEJ REPUBLIKY)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (PODPREDSEDA PROTIMONOPOLNÝ ÚRAD SLOVENSKEJ REPUBLIKY )"
+          ],
+          "new": [
+            "verejný funkcionár, ktorý nie je uvedený v písmenách a) až zo), ak tak ustanoví zákon (PODPREDSEDA PROTIMONOPOLNÝ ÚRAD SLOVENSKEJ REPUBLIKY)"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 24393,
+            "other": 0
+          },
+          "new": {
+            "public_function": 62221,
+            "other": 0
+          },
+          "old_total": 24393,
+          "new_total": 62221,
+          "delta": 37828,
+          "delta_pct": 155.1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "2671",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ABRAHÁM",
+              "lv_number": "1047",
+              "share": "7/12"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HORNÉ HÁMRE",
+              "lv_number": "3140",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "4532",
+              "share": "2086/200000"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "PETRŽALKA - BRATISLAVA",
+              "lv_number": "2671",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ABRAHÁM",
+              "lv_number": "1047",
+              "share": "7/12"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ABRAHÁM",
+              "lv_number": "2113",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÝ TRÁVNATÝ PORAST",
+              "cadastral_territory": "HORNÉ HÁMRE",
+              "lv_number": "3140",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BRATISLAVA- PETRŽALKA",
+              "lv_number": "4532",
+              "share": "2086/200000"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 5
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "SPOTREBNÝ ÚVER",
+              "share": "1/1 BSM",
+              "date": "09. 09. 2019"
+            }
+          ],
+          "new": [
+            {
+              "type": "SPOTREBNÝ  ÚVER",
+              "share": "1/1 BSM",
+              "date": "09. 09. 2019"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 1 (0)",
+      "Príjmy: 24 393 € → 62 221 € (+37 828 €)",
+      "Nehnuteľnosti: 4 → 5 (+1)",
+      "Záväzky: 1 → 1 (0)"
+    ]
   },
   "slug": "mgr-peter-demcak",
   "context": {
@@ -532,9 +653,9 @@
     "income": 62221,
     "properties": 5,
     "obligations": 1,
-    "income_percentile": 67,
+    "income_percentile": 68,
     "property_percentile": 68,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.5

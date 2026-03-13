@@ -764,16 +764,126 @@
   "total_changes": 28,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Michal.Gallik.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Michal.Gallik.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Michal.Gallik.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Michal.Gallik.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SAD - BANSKÁ BYSTRICA)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA HOLDING, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SAD BANSKÁ BYSTRICA, A.S.)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA HOLDING, A. S.)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SAD - BANSKÁ BYSTRICA)",
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA HOLDING, A.S.)"
+          ],
+          "new": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SAD BANSKÁ BYSTRICA, A.S.)",
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (VÝCHODOSLOVENSKÁ ENERGETIKA HOLDING, A. S.)"
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 14478,
+            "other": 35784
+          },
+          "new": {
+            "public_function": 11259,
+            "other": 25567
+          },
+          "old_total": 50262,
+          "new_total": 36826,
+          "delta": -13436,
+          "delta_pct": -26.7
+        },
+        {
+          "field": "employment",
+          "old": "ALISON SLOVAKIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "ALISON SLOVAKIA S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nGR ZBORU VÄZENSKEJ A JUSTIČNEJ STRÁŽE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nDATALAN, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nOBEC TULČÍK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": null,
+          "new": "ŽIVNOSŤ(Ing. MICHAL GALLIK)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "TULČÍK 865613",
+              "lv_number": "547",
+              "share": "1/2"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "CITROËN",
+              "year_of_manufacture": 2016,
+              "share": "1/1"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2008,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "CITRÖEN",
+              "year_of_manufacture": 2016,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/2",
+              "date": "01. 08. 2019"
+            }
+          ],
+          "new": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 2 → 2 (0)",
+      "Príjmy: 50 262 € → 36 826 € (-13 436 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti",
+      "Hnuteľný majetok: 2 → 1 (-1)",
+      "Záväzky: 1 → 1 (0)"
+    ]
   },
   "slug": "ing-michal-gallik",
   "context": {
@@ -783,7 +893,7 @@
     "obligations": 1,
     "income_percentile": 37,
     "property_percentile": 8,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.0

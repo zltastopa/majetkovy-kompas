@@ -1184,16 +1184,144 @@
   "total_changes": 26,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Peter.Dittrich.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Peter.Dittrich.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Peter.Dittrich.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Peter.Dittrich.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O. )\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S. )\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND III., S.R.O.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK ASSET MANAGEMENT SPRÁVCOVSKÁ SPOLOČNOSŤ, A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK INVESTMENT HOLDING, A.S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O. )\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S. )\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND III., S.R.O.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK ASSET MANAGEMENT, SPRÁVCOVSKÁ SPOLOČNOSŤ, A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK INVESTMENT HOLDING, A.S.)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O. )",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S. )",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND III., S.R.O.)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK ASSET MANAGEMENT SPRÁVCOVSKÁ SPOLOČNOSŤ, A.S.)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK INVESTMENT HOLDING, A.S.)"
+          ],
+          "new": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND I., S.R.O. )",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND II., A.S. )",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NATIONAL DEVELOPMENT FUND III., S.R.O.)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK ASSET MANAGEMENT, SPRÁVCOVSKÁ SPOLOČNOSŤ, A.S.)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAK INVESTMENT HOLDING, A.S.)"
+          ],
+          "old_count": 5,
+          "new_count": 5
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 43472,
+            "other": 74545
+          },
+          "new": {
+            "public_function": 25740,
+            "other": 89995
+          },
+          "old_total": 118017,
+          "new_total": 115735,
+          "delta": -2282,
+          "delta_pct": -1.9
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "BOATAROUND.COM, A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "MKK GRÖSSLING S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY - ZÁNIK 15.12.2023",
+              "organization": "ENSTRA A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY - ZÁNIK 15.12.2023",
+              "organization": "ENSTRA POWER GENERATION A.S.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY - ZÁNIK 20.12.2023",
+              "organization": "GYMBEAM S.R.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "INO-HUB ENERGY J.S.A.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "MKK GRÖSSLING S.RO.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "TAPGEST S.R.O.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY - ZÁNIK 25.04.2024",
+              "organization": "BOATAROUND.COM, A.S.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "SENEC",
+              "lv_number": "3147",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3253",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "3253",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 5 → 5 (0)",
+      "Príjmy: 118 017 € → 115 735 € (-2 282 €)",
+      "Funkcie: 5 → 4 (-1)",
+      "Nehnuteľnosti: 2 → 1 (-1)"
+    ]
   },
   "slug": "ing-peter-dittrich-phd",
   "context": {
@@ -1203,7 +1331,7 @@
     "obligations": 1,
     "income_percentile": 91,
     "property_percentile": 21,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 6.4

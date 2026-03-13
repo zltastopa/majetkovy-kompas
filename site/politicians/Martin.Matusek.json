@@ -366,16 +366,128 @@
   "total_changes": 4,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Martin.Matusek.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Martin.Matusek.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Martin.Matusek.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Martin.Matusek.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 49792,
+            "other": 4082
+          },
+          "old_total": 0,
+          "new_total": 53874,
+          "delta": 53874
+        },
+        {
+          "field": "employment",
+          "old": "HORSKÁ ZÁCHRANNÁ SLUŽBA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "TECHNICKÁ UNIVERZITA KOŠICE\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "SZČO HORSKÝ VODCA(MARTIN MATÚŠEK)",
+          "new": "SZČO - HORSKÝ VODCA(MARTIN MATÚŠEK)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "122",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1031",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "ŠTRBA",
+              "lv_number": "996",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1031",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BARTOŠOVA LEHÔTKA",
+              "lv_number": "676",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "2 X ZÁHRADA",
+              "cadastral_territory": "BARTOŠOVA LEHÔTKA",
+              "lv_number": "676",
+              "share": "1/1"
+            },
+            {
+              "type": "2 X ZÁHRADA",
+              "cadastral_territory": "BARTOŠOVA LEHÔTKA",
+              "lv_number": "759",
+              "share": "1/98"
+            },
+            {
+              "type": "4X ZÁHRADA",
+              "cadastral_territory": "BARTOŠOVA LEHÔTKA",
+              "lv_number": "713",
+              "share": "1/40"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "122",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1031",
+              "share": "1/1"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "ŠTRBA",
+              "lv_number": "996",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1031",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 7
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 0 € → 53 874 € (+53 874 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti: 5 → 7 (+2)"
+    ]
   },
   "slug": "ing-bc-martin-matusek",
   "context": {
@@ -385,7 +497,7 @@
     "obligations": 1,
     "income_percentile": 58,
     "property_percentile": 78,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.0

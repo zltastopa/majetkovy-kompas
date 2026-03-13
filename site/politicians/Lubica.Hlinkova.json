@@ -548,16 +548,140 @@
   "total_changes": 9,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Lubica.Hlinkova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Lubica.Hlinkova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Lubica.Hlinkova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Lubica.Hlinkova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 13436,
+            "other": 0
+          },
+          "new": {
+            "public_function": 5314,
+            "other": 0
+          },
+          "old_total": 13436,
+          "new_total": 5314,
+          "delta": -8122,
+          "delta_pct": -60.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "APARTMÁN",
+              "cadastral_territory": "NOVALJA CHORVÁTSKO",
+              "lv_number": "952/377",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2418",
+              "share": "1/1"
+            },
+            {
+              "type": "PODIEL NA SPOLOČNÝCH ČASTIACH",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2418",
+              "share": "8391/441152"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NOVALJA CHORVÁTSKO",
+              "lv_number": "952/509",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ČUŇOVO",
+              "lv_number": "1924",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "APARTMÁN",
+              "cadastral_territory": "NOVALJA",
+              "lv_number": "952/377",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KARLOVA VES",
+              "lv_number": "2418",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "NOVALJA",
+              "lv_number": "952/509",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "ČUŇOVO",
+              "lv_number": "1924",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 4
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ PROSTRIEDKY, podiel: 100%",
+            "II. PILIER , podiel: 100%",
+            "III. PILIER , podiel: 100%"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTOCH, podiel: 100%",
+            "II. PILIER, podiel: 100%",
+            "II. PILIER, podiel: 100%"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "17. 07. 2019"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "100%",
+              "date": "21. 07. 2015"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER-REFINANC",
+              "share": "100%",
+              "date": "10. 07. 2019"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 13 436 € → 5 314 € (-8 122 €)",
+      "Nehnuteľnosti: 5 → 4 (-1)",
+      "Majetkové práva: 3 → 3 (0)",
+      "Záväzky: 2 → 1 (-1)"
+    ]
   },
   "slug": "phdr-lubica-hlinkova-mph",
   "context": {
@@ -567,7 +691,7 @@
     "obligations": 1,
     "income_percentile": 17,
     "property_percentile": 61,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0.3

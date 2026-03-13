@@ -1016,16 +1016,169 @@
   "total_changes": 13,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Raastislav.Trnka.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Raastislav.Trnka.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Raastislav.Trnka.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Raastislav.Trnka.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 76119,
+            "other": 0
+          },
+          "new": {
+            "public_function": 80835,
+            "other": 0
+          },
+          "old_total": 76119,
+          "new_total": 80835,
+          "delta": 4716,
+          "delta_pct": 6.2
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PODPREDSEDA",
+              "organization": "EZÚS VIA CARPATIA S RUČENÍM OBMEDZENÝM",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "KOŠICE REGIÓN TURIZMUS",
+              "benefits": "NÁHRADA NÁKLADOV ZA VÝKON FUNKCIE"
+            },
+            {
+              "role": "PREDSEDA PREDSTAVENSTVA",
+              "organization": "INOVAČNÉ CENTRUM KOŠICKÉHO KRAJA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN",
+              "organization": "EURÓPSKY VÝBOR REGIÓNOV",
+              "benefits": "PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "ČLEN A PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NADÁCIA KOŠICKÉHO SAMOSPRÁVNEHO KRAJA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "SOCIÁLNY PODNIK KSK, S.R.O., R.S.P.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "KOŠICKÝ KLASTER NOVÉHO PRIEMYSLU",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "DOBROVOĽNÝ ZBOR CIVILNEJ OCHRANY KSK N.O.",
+              "benefits": "NÁHRADA PREUKÁZANÝCH VÝDAVKOV"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "DOPRAVNÁ INFRAŠTRUKTÚRA KSK, N.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "PODPREDSEDA",
+              "organization": "EZÚS VIA CARPATIA S RUČ. ODMEDZENÝM",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "KOŠICE REGIÓN TURIZMUS",
+              "benefits": "ÚHRADA NÁKLADOV ZA VÝKON FUNKCIE"
+            },
+            {
+              "role": "PREDSEDA PREDSTAVENSTVA",
+              "organization": "INOVAČNÉ CENTRUM KOŠICKÉHO KRAJA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN",
+              "organization": "EURÓPSKY VÝBOR REGIÓNOV",
+              "benefits": "PAUŠÁLNE NÁHRADY"
+            },
+            {
+              "role": "ČLEN A PREDSEDA SPRÁVNEJ RADY",
+              "organization": "NADÁCIA KOŠICKÉHO SAMOSPRÁVNEHO KRAJA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN DOZORNEJ RADY",
+              "organization": "SOCIÁLNY PODNIK KSK, S. R.O., V.S.P.",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "KOŠICKÝ KLASTER NOVÉHO PRIEMYSLU",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "DOBROVOĽNÝ ZBOR CIVILNEJ OCHRANY KSK, N.O.",
+              "benefits": "NÁHRADA PREUKÁZANÝCH VÝDAVKOV"
+            },
+            {
+              "role": "ČLEN SPRÁVNEJ RADY",
+              "organization": "DOPRAVNÁ INFRAŠTRUKTÚRA KSK, N.O.",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 9
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "13196",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "14848",
+              "share": "210/10000"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "T3196",
+              "share": "111 %"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "14848",
+              "share": "210110000 %"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 76 119 € → 80 835 € (+4 716 €)",
+      "Funkcie: 9 → 9 (0)",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
   },
   "slug": "ing-rastislav-trnka",
   "context": {
@@ -1035,7 +1188,7 @@
     "obligations": 2,
     "income_percentile": 81,
     "property_percentile": 38,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 4.5

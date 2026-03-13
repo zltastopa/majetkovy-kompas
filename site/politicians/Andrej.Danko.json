@@ -960,16 +960,198 @@
   "total_changes": 9,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Andrej.Danko.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Andrej.Danko.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Andrej.Danko.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Andrej.Danko.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 12475,
+            "other": 399073
+          },
+          "new": {
+            "public_function": 52915,
+            "other": 65160
+          },
+          "old_total": 411548,
+          "new_total": 118075,
+          "delta": -293473,
+          "delta_pct": -71.3
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA SLOVENSKEJ NÁRODNEJ STRANY",
+              "organization": "SLOVENSKÁ NÁRODNÁ STRANA",
+              "benefits": "OSOBNÝ AUTOMOBIL"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREDSEDA SLOVENSKEJ NÁRODNEJ STRANY",
+              "organization": "SLOVENSKÁ NÁRODNÁ STRANA",
+              "benefits": "OSOBNÝ AUTOMOBIL MERCEDES BENZ, ŠKODA SUPERB\r\nODMENA ZA VÝKON FUNKCIE"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "10X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4706",
+              "share": "1/1"
+            },
+            {
+              "type": "4X OSTATNÉ PLOCHY",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4706",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4130",
+              "share": "28/273"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "5975",
+              "share": "21/39"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4706",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4253",
+              "share": "11/58"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4130",
+              "share": "28/273"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4706",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4811",
+              "share": "1/6"
+            }
+          ],
+          "new": [
+            {
+              "type": "10 X ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4706",
+              "share": "1/1"
+            },
+            {
+              "type": "4 X OSTATNÉ PLOCHY",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4706",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4130",
+              "share": "28/273"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "5975",
+              "share": "21/39"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4706",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4253",
+              "share": "11/58"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4130",
+              "share": "28/273"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4706",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DÚBRAVKA",
+              "lv_number": "4811",
+              "share": "1/6"
+            }
+          ],
+          "old_count": 9,
+          "new_count": 9
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "MERCEDES BENZ",
+              "year_of_manufacture": 2019
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "MERCEDES",
+              "year_of_manufacture": 2019
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2023
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 411 548 € → 118 075 € (-293 473 €)",
+      "Funkcie: 1 → 1 (0)",
+      "Nehnuteľnosti: 9 → 9 (0)",
+      "Vozidlá: 1 → 2 (+1)"
+    ]
   },
   "slug": "judr-andrej-danko",
   "context": {
@@ -979,7 +1161,7 @@
     "obligations": 4,
     "income_percentile": 92,
     "property_percentile": 83,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 6.6

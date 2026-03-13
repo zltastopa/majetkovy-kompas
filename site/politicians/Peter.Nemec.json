@@ -886,16 +886,221 @@
   "total_changes": 6,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Peter.Nemec.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Peter.Nemec.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Peter.Nemec.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Peter.Nemec.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 26181
+          },
+          "new": {
+            "public_function": 0,
+            "other": 14483
+          },
+          "old_total": 26181,
+          "new_total": 14483,
+          "delta": -11698,
+          "delta_pct": -44.7
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA NOVÉ MESTO",
+              "lv_number": "6379",
+              "share": "3185/2893007"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1090",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1301",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1660",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1090",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "361",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1090",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1432",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1641",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1654",
+              "share": "1/4"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "876",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "361",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "361",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "6379",
+              "share": "3185/2893007"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1090",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1301",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1660",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1090",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "361",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1090",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1432",
+              "share": "1/1"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1641",
+              "share": "1/2"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "1654",
+              "share": "1/4"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "876",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "361",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SÁSA",
+              "lv_number": "361",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 13,
+          "new_count": 13
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "SPOTREBNY ÚVER",
+              "share": "1/1",
+              "date": "11. 10. 2023"
+            }
+          ],
+          "new": [
+            {
+              "type": "SPOTREBNÝ ÚVER",
+              "share": "1/1",
+              "date": "11. 10. 2023"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 26 181 € → 14 483 € (-11 698 €)",
+      "Nehnuteľnosti: 13 → 13 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
   },
   "slug": "judr-peter-nemec-phd",
   "context": {
@@ -905,7 +1110,7 @@
     "obligations": 1,
     "income_percentile": 23,
     "property_percentile": 89,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0.8

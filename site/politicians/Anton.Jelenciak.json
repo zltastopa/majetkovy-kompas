@@ -645,16 +645,124 @@
   "total_changes": 19,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Anton.Jelenciak.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Anton.Jelenciak.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Anton.Jelenciak.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Anton.Jelenciak.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ NÁRODNÉ CENTRUM PRE KVANTOVÉ TECHNOLÓGIE)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (CENTRUM PRE UMELÚ INTELIGENCIU)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DIGITÁLNA KOALÍCIA - NÁRODNÁ KOALÍCIA PRE DIGITÁLNE ZRUČNOSTI A POVOLANIA SR)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÉ SUPERPOČÍTAČOVÉ CENTRUM)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ KOALÍCIA PRE DIGITÁLNE ZRUČNOSTI A POVOLANIA )\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÉ CENTRUM KVANTOVÝCH TECHNOLÓGIÍ)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÉ SUPERPOČÍTAČOVÉ CENTRUM )\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAKIA - CENTRUM PRE UMELÚ INTELIGENCIU )"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (SLOVENSKÉ NÁRODNÉ CENTRUM PRE KVANTOVÉ TECHNOLÓGIE)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (CENTRUM PRE UMELÚ INTELIGENCIU)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (DIGITÁLNA KOALÍCIA - NÁRODNÁ KOALÍCIA PRE DIGITÁLNE ZRUČNOSTI A POVOLANIA SR)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÉ SUPERPOČÍTAČOVÉ CENTRUM)"
+          ],
+          "new": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ KOALÍCIA PRE DIGITÁLNE ZRUČNOSTI A POVOLANIA )",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÉ CENTRUM KVANTOVÝCH TECHNOLÓGIÍ)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÉ SUPERPOČÍTAČOVÉ CENTRUM )",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SLOVAKIA - CENTRUM PRE UMELÚ INTELIGENCIU )"
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 61395
+          },
+          "new": {
+            "public_function": 0,
+            "other": 27395
+          },
+          "old_total": 61395,
+          "new_total": 27395,
+          "delta": -34000,
+          "delta_pct": -55.4
+        },
+        {
+          "field": "employment",
+          "old": "MINISTERSTVO INVESTÍCIÍ, REGIONÁLNEHO ROZVOJA A INFORMATIZÁCIE SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MIRRI SR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MALACKY",
+              "lv_number": "2468",
+              "share": "1/4"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "MODRA",
+              "lv_number": "7112",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "MALACKY",
+              "lv_number": "4838",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "DOM",
+              "cadastral_territory": "MALACKY",
+              "lv_number": "2468",
+              "share": "1/4"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "PEZINOK",
+              "lv_number": "7112",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "MALACKY",
+              "lv_number": "4898",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2021,
+              "share": "1/1"
+            }
+          ],
+          "new": null
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 4 → 4 (0)",
+      "Príjmy: 61 395 € → 27 395 € (-34 000 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Hnuteľný majetok"
+    ]
   },
   "slug": "ing-anton-jelenciak",
   "context": {
@@ -662,9 +770,9 @@
     "income": 27395,
     "properties": 3,
     "obligations": 1,
-    "income_percentile": 30,
+    "income_percentile": 31,
     "property_percentile": 54,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.5

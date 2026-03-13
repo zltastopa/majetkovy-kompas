@@ -445,16 +445,137 @@
   "total_changes": 7,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Andrej.Sitkar.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Andrej.Sitkar.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Andrej.Sitkar.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Andrej.Sitkar.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 8707,
+            "other": 43403
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 8784
+          },
+          "old_total": 52110,
+          "new_total": 57696,
+          "delta": 5586,
+          "delta_pct": 10.7
+        },
+        {
+          "field": "employment",
+          "old": "SMER-SD\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nKOSIT A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "KOSIT A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "POSLANEC",
+              "organization": "MESTO KOŠICE",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "POSLANEC MČ",
+              "organization": "MESTSKÁ ČASŤ KOŠICE - ZÁPAD",
+              "benefits": "ODMENA"
+            }
+          ],
+          "new": [
+            {
+              "role": "POSLANEC",
+              "organization": "MESTO KOŠICE",
+              "benefits": "ODMENA"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "TERASA",
+              "lv_number": "13787",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STREDA NAD BODROGOM",
+              "lv_number": "1420",
+              "share": "1/8"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "STREDA NAD BODROGOM",
+              "lv_number": "460",
+              "share": "2/232"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA, ZÁHRADA",
+              "cadastral_territory": "STREDA NAD BODROGOM",
+              "lv_number": "4",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA, ZÁHRADA",
+              "cadastral_territory": "STREDA NAD BODROGOM",
+              "lv_number": "780",
+              "share": "3/8, 14/24"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "TERASA",
+              "lv_number": "13787",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA, ZÁHRADA",
+              "cadastral_territory": "STREDA NAD BODROGOM",
+              "lv_number": "4",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA, ZÁHRADA",
+              "cadastral_territory": "STREDA NAD BODROGOM",
+              "lv_number": "780",
+              "share": "3/8, 14/24"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 3
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "MOTOROVÉ VOZIDLO",
+              "brand": "BMW",
+              "year_of_manufacture": 2016,
+              "share": "1/1"
+            }
+          ]
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 52 110 € → 57 696 € (+5 586 €)",
+      "Zamestnanie",
+      "Funkcie: 2 → 1 (-1)",
+      "Nehnuteľnosti: 5 → 3 (-2)",
+      "Hnuteľný majetok"
+    ]
   },
   "slug": "ing-andrej-sitkar",
   "context": {
@@ -464,7 +585,7 @@
     "obligations": 1,
     "income_percentile": 62,
     "property_percentile": 54,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.2

@@ -1426,16 +1426,125 @@
   "total_changes": 16,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Daniel.Ivancik.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Daniel.Ivancik.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Daniel.Ivancik.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Daniel.Ivancik.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "GARSÓNKA",
+              "cadastral_territory": "NITRA",
+              "lv_number": "5310, 6275",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PLOCHY, LESNÉ PLOCHY",
+              "cadastral_territory": "DRAŽOVCE",
+              "lv_number": "3348, 2924, 3762, 3934, 3933, 2924",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "PALÁRIKOVO",
+              "lv_number": "1976, 3124, 4888, 4885, 2829, 5225",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "PALÁRIKOVO",
+              "lv_number": "3189, 3241, 3434, 3435, 3545, 3188",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, OSTATNÉ PLOCHY",
+              "cadastral_territory": "PALÁRIKOVO",
+              "lv_number": "1973, 5302, 2254, 2772, 2828, 3062",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            },
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA, ORNÁ PÔDA, LESNÉ POZEMKY",
+              "cadastral_territory": "DRAŽOVCE",
+              "lv_number": "662, 1762, 2874, 2877, 1655, 3745, 1618",
+              "share": "BSM, SPOLUVLASTNÍCKY PODIEL"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PLOCHY, LESNÉ PLOCHY, ORNÁ PÔDA",
+              "cadastral_territory": "DRAŽOVCE",
+              "lv_number": "3810, 3831, 4343, 4345, 3940, 2454",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY, LESNÉ PLOCHY, OSTATNÉ PLOCHY",
+              "cadastral_territory": "DRAŽOVCE",
+              "lv_number": "3935, 3936, 3937, 3939, 3938, 3930",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            }
+          ],
+          "new": [
+            {
+              "type": "GARSÓNKA",
+              "cadastral_territory": "NITRA",
+              "lv_number": "5310, 6275",
+              "share": "1/1"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÉ TRÁVNE PLOCHY, LESNÉ PLOCHY",
+              "cadastral_territory": "DRAŽOVCE",
+              "lv_number": "3348, 2924, 3762, 3934, 3933",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "PALÁRIKOVO",
+              "lv_number": "1976, 3124, 4888, 4885, 2829, 5225",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "PALÁRIKOVO",
+              "lv_number": "3189, 3241, 3434, 3435, 3545, 3188",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            },
+            {
+              "type": "ORNÁ PÔDA, TRVALÝ TRÁVNY PORAST, OSTATNÉ PLOCHY",
+              "cadastral_territory": "PALÁRIKOVO",
+              "lv_number": "1973, 5302, 2254, 2772, 2828, 3062",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            },
+            {
+              "type": "RODINNÝ DOM, ZÁHRADA, ORNÁ PÔDA, LESNÉ POZEMKY",
+              "cadastral_territory": "DRAŽOVCE",
+              "lv_number": "662, 1762, 2874, 2877, 1655, 3745, 1618",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "TRVALÉ TRÁVNE PLOCHY, LESNÉ PLOCHY, ORNÁ PÔDA",
+              "cadastral_territory": "DRAŽOVCE",
+              "lv_number": "3810, 3831, 4343, 4345, 3920, 2454",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY, LESNÉ PLOCHY, OSTATNÉ PLOCHY",
+              "cadastral_territory": "DRAŽOVCE",
+              "lv_number": "3935, 3936, 3937, 3939, 3938, 3930",
+              "share": "SPOLUVLASTNÍCKY PODIEL"
+            }
+          ],
+          "old_count": 8,
+          "new_count": 8
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Nehnuteľnosti: 8 → 8 (0)"
+    ]
   },
   "slug": "mgr-daniel-ivancik",
   "context": {
@@ -1445,7 +1554,7 @@
     "obligations": 1,
     "income_percentile": 0,
     "property_percentile": 80,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 0

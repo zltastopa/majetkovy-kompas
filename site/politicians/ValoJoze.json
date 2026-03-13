@@ -4223,16 +4223,477 @@
   "total_changes": 13,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/ValoJoze.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/ValoJoze.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/ValoJoze.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/ValoJoze.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 47876,
+            "other": 0
+          },
+          "new": {
+            "public_function": 49908,
+            "other": 0
+          },
+          "old_total": 47876,
+          "new_total": 49908,
+          "delta": 2032,
+          "delta_pct": 4.2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "GALANTA 814504",
+              "lv_number": "222",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZABLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1945",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1945",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "GALANTA 814504",
+              "lv_number": "222",
+              "share": "100%"
+            },
+            {
+              "type": "TRVALO TRÁVNATÝ PORAST",
+              "cadastral_territory": "DRIETOMA",
+              "lv_number": "1269",
+              "share": "50%"
+            },
+            {
+              "type": "TRVALO TRÁVNATÝ PORAST",
+              "cadastral_territory": "DRIETOMA",
+              "lv_number": "1269",
+              "share": "50%"
+            },
+            {
+              "type": "VODNÉ PLOCHY",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "GALANTA",
+              "lv_number": "222",
+              "share": "100%"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SEMMERING - RAKÚSKO",
+              "lv_number": "921",
+              "share": "100%"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATA",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "GALANTA",
+              "lv_number": "222",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1945",
+              "share": "100%"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1945",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "OSTATNÉ PLOCHY",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "GALANTA",
+              "lv_number": "222",
+              "share": "100%"
+            },
+            {
+              "type": "TRVALO TRÁVNATÝ PORAST",
+              "cadastral_territory": "DRIETOMA",
+              "lv_number": "1269",
+              "share": "50%"
+            },
+            {
+              "type": "TRVALO TRÁVNATÝ PORAST",
+              "cadastral_territory": "DRIETOMA",
+              "lv_number": "1269",
+              "share": "50%"
+            },
+            {
+              "type": "VODNÉ PLOCHY",
+              "cadastral_territory": "ZÁBLATIE",
+              "lv_number": "1463",
+              "share": "25%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "GALANTA",
+              "lv_number": "222",
+              "share": "100%"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SEMMERING - RAKÚSKO",
+              "lv_number": "921",
+              "share": "100%"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            },
+            {
+              "type": "ZÁHRADNÁ CHATA",
+              "cadastral_territory": "TRENČIANSKA TEPLÁ",
+              "lv_number": "1065",
+              "share": "100%"
+            }
+          ],
+          "old_count": 36,
+          "new_count": 36
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 47 876 € → 49 908 € (+2 032 €)",
+      "Nehnuteľnosti: 36 → 36 (0)"
+    ]
   },
   "slug": "mudr-jozef-valocky",
   "context": {
@@ -4240,9 +4701,9 @@
     "income": 49908,
     "properties": 36,
     "obligations": 1,
-    "income_percentile": 53,
-    "property_percentile": 96,
-    "median_income": 52713,
+    "income_percentile": 54,
+    "property_percentile": 97,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.8

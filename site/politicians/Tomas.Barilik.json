@@ -348,16 +348,120 @@
   "total_changes": 5,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Tomas.Barilik.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Tomas.Barilik.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Tomas.Barilik.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Tomas.Barilik.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 24533,
+            "other": 12882
+          },
+          "old_total": 0,
+          "new_total": 37415,
+          "delta": 37415
+        },
+        {
+          "field": "employment",
+          "old": "BAVIT S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "BAVIT S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno\nTATRAVAGÓNKA, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ(WINSTON INVESTMENTS S.R.O.)KONATEĽ(BAVIT PLUS S.R.O.)",
+          "new": "KONATEĽ(BAVIT PLUS S.R.O.)KONATEĽ(WINSTON INVESTMENTS S.R.O.)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ŠEMŠA",
+              "lv_number": "1001",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ŠEMŠA",
+              "lv_number": "1001",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ŠEMŠA",
+              "lv_number": "955",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ŠEMŠA",
+              "lv_number": "955",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ŠEMŠA",
+              "lv_number": "1001",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ŠEMŠA",
+              "lv_number": "1001",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ŠEMŠA",
+              "lv_number": "555",
+              "share": "BSM"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ŠEMŠA",
+              "lv_number": "955",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "BANKOVÉ VKLADY, podiel: 1/1",
+            "PÔŽIČKY TRETEJ OSOBE, podiel: 1/1",
+            "ÚSPORY, podiel: 1/1"
+          ],
+          "new": [
+            "BANKOVÉ VKLADY, podiel: 1/1",
+            "PÔŽIČKY TRETEJ OSOBE , podiel: 1/1",
+            "ÚSPORY, podiel: 1/1"
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 0 € → 37 415 € (+37 415 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Majetkové práva: 3 → 3 (0)"
+    ]
   },
   "slug": "ing-tomas-barilik",
   "context": {
@@ -367,7 +471,7 @@
     "obligations": 1,
     "income_percentile": 38,
     "property_percentile": 61,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.1

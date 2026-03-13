@@ -271,16 +271,106 @@
   "total_changes": 7,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Vladimir.Duris1.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Vladimir.Duris1.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Vladimir.Duris1.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Vladimir.Duris1.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MH INVEST II., S.R.O.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MH INVEST II, S.R.O.)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MH INVEST II., S.R.O.)"
+          ],
+          "new": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (MH INVEST II, S.R.O.)"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 39491,
+            "other": 58166
+          },
+          "old_total": 0,
+          "new_total": 97657,
+          "delta": 97657
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "positions",
+          "old": null,
+          "new": [
+            {
+              "role": "PROKURISTA",
+              "organization": "MH INVEST, S.R.O.",
+              "benefits": "ODMENA"
+            },
+            {
+              "role": "PROKURISTA",
+              "organization": "VALALIKY INDUSTRIAL PARK, S.R.O.",
+              "benefits": "ODMENA"
+            }
+          ]
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "8681",
+              "share": "1/1"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ ÚSPORY A FINANČNÉ PROSTRIEDKY NA BANKOVÝCH ÚČTOCH, podiel: 1/1",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 2/3",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 65/1000",
+            "UMELECKÉ ZBIERKY, OBRAZY, KLENOTY, podiel: 1/1"
+          ],
+          "new": [
+            "FINANČNÉ ÚSPORY A FINANČNÉ PROSTRIEDKY NA BANKOVÝCH  ÚČTOCH, podiel: 1/1",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 2/3",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 65/1000",
+            "UMELECKÉ ZBIERKY, OBRAZY, KLENOTY, podiel: 1/1"
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 1 (0)",
+      "Príjmy: 0 € → 97 657 € (+97 657 €)",
+      "Nezlučiteľnosť",
+      "Funkcie",
+      "Nehnuteľnosti",
+      "Majetkové práva: 4 → 4 (0)"
+    ]
   },
   "slug": "ing-vladimir-duris",
   "context": {
@@ -290,7 +380,7 @@
     "obligations": 1,
     "income_percentile": 88,
     "property_percentile": 8,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 5.4

@@ -443,16 +443,128 @@
   "total_changes": 5,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Andrej.Stasiniak.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Andrej.Stasiniak.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Andrej.Stasiniak.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Andrej.Stasiniak.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ ENERGETIKA, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ ENERGETIKA AS.)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ ENERGETIKA, A.S.)"
+          ],
+          "new": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (STREDOSLOVENSKÁ ENERGETIKA AS.)"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 3585,
+            "other": 18241
+          },
+          "old_total": 0,
+          "new_total": 21826,
+          "delta": 21826
+        },
+        {
+          "field": "business_activity",
+          "old": "SZČO - MALOOB. PREDAJ SK NACE 47.77.O(Ing. ANDREJ STAŠINIAK ELITTEPRO)",
+          "new": "SZČO - MALOOB. PREDAJ SKNACE 47.77.0(ING. ANDREJ STAŠINIAK ELITTEPRO)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NÁMESTOVO",
+              "lv_number": "4224",
+              "share": "BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "NÁMESTOVO",
+              "lv_number": "4478",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "NÁMESTOVO",
+              "lv_number": "5640",
+              "share": "2/12 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - POZEMOK",
+              "cadastral_territory": "NÁMESTOVO",
+              "lv_number": "5104",
+              "share": "BSM 2/12"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - POZEMOK",
+              "cadastral_territory": "SLANICA",
+              "lv_number": "PARC. ČÍSLO 24/338 24/34",
+              "share": "BSM 1/12"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NÁMESTOVO",
+              "lv_number": "4224",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "SLANICA",
+              "lv_number": "1973",
+              "share": "BSM 1/12"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "NÁMESTOVO",
+              "lv_number": "4478",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ  PLOCHA A NÁDVORIE",
+              "cadastral_territory": "RABČICE",
+              "lv_number": "5024",
+              "share": "BSM 1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE+LESNÝ POZEMOK",
+              "cadastral_territory": "NÁMESTOVO",
+              "lv_number": "5640",
+              "share": "BSM 2/12"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 1 (0)",
+      "Príjmy: 0 € → 21 826 € (+21 826 €)",
+      "Podnikanie",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
   },
   "slug": "ing-andrej-stasiniak",
   "context": {
@@ -462,7 +574,7 @@
     "obligations": 1,
     "income_percentile": 27,
     "property_percentile": 68,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.2

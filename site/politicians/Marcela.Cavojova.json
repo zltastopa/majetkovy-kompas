@@ -539,16 +539,141 @@
   "total_changes": 9,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Marcela.Cavojova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Marcela.Cavojova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Marcela.Cavojova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Marcela.Cavojova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 11736,
+            "other": 2819
+          },
+          "new": {
+            "public_function": 48912,
+            "other": 0
+          },
+          "old_total": 14555,
+          "new_total": 48912,
+          "delta": 34357,
+          "delta_pct": 236.0
+        },
+        {
+          "field": "employment",
+          "old": "SMER - SOCIÁLNA DEMOKRACIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "KRAJSKÁ TAJOMNÍČKA",
+              "organization": "SMER - SOCIÁLNA DEMOKRACIA",
+              "benefits": "PLAT, FUNKCIA UKONČENÁ K 15.12.2023"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NITRA",
+              "lv_number": "1425",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "363",
+              "share": "1/8"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "429",
+              "share": "6/32"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "534",
+              "share": "3/32"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "535",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "536",
+              "share": "6/16"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "362",
+              "share": "1/4"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NITRA",
+              "lv_number": "1425",
+              "share": "1/2"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "363",
+              "share": "1/8"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "429",
+              "share": "6/32"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "534",
+              "share": "3/32"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "535, 536",
+              "share": "1/4, 6/16"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "JANOVA VES",
+              "lv_number": "362",
+              "share": "1/4"
+            }
+          ],
+          "old_count": 7,
+          "new_count": 6
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 14 555 € → 48 912 € (+34 357 €)",
+      "Zamestnanie",
+      "Funkcie",
+      "Nehnuteľnosti: 7 → 6 (-1)"
+    ]
   },
   "slug": "mgr-marcela-cavojova",
   "context": {
@@ -556,9 +681,9 @@
     "income": 48912,
     "properties": 6,
     "obligations": 1,
-    "income_percentile": 51,
+    "income_percentile": 52,
     "property_percentile": 74,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.7

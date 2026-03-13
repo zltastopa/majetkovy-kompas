@@ -228,16 +228,87 @@
   "total_changes": 5,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Roman.Jurcak.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Roman.Jurcak.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Roman.Jurcak.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Roman.Jurcak.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA SLUŽIEB DIPLOMATICKÉMU ZBORU, A.S.)",
+          "new": "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA SLUŽIEB DIPLOMATICKÉMU ZBORU, A.S.)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA SLUŽIEB DIPLOMATICKÉMU ZBORU, A.S.)"
+          ],
+          "new": [
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (ZÁPADOSLOVENSKÁ DISTRIBUČNÁ, A.S.)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (SPRÁVA SLUŽIEB DIPLOMATICKÉMU ZBORU, A.S.)"
+          ],
+          "old_count": 1,
+          "new_count": 2
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 49248,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 49248,
+          "delta": 49248
+        },
+        {
+          "field": "incompatibility",
+          "old": false,
+          "new": true
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "TRENČIANSKA TURNÁ",
+              "lv_number": "4729",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HANZLÍKOVÁ",
+              "lv_number": "884",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "HANZLÍKOVÁ",
+              "lv_number": "884",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 2 (+1)",
+      "Príjmy: 0 € → 49 248 € (+49 248 €)",
+      "Nezlučiteľnosť",
+      "Nehnuteľnosti: 2 → 1 (-1)"
+    ]
   },
   "slug": "ing-roman-jurcak",
   "context": {
@@ -247,7 +318,7 @@
     "obligations": 1,
     "income_percentile": 52,
     "property_percentile": 21,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.7

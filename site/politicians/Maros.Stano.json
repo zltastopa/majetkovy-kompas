@@ -542,16 +542,141 @@
   "total_changes": 10,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Maros.Stano.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Maros.Stano.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Maros.Stano.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Maros.Stano.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1500,
+            "other": 990
+          },
+          "new": {
+            "public_function": 21912,
+            "other": 33263
+          },
+          "old_total": 2490,
+          "new_total": 55175,
+          "delta": 52685,
+          "delta_pct": 2115.9
+        },
+        {
+          "field": "employment",
+          "old": null,
+          "new": "KANCELÁRIA NÁRODNEJ RADY SLOVENSKEJ REPUBLIKY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "SZČO(Mgr. MAROŠ STANO - MS CONSULTING)",
+          "new": "ŽIVNOSTNÍK(Mgr. MAROŠ STANO - MS CONSULTING)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "2998",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5294",
+              "share": "1/4"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "3871",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "1128",
+              "share": "1/6"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KÁLNICA",
+              "lv_number": "667",
+              "share": "7/8"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "2998",
+              "share": "1/2"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "ŽILINA",
+              "lv_number": "5294",
+              "share": "1/4"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - KARLOVA VES",
+              "lv_number": "3871",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "1128",
+              "share": "1/6"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "KÁLNICA",
+              "lv_number": "667",
+              "share": "7/8"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "VYBAVENIE DOMÁCNOSTI",
+              "share": "BSM"
+            }
+          ],
+          "new": null
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÁ HOTOVOSŤ, podiel: BSM"
+          ],
+          "new": [
+            "FINANČNÁ HOTOVOSŤ, podiel: BSM",
+            "VYBAVENIE DOMÁCNOSTI, podiel: BSM"
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 2 490 € → 55 175 € (+52 685 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti: 5 → 5 (0)",
+      "Hnuteľný majetok",
+      "Majetkové práva: 1 → 2 (+1)"
+    ]
   },
   "slug": "mgr-maros-stano",
   "context": {
@@ -561,7 +686,7 @@
     "obligations": 1,
     "income_percentile": 59,
     "property_percentile": 68,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.1

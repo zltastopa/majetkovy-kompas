@@ -1186,16 +1186,121 @@
   "total_changes": 27,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Juraj.Kubica.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Juraj.Kubica.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Juraj.Kubica.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Juraj.Kubica.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 43039
+          },
+          "new": {
+            "public_function": 0,
+            "other": 35832
+          },
+          "old_total": 43039,
+          "new_total": 35832,
+          "delta": -7207,
+          "delta_pct": -16.7
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA SPOLOČENSTVA",
+              "organization": "SPOLOČENSTVO VLASTNÍKOV BYTOV NBK 1100",
+              "benefits": "NIE SÚ"
+            },
+            {
+              "role": "PREDSEDA ZÁKLADNEJ ORGANIZÁCIE",
+              "organization": "SLOVENSKÝ ZVÄZ ZÁHRADKÁROV ZO 3-25",
+              "benefits": "NIE SÚ"
+            },
+            {
+              "role": "ČLEN RIADIACEHO VÝBORU",
+              "organization": "SLOVENSKÉ PLANETÁRIÁ",
+              "benefits": "NIE SÚ"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREDSEDA SPOLOČENSTVA",
+              "organization": "SPOLOČENSTVO VLASTNÍKOV BYTOV NBK 1110",
+              "benefits": "NIE SÚ"
+            },
+            {
+              "role": "PREDSEDA ZÁKLADNEJ ORGANIZÁCIE",
+              "organization": "SLOVENSKÝ ZVÄZ ZÁHRADKÁROV ZO 3-25",
+              "benefits": "NIE SÚ"
+            },
+            {
+              "role": "ČLEN RIADIACEHO VÝBORU",
+              "organization": "SLOVENSKÉ PLANETÁRIÁ",
+              "benefits": "NIE SÚ"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT OBÝVANÝ MATKOU",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3464",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT OBÝVANÝ SPOLOČNE S PARTNEROM",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "2754",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT OBÝVANÝ MATKOU",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3464",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT OBÝVANÝ SPOLOČNE S PARTNEROM",
+              "cadastral_territory": "BRATISLAVA VRAKUŇA",
+              "lv_number": "2754",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÉ VOZIDLO VO VLASTNÍCTVE PARTNERA",
+              "brand": "ŠKODA",
+              "year_of_manufacture": 2017
+            }
+          ],
+          "new": null
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 43 039 € → 35 832 € (-7 207 €)",
+      "Funkcie: 3 → 3 (0)",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Vozidlá"
+    ]
   },
   "slug": "ing-juraj-kubica-phd",
   "context": {
@@ -1205,7 +1310,7 @@
     "obligations": 1,
     "income_percentile": 36,
     "property_percentile": 38,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.0

@@ -1545,16 +1545,418 @@
   "total_changes": 12,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Jozef.Smatana.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Jozef.Smatana.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Jozef.Smatana.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Jozef.Smatana.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republiky\nštátny tajomník",
+          "new": "štátny tajomník"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "poslanec Národnej rady Slovenskej republiky",
+            "štátny tajomník"
+          ],
+          "new": [
+            "štátny tajomník"
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 33688,
+            "other": 0
+          },
+          "new": {
+            "public_function": 66344,
+            "other": 0
+          },
+          "old_total": 33688,
+          "new_total": 66344,
+          "delta": 32656,
+          "delta_pct": 96.9
+        },
+        {
+          "field": "employment",
+          "old": "SPRÁVA CIEST TRENČIANSKEHO SAMOSPRÁVNEHO KRAJA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno",
+          "new": "SPRÁVA CIEST TSK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\náno"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PODPREDSEDA",
+              "organization": "OBVODNÁ POĽOVNÍCKA KOMORA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "POĽOVNÍCKE ZDRUŽENIE TIESŇAVA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "SLOVENSKÝ POĽOVNÍCKY ZVÄZ RGO POVAŽSKÁ BYSTRICA",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREDSEDA",
+              "organization": "POĽOVNÍCKE ZDRUŽENIE TIESŇAVA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA",
+              "organization": "SLOVENSKÝ POĽOVNÍCKY ZVÄZ - RGO POVAŽSKÁ BYSTRICA",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "PREDSEDA DOZORNEJ RADY",
+              "organization": "OBVODNÁ POĽOVNÍCKA KOMORA - PB",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4395",
+              "share": "2477/4800"
+            },
+            {
+              "type": "ORNÁ PÓDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4367",
+              "share": "7/96"
+            },
+            {
+              "type": "ORNÁ PÓDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4376",
+              "share": "1/36"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKA TEPLÁ",
+              "lv_number": "4596",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKA TEPLÁ",
+              "lv_number": "5272",
+              "share": "1/72"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4350",
+              "share": "11/54"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4366",
+              "share": "1/144"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4374",
+              "share": "35/72"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4381",
+              "share": "1/72"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4384",
+              "share": "2/144"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4394",
+              "share": "55/864"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4615",
+              "share": "1/72"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4646",
+              "share": "1/72"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4750",
+              "share": "1/108"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "5369",
+              "share": "55/864"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "5479",
+              "share": "1/72"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "5509",
+              "share": "1/72"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "3697",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4757",
+              "share": "BSM"
+            },
+            {
+              "type": "TTP, LESNÉ PORASTY, VODNÁ PLOCHA, ORNÁ PÔDA (URBÁR)",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4934",
+              "share": "13/1773"
+            },
+            {
+              "type": "VODNÁ PLOCHÁ, OSTATNÁ PLOCHÁ, ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4932",
+              "share": "13/1773"
+            },
+            {
+              "type": "VODNÉ PLOCHY",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "9363",
+              "share": "26/3546"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4195",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4395",
+              "share": "2477/4800"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4350",
+              "share": "11/54"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4366",
+              "share": "1/144"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4367",
+              "share": "7/96"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4374",
+              "share": "35/72"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4376",
+              "share": "1/36"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4381",
+              "share": "1/72"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4384",
+              "share": "2/144"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4394",
+              "share": "55/864"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4596",
+              "share": "1/4"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4615",
+              "share": "1/72"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4646",
+              "share": "1/72"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4750",
+              "share": "1/108"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "5272",
+              "share": "1/72"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "5369",
+              "share": "55/864"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "5479",
+              "share": "1/72"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "5509",
+              "share": "1/72"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4648",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "3697",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4757",
+              "share": "BSM"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST, LESNÝ POZEMOK,\r\nVODNÁ PLOCHA, ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4934",
+              "share": "13/1773"
+            },
+            {
+              "type": "VODNÁ PLOCHA, OSTATNÁ PLOCHA, ORNÁ PÔDA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4932",
+              "share": "13/1773"
+            },
+            {
+              "type": "VODNÉ PLOCHY",
+              "cadastral_territory": "POVAŽSKÁ BYSTRICA",
+              "lv_number": "9363",
+              "share": "26/3546"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4961",
+              "share": "1/36"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE, ZÁHRADA",
+              "cadastral_territory": "POVAŽSKÁ TEPLÁ",
+              "lv_number": "4195",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 23,
+          "new_count": 25
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY  ÚVER",
+              "share": "1/1",
+              "date": "28. 11. 2011"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "28. 11. 2011"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 2 → 1 (-1)",
+      "Príjmy: 33 688 € → 66 344 € (+32 656 €)",
+      "Zamestnanie",
+      "Funkcie: 3 → 3 (0)",
+      "Nehnuteľnosti: 23 → 25 (+2)",
+      "Záväzky: 1 → 1 (0)"
+    ]
   },
   "slug": "ing-jozef-smatana",
   "context": {
@@ -1564,7 +1966,7 @@
     "obligations": 1,
     "income_percentile": 71,
     "property_percentile": 95,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.7

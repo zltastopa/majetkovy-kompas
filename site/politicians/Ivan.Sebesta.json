@@ -544,16 +544,204 @@
   "total_changes": 4,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Ivan.Sebesta.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Ivan.Sebesta.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Ivan.Sebesta.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Ivan.Sebesta.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 24533,
+            "other": 13244
+          },
+          "old_total": 0,
+          "new_total": 37777,
+          "delta": 37777
+        },
+        {
+          "field": "employment",
+          "old": "ENERGY SUPPORT S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "LETNÁ",
+              "lv_number": "12162",
+              "share": "1/1"
+            },
+            {
+              "type": "BYTOVÝ DOM",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "2977",
+              "share": "2/6"
+            },
+            {
+              "type": "CHATA",
+              "cadastral_territory": "KOŠICKÉ HÁMRE",
+              "lv_number": "274",
+              "share": "1/1"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "12156",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "12983",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "13973",
+              "share": "1/1"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "MATIAŠOVCE",
+              "lv_number": "2097",
+              "share": "121/216"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "MATIAŠOVCE",
+              "lv_number": "2098",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "KOŠICKÉ HÁMRE",
+              "lv_number": "274",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "12156",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "2977",
+              "share": "2/6"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "LETNÁ",
+              "lv_number": "12162",
+              "share": "1/1"
+            },
+            {
+              "type": "BYTOVÝ DOM",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "2977",
+              "share": "2/6"
+            },
+            {
+              "type": "CHATA",
+              "cadastral_territory": "KOŠICKÉ HÁMRE",
+              "lv_number": "274",
+              "share": "1/1"
+            },
+            {
+              "type": "DOM",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "12156",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "12983",
+              "share": "1/1"
+            },
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "13973",
+              "share": "1/1"
+            },
+            {
+              "type": "LESNÝ POZEMOK",
+              "cadastral_territory": "MATIAŠOVCE",
+              "lv_number": "2097",
+              "share": "121/216"
+            },
+            {
+              "type": "ORNÁ PÔDA",
+              "cadastral_territory": "MATIAŠOVCE",
+              "lv_number": "2098",
+              "share": "1/1"
+            },
+            {
+              "type": "OSTATNÁ PLOCHA",
+              "cadastral_territory": "KOŠICKÉ HÁMRE",
+              "lv_number": "274",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "12162",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "SEVERNÉ MESTO",
+              "lv_number": "2977",
+              "share": "2/6"
+            }
+          ],
+          "old_count": 11,
+          "new_count": 11
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "CENNÉ PAPIERE, podiel: 1/1",
+            "FINANČNÉ PROSTRIEDKY - DEDIČSTVO, podiel: 1/1",
+            "FINANČNÉ ÚSPORY, podiel: 1/1",
+            "PODIEL V PRÁVNICKEJ OSOBE S.R.O, podiel: 100%",
+            "PODIEL V PRÁVNICKEJ OSOBE, podiel: 50%",
+            "POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 1/1"
+          ],
+          "new": [
+            "CENNÉ PAPIERE, podiel: 1/1",
+            "FINANČNÉ PROSTRIEDKY - DEDIČSTVO, podiel: 1/1",
+            "FINANČNÉ ÚSPORY, podiel: 1/1",
+            "PODIEL V PRÁVNICKEJ OSOBE, podiel: 50%",
+            "PODIEL V S.R.O., podiel: 100%",
+            "POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 1/1"
+          ],
+          "old_count": 6,
+          "new_count": 6
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 0 € → 37 777 € (+37 777 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 11 → 11 (0)",
+      "Majetkové práva: 6 → 6 (0)"
+    ]
   },
   "slug": "ing-ivan-sebesta",
   "context": {
@@ -563,7 +751,7 @@
     "obligations": 1,
     "income_percentile": 38,
     "property_percentile": 87,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.1

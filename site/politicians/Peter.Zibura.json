@@ -618,16 +618,144 @@
   "total_changes": 11,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Peter.Zibura.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Peter.Zibura.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Peter.Zibura.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Peter.Zibura.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 41000,
+            "other": 2031
+          },
+          "new": {
+            "public_function": 58465,
+            "other": 0
+          },
+          "old_total": 43031,
+          "new_total": 58465,
+          "delta": 15434,
+          "delta_pct": 35.9
+        },
+        {
+          "field": "employment",
+          "old": "SOFTWARE AG DEVELOPMENT CENTER SLOVAKIA S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": null
+        },
+        {
+          "field": "business_activity",
+          "old": null,
+          "new": "KONATEĽ OD 10.08.2023(SOCIÁLNY PODNIK SPIŠSKÁ BELÁ S.R.O.)KONATEĽ OD 01.04.2023(MESTSKÝ PODNIK SPIŠSKÁ BELÁ S.R.O.)"
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA",
+              "organization": "ONLINE SLOVENSKO",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "ŠTATUTÁR, KONATEĽ,  MESTO JE 100% VLASTNÍK",
+              "organization": "MESTSKÝ PODNIK SPIŠSKÁ BELÁ S.R.O.",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "ŠTATUTÁR, KONATEĽ, MESTO JE 100% VLASTNÍK",
+              "organization": "SOCIÁLNY PODNIK SPIŠSKÁ BELÁ S.R.O.",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "ŠTATUTÁR, MESTO JE 100% VLASTNÍK",
+              "organization": "LESY MESTA SPIŠSKÁ BELÁ S.R.O.",
+              "benefits": "NEMÁM"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREDSEDA",
+              "organization": "ONLINE SLOVENSKO",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "ŠTATUTÁR, MESTO JE 100% VLASTNÍK",
+              "organization": "LESY MESTA SPIŠSKÁ BELÁ S.R.O.",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "ŠTATUTÁR, MESTO JE 100% VLASTNÍK",
+              "organization": "MESTSKÝ PODNIK SPIŠSKÁ BELÁ S.R.O.",
+              "benefits": "NEMÁM"
+            },
+            {
+              "role": "ŠTATUTÁR, MESTO JE 100% VLASTNÍK",
+              "organization": "SOCIÁLNY PODNIK SPIŠSKÁ BELÁ S.R.O.",
+              "benefits": "NEMÁM"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "FURČA",
+              "lv_number": "11505",
+              "share": "712 %"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SPIŠŠKÁ BELÁ",
+              "lv_number": "2749",
+              "share": "BSM"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT V BYTOVOM DOME",
+              "cadastral_territory": "FURČA",
+              "lv_number": "11505",
+              "share": "1/2"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SPIŠSKÁ BELÁ",
+              "lv_number": "2749",
+              "share": "BSM"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "movable_property",
+          "old": null,
+          "new": [
+            {
+              "type": "OSOBNÉ VOZIDLO",
+              "brand": "PEUGEOT",
+              "year_of_manufacture": 2014,
+              "share": "1/1"
+            }
+          ]
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 43 031 € → 58 465 € (+15 434 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Funkcie: 4 → 4 (0)",
+      "Nehnuteľnosti: 2 → 2 (0)",
+      "Hnuteľný majetok"
+    ]
   },
   "slug": "ing-mgr-peter-zibura",
   "context": {
@@ -637,7 +765,7 @@
     "obligations": 1,
     "income_percentile": 63,
     "property_percentile": 38,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.2

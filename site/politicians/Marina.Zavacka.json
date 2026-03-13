@@ -637,16 +637,75 @@
   "total_changes": 15,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Marina.Zavacka.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Marina.Zavacka.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Marina.Zavacka.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Marina.Zavacka.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 31296,
+            "other": 22845
+          },
+          "new": {
+            "public_function": 34320,
+            "other": 26568
+          },
+          "old_total": 54141,
+          "new_total": 60888,
+          "delta": 6747,
+          "delta_pct": 12.5
+        },
+        {
+          "field": "employment",
+          "old": "BRATISLAVSKÉ KULTÚRNE A INFORMAČNÉ STREDISKO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nGALÉRIA MESTA BRATISLAVY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMESTSKÁ ČASŤ BRATISLAVA STARÉ MESTO\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nN-PRESS\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nPOST BELLUM\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nBRATISLAVSKÝ SAMOSPRÁVNY KRAJ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nFILOZOFICKÁ FAKULTA UK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nHISTORICKÝ ÚSTAV SAV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nKONŠPIRÁTORI.SK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMÚZEUM MESTA BRATISLAVY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nROZHLAS A TELEVÍZIA SLOVENSKA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "MESTSKÉ KULTÚRNE STREDISKO SENEC\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nKONŠPIRÁTORI.SK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nMASARYKOVA UNIVERZITA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nNITRIANSKA GALÉRIA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nROZHLAS A TELEVÍZIA SLOVENSKA - STVR\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nFILOZOFICKÁ FAKULTA UK\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nHISTORICKÝ ÚSTAV SAV, V.V.I.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nÚRAD TRNAVSKÉHO SAMOSPRÁVNEHO KRAJA\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nSLOVENSKÁ AKADÉMIA VIED\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO BRATISLAVA 3",
+              "lv_number": "3748",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY",
+              "cadastral_territory": "NOVÉ MESTO BRATISLAVA 3",
+              "lv_number": "3881",
+              "share": "SPOLOČNÉ VLASTNÍCTVO"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT, ZASTAVANÉ PLOCHY",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3748",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3881",
+              "share": "SPOLUVLASTNÍK"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 54 141 € → 60 888 € (+6 747 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
   },
   "slug": "mgr-marina-zavacka-phd",
   "context": {
@@ -656,7 +715,7 @@
     "obligations": 1,
     "income_percentile": 66,
     "property_percentile": 38,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.4

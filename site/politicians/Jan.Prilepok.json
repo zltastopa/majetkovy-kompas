@@ -1584,16 +1584,243 @@
   "total_changes": 20,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Jan.Prilepok.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Jan.Prilepok.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Jan.Prilepok.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Jan.Prilepok.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 43830,
+            "other": 7630
+          },
+          "new": {
+            "public_function": 48169,
+            "other": 8100
+          },
+          "old_total": 51460,
+          "new_total": 56269,
+          "delta": 4809,
+          "delta_pct": 9.3
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "DOLNÝ KUBÍN",
+              "lv_number": "4345",
+              "share": "1/6"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VEĽKÝ BYSTEREC",
+              "lv_number": "4162",
+              "share": "1/1"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "DOLNÝ KUBÍN",
+              "lv_number": "6820, 10692, 6804, 10980, 6772",
+              "share": "3/8"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "6774",
+              "share": "3/16"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PÁRNICA",
+              "lv_number": "2645",
+              "share": "27/7448"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "6761",
+              "share": "9/23"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "6762",
+              "share": "69/245"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "6776",
+              "share": "1/3"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "6804",
+              "share": "3/4"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "6821",
+              "share": "93/244"
+            },
+            {
+              "type": "POZEMOK - URBÁR",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "4791",
+              "share": "13500/3724000"
+            },
+            {
+              "type": "ZÁLOHA NA BYT",
+              "cadastral_territory": "DOLNÝ KUBÍN",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "DOLNÝ KUBÍN",
+              "lv_number": "4345",
+              "share": "1/6"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "VEĽKÝ BYSTEREC",
+              "lv_number": "4162",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT, GARÁŽ",
+              "cadastral_territory": "DOLNÝ KUBÍN",
+              "lv_number": "6660",
+              "share": "1/2"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "DOLNÝ KUBÍN",
+              "lv_number": "6820, 10692, 6804, 10980, 6772",
+              "share": "3/8"
+            },
+            {
+              "type": "POZEMKY",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "6774",
+              "share": "3/16"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "PÁRNICA",
+              "lv_number": "2645",
+              "share": "27/7448"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "6761",
+              "share": "9/23"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "6762",
+              "share": "69/245"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "6776",
+              "share": "1/3"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "6804",
+              "share": "3/4"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "6821",
+              "share": "93/244"
+            },
+            {
+              "type": "POZEMOK - URBÁR",
+              "cadastral_territory": "ZÁZRIVÁ",
+              "lv_number": "4791",
+              "share": "13500/3724000"
+            }
+          ],
+          "old_count": 12,
+          "new_count": 12
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2020,
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "AUTO",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 2020,
+              "share": "1/1"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "property_rights",
+          "old": null,
+          "new": [
+            "ZÁLOHA NA BYT, podiel: 1/1"
+          ]
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
+              "share": "1/1",
+              "date": "20. 02. 2022"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTÉKA",
+              "share": "1/1",
+              "date": "18. 12. 2024"
+            },
+            {
+              "type": "PÔŽIČKA NA ZÁLOHU NA BYT",
+              "share": "1/2",
+              "date": "20. 02. 2022"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 51 460 € → 56 269 € (+4 809 €)",
+      "Nehnuteľnosti: 12 → 12 (0)",
+      "Hnuteľný majetok: 1 → 1 (0)",
+      "Majetkové práva",
+      "Záväzky: 1 → 2 (+1)"
+    ]
   },
   "slug": "ing-jan-prilepok",
   "context": {
@@ -1603,7 +1830,7 @@
     "obligations": 2,
     "income_percentile": 61,
     "property_percentile": 88,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.1

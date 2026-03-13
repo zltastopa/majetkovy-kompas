@@ -559,16 +559,57 @@
   "total_changes": 12,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Richard.Kovacik.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Richard.Kovacik.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Richard.Kovacik.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Richard.Kovacik.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 9824,
+            "other": 21526
+          },
+          "new": {
+            "public_function": 11439,
+            "other": 18523
+          },
+          "old_total": 31350,
+          "new_total": 29962,
+          "delta": -1388,
+          "delta_pct": -4.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT, SPOLOČNÉ PRIESTORY A PRISLÚCHAJÚCE PARCELY",
+              "cadastral_territory": "NITRA - CHRENOVÁ",
+              "lv_number": "2276-2279",
+              "share": "1/1, 1/316"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT+ SPOLOČNÉ PRIESTORY A PRISLÚCHAJÚCE PARCELY",
+              "cadastral_territory": "NITRA - CHRENOVÁ",
+              "lv_number": "2276 - 2279",
+              "share": "1/1, 1/316"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 31 350 € → 29 962 € (-1 388 €)",
+      "Nehnuteľnosti: 1 → 1 (0)"
+    ]
   },
   "slug": "mgr-richard-kovacik-phd",
   "context": {
@@ -578,7 +619,7 @@
     "obligations": 1,
     "income_percentile": 32,
     "property_percentile": 21,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.7

@@ -365,16 +365,81 @@
   "total_changes": 5,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Jana.Krchnava.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Jana.Krchnava.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Jana.Krchnava.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Jana.Krchnava.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 30402
+          },
+          "new": {
+            "public_function": 0,
+            "other": 56971
+          },
+          "old_total": 30402,
+          "new_total": 56971,
+          "delta": 26569,
+          "delta_pct": 87.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "TOPOĽČANY",
+              "lv_number": "1721",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANA PLOCHA A NADVORIE",
+              "cadastral_territory": "TOPOĽČANY",
+              "lv_number": "1721",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "TOPOĽČANY",
+              "lv_number": "1721",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "TOPOĽČANY",
+              "lv_number": "1721",
+              "share": "1/2"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TOPOĽČANY",
+              "lv_number": "1721",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "TOPOĽČANY",
+              "lv_number": "1721",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 30 402 € → 56 971 € (+26 569 €)",
+      "Nehnuteľnosti: 3 → 3 (0)"
+    ]
   },
   "slug": "mgr-jana-krchnava",
   "context": {
@@ -382,9 +447,9 @@
     "income": 56971,
     "properties": 3,
     "obligations": 1,
-    "income_percentile": 61,
+    "income_percentile": 62,
     "property_percentile": 54,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.2

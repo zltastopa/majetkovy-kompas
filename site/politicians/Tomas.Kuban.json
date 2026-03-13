@@ -757,16 +757,135 @@
   "total_changes": 19,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Tomas.Kuban.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Tomas.Kuban.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Tomas.Kuban.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Tomas.Kuban.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "likvidátor (ÚSTAV TECHNOLÓGIE A RACIONALIZÁCIE, ŠTÁTNY PODNIK V LIKVIDÁCIÍ )",
+          "new": "likvidátor (ÚSTAV TECHNOLÓGIE A RACIONALIZÁCIE ŠTÁTNY PODNIK V LIKVIDÁCII)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "likvidátor (ÚSTAV TECHNOLÓGIE A RACIONALIZÁCIE, ŠTÁTNY PODNIK V LIKVIDÁCIÍ )"
+          ],
+          "new": [
+            "likvidátor (ÚSTAV TECHNOLÓGIE A RACIONALIZÁCIE ŠTÁTNY PODNIK V LIKVIDÁCII)"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 1100,
+            "other": 18191
+          },
+          "new": {
+            "public_function": 0,
+            "other": 25868
+          },
+          "old_total": 19291,
+          "new_total": 25868,
+          "delta": 6577,
+          "delta_pct": 34.1
+        },
+        {
+          "field": "employment",
+          "old": "BRATISLAVSKÉ CENTRUM SLUŽIEB\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "BRATISLAVSKĚ CENTRUM SLUŽIEB\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "business_activity",
+          "old": "KONATEĽ A ADVOKÁT(TOMÁŠ KUBÁŇ, ADVOKÁTSKA KANCELÁRIA, S. R. O. )",
+          "new": "KONATEĽ A ADVOKÁT(TOMÁŠ KUBÁŇ, ADVKOKÁTSKA KANCELÁRIA, S.R.O.)"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "3856",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "3856",
+              "share": "14/951"
+            },
+            {
+              "type": "ORNÁ PÔDA, ZÁHRADA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "LUDROVÁ",
+              "lv_number": "3184",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LUDROVÁ",
+              "lv_number": "3184",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LUDROVÁ",
+              "lv_number": "3184",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "3856",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÉ PRIESTORY",
+              "cadastral_territory": "NOVÉ MESTO",
+              "lv_number": "3856",
+              "share": "14/951"
+            },
+            {
+              "type": "ORNÁ PÔDA,  ZÁHRADA, OSTATNÁ PLOCHA",
+              "cadastral_territory": "LUDROVÁ",
+              "lv_number": "3184",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "LUDROVÁ",
+              "lv_number": "3184",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "LUDROVÁ",
+              "lv_number": "3184",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 5,
+          "new_count": 5
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 1 (0)",
+      "Príjmy: 19 291 € → 25 868 € (+6 577 €)",
+      "Zamestnanie",
+      "Podnikanie",
+      "Nehnuteľnosti: 5 → 5 (0)"
+    ]
   },
   "slug": "mgr-tomas-kuban",
   "context": {
@@ -776,7 +895,7 @@
     "obligations": 2,
     "income_percentile": 30,
     "property_percentile": 68,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.4

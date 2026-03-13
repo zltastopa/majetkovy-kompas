@@ -490,16 +490,117 @@
   "total_changes": 6,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Jozef.Jezik.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Jozef.Jezik.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Jozef.Jezik.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Jozef.Jezik.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 16106,
+            "other": 18460
+          },
+          "new": {
+            "public_function": 54498,
+            "other": 9277
+          },
+          "old_total": 34566,
+          "new_total": 63775,
+          "delta": 29209,
+          "delta_pct": 84.5
+        },
+        {
+          "field": "employment",
+          "old": "DEJ, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "STEFE ZVOLEN, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nDEJ, S.R.O.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "positions",
+          "old": null,
+          "new": [
+            {
+              "role": "POSLANEC MSU",
+              "organization": "MESTSKÝ ÚRAD ZVOLEN",
+              "benefits": "ODMENA"
+            }
+          ]
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZVOLEN",
+              "lv_number": "8490",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "ZVOLEN",
+              "lv_number": "8490",
+              "share": "2/130"
+            },
+            {
+              "type": "PODIEL PRIESTORU NA SPOLOČNÝCH ČASTIACH",
+              "cadastral_territory": "ZVOLEN",
+              "lv_number": "8490",
+              "share": "16492/1026635"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BACÚROV",
+              "lv_number": "637",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "ZVOLEN",
+              "lv_number": "5560",
+              "share": "1/10"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "ZVOLEN",
+              "lv_number": "5560",
+              "share": "1/10"
+            },
+            {
+              "type": "POZEMOK",
+              "cadastral_territory": "SLOVENSKÁ ĽUPČA",
+              "lv_number": "2523",
+              "share": "1/2"
+            },
+            {
+              "type": "REKREAČNÁ CHATA",
+              "cadastral_territory": "HRIŇOVÁ",
+              "lv_number": "1696",
+              "share": "1/2"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BACÚROV",
+              "lv_number": "637",
+              "share": "1/2"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 5
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 34 566 € → 63 775 € (+29 209 €)",
+      "Zamestnanie",
+      "Funkcie",
+      "Nehnuteľnosti: 4 → 5 (+1)"
+    ]
   },
   "slug": "mudr-jozef-jezik",
   "context": {
@@ -509,7 +610,7 @@
     "obligations": 2,
     "income_percentile": 69,
     "property_percentile": 68,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.5

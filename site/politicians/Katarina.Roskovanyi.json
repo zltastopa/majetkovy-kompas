@@ -267,16 +267,100 @@
   "total_changes": 3,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Katarina.Roskovanyi.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Katarina.Roskovanyi.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Katarina.Roskovanyi.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Katarina.Roskovanyi.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 69930,
+            "other": 0
+          },
+          "old_total": 0,
+          "new_total": 69930,
+          "delta": 69930
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA RUŽINOV",
+              "lv_number": "3931",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE - STREDNÉ MESTO",
+              "lv_number": "11504",
+              "share": "1/2"
+            },
+            {
+              "type": "OBYTNÝ DOM - ČIASTOČNÝ DOM",
+              "cadastral_territory": "KOŠICE - STREDNÉ MESTO",
+              "lv_number": "11315",
+              "share": "1/2"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - RUŽINOV",
+              "lv_number": "3931",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KOŠICE - STARÉ MESTO",
+              "lv_number": "11504",
+              "share": "1/2"
+            },
+            {
+              "type": "OBYTNÝ DOM",
+              "cadastral_territory": "KOŠICE - STARÉ MESTO",
+              "lv_number": "11315",
+              "share": "1/4"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "24. 05. 2016"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1",
+              "date": "04. 05. 2016"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 0 € → 69 930 € (+69 930 €)",
+      "Nehnuteľnosti: 3 → 3 (0)",
+      "Záväzky: 1 → 1 (0)"
+    ]
   },
   "slug": "judr-katarina-roskovanyi-mba",
   "context": {
@@ -286,7 +370,7 @@
     "obligations": 1,
     "income_percentile": 74,
     "property_percentile": 54,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.9

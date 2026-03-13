@@ -706,16 +706,69 @@
   "total_changes": 12,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Ivan.Horvath1.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Ivan.Horvath1.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Ivan.Horvath1.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Ivan.Horvath1.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 37065,
+            "other": 0
+          },
+          "new": {
+            "public_function": 50194,
+            "other": 0
+          },
+          "old_total": 37065,
+          "new_total": 50194,
+          "delta": 13129,
+          "delta_pct": 35.4
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT, GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3899",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÉ PLOCHY, OSTATNÉ PLOCHY",
+              "cadastral_territory": "BERNOLÁKOVO",
+              "lv_number": "4689",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT, GARÁŽ",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "3899",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM, ZASTAVANÉ A OSTATNÉ PLOCHY",
+              "cadastral_territory": "BERNOLÁKOVO",
+              "lv_number": "4689",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 37 065 € → 50 194 € (+13 129 €)",
+      "Nehnuteľnosti: 2 → 2 (0)"
+    ]
   },
   "slug": "ing-ivan-horvath",
   "context": {
@@ -725,7 +778,7 @@
     "obligations": 1,
     "income_percentile": 54,
     "property_percentile": 38,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.8

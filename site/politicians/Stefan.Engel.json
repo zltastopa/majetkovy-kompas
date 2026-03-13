@@ -886,16 +886,129 @@
   "total_changes": 13,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Stefan.Engel.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Stefan.Engel.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Stefan.Engel.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Stefan.Engel.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 31876,
+            "other": 1063
+          },
+          "new": {
+            "public_function": 36000,
+            "other": 1306
+          },
+          "old_total": 32939,
+          "new_total": 37306,
+          "delta": 4367,
+          "delta_pct": 13.3
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "PREDSEDA",
+              "organization": "OZ ODKAZ COBURGOVCOV - HISTÓRIA V SLUŽBÁCH BUDÚCNOSTI",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "TAJOMNÍK",
+              "organization": "ZVÄZ MÚZEÍ NA SLOVENSKU",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "PREDSEDA",
+              "organization": "O.Z. ODKAZ COBURGOVCOV HISTÓRIA V SLUŽBÁCH BUDÚCNOSTI",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLEN PREDSTAVENSTVA",
+              "organization": "ZVÄZ MÚZEÍ NA SLOVENSKU",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ ANTON",
+              "lv_number": "355",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ ANTON",
+              "lv_number": "355",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ ANTON",
+              "lv_number": "355",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - DOM",
+              "cadastral_territory": "SVÄTÝ ANTON",
+              "lv_number": "355",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ ANTON",
+              "lv_number": "355",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ ANTON",
+              "lv_number": "355",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "SVÄTÝ ANTON",
+              "lv_number": "355",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE-DOM",
+              "cadastral_territory": "SVÄTÝ ANTON",
+              "lv_number": "355",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 4,
+          "new_count": 4
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "ZASTAVANÁ PLOCHA A NÁDVORIE - DOM, kat. územie SVÄTÝ ANTON, rok zač. užívania: 2018, spôsob užívania: PRECHODNÝ POBYT",
+          "new": "ZASTAVANÁ PLOCHA A NÁDVORIE-DOM, kat. územie SVÄTÝ ANTON, rok zač. užívania: 2018, spôsob užívania: PRECHODNÝ POBYT"
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 32 939 € → 37 306 € (+4 367 €)",
+      "Funkcie: 2 → 2 (0)",
+      "Nehnuteľnosti: 4 → 4 (0)",
+      "Užívanie nehnuteľností"
+    ]
   },
   "slug": "ing-stefan-engel-phd",
   "context": {
@@ -905,7 +1018,7 @@
     "obligations": 1,
     "income_percentile": 38,
     "property_percentile": 61,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.1

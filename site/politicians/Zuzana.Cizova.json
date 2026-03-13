@@ -643,16 +643,257 @@
   "total_changes": 5,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Zuzana.Cizova.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Zuzana.Cizova.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Zuzana.Cizova.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Zuzana.Cizova.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 0,
+            "other": 0
+          },
+          "new": {
+            "public_function": 12870,
+            "other": 21173
+          },
+          "old_total": 0,
+          "new_total": 34043,
+          "delta": 34043
+        },
+        {
+          "field": "positions",
+          "old": [
+            {
+              "role": "KONATEĽ",
+              "organization": "ADVOKÁTSKA KANCELÁRIA JUDr. ZUZANA ČÍŽOVÁ",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLENKA PREDSEDNÍCTVA SAK",
+              "organization": "SLOVENSKÁ ADVOKÁTSKA KOMORA",
+              "benefits": "ŽIADNE"
+            }
+          ],
+          "new": [
+            {
+              "role": "KONATEĽ",
+              "organization": "ADVOKÁTSKA KANCELÁRIA JUDr. ZUZANA ČÍŽOVÁ",
+              "benefits": "ŽIADNE"
+            },
+            {
+              "role": "ČLENKA PREDSEDNÍCTVA SAK",
+              "organization": "SLOVENSKÁ ADVOKÁTSKA KOMORA",
+              "benefits": "NÁHRADA ZA STRATU ČASU, MZDA ZA DOHODU\r\nO VYKONANEJ PRÁCI"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BÁNOVCE NAD BEBRAVOU",
+              "lv_number": "2515",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KUBRÁ",
+              "lv_number": "4647",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TRENČIN",
+              "lv_number": "9487",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "10539",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "10663",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BÁNOVCE NAD BEBRAVOU",
+              "lv_number": "133",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BÁNOVCE NAD BEBRAVOU",
+              "lv_number": "3441",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "10575",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "10848",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BÁNOVCE NAD BEBRAVOU",
+              "lv_number": "3441",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BÁNOVCE NAD BEBRAVOU",
+              "lv_number": "3441",
+              "share": "1/1"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BÁNOVCE NAD BEBRAVOU",
+              "lv_number": "2515",
+              "share": "1/1"
+            },
+            {
+              "type": "BYT",
+              "cadastral_territory": "KUBRÁ",
+              "lv_number": "4647",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5370",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5370",
+              "share": "1/148"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "NIVY",
+              "lv_number": "5370",
+              "share": "1/45"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "10539",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "10663",
+              "share": "1/1"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "9487",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "BÁNOVCE NAD BEBRAVOU",
+              "lv_number": "133",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "BÁNOVCE NAD BEBRAVOU",
+              "lv_number": "3441",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "10575",
+              "share": "1/1"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TRENČÍN",
+              "lv_number": "10848",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BÁNOVCE NAD BEBRAVOU",
+              "lv_number": "3441",
+              "share": "1/1"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "BÁNOVCE NAD BEBRAVOU",
+              "lv_number": "3441",
+              "share": "1/1"
+            }
+          ],
+          "old_count": 11,
+          "new_count": 14
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "OBCHODNÝ PODIEL V SPOLOČNOSTI, podiel: 100%",
+            "POHĽADÁCKA VOČI SPOLOČNOSTI , podiel: 100%",
+            "ÚSPORY PEŇAŽNÝCH PROSTRIEDKOV, podiel: 100%"
+          ],
+          "new": [
+            "OBCHODNÝ PODIEL SPOLOČNOSTI, podiel: 100%",
+            "ÚSPORY PEŇAŽNÝCH PROSTRIEDKOV, podiel: 100%"
+          ],
+          "old_count": 3,
+          "new_count": 2
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "new": [
+            {
+              "type": "ZÁVÄZOK",
+              "share": "100%",
+              "date": "25. 12. 2024"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 0 € → 34 043 € (+34 043 €)",
+      "Funkcie: 2 → 2 (0)",
+      "Nehnuteľnosti: 11 → 14 (+3)",
+      "Majetkové práva: 3 → 2 (-1)",
+      "Záväzky: 1 → 1 (0)"
+    ]
   },
   "slug": "judr-zuzana-cizova",
   "context": {
@@ -662,7 +903,7 @@
     "obligations": 1,
     "income_percentile": 35,
     "property_percentile": 90,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 1.9

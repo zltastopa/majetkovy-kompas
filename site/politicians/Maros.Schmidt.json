@@ -1005,16 +1005,199 @@
   "total_changes": 23,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Maros.Schmidt.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Maros.Schmidt.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Maros.Schmidt.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Maros.Schmidt.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "income",
+          "old": {
+            "public_function": 38066,
+            "other": 3279
+          },
+          "new": {
+            "public_function": 35818,
+            "other": 3470
+          },
+          "old_total": 41345,
+          "new_total": 39288,
+          "delta": -2057,
+          "delta_pct": -5.0
+        },
+        {
+          "field": "employment",
+          "old": "CENTRUM EXPERIMENTÁLNEJ MEDICÍNY SAV\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nVYSOKÁ ŠKOLA VÝTVARNÝCH UMENÍ VŠVU\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "VYSOKÁ ŠKOLA VÝTVARNÝCH UMENÍ\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nCENTRUM EXPERIMENTÁLNEJ MEDICÍNY\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie\nAGROKOMPLEX NÁRODNÉ VÝSTAVISKO, Š.P.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT A ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "5961",
+              "share": "50%"
+            },
+            {
+              "type": "VINICA",
+              "cadastral_territory": "DOLNÉ DEVIČANY",
+              "lv_number": "1453",
+              "share": "100%"
+            },
+            {
+              "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DOLNÉ DEVIČANY",
+              "lv_number": "1453",
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "BUDOVA PRE ŠPORT A NA REKREAČNÉ ÚČELY",
+              "cadastral_territory": "ZÁHORSKÁ BYSTRICA",
+              "lv_number": "1543",
+              "share": "100%"
+            },
+            {
+              "type": "BYT A ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÉ MESTO BRATISLAVA",
+              "lv_number": "5961",
+              "share": "50%"
+            },
+            {
+              "type": "BYTOVÝ DOM - BYT",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "2998",
+              "share": "2/3"
+            },
+            {
+              "type": "BYTOVÝ DOM - NEBYTOVÉ PRIESTORY / POZEMKY",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "2998",
+              "share": "13956/1909146, 1680/642425"
+            },
+            {
+              "type": "BYTOVÝ DOM - NEBYTOVÉ PRIESTORY/ POZEMKY",
+              "cadastral_territory": "PETRŽALKA",
+              "lv_number": "2998",
+              "share": "13956/1909146, 4363/642425"
+            },
+            {
+              "type": "ORNA PÔDA A TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HRIŇOVÁ",
+              "lv_number": "2617",
+              "share": "1/15"
+            },
+            {
+              "type": "TRVALÝ TRÁVNY PORAST",
+              "cadastral_territory": "HRIŇOVÁ",
+              "lv_number": "5316",
+              "share": "1/270"
+            },
+            {
+              "type": "VINICA",
+              "cadastral_territory": "DOLNÉ DEVIČANY",
+              "lv_number": "1953",
+              "share": "100%"
+            },
+            {
+              "type": "VINICA A ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "DOLNÉ DEVIČANY",
+              "lv_number": "1453",
+              "share": "100%"
+            },
+            {
+              "type": "ZASTAVANÉ PLOCHY A NÁDVORIA",
+              "cadastral_territory": "ZÁHORSKÁ BYSTRICA",
+              "lv_number": "2796",
+              "share": "1/21"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 10
+        },
+        {
+          "field": "movable_property",
+          "old": [
+            {
+              "type": "DODÁVKOVÝ AUTOMOBIL",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 1987,
+              "share": "100%"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "RENAULT",
+              "year_of_manufacture": 1967,
+              "share": "100%"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "SUZUKI",
+              "year_of_manufacture": 1992,
+              "share": "100%"
+            }
+          ],
+          "new": [
+            {
+              "type": "DODÁVKOVÝ AUTOMOBIL",
+              "brand": "VOLKSWAGEN",
+              "year_of_manufacture": 1987,
+              "share": "100%"
+            },
+            {
+              "type": "OSOBNÝ  AUTOMOBIL",
+              "brand": "SUZUKI",
+              "year_of_manufacture": 1992,
+              "share": "100%"
+            },
+            {
+              "type": "OSOBNÝ AUTOMOBIL",
+              "brand": "RENAULT",
+              "year_of_manufacture": 1967,
+              "share": "100%"
+            }
+          ],
+          "old_count": 3,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "ÚVER NA BÝVANIE",
+              "share": "50%",
+              "date": "04. 10. 2021"
+            }
+          ],
+          "new": [
+            {
+              "type": "žiadny"
+            }
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "RODINNÝ DOM, kat. územie PUKANEC, rok zač. užívania: 2023, spôsob užívania: TRVALÝ POBYT",
+          "new": "RODINNÝ DOM , kat. územie PUKANEC, rok zač. užívania: 2023, spôsob užívania: TRVALÝ POBYT"
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Príjmy: 41 345 € → 39 288 € (-2 057 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 3 → 10 (+7)",
+      "Hnuteľný majetok: 3 → 3 (0)",
+      "Záväzky: 1 → 1 (0)",
+      "Užívanie nehnuteľností"
+    ]
   },
   "slug": "mgr-art-maros-schmidt",
   "context": {
@@ -1024,7 +1207,7 @@
     "obligations": 1,
     "income_percentile": 39,
     "property_percentile": 85,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 2.2

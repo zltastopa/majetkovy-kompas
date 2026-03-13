@@ -3594,16 +3594,526 @@
   "total_changes": 26,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Jan.Mikulik.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Jan.Mikulik.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Jan.Mikulik.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Jan.Mikulik.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "člen dozornej rady Sociálnej poisťovne\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU KULTÚRY NÁRODNOSTNÝCH MENŠÍN)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ČLEN RADY PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ)",
+          "new": "člen dozornej rady Sociálnej poisťovne\nčlen dozornej rady Všeobecnej zdravotnej poisťovne\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU KULTÚRY NÁRODNOSTNÝCH MENŠÍN)\nčlen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)\nštatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ČLEN RADY PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "člen dozornej rady Sociálnej poisťovne",
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU KULTÚRY NÁRODNOSTNÝCH MENŠÍN)",
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ČLEN RADY PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ)"
+          ],
+          "new": [
+            "člen dozornej rady Sociálnej poisťovne",
+            "člen dozornej rady Všeobecnej zdravotnej poisťovne",
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU KULTÚRY NÁRODNOSTNÝCH MENŠÍN)",
+            "člen kontrolného orgánu alebo dozorného orgánu právnickej osoby (FOND NA PODPORU UMENIA)",
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (ČLEN RADY PRE RIEŠENIE KRÍZOVÝCH SITUÁCIÍ)"
+          ],
+          "old_count": 4,
+          "new_count": 5
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 19964,
+            "other": 75890
+          },
+          "new": {
+            "public_function": 23014,
+            "other": 71239
+          },
+          "old_total": 95854,
+          "new_total": 94253,
+          "delta": -1601,
+          "delta_pct": -1.7
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4085",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "691",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "LAKŠÁRSKA NOVÁ VES",
+              "lv_number": "74",
+              "share": "1/2"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "DOVALOVO",
+              "lv_number": "2597",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "DOVALOVO",
+              "lv_number": "2598",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "1994",
+              "share": "600/703200"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "2138",
+              "share": "1/1172"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "2470",
+              "share": "12000/21096000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "2473",
+              "share": "36000/56256000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "3005",
+              "share": "6000/14064000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "3069",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "3382",
+              "share": "6000/14064000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "3383",
+              "share": "6000/14064000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "4434",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "4441",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "4722",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "5227",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "5228",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "5358",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "5732",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "5733",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "5843",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÁ KOKAVA",
+              "lv_number": "2301",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÁ KOKAVA",
+              "lv_number": "2302",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÁ PORÚBKA",
+              "lv_number": "1517",
+              "share": "600/703200"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÁ PORÚBKA",
+              "lv_number": "1908",
+              "share": "600/669600"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÁ PORÚBKA",
+              "lv_number": "2397",
+              "share": "600/703200"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÁ PORÚBKA",
+              "lv_number": "2398",
+              "share": "600/703200"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1498",
+              "share": "600/669600"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "603",
+              "share": "60/669600"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "809",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "NIŽNÁ BOCA",
+              "lv_number": "1625",
+              "share": "600/669600"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "NIŽNÁ BOCA",
+              "lv_number": "1626",
+              "share": "600/703200"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "VÝCHODNÁ",
+              "lv_number": "3592",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "VÝCHODNÁ",
+              "lv_number": "3593",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "ŠTRBSKÉ PLESO",
+              "lv_number": "363",
+              "share": "1/1674"
+            },
+            {
+              "type": "VODNÁ PLOCHA - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "5990",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "6027",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "6041",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "ZASTAVNÁ PLOCHA A NÁDVORIE - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "5989",
+              "share": "6000/6696000"
+            }
+          ],
+          "new": [
+            {
+              "type": "BYT",
+              "cadastral_territory": "BRATISLAVA - NOVÉ MESTO",
+              "lv_number": "4085",
+              "share": "1/1"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "BRATISLAVA - VRAKUŇA",
+              "lv_number": "691",
+              "share": "BSM"
+            },
+            {
+              "type": "RODINNÝ DOM S POZEMKOM",
+              "cadastral_territory": "LAKŠÁRSKA NOVÁ VES",
+              "lv_number": "74",
+              "share": "1/2"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "DOVALOVO",
+              "lv_number": "2597",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "DOVALOVO",
+              "lv_number": "2598",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "1994",
+              "share": "600/703200"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "2138",
+              "share": "1/1172"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "2470",
+              "share": "12000/21096000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "2473",
+              "share": "36000/56256000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "3005",
+              "share": "6000/14064000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "3069",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "3382",
+              "share": "6000/14064000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "3383",
+              "share": "6000/14064000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "4434",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "4441",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "4722",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "5227",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "5228",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "5358",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "5733",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "5843",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÁ KOKAVA",
+              "lv_number": "2301",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÁ KOKAVA",
+              "lv_number": "2302",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÁ PORÚBKA",
+              "lv_number": "1517",
+              "share": "600/703200"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÁ PORÚBKA",
+              "lv_number": "1908",
+              "share": "600/669600"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÁ PORÚBKA",
+              "lv_number": "2397",
+              "share": "600/703200"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÁ PORÚBKA",
+              "lv_number": "2398",
+              "share": "600/703200"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "1498",
+              "share": "600/669600"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "603",
+              "share": "60/669600"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "LIPTOVSKÝ JÁN",
+              "lv_number": "809",
+              "share": "6000/7032000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "NIŽNÁ BOCA",
+              "lv_number": "1625",
+              "share": "600/669600"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "NIŽNÁ BOCA",
+              "lv_number": "1626",
+              "share": "600/703200"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "VYCHODNÁ",
+              "lv_number": "3592",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "VYCHODNÁ",
+              "lv_number": "3593",
+              "share": "6000/6696000"
+            },
+            {
+              "type": "SPOLOČNÉ NEHNUTEĽNOSTI (ZÁKON 97/2013) - UPS HYBE",
+              "cadastral_territory": "ŠTRBSKÉ PLESO",
+              "lv_number": "363",
+              "share": "1/1674"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE - UPS HYBE",
+              "cadastral_territory": "HYBE",
+              "lv_number": "6027",
+              "share": "6000/7032000"
+            }
+          ],
+          "old_count": 40,
+          "new_count": 36
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 4 → 5 (+1)",
+      "Príjmy: 95 854 € → 94 253 € (-1 601 €)",
+      "Nehnuteľnosti: 40 → 36 (-4)"
+    ]
   },
   "slug": "ing-jan-mikulik",
   "context": {
@@ -3612,8 +4122,8 @@
     "properties": 36,
     "obligations": 1,
     "income_percentile": 86,
-    "property_percentile": 96,
-    "median_income": 52713,
+    "property_percentile": 97,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 5.2

@@ -1195,16 +1195,349 @@
   "total_changes": 17,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Filip.Machacek.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Filip.Machacek.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Filip.Machacek.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Filip.Machacek.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ DIAĽNIČNÁ SPOLOČNOSŤ, A. S.)",
+          "new": "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ DIAĽNIČNÁ SPOLOČNOSŤ, A.S.)"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ DIAĽNIČNÁ SPOLOČNOSŤ, A. S.)"
+          ],
+          "new": [
+            "štatutárny orgán alebo člen štatutárneho orgánu a člen riadiaceho orgánu právnickej osoby (NÁRODNÁ DIAĽNIČNÁ SPOLOČNOSŤ, A.S.)"
+          ],
+          "old_count": 1,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 9475,
+            "other": 9439
+          },
+          "new": {
+            "public_function": 80427,
+            "other": 71572
+          },
+          "old_total": 18914,
+          "new_total": 151999,
+          "delta": 133085,
+          "delta_pct": 703.6
+        },
+        {
+          "field": "employment",
+          "old": "NÁRODNÁ DIAĽNIČNÁ SPOLOČNOSŤ, A. S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie",
+          "new": "NÁRODNÁ DIAĽNIČNÁ  SPOLOČNOSŤ, A.S.\nDlhodobo plne uvoľnený na výkon verejnej funkcie podľa Zákonníka práce:\nnie"
+        },
+        {
+          "field": "real_estate",
+          "old": [
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "5139",
+              "share": "3/4"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1141",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1141",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1141",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1141",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1141",
+              "share": "1/2 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "5139",
+              "share": "3/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
+              "lv_number": "1307",
+              "share": "3/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÉ MESTO - BRATISLAVA",
+              "lv_number": "1307",
+              "share": "3/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1247",
+              "share": "9/10 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "726",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "726",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "STARÉ MESTO",
+              "lv_number": "1307",
+              "share": "3/4"
+            }
+          ],
+          "new": [
+            {
+              "type": "GARÁŽ",
+              "cadastral_territory": "STARÉ MESTO-BRATISLAVA",
+              "lv_number": "5139",
+              "share": "3/4"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1141",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1141",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1141",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1141",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "NEBYTOVÝ PRIESTOR",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1141",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "RODINNÝ DOM",
+              "cadastral_territory": "STARÉ MESTO-BRATISLAVA",
+              "lv_number": "5139",
+              "share": "3/4"
+            },
+            {
+              "type": "STAVBA",
+              "cadastral_territory": "STARÉ MESTO-BRATISLAVA",
+              "lv_number": "2885",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÉ MESTO-BRATISLAVA",
+              "lv_number": "1307",
+              "share": "3/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÉ MESTO-BRATISLAVA",
+              "lv_number": "1307",
+              "share": "3/4"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "STARÉ MESTO-BRATISLAVA",
+              "lv_number": "2885",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "1247",
+              "share": "9/10 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "726",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZASTAVANÁ PLOCHA A NÁDVORIE",
+              "cadastral_territory": "TATRANSKÁ LOMNICA",
+              "lv_number": "726",
+              "share": "1/1 BSM"
+            },
+            {
+              "type": "ZÁHRADA",
+              "cadastral_territory": "STARÉ MESTO-BRATISLAVA",
+              "lv_number": "1307",
+              "share": "3/4"
+            }
+          ],
+          "old_count": 13,
+          "new_count": 15
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY NA ÚČTE, podiel: 1/1 BSM",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1",
+            "ŽIVOTNÉ POISTENIE, podiel: 1/1"
+          ],
+          "old_count": 2,
+          "new_count": 3
+        },
+        {
+          "field": "obligations",
+          "old": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1 BSM",
+              "date": "26. 02. 2021"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1 BSM",
+              "date": "29. 04. 2011"
+            }
+          ],
+          "new": [
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1 BSM",
+              "date": "17. 06. 2024"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1 BSM",
+              "date": "26. 02. 2021"
+            },
+            {
+              "type": "HYPOTEKÁRNY ÚVER",
+              "share": "1/1 BSM",
+              "date": "29. 04. 2011"
+            },
+            {
+              "type": "PEŇAŽNÁ PÔŽIČKA",
+              "share": "1/1 BSM",
+              "date": "12. 07. 2024"
+            },
+            {
+              "type": "PEŇAŽNÁ PÔŽIČKA",
+              "share": "1/1 BSM",
+              "date": "17. 07. 2024"
+            },
+            {
+              "type": "PEŇAŽNÁ PÔŽIČKA",
+              "share": "1/1 BSM",
+              "date": "22. 07. 2024"
+            },
+            {
+              "type": "PEŇAŽNÁ PÔŽIČKA",
+              "share": "1/1 BSM",
+              "date": "25. 07. 2024"
+            }
+          ],
+          "old_count": 2,
+          "new_count": 7
+        },
+        {
+          "field": "use_of_others_real_estate",
+          "old": "NEBYTOVÝ PRIESTOR, kat. územie TATRANSKÁ LOMNICA, rok zač. užívania: 2020, spôsob užívania: REKREÁCIAZASTAVANÁ PLOCHA A NÁDVORIE, kat. územie TATRANSKÁ LOMNICA, rok zač. užívania: 2020, spôsob užívania: REKREÁCIA",
+          "new": "NEBYTOVÝ PRIESTOR, kat. územie TATRANSKÁ LOMNICA, rok zač. užívania: 2020, spôsob užívania: REKREÁCIANEBYTOVÝ PRIESTOR, kat. územie TATRANSKÁ LOMNICA, rok zač. užívania: 2020, spôsob užívania: REKREÁCIAZASTAVANÁ PLOCHA A NÁDVORIE, kat. územie TATRANSKÁ LOMNICA, rok zač. užívania: 2020, spôsob užívania: REKREÁCIA"
+        },
+        {
+          "field": "vehicles",
+          "old": [
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "BMW",
+              "year_of_manufacture": 2021
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZIDLO",
+              "brand": "FIAT",
+              "year_of_manufacture": 2023
+            }
+          ],
+          "new": [
+            {
+              "type": "OSOBNÉ MOTORDVÉ VOZIDLO",
+              "brand": "FIAT",
+              "year_of_manufacture": 2023
+            },
+            {
+              "type": "OSOBNÉ MOTOROVÉ VOZDILO",
+              "brand": "BMW",
+              "year_of_manufacture": 2021
+            }
+          ],
+          "old_count": 2,
+          "new_count": 2
+        },
+        {
+          "field": "gifts",
+          "old": null,
+          "new": "PEŇAŽNÉ PROSTRIEDKY NA BEŽNÝ ÚČET, dátum prijatia: 24. 09. 2024"
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 1 → 1 (0)",
+      "Príjmy: 18 914 € → 151 999 € (+133 085 €)",
+      "Zamestnanie",
+      "Nehnuteľnosti: 13 → 15 (+2)",
+      "Majetkové práva: 2 → 3 (+1)",
+      "Záväzky: 2 → 7 (+5)",
+      "Užívanie nehnuteľností",
+      "Vozidlá: 2 → 2 (0)",
+      "Dary"
+    ]
   },
   "slug": "ing-filip-machacek",
   "context": {
@@ -1214,7 +1547,7 @@
     "obligations": 7,
     "income_percentile": 95,
     "property_percentile": 91,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 8.4

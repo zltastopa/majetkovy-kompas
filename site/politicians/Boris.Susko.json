@@ -1419,16 +1419,78 @@
   "total_changes": 23,
   "latest_extraction": {
     "committed_at": "2026-03-13",
-    "commit": "801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "previous_commit": "dc164b6d30047c79854632d4e2e848fa93304d5a",
-    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/dc164b6d30047c79854632d4e2e848fa93304d5a...801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3",
-    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/801cfd46c7fbf7cabc57f6c4a9e3c53ef47067a3/data/Boris.Susko.yaml",
-    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/dc164b6d30047c79854632d4e2e848fa93304d5a/data/Boris.Susko.yaml",
+    "commit": "56bf5db12a8feea035e862e0034747f7e671e007",
+    "previous_commit": "1d802d166133f7846e998450e433932270dde15c",
+    "commit_url": "https://github.com/zltastopa/majetkovy-kompas/commit/56bf5db12a8feea035e862e0034747f7e671e007",
+    "compare_url": "https://github.com/zltastopa/majetkovy-kompas/compare/1d802d166133f7846e998450e433932270dde15c...56bf5db12a8feea035e862e0034747f7e671e007",
+    "file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/56bf5db12a8feea035e862e0034747f7e671e007/data/Boris.Susko.yaml",
+    "previous_file_url": "https://github.com/zltastopa/majetkovy-kompas/blob/1d802d166133f7846e998450e433932270dde15c/data/Boris.Susko.yaml",
     "diff": {
-      "type": "unchanged"
+      "type": "changed",
+      "changes": [
+        {
+          "field": "public_function",
+          "old": "poslanec Národnej rady Slovenskej republiky\nčlen vlády Slovenskej republiky",
+          "new": "člen vlády Slovenskej republiky"
+        },
+        {
+          "field": "public_functions",
+          "old": [
+            "poslanec Národnej rady Slovenskej republiky",
+            "člen vlády Slovenskej republiky"
+          ],
+          "new": [
+            "člen vlády Slovenskej republiky"
+          ],
+          "old_count": 2,
+          "new_count": 1
+        },
+        {
+          "field": "income",
+          "old": {
+            "public_function": 54374,
+            "other": 0
+          },
+          "new": {
+            "public_function": 55081,
+            "other": 0
+          },
+          "old_total": 54374,
+          "new_total": 55081,
+          "delta": 707,
+          "delta_pct": 1.3
+        },
+        {
+          "field": "business_activity",
+          "old": "ADVOKÁT - POZASTAVENÝ VÝKON ADVOKÁCIE OD 15.11. 2023(LAVELA S. R. O.)",
+          "new": "ADVOKÁT - POZASTAVENÝ VÝKON ADVOKÁCIE OD 15.11.2023(LAVELA S.R.O.)"
+        },
+        {
+          "field": "property_rights",
+          "old": [
+            "FINANČNÉ PROSTRIEDKY, ÚSPORY, podiel: BSM, 1/1",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
+            "PODIELOVÉ LISTY/CENNÉ PAPIERE, podiel: BSM",
+            "POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 1/1"
+          ],
+          "new": [
+            "FINANČNÉ PROSTRIEDKY, ÚSPORY, podiel: BSM 1/1",
+            "OBCHODNÝ PODIEL V S.R.O., podiel: 1/1",
+            "PODIELOVÉ LISTY/CENNÉ PAPIERE, podiel: BSM",
+            "POHĽADÁVKY VOČI TRETÍM OSOBÁM, podiel: 1/1"
+          ],
+          "old_count": 4,
+          "new_count": 4
+        }
+      ]
     },
-    "summary": []
+    "summary": [
+      "Verejná funkcia",
+      "public_functions: 2 → 1 (-1)",
+      "Príjmy: 54 374 € → 55 081 € (+707 €)",
+      "Podnikanie",
+      "Majetkové práva: 4 → 4 (0)"
+    ]
   },
   "slug": "judr-boris-susko-phd",
   "context": {
@@ -1438,7 +1500,7 @@
     "obligations": 2,
     "income_percentile": 59,
     "property_percentile": 89,
-    "median_income": 52713,
+    "median_income": 52646,
     "median_properties": 3,
     "slovak_median_income": 18000,
     "slovak_income_multiple": 3.1
