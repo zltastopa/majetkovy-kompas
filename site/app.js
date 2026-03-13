@@ -44,6 +44,20 @@
     "predseda úradu",
   ];
 
+  function normalizeSearchText(value) {
+    return (value || "")
+      .toLocaleLowerCase("sk")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "");
+  }
+
+  const searchIndex = new Map(
+    rows.map((row) => [
+      row,
+      normalizeSearchText(`${row.dataset.name || ""} ${row.dataset.function || ""}`),
+    ]),
+  );
+
   function setupSearchHints() {
     if (!searchHints.length) {
       return;
@@ -91,9 +105,9 @@
   }
 
   function applyFilters() {
-    const query = search.value.trim().toLowerCase();
+    const query = normalizeSearchText(search.value.trim());
     const visible = rows.filter((row) => {
-      const haystack = `${row.dataset.name || ""} ${row.dataset.function || ""}`;
+      const haystack = searchIndex.get(row) || "";
       const matches = haystack.includes(query);
       return matches;
     });
