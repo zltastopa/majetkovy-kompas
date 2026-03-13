@@ -738,11 +738,18 @@ a:hover {
 
 .income-chart-wrap {
   position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 0.3rem;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(148 163 184 / 0.85) transparent;
 }
 
 .income-chart {
   display: flex;
   align-items: flex-end;
+  width: max-content;
+  min-width: 100%;
   gap: 0.5rem;
   height: 140px;
   padding-top: 10px;
@@ -815,6 +822,23 @@ a:hover {
   font-size: 0.68rem;
   font-weight: 700;
   transform: translateY(-50%);
+}
+
+.income-chart-wrap::-webkit-scrollbar {
+  height: 10px;
+}
+
+.income-chart-wrap::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.income-chart-wrap::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgb(148 163 184 / 0.75);
+}
+
+.income-chart-wrap::-webkit-scrollbar-thumb:hover {
+  background: rgb(100 116 139 / 0.9);
 }
 
 .timeline-entry {

@@ -327,6 +327,10 @@ function renderIncomeChart(detail) {
     other: item.data.income ? item.data.income.other || 0 : 0,
   }));
   const maxIncome = Math.max(...incomes.map((item) => item.pub + item.other), 1);
+  const minGroupWidth = 72;
+  const chartMinWidth = Math.max(incomes.length * minGroupWidth, 0);
+
+  el.style.minWidth = `${chartMinWidth}px`;
 
   el.innerHTML = incomes
     .map((item) => {
