@@ -5,7 +5,7 @@ verejných funkcionárov Slovenskej republiky. Dáta pochádzajú z
 [Národnej rady SR](https://www.nrsr.sk/web/?sid=oznamenia_funkcionarov)
 a pokrývajú roky 2019 – 2024.
 
-**[→ Živá verzia](https://mrshu.github.io/majetkovy-kompas/)**
+**[→ Živá verzia](https://kompas.zltastopa.sk/)**
 
 ## Čo to robí
 
