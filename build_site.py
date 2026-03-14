@@ -991,6 +991,11 @@ def build():
     repo_url = parse_github_repo_url()
     print(f"Found {len(commits)} commits: {years}", file=sys.stderr)
 
+    # Years with fewer declarations than this are excluded from the site —
+    # they are too sparse to be meaningful (e.g. early 2025 with only a
+    # handful of "pri ujatí sa funkcie" filings).
+    MIN_DECLARATIONS_PER_YEAR = 10
+
     all_ids = set()
     year_data = {}
 
@@ -1006,6 +1011,24 @@ def build():
             data = read_yaml_at_commit(commit_hash, filepath)
             if data:
                 year_data[year][user_id] = data
+
+        if len(year_data[year]) < MIN_DECLARATIONS_PER_YEAR:
+            print(
+                f"  Skipping year {year}: only {len(year_data[year])} declarations"
+                f" (minimum {MIN_DECLARATIONS_PER_YEAR})",
+                file=sys.stderr,
+            )
+            # Remove the sparse year so it doesn't appear in the site.
+            for uid in year_data[year]:
+                # Only remove from all_ids if the official has no other year.
+                pass
+            del year_data[year]
+
+    # Rebuild years list and all_ids from the surviving year_data.
+    years = sorted(year_data.keys())
+    all_ids = set()
+    for yd in year_data.values():
+        all_ids.update(yd.keys())
 
     print(f"Total politicians: {len(all_ids)}", file=sys.stderr)
 
