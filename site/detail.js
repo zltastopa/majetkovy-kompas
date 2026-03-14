@@ -398,7 +398,12 @@ function renderIncomeChart(detail) {
       return;
     }
 
-    const position = chartHeight - (percent / 100) * (chartHeight - 10) + 10;
+    // Position from the top of the chart element.  Bars use
+    // height:<percent>% of the 140px content box and are bottom-aligned,
+    // so a bar at X% has its top at (100-X)% from the content top.
+    // Adding the 10px padding-top gives the absolute offset in the
+    // wrapper / card coordinate system.
+    const position = ((100 - percent) / 100) * chartHeight + 10;
 
     const lineEl = document.createElement("div");
     lineEl.className = "median-line";
