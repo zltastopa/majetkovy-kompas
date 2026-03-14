@@ -306,6 +306,45 @@ def strip_diacritics(value):
     return "".join(ch for ch in normalized if not unicodedata.combining(ch))
 
 
+# Tokens recognised as academic/professional titles or post-nominal
+# suffixes.  The primary stripping rule is "any token containing a dot
+# is a title" (Ing., JUDr., M.A., Dr.h.c., …).  This set is the
+# fallback for the rare tokens written without a dot.
+_TITLE_TOKENS = frozenset(
+    {
+        # Pre-nominal degrees & ranks
+        "bc", "mgr", "mga", "ing", "judr", "mudr", "phdr", "rndr",
+        "paeddr", "mvdr", "rsdr", "mddr", "thdr", "thlic", "icdr",
+        "pharmdr", "doc", "prof", "drhc", "dr", "dipl", "dott",
+        "arch", "art", "plk",
+        # Post-nominal degrees & suffixes
+        "mba", "mpa", "mph", "mha", "msc", "phd", "csc", "drsc",
+        "artd", "rsc", "dpa", "dba", "fcca", "mim", "mipp", "bsc",
+        "akc", "dis", "ma", "et",
+    }
+)
+
+
+def strip_titles(name):
+    """Remove academic/professional titles from a name for URL slugs.
+
+    Uses two complementary rules:
+    1. Any whitespace/comma-separated token containing a dot is a title
+       (covers Ing., JUDr., M.A., Dr.h.c., L.L.M., etc.).
+    2. Known title tokens without dots are matched via _TITLE_TOKENS.
+    """
+    tokens = re.split(r"[\s,]+", name)
+    kept = []
+    for token in tokens:
+        if "." in token:
+            continue
+        if token.rstrip(",").lower() in _TITLE_TOKENS:
+            continue
+        kept.append(token.rstrip(","))
+    result = " ".join(kept).strip()
+    return result or name
+
+
 def slugify(value):
     ascii_value = strip_diacritics(value).lower()
     return re.sub(r"[^a-z0-9]+", "-", ascii_value).strip("-")
@@ -1195,7 +1234,9 @@ def build():
     used_slugs = set()
     slug_by_uid = {}
     for uid in sorted(politicians, key=lambda key: politicians[key]["name"]):
-        slug_by_uid[uid] = unique_slug(politicians[uid]["name"], used_slugs, uid)
+        slug_by_uid[uid] = unique_slug(
+            strip_titles(politicians[uid]["name"]), used_slugs, uid
+        )
 
     for politician in politicians.values():
         politician["slug"] = slug_by_uid[politician["user_id"]]
@@ -1292,6 +1333,12 @@ def build():
     for child in detail_html_dir.iterdir():
         if child.is_dir():
             shutil.rmtree(child)
+    # Compute old-style slugs (with titles) so we can redirect them.
+    old_used_slugs = set()
+    old_slug_by_uid = {}
+    for uid in sorted(politicians, key=lambda key: politicians[key]["name"]):
+        old_slug_by_uid[uid] = unique_slug(politicians[uid]["name"], old_used_slugs, uid)
+
     for uid, data in politicians.items():
         target_dir = detail_html_dir / data["slug"]
         target_dir.mkdir(parents=True, exist_ok=True)
@@ -1299,6 +1346,15 @@ def build():
         legacy_dir = legacy_detail_dir / data["slug"]
         legacy_dir.mkdir(parents=True, exist_ok=True)
         (legacy_dir / "index.html").write_text(render_person_redirect(data), encoding="utf-8")
+        # Redirect old titled slug → new clean slug (if different).
+        old_slug = old_slug_by_uid[uid]
+        if old_slug != data["slug"]:
+            redirect_dir = detail_html_dir / old_slug
+            if not redirect_dir.exists():
+                redirect_dir.mkdir(parents=True, exist_ok=True)
+                (redirect_dir / "index.html").write_text(
+                    render_person_redirect(data), encoding="utf-8"
+                )
 
     robots_lines = ["User-agent: *", "Allow: /"]
     if SITE_URL:
