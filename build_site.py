@@ -100,7 +100,9 @@ ROLE_BREAK_KEYWORDS = (
 
 
 def git(*args):
-    return subprocess.check_output(["git", *args], text=True).strip()
+    return subprocess.check_output(
+        ["git", "-c", "core.quotePath=false", *args], text=True
+    ).strip()
 
 
 def git_ref_exists(ref):
