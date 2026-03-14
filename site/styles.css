@@ -642,6 +642,20 @@ a:hover {
   color: var(--muted);
 }
 
+.ctx-delta {
+  margin-top: 0.35rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.ctx-delta--above {
+  color: var(--green);
+}
+
+.ctx-delta--below {
+  color: var(--red);
+}
+
 .ctx-item--median .ctx-val {
   color: var(--fg);
 }

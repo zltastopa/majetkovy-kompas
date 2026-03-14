@@ -116,7 +116,7 @@ function renderDetailContext(detail) {
       <div class="ctx-label">medián príjmu funkcionárov</div>
       ${
         income > 0 && medianIncome > 0
-          ? `<div class="ctx-rank">${fmt(Math.abs(incomeDeltaFromMedian))} € ${incomeDeltaFromMedian >= 0 ? "nad" : "pod"} mediánom</div>`
+          ? `<div class="ctx-delta ${incomeDeltaFromMedian >= 0 ? "ctx-delta--above" : "ctx-delta--below"}">${incomeDeltaFromMedian >= 0 ? "+" : "−"}${fmt(Math.abs(incomeDeltaFromMedian))} € ${incomeDeltaFromMedian >= 0 ? "nad" : "pod"} mediánom</div>`
           : ""
       }
       <div class="ctx-rank">celkový príjem v poslednom priznaní, len nenulové</div>
