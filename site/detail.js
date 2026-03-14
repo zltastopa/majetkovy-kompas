@@ -350,16 +350,15 @@ function renderIncomeChart(detail) {
     .join("");
 
   const wrap = el.closest(".income-chart-wrap");
-  if (!wrap) {
-    return;
-  }
 
-  wrap.querySelectorAll(".median-line, .median-label").forEach((line) => {
-    line.remove();
+  el.querySelectorAll(".median-line, .median-label").forEach((node) => {
+    node.remove();
   });
 
   // Default long timelines to the most recent years on first render.
-  wrap.scrollLeft = Math.max(wrap.scrollWidth - wrap.clientWidth, 0);
+  if (wrap) {
+    wrap.scrollLeft = Math.max(wrap.scrollWidth - wrap.clientWidth, 0);
+  }
 
   const context = detail.context || {};
   if (maxIncome <= 0) {
@@ -406,8 +405,8 @@ function renderIncomeChart(detail) {
     labelEl.style.top = `${position}px`;
     labelEl.textContent = line.label;
 
-    wrap.appendChild(lineEl);
-    wrap.appendChild(labelEl);
+    el.appendChild(lineEl);
+    el.appendChild(labelEl);
   });
 }
 

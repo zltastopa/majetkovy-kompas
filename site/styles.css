@@ -746,6 +746,7 @@ a:hover {
 }
 
 .income-chart {
+  position: relative;
   display: flex;
   align-items: flex-end;
   width: max-content;
@@ -822,6 +823,7 @@ a:hover {
   font-size: 0.68rem;
   font-weight: 700;
   transform: translateY(-50%);
+  white-space: nowrap;
 }
 
 .income-chart-wrap::-webkit-scrollbar {
