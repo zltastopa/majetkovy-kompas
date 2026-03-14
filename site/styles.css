@@ -569,6 +569,10 @@ a:hover {
   cursor: pointer;
 }
 
+.detail-switch__button[data-detail-mode="compare"] {
+  margin-left: auto;
+}
+
 .detail-switch__button.is-active {
   border-color: #eeb800;
   background: #fff7d6;
