@@ -101,7 +101,7 @@ function renderDetailContext(detail) {
       <div class="ctx-label">celkový príjem (${latestYear})</div>
       ${
         income > 0
-          ? `<div class="ctx-rank">vyšší ako u ${incomePercentile}% funkcionárov · medián funkcionárov: ${fmt(medianIncome)} €</div>
+          ? `<div class="ctx-rank">vyšší ako u ${incomePercentile}% funkcionárov · medián príjmu funkcionárov: ${fmt(medianIncome)} €</div>
              ${progressBar(incomePercentile, incomePercentile >= 90 ? "high" : "")}`
           : `<div class="ctx-rank">Bez uvedeného príjmu v poslednom priznaní.</div>`
       }
@@ -113,7 +113,7 @@ function renderDetailContext(detail) {
     </div>
     <div class="ctx-item ctx-item--median">
       <div class="ctx-val">${medianIncome > 0 ? `${fmt(medianIncome)} €` : "—"}</div>
-      <div class="ctx-label">medián funkcionárov</div>
+      <div class="ctx-label">medián príjmu funkcionárov</div>
       ${
         income > 0 && medianIncome > 0
           ? `<div class="ctx-rank">${fmt(Math.abs(incomeDeltaFromMedian))} € ${incomeDeltaFromMedian >= 0 ? "nad" : "pod"} mediánom</div>`
@@ -416,7 +416,7 @@ function renderIncomeChart(detail) {
     },
     {
       value: funcMedian,
-      label: funcMedian > 0 ? `medián funkc.: ${fmt(funcMedian)} €` : "",
+      label: funcMedian > 0 ? `medián príjmu funkc.: ${fmt(funcMedian)} €` : "",
       color: "#3b82f6",
     },
   ];
