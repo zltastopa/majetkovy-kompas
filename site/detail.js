@@ -332,15 +332,14 @@ function renderIncomeChart(detail) {
 
   el.style.minWidth = `${chartMinWidth}px`;
 
+  // Render bars with a temporary 1px height so we can measure label sizes.
   el.innerHTML = incomes
     .map((item) => {
       const total = item.pub + item.other;
-      const totalPct = (total / maxIncome) * 100;
       const otherShare = total > 0 ? (item.other / total) * 100 : 0;
-      const barHeight = Math.max(totalPct, 3);
       return `<div class="income-bar-group">
       <div class="income-bar-value">${fmt(total)} €</div>
-      <div class="bar-stack" style="height:${barHeight}%">
+      <div class="bar-stack" style="height:1px">
         ${item.other > 0 ? `<div class="income-bar other" style="flex:${otherShare}"></div>` : ""}
         <div class="income-bar pub" style="flex:${100 - otherShare}"></div>
       </div>
@@ -348,6 +347,24 @@ function renderIncomeChart(detail) {
     </div>`;
     })
     .join("");
+
+  // Measure available bar area from the DOM after labels render.
+  const sampleGroup = el.querySelector(".income-bar-group");
+  if (!sampleGroup) {
+    return;
+  }
+  const groupH = sampleGroup.getBoundingClientRect().height;
+  const valueEl = sampleGroup.querySelector(".income-bar-value");
+  const yearLabelEl = sampleGroup.querySelector(".income-bar-label");
+  const valueH = valueEl.offsetHeight + (parseFloat(getComputedStyle(valueEl).marginBottom) || 0);
+  const yearLabelH = yearLabelEl.offsetHeight + (parseFloat(getComputedStyle(yearLabelEl).marginTop) || 0);
+  const barAreaH = groupH - valueH - yearLabelH;
+
+  // Set correct pixel heights based on the measured bar area.
+  el.querySelectorAll(".bar-stack").forEach((bar, i) => {
+    const total = incomes[i].pub + incomes[i].other;
+    bar.style.height = `${Math.max((total / maxIncome) * barAreaH, 3)}px`;
+  });
 
   const wrap = el.closest(".income-chart-wrap");
   if (!wrap) {
@@ -365,45 +382,59 @@ function renderIncomeChart(detail) {
   wrap.scrollLeft = Math.max(wrap.scrollWidth - wrap.clientWidth, 0);
 
   const context = detail.context || {};
-  if (maxIncome <= 0) {
+  if (!card || maxIncome <= 0 || barAreaH <= 0) {
     return;
   }
 
-  const chartHeight = 140;
+  // Measure the tallest bar's actual position for median line placement.
+  const barStacks = el.querySelectorAll(".bar-stack");
+  const cardRect = card.getBoundingClientRect();
+  let maxBarRect = null;
+  let maxBarH = 0;
+  barStacks.forEach((bar) => {
+    const rect = bar.getBoundingClientRect();
+    if (rect.height > maxBarH) {
+      maxBarH = rect.height;
+      maxBarRect = rect;
+    }
+  });
+
+  if (!maxBarRect || maxBarH <= 0) {
+    return;
+  }
+
+  const barTopInCard = maxBarRect.top - cardRect.top;
+
+  const skMedian = Number(context.slovak_median_income || 0);
+  const funcMedian = Number(context.median_income || 0);
+
   const referenceLines = [
     {
-      value: Number(context.slovak_median_income || 0),
-      label:
-        Number(context.slovak_median_income || 0) > 0
-          ? `SK medián: ${fmt(Number(context.slovak_median_income || 0))} €`
-          : "",
+      value: skMedian,
+      label: skMedian > 0 ? `SK medián: ${fmt(skMedian)} €` : "",
       color: "#94a3b8",
     },
     {
-      value: Number(context.median_income || 0),
-      label:
-        Number(context.median_income || 0) > 0
-          ? `medián funkc.: ${fmt(Number(context.median_income || 0))} €`
-          : "",
+      value: funcMedian,
+      label: funcMedian > 0 ? `medián funkc.: ${fmt(funcMedian)} €` : "",
       color: "#3b82f6",
     },
   ];
 
+  // Both median lines and labels use position:absolute and resolve against
+  // .section-card (the nearest positioned ancestor for both wrap and card).
   referenceLines.forEach((line) => {
     if (!line.value || !line.label) {
       return;
     }
-    const percent = (line.value / maxIncome) * 100;
-    if (percent > 95 || percent < 1) {
+    const ratio = line.value / maxIncome;
+    if (ratio > 0.95 || ratio < 0.01) {
       return;
     }
 
-    // Position from the top of the chart element.  Bars use
-    // height:<percent>% of the 140px content box and are bottom-aligned,
-    // so a bar at X% has its top at (100-X)% from the content top.
-    // Adding the 10px padding-top gives the absolute offset in the
-    // wrapper / card coordinate system.
-    const position = ((100 - percent) / 100) * chartHeight + 10;
+    // The tallest bar represents maxIncome and is bottom-aligned.
+    // A reference value V is at (1 - V/maxIncome) from the bar top.
+    const position = barTopInCard + (1 - ratio) * maxBarH;
 
     const lineEl = document.createElement("div");
     lineEl.className = "median-line";
@@ -411,15 +442,13 @@ function renderIncomeChart(detail) {
     lineEl.style.borderColor = line.color;
     wrap.appendChild(lineEl);
 
-    if (card) {
-      const labelEl = document.createElement("div");
-      labelEl.className = "median-label";
-      labelEl.style.top = `${position}px`;
-      labelEl.style.borderColor = line.color;
-      labelEl.style.color = line.color;
-      labelEl.textContent = line.label;
-      card.appendChild(labelEl);
-    }
+    const medianLabelEl = document.createElement("div");
+    medianLabelEl.className = "median-label";
+    medianLabelEl.style.top = `${position}px`;
+    medianLabelEl.style.borderColor = line.color;
+    medianLabelEl.style.color = line.color;
+    medianLabelEl.textContent = line.label;
+    card.appendChild(medianLabelEl);
   });
 }
 
