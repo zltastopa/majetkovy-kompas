@@ -106,12 +106,15 @@ def git(*args):
 
 
 def git_ref_exists(ref):
-    return subprocess.run(
-        ["git", "rev-parse", "--verify", ref],
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL,
-        check=False,
-    ).returncode == 0
+    return (
+        subprocess.run(
+            ["git", "rev-parse", "--verify", ref],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            check=False,
+        ).returncode
+        == 0
+    )
 
 
 def data_branch_ref():
@@ -153,7 +156,9 @@ def get_commits():
             if word.isdigit() and len(word) == 4:
                 commits_by_year[int(word)] = commit_hash
                 break
-    return [(commit_hash, year) for year, commit_hash in sorted(commits_by_year.items())]
+    return [
+        (commit_hash, year) for year, commit_hash in sorted(commits_by_year.items())
+    ]
 
 
 def latest_data_commit_info():
@@ -184,7 +189,9 @@ def latest_data_diffs(status):
         return {}
 
     if previous_commit:
-        files = git("diff", "--name-only", previous_commit, current_commit, "--", "data/").split("\n")
+        files = git(
+            "diff", "--name-only", previous_commit, current_commit, "--", "data/"
+        ).split("\n")
     else:
         files = git("ls-tree", "--name-only", current_commit, "data/").split("\n")
 
@@ -193,7 +200,9 @@ def latest_data_diffs(status):
         if not filepath.endswith(".yaml"):
             continue
         user_id = filepath.replace("data/", "").replace(".yaml", "")
-        old_data = read_yaml_at_commit(previous_commit, filepath) if previous_commit else None
+        old_data = (
+            read_yaml_at_commit(previous_commit, filepath) if previous_commit else None
+        )
         new_data = read_yaml_at_commit(current_commit, filepath)
         diffs[user_id] = compute_diff(old_data, new_data)
     return diffs
@@ -245,14 +254,24 @@ def compute_diff(old, new):
         if old_val != new_val:
             change = {"field": key, "old": old_val, "new": new_val}
 
-            if key == "income" and isinstance(old_val, dict) and isinstance(new_val, dict):
-                old_total = (old_val.get("public_function") or 0) + (old_val.get("other") or 0)
-                new_total = (new_val.get("public_function") or 0) + (new_val.get("other") or 0)
+            if (
+                key == "income"
+                and isinstance(old_val, dict)
+                and isinstance(new_val, dict)
+            ):
+                old_total = (old_val.get("public_function") or 0) + (
+                    old_val.get("other") or 0
+                )
+                new_total = (new_val.get("public_function") or 0) + (
+                    new_val.get("other") or 0
+                )
                 change["old_total"] = old_total
                 change["new_total"] = new_total
                 change["delta"] = new_total - old_total
                 if old_total > 0:
-                    change["delta_pct"] = round((new_total - old_total) / old_total * 100, 1)
+                    change["delta_pct"] = round(
+                        (new_total - old_total) / old_total * 100, 1
+                    )
 
             if isinstance(old_val, list) and isinstance(new_val, list):
                 change["old_count"] = len(old_val)
@@ -315,14 +334,52 @@ def strip_diacritics(value):
 _TITLE_TOKENS = frozenset(
     {
         # Pre-nominal degrees & ranks
-        "bc", "mgr", "mga", "ing", "judr", "mudr", "phdr", "rndr",
-        "paeddr", "mvdr", "rsdr", "mddr", "thdr", "thlic", "icdr",
-        "pharmdr", "doc", "prof", "drhc", "dr", "dipl", "dott",
-        "arch", "art", "plk",
+        "bc",
+        "mgr",
+        "mga",
+        "ing",
+        "judr",
+        "mudr",
+        "phdr",
+        "rndr",
+        "paeddr",
+        "mvdr",
+        "rsdr",
+        "mddr",
+        "thdr",
+        "thlic",
+        "icdr",
+        "pharmdr",
+        "doc",
+        "prof",
+        "drhc",
+        "dr",
+        "dipl",
+        "dott",
+        "arch",
+        "art",
+        "plk",
         # Post-nominal degrees & suffixes
-        "mba", "mpa", "mph", "mha", "msc", "phd", "csc", "drsc",
-        "artd", "rsc", "dpa", "dba", "fcca", "mim", "mipp", "bsc",
-        "akc", "dis", "ma", "et",
+        "mba",
+        "mpa",
+        "mph",
+        "mha",
+        "msc",
+        "phd",
+        "csc",
+        "drsc",
+        "artd",
+        "rsc",
+        "dpa",
+        "dba",
+        "fcca",
+        "mim",
+        "mipp",
+        "bsc",
+        "akc",
+        "dis",
+        "ma",
+        "et",
     }
 )
 
@@ -450,7 +507,7 @@ def person_seo_fields(person, meta):
     )
     description = clamp_meta_description(
         f'{person["name"]} – {role}. Pozri majetkové priznania verejných '
-        f'funkcionárov, príjmy, nehnuteľnosti, záväzky a zmeny za roky '
+        f"funkcionárov, príjmy, nehnuteľnosti, záväzky a zmeny za roky "
         f"{year_from}–{year_to}."
     )
     return title, description, role
@@ -476,12 +533,20 @@ def meta_tags(title, description, path, *, image_path="", noindex=False):
             ]
         )
         if image_path:
-            tags.append(f'<meta property="og:image" content="{esc(abs_url(image_path))}">')
+            tags.append(
+                f'<meta property="og:image" content="{esc(abs_url(image_path))}">'
+            )
     return "\n".join(tags)
 
 
 def nav_links(prefix="", current=""):
-    links = ['<a href="' + esc(prefix or "./") + '"' + (' aria-current="page"' if current == "home" else "") + ">Vyhľadávanie</a>"]
+    links = [
+        '<a href="'
+        + esc(prefix or "./")
+        + '"'
+        + (' aria-current="page"' if current == "home" else "")
+        + ">Vyhľadávanie</a>"
+    ]
     for key, page in SECTION_PAGES.items():
         href = page_href(page["slug"], prefix)
         current_attr = ' aria-current="page"' if current == key else ""
@@ -505,7 +570,7 @@ def shell(
 ):
     nav = nav_markup or nav_links(prefix, current_nav)
     subtitle_markup = subtitle or (
-        f'Majetkové priznania verejných funkcionárov SR · dáta z '
+        f"Majetkové priznania verejných funkcionárov SR · dáta z "
         f'<a href="{NRSR_LIST_URL}" target="_blank" rel="noreferrer">NR SR</a>'
     )
     return f"""<!DOCTYPE html>
@@ -583,7 +648,7 @@ def header_stats(meta, stats=None):
 <div class="stats">
   <div class="stat"><span class="stat-value">{fmt_int(meta["count"])}</span><span class="stat-label">funkcionárov</span></div>
   <div class="stat"><span class="stat-value">{len(meta["years"])}</span><span class="stat-label">rokov dát</span></div>
-  <div class="stat"><span class="stat-value">{meta["years"][0]}–{meta["years"][-1]}</span><span class="stat-label">obdobie</span></div>
+  <div class="stat"><span class="stat-value">{meta["years"][0]}–{meta["years"][-1]}</span><span class="stat-label">dostupné obdobie</span></div>
   {median_markup}
 </div>
 """
@@ -616,7 +681,9 @@ def person_row(person, prefix=""):
             title += f" · viac ako {property_pct}% funkcionárov"
         indicators.append(f'<span title="{title}">{person["n_properties"]} neh.</span>')
     if person.get("n_obligations"):
-        indicators.append(f'<span title="záväzky">{person["n_obligations"]} záv.</span>')
+        indicators.append(
+            f'<span title="záväzky">{person["n_obligations"]} záv.</span>'
+        )
     if person.get("total_changes"):
         indicators.append(f'<span title="zmeny">{person["total_changes"]} zmien</span>')
     return f"""
@@ -747,7 +814,7 @@ def render_home(index, highlights, meta, stats):
         header_note=header_explainer(),
         nav_markup=nav_markup,
         subtitle=(
-            f'Majetkové priznania verejných funkcionárov SR · dáta z '
+            f"Majetkové priznania verejných funkcionárov SR · dáta z "
             f'<a href="{NRSR_LIST_URL}" target="_blank" rel="noreferrer">NR SR</a> · '
             f'{meta["years"][0]} – {meta["years"][-1]}'
         ),
@@ -822,7 +889,8 @@ def render_section_page(kind, page, items, meta, stats):
                 {
                     "@type": "ListItem",
                     "position": index + 1,
-                    "url": abs_url(person_path(item["slug"])) or person_path(item["slug"]),
+                    "url": abs_url(person_path(item["slug"]))
+                    or person_path(item["slug"]),
                     "name": item["name"],
                 }
                 for index, item in enumerate(items)
@@ -856,7 +924,7 @@ def render_section_page(kind, page, items, meta, stats):
         header_extra=header_stats(meta, stats),
         header_note=header_explainer(),
         subtitle=(
-            f'Majetkové priznania verejných funkcionárov SR · dáta z '
+            f"Majetkové priznania verejných funkcionárov SR · dáta z "
             f'<a href="{NRSR_LIST_URL}" target="_blank" rel="noreferrer">NR SR</a> · '
             f'{meta["years"][0]} – {meta["years"][-1]}'
         ),
@@ -866,9 +934,11 @@ def render_section_page(kind, page, items, meta, stats):
 def render_items(items, renderer, empty_text):
     if not items:
         return f'<p class="empty-state">{esc(empty_text)}</p>'
-    return "<ul class=\"detail-list\">" + "".join(
-        f"<li>{renderer(item)}</li>" for item in items
-    ) + "</ul>"
+    return (
+        '<ul class="detail-list">'
+        + "".join(f"<li>{renderer(item)}</li>" for item in items)
+        + "</ul>"
+    )
 
 
 def join_parts(parts):
@@ -878,7 +948,9 @@ def join_parts(parts):
 def render_real_estate_item(item):
     parts = []
     if item.get("cadastral_territory"):
-        parts.append(f"Kat. územie: {normalize_whitespace(item.get('cadastral_territory'))}")
+        parts.append(
+            f"Kat. územie: {normalize_whitespace(item.get('cadastral_territory'))}"
+        )
     if item.get("lv_number"):
         parts.append(f"LV: {normalize_whitespace(item.get('lv_number'))}")
     if item.get("share"):
@@ -936,12 +1008,18 @@ def render_person_page(person, meta, stats):
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": SITE_NAME, "item": abs_url("/") or "/"},
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": SITE_NAME,
+                "item": abs_url("/") or "/",
+            },
             {
                 "@type": "ListItem",
                 "position": 2,
                 "name": person["name"],
-                "item": abs_url(person_path(person["slug"])) or person_path(person["slug"]),
+                "item": abs_url(person_path(person["slug"]))
+                or person_path(person["slug"]),
             },
         ],
     }
@@ -997,7 +1075,7 @@ def render_person_page(person, meta, stats):
         header_extra=header_stats(meta, stats),
         header_note=header_explainer(),
         subtitle=(
-            f'Majetkové priznania verejných funkcionárov SR · dáta z '
+            f"Majetkové priznania verejných funkcionárov SR · dáta z "
             f'<a href="{NRSR_LIST_URL}" target="_blank" rel="noreferrer">NR SR</a> · '
             f'{meta["years"][0]} – {meta["years"][-1]}'
         ),
@@ -1103,7 +1181,9 @@ def build():
                         highlights["income_jumps"].append(
                             {
                                 "user_id": user_id,
-                                "name": title_case_name(current_data.get("name", user_id)),
+                                "name": title_case_name(
+                                    current_data.get("name", user_id)
+                                ),
                                 "function": current_data.get("public_function"),
                                 "year": year,
                                 "old_total": change["old_total"],
@@ -1112,28 +1192,36 @@ def build():
                                 "delta_pct": change.get("delta_pct"),
                             }
                         )
-                    if change["field"] == "real_estate" and isinstance(change.get("new"), list):
+                    if change["field"] == "real_estate" and isinstance(
+                        change.get("new"), list
+                    ):
                         old_count = change.get("old_count", 0)
                         new_count = change.get("new_count", 0)
                         if new_count > old_count:
                             highlights["new_properties"].append(
                                 {
                                     "user_id": user_id,
-                                    "name": title_case_name(current_data.get("name", user_id)),
+                                    "name": title_case_name(
+                                        current_data.get("name", user_id)
+                                    ),
                                     "function": current_data.get("public_function"),
                                     "year": year,
                                     "added": new_count - old_count,
                                     "total": new_count,
                                 }
                             )
-                    if change["field"] == "obligations" and isinstance(change.get("new"), list):
+                    if change["field"] == "obligations" and isinstance(
+                        change.get("new"), list
+                    ):
                         old_count = change.get("old_count", 0)
                         new_count = change.get("new_count", 0)
                         if new_count > old_count:
                             highlights["new_obligations"].append(
                                 {
                                     "user_id": user_id,
-                                    "name": title_case_name(current_data.get("name", user_id)),
+                                    "name": title_case_name(
+                                        current_data.get("name", user_id)
+                                    ),
                                     "function": current_data.get("public_function"),
                                     "year": year,
                                     "added": new_count - old_count,
@@ -1165,7 +1253,9 @@ def build():
             "name": name,
             "public_function": latest.get("public_function"),
             "public_functions": latest.get("public_functions"),
-            "role": display_role(latest.get("public_functions") or latest.get("public_function")),
+            "role": display_role(
+                latest.get("public_functions") or latest.get("public_function")
+            ),
             "years": [entry["year"] for entry in timeline],
             "timeline": timeline,
             "total_changes": total_changes,
@@ -1235,7 +1325,12 @@ def build():
 
     used_slugs = set()
     slug_by_uid = {}
-    for uid in sorted(politicians, key=lambda key: strip_diacritics(strip_titles(politicians[key]["name"])).lower()):
+    for uid in sorted(
+        politicians,
+        key=lambda key: strip_diacritics(
+            strip_titles(politicians[key]["name"])
+        ).lower(),
+    ):
         slug_by_uid[uid] = unique_slug(
             strip_titles(politicians[uid]["name"]), used_slugs, uid
         )
@@ -1248,7 +1343,12 @@ def build():
             item["slug"] = slug_by_uid[item["user_id"]]
 
     index = []
-    for uid in sorted(politicians, key=lambda key: strip_diacritics(strip_titles(politicians[key]["name"])).lower()):
+    for uid in sorted(
+        politicians,
+        key=lambda key: strip_diacritics(
+            strip_titles(politicians[key]["name"])
+        ).lower(),
+    ):
         politician = politicians[uid]
         latest = politician["timeline"][-1]["data"]
         index.append(
@@ -1271,8 +1371,12 @@ def build():
     latest_sk_median = SK_MEDIAN_INCOME[max(SK_MEDIAN_INCOME)]
     for person in index:
         income = total_income(person["income"])
-        person["income_percentile"] = percentile_rank(stats["all_incomes"], income) if income else 0
-        person["property_percentile"] = percentile_rank(stats["all_properties"], person.get("n_properties", 0))
+        person["income_percentile"] = (
+            percentile_rank(stats["all_incomes"], income) if income else 0
+        )
+        person["property_percentile"] = percentile_rank(
+            stats["all_properties"], person.get("n_properties", 0)
+        )
 
     for uid, politician in politicians.items():
         latest = politician["timeline"][-1]["data"]
@@ -1286,18 +1390,28 @@ def build():
             "income": income,
             "properties": properties,
             "obligations": obligations,
-            "income_percentile": percentile_rank(stats["all_incomes"], income) if income else 0,
+            "income_percentile": (
+                percentile_rank(stats["all_incomes"], income) if income else 0
+            ),
             "property_percentile": percentile_rank(stats["all_properties"], properties),
             "median_income": stats["median_income"],
             "median_properties": stats["median_properties"],
             "slovak_median_income": sk_median,
-            "slovak_income_multiple": round(income / sk_median, 1) if income > 0 and sk_median else 0,
+            "slovak_income_multiple": (
+                round(income / sk_median, 1) if income > 0 and sk_median else 0
+            ),
         }
 
-    (SITE_DIR / "index.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
-    (SITE_DIR / "highlights.json").write_text(json.dumps(highlights, ensure_ascii=False), encoding="utf-8")
+    (SITE_DIR / "index.json").write_text(
+        json.dumps(index, ensure_ascii=False), encoding="utf-8"
+    )
+    (SITE_DIR / "highlights.json").write_text(
+        json.dumps(highlights, ensure_ascii=False), encoding="utf-8"
+    )
     meta = {"years": years, "count": len(politicians)}
-    (SITE_DIR / "meta.json").write_text(json.dumps(meta, ensure_ascii=False), encoding="utf-8")
+    (SITE_DIR / "meta.json").write_text(
+        json.dumps(meta, ensure_ascii=False), encoding="utf-8"
+    )
     (SITE_DIR / "data-status.json").write_text(
         json.dumps(data_status, ensure_ascii=False, indent=2),
         encoding="utf-8",
@@ -1311,7 +1425,9 @@ def build():
             encoding="utf-8",
         )
 
-    (SITE_DIR / "index.html").write_text(render_home(index, highlights, meta, stats), encoding="utf-8")
+    (SITE_DIR / "index.html").write_text(
+        render_home(index, highlights, meta, stats), encoding="utf-8"
+    )
 
     for kind, page in SECTION_PAGES.items():
         target_dir = SITE_DIR / page["slug"]
@@ -1338,16 +1454,27 @@ def build():
     # Compute old-style slugs (with titles) so we can redirect them.
     old_used_slugs = set()
     old_slug_by_uid = {}
-    for uid in sorted(politicians, key=lambda key: strip_diacritics(strip_titles(politicians[key]["name"])).lower()):
-        old_slug_by_uid[uid] = unique_slug(politicians[uid]["name"], old_used_slugs, uid)
+    for uid in sorted(
+        politicians,
+        key=lambda key: strip_diacritics(
+            strip_titles(politicians[key]["name"])
+        ).lower(),
+    ):
+        old_slug_by_uid[uid] = unique_slug(
+            politicians[uid]["name"], old_used_slugs, uid
+        )
 
     for uid, data in politicians.items():
         target_dir = detail_html_dir / data["slug"]
         target_dir.mkdir(parents=True, exist_ok=True)
-        (target_dir / "index.html").write_text(render_person_page(data, meta, stats), encoding="utf-8")
+        (target_dir / "index.html").write_text(
+            render_person_page(data, meta, stats), encoding="utf-8"
+        )
         legacy_dir = legacy_detail_dir / data["slug"]
         legacy_dir.mkdir(parents=True, exist_ok=True)
-        (legacy_dir / "index.html").write_text(render_person_redirect(data), encoding="utf-8")
+        (legacy_dir / "index.html").write_text(
+            render_person_redirect(data), encoding="utf-8"
+        )
         # Redirect old titled slug → new clean slug (if different).
         old_slug = old_slug_by_uid[uid]
         if old_slug != data["slug"]:
@@ -1368,12 +1495,16 @@ def build():
         sitemap_xml = (
             '<?xml version="1.0" encoding="UTF-8"?>\n'
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-            + "".join(f"  <url><loc>{esc(url)}</loc></url>\n" for url in sitemap_entries)
+            + "".join(
+                f"  <url><loc>{esc(url)}</loc></url>\n" for url in sitemap_entries
+            )
             + "</urlset>\n"
         )
         (SITE_DIR / "sitemap.xml").write_text(sitemap_xml, encoding="utf-8")
         robots_lines.append(f"Sitemap: {SITE_URL}/sitemap.xml")
-    (SITE_DIR / "robots.txt").write_text("\n".join(robots_lines) + "\n", encoding="utf-8")
+    (SITE_DIR / "robots.txt").write_text(
+        "\n".join(robots_lines) + "\n", encoding="utf-8"
+    )
 
     print(f"Built site: {len(index)} politicians, {len(years)} years", file=sys.stderr)
     print(f"Output: {SITE_DIR}/", file=sys.stderr)
