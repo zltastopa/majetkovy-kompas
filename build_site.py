@@ -1233,7 +1233,7 @@ def build():
 
     used_slugs = set()
     slug_by_uid = {}
-    for uid in sorted(politicians, key=lambda key: strip_titles(politicians[key]["name"])):
+    for uid in sorted(politicians, key=lambda key: strip_diacritics(strip_titles(politicians[key]["name"])).lower()):
         slug_by_uid[uid] = unique_slug(
             strip_titles(politicians[uid]["name"]), used_slugs, uid
         )
@@ -1246,7 +1246,7 @@ def build():
             item["slug"] = slug_by_uid[item["user_id"]]
 
     index = []
-    for uid in sorted(politicians, key=lambda key: strip_titles(politicians[key]["name"])):
+    for uid in sorted(politicians, key=lambda key: strip_diacritics(strip_titles(politicians[key]["name"])).lower()):
         politician = politicians[uid]
         latest = politician["timeline"][-1]["data"]
         index.append(
@@ -1336,7 +1336,7 @@ def build():
     # Compute old-style slugs (with titles) so we can redirect them.
     old_used_slugs = set()
     old_slug_by_uid = {}
-    for uid in sorted(politicians, key=lambda key: strip_titles(politicians[key]["name"])):
+    for uid in sorted(politicians, key=lambda key: strip_diacritics(strip_titles(politicians[key]["name"])).lower()):
         old_slug_by_uid[uid] = unique_slug(politicians[uid]["name"], old_used_slugs, uid)
 
     for uid, data in politicians.items():
