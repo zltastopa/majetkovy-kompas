@@ -354,9 +354,12 @@ function renderIncomeChart(detail) {
     return;
   }
 
-  wrap.querySelectorAll(".median-line, .median-label").forEach((node) => {
-    node.remove();
-  });
+  const card = wrap.closest(".section-card");
+
+  wrap.querySelectorAll(".median-line").forEach((node) => node.remove());
+  if (card) {
+    card.querySelectorAll(".median-label").forEach((node) => node.remove());
+  }
 
   // Default long timelines to the most recent years on first render.
   wrap.scrollLeft = Math.max(wrap.scrollWidth - wrap.clientWidth, 0);
@@ -396,22 +399,22 @@ function renderIncomeChart(detail) {
     }
 
     const position = chartHeight - (percent / 100) * (chartHeight - 10) + 10;
-    const chartWidth = el.offsetWidth;
 
     const lineEl = document.createElement("div");
     lineEl.className = "median-line";
     lineEl.style.top = `${position}px`;
-    lineEl.style.width = `${chartWidth}px`;
     lineEl.style.borderColor = line.color;
-
-    const labelEl = document.createElement("div");
-    labelEl.className = "median-label";
-    labelEl.style.top = `${position}px`;
-    labelEl.style.left = `${chartWidth}px`;
-    labelEl.textContent = line.label;
-
     wrap.appendChild(lineEl);
-    wrap.appendChild(labelEl);
+
+    if (card) {
+      const labelEl = document.createElement("div");
+      labelEl.className = "median-label";
+      labelEl.style.top = `${position}px`;
+      labelEl.style.borderColor = line.color;
+      labelEl.style.color = line.color;
+      labelEl.textContent = line.label;
+      card.appendChild(labelEl);
+    }
   });
 }
 

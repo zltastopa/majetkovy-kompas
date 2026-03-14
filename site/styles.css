@@ -736,8 +736,11 @@ a:hover {
   font-size: 0.875rem;
 }
 
-.income-chart-wrap {
+#income-section .section-card {
   position: relative;
+}
+
+.income-chart-wrap {
   overflow-x: auto;
   overflow-y: hidden;
   padding-bottom: 0.3rem;
@@ -806,13 +809,14 @@ a:hover {
 .median-line {
   position: absolute;
   left: 0;
+  right: 0;
   border-top: 2px dashed #94a3b8;
   pointer-events: none;
 }
 
 .median-label {
   position: absolute;
-  margin-left: 0.5rem;
+  right: 0.5rem;
   padding: 0.1rem 0.45rem;
   border: 1px solid #dbeafe;
   border-radius: 999px;
@@ -822,6 +826,7 @@ a:hover {
   font-weight: 700;
   transform: translateY(-50%);
   white-space: nowrap;
+  pointer-events: none;
 }
 
 .income-chart-wrap::-webkit-scrollbar {
