@@ -350,15 +350,16 @@ function renderIncomeChart(detail) {
     .join("");
 
   const wrap = el.closest(".income-chart-wrap");
+  if (!wrap) {
+    return;
+  }
 
-  el.querySelectorAll(".median-line, .median-label").forEach((node) => {
+  wrap.querySelectorAll(".median-line, .median-label").forEach((node) => {
     node.remove();
   });
 
   // Default long timelines to the most recent years on first render.
-  if (wrap) {
-    wrap.scrollLeft = Math.max(wrap.scrollWidth - wrap.clientWidth, 0);
-  }
+  wrap.scrollLeft = Math.max(wrap.scrollWidth - wrap.clientWidth, 0);
 
   const context = detail.context || {};
   if (maxIncome <= 0) {
@@ -395,18 +396,22 @@ function renderIncomeChart(detail) {
     }
 
     const position = chartHeight - (percent / 100) * (chartHeight - 10) + 10;
+    const chartWidth = el.offsetWidth;
+
     const lineEl = document.createElement("div");
     lineEl.className = "median-line";
     lineEl.style.top = `${position}px`;
+    lineEl.style.width = `${chartWidth}px`;
     lineEl.style.borderColor = line.color;
 
     const labelEl = document.createElement("div");
     labelEl.className = "median-label";
     labelEl.style.top = `${position}px`;
+    labelEl.style.left = `${chartWidth}px`;
     labelEl.textContent = line.label;
 
-    el.appendChild(lineEl);
-    el.appendChild(labelEl);
+    wrap.appendChild(lineEl);
+    wrap.appendChild(labelEl);
   });
 }
 
