@@ -112,18 +112,12 @@ function renderDetailContext(detail) {
       }
     </div>
     <div class="ctx-item ctx-item--median">
-      <div class="ctx-val">${medianIncome > 0 ? `${fmt(medianIncome)} €` : "—"}</div>
-      <div class="ctx-label">medián príjmu funkcionárov</div>
       ${
         income > 0 && medianIncome > 0
-          ? `<div class="ctx-delta ${incomeDeltaFromMedian >= 0 ? "ctx-delta--above" : "ctx-delta--below"}">${incomeDeltaFromMedian >= 0 ? "+" : "−"}${fmt(Math.abs(incomeDeltaFromMedian))} € ${incomeDeltaFromMedian >= 0 ? "nad" : "pod"} mediánom</div>`
-          : ""
-      }
-      <div class="ctx-rank">celkový príjem v poslednom priznaní, len nenulové</div>
-      ${
-        slovakMedian > 0
-          ? `<div class="ctx-rank">Zdroj SR: <a href="${SK_MEDIAN_SOURCE}" target="_blank" rel="noreferrer">${fmt(slovakMedianMonthly)} € / mes. v ${latestYear}</a> · ${fmt(slovakMedian)} € ročne</div>`
-          : ""
+          ? `<div class="ctx-val ${incomeDeltaFromMedian >= 0 ? "ctx-val--above" : "ctx-val--below"}">${incomeDeltaFromMedian >= 0 ? "+" : "−"}${fmt(Math.abs(incomeDeltaFromMedian))} €</div>
+             <div class="ctx-label">${incomeDeltaFromMedian >= 0 ? "nad" : "pod"} mediánom príjmu funkcionárov (${fmt(medianIncome)} €)</div>`
+          : `<div class="ctx-val">${medianIncome > 0 ? `${fmt(medianIncome)} €` : "—"}</div>
+             <div class="ctx-label">medián príjmu funkcionárov</div>`
       }
     </div>
     <div class="ctx-item">
