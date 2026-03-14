@@ -117,8 +117,9 @@ function renderDetailContext(detail) {
       ${
         income > 0 && medianIncome > 0
           ? `<div class="ctx-rank">${fmt(Math.abs(incomeDeltaFromMedian))} € ${incomeDeltaFromMedian >= 0 ? "nad" : "pod"} mediánom</div>`
-          : `<div class="ctx-rank">Referenčná hodnota pre porovnanie aktuálneho príjmu.</div>`
+          : ""
       }
+      <div class="ctx-rank">Stredná hodnota celkového príjmu všetkých funkcionárov s nenulovým príjmom.</div>
       ${
         slovakMedian > 0
           ? `<div class="ctx-rank">Zdroj SR: <a href="${SK_MEDIAN_SOURCE}" target="_blank" rel="noreferrer">${fmt(slovakMedianMonthly)} € / mes. v ${latestYear}</a> · ${fmt(slovakMedian)} € ročne</div>`
