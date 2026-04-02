@@ -294,6 +294,58 @@ a:hover {
   text-decoration: none;
 }
 
+.highlight-card--change a.latest-change-card__link {
+  display: block;
+  padding: 0.8rem 1rem;
+}
+
+.latest-change-card__top {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: start;
+}
+
+.latest-change-card__title {
+  color: var(--fg);
+  font-weight: 700;
+  font-size: 0.98rem;
+  line-height: 1.25;
+}
+
+.latest-change-card__side {
+  display: grid;
+  justify-items: end;
+  gap: 0.4rem;
+  min-width: 170px;
+}
+
+.latest-change-card__badge {
+  min-height: 22px;
+}
+
+.latest-change-card__date {
+  display: grid;
+  gap: 0.12rem;
+  text-align: right;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.latest-change-meta__label {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.68rem;
+}
+
+.latest-changes-controls {
+  align-items: center;
+}
+
+.controls--compact {
+  margin-bottom: 0.9rem;
+}
+
 .hl-left {
   flex: 1;
   min-width: 0;
@@ -307,9 +359,7 @@ a:hover {
 .hl-meta {
   font-size: 0.8rem;
   color: var(--muted);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.45;
 }
 
 .hl-right {
@@ -340,6 +390,27 @@ a:hover {
   color: var(--muted);
 }
 
+.hl-small--wrap {
+  margin-top: 0.28rem;
+  line-height: 1.45;
+  white-space: normal;
+}
+
+@media (max-width: 720px) {
+  .latest-change-card__top {
+    grid-template-columns: 1fr;
+  }
+
+  .latest-change-card__side {
+    justify-items: start;
+    min-width: 0;
+  }
+
+  .latest-change-card__date {
+    text-align: left;
+  }
+}
+
 .hl-badge {
   display: inline-block;
   font-size: 0.7rem;
@@ -362,6 +433,21 @@ a:hover {
 .badge-year {
   background: #e0e7ff;
   color: #3730a3;
+}
+
+.badge-new {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge-removed {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.badge-changed {
+  background: #fef3c7;
+  color: #92400e;
 }
 
 .explainer {

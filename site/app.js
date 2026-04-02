@@ -1,4 +1,6 @@
 (() => {
+  const collator = new Intl.Collator("sk", { sensitivity: "base" });
+
   function setupTabs() {
     const buttons = Array.from(document.querySelectorAll(".landing-tabs button"));
     if (!buttons.length) {
@@ -23,19 +25,65 @@
     });
   }
 
+  function setupLatestChangesSort() {
+    const sorts = Array.from(document.querySelectorAll("[data-latest-changes-sort]"));
+    if (!sorts.length) {
+      return;
+    }
+
+    const compareCards = (mode) => {
+      if (mode === "updated_asc") {
+        return (a, b) => (a.dataset.lastUpdated || "").localeCompare(b.dataset.lastUpdated || "");
+      }
+      if (mode === "changes_desc") {
+        return (a, b) => Number(b.dataset.changeCount || 0) - Number(a.dataset.changeCount || 0);
+      }
+      if (mode === "name") {
+        return (a, b) => collator.compare(a.dataset.name || "", b.dataset.name || "");
+      }
+      return (a, b) => (b.dataset.lastUpdated || "").localeCompare(a.dataset.lastUpdated || "");
+    };
+
+    sorts.forEach((sortEl) => {
+      const list = sortEl.closest(".landing-section, body")?.querySelector(".highlight-list[id^='latest-changes-list-']");
+      if (!list) {
+        return;
+      }
+
+      const count = sortEl.closest(".landing-section, body")?.querySelector(".result-count[id^='latest-changes-count-']");
+      const cards = Array.from(list.querySelectorAll(".highlight-card--change"));
+      if (!cards.length) {
+        return;
+      }
+
+      const render = () => {
+        cards.sort(compareCards(sortEl.value));
+        cards.forEach((card) => {
+          list.appendChild(card);
+        });
+        if (count) {
+          count.textContent = `${cards.length} záznamov`;
+        }
+      };
+
+      sortEl.addEventListener("change", render);
+      render();
+    });
+  }
+
   const list = document.getElementById("politician-list");
   const search = document.getElementById("search");
   const sort = document.getElementById("sort");
   const resultCount = document.getElementById("result-count");
 
   setupTabs();
+  setupLatestChangesSort();
 
   if (!list || !search || !sort || !resultCount) {
     return;
   }
 
   const rows = Array.from(list.querySelectorAll(".person-row"));
-  const collator = new Intl.Collator("sk", { sensitivity: "base" });
   const initialUrl = new URL(window.location.href);
   const searchHints = [
     "Robert",

@@ -53,6 +53,11 @@ SK_MEDIAN_INCOME = {
     2024: 18000,
 }
 SECTION_PAGES = {
+    "latest_changes": {
+        "slug": "posledne-zmeny",
+        "title": "Posledné zmeny",
+        "intro": "Nové a upravené priznania zachytené v poslednej extrakcii dát.",
+    },
     "income_jumps": {
         "slug": "najvacsie-zmeny-prijmov",
         "title": "Najväčšie zmeny príjmov",
@@ -206,6 +211,40 @@ def latest_data_diffs(status):
         new_data = read_yaml_at_commit(current_commit, filepath)
         diffs[user_id] = compute_diff(old_data, new_data)
     return diffs
+
+
+def latest_file_updates():
+    marker = "__COMMIT__ "
+    output = git(
+        "log",
+        "--format=" + marker + "%H %cs",
+        "--name-only",
+        data_branch_ref(),
+        "--",
+        "data/",
+    )
+    updates = {}
+    current_commit = ""
+    current_date = ""
+
+    for line in output.splitlines():
+        if line.startswith(marker):
+            _, payload = line.split(marker, 1)
+            parts = payload.split()
+            current_commit = parts[0] if parts else ""
+            current_date = parts[1] if len(parts) > 1 else ""
+            continue
+        if not line.endswith(".yaml") or not line.startswith("data/"):
+            continue
+        user_id = line.removeprefix("data/").removesuffix(".yaml")
+        if user_id in updates:
+            continue
+        updates[user_id] = {
+            "commit": current_commit,
+            "committed_at": current_date,
+        }
+
+    return updates
 
 
 def read_yaml_at_commit(commit, path):
@@ -664,6 +703,21 @@ def header_explainer():
 """
 
 
+def latest_change_badge(item):
+    change_type = item.get("change_type")
+    if change_type == "new":
+        return '<span class="hl-badge badge-new">nové priznanie</span>'
+    if change_type == "removed":
+        return '<span class="hl-badge badge-removed">zmizlo z poslednej extrakcie</span>'
+    if change_type == "unchanged":
+        return ""
+    count = item.get("change_count", 0)
+    return (
+        f'<span class="hl-badge badge-changed">{count} '
+        f'{"zmena" if count == 1 else "zmien"}</span>'
+    )
+
+
 def person_row(person, prefix=""):
     total = total_income(person["income"])
     role = display_role(person.get("public_function"))
@@ -766,6 +820,14 @@ def render_home(index, highlights, meta, stats):
   </ul>
 </div>
 
+<div class="landing-section" id="tab-latest_changes">
+  <p class="section-note">{data_status_note(meta["latest_extraction"])}</p>
+  {latest_changes_controls("latest-changes-sort-home", "latest-changes-count-home", len(highlights["latest_changes"]))}
+  <ul class="highlight-list" id="latest-changes-list-home">
+    {latest_change_list(highlights["latest_changes"])}
+  </ul>
+</div>
+
 <div class="landing-section" id="tab-income_jumps">
   <p class="section-note">Najväčšie medziročné zmeny celkových príjmov ({meta["years"][0]}–{meta["years"][-1]})</p>
   <div class="highlight-list">
@@ -799,6 +861,7 @@ def render_home(index, highlights, meta, stats):
 """
     nav_markup = """
 <button class="active" data-tab="search">Vyhľadávanie</button>
+<button data-tab="latest_changes">Posledné zmeny</button>
 <button data-tab="income_jumps">Najväčšie zmeny príjmov</button>
 <button data-tab="new_properties">Nové nehnuteľnosti</button>
 <button data-tab="new_obligations">Nové záväzky</button>
@@ -823,6 +886,7 @@ def render_home(index, highlights, meta, stats):
 
 def highlight_metric_label(kind):
     return {
+        "latest_changes": "Posledná extrakcia",
         "income_jumps": "Zmena",
         "new_properties": "Prírastok",
         "new_obligations": "Prírastok",
@@ -872,6 +936,87 @@ def highlight_card(item, kind, prefix=""):
 """
 
 
+def data_status_note(extraction_status):
+    committed_at = extraction_status.get("committed_at", "")
+    if not committed_at:
+        return "dátum poslednej extrakcie nie je dostupný"
+    return f'Posledná extrakcia dát: <strong>{esc(committed_at)}</strong>.'
+
+
+def latest_changes_controls(sort_id, count_id, total_items):
+    return f"""
+<div class="controls controls--compact latest-changes-controls">
+  <label class="sort-select">
+    <span class="sr-only">Triediť posledné zmeny</span>
+    <select id="{esc(sort_id)}" data-latest-changes-sort>
+      <option value="updated_desc">Naposledy aktualizované ↓</option>
+      <option value="updated_asc">Naposledy aktualizované ↑</option>
+      <option value="changes_desc">Počet zmien ↓</option>
+      <option value="name">Meno A–Z</option>
+    </select>
+  </label>
+  <p id="{esc(count_id)}" class="result-count">{total_items} záznamov</p>
+</div>
+"""
+
+
+def latest_change_card(item, prefix=""):
+    role = display_role(item.get("function"), "Bez uvedenej funkcie")
+    summary = item.get("summary") or []
+    badge = latest_change_badge(item)
+    extraction = item.get("latest_extraction", {})
+    last_updated = item.get("last_updated", {})
+    last_updated_at = last_updated.get("committed_at", "")
+    summary_text = " · ".join(summary[:3])
+    if len(summary) > 3:
+        summary_text += f" · a ďalšie {len(summary) - 3}"
+    primary_url = (
+        extraction.get("compare_url")
+        or extraction.get("commit_url")
+        or last_updated.get("commit_url")
+        or person_href(item["slug"], prefix)
+    )
+
+    if summary_text:
+        detail = summary_text
+    elif item.get("change_type") == "new":
+        detail = "Priznanie pribudlo v poslednej extrakcii."
+    elif item.get("change_type") == "removed":
+        detail = "Priznanie v poslednej extrakcii zmizlo."
+    else:
+        detail = ""
+
+    return f"""
+<li class="highlight-card highlight-card--change"
+    data-name="{esc(strip_titles(normalize_whitespace(item['name'])).lower())}"
+    data-last-updated="{esc(last_updated_at)}"
+    data-change-count="{item.get('change_count', 0)}">
+  <a class="latest-change-card__link" href="{esc(primary_url)}" target="_blank" rel="noreferrer">
+    <div class="latest-change-card__top">
+      <div class="hl-left">
+        <div class="latest-change-card__title">{esc(item['name'])}</div>
+        <div class="hl-meta">{esc(role)}</div>
+        {f'<div class="hl-small hl-small--wrap">{esc(detail)}</div>' if detail else ''}
+      </div>
+      <div class="latest-change-card__side">
+        {f'<div class="latest-change-card__badge">{badge}</div>' if badge else ''}
+        <div class="latest-change-card__date">
+          <span class="latest-change-meta__label">Naposledy upravené</span>
+          <strong>{esc(last_updated_at or "neznáme")}</strong>
+        </div>
+      </div>
+    </div>
+  </a>
+</li>
+"""
+
+
+def latest_change_list(items, prefix=""):
+    if not items:
+        return '<li class="empty-state">Posledná extrakcia nezachytila žiadne zmeny.</li>'
+    return "".join(latest_change_card(item, prefix) for item in items)
+
+
 def render_section_page(kind, page, items, meta, stats):
     title = page_title(page["title"], SITE_NAME)
     description = f"{page['intro']} {SITE_NAME} spracúva dáta z NR SR."
@@ -898,20 +1043,50 @@ def render_section_page(kind, page, items, meta, stats):
         },
     }
     extra_link = ""
-    if kind != "top_earners":
+    if kind not in {"top_earners", "latest_changes"}:
         extra_link = (
             f' · <a href="../{SECTION_PAGES["top_earners"]["slug"]}/">'
             f'Najvyššie príjmy {meta["years"][-1]}</a>'
         )
+    section_intro = (
+        data_status_note(meta["latest_extraction"])
+        if kind == "latest_changes"
+        else esc(page["intro"])
+    )
+    section_controls = (
+        latest_changes_controls(
+            "latest-changes-sort-page",
+            "latest-changes-count-page",
+            len(items),
+        )
+        if kind == "latest_changes"
+        else ""
+    )
+    section_list_open = (
+        '<ul class="highlight-list" id="latest-changes-list-page">'
+        if kind == "latest_changes"
+        else '<div class="highlight-list">'
+    )
+    section_list_close = "</ul>" if kind == "latest_changes" else "</div>"
+    section_items = (
+        latest_change_list(items, "../")
+        if kind == "latest_changes"
+        else "".join(highlight_card(item, kind, "../") for item in items)
+    )
+    section_script = (
+        '<script src="../app.js"></script>' if kind == "latest_changes" else ""
+    )
     body = f"""
 <div class="landing-section active">
   <h1 class="page-title">{esc(page['title'])}</h1>
-  <p class="section-note">{esc(page['intro'])}</p>
-  <div class="highlight-list">
-    {''.join(highlight_card(item, kind, '../') for item in items)}
-  </div>
+  <p class="section-note">{section_intro}</p>
+  {section_controls}
+  {section_list_open}
+    {section_items}
+  {section_list_close}
 </div>
 <p class="section-cta"><a href="../">&larr; Späť na vyhľadávanie</a>{extra_link}</p>
+{section_script}
 """
     return shell(
         title,
@@ -1107,6 +1282,7 @@ def build():
     years = [year for _, year in commits]
     data_status = latest_data_commit_info()
     extraction_diffs = latest_data_diffs(data_status)
+    file_updates = latest_file_updates()
     repo_url = parse_github_repo_url()
     print(f"Found {len(commits)} commits: {years}", file=sys.stderr)
 
@@ -1153,6 +1329,7 @@ def build():
 
     politicians = {}
     highlights = {
+        "latest_changes": [],
         "income_jumps": [],
         "new_properties": [],
         "new_obligations": [],
@@ -1247,6 +1424,13 @@ def build():
             if repo_url and data_status.get("previous_commit")
             else ""
         )
+        last_updated = file_updates.get(user_id, {})
+        last_updated_commit = last_updated.get("commit", "")
+        last_updated_url = (
+            f"{repo_url}/commit/{last_updated_commit}"
+            if repo_url and last_updated_commit
+            else ""
+        )
 
         politicians[user_id] = {
             "user_id": user_id,
@@ -1273,7 +1457,27 @@ def build():
                     for change in latest_extraction_diff.get("changes", [])
                 ],
             },
+            "last_updated": {
+                "committed_at": last_updated.get("committed_at", ""),
+                "commit": last_updated_commit,
+                "commit_url": last_updated_url,
+            },
         }
+
+        change_type = latest_extraction_diff.get("type", "unchanged")
+        change_count = len(latest_extraction_diff.get("changes", []))
+        highlights["latest_changes"].append(
+            {
+                "user_id": user_id,
+                "name": name,
+                "function": latest.get("public_function"),
+                "change_type": change_type,
+                "change_count": change_count,
+                "summary": politicians[user_id]["latest_extraction"]["summary"],
+                "latest_extraction": politicians[user_id]["latest_extraction"],
+                "last_updated": politicians[user_id]["last_updated"],
+            }
+        )
 
         latest_income = total_income(latest)
         latest_properties = count_items(latest, "real_estate")
@@ -1309,6 +1513,18 @@ def build():
             )
 
     highlights["income_jumps"].sort(key=lambda item: abs(item["delta"]), reverse=True)
+    highlights["latest_changes"].sort(
+        key=lambda item: (
+            item.get("last_updated", {}).get("committed_at", ""),
+            item.get("change_count", 0),
+            -{"new": 3, "changed": 2, "removed": 1, "unchanged": 0}.get(
+                item["change_type"], 4
+            ),
+            strip_diacritics(item["name"]).lower(),
+        ),
+        reverse=True,
+    )
+    highlights["latest_changes"] = highlights["latest_changes"][:30]
     highlights["income_jumps"] = highlights["income_jumps"][:30]
     highlights["new_properties"].sort(key=lambda item: item["added"], reverse=True)
     highlights["new_properties"] = highlights["new_properties"][:30]
@@ -1408,7 +1624,17 @@ def build():
     (SITE_DIR / "highlights.json").write_text(
         json.dumps(highlights, ensure_ascii=False), encoding="utf-8"
     )
-    meta = {"years": years, "count": len(politicians)}
+    meta = {
+        "years": years,
+        "count": len(politicians),
+        "latest_extraction": {
+            "committed_at": data_status.get("committed_at", ""),
+            "branch": data_status.get("branch", DATA_BRANCH),
+            "commit": data_status.get("commit", ""),
+            "commit_url": data_status.get("commit_url", ""),
+            "compare_url": data_status.get("compare_url", ""),
+        },
+    }
     (SITE_DIR / "meta.json").write_text(
         json.dumps(meta, ensure_ascii=False), encoding="utf-8"
     )
