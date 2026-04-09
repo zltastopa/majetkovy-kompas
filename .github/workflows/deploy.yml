@@ -2,7 +2,9 @@ name: Build and deploy to GitHub Pages
 
 on:
   push:
-    branches: [main, data]
+    # The orphan `data` branch does not carry this workflow file, so
+    # automated `data` updates dispatch this workflow from `check-data.yml`.
+    branches: [main]
   workflow_dispatch:
 
 permissions:
