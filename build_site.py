@@ -247,6 +247,47 @@ def latest_file_updates():
     return updates
 
 
+def latest_extraction_info(user_id, data_status, repo_url, extraction_diffs):
+    latest_extraction_diff = extraction_diffs.get(user_id, {"type": "unchanged"})
+    current_file_url = (
+        f"{repo_url}/blob/{data_status['commit']}/data/{user_id}.yaml"
+        if repo_url and data_status.get("commit")
+        else ""
+    )
+    previous_file_url = (
+        f"{repo_url}/blob/{data_status['previous_commit']}/data/{user_id}.yaml"
+        if repo_url and data_status.get("previous_commit")
+        else ""
+    )
+    return {
+        "committed_at": data_status["committed_at"],
+        "commit": data_status["commit"],
+        "previous_commit": data_status.get("previous_commit", ""),
+        "commit_url": data_status["commit_url"],
+        "compare_url": data_status["compare_url"],
+        "file_url": current_file_url,
+        "previous_file_url": previous_file_url,
+        "diff": latest_extraction_diff,
+        "summary": [
+            field_summary(change) for change in latest_extraction_diff.get("changes", [])
+        ],
+    }
+
+
+def last_updated_info(user_id, file_updates, repo_url):
+    last_updated = file_updates.get(user_id, {})
+    last_updated_commit = last_updated.get("commit", "")
+    return {
+        "committed_at": last_updated.get("committed_at", ""),
+        "commit": last_updated_commit,
+        "commit_url": (
+            f"{repo_url}/commit/{last_updated_commit}"
+            if repo_url and last_updated_commit
+            else ""
+        ),
+    }
+
+
 def read_yaml_at_commit(commit, path):
     try:
         content = subprocess.check_output(
@@ -964,18 +1005,12 @@ def latest_change_card(item, prefix=""):
     role = display_role(item.get("function"), "Bez uvedenej funkcie")
     summary = item.get("summary") or []
     badge = latest_change_badge(item)
-    extraction = item.get("latest_extraction", {})
     last_updated = item.get("last_updated", {})
     last_updated_at = last_updated.get("committed_at", "")
     summary_text = " · ".join(summary[:3])
     if len(summary) > 3:
         summary_text += f" · a ďalšie {len(summary) - 3}"
-    primary_url = (
-        extraction.get("compare_url")
-        or extraction.get("commit_url")
-        or last_updated.get("commit_url")
-        or person_href(item["slug"], prefix)
-    )
+    primary_url = latest_change_primary_url(item, prefix)
 
     if summary_text:
         detail = summary_text
@@ -1017,11 +1052,41 @@ def latest_change_list(items, prefix=""):
     return "".join(latest_change_card(item, prefix) for item in items)
 
 
+def latest_change_primary_url(item, prefix=""):
+    extraction = item.get("latest_extraction", {})
+    last_updated = item.get("last_updated", {})
+    return (
+        extraction.get("compare_url")
+        or extraction.get("commit_url")
+        or last_updated.get("commit_url")
+        or (
+            person_href(item["slug"], prefix)
+            if item.get("slug")
+            else ""
+        )
+    )
+
+
 def render_section_page(kind, page, items, meta, stats):
     title = page_title(page["title"], SITE_NAME)
     description = f"{page['intro']} {SITE_NAME} spracúva dáta z NR SR."
     page_path = f"/{page['slug']}/"
     page_url = abs_url(page_path) or page_path
+    item_list_elements = []
+    for index, item in enumerate(items):
+        if kind == "latest_changes":
+            item_url = latest_change_primary_url(item)
+        else:
+            item_url = abs_url(person_path(item["slug"])) or person_path(item["slug"])
+        item_list_elements.append(
+            {
+                "@type": "ListItem",
+                "position": index + 1,
+                "url": item_url,
+                "name": item["name"],
+            }
+        )
+
     json_ld = {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
@@ -1030,16 +1095,7 @@ def render_section_page(kind, page, items, meta, stats):
         "url": page_url,
         "mainEntity": {
             "@type": "ItemList",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": index + 1,
-                    "url": abs_url(person_path(item["slug"]))
-                    or person_path(item["slug"]),
-                    "name": item["name"],
-                }
-                for index, item in enumerate(items)
-            ],
+            "itemListElement": item_list_elements,
         },
     }
     extra_link = ""
@@ -1413,24 +1469,10 @@ def build():
 
         latest = timeline[-1]["data"]
         name = title_case_name(latest.get("name", user_id))
-        latest_extraction_diff = extraction_diffs.get(user_id, {"type": "unchanged"})
-        current_file_url = (
-            f"{repo_url}/blob/{data_status['commit']}/data/{user_id}.yaml"
-            if repo_url and data_status.get("commit")
-            else ""
+        latest_extraction = latest_extraction_info(
+            user_id, data_status, repo_url, extraction_diffs
         )
-        previous_file_url = (
-            f"{repo_url}/blob/{data_status['previous_commit']}/data/{user_id}.yaml"
-            if repo_url and data_status.get("previous_commit")
-            else ""
-        )
-        last_updated = file_updates.get(user_id, {})
-        last_updated_commit = last_updated.get("commit", "")
-        last_updated_url = (
-            f"{repo_url}/commit/{last_updated_commit}"
-            if repo_url and last_updated_commit
-            else ""
-        )
+        last_updated = last_updated_info(user_id, file_updates, repo_url)
 
         politicians[user_id] = {
             "user_id": user_id,
@@ -1443,29 +1485,12 @@ def build():
             "years": [entry["year"] for entry in timeline],
             "timeline": timeline,
             "total_changes": total_changes,
-            "latest_extraction": {
-                "committed_at": data_status["committed_at"],
-                "commit": data_status["commit"],
-                "previous_commit": data_status.get("previous_commit", ""),
-                "commit_url": data_status["commit_url"],
-                "compare_url": data_status["compare_url"],
-                "file_url": current_file_url,
-                "previous_file_url": previous_file_url,
-                "diff": latest_extraction_diff,
-                "summary": [
-                    field_summary(change)
-                    for change in latest_extraction_diff.get("changes", [])
-                ],
-            },
-            "last_updated": {
-                "committed_at": last_updated.get("committed_at", ""),
-                "commit": last_updated_commit,
-                "commit_url": last_updated_url,
-            },
+            "latest_extraction": latest_extraction,
+            "last_updated": last_updated,
         }
 
-        change_type = latest_extraction_diff.get("type", "unchanged")
-        change_count = len(latest_extraction_diff.get("changes", []))
+        change_type = latest_extraction["diff"].get("type", "unchanged")
+        change_count = len(latest_extraction["diff"].get("changes", []))
         highlights["latest_changes"].append(
             {
                 "user_id": user_id,
@@ -1473,9 +1498,9 @@ def build():
                 "function": latest.get("public_function"),
                 "change_type": change_type,
                 "change_count": change_count,
-                "summary": politicians[user_id]["latest_extraction"]["summary"],
-                "latest_extraction": politicians[user_id]["latest_extraction"],
-                "last_updated": politicians[user_id]["last_updated"],
+                "summary": latest_extraction["summary"],
+                "latest_extraction": latest_extraction,
+                "last_updated": last_updated,
             }
         )
 
@@ -1512,6 +1537,32 @@ def build():
                 }
             )
 
+    latest_commit = data_status.get("commit", "")
+    for user_id, diff in extraction_diffs.items():
+        if user_id in politicians or diff.get("type") == "removed" or not latest_commit:
+            continue
+
+        latest_data = read_yaml_at_commit(latest_commit, f"data/{user_id}.yaml")
+        if not latest_data:
+            continue
+
+        latest_extraction = latest_extraction_info(
+            user_id, data_status, repo_url, extraction_diffs
+        )
+        last_updated = last_updated_info(user_id, file_updates, repo_url)
+        highlights["latest_changes"].append(
+            {
+                "user_id": user_id,
+                "name": title_case_name(latest_data.get("name", user_id)),
+                "function": latest_data.get("public_function"),
+                "change_type": latest_extraction["diff"].get("type", "unchanged"),
+                "change_count": len(latest_extraction["diff"].get("changes", [])),
+                "summary": latest_extraction["summary"],
+                "latest_extraction": latest_extraction,
+                "last_updated": last_updated,
+            }
+        )
+
     highlights["income_jumps"].sort(key=lambda item: abs(item["delta"]), reverse=True)
     highlights["latest_changes"].sort(
         key=lambda item: (
@@ -1541,15 +1592,14 @@ def build():
 
     used_slugs = set()
     slug_by_uid = {}
+    slug_names = {uid: person["name"] for uid, person in politicians.items()}
+    for items in highlights.values():
+        for item in items:
+            slug_names.setdefault(item["user_id"], item["name"])
     for uid in sorted(
-        politicians,
-        key=lambda key: strip_diacritics(
-            strip_titles(politicians[key]["name"])
-        ).lower(),
+        slug_names, key=lambda key: strip_diacritics(strip_titles(slug_names[key])).lower()
     ):
-        slug_by_uid[uid] = unique_slug(
-            strip_titles(politicians[uid]["name"]), used_slugs, uid
-        )
+        slug_by_uid[uid] = unique_slug(strip_titles(slug_names[uid]), used_slugs, uid)
 
     for politician in politicians.values():
         politician["slug"] = slug_by_uid[politician["user_id"]]
