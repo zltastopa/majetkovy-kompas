@@ -304,6 +304,19 @@ def read_current_head_data(commit):
     return current_data
 
 
+def declaration_year(data, fallback_year):
+    if not isinstance(data, dict):
+        return fallback_year
+    year = data.get("year")
+    if isinstance(year, int):
+        return year
+    if isinstance(year, str):
+        match = re.search(r"\b(\d{4})\b", year)
+        if match:
+            return int(match.group(1))
+    return fallback_year
+
+
 def read_yaml_at_commit(commit, path):
     try:
         content = subprocess.check_output(
@@ -1042,7 +1055,7 @@ def latest_change_card(item, prefix=""):
     data-name="{esc(strip_titles(normalize_whitespace(item['name'])).lower())}"
     data-last-updated="{esc(last_updated_at)}"
     data-change-count="{item.get('change_count', 0)}">
-  <a class="latest-change-card__link" href="{esc(primary_url)}" target="_blank" rel="noreferrer">
+  <a class="latest-change-card__link" href="{esc(primary_url)}">
     <div class="latest-change-card__top">
       <div class="hl-left">
         <div class="latest-change-card__title">{esc(item['name'])}</div>
@@ -1072,13 +1085,13 @@ def latest_change_primary_url(item, prefix=""):
     extraction = item.get("latest_extraction", {})
     last_updated = item.get("last_updated", {})
     return (
-        extraction.get("compare_url")
-        or extraction.get("commit_url")
-        or last_updated.get("commit_url")
-        or (
-            person_href(item["slug"], prefix)
-            if item.get("slug")
-            else ""
+        (person_href(item["slug"], prefix) if prefix else person_path(item["slug"]))
+        if item.get("slug")
+        else (
+            extraction.get("compare_url")
+            or extraction.get("commit_url")
+            or last_updated.get("commit_url")
+            or ""
         )
     )
 
@@ -1091,7 +1104,11 @@ def render_section_page(kind, page, items, meta, stats):
     item_list_elements = []
     for index, item in enumerate(items):
         if kind == "latest_changes":
-            item_url = latest_change_primary_url(item)
+            item_url = (
+                abs_url(person_path(item["slug"])) or person_path(item["slug"])
+                if item.get("slug")
+                else latest_change_primary_url(item)
+            )
         else:
             item_url = abs_url(person_path(item["slug"])) or person_path(item["slug"])
         item_list_elements.append(
@@ -1411,6 +1428,7 @@ def build():
         "most_properties": [],
         "most_obligations": [],
     }
+    current_head_people = {}
 
     for user_id in sorted(all_ids):
         timeline = []
@@ -1540,11 +1558,18 @@ def build():
                 }
             )
 
+    detail_people = dict(politicians)
+
     for user_id, latest_data in current_head_data.items():
         latest_extraction = latest_extraction_info(
             user_id, data_status, repo_url, extraction_diffs
         )
         last_updated = last_updated_info(user_id, file_updates, repo_url)
+        current_head_people[user_id] = {
+            "data": latest_data,
+            "latest_extraction": latest_extraction,
+            "last_updated": last_updated,
+        }
         highlights["latest_changes"].append(
             {
                 "user_id": user_id,
@@ -1557,6 +1582,36 @@ def build():
                 "last_updated": last_updated,
             }
         )
+
+    fallback_year = years[-1] if years else declaration_year(
+        {"year": data_status.get("committed_at", "")}, 0
+    )
+    for user_id, current_head_person in current_head_people.items():
+        if user_id in detail_people:
+            continue
+        latest_data = current_head_person["data"]
+        detail_year = declaration_year(latest_data, fallback_year)
+        detail_people[user_id] = {
+            "user_id": user_id,
+            "name": title_case_name(latest_data.get("name", user_id)),
+            "public_function": latest_data.get("public_function"),
+            "public_functions": latest_data.get("public_functions"),
+            "role": display_role(
+                latest_data.get("public_functions")
+                or latest_data.get("public_function")
+            ),
+            "years": [detail_year],
+            "timeline": [
+                {
+                    "year": detail_year,
+                    "data": latest_data,
+                    "diff": compute_diff(None, latest_data),
+                }
+            ],
+            "total_changes": 0,
+            "latest_extraction": current_head_person["latest_extraction"],
+            "last_updated": current_head_person["last_updated"],
+        }
 
     highlights["income_jumps"].sort(key=lambda item: abs(item["delta"]), reverse=True)
     highlights["latest_changes"].sort(
@@ -1587,7 +1642,7 @@ def build():
 
     used_slugs = set()
     slug_by_uid = {}
-    slug_names = {uid: person["name"] for uid, person in politicians.items()}
+    slug_names = {uid: person["name"] for uid, person in detail_people.items()}
     for items in highlights.values():
         for item in items:
             slug_names.setdefault(item["user_id"], item["name"])
@@ -1598,6 +1653,8 @@ def build():
 
     for politician in politicians.values():
         politician["slug"] = slug_by_uid[politician["user_id"]]
+    for person in detail_people.values():
+        person["slug"] = slug_by_uid[person["user_id"]]
 
     for key, items in highlights.items():
         for item in items:
@@ -1639,7 +1696,7 @@ def build():
             stats["all_properties"], person.get("n_properties", 0)
         )
 
-    for uid, politician in politicians.items():
+    for uid, politician in detail_people.items():
         latest = politician["timeline"][-1]["data"]
         latest_year = politician["years"][-1]
         income = total_income(latest)
@@ -1690,7 +1747,7 @@ def build():
 
     detail_json_dir = SITE_DIR / DETAIL_JSON_DIRNAME
     detail_json_dir.mkdir(exist_ok=True)
-    for uid, data in politicians.items():
+    for uid, data in detail_people.items():
         (detail_json_dir / f"{uid}.json").write_text(
             json.dumps(data, ensure_ascii=False, indent=2),
             encoding="utf-8",
@@ -1726,16 +1783,16 @@ def build():
     old_used_slugs = set()
     old_slug_by_uid = {}
     for uid in sorted(
-        politicians,
+        detail_people,
         key=lambda key: strip_diacritics(
-            strip_titles(politicians[key]["name"])
+            strip_titles(detail_people[key]["name"])
         ).lower(),
     ):
         old_slug_by_uid[uid] = unique_slug(
-            politicians[uid]["name"], old_used_slugs, uid
+            detail_people[uid]["name"], old_used_slugs, uid
         )
 
-    for uid, data in politicians.items():
+    for uid, data in detail_people.items():
         target_dir = detail_html_dir / data["slug"]
         target_dir.mkdir(parents=True, exist_ok=True)
         (target_dir / "index.html").write_text(
@@ -1761,7 +1818,7 @@ def build():
         sitemap_entries = [abs_url("/")]
         for page in SECTION_PAGES.values():
             sitemap_entries.append(abs_url(f"/{page['slug']}/"))
-        for data in politicians.values():
+        for data in detail_people.values():
             sitemap_entries.append(abs_url(person_path(data["slug"])))
         sitemap_xml = (
             '<?xml version="1.0" encoding="UTF-8"?>\n'
