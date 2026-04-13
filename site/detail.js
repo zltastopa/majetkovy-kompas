@@ -75,6 +75,20 @@ function normalizePublicFunction(value) {
     .trim();
 }
 
+function publicFunctionsForData(data) {
+  if (!data || typeof data !== "object") {
+    return [];
+  }
+
+  const rawItems = Array.isArray(data.public_functions)
+    ? data.public_functions
+    : typeof data.public_function === "string"
+      ? data.public_function.split(/\n+/)
+      : [];
+
+  return [...new Set(rawItems.map((item) => normalizePublicFunction(item)).filter(Boolean))];
+}
+
 function renderDetailContext(detail) {
   const el = document.getElementById("detail-context");
   if (!el) {
@@ -202,6 +216,17 @@ function renderYearData(detail, year) {
   html += section("Zamestnanie", () =>
     data.employment ? `<div>${esc(data.employment).replace(/\n/g, "<br>")}</div>` : empty("nevykonáva"),
   );
+
+  html += section("Verejné funkcie", () => {
+    const publicFunctions = publicFunctionsForData(data);
+    if (!publicFunctions.length) {
+      return empty("neuvedené");
+    }
+    return itemsList(
+      publicFunctions,
+      (publicFunction) => `<div class="item-role">${esc(publicFunction)}</div>`,
+    );
+  });
 
   html += section("Funkcie", () => {
     if (!data.positions || !data.positions.length) {
@@ -544,6 +569,7 @@ function fieldLabel(key) {
       gifts: "dary",
       property_rights: "majetkové práva",
       public_function: "verejná funkcia",
+      public_functions: "verejné funkcie",
       incompatibility: "nezlučiteľnosť",
       use_of_others_real_estate: "užívanie nehnuteľností",
     }[key] || key

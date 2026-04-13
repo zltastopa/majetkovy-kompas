@@ -60,6 +60,22 @@
     return esc(String(value)).replace(/\n/g, "<br>");
   }
 
+  function normalizePublicFunction(value) {
+    return String(value || "")
+      .replace(/\s+/g, " ")
+      .replace(/(?<=[\w\)])(?=(člen |členka |poslanec |predseda |podpredseda |primátor |starosta |štatutárny orgán |sudca |sudkyňa |prokurátor |riaditeľ |riaditeľka |generálny |guvernér |prezident |rektor |dekan ))/g, " · ")
+      .trim();
+  }
+
+  function publicFunctionsForData(data) {
+    const rawItems = Array.isArray(data?.public_functions)
+      ? data.public_functions
+      : typeof data?.public_function === "string"
+        ? data.public_function.split(/\n+/)
+        : [];
+    return [...new Set(rawItems.map((item) => normalizePublicFunction(item)).filter(Boolean))];
+  }
+
   function entryForYear(detail, year) {
     return detail?.timeline?.find((entry) => entry.year === year) || null;
   }
@@ -187,6 +203,10 @@
     return `<div class="compare-item-title">${esc(JSON.stringify(item || {}))}</div>`;
   }
 
+  function renderPublicFunctionItem(item) {
+    return `<div class="compare-item-title">${esc(item || "Verejná funkcia")}</div>`;
+  }
+
   function renderYearSnapshotCard(label, entry) {
     const data = entry.data;
     return `<article class="compare-summary-card">
@@ -276,6 +296,14 @@
       lineBreak(leftData.employment, "Nevykonáva"),
       lineBreak(rightData.employment, "Nevykonáva"),
       leftData.employment !== rightData.employment
+    );
+
+    html += compareListSection(
+      "Verejné funkcie",
+      publicFunctionsForData(leftData),
+      publicFunctionsForData(rightData),
+      renderPublicFunctionItem,
+      "Bez uvedenej verejnej funkcie."
     );
 
     html += compareListSection("Funkcie", leftData.positions, rightData.positions, renderPositionItem, "Bez uvedených funkcií.");

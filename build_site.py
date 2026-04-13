@@ -1252,6 +1252,7 @@ def field_summary(change):
         "gifts": "Dary",
         "property_rights": "Majetkové práva",
         "public_function": "Verejná funkcia",
+        "public_functions": "Verejné funkcie",
         "incompatibility": "Nezlučiteľnosť",
         "use_of_others_real_estate": "Užívanie nehnuteľností",
     }.get(change["field"], change["field"])
