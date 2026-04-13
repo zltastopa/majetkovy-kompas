@@ -288,6 +288,22 @@ def last_updated_info(user_id, file_updates, repo_url):
     }
 
 
+def read_current_head_data(commit):
+    if not commit:
+        return {}
+
+    current_data = {}
+    files = git("ls-tree", "--name-only", commit, "data/").split("\n")
+    for filepath in files:
+        if not filepath.endswith(".yaml"):
+            continue
+        user_id = filepath.removeprefix("data/").removesuffix(".yaml")
+        data = read_yaml_at_commit(commit, filepath)
+        if data:
+            current_data[user_id] = data
+    return current_data
+
+
 def read_yaml_at_commit(commit, path):
     try:
         content = subprocess.check_output(
@@ -1340,6 +1356,8 @@ def build():
     extraction_diffs = latest_data_diffs(data_status)
     file_updates = latest_file_updates()
     repo_url = parse_github_repo_url()
+    latest_commit = data_status.get("commit", "")
+    current_head_data = read_current_head_data(latest_commit)
     print(f"Found {len(commits)} commits: {years}", file=sys.stderr)
 
     # Years with fewer declarations than this are excluded from the site —
@@ -1489,21 +1507,6 @@ def build():
             "last_updated": last_updated,
         }
 
-        change_type = latest_extraction["diff"].get("type", "unchanged")
-        change_count = len(latest_extraction["diff"].get("changes", []))
-        highlights["latest_changes"].append(
-            {
-                "user_id": user_id,
-                "name": name,
-                "function": latest.get("public_function"),
-                "change_type": change_type,
-                "change_count": change_count,
-                "summary": latest_extraction["summary"],
-                "latest_extraction": latest_extraction,
-                "last_updated": last_updated,
-            }
-        )
-
         latest_income = total_income(latest)
         latest_properties = count_items(latest, "real_estate")
         latest_obligations = count_items(latest, "obligations")
@@ -1537,15 +1540,7 @@ def build():
                 }
             )
 
-    latest_commit = data_status.get("commit", "")
-    for user_id, diff in extraction_diffs.items():
-        if user_id in politicians or diff.get("type") == "removed" or not latest_commit:
-            continue
-
-        latest_data = read_yaml_at_commit(latest_commit, f"data/{user_id}.yaml")
-        if not latest_data:
-            continue
-
+    for user_id, latest_data in current_head_data.items():
         latest_extraction = latest_extraction_info(
             user_id, data_status, repo_url, extraction_diffs
         )
