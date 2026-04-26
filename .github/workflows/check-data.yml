@@ -93,18 +93,13 @@ jobs:
             exit 0
           fi
 
-          git commit -F - <<EOF
-          data: daily declaration baseline
+          uv run --project "$GITHUB_WORKSPACE" \
+            python "$GITHUB_WORKSPACE/.github/scripts/data_commit_message.py" \
+            --repo . \
+            --latest-year "${{ steps.latest-year.outputs.value }}" \
+            --output commit-message.txt
 
-          Daily scrape of the latest available NR SR declarations.
-          The commit message intentionally omits the reporting year so
-          that build_site.py does not treat this mixed-year snapshot as
-          a single-year data commit.
-
-          - Re-scrape the latest available NR SR declarations into \`data/\`
-          - Store content hashes in \`data/_checks/content-hashes.json\`
-          - Latest reporting year detected: ${{ steps.latest-year.outputs.value }}
-          EOF
+          git commit -F commit-message.txt
 
           git push origin HEAD:data
           echo "changed=true" >> "$GITHUB_OUTPUT"

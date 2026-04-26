@@ -13,6 +13,7 @@ import json
 import os
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -58,24 +59,39 @@ LIST_FIELDS = {
 
 def run_git(repo: Path, *args: str) -> str:
     return subprocess.check_output(
-        ["git", "-c", "core.quotePath=false", *args], cwd=repo, text=True
+        ["git", "-c", "core.quotePath=false", *args],
+        cwd=repo,
+        stderr=subprocess.DEVNULL,
+        text=True,
     ).strip()
 
 
 def read_json_at(repo: Path, commit: str, path: str) -> dict[str, Any]:
+    if not commit:
+        return {}
     try:
         content = run_git(repo, "show", f"{commit}:{path}")
     except subprocess.CalledProcessError:
         return {}
-    return json.loads(content)
+    try:
+        value = json.loads(content)
+    except json.JSONDecodeError:
+        return {}
+    return value if isinstance(value, dict) else {}
 
 
 def read_yaml_at(repo: Path, commit: str, user_id: str) -> dict[str, Any] | None:
+    if not commit:
+        return None
     try:
         content = run_git(repo, "show", f"{commit}:data/{user_id}.yaml")
     except subprocess.CalledProcessError:
         return None
-    return yaml.safe_load(content) or {}
+    try:
+        value = yaml.safe_load(content) or {}
+    except yaml.YAMLError:
+        return {"name": user_id, "_load_error": "YAML parse error"}
+    return value if isinstance(value, dict) else {"name": user_id}
 
 
 def canonical(value: Any) -> str:
@@ -85,7 +101,14 @@ def canonical(value: Any) -> str:
 def total_income(value: Any) -> int:
     if not isinstance(value, dict):
         return 0
-    return int(value.get("public_function") or 0) + int(value.get("other") or 0)
+    return parse_int(value.get("public_function")) + parse_int(value.get("other"))
+
+
+def parse_int(value: Any) -> int:
+    try:
+        return int(value or 0)
+    except (TypeError, ValueError):
+        return 0
 
 
 def fmt_currency(value: int) -> str:
@@ -119,6 +142,13 @@ def clean_text(value: Any) -> str:
     return text.replace("@", "@\u200b")
 
 
+def discord_text(value: Any) -> str:
+    text = clean_text(value)
+    for char in "\\`*_~|<>[]":
+        text = text.replace(char, "\\" + char)
+    return text
+
+
 def title_case_name(value: str) -> str:
     parts = []
     for part in value.split():
@@ -143,7 +173,7 @@ def person_name(
     new_data: dict[str, Any] | None,
 ) -> str:
     data = new_data or old_data or {}
-    return title_case_name(clean_text(data.get("name") or user_id))
+    return title_case_name(discord_text(data.get("name") or user_id))
 
 
 def role_text(data: dict[str, Any] | None) -> str:
@@ -151,8 +181,8 @@ def role_text(data: dict[str, Any] | None) -> str:
         return ""
     role = data.get("public_functions") or data.get("public_function") or ""
     if isinstance(role, list):
-        role = " · ".join(clean_text(item) for item in role[:2] if item)
-    return clean_text(role)
+        role = " · ".join(discord_text(item) for item in role[:2] if item)
+    return discord_text(role)
 
 
 def declaration_counts(data: dict[str, Any] | None) -> list[str]:
@@ -221,7 +251,7 @@ def changed_fields(
             fields.append(f"{label}: {detail}")
         elif key in {"year", "filed", "declaration_id", "name"}:
             fields.append(
-                f"{label}: {clean_text(old_value)} -> {clean_text(new_value)}"
+                f"{label}: {discord_text(old_value)} -> {discord_text(new_value)}"
             )
         else:
             fields.append(label)
@@ -250,7 +280,22 @@ def classify_changes(
         != new_declarations[user_id].get("content_sha256")
     )
 
-    if not old_declarations and not new_declarations:
+    if not previous:
+        removed = []
+        modified = []
+        if new_declarations:
+            added = sorted(new_ids)
+        else:
+            output = run_git(repo, "ls-tree", "-r", "--name-only", current, "--", "data")
+            added = sorted(
+                Path(line).stem
+                for line in output.splitlines()
+                if line.startswith("data/") and line.endswith(".yaml")
+            )
+    elif not old_declarations or not new_declarations:
+        added = []
+        modified = []
+        removed = []
         changed_files = run_git(
             repo,
             "diff",
@@ -291,9 +336,16 @@ def classify_changes(
                 }
             )
 
+    old_count = old_manifest.get("count")
+    new_count = new_manifest.get("count")
+    if old_count is None:
+        old_count = count_yaml_at(repo, previous)
+    if new_count is None:
+        new_count = count_yaml_at(repo, current)
+
     stats = {
-        "old_count": old_manifest.get("count", len(old_declarations)),
-        "new_count": new_manifest.get("count", len(new_declarations)),
+        "old_count": old_count,
+        "new_count": new_count,
         "added": len(added),
         "modified": len(modified),
         "removed": len(removed),
@@ -303,8 +355,22 @@ def classify_changes(
     return stats, sorted(items, key=rank_item)
 
 
+def count_yaml_at(repo: Path, commit: str) -> int:
+    if not commit:
+        return 0
+    try:
+        output = run_git(repo, "ls-tree", "-r", "--name-only", commit, "--", "data")
+    except subprocess.CalledProcessError:
+        return 0
+    return sum(
+        1
+        for line in output.splitlines()
+        if line.startswith("data/") and line.endswith(".yaml")
+    )
+
+
 def rank_item(item: dict[str, Any]) -> tuple[int, int, str]:
-    kind_rank = {"added": 0, "modified": 1, "removed": 2}
+    kind_rank = {"removed": 0, "modified": 1, "added": 2}
     detail_text = " ".join(item.get("details") or [])
     priority = 0
     markers = ["rok:", "príjmy:", "nehnuteľnosti:", "záväzky:", "verejné funkcie:"]
@@ -320,7 +386,7 @@ def github_links(repo_full_name: str, previous: str, current: str) -> dict[str, 
         return {"commit": "", "compare": ""}
     return {
         "commit": f"{base}/commit/{current}",
-        "compare": f"{base}/compare/{previous}...{current}",
+        "compare": f"{base}/compare/{previous}...{current}" if previous else "",
     }
 
 
@@ -330,19 +396,34 @@ def truncate(value: str, limit: int) -> str:
     return value[: limit - 1].rstrip() + "…"
 
 
+def fit_lines(lines: list[str], overflow_line: str | None, limit: int) -> str:
+    selected = []
+    reserved = len(overflow_line) + 1 if overflow_line else 0
+    used = 0
+    for line in lines:
+        line_length = len(line) + (1 if selected else 0)
+        if used + line_length + reserved > limit:
+            break
+        selected.append(line)
+        used += line_length
+    if overflow_line:
+        selected.append(overflow_line)
+    return "\n".join(selected) if selected else (overflow_line or "")
+
+
 def item_line(item: dict[str, Any]) -> str:
     icon = {"added": "nové", "modified": "upravené", "removed": "odstránené"}[
         item["kind"]
     ]
-    name = item["name"]
+    name = truncate(item["name"], 120)
     url = f"{NRSR_DECL_URL}{item['user_id']}"
     detail_parts = []
     if item.get("details"):
-        detail_parts.extend(item["details"][:2])
+        detail_parts.extend(truncate(detail, 180) for detail in item["details"][:2])
     elif item.get("counts"):
         detail_parts.extend(item["counts"][:4])
     if item.get("role"):
-        detail_parts.append(item["role"])
+        detail_parts.append(truncate(item["role"], 220))
     detail = " · ".join(detail_parts)
     return truncate(
         f"- **{icon}** [{name}](<{url}>)"
@@ -358,7 +439,10 @@ def build_payload(
     latest_year: str,
 ) -> dict[str, Any]:
     current = run_git(repo, "rev-parse", "HEAD")
-    previous = run_git(repo, "rev-parse", "HEAD^")
+    try:
+        previous = run_git(repo, "rev-parse", "HEAD^")
+    except subprocess.CalledProcessError:
+        previous = ""
     stats, items = classify_changes(repo, previous, current)
     links = github_links(repo_full_name, previous, current)
 
@@ -372,12 +456,16 @@ def build_payload(
     )
     headline = f"Denná kontrola majetkových priznaní: {summary}"
 
-    shown = items[:MAX_ITEMS]
-    lines = [item_line(item) for item in shown]
-    if len(items) > MAX_ITEMS:
-        lines.append(f"- ...a ďalších {len(items) - MAX_ITEMS} zmien v porovnaní.")
+    lines = [item_line(item) for item in items[:MAX_ITEMS]]
+    overflow_count = max(0, len(items) - MAX_ITEMS)
+    overflow_line = (
+        f"- ...a ďalších {overflow_count} zmien v porovnaní."
+        if overflow_count
+        else None
+    )
     if not lines:
         lines.append("- Zmenil sa len technický manifest, bez zmien v YAML priznaniach.")
+    changes_value = fit_lines(lines, overflow_line, 1024)
 
     description_parts = [count_line]
     if links["compare"]:
@@ -396,8 +484,8 @@ def build_payload(
                 "fields": [
                     {"name": "Súhrn", "value": summary, "inline": False},
                     {
-                        "name": "Najdôležitejšie zmeny",
-                        "value": truncate("\n".join(lines), 1024),
+                        "name": "Ukážka zmien",
+                        "value": changes_value,
                         "inline": False,
                     },
                 ],
@@ -407,17 +495,43 @@ def build_payload(
     }
 
 
-def post_payload(webhook_url: str, payload: dict[str, Any]) -> None:
+def post_payload(webhook_url: str, payload: dict[str, Any], attempts: int = 3) -> None:
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
-    request = urllib.request.Request(
-        webhook_url,
-        data=data,
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-    with urllib.request.urlopen(request, timeout=20) as response:
-        if response.status >= 300:
-            raise RuntimeError(f"Discord webhook returned HTTP {response.status}")
+    for attempt in range(1, attempts + 1):
+        request = urllib.request.Request(
+            webhook_url,
+            data=data,
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=20) as response:
+                if response.status < 300:
+                    return
+                status = response.status
+                retry_after = None
+        except urllib.error.HTTPError as exc:
+            status = exc.code
+            retry_after = exc.headers.get("Retry-After")
+            if status < 500 and status != 429:
+                raise RuntimeError(f"Discord webhook returned HTTP {status}") from exc
+        except urllib.error.URLError:
+            if attempt == attempts:
+                raise
+            status = 0
+            retry_after = None
+
+        if attempt == attempts:
+            raise RuntimeError(f"Discord webhook returned HTTP {status}")
+
+        if status == 429 and retry_after:
+            try:
+                delay = min(float(retry_after), 10.0)
+            except ValueError:
+                delay = 2.0
+        else:
+            delay = min(2 ** (attempt - 1), 5)
+        time.sleep(delay)
 
 
 def main() -> int:
