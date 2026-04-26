@@ -115,6 +115,18 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run deploy.yml --ref main
 
+      - name: Notify Discord about changed declarations
+        if: steps.commit-data.outputs.changed == 'true'
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          uv run python .github/scripts/discord_data_summary.py \
+            --data-repo ../data-branch \
+            --repo "$GITHUB_REPOSITORY" \
+            --run-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            --latest-year "${{ steps.latest-year.outputs.value }}"
+
       - name: Clean up worktree
         if: always()
         run: git worktree remove ../data-branch --force

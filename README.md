@@ -117,6 +117,12 @@ zmena, uloží nový snapshot do vetvy `data`. Popri YAML dátach zapisuje aj
 kanonické hash-e extrahovaného obsahu do `data/_checks/content-hashes.json`,
 aby bolo možné sledovať zmeny v samotných deklaráciách z dňa na deň.
 
+Ak je v repozitári nastavený secret `DISCORD_WEBHOOK_URL`, denný workflow
+po úspešnom push-i zmenených dát pošle stručný súhrn do príslušného Discord
+kanála. Správa vychádza z `content-hashes.json`, ignoruje technické súbory
+v `_checks/`, uvádza počty nových/upravených/odstránených priznaní a linkuje
+GitHub porovnanie aj pôvodné stránky NR SR.
+
 Build zároveň exportuje do `site/data-status.json` posledný dátum
 extrakcie a GitHub odkaz na konkrétny commit alebo diff vo vetve `data`.
 
