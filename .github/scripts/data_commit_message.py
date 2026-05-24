@@ -69,12 +69,25 @@ def subject_for(summary: DataDiffSummary) -> str:
     if not summary.changed:
         return "data: refresh daily data checks"
     if summary.added and not summary.modified and not summary.removed:
-        return "data: add daily declarations"
+        return f"data: add {summary.added} daily {plural(summary.added, 'declaration')}"
     if summary.modified and not summary.added and not summary.removed:
-        return "data: update daily declarations"
+        return (
+            f"data: update {summary.modified} daily "
+            f"{plural(summary.modified, 'declaration')}"
+        )
     if summary.removed and not summary.added and not summary.modified:
-        return "data: remove daily declarations"
-    return "data: update daily baseline with mixed declaration changes"
+        return (
+            f"data: remove {summary.removed} daily "
+            f"{plural(summary.removed, 'declaration')}"
+        )
+    return (
+        "data: update daily data "
+        f"(+{summary.added} ~{summary.modified} -{summary.removed})"
+    )
+
+
+def plural(count: int, singular: str) -> str:
+    return singular if count == 1 else singular + "s"
 
 
 def build_message(summary: DataDiffSummary, latest_year: str) -> str:

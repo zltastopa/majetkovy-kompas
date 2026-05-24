@@ -62,7 +62,7 @@ class DataCommitMessageTests(unittest.TestCase):
         self.assertEqual(summary.added, 1)
         self.assertEqual(summary.modified, 0)
         self.assertEqual(summary.removed, 0)
-        self.assertEqual(body.splitlines()[0], "data: add daily declarations")
+        self.assertEqual(body.splitlines()[0], "data: add 1 daily declaration")
         self.assertIn("+1 new, ~0 updated, -0 removed", body)
         self.assertIn("Sample changed UserIds: Ondrej.Uhrik", body)
 
@@ -81,12 +81,28 @@ class DataCommitMessageTests(unittest.TestCase):
         subject = body.splitlines()[0]
 
         self.assertEqual((summary.added, summary.modified, summary.removed), (1, 1, 1))
-        self.assertEqual(
-            subject,
-            "data: update daily baseline with mixed declaration changes",
-        )
-        self.assertNotRegex(subject, r"\d")
+        self.assertEqual(subject, "data: update daily data (+1 ~1 -1)")
         self.assertIn("Sample changed UserIds: A, B, C", body)
+
+    def test_subjects_include_single_change_type_counts(self):
+        cases = [
+            (
+                message.DataDiffSummary(added=2, modified=0, removed=0, total=10, samples=()),
+                "data: add 2 daily declarations",
+            ),
+            (
+                message.DataDiffSummary(added=0, modified=3, removed=0, total=10, samples=()),
+                "data: update 3 daily declarations",
+            ),
+            (
+                message.DataDiffSummary(added=0, modified=0, removed=4, total=10, samples=()),
+                "data: remove 4 daily declarations",
+            ),
+        ]
+
+        for summary, expected in cases:
+            with self.subTest(expected=expected):
+                self.assertEqual(message.subject_for(summary), expected)
 
 
 if __name__ == "__main__":
