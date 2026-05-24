@@ -438,10 +438,11 @@ def build_payload(
     repo_full_name: str,
     run_url: str,
     latest_year: str,
+    current_commit: str = "",
 ) -> dict[str, Any]:
-    current = run_git(repo, "rev-parse", "HEAD")
+    current = run_git(repo, "rev-parse", current_commit or "HEAD")
     try:
-        previous = run_git(repo, "rev-parse", "HEAD^")
+        previous = run_git(repo, "rev-parse", f"{current}^")
     except subprocess.CalledProcessError:
         previous = ""
     stats, items = classify_changes(repo, previous, current)
@@ -574,12 +575,23 @@ def main() -> int:
     parser.add_argument("--run-url", default="")
     parser.add_argument("--latest-year", default="")
     parser.add_argument(
+        "--commit",
+        default="",
+        help="Data branch commit to summarize; defaults to the current HEAD.",
+    )
+    parser.add_argument(
         "--webhook-url", default=os.environ.get("DISCORD_WEBHOOK_URL", "")
     )
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
-    payload = build_payload(args.data_repo, args.repo, args.run_url, args.latest_year)
+    payload = build_payload(
+        args.data_repo,
+        args.repo,
+        args.run_url,
+        args.latest_year,
+        current_commit=args.commit,
+    )
     if args.dry_run:
         print(json.dumps(payload, ensure_ascii=False, indent=2))
         return 0

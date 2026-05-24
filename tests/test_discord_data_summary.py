@@ -170,14 +170,26 @@ class DiscordDataSummaryTests(unittest.TestCase):
         write_yaml(self.repo / "data" / "Only.yaml", {"name": "Only", "year": 2025})
         write_manifest(self.repo)
         self.commit_all("initial")
+        initial_commit = git(self.repo, "rev-parse", "HEAD")
 
-        payload = summary.build_payload(self.repo, "owner/repo", "", "2025")
+        write_yaml(self.repo / "data" / "Later.yaml", {"name": "Later", "year": 2025})
+        write_manifest(self.repo)
+        self.commit_all("later")
+
+        payload = summary.build_payload(
+            self.repo,
+            "owner/repo",
+            "",
+            "2025",
+            current_commit=initial_commit,
+        )
 
         self.assertEqual(
             payload["content"],
             "Denná kontrola majetkových priznaní: +1 nové, 0 upravené, 0 odstránené",
         )
         self.assertNotIn("/compare/", payload["embeds"][0]["description"])
+        self.assertEqual(payload["embeds"][0]["footer"]["text"], f"Commit {initial_commit[:12]}")
 
     def test_bad_yaml_does_not_crash_summary(self):
         write_yaml(self.repo / "data" / "Bad.yaml", {"name": "Bad", "year": 2024})

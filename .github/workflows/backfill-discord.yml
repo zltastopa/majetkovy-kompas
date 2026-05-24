@@ -1,0 +1,92 @@
+name: Backfill Discord data notifications
+
+on:
+  workflow_dispatch:
+    inputs:
+      since:
+        description: Start date for data commits, inclusive
+        required: true
+        default: '2026-05-01'
+      until:
+        description: End date for data commits, exclusive
+        required: true
+        default: '2026-06-01'
+      max_commits:
+        description: Maximum number of data commits to notify
+        required: true
+        default: '10'
+      dry_run:
+        description: Print payloads without sending to Discord
+        required: true
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+permissions:
+  contents: read
+
+jobs:
+  backfill-discord:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Fetch data branch
+        run: git fetch origin data:data
+
+      - name: Send backfill notifications
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SINCE: ${{ inputs.since }}
+          UNTIL: ${{ inputs.until }}
+          MAX_COMMITS: ${{ inputs.max_commits }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          if ! [[ "$MAX_COMMITS" =~ ^[0-9]+$ ]] || [ "$MAX_COMMITS" -lt 1 ]; then
+            echo "::error::max_commits must be a positive integer."
+            exit 1
+          fi
+
+          if [ "$DRY_RUN" != "true" ] && [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "::error::DISCORD_WEBHOOK_URL is not configured; cannot backfill Discord notifications."
+            exit 1
+          fi
+
+          mapfile -t commits < <(
+            git rev-list --reverse --since="$SINCE" --until="$UNTIL" data |
+              head -n "$MAX_COMMITS"
+          )
+
+          if [ "${#commits[@]}" -eq 0 ]; then
+            echo "No data commits found between $SINCE and $UNTIL."
+            exit 0
+          fi
+
+          echo "Backfilling ${#commits[@]} data commit(s) between $SINCE and $UNTIL."
+          for commit in "${commits[@]}"; do
+            subject=$(git log -1 --format=%s "$commit")
+            latest_year=$(git show "$commit:data/_checks/content-hashes.json" |
+              uv run python -c 'import json, sys; data=json.load(sys.stdin); years=[v.get("year") for v in data.get("declarations", {}).values() if isinstance(v.get("year"), int)]; print(max(years) if years else "")')
+
+            echo "Notifying $commit: $subject"
+            args=(
+              .github/scripts/discord_data_summary.py
+              --data-repo .
+              --repo "$GITHUB_REPOSITORY"
+              --run-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+              --latest-year "$latest_year"
+              --commit "$commit"
+            )
+
+            if [ "$DRY_RUN" = "true" ]; then
+              args+=(--dry-run)
+            fi
+
+            uv run python "${args[@]}"
+          done
