@@ -116,6 +116,11 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "::warning::DISCORD_WEBHOOK_URL is not configured; skipping Discord notification."
+            exit 0
+          fi
+
           uv run python .github/scripts/discord_data_summary.py \
             --data-repo ../data-branch \
             --repo "$GITHUB_REPOSITORY" \

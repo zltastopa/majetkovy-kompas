@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import hashlib
+import io
 import importlib.util
 import json
 import subprocess
 import sys
 import tempfile
 import unittest
+import urllib.error
 from pathlib import Path
 
 import yaml
@@ -210,6 +212,75 @@ class DiscordDataSummaryTests(unittest.TestCase):
 
         self.assertLessEqual(len(value), 1024)
         self.assertTrue(value.endswith(overflow))
+
+    def test_forbidden_webhook_error_explains_discord_secret_problem(self):
+        original_urlopen = summary.urllib.request.urlopen
+
+        def forbidden(*args, **kwargs):
+            raise urllib.error.HTTPError(
+                url="https://discord.example/webhook",
+                code=403,
+                msg="Forbidden",
+                hdrs={},
+                fp=None,
+            )
+
+        summary.urllib.request.urlopen = forbidden
+        try:
+            with self.assertRaisesRegex(RuntimeError, "webhook secret"):
+                summary.post_payload("https://discord.example/webhook", {"content": "x"})
+        finally:
+            summary.urllib.request.urlopen = original_urlopen
+
+    def test_webhook_request_uses_named_user_agent(self):
+        original_urlopen = summary.urllib.request.urlopen
+        seen_requests = []
+
+        class Response:
+            status = 204
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *args):
+                return False
+
+        def capture(request, **kwargs):
+            seen_requests.append(request)
+            return Response()
+
+        summary.urllib.request.urlopen = capture
+        try:
+            summary.post_payload("https://discord.example/webhook", {"content": "x"})
+        finally:
+            summary.urllib.request.urlopen = original_urlopen
+
+        self.assertEqual(
+            seen_requests[0].get_header("User-agent"),
+            "majetkovy-kompas-github-actions/1.0",
+        )
+
+    def test_cloudflare_forbidden_error_points_to_user_agent(self):
+        original_urlopen = summary.urllib.request.urlopen
+
+        def cloudflare_block(*args, **kwargs):
+            body = json.dumps(
+                {"message": "Cloudflare is blocking your request", "code": 40333}
+            ).encode("utf-8")
+            raise urllib.error.HTTPError(
+                url="https://discord.example/webhook",
+                code=403,
+                msg="Forbidden",
+                hdrs={},
+                fp=io.BytesIO(body),
+            )
+
+        summary.urllib.request.urlopen = cloudflare_block
+        try:
+            with self.assertRaisesRegex(RuntimeError, "Cloudflare.*User-Agent"):
+                summary.post_payload("https://discord.example/webhook", {"content": "x"})
+        finally:
+            summary.urllib.request.urlopen = original_urlopen
 
 
 if __name__ == "__main__":

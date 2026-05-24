@@ -25,6 +25,7 @@ import yaml
 NRSR_DECL_URL = "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId="
 MANIFEST_PATH = "data/_checks/content-hashes.json"
 MAX_ITEMS = 8
+USER_AGENT = "majetkovy-kompas-github-actions/1.0"
 
 
 FIELD_LABELS = {
@@ -501,7 +502,10 @@ def post_payload(webhook_url: str, payload: dict[str, Any], attempts: int = 3) -
         request = urllib.request.Request(
             webhook_url,
             data=data,
-            headers={"Content-Type": "application/json"},
+            headers={
+                "Content-Type": "application/json",
+                "User-Agent": USER_AGENT,
+            },
             method="POST",
         )
         try:
@@ -513,6 +517,20 @@ def post_payload(webhook_url: str, payload: dict[str, Any], attempts: int = 3) -
         except urllib.error.HTTPError as exc:
             status = exc.code
             retry_after = exc.headers.get("Retry-After")
+            error_code = discord_error_code(exc)
+            if error_code == 40333:
+                raise RuntimeError(
+                    "Discord webhook returned HTTP 403 with code 40333: "
+                    "Cloudflare is blocking the request. Check that the "
+                    "webhook request sends a proper User-Agent header."
+                ) from exc
+            if status in {401, 403}:
+                raise RuntimeError(
+                    "Discord webhook returned HTTP "
+                    f"{status}. Check the DISCORD_WEBHOOK_URL webhook secret: "
+                    "the webhook may be deleted, revoked, or missing access "
+                    "to the target Discord channel."
+                ) from exc
             if status < 500 and status != 429:
                 raise RuntimeError(f"Discord webhook returned HTTP {status}") from exc
         except urllib.error.URLError:
@@ -532,6 +550,19 @@ def post_payload(webhook_url: str, payload: dict[str, Any], attempts: int = 3) -
         else:
             delay = min(2 ** (attempt - 1), 5)
         time.sleep(delay)
+
+
+def discord_error_code(exc: urllib.error.HTTPError) -> int | None:
+    try:
+        body = exc.read().decode("utf-8")
+    except Exception:
+        return None
+    try:
+        data = json.loads(body)
+    except json.JSONDecodeError:
+        return None
+    code = data.get("code") if isinstance(data, dict) else None
+    return code if isinstance(code, int) else None
 
 
 def main() -> int:
