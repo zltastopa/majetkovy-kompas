@@ -470,6 +470,8 @@ def build_payload(
     changes_value = fit_lines(lines, overflow_line, 1024)
 
     description_parts = [count_line]
+    if links["commit"]:
+        description_parts.append(f"[Otvoriť GitHub commit](<{links['commit']}>)")
     if links["compare"]:
         description_parts.append(f"[Otvoriť GitHub porovnanie](<{links['compare']}>)")
     if run_url:

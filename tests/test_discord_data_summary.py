@@ -131,6 +131,8 @@ class DiscordDataSummaryTests(unittest.TestCase):
             "2025",
         )
         field = payload["embeds"][0]["fields"][1]
+        description = payload["embeds"][0]["description"]
+        current_commit = git(self.repo, "rev-parse", "HEAD")
 
         self.assertEqual(
             payload["content"],
@@ -144,6 +146,10 @@ class DiscordDataSummaryTests(unittest.TestCase):
         self.assertIn("@\u200beveryone", field["value"])
         self.assertIn("\\[user\\]", field["value"])
         self.assertLessEqual(len(field["value"]), 1024)
+        self.assertIn(
+            f"[Otvoriť GitHub commit](<https://github.com/owner/repo/commit/{current_commit}>)",
+            description,
+        )
 
     def test_missing_manifest_on_one_side_falls_back_to_yaml_diff(self):
         write_yaml(self.repo / "data" / "Alice.yaml", {"name": "Alice"})
