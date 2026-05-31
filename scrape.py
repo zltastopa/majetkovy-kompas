@@ -10,7 +10,12 @@ and `git diff` shows exactly what changed.
 import re
 import sys
 import argparse
+import json
+import random
+import time
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from dataclasses import asdict, dataclass
 from pathlib import Path
 
 import requests
@@ -21,6 +26,21 @@ BASE_URL = "https://www.nrsr.sk/web/"
 LIST_URL = f"{BASE_URL}Default.aspx?sid=vnf/zoznam"
 DECL_URL = f"{BASE_URL}Default.aspx?sid=vnf/oznamenie&UserId="
 DATA_DIR = Path("data")
+RETRY_STATUSES = {429, 500, 502, 503, 504}
+RETRY_EXCEPTIONS = (
+    requests.exceptions.ConnectionError,
+    requests.exceptions.Timeout,
+)
+
+
+@dataclass
+class ScrapeResult:
+    user_id: str
+    status: str
+    year: int | None = None
+    error_type: str | None = None
+    error_status: int | None = None
+    error_message: str | None = None
 
 
 # ---------------------------------------------------------------------------
@@ -51,8 +71,42 @@ def dump_yaml(data):
 # Fetching
 # ---------------------------------------------------------------------------
 
+def retry_delay(attempt, retry_after=None):
+    if retry_after:
+        try:
+            return min(float(retry_after), 60.0)
+        except ValueError:
+            pass
+
+    base = min(2 ** attempt, 30)
+    return base + random.uniform(0, base * 0.5)
+
+
+def request_with_retries(method, url, *, retries=3, timeout=30, **kwargs):
+    last_exc = None
+    for attempt in range(retries + 1):
+        retry_after = None
+        try:
+            resp = requests.request(method, url, timeout=timeout, **kwargs)
+            if resp.status_code not in RETRY_STATUSES:
+                return resp
+            if attempt == retries:
+                return resp
+            retry_after = resp.headers.get("Retry-After")
+        except RETRY_EXCEPTIONS as exc:
+            last_exc = exc
+            if attempt == retries:
+                raise
+
+        time.sleep(retry_delay(attempt, retry_after))
+
+    if last_exc:
+        raise last_exc
+    raise RuntimeError("request retry loop exited unexpectedly")
+
+
 def fetch(url):
-    resp = requests.get(url, timeout=30)
+    resp = request_with_retries("GET", url)
     resp.encoding = "utf-8"
     resp.raise_for_status()
     return resp.text
@@ -142,7 +196,7 @@ def fetch_declaration_html(user_id, year=None):
         "__VIEWSTATEGENERATOR": viewstate_gen["value"] if viewstate_gen else "",
         "_sectionLayoutContainer$ctl01$OznameniaList": year_map[year],
     }
-    resp = requests.post(url, data=post_data, timeout=30)
+    resp = request_with_retries("POST", url, data=post_data)
     resp.encoding = "utf-8"
     resp.raise_for_status()
     return resp.text
@@ -547,6 +601,62 @@ def load_supplementary_ids(path):
     return ids
 
 
+def error_details(exc):
+    status = None
+    if isinstance(exc, requests.HTTPError) and exc.response is not None:
+        status = exc.response.status_code
+    return type(exc).__name__, status, str(exc)
+
+
+def error_group(result):
+    if result.error_status:
+        return f"HTTP {result.error_status}"
+    return result.error_type or "Unknown"
+
+
+def write_scrape_report(report_path, failed_ids_path, results):
+    results = list(results)
+    counts = Counter(result.status for result in results)
+    failed_ids = [result.user_id for result in results if result.status == "error"]
+    groups = Counter(
+        error_group(result)
+        for result in results
+        if result.status == "error"
+    )
+    total = len(results)
+    report = {
+        "total": total,
+        "scraped": counts["scraped"],
+        "skipped": counts["skipped"],
+        "errors": counts["error"],
+        "error_rate": (counts["error"] / total) if total else 0,
+        "error_groups": dict(sorted(groups.items())),
+        "failed_user_ids": failed_ids,
+        "results": [
+            {
+                key: value
+                for key, value in asdict(result).items()
+                if value is not None
+            }
+            for result in results
+        ],
+    }
+
+    if report_path:
+        report_path.parent.mkdir(parents=True, exist_ok=True)
+        report_path.write_text(
+            json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+            encoding="utf-8",
+        )
+    if failed_ids_path:
+        failed_ids_path.parent.mkdir(parents=True, exist_ok=True)
+        failed_ids_path.write_text(
+            "".join(f"{user_id}\n" for user_id in failed_ids),
+            encoding="utf-8",
+        )
+    return report
+
+
 def main():
     parser = argparse.ArgumentParser(description="Scrape NR SR asset declarations")
     parser.add_argument("--user-id", help="Scrape a single politician by UserId (e.g., Tomas.Abel)")
@@ -564,6 +674,21 @@ def main():
         help="Scrape only the supplementary IDs (skip fetching the NRSR list)",
     )
     parser.add_argument(
+        "--user-ids-file",
+        type=Path,
+        help="Scrape only UserId values from this file (one per line)",
+    )
+    parser.add_argument(
+        "--report-json",
+        type=Path,
+        help="Write a structured JSON report with scrape totals and errors",
+    )
+    parser.add_argument(
+        "--failed-ids-output",
+        type=Path,
+        help="Write UserId values that failed with exceptions to this file",
+    )
+    parser.add_argument(
         "--data-dir",
         type=Path,
         default=DATA_DIR,
@@ -576,6 +701,13 @@ def main():
 
     if args.user_id:
         politicians = [{"user_id": args.user_id, "display_name": args.user_id}]
+    elif args.user_ids_file:
+        if not args.user_ids_file.exists():
+            print(f"{args.user_ids_file} does not exist", file=sys.stderr)
+            sys.exit(1)
+        ids = load_supplementary_ids(args.user_ids_file)
+        politicians = [{"user_id": uid, "display_name": uid} for uid in ids]
+        print(f"Loaded {len(politicians)} politicians from {args.user_ids_file}", file=sys.stderr)
     elif args.only_supplementary:
         if not args.supplementary_ids or not args.supplementary_ids.exists():
             print("--only-supplementary requires --supplementary-ids", file=sys.stderr)
@@ -608,6 +740,7 @@ def main():
     scraped = 0
     skipped = 0
     errors = 0
+    results = []
 
     def _process(pol):
         uid = pol["user_id"]
@@ -626,15 +759,29 @@ def main():
                 uid, data = future.result()
                 if data:
                     scraped += 1
+                    results.append(ScrapeResult(uid, "scraped", year=data.get("year")))
                     print(f"[{done+1}/{total}] {uid} ok ({data.get('year', '?')})", file=sys.stderr)
                 else:
                     skipped += 1
+                    results.append(ScrapeResult(uid, "skipped"))
                     print(f"[{done+1}/{total}] {uid} no data", file=sys.stderr)
             except Exception as e:
                 errors += 1
+                error_type, error_status, error_message = error_details(e)
+                results.append(
+                    ScrapeResult(
+                        uid,
+                        "error",
+                        error_type=error_type,
+                        error_status=error_status,
+                        error_message=error_message,
+                    )
+                )
                 print(f"[{done+1}/{total}] {uid} ERROR: {e}", file=sys.stderr)
 
     print(f"\nDone: {scraped} scraped, {skipped} skipped, {errors} errors", file=sys.stderr)
+    if args.report_json or args.failed_ids_output:
+        write_scrape_report(args.report_json, args.failed_ids_output, results)
 
 
 if __name__ == "__main__":
