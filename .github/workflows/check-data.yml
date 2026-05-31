@@ -11,7 +11,7 @@ permissions:
 
 concurrency:
   group: data-check
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   scrape-latest:
@@ -35,10 +35,79 @@ jobs:
           count=$(find ../data-branch/data -maxdepth 1 -name '*.yaml' | wc -l | tr -d ' ')
           echo "value=$count" >> "$GITHUB_OUTPUT"
 
-      - name: Scrape latest available declarations
+      - name: Scrape latest live declarations
         run: |
-          uv run python scrape.py --workers 16 --data-dir ../data-branch/data \
-            --supplementary-ids supplementary_user_ids.txt
+          uv run python scrape.py --workers 8 --data-dir ../data-branch/data \
+            --report-json scrape-live-report.json \
+            --failed-ids-output failed-live-ids.txt
+
+      - name: Scrape supplementary declarations
+        run: |
+          uv run python scrape.py --workers 4 --data-dir ../data-branch/data \
+            --only-supplementary \
+            --supplementary-ids supplementary_user_ids.txt \
+            --report-json scrape-supplementary-report.json \
+            --failed-ids-output failed-supplementary-ids.txt
+
+      - name: Prepare failed declaration retry list
+        run: |
+          sort -u failed-live-ids.txt failed-supplementary-ids.txt > failed-ids.txt
+
+      - name: Retry failed declarations at low concurrency
+        run: |
+          if [ -s failed-ids.txt ]; then
+            uv run python scrape.py --workers 2 --data-dir ../data-branch/data \
+              --user-ids-file failed-ids.txt \
+              --report-json scrape-second-pass-report.json \
+              --failed-ids-output failed-ids-second-pass.txt
+          else
+            printf '{"results":[]}\n' > scrape-second-pass-report.json
+            : > failed-ids-second-pass.txt
+          fi
+
+      - name: Summarize scrape health
+        id: scrape-quality
+        run: |
+          uv run python .github/scripts/scrape_health.py \
+            --report scrape-live-report.json \
+            --report scrape-supplementary-report.json \
+            --report scrape-second-pass-report.json \
+            --combined-report scrape-combined-report.json \
+            --github-output "$GITHUB_OUTPUT" \
+            --step-summary "$GITHUB_STEP_SUMMARY" \
+            --repo "$GITHUB_REPOSITORY" \
+            --run-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            --emit-annotation
+
+      - name: Upload scrape health reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: scrape-health-${{ github.run_id }}
+          path: |
+            scrape-live-report.json
+            scrape-supplementary-report.json
+            scrape-second-pass-report.json
+            scrape-combined-report.json
+            failed-live-ids.txt
+            failed-supplementary-ids.txt
+            failed-ids.txt
+            failed-ids-second-pass.txt
+          if-no-files-found: ignore
+
+      - name: Notify Discord about scrape health warnings
+        if: steps.scrape-quality.outputs.notify == 'true'
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          uv run python .github/scripts/scrape_health.py \
+            --report scrape-live-report.json \
+            --report scrape-supplementary-report.json \
+            --report scrape-second-pass-report.json \
+            --repo "$GITHUB_REPOSITORY" \
+            --run-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            --discord
 
       - name: Generate declaration content hashes
         run: |
@@ -81,6 +150,7 @@ jobs:
 
       - name: Commit updated data snapshot
         id: commit-data
+        if: steps.scrape-quality.outputs.commit_ok == 'true'
         working-directory: ../data-branch
         run: |
           git config user.name "github-actions[bot]"
@@ -104,6 +174,11 @@ jobs:
           git push origin HEAD:data
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
+      - name: Skip data commit after low-quality scrape
+        if: steps.scrape-quality.outputs.commit_ok != 'true'
+        run: |
+          echo "Skipping data commit because scrape error rate exceeded the quality gate."
+
       - name: Trigger Pages rebuild
         if: steps.commit-data.outputs.changed == 'true'
         env:
@@ -126,6 +201,12 @@ jobs:
             --repo "$GITHUB_REPOSITORY" \
             --run-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
             --latest-year "${{ steps.latest-year.outputs.value }}"
+
+      - name: Fail on severe scrape health errors
+        if: steps.scrape-quality.outputs.hard_fail == 'true'
+        run: |
+          echo "Scrape error rate exceeded the hard failure threshold."
+          exit 1
 
       - name: Clean up worktree
         if: always()
