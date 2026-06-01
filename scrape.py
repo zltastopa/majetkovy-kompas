@@ -31,6 +31,8 @@ RETRY_EXCEPTIONS = (
     requests.exceptions.ConnectionError,
     requests.exceptions.Timeout,
 )
+REQUEST_RETRIES = 3
+REQUEST_TIMEOUT = 30
 
 
 @dataclass
@@ -82,7 +84,11 @@ def retry_delay(attempt, retry_after=None):
     return base + random.uniform(0, base * 0.5)
 
 
-def request_with_retries(method, url, *, retries=3, timeout=30, **kwargs):
+def request_with_retries(method, url, *, retries=None, timeout=None, **kwargs):
+    if retries is None:
+        retries = REQUEST_RETRIES
+    if timeout is None:
+        timeout = REQUEST_TIMEOUT
     last_exc = None
     for attempt in range(retries + 1):
         retry_after = None
@@ -658,11 +664,24 @@ def write_scrape_report(report_path, failed_ids_path, results):
 
 
 def main():
+    global REQUEST_RETRIES, REQUEST_TIMEOUT
     parser = argparse.ArgumentParser(description="Scrape NR SR asset declarations")
     parser.add_argument("--user-id", help="Scrape a single politician by UserId (e.g., Tomas.Abel)")
     parser.add_argument("--year", type=int, help="Scrape a specific year (default: latest available)")
     parser.add_argument("--limit", type=int, help="Limit number of politicians to scrape")
     parser.add_argument("--workers", type=int, default=8, help="Number of parallel workers (default: 8)")
+    parser.add_argument(
+        "--request-retries",
+        type=int,
+        default=REQUEST_RETRIES,
+        help=f"Retries for transient HTTP failures (default: {REQUEST_RETRIES})",
+    )
+    parser.add_argument(
+        "--request-timeout",
+        type=float,
+        default=REQUEST_TIMEOUT,
+        help=f"HTTP request timeout in seconds (default: {REQUEST_TIMEOUT})",
+    )
     parser.add_argument(
         "--supplementary-ids",
         type=Path,
@@ -695,6 +714,8 @@ def main():
         help="Output directory for scraped YAML files (default: data/)",
     )
     args = parser.parse_args()
+    REQUEST_RETRIES = args.request_retries
+    REQUEST_TIMEOUT = args.request_timeout
 
     data_dir = args.data_dir
     data_dir.mkdir(parents=True, exist_ok=True)

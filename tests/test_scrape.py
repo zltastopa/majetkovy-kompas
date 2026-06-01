@@ -56,6 +56,29 @@ class ScrapeTransportTests(unittest.TestCase):
         self.assertEqual(len(calls), 2)
         self.assertEqual(sleeps, [1])
 
+    def test_request_with_retries_uses_configured_defaults(self):
+        calls = []
+        original_request = scrape.requests.request
+        original_retries = scrape.REQUEST_RETRIES
+        original_timeout = scrape.REQUEST_TIMEOUT
+
+        def fake_request(method, url, timeout, **kwargs):
+            calls.append((method, url, timeout))
+            return Response(200)
+
+        scrape.requests.request = fake_request
+        scrape.REQUEST_RETRIES = 0
+        scrape.REQUEST_TIMEOUT = 12
+        try:
+            response = scrape.request_with_retries("GET", "https://example.test")
+        finally:
+            scrape.requests.request = original_request
+            scrape.REQUEST_RETRIES = original_retries
+            scrape.REQUEST_TIMEOUT = original_timeout
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(calls, [("GET", "https://example.test", 12)])
+
     def test_write_scrape_report_records_failed_ids_and_error_groups(self):
         with tempfile.TemporaryDirectory() as tmp:
             report_path = Path(tmp) / "report.json"

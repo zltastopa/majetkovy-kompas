@@ -36,28 +36,68 @@ jobs:
           echo "value=$count" >> "$GITHUB_OUTPUT"
 
       - name: Scrape latest live declarations
+        timeout-minutes: 90
         run: |
           uv run python scrape.py --workers 8 --data-dir ../data-branch/data \
+            --request-retries 1 \
+            --request-timeout 12 \
             --report-json scrape-live-report.json \
             --failed-ids-output failed-live-ids.txt
 
+      - name: Evaluate live scrape health
+        id: live-scrape-quality
+        run: |
+          uv run python .github/scripts/scrape_health.py \
+            --report scrape-live-report.json \
+            --github-output "$GITHUB_OUTPUT" \
+            --step-summary "$GITHUB_STEP_SUMMARY" \
+            --repo "$GITHUB_REPOSITORY" \
+            --run-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            --emit-annotation
+
+      - name: Notify Discord about live scrape health warnings
+        if: steps.live-scrape-quality.outputs.notify == 'true'
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          uv run python .github/scripts/scrape_health.py \
+            --report scrape-live-report.json \
+            --repo "$GITHUB_REPOSITORY" \
+            --run-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            --discord
+
       - name: Scrape supplementary declarations
+        if: steps.live-scrape-quality.outputs.commit_ok == 'true'
+        timeout-minutes: 90
         run: |
           uv run python scrape.py --workers 4 --data-dir ../data-branch/data \
             --only-supplementary \
             --supplementary-ids supplementary_user_ids.txt \
+            --request-retries 1 \
+            --request-timeout 12 \
             --report-json scrape-supplementary-report.json \
             --failed-ids-output failed-supplementary-ids.txt
+
+      - name: Prepare skipped supplementary report
+        if: steps.live-scrape-quality.outputs.commit_ok != 'true'
+        run: |
+          printf '{"results":[]}\n' > scrape-supplementary-report.json
+          : > failed-supplementary-ids.txt
 
       - name: Prepare failed declaration retry list
         run: |
           sort -u failed-live-ids.txt failed-supplementary-ids.txt > failed-ids.txt
 
       - name: Retry failed declarations at low concurrency
+        if: steps.live-scrape-quality.outputs.commit_ok == 'true'
+        timeout-minutes: 60
         run: |
           if [ -s failed-ids.txt ]; then
             uv run python scrape.py --workers 2 --data-dir ../data-branch/data \
               --user-ids-file failed-ids.txt \
+              --request-retries 1 \
+              --request-timeout 12 \
               --report-json scrape-second-pass-report.json \
               --failed-ids-output failed-ids-second-pass.txt
           else
@@ -65,8 +105,15 @@ jobs:
             : > failed-ids-second-pass.txt
           fi
 
+      - name: Prepare skipped retry report
+        if: steps.live-scrape-quality.outputs.commit_ok != 'true'
+        run: |
+          cp scrape-live-report.json scrape-second-pass-report.json
+          cp failed-live-ids.txt failed-ids-second-pass.txt
+
       - name: Summarize scrape health
         id: scrape-quality
+        if: always()
         run: |
           uv run python .github/scripts/scrape_health.py \
             --report scrape-live-report.json \
@@ -96,7 +143,7 @@ jobs:
           if-no-files-found: ignore
 
       - name: Notify Discord about scrape health warnings
-        if: steps.scrape-quality.outputs.notify == 'true'
+        if: steps.scrape-quality.outputs.notify == 'true' && steps.live-scrape-quality.outputs.notify != 'true'
         continue-on-error: true
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
@@ -110,12 +157,14 @@ jobs:
             --discord
 
       - name: Generate declaration content hashes
+        if: steps.live-scrape-quality.outputs.commit_ok == 'true'
         run: |
           uv run python generate_content_hashes.py \
             --data-dir ../data-branch/data \
             --output ../data-branch/data/_checks/content-hashes.json
 
       - name: Guard against suspicious data loss
+        if: steps.live-scrape-quality.outputs.commit_ok == 'true'
         run: |
           before=${{ steps.before-count.outputs.value }}
           after=$(find ../data-branch/data -maxdepth 1 -name '*.yaml' | wc -l | tr -d ' ')
@@ -128,6 +177,7 @@ jobs:
 
       - name: Detect latest reporting year
         id: latest-year
+        if: steps.live-scrape-quality.outputs.commit_ok == 'true'
         run: |
           latest_year=$(python - <<'PY'
           from pathlib import Path
@@ -150,7 +200,7 @@ jobs:
 
       - name: Commit updated data snapshot
         id: commit-data
-        if: steps.scrape-quality.outputs.commit_ok == 'true'
+        if: steps.scrape-quality.outputs.commit_ok == 'true' && steps.live-scrape-quality.outputs.commit_ok == 'true'
         working-directory: ../data-branch
         run: |
           git config user.name "github-actions[bot]"
@@ -175,7 +225,7 @@ jobs:
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Skip data commit after low-quality scrape
-        if: steps.scrape-quality.outputs.commit_ok != 'true'
+        if: steps.scrape-quality.outputs.commit_ok != 'true' || steps.live-scrape-quality.outputs.commit_ok != 'true'
         run: |
           echo "Skipping data commit because scrape error rate exceeded the quality gate."
 
