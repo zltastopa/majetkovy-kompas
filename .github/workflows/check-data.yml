@@ -39,8 +39,8 @@ jobs:
         timeout-minutes: 90
         run: |
           uv run python scrape.py --workers 3 --data-dir ../data-branch/data \
-            --request-retries 1 \
-            --request-timeout 30 \
+            --request-retries 0 \
+            --request-timeout 12 \
             --request-delay 0.4 \
             --request-jitter 0.6 \
             --report-json scrape-live-report.json \
@@ -77,7 +77,7 @@ jobs:
             --only-supplementary \
             --supplementary-ids supplementary_user_ids.txt \
             --request-retries 1 \
-            --request-timeout 30 \
+            --request-timeout 12 \
             --request-delay 0.8 \
             --request-jitter 1.0 \
             --report-json scrape-supplementary-report.json \
@@ -101,7 +101,7 @@ jobs:
             uv run python scrape.py --workers 1 --data-dir ../data-branch/data \
               --user-ids-file failed-ids.txt \
               --request-retries 1 \
-              --request-timeout 30 \
+              --request-timeout 12 \
               --request-delay 1.0 \
               --request-jitter 1.5 \
               --report-json scrape-second-pass-report.json \
