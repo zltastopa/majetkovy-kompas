@@ -79,6 +79,61 @@ class ScrapeTransportTests(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(calls, [("GET", "https://example.test", 12)])
 
+    def test_request_with_retries_applies_configured_request_delay(self):
+        calls = []
+        sleeps = []
+        original_request = scrape.requests.request
+        original_sleep = scrape.time.sleep
+        original_delay = scrape.REQUEST_DELAY
+        original_jitter = scrape.REQUEST_JITTER
+        original_random = scrape.random.uniform
+
+        def fake_request(method, url, timeout, **kwargs):
+            calls.append((method, url, timeout))
+            return Response(200)
+
+        scrape.requests.request = fake_request
+        scrape.time.sleep = sleeps.append
+        scrape.REQUEST_DELAY = 0.5
+        scrape.REQUEST_JITTER = 0
+        scrape.random.uniform = lambda _start, _end: 0
+        try:
+            response = scrape.request_with_retries("GET", "https://example.test")
+        finally:
+            scrape.requests.request = original_request
+            scrape.time.sleep = original_sleep
+            scrape.REQUEST_DELAY = original_delay
+            scrape.REQUEST_JITTER = original_jitter
+            scrape.random.uniform = original_random
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(calls, [("GET", "https://example.test", scrape.REQUEST_TIMEOUT)])
+        self.assertEqual(sleeps, [0.5])
+
+    def test_request_with_retries_adds_request_jitter(self):
+        sleeps = []
+        original_request = scrape.requests.request
+        original_sleep = scrape.time.sleep
+        original_delay = scrape.REQUEST_DELAY
+        original_jitter = scrape.REQUEST_JITTER
+        original_random = scrape.random.uniform
+
+        scrape.requests.request = lambda method, url, timeout, **kwargs: Response(200)
+        scrape.time.sleep = sleeps.append
+        scrape.REQUEST_DELAY = 0.5
+        scrape.REQUEST_JITTER = 0.25
+        scrape.random.uniform = lambda start, end: end
+        try:
+            scrape.request_with_retries("GET", "https://example.test")
+        finally:
+            scrape.requests.request = original_request
+            scrape.time.sleep = original_sleep
+            scrape.REQUEST_DELAY = original_delay
+            scrape.REQUEST_JITTER = original_jitter
+            scrape.random.uniform = original_random
+
+        self.assertEqual(sleeps, [0.75])
+
     def test_write_scrape_report_records_failed_ids_and_error_groups(self):
         with tempfile.TemporaryDirectory() as tmp:
             report_path = Path(tmp) / "report.json"

@@ -38,9 +38,11 @@ jobs:
       - name: Scrape latest live declarations
         timeout-minutes: 90
         run: |
-          uv run python scrape.py --workers 8 --data-dir ../data-branch/data \
+          uv run python scrape.py --workers 3 --data-dir ../data-branch/data \
             --request-retries 1 \
-            --request-timeout 12 \
+            --request-timeout 30 \
+            --request-delay 0.4 \
+            --request-jitter 0.6 \
             --report-json scrape-live-report.json \
             --failed-ids-output failed-live-ids.txt
 
@@ -71,11 +73,13 @@ jobs:
         if: steps.live-scrape-quality.outputs.commit_ok == 'true'
         timeout-minutes: 90
         run: |
-          uv run python scrape.py --workers 4 --data-dir ../data-branch/data \
+          uv run python scrape.py --workers 1 --data-dir ../data-branch/data \
             --only-supplementary \
             --supplementary-ids supplementary_user_ids.txt \
             --request-retries 1 \
-            --request-timeout 12 \
+            --request-timeout 30 \
+            --request-delay 0.8 \
+            --request-jitter 1.0 \
             --report-json scrape-supplementary-report.json \
             --failed-ids-output failed-supplementary-ids.txt
 
@@ -94,10 +98,12 @@ jobs:
         timeout-minutes: 60
         run: |
           if [ -s failed-ids.txt ]; then
-            uv run python scrape.py --workers 2 --data-dir ../data-branch/data \
+            uv run python scrape.py --workers 1 --data-dir ../data-branch/data \
               --user-ids-file failed-ids.txt \
               --request-retries 1 \
-              --request-timeout 12 \
+              --request-timeout 30 \
+              --request-delay 1.0 \
+              --request-jitter 1.5 \
               --report-json scrape-second-pass-report.json \
               --failed-ids-output failed-ids-second-pass.txt
           else

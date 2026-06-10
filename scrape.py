@@ -33,6 +33,8 @@ RETRY_EXCEPTIONS = (
 )
 REQUEST_RETRIES = 3
 REQUEST_TIMEOUT = 30
+REQUEST_DELAY = 0.0
+REQUEST_JITTER = 0.0
 
 
 @dataclass
@@ -84,6 +86,19 @@ def retry_delay(attempt, retry_after=None):
     return base + random.uniform(0, base * 0.5)
 
 
+def request_pace_delay():
+    delay = REQUEST_DELAY
+    if REQUEST_JITTER > 0:
+        delay += random.uniform(0, REQUEST_JITTER)
+    return max(delay, 0)
+
+
+def pace_request():
+    delay = request_pace_delay()
+    if delay > 0:
+        time.sleep(delay)
+
+
 def request_with_retries(method, url, *, retries=None, timeout=None, **kwargs):
     if retries is None:
         retries = REQUEST_RETRIES
@@ -93,6 +108,7 @@ def request_with_retries(method, url, *, retries=None, timeout=None, **kwargs):
     for attempt in range(retries + 1):
         retry_after = None
         try:
+            pace_request()
             resp = requests.request(method, url, timeout=timeout, **kwargs)
             if resp.status_code not in RETRY_STATUSES:
                 return resp
@@ -664,7 +680,7 @@ def write_scrape_report(report_path, failed_ids_path, results):
 
 
 def main():
-    global REQUEST_RETRIES, REQUEST_TIMEOUT
+    global REQUEST_RETRIES, REQUEST_TIMEOUT, REQUEST_DELAY, REQUEST_JITTER
     parser = argparse.ArgumentParser(description="Scrape NR SR asset declarations")
     parser.add_argument("--user-id", help="Scrape a single politician by UserId (e.g., Tomas.Abel)")
     parser.add_argument("--year", type=int, help="Scrape a specific year (default: latest available)")
@@ -681,6 +697,18 @@ def main():
         type=float,
         default=REQUEST_TIMEOUT,
         help=f"HTTP request timeout in seconds (default: {REQUEST_TIMEOUT})",
+    )
+    parser.add_argument(
+        "--request-delay",
+        type=float,
+        default=REQUEST_DELAY,
+        help=f"Minimum delay before each HTTP request in seconds (default: {REQUEST_DELAY})",
+    )
+    parser.add_argument(
+        "--request-jitter",
+        type=float,
+        default=REQUEST_JITTER,
+        help=f"Additional random delay before each HTTP request in seconds (default: {REQUEST_JITTER})",
     )
     parser.add_argument(
         "--supplementary-ids",
@@ -716,6 +744,8 @@ def main():
     args = parser.parse_args()
     REQUEST_RETRIES = args.request_retries
     REQUEST_TIMEOUT = args.request_timeout
+    REQUEST_DELAY = args.request_delay
+    REQUEST_JITTER = args.request_jitter
 
     data_dir = args.data_dir
     data_dir.mkdir(parents=True, exist_ok=True)
