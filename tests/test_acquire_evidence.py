@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import tempfile
 import unittest
+from concurrent.futures import Future
 from pathlib import Path
 
 import acquire_evidence
@@ -69,6 +70,46 @@ class AcquireEvidenceTests(unittest.TestCase):
             scrape.requests.request = original_request
 
         self.assertEqual(calls[0][0], "GET")
+
+    def test_acquire_package_uses_configured_worker_count(self):
+        original_executor = acquire_evidence.ThreadPoolExecutor
+        seen_workers = []
+
+        class SynchronousExecutor:
+            def __init__(self, max_workers):
+                seen_workers.append(max_workers)
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, exc_type, exc, traceback):
+                return False
+
+            def submit(self, fn, *args, **kwargs):
+                future = Future()
+                try:
+                    future.set_result(fn(*args, **kwargs))
+                except Exception as exc:
+                    future.set_exception(exc)
+                return future
+
+        acquire_evidence.ThreadPoolExecutor = SynchronousExecutor
+        try:
+            with tempfile.TemporaryDirectory() as tmp:
+                ids_file = Path(tmp) / "ids.txt"
+                ids_file.write_text("A\nB\n", encoding="utf-8")
+                acquire_evidence.acquire_package(
+                    Path(tmp) / "evidence",
+                    user_ids_file=ids_file,
+                    workers=3,
+                    acquire_one=lambda _package, _user_id, *, year=None: None,
+                    request_retries=0,
+                    request_timeout=2,
+                )
+        finally:
+            acquire_evidence.ThreadPoolExecutor = original_executor
+
+        self.assertEqual(seen_workers, [3])
 
     def test_acquire_default_captures_alternate_year_when_initial_page_has_no_data(self):
         initial_html = """

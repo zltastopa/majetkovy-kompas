@@ -7,6 +7,7 @@ import argparse
 import json
 import sys
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any
 
@@ -214,7 +215,9 @@ def acquire_package(
     request_timeout: float = scrape.REQUEST_TIMEOUT,
     request_delay: float = scrape.REQUEST_DELAY,
     request_jitter: float = scrape.REQUEST_JITTER,
+    workers: int = 1,
     report_json: Path | None = None,
+    acquire_one=acquire_declaration,
 ) -> dict[str, Any]:
     scrape.REQUEST_RETRIES = request_retries
     scrape.REQUEST_TIMEOUT = request_timeout
@@ -235,22 +238,27 @@ def acquire_package(
             politicians = politicians[:limit]
 
         total = len(politicians)
-        for index, politician in enumerate(politicians, start=1):
-            uid = politician["user_id"]
-            try:
-                acquire_declaration(package, uid, year=year)
-                results.append({"user_id": uid, "status": "captured"})
-                print(f"[{index}/{total}] {uid} captured", file=sys.stderr)
-            except Exception as exc:
-                results.append(
-                    {
-                        "user_id": uid,
-                        "status": "error",
-                        "error_type": type(exc).__name__,
-                        "error_message": str(exc),
-                    }
-                )
-                print(f"[{index}/{total}] {uid} ERROR: {exc}", file=sys.stderr)
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = {
+                pool.submit(acquire_one, package, politician["user_id"], year=year): politician
+                for politician in politicians
+            }
+            for index, future in enumerate(as_completed(futures), start=1):
+                uid = futures[future]["user_id"]
+                try:
+                    future.result()
+                    results.append({"user_id": uid, "status": "captured"})
+                    print(f"[{index}/{total}] {uid} captured", file=sys.stderr)
+                except Exception as exc:
+                    results.append(
+                        {
+                            "user_id": uid,
+                            "status": "error",
+                            "error_type": type(exc).__name__,
+                            "error_message": str(exc),
+                        }
+                    )
+                    print(f"[{index}/{total}] {uid} ERROR: {exc}", file=sys.stderr)
     finally:
         counts = Counter(result["status"] for result in results)
         report = {
@@ -284,6 +292,7 @@ def main() -> None:
     parser.add_argument("--request-timeout", type=float, default=scrape.REQUEST_TIMEOUT)
     parser.add_argument("--request-delay", type=float, default=scrape.REQUEST_DELAY)
     parser.add_argument("--request-jitter", type=float, default=scrape.REQUEST_JITTER)
+    parser.add_argument("--workers", type=int, default=1)
     parser.add_argument("--report-json", type=Path)
     args = parser.parse_args()
 
@@ -299,6 +308,7 @@ def main() -> None:
         request_timeout=args.request_timeout,
         request_delay=args.request_delay,
         request_jitter=args.request_jitter,
+        workers=args.workers,
         report_json=args.report_json,
     )
     print(f"Acquired: {report['captured']} captured, {report['errors']} errors")

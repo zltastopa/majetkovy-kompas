@@ -58,6 +58,7 @@ jobs:
             --request-timeout 12 \
             --request-delay 0.4 \
             --request-jitter 0.6 \
+            --workers 3 \
             --report-json ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/live/acquire-report.json
 
       - name: Extract latest live declarations from evidence
@@ -105,6 +106,7 @@ jobs:
             --request-timeout 12 \
             --request-delay 0.8 \
             --request-jitter 1.0 \
+            --workers 1 \
             --report-json ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/supplementary/acquire-report.json
 
       - name: Extract supplementary declarations from evidence
@@ -165,6 +167,7 @@ jobs:
               --request-timeout 12 \
               --request-delay 1.0 \
               --request-jitter 1.5 \
+              --workers 1 \
               --report-json ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/retry/acquire-report.json
           else
             mkdir -p ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/retry
