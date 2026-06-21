@@ -59,6 +59,7 @@ class ValidateEvidenceTests(unittest.TestCase):
                 metadata={"user_id": "Test.User"},
             )
             package.finalize()
+            manifest_hash = evidence.sha256_file(root / "manifest.json")
 
             with self.assertRaisesRegex(ValueError, "timestamp response missing"):
                 validate_evidence.validate_package(root, require_timestamp=True)
@@ -67,12 +68,28 @@ class ValidateEvidenceTests(unittest.TestCase):
 
             (root / "manifest.sha256.tsr").write_bytes(b"timestamp-response")
             (root / "manifest.timestamp.json").write_text(
-                '{"response_path":"manifest.sha256.tsr"}\n',
+                (
+                    '{"manifest_sha256":"%s",'
+                    '"response_path":"manifest.sha256.tsr",'
+                    '"response_sha256":"%s"}\n'
+                )
+                % (
+                    manifest_hash,
+                    evidence.sha256_bytes(b"timestamp-response"),
+                ),
                 encoding="utf-8",
             )
             (root / "manifest.sha256.sig").write_bytes(b"signature")
             (root / "manifest.signature.json").write_text(
-                '{"signature_path":"manifest.sha256.sig"}\n',
+                (
+                    '{"manifest_sha256":"%s",'
+                    '"signature_path":"manifest.sha256.sig",'
+                    '"signature_sha256":"%s"}\n'
+                )
+                % (
+                    manifest_hash,
+                    evidence.sha256_bytes(b"signature"),
+                ),
                 encoding="utf-8",
             )
 
@@ -84,6 +101,15 @@ class ValidateEvidenceTests(unittest.TestCase):
 
             self.assertTrue(summary["timestamped"])
             self.assertTrue(summary["signed"])
+
+            (root / "manifest.sha256.sig").write_bytes(b"tampered")
+            with self.assertRaisesRegex(ValueError, "signature hash mismatch"):
+                validate_evidence.validate_package(root, require_signature=True)
+
+            (root / "manifest.sha256.sig").write_bytes(b"signature")
+            (root / "manifest.sha256.tsr").write_bytes(b"tampered")
+            with self.assertRaisesRegex(ValueError, "timestamp hash mismatch"):
+                validate_evidence.validate_package(root, require_timestamp=True)
 
 
 if __name__ == "__main__":

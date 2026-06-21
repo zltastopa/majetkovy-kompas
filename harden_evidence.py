@@ -9,6 +9,7 @@ import subprocess
 import urllib.request
 from pathlib import Path
 from typing import Callable
+from urllib.parse import urlsplit, urlunsplit
 
 import evidence
 
@@ -37,6 +38,11 @@ def write_json(path: Path, value: dict[str, object]) -> None:
         json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
+
+
+def sanitized_url(value: str) -> str:
+    parts = urlsplit(value)
+    return urlunsplit((parts.scheme, parts.hostname or "", parts.path, "", ""))
 
 
 def sign_package(root: Path, private_key: Path, *, run: Runner = default_run) -> None:
@@ -102,7 +108,7 @@ def timestamp_package(
             "query_sha256": evidence.sha256_file(query_path),
             "response_path": "manifest.sha256.tsr",
             "response_sha256": evidence.sha256_file(response_path),
-            "tsa_url": tsa_url,
+            "tsa_url": sanitized_url(tsa_url),
         },
     )
 

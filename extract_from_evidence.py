@@ -41,7 +41,10 @@ def declaration_captures(manifest: dict[str, Any]) -> list[dict[str, Any]]:
 
 def target_year_for(captures: list[dict[str, Any]]) -> int | None:
     for capture in captures:
-        year = (capture.get("metadata") or {}).get("requested_year")
+        metadata = capture.get("metadata") or {}
+        if not metadata.get("explicit_requested_year"):
+            continue
+        year = metadata.get("requested_year")
         if isinstance(year, int):
             return year
     return None

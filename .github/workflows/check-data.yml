@@ -53,17 +53,17 @@ jobs:
         timeout-minutes: 90
         run: |
           uv run python acquire_evidence.py \
-            --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}/live \
+            --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/live \
             --request-retries 0 \
             --request-timeout 12 \
             --request-delay 0.4 \
             --request-jitter 0.6 \
-            --report-json ../evidence-branch/evidence/${{ github.run_id }}/live/acquire-report.json
+            --report-json ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/live/acquire-report.json
 
       - name: Extract latest live declarations from evidence
         run: |
           uv run python extract_from_evidence.py \
-            --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}/live \
+            --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/live \
             --data-dir ../data-branch/data \
             --report-json scrape-live-report.json
 
@@ -71,7 +71,7 @@ jobs:
         id: live-scrape-quality
         run: |
           uv run python .github/scripts/scrape_health.py \
-            --report ../evidence-branch/evidence/${{ github.run_id }}/live/acquire-report.json \
+            --report ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/live/acquire-report.json \
             --report scrape-live-report.json \
             --combined-report scrape-live-combined-report.json \
             --github-output "$GITHUB_OUTPUT" \
@@ -87,7 +87,7 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           uv run python .github/scripts/scrape_health.py \
-            --report ../evidence-branch/evidence/${{ github.run_id }}/live/acquire-report.json \
+            --report ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/live/acquire-report.json \
             --report scrape-live-report.json \
             --repo "$GITHUB_REPOSITORY" \
             --run-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
@@ -98,34 +98,34 @@ jobs:
         timeout-minutes: 90
         run: |
           uv run python acquire_evidence.py \
-            --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}/supplementary \
+            --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/supplementary \
             --only-supplementary \
             --supplementary-ids supplementary_user_ids.txt \
             --request-retries 1 \
             --request-timeout 12 \
             --request-delay 0.8 \
             --request-jitter 1.0 \
-            --report-json ../evidence-branch/evidence/${{ github.run_id }}/supplementary/acquire-report.json
+            --report-json ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/supplementary/acquire-report.json
 
       - name: Extract supplementary declarations from evidence
         if: steps.live-scrape-quality.outputs.commit_ok == 'true'
         run: |
           uv run python extract_from_evidence.py \
-            --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}/supplementary \
+            --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/supplementary \
             --data-dir ../data-branch/data \
             --report-json scrape-supplementary-report.json
 
       - name: Prepare skipped supplementary report
         if: steps.live-scrape-quality.outputs.commit_ok != 'true'
         run: |
-          mkdir -p ../evidence-branch/evidence/${{ github.run_id }}/supplementary
-          printf '{"results":[]}\n' > ../evidence-branch/evidence/${{ github.run_id }}/supplementary/acquire-report.json
+          mkdir -p ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/supplementary
+          printf '{"results":[]}\n' > ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/supplementary/acquire-report.json
           printf '{"results":[]}\n' > scrape-supplementary-report.json
 
       - name: Combine supplementary scrape health
         run: |
           uv run python .github/scripts/scrape_health.py \
-            --report ../evidence-branch/evidence/${{ github.run_id }}/supplementary/acquire-report.json \
+            --report ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/supplementary/acquire-report.json \
             --report scrape-supplementary-report.json \
             --combined-report scrape-supplementary-combined-report.json
 
@@ -159,16 +159,16 @@ jobs:
         run: |
           if [ -s failed-ids.txt ]; then
             uv run python acquire_evidence.py \
-              --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}/retry \
+              --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/retry \
               --user-ids-file failed-ids.txt \
               --request-retries 1 \
               --request-timeout 12 \
               --request-delay 1.0 \
               --request-jitter 1.5 \
-              --report-json ../evidence-branch/evidence/${{ github.run_id }}/retry/acquire-report.json
+              --report-json ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/retry/acquire-report.json
           else
-            mkdir -p ../evidence-branch/evidence/${{ github.run_id }}/retry
-            printf '{"results":[]}\n' > ../evidence-branch/evidence/${{ github.run_id }}/retry/acquire-report.json
+            mkdir -p ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/retry
+            printf '{"results":[]}\n' > ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/retry/acquire-report.json
           fi
 
       - name: Extract failed declaration retries from evidence
@@ -176,7 +176,7 @@ jobs:
         run: |
           if [ -s failed-ids.txt ]; then
             uv run python extract_from_evidence.py \
-              --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}/retry \
+              --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/retry \
               --data-dir ../data-branch/data \
               --report-json scrape-second-pass-report.json
           else
@@ -186,8 +186,8 @@ jobs:
       - name: Prepare skipped retry report
         if: steps.live-scrape-quality.outputs.commit_ok != 'true'
         run: |
-          mkdir -p ../evidence-branch/evidence/${{ github.run_id }}/retry
-          printf '{"results":[]}\n' > ../evidence-branch/evidence/${{ github.run_id }}/retry/acquire-report.json
+          mkdir -p ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/retry
+          printf '{"results":[]}\n' > ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/retry/acquire-report.json
           cp scrape-live-report.json scrape-second-pass-report.json
 
       - name: Summarize scrape health
@@ -195,11 +195,11 @@ jobs:
         if: always()
         run: |
           uv run python .github/scripts/scrape_health.py \
-            --report ../evidence-branch/evidence/${{ github.run_id }}/live/acquire-report.json \
+            --report ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/live/acquire-report.json \
             --report scrape-live-report.json \
-            --report ../evidence-branch/evidence/${{ github.run_id }}/supplementary/acquire-report.json \
+            --report ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/supplementary/acquire-report.json \
             --report scrape-supplementary-report.json \
-            --report ../evidence-branch/evidence/${{ github.run_id }}/retry/acquire-report.json \
+            --report ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/retry/acquire-report.json \
             --report scrape-second-pass-report.json \
             --combined-report scrape-combined-report.json \
             --github-output "$GITHUB_OUTPUT" \
@@ -212,7 +212,7 @@ jobs:
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: scrape-health-${{ github.run_id }}
+          name: scrape-health-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
             scrape-live-report.json
             scrape-live-combined-report.json
@@ -221,9 +221,9 @@ jobs:
             scrape-second-pass-report.json
             scrape-combined-report.json
             failed-ids.txt
-            ../evidence-branch/evidence/${{ github.run_id }}/*/manifest.json
-            ../evidence-branch/evidence/${{ github.run_id }}/*/manifest.sha256
-            ../evidence-branch/evidence/${{ github.run_id }}/*/acquire-report.json
+            ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/*/manifest.json
+            ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/*/manifest.sha256
+            ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/*/acquire-report.json
           if-no-files-found: ignore
 
       - name: Notify Discord about scrape health warnings
@@ -233,11 +233,11 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           uv run python .github/scripts/scrape_health.py \
-            --report ../evidence-branch/evidence/${{ github.run_id }}/live/acquire-report.json \
+            --report ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/live/acquire-report.json \
             --report scrape-live-report.json \
-            --report ../evidence-branch/evidence/${{ github.run_id }}/supplementary/acquire-report.json \
+            --report ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/supplementary/acquire-report.json \
             --report scrape-supplementary-report.json \
-            --report ../evidence-branch/evidence/${{ github.run_id }}/retry/acquire-report.json \
+            --report ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/retry/acquire-report.json \
             --report scrape-second-pass-report.json \
             --repo "$GITHUB_REPOSITORY" \
             --run-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
@@ -265,7 +265,7 @@ jobs:
             args+=(--signing-key "$key_file")
           fi
 
-          for dir in ../evidence-branch/evidence/${{ github.run_id }}/*; do
+          for dir in ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/*; do
             [ -f "$dir/manifest.json" ] || continue
             uv run python harden_evidence.py --evidence-dir "$dir" "${args[@]}"
           done
@@ -286,56 +286,8 @@ jobs:
           fi
 
           uv run python validate_evidence.py \
-            --evidence-root ../evidence-branch/evidence/${{ github.run_id }} \
+            --evidence-root ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }} \
             "${args[@]}"
-
-      - name: Package raw evidence for GitHub Releases
-        if: steps.validate-evidence.outcome == 'success'
-        env:
-          EVIDENCE_TSA_URL: ${{ secrets.EVIDENCE_TSA_URL }}
-          EVIDENCE_SIGNING_KEY_PEM: ${{ secrets.EVIDENCE_SIGNING_KEY_PEM }}
-        run: |
-          args=()
-          if [ -n "$EVIDENCE_TSA_URL" ]; then
-            args+=(--require-timestamp)
-          fi
-          if [ -n "$EVIDENCE_SIGNING_KEY_PEM" ]; then
-            args+=(--require-signature)
-          fi
-
-          mkdir -p evidence-release-assets
-          for dir in ../evidence-branch/evidence/${{ github.run_id }}/*; do
-            [ -f "$dir/manifest.json" ] || continue
-            uv run python publish_evidence.py \
-              --evidence-dir "$dir" \
-              --output-dir evidence-release-assets \
-              "${args[@]}"
-          done
-
-      - name: Attest raw evidence release assets
-        if: steps.validate-evidence.outcome == 'success'
-        uses: actions/attest@v4
-        with:
-          subject-path: evidence-release-assets/*.tar.gz
-
-      - name: Publish raw evidence package to GitHub Releases
-        if: steps.validate-evidence.outcome == 'success'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          shopt -s nullglob
-          for archive in evidence-release-assets/*.tar.gz; do
-            name="$(basename "$archive" .tar.gz)"
-            tag="evidence-${GITHUB_RUN_ID}-${name}"
-            title="Evidence package ${GITHUB_RUN_ID}/${name}"
-            notes="Raw scrape evidence package for workflow run ${GITHUB_RUN_ID}, segment ${name}."
-            gh release create "$tag" \
-              "$archive" \
-              "$archive.sha256" \
-              --title "$title" \
-              --notes "$notes" \
-              --latest=false
-          done
 
       - name: Commit raw evidence package
         if: steps.validate-evidence.outcome == 'success'
@@ -362,6 +314,54 @@ jobs:
           EOF
 
           git push origin HEAD:evidence
+
+      - name: Package raw evidence for GitHub Releases
+        if: steps.validate-evidence.outcome == 'success'
+        env:
+          EVIDENCE_TSA_URL: ${{ secrets.EVIDENCE_TSA_URL }}
+          EVIDENCE_SIGNING_KEY_PEM: ${{ secrets.EVIDENCE_SIGNING_KEY_PEM }}
+        run: |
+          args=()
+          if [ -n "$EVIDENCE_TSA_URL" ]; then
+            args+=(--require-timestamp)
+          fi
+          if [ -n "$EVIDENCE_SIGNING_KEY_PEM" ]; then
+            args+=(--require-signature)
+          fi
+
+          mkdir -p evidence-release-assets
+          for dir in ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/*; do
+            [ -f "$dir/manifest.json" ] || continue
+            uv run python publish_evidence.py \
+              --evidence-dir "$dir" \
+              --output-dir evidence-release-assets \
+              "${args[@]}"
+          done
+
+      - name: Attest raw evidence release assets
+        if: steps.validate-evidence.outcome == 'success'
+        uses: actions/attest@v4
+        with:
+          subject-path: evidence-release-assets/*.tar.gz
+
+      - name: Publish raw evidence package to GitHub Releases
+        if: steps.validate-evidence.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          shopt -s nullglob
+          for archive in evidence-release-assets/*.tar.gz; do
+            name="$(basename "$archive" .tar.gz)"
+            tag="evidence-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${name}"
+            title="Evidence package ${GITHUB_RUN_ID}/${GITHUB_RUN_ATTEMPT}/${name}"
+            notes="Raw scrape evidence package for workflow run ${GITHUB_RUN_ID}, attempt ${GITHUB_RUN_ATTEMPT}, segment ${name}."
+            gh release create "$tag" \
+              "$archive" \
+              "$archive.sha256" \
+              --title "$title" \
+              --notes "$notes" \
+              --latest=false
+          done
 
       - name: Generate declaration content hashes
         if: steps.live-scrape-quality.outputs.commit_ok == 'true'

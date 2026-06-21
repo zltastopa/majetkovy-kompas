@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import tempfile
 import unittest
+import json
 from pathlib import Path
 
 import evidence
@@ -49,20 +50,23 @@ class HardenEvidenceTests(unittest.TestCase):
                 Path(command[command.index("-out") + 1]).write_bytes(b"timestamp-query")
 
             def fake_post(url, body, content_type):
-                self.assertEqual(url, "https://tsa.example.test")
+                self.assertEqual(url, "https://token:secret@tsa.example.test/path?api_key=hidden")
                 self.assertEqual(body, b"timestamp-query")
                 self.assertEqual(content_type, "application/timestamp-query")
                 return b"timestamp-response"
 
             harden_evidence.timestamp_package(
                 root,
-                "https://tsa.example.test",
+                "https://token:secret@tsa.example.test/path?api_key=hidden",
                 run=fake_run,
                 post=fake_post,
             )
 
             self.assertEqual((root / "manifest.sha256.tsr").read_bytes(), b"timestamp-response")
-            self.assertTrue((root / "manifest.timestamp.json").exists())
+            metadata = json.loads((root / "manifest.timestamp.json").read_text(encoding="utf-8"))
+            self.assertEqual(metadata["tsa_url"], "https://tsa.example.test/path")
+            self.assertNotIn("secret", json.dumps(metadata))
+            self.assertNotIn("api_key", json.dumps(metadata))
 
 
 if __name__ == "__main__":

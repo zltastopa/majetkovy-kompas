@@ -129,7 +129,7 @@ class EvidencePackageTests(unittest.TestCase):
                 status_code=200,
                 response_headers={},
                 body=latest_html.encode("utf-8"),
-                metadata={"user_id": "Test.User", "requested_year": 2024},
+                metadata={"user_id": "Test.User", "requested_year": 2024, "explicit_requested_year": True},
             )
             package.capture_response(
                 purpose="declaration",
@@ -138,6 +138,55 @@ class EvidencePackageTests(unittest.TestCase):
                 status_code=200,
                 response_headers={},
                 body=requested_html.encode("utf-8"),
+                metadata={
+                    "user_id": "Test.User",
+                    "requested_year": 2024,
+                    "explicit_requested_year": True,
+                    "postback": True,
+                },
+            )
+            package.finalize()
+
+            extract_from_evidence.extract_package(root / "evidence", root / "data")
+
+            output = yaml.safe_load((root / "data" / "Test.User.yaml").read_text(encoding="utf-8"))
+            self.assertEqual(output["year"], 2024)
+
+    def test_fallback_year_extraction_uses_first_parseable_capture(self):
+        unavailable_html = """
+        <html><body>
+          <div id="_sectionLayoutContainer_ctl01_OutPut">v štádiu spracovania</div>
+        </body></html>
+        """
+        valid_html = DECLARATION_HTML.replace("<td class=\"value\">2025</td>", "<td class=\"value\">2024</td>")
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            package = evidence.EvidencePackage(root / "evidence", command=["test-command"])
+            package.capture_response(
+                purpose="declaration",
+                method="GET",
+                url="https://example.test/declaration?UserId=Test.User",
+                status_code=200,
+                response_headers={},
+                body=unavailable_html.encode("utf-8"),
+                metadata={"user_id": "Test.User"},
+            )
+            package.capture_response(
+                purpose="declaration",
+                method="POST",
+                url="https://example.test/declaration?UserId=Test.User",
+                status_code=200,
+                response_headers={},
+                body=unavailable_html.encode("utf-8"),
+                metadata={"user_id": "Test.User", "requested_year": 2025, "postback": True},
+            )
+            package.capture_response(
+                purpose="declaration",
+                method="POST",
+                url="https://example.test/declaration?UserId=Test.User",
+                status_code=200,
+                response_headers={},
+                body=valid_html.encode("utf-8"),
                 metadata={"user_id": "Test.User", "requested_year": 2024, "postback": True},
             )
             package.finalize()

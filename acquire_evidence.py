@@ -141,6 +141,7 @@ def capture_declaration_year(
     url: str,
     initial_html: str,
     year: int,
+    explicit_requested_year: bool = False,
 ) -> None:
     post_data = postback_data(initial_html, year)
     if not post_data:
@@ -151,7 +152,12 @@ def capture_declaration_year(
         method="POST",
         url=url,
         data=post_data,
-        metadata={"user_id": user_id, "requested_year": year, "postback": True},
+        metadata={
+            "user_id": user_id,
+            "requested_year": year,
+            "explicit_requested_year": explicit_requested_year,
+            "postback": True,
+        },
     )
 
 
@@ -162,7 +168,11 @@ def acquire_declaration(package: evidence.EvidencePackage, user_id: str, *, year
         purpose="declaration",
         method="GET",
         url=url,
-        metadata={"user_id": user_id, "requested_year": year},
+        metadata={
+            "user_id": user_id,
+            "requested_year": year,
+            "explicit_requested_year": year is not None,
+        },
     )
     if year is not None:
         capture_declaration_year(
@@ -171,6 +181,7 @@ def acquire_declaration(package: evidence.EvidencePackage, user_id: str, *, year
             url=url,
             initial_html=response.text,
             year=year,
+            explicit_requested_year=True,
         )
         return
 

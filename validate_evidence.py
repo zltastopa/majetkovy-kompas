@@ -35,7 +35,15 @@ def validate_capture(root: Path, capture: dict[str, Any]) -> None:
         )
 
 
-def validate_external_anchor(root: Path, metadata_name: str, payload_name: str, label: str) -> bool:
+def validate_external_anchor(
+    root: Path,
+    metadata_name: str,
+    payload_name: str,
+    label: str,
+    *,
+    manifest_sha256: str,
+    payload_hash_key: str,
+) -> bool:
     metadata_path = root / metadata_name
     payload_path = root / payload_name
     if not payload_path.exists():
@@ -48,6 +56,19 @@ def validate_external_anchor(root: Path, metadata_name: str, payload_name: str, 
         raise ValueError(f"{label} metadata points to unexpected file: {recorded_path}")
     if payload_path.stat().st_size == 0:
         raise ValueError(f"{label} payload is empty: {payload_name}")
+    recorded_manifest_hash = metadata.get("manifest_sha256")
+    if recorded_manifest_hash != manifest_sha256:
+        raise ValueError(
+            f"{label} manifest hash mismatch: "
+            f"expected {manifest_sha256}, got {recorded_manifest_hash}"
+        )
+    recorded_payload_hash = metadata.get(payload_hash_key)
+    actual_payload_hash = evidence.sha256_file(payload_path)
+    if recorded_payload_hash != actual_payload_hash:
+        raise ValueError(
+            f"{label} hash mismatch for {payload_name}: "
+            f"expected {recorded_payload_hash}, got {actual_payload_hash}"
+        )
     return True
 
 
@@ -60,7 +81,7 @@ def validate_package(
     manifest_path = root / "manifest.json"
     if not manifest_path.exists():
         raise ValueError(f"manifest missing: {manifest_path}")
-    evidence.validate_manifest_hash(root)
+    manifest_sha256 = evidence.validate_manifest_hash(root)
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
 
     captures = manifest.get("captures", [])
@@ -83,6 +104,8 @@ def validate_package(
             "manifest.timestamp.json",
             "manifest.sha256.tsr",
             "timestamp",
+            manifest_sha256=manifest_sha256,
+            payload_hash_key="response_sha256",
         )
     else:
         timestamped = (root / "manifest.sha256.tsr").exists()
@@ -92,6 +115,8 @@ def validate_package(
             "manifest.signature.json",
             "manifest.sha256.sig",
             "signature",
+            manifest_sha256=manifest_sha256,
+            payload_hash_key="signature_sha256",
         )
     else:
         signed = (root / "manifest.sha256.sig").exists()
