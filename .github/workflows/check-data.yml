@@ -7,7 +7,9 @@ on:
 
 permissions:
   actions: write
+  attestations: write
   contents: write
+  id-token: write
 
 concurrency:
   group: data-check
@@ -27,6 +29,18 @@ jobs:
       - name: Prepare data worktree
         run: git worktree add ../data-branch data
 
+      - name: Prepare evidence worktree
+        run: |
+          if git ls-remote --exit-code --heads origin evidence >/dev/null 2>&1; then
+            git fetch origin evidence:evidence
+            git worktree add ../evidence-branch evidence
+          else
+            git worktree add --detach ../evidence-branch
+            git -C ../evidence-branch switch --orphan evidence
+            git -C ../evidence-branch rm -rf . || true
+            mkdir -p ../evidence-branch/evidence
+          fi
+
       - uses: astral-sh/setup-uv@v5
 
       - name: Capture current snapshot size
@@ -35,22 +49,31 @@ jobs:
           count=$(find ../data-branch/data -maxdepth 1 -name '*.yaml' | wc -l | tr -d ' ')
           echo "value=$count" >> "$GITHUB_OUTPUT"
 
-      - name: Scrape latest live declarations
+      - name: Acquire latest live declaration evidence
         timeout-minutes: 90
         run: |
-          uv run python scrape.py --workers 3 --data-dir ../data-branch/data \
+          uv run python acquire_evidence.py \
+            --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}/live \
             --request-retries 0 \
             --request-timeout 12 \
             --request-delay 0.4 \
             --request-jitter 0.6 \
-            --report-json scrape-live-report.json \
-            --failed-ids-output failed-live-ids.txt
+            --report-json ../evidence-branch/evidence/${{ github.run_id }}/live/acquire-report.json
+
+      - name: Extract latest live declarations from evidence
+        run: |
+          uv run python extract_from_evidence.py \
+            --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}/live \
+            --data-dir ../data-branch/data \
+            --report-json scrape-live-report.json
 
       - name: Evaluate live scrape health
         id: live-scrape-quality
         run: |
           uv run python .github/scripts/scrape_health.py \
+            --report ../evidence-branch/evidence/${{ github.run_id }}/live/acquire-report.json \
             --report scrape-live-report.json \
+            --combined-report scrape-live-combined-report.json \
             --github-output "$GITHUB_OUTPUT" \
             --step-summary "$GITHUB_STEP_SUMMARY" \
             --repo "$GITHUB_REPOSITORY" \
@@ -64,66 +87,119 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           uv run python .github/scripts/scrape_health.py \
+            --report ../evidence-branch/evidence/${{ github.run_id }}/live/acquire-report.json \
             --report scrape-live-report.json \
             --repo "$GITHUB_REPOSITORY" \
             --run-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
             --discord
 
-      - name: Scrape supplementary declarations
+      - name: Acquire supplementary declaration evidence
         if: steps.live-scrape-quality.outputs.commit_ok == 'true'
         timeout-minutes: 90
         run: |
-          uv run python scrape.py --workers 1 --data-dir ../data-branch/data \
+          uv run python acquire_evidence.py \
+            --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}/supplementary \
             --only-supplementary \
             --supplementary-ids supplementary_user_ids.txt \
             --request-retries 1 \
             --request-timeout 12 \
             --request-delay 0.8 \
             --request-jitter 1.0 \
-            --report-json scrape-supplementary-report.json \
-            --failed-ids-output failed-supplementary-ids.txt
+            --report-json ../evidence-branch/evidence/${{ github.run_id }}/supplementary/acquire-report.json
+
+      - name: Extract supplementary declarations from evidence
+        if: steps.live-scrape-quality.outputs.commit_ok == 'true'
+        run: |
+          uv run python extract_from_evidence.py \
+            --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}/supplementary \
+            --data-dir ../data-branch/data \
+            --report-json scrape-supplementary-report.json
 
       - name: Prepare skipped supplementary report
         if: steps.live-scrape-quality.outputs.commit_ok != 'true'
         run: |
+          mkdir -p ../evidence-branch/evidence/${{ github.run_id }}/supplementary
+          printf '{"results":[]}\n' > ../evidence-branch/evidence/${{ github.run_id }}/supplementary/acquire-report.json
           printf '{"results":[]}\n' > scrape-supplementary-report.json
-          : > failed-supplementary-ids.txt
+
+      - name: Combine supplementary scrape health
+        run: |
+          uv run python .github/scripts/scrape_health.py \
+            --report ../evidence-branch/evidence/${{ github.run_id }}/supplementary/acquire-report.json \
+            --report scrape-supplementary-report.json \
+            --combined-report scrape-supplementary-combined-report.json
 
       - name: Prepare failed declaration retry list
         run: |
-          sort -u failed-live-ids.txt failed-supplementary-ids.txt > failed-ids.txt
+          python - <<'PY'
+          import json
+          from pathlib import Path
 
-      - name: Retry failed declarations at low concurrency
+          failed = set()
+          for path in [
+              Path("scrape-live-combined-report.json"),
+              Path("scrape-supplementary-combined-report.json"),
+          ]:
+              if not path.exists():
+                  continue
+              report = json.loads(path.read_text(encoding="utf-8"))
+              for result in report.get("results", []):
+                  if result.get("status") == "error" and result.get("user_id"):
+                      failed.add(result["user_id"])
+
+          Path("failed-ids.txt").write_text(
+              "".join(f"{user_id}\n" for user_id in sorted(failed)),
+              encoding="utf-8",
+          )
+          PY
+
+      - name: Acquire failed declaration retry evidence
         if: steps.live-scrape-quality.outputs.commit_ok == 'true'
         timeout-minutes: 60
         run: |
           if [ -s failed-ids.txt ]; then
-            uv run python scrape.py --workers 1 --data-dir ../data-branch/data \
+            uv run python acquire_evidence.py \
+              --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}/retry \
               --user-ids-file failed-ids.txt \
               --request-retries 1 \
               --request-timeout 12 \
               --request-delay 1.0 \
               --request-jitter 1.5 \
-              --report-json scrape-second-pass-report.json \
-              --failed-ids-output failed-ids-second-pass.txt
+              --report-json ../evidence-branch/evidence/${{ github.run_id }}/retry/acquire-report.json
+          else
+            mkdir -p ../evidence-branch/evidence/${{ github.run_id }}/retry
+            printf '{"results":[]}\n' > ../evidence-branch/evidence/${{ github.run_id }}/retry/acquire-report.json
+          fi
+
+      - name: Extract failed declaration retries from evidence
+        if: steps.live-scrape-quality.outputs.commit_ok == 'true'
+        run: |
+          if [ -s failed-ids.txt ]; then
+            uv run python extract_from_evidence.py \
+              --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}/retry \
+              --data-dir ../data-branch/data \
+              --report-json scrape-second-pass-report.json
           else
             printf '{"results":[]}\n' > scrape-second-pass-report.json
-            : > failed-ids-second-pass.txt
           fi
 
       - name: Prepare skipped retry report
         if: steps.live-scrape-quality.outputs.commit_ok != 'true'
         run: |
+          mkdir -p ../evidence-branch/evidence/${{ github.run_id }}/retry
+          printf '{"results":[]}\n' > ../evidence-branch/evidence/${{ github.run_id }}/retry/acquire-report.json
           cp scrape-live-report.json scrape-second-pass-report.json
-          cp failed-live-ids.txt failed-ids-second-pass.txt
 
       - name: Summarize scrape health
         id: scrape-quality
         if: always()
         run: |
           uv run python .github/scripts/scrape_health.py \
+            --report ../evidence-branch/evidence/${{ github.run_id }}/live/acquire-report.json \
             --report scrape-live-report.json \
+            --report ../evidence-branch/evidence/${{ github.run_id }}/supplementary/acquire-report.json \
             --report scrape-supplementary-report.json \
+            --report ../evidence-branch/evidence/${{ github.run_id }}/retry/acquire-report.json \
             --report scrape-second-pass-report.json \
             --combined-report scrape-combined-report.json \
             --github-output "$GITHUB_OUTPUT" \
@@ -139,13 +215,15 @@ jobs:
           name: scrape-health-${{ github.run_id }}
           path: |
             scrape-live-report.json
+            scrape-live-combined-report.json
             scrape-supplementary-report.json
+            scrape-supplementary-combined-report.json
             scrape-second-pass-report.json
             scrape-combined-report.json
-            failed-live-ids.txt
-            failed-supplementary-ids.txt
             failed-ids.txt
-            failed-ids-second-pass.txt
+            ../evidence-branch/evidence/${{ github.run_id }}/*/manifest.json
+            ../evidence-branch/evidence/${{ github.run_id }}/*/manifest.sha256
+            ../evidence-branch/evidence/${{ github.run_id }}/*/acquire-report.json
           if-no-files-found: ignore
 
       - name: Notify Discord about scrape health warnings
@@ -155,12 +233,135 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           uv run python .github/scripts/scrape_health.py \
+            --report ../evidence-branch/evidence/${{ github.run_id }}/live/acquire-report.json \
             --report scrape-live-report.json \
+            --report ../evidence-branch/evidence/${{ github.run_id }}/supplementary/acquire-report.json \
             --report scrape-supplementary-report.json \
+            --report ../evidence-branch/evidence/${{ github.run_id }}/retry/acquire-report.json \
             --report scrape-second-pass-report.json \
             --repo "$GITHUB_REPOSITORY" \
             --run-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
             --discord
+
+      - name: Externally anchor raw evidence package
+        if: always()
+        env:
+          EVIDENCE_TSA_URL: ${{ secrets.EVIDENCE_TSA_URL }}
+          EVIDENCE_SIGNING_KEY_PEM: ${{ secrets.EVIDENCE_SIGNING_KEY_PEM }}
+        run: |
+          if [ -z "$EVIDENCE_TSA_URL" ] && [ -z "$EVIDENCE_SIGNING_KEY_PEM" ]; then
+            echo "No evidence timestamp/signing secrets configured; skipping external anchoring."
+            exit 0
+          fi
+
+          args=()
+          if [ -n "$EVIDENCE_TSA_URL" ]; then
+            args+=(--timestamp-url "$EVIDENCE_TSA_URL")
+          fi
+          if [ -n "$EVIDENCE_SIGNING_KEY_PEM" ]; then
+            key_file="$(mktemp)"
+            printf '%s\n' "$EVIDENCE_SIGNING_KEY_PEM" > "$key_file"
+            chmod 600 "$key_file"
+            args+=(--signing-key "$key_file")
+          fi
+
+          for dir in ../evidence-branch/evidence/${{ github.run_id }}/*; do
+            [ -f "$dir/manifest.json" ] || continue
+            uv run python harden_evidence.py --evidence-dir "$dir" "${args[@]}"
+          done
+
+      - name: Validate raw evidence package
+        id: validate-evidence
+        if: always()
+        env:
+          EVIDENCE_TSA_URL: ${{ secrets.EVIDENCE_TSA_URL }}
+          EVIDENCE_SIGNING_KEY_PEM: ${{ secrets.EVIDENCE_SIGNING_KEY_PEM }}
+        run: |
+          args=()
+          if [ -n "$EVIDENCE_TSA_URL" ]; then
+            args+=(--require-timestamp)
+          fi
+          if [ -n "$EVIDENCE_SIGNING_KEY_PEM" ]; then
+            args+=(--require-signature)
+          fi
+
+          uv run python validate_evidence.py \
+            --evidence-root ../evidence-branch/evidence/${{ github.run_id }} \
+            "${args[@]}"
+
+      - name: Package raw evidence for GitHub Releases
+        if: steps.validate-evidence.outcome == 'success'
+        env:
+          EVIDENCE_TSA_URL: ${{ secrets.EVIDENCE_TSA_URL }}
+          EVIDENCE_SIGNING_KEY_PEM: ${{ secrets.EVIDENCE_SIGNING_KEY_PEM }}
+        run: |
+          args=()
+          if [ -n "$EVIDENCE_TSA_URL" ]; then
+            args+=(--require-timestamp)
+          fi
+          if [ -n "$EVIDENCE_SIGNING_KEY_PEM" ]; then
+            args+=(--require-signature)
+          fi
+
+          mkdir -p evidence-release-assets
+          for dir in ../evidence-branch/evidence/${{ github.run_id }}/*; do
+            [ -f "$dir/manifest.json" ] || continue
+            uv run python publish_evidence.py \
+              --evidence-dir "$dir" \
+              --output-dir evidence-release-assets \
+              "${args[@]}"
+          done
+
+      - name: Attest raw evidence release assets
+        if: steps.validate-evidence.outcome == 'success'
+        uses: actions/attest@v4
+        with:
+          subject-path: evidence-release-assets/*.tar.gz
+
+      - name: Publish raw evidence package to GitHub Releases
+        if: steps.validate-evidence.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          shopt -s nullglob
+          for archive in evidence-release-assets/*.tar.gz; do
+            name="$(basename "$archive" .tar.gz)"
+            tag="evidence-${GITHUB_RUN_ID}-${name}"
+            title="Evidence package ${GITHUB_RUN_ID}/${name}"
+            notes="Raw scrape evidence package for workflow run ${GITHUB_RUN_ID}, segment ${name}."
+            gh release create "$tag" \
+              "$archive" \
+              "$archive.sha256" \
+              --title "$title" \
+              --notes "$notes" \
+              --latest=false
+          done
+
+      - name: Commit raw evidence package
+        if: steps.validate-evidence.outcome == 'success'
+        working-directory: ../evidence-branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence
+
+          if git diff --cached --quiet; then
+            echo "No raw evidence changes detected."
+            exit 0
+          fi
+
+          git commit -F - <<'EOF'
+          chore: add raw scrape evidence
+
+          Previously the daily workflow preserved only extracted YAML and
+          transient CI artifacts; this commit stores the raw acquisition
+          package on the evidence branch for independent review.
+
+          - Add raw HTTP captures, metadata, manifests, and hashes
+          - Keep derived declaration YAML on the data branch
+          EOF
+
+          git push origin HEAD:evidence
 
       - name: Generate declaration content hashes
         if: steps.live-scrape-quality.outputs.commit_ok == 'true'
@@ -266,4 +467,6 @@ jobs:
 
       - name: Clean up worktree
         if: always()
-        run: git worktree remove ../data-branch --force
+        run: |
+          git worktree remove ../data-branch --force
+          git worktree remove ../evidence-branch --force

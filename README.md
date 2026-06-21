@@ -32,6 +32,11 @@ a v archíve Wayback Machine).
 
 ```
 scrape.py              # Scraper (NR SR → YAML) — jeden rok
+acquire_evidence.py    # Akvizícia surových HTTP dôkazov bez extrakcie
+extract_from_evidence.py # Extrakcia YAML zo surového evidence balíka
+validate_evidence.py   # Kontrola hashov a externých kotiev evidence balíka
+harden_evidence.py     # RFC3161 timestamp a podpis manifestu
+publish_evidence.py    # Zabalenie a publikovanie evidence balíka cez GitHub Releases
 scrape_all_years.py    # Scraper všetkých rokov pre každú osobu
 scrape_wayback.py      # Obnova deklarácií z Wayback Machine
 build_site.py          # Generátor statického webu (git história → JSON)
@@ -51,6 +56,24 @@ chronologicky podľa roka uznámenia (najstaršie prvé). Pre každý rok
 môže existovať viacero commitov (pôvodný scrape, doplnkový scrape,
 Wayback Machine). Build skript prechádza túto históriu, použije
 posledný commit pre každý rok a počíta diffy.
+
+Surové akvizičné dôkazy žijú na samostatnej vetve `evidence`.
+Denný workflow najprv uloží raw HTTP telá, metadáta, manifest a
+SHA-256 hash manifestu do `evidence/<github-run-id>/...`; až potom
+samostatný krok extrahuje YAML do vetvy `data`. Extrakcia nesiaha na
+sieť a musí byť opakovateľná iba z uloženého evidence balíka.
+
+Ak sú nastavené príslušné CI secrets/variables, workflow navyše externe
+ukotví každý evidence balík pred publikovaním:
+
+- `EVIDENCE_TSA_URL` — RFC3161 timestamp authority URL; ak existuje,
+  `validate_evidence.py` vyžaduje `manifest.sha256.tsr`
+- `EVIDENCE_SIGNING_KEY_PEM` — PEM privátny kľúč pre detached podpis
+  `manifest.sha256`; ak existuje, validácia vyžaduje podpis
+Každý validovaný balík sa zároveň zabalí do `.tar.gz`, publikuje ako
+samostatný GitHub Release asset a workflow preň vytvorí GitHub attestation.
+Git vetva `evidence` ostáva browsovateľná audítorská kópia; release asset,
+attestation, timestamp a podpis sú tvrdšie kotvy pre integritu balíka.
 
 ### Zoradenie dátovej vetvy
 
@@ -80,6 +103,31 @@ open site/index.html
 ### Scraper
 
 ```bash
+# Forenzný dvojkrok: najprv uložiť raw dôkazy
+uv run python acquire_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --user-id Tomas.Abel
+
+# Potom extrahovať YAML iba z uloženého evidence balíka
+uv run python extract_from_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --data-dir data
+
+# Overiť hash-e, manifest a prípadné externé kotvy
+uv run python validate_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21
+
+# Voliteľne ukotviť manifest mimo git histórie
+uv run python harden_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --timestamp-url "$EVIDENCE_TSA_URL" \
+  --signing-key signing-key.pem
+
+# Zabaliť balík pre GitHub Release asset
+uv run python publish_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --output-dir /tmp/evidence-assets
+
 # Jeden politik, jeden rok
 uv run python scrape.py --user-id Tomas.Abel --year 2023
 
