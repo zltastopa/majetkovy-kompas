@@ -37,6 +37,7 @@ extract_from_evidence.py # Extrakcia YAML zo surového evidence balíka
 validate_evidence.py   # Kontrola hashov a externých kotiev evidence balíka
 harden_evidence.py     # RFC3161 timestamp a podpis manifestu
 publish_evidence.py    # Zabalenie a publikovanie evidence balíka cez GitHub Releases
+reproduce_from_evidence.py # Reprodukcia data/ stavu zo surových dôkazov
 scrape_all_years.py    # Scraper všetkých rokov pre každú osobu
 scrape_wayback.py      # Obnova deklarácií z Wayback Machine
 build_site.py          # Generátor statického webu (git história → JSON)
@@ -127,6 +128,14 @@ uv run python harden_evidence.py \
 uv run python publish_evidence.py \
   --evidence-dir evidence/manual-2026-06-21 \
   --output-dir /tmp/evidence-assets
+
+# Reprodukovať celý odvodený data/ stav z evidence balíkov
+uv run python reproduce_from_evidence.py \
+  --evidence-root evidence/123456789-1 \
+  --base-data-dir /tmp/base-data \
+  --output-data-dir /tmp/recreated-data \
+  --expected-data-dir data \
+  --require-timestamp
 
 # Jeden politik, jeden rok
 uv run python scrape.py --user-id Tomas.Abel --year 2023

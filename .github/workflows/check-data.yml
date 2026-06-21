@@ -46,6 +46,7 @@ jobs:
       - name: Capture current snapshot size
         id: before-count
         run: |
+          cp -a ../data-branch/data ../base-data
           count=$(find ../data-branch/data -maxdepth 1 -name '*.yaml' | wc -l | tr -d ' ')
           echo "value=$count" >> "$GITHUB_OUTPUT"
 
@@ -372,6 +373,28 @@ jobs:
           uv run python generate_content_hashes.py \
             --data-dir ../data-branch/data \
             --output ../data-branch/data/_checks/content-hashes.json
+
+      - name: Recreate data state from raw evidence
+        if: steps.live-scrape-quality.outputs.commit_ok == 'true'
+        env:
+          EVIDENCE_TSA_URL: ${{ secrets.EVIDENCE_TSA_URL }}
+          EVIDENCE_SIGNING_KEY_PEM: ${{ secrets.EVIDENCE_SIGNING_KEY_PEM }}
+        run: |
+          args=()
+          if [ -n "$EVIDENCE_TSA_URL" ]; then
+            args+=(--require-timestamp)
+          fi
+          if [ -n "$EVIDENCE_SIGNING_KEY_PEM" ]; then
+            args+=(--require-signature)
+          fi
+
+          uv run python reproduce_from_evidence.py \
+            --evidence-root ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }} \
+            --base-data-dir ../base-data \
+            --output-data-dir ../recreated-data \
+            --expected-data-dir ../data-branch/data \
+            --report-json reproduction-report.json \
+            "${args[@]}"
 
       - name: Guard against suspicious data loss
         if: steps.live-scrape-quality.outputs.commit_ok == 'true'
