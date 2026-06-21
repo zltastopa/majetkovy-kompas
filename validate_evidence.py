@@ -35,6 +35,19 @@ def validate_capture(root: Path, capture: dict[str, Any]) -> None:
         )
 
 
+def validate_raw_directory(root: Path, captures: list[dict[str, Any]]) -> None:
+    raw_dir = root / "raw"
+    expected = {capture["body_path"] for capture in captures}
+    if not raw_dir.exists():
+        return
+    for path in raw_dir.iterdir():
+        if not path.is_file():
+            continue
+        rel_path = path.relative_to(root).as_posix()
+        if rel_path not in expected:
+            raise ValueError(f"unmanifested raw file: {rel_path}")
+
+
 def validate_external_anchor(
     root: Path,
     metadata_name: str,
@@ -89,6 +102,7 @@ def validate_package(
         raise ValueError("manifest captures must be a list")
     for capture in captures:
         validate_capture(root, capture)
+    validate_raw_directory(root, captures)
 
     artifacts = manifest.get("artifacts", [])
     if not isinstance(artifacts, list):

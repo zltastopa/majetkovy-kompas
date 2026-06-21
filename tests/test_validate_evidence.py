@@ -45,6 +45,25 @@ class ValidateEvidenceTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "body hash mismatch"):
                 validate_evidence.validate_package(Path(tmp) / "evidence")
 
+    def test_validate_package_rejects_unmanifested_raw_files(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / "evidence"
+            package = evidence.EvidencePackage(root, command=["test"])
+            package.capture_response(
+                purpose="declaration",
+                method="GET",
+                url="https://example.test",
+                status_code=200,
+                response_headers={},
+                body=b"body",
+                metadata={"user_id": "Test.User"},
+            )
+            package.finalize()
+            (root / "raw" / "extra.json").write_text("{}", encoding="utf-8")
+
+            with self.assertRaisesRegex(ValueError, "unmanifested raw file"):
+                validate_evidence.validate_package(root)
+
     def test_validate_package_can_require_external_anchors(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp) / "evidence"

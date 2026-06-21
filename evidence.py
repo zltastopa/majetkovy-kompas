@@ -107,7 +107,6 @@ class EvidencePackage:
 
         capture_id = f"{ordinal:06d}-{sha256_bytes(body)[:16]}"
         body_path = self.raw_dir / f"{capture_id}.body"
-        meta_path = self.raw_dir / f"{capture_id}.json"
         body_path.write_bytes(body)
 
         request_body_value, request_body_bytes = request_body_record(request_body)
@@ -128,10 +127,6 @@ class EvidencePackage:
             "body_sha256": sha256_bytes(body),
             "metadata": metadata or {},
         }
-        meta_path.write_text(
-            json.dumps(capture, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
-            encoding="utf-8",
-        )
         self._captures.append(capture)
         return capture
 
