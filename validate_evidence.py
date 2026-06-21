@@ -5,10 +5,32 @@ from __future__ import annotations
 
 import argparse
 import json
+import ssl
+import subprocess
 from pathlib import Path
-from typing import Any
+from typing import Any, Callable
 
 import evidence
+
+
+Runner = Callable[[list[str]], None]
+
+
+def default_run(command: list[str]) -> None:
+    subprocess.run(command, check=True)
+
+
+def default_ca_args() -> list[str]:
+    candidates = [
+        ssl.get_default_verify_paths().openssl_cafile,
+        "/opt/homebrew/etc/openssl@3/cert.pem",
+        "/opt/homebrew/etc/ca-certificates/cert.pem",
+        "/etc/ssl/cert.pem",
+    ]
+    for candidate in candidates:
+        if candidate and Path(candidate).exists():
+            return ["-CAfile", candidate]
+    return []
 
 
 def validate_file_hash(root: Path, entry: dict[str, Any], *, label: str) -> None:
@@ -85,11 +107,40 @@ def validate_external_anchor(
     return True
 
 
+def validate_timestamp_response(root: Path, metadata: dict[str, Any], *, run: Runner) -> None:
+    query_path = metadata.get("query_path")
+    if not query_path:
+        raise ValueError("timestamp query missing from metadata")
+    query = root / query_path
+    if not query.exists():
+        raise ValueError(f"timestamp query missing: {query_path}")
+    recorded_query_hash = metadata.get("query_sha256")
+    actual_query_hash = evidence.sha256_file(query)
+    if recorded_query_hash != actual_query_hash:
+        raise ValueError(
+            f"timestamp query hash mismatch for {query_path}: "
+            f"expected {recorded_query_hash}, got {actual_query_hash}"
+        )
+    run(
+        [
+            "openssl",
+            "ts",
+            "-verify",
+            "-queryfile",
+            str(query),
+            "-in",
+            str(root / "manifest.sha256.tsr"),
+            *default_ca_args(),
+        ]
+    )
+
+
 def validate_package(
     root: Path,
     *,
     require_timestamp: bool = False,
     require_signature: bool = False,
+    run: Runner = default_run,
 ) -> dict[str, int | bool]:
     manifest_path = root / "manifest.json"
     if not manifest_path.exists():
@@ -121,6 +172,10 @@ def validate_package(
             manifest_sha256=manifest_sha256,
             payload_hash_key="response_sha256",
         )
+        timestamp_metadata = json.loads(
+            (root / "manifest.timestamp.json").read_text(encoding="utf-8")
+        )
+        validate_timestamp_response(root, timestamp_metadata, run=run)
     else:
         timestamped = (root / "manifest.sha256.tsr").exists()
     if require_signature:
