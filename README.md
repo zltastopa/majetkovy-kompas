@@ -88,8 +88,41 @@ a force-pushne.
 Potrebujete Python 3.13+ a [uv](https://docs.astral.sh/uv/).
 
 ```bash
-# Scrape aktuálny rok
-uv run python scrape.py --year 2024
+# Forenzný denný postup: raw dôkazy -> extrakcia -> reprodukcia
+cp -a data /tmp/base-data
+
+uv run python acquire_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --request-retries 0 \
+  --request-timeout 12 \
+  --request-delay 0.4 \
+  --request-jitter 0.6 \
+  --workers 3 \
+  --report-json evidence/manual-2026-06-21/acquire-report.json
+
+uv run python harden_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --timestamp-url "$EVIDENCE_TSA_URL"
+
+uv run python validate_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --require-timestamp
+
+uv run python extract_from_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --data-dir data \
+  --report-json /tmp/extract-report.json
+
+uv run python generate_content_hashes.py \
+  --data-dir data \
+  --output data/_checks/content-hashes.json
+
+uv run python reproduce_from_evidence.py \
+  --evidence-root evidence/manual-2026-06-21 \
+  --base-data-dir /tmp/base-data \
+  --output-data-dir /tmp/recreated-data \
+  --expected-data-dir data \
+  --require-timestamp
 
 # Alebo scrape všetkých rokov naraz (vytvorí 'data' vetvu)
 ./backfill.sh
@@ -104,7 +137,7 @@ open site/index.html
 ### Scraper
 
 ```bash
-# Forenzný dvojkrok: najprv uložiť raw dôkazy
+# Najprv uložiť raw dôkazy
 uv run python acquire_evidence.py \
   --evidence-dir evidence/manual-2026-06-21 \
   --user-id Tomas.Abel
@@ -137,7 +170,7 @@ uv run python reproduce_from_evidence.py \
   --expected-data-dir data \
   --require-timestamp
 
-# Jeden politik, jeden rok
+# Legacy priama extrakcia bez forenzného evidence balíka
 uv run python scrape.py --user-id Tomas.Abel --year 2023
 
 # Všetky roky pre všetkých funkcionárov (z živej stránky nrsr.sk)
@@ -168,11 +201,15 @@ GitHub Actions automaticky buildí a deployuje na GitHub Pages
 pri každom push-e na `main` alebo `data` vetvu. Workflow je v
 `.github/workflows/deploy.yml`.
 
-Samostatný workflow `.github/workflows/check-data.yml` navyše každý
-deň znovu scrape-ne najnovšie dostupné priznania a ak sa na NRSR objaví
-zmena, uloží nový snapshot do vetvy `data`. Popri YAML dátach zapisuje aj
-kanonické hash-e extrahovaného obsahu do `data/_checks/content-hashes.json`,
-aby bolo možné sledovať zmeny v samotných deklaráciách z dňa na deň.
+Samostatný workflow `.github/workflows/check-data.yml` navyše každý deň
+prejde forenzným postupom: najprv uloží raw HTTP evidence balíky do vetvy
+`evidence`, voliteľne ich ukotví cez RFC3161 timestamp/podpis, validuje ich,
+extrahuje YAML do vetvy `data` a nakoniec z raw evidence znovu reprodukuje
+celý výsledný `data/` stav. Commit do `data` vznikne iba vtedy, keď
+reprodukcia z base dát a evidence balíkov zodpovedá finálnemu dátovému stromu.
+Popri YAML dátach zapisuje aj kanonické hash-e extrahovaného obsahu do
+`data/_checks/content-hashes.json`, aby bolo možné sledovať zmeny v samotných
+deklaráciách z dňa na deň.
 
 Ak je v repozitári nastavený secret `DISCORD_WEBHOOK_URL`, denný workflow
 po úspešnom push-i zmenených dát pošle stručný súhrn do príslušného Discord

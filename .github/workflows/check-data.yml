@@ -396,6 +396,16 @@ jobs:
             --report-json reproduction-report.json \
             "${args[@]}"
 
+      - name: Upload reproduction report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evidence-reproduction-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            reproduction-report.json
+            ../recreated-data/_checks/content-hashes.json
+          if-no-files-found: ignore
+
       - name: Guard against suspicious data loss
         if: steps.live-scrape-quality.outputs.commit_ok == 'true'
         run: |
