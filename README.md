@@ -93,19 +93,6 @@ EVIDENCE_TSA_URL=http://timestamp.digicert.com \
 uv run python run_local_evidence_daily.py --push --publish-releases
 ```
 
-Na tomto stroji je denný beh spúšťaný cez launchd o 03:00 lokálneho času:
-
-```bash
-cp launchd/io.shu.majetkovy-kompas.daily.plist \
-  ~/Library/LaunchAgents/io.shu.majetkovy-kompas.daily.plist
-launchctl bootstrap "gui/$(id -u)" \
-  ~/Library/LaunchAgents/io.shu.majetkovy-kompas.daily.plist
-```
-
-Wrapper `run_local_evidence_daily.sh` pred spustením odmietne dirty worktree,
-aktualizuje `main` cez fast-forward pull a potom spustí lokálny evidence
-runner s `--push --publish-releases`. Logy sú v `logs/local-evidence-daily.log`.
-
 GitHub-hosted runner zostáva iba manuálna záloha. Produkčná akvizícia musí
 bežať lokálne, pretože NR SR často vracia `504 Gateway Timeout` pri spúšťaní
 z GitHub Actions infraštruktúry.
