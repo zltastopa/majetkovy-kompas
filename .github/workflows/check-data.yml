@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: '17 4 * * *'
   workflow_dispatch:
+    inputs:
+      include-supplementary:
+        description: 'Also acquire supplementary IDs'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 permissions:
   actions: write
@@ -96,7 +105,7 @@ jobs:
             --discord
 
       - name: Acquire supplementary declaration evidence
-        if: steps.live-scrape-quality.outputs.commit_ok == 'true'
+        if: steps.live-scrape-quality.outputs.commit_ok == 'true' && github.event_name == 'workflow_dispatch' && inputs.include-supplementary == 'true'
         timeout-minutes: 90
         run: |
           uv run python acquire_evidence.py \
@@ -111,7 +120,7 @@ jobs:
             --report-json ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/supplementary/acquire-report.json
 
       - name: Extract supplementary declarations from evidence
-        if: steps.live-scrape-quality.outputs.commit_ok == 'true'
+        if: steps.live-scrape-quality.outputs.commit_ok == 'true' && github.event_name == 'workflow_dispatch' && inputs.include-supplementary == 'true'
         run: |
           uv run python extract_from_evidence.py \
             --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/supplementary \
@@ -119,7 +128,7 @@ jobs:
             --report-json scrape-supplementary-report.json
 
       - name: Prepare skipped supplementary report
-        if: steps.live-scrape-quality.outputs.commit_ok != 'true'
+        if: steps.live-scrape-quality.outputs.commit_ok != 'true' || github.event_name != 'workflow_dispatch' || inputs.include-supplementary != 'true'
         run: |
           mkdir -p ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/supplementary
           printf '{"results":[]}\n' > ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/supplementary/acquire-report.json
@@ -222,7 +231,9 @@ jobs:
             name="$(basename "$dir")"
             mkdir -p "scrape-health-artifacts/evidence/$name"
             for file in manifest.json manifest.sha256 acquire-report.json; do
-              [ -f "$dir/$file" ] && cp "$dir/$file" "scrape-health-artifacts/evidence/$name/$file"
+              if [ -f "$dir/$file" ]; then
+                cp "$dir/$file" "scrape-health-artifacts/evidence/$name/$file"
+              fi
             done
           done
 
