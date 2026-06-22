@@ -32,6 +32,12 @@ a v archíve Wayback Machine).
 
 ```
 scrape.py              # Scraper (NR SR → YAML) — jeden rok
+acquire_evidence.py    # Akvizícia surových HTTP dôkazov bez extrakcie
+extract_from_evidence.py # Extrakcia YAML zo surového evidence balíka
+validate_evidence.py   # Kontrola hashov a externých kotiev evidence balíka
+harden_evidence.py     # RFC3161 timestamp a podpis manifestu
+publish_evidence.py    # Zabalenie a publikovanie evidence balíka cez GitHub Releases
+reproduce_from_evidence.py # Reprodukcia data/ stavu zo surových dôkazov
 scrape_all_years.py    # Scraper všetkých rokov pre každú osobu
 scrape_wayback.py      # Obnova deklarácií z Wayback Machine
 build_site.py          # Generátor statického webu (git história → JSON)
@@ -52,6 +58,24 @@ môže existovať viacero commitov (pôvodný scrape, doplnkový scrape,
 Wayback Machine). Build skript prechádza túto históriu, použije
 posledný commit pre každý rok a počíta diffy.
 
+Surové akvizičné dôkazy žijú na samostatnej vetve `evidence`.
+Denný workflow najprv uloží raw HTTP telá, metadáta, manifest a
+SHA-256 hash manifestu do `evidence/<github-run-id>/...`; až potom
+samostatný krok extrahuje YAML do vetvy `data`. Extrakcia nesiaha na
+sieť a musí byť opakovateľná iba z uloženého evidence balíka.
+
+Ak sú nastavené príslušné CI secrets/variables, workflow navyše externe
+ukotví každý evidence balík pred publikovaním:
+
+- `EVIDENCE_TSA_URL` — RFC3161 timestamp authority URL; ak existuje,
+  `validate_evidence.py` vyžaduje `manifest.sha256.tsr`
+- `EVIDENCE_SIGNING_KEY_PEM` — PEM privátny kľúč pre detached podpis
+  `manifest.sha256`; ak existuje, validácia vyžaduje podpis
+Každý validovaný balík sa zároveň zabalí do `.tar.gz`, publikuje ako
+samostatný GitHub Release asset a workflow preň vytvorí GitHub attestation.
+Git vetva `evidence` ostáva browsovateľná audítorská kópia; release asset,
+attestation, timestamp a podpis sú tvrdšie kotvy pre integritu balíka.
+
 ### Zoradenie dátovej vetvy
 
 Commity na vetve `data` **musia** byť chronologicky zoradené podľa
@@ -64,8 +88,41 @@ a force-pushne.
 Potrebujete Python 3.13+ a [uv](https://docs.astral.sh/uv/).
 
 ```bash
-# Scrape aktuálny rok
-uv run python scrape.py --year 2024
+# Forenzný denný postup: raw dôkazy -> extrakcia -> reprodukcia
+cp -a data /tmp/base-data
+
+uv run python acquire_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --request-retries 0 \
+  --request-timeout 12 \
+  --request-delay 0.4 \
+  --request-jitter 0.6 \
+  --workers 3 \
+  --report-json evidence/manual-2026-06-21/acquire-report.json
+
+uv run python harden_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --timestamp-url "$EVIDENCE_TSA_URL"
+
+uv run python validate_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --require-timestamp
+
+uv run python extract_from_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --data-dir data \
+  --report-json /tmp/extract-report.json
+
+uv run python generate_content_hashes.py \
+  --data-dir data \
+  --output data/_checks/content-hashes.json
+
+uv run python reproduce_from_evidence.py \
+  --evidence-root evidence/manual-2026-06-21 \
+  --base-data-dir /tmp/base-data \
+  --output-data-dir /tmp/recreated-data \
+  --expected-data-dir data \
+  --require-timestamp
 
 # Alebo scrape všetkých rokov naraz (vytvorí 'data' vetvu)
 ./backfill.sh
@@ -80,7 +137,40 @@ open site/index.html
 ### Scraper
 
 ```bash
-# Jeden politik, jeden rok
+# Najprv uložiť raw dôkazy
+uv run python acquire_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --user-id Tomas.Abel
+
+# Potom extrahovať YAML iba z uloženého evidence balíka
+uv run python extract_from_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --data-dir data
+
+# Overiť hash-e, manifest a prípadné externé kotvy
+uv run python validate_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21
+
+# Voliteľne ukotviť manifest mimo git histórie
+uv run python harden_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --timestamp-url "$EVIDENCE_TSA_URL" \
+  --signing-key signing-key.pem
+
+# Zabaliť balík pre GitHub Release asset
+uv run python publish_evidence.py \
+  --evidence-dir evidence/manual-2026-06-21 \
+  --output-dir /tmp/evidence-assets
+
+# Reprodukovať celý odvodený data/ stav z evidence balíkov
+uv run python reproduce_from_evidence.py \
+  --evidence-root evidence/123456789-1 \
+  --base-data-dir /tmp/base-data \
+  --output-data-dir /tmp/recreated-data \
+  --expected-data-dir data \
+  --require-timestamp
+
+# Legacy priama extrakcia bez forenzného evidence balíka
 uv run python scrape.py --user-id Tomas.Abel --year 2023
 
 # Všetky roky pre všetkých funkcionárov (z živej stránky nrsr.sk)
@@ -111,11 +201,15 @@ GitHub Actions automaticky buildí a deployuje na GitHub Pages
 pri každom push-e na `main` alebo `data` vetvu. Workflow je v
 `.github/workflows/deploy.yml`.
 
-Samostatný workflow `.github/workflows/check-data.yml` navyše každý
-deň znovu scrape-ne najnovšie dostupné priznania a ak sa na NRSR objaví
-zmena, uloží nový snapshot do vetvy `data`. Popri YAML dátach zapisuje aj
-kanonické hash-e extrahovaného obsahu do `data/_checks/content-hashes.json`,
-aby bolo možné sledovať zmeny v samotných deklaráciách z dňa na deň.
+Samostatný workflow `.github/workflows/check-data.yml` navyše každý deň
+prejde forenzným postupom: najprv uloží raw HTTP evidence balíky do vetvy
+`evidence`, voliteľne ich ukotví cez RFC3161 timestamp/podpis, validuje ich,
+extrahuje YAML do vetvy `data` a nakoniec z raw evidence znovu reprodukuje
+celý výsledný `data/` stav. Commit do `data` vznikne iba vtedy, keď
+reprodukcia z base dát a evidence balíkov zodpovedá finálnemu dátovému stromu.
+Popri YAML dátach zapisuje aj kanonické hash-e extrahovaného obsahu do
+`data/_checks/content-hashes.json`, aby bolo možné sledovať zmeny v samotných
+deklaráciách z dňa na deň.
 
 Ak je v repozitári nastavený secret `DISCORD_WEBHOOK_URL`, denný workflow
 po úspešnom push-i zmenených dát pošle stručný súhrn do príslušného Discord
