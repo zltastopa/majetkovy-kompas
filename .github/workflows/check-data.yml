@@ -1,8 +1,6 @@
 name: Check latest data daily
 
 on:
-  schedule:
-    - cron: '17 4 * * *'
   workflow_dispatch:
     inputs:
       include-supplementary:

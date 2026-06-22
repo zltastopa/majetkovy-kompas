@@ -88,7 +88,18 @@ a force-pushne.
 Potrebujete Python 3.13+ a [uv](https://docs.astral.sh/uv/).
 
 ```bash
-# Forenzný denný postup: raw dôkazy -> extrakcia -> reprodukcia
+# Denný forenzný postup lokálne: raw dôkazy -> extrakcia -> reprodukcia -> push
+EVIDENCE_TSA_URL=http://timestamp.digicert.com \
+uv run python run_local_evidence_daily.py --push --publish-releases
+```
+
+GitHub-hosted runner zostáva iba manuálna záloha. Produkčná akvizícia musí
+bežať lokálne, pretože NR SR často vracia `504 Gateway Timeout` pri spúšťaní
+z GitHub Actions infraštruktúry.
+
+Manuálny rozpis toho, čo lokálny runner robí:
+
+```bash
 cp -a data /tmp/base-data
 
 uv run python acquire_evidence.py \
@@ -201,15 +212,18 @@ GitHub Actions automaticky buildí a deployuje na GitHub Pages
 pri každom push-e na `main` alebo `data` vetvu. Workflow je v
 `.github/workflows/deploy.yml`.
 
-Samostatný workflow `.github/workflows/check-data.yml` navyše každý deň
-prejde forenzným postupom: najprv uloží raw HTTP evidence balíky do vetvy
-`evidence`, voliteľne ich ukotví cez RFC3161 timestamp/podpis, validuje ich,
-extrahuje YAML do vetvy `data` a nakoniec z raw evidence znovu reprodukuje
-celý výsledný `data/` stav. Commit do `data` vznikne iba vtedy, keď
-reprodukcia z base dát a evidence balíkov zodpovedá finálnemu dátovému stromu.
-Popri YAML dátach zapisuje aj kanonické hash-e extrahovaného obsahu do
-`data/_checks/content-hashes.json`, aby bolo možné sledovať zmeny v samotných
-deklaráciách z dňa na deň.
+Denný zber dát sa spúšťa lokálne cez `run_local_evidence_daily.py`. Skript
+najprv uloží raw HTTP evidence balíky do worktree vetvy `evidence`, voliteľne
+ich ukotví cez RFC3161 timestamp/podpis, validuje ich, extrahuje YAML do
+worktree vetvy `data` a nakoniec z raw evidence znovu reprodukuje celý výsledný
+`data/` stav. Commit do `data` vznikne iba vtedy, keď reprodukcia z base dát a
+evidence balíkov zodpovedá finálnemu dátovému stromu. S prepínačom `--push`
+skript pushne lokálne commity do `origin/evidence` a `origin/data`; s
+`--publish-releases` navyše vytvorí GitHub Release assety pre evidence balíky.
+
+Workflow `.github/workflows/check-data.yml` je ponechaný iba ako manuálna
+záloha bez schedule triggera. Produkčná akvizícia z GitHub-hosted runnerov nie
+je spoľahlivá pre tento zdroj.
 
 Ak je v repozitári nastavený secret `DISCORD_WEBHOOK_URL`, denný workflow
 po úspešnom push-i zmenených dát pošle stručný súhrn do príslušného Discord
