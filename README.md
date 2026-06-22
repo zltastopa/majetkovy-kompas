@@ -60,9 +60,12 @@ posledný commit pre každý rok a počíta diffy.
 
 Surové akvizičné dôkazy žijú na samostatnej vetve `evidence`.
 Denný workflow najprv uloží raw HTTP telá, metadáta, manifest a
-SHA-256 hash manifestu do `evidence/<github-run-id>/...`; až potom
+SHA-256 hash manifestu do `evidence/<run-id>/...`; až potom
 samostatný krok extrahuje YAML do vetvy `data`. Extrakcia nesiaha na
 sieť a musí byť opakovateľná iba z uloženého evidence balíka.
+Ukladanie je inkrementálne: runner odmietne prepísať existujúci
+`evidence/<run-id>`, commit na vetve `evidence` stageuje iba aktuálny
+run a publish krok preskočí GitHub Release tagy, ktoré už existujú.
 
 Ak sú nastavené príslušné CI secrets/variables, workflow navyše externe
 ukotví každý evidence balík pred publikovaním:

@@ -124,10 +124,19 @@ def latest_year(data_path: Path) -> str:
     return str(latest)
 
 
-def commit_if_changed(repo: Path, message: str, *, push_ref: str | None) -> bool:
+def commit_if_changed(
+    repo: Path,
+    message: str,
+    *,
+    push_ref: str | None,
+    paths: list[Path] | None = None,
+) -> bool:
     run(["git", "config", "user.name", "github-actions[bot]"], cwd=repo)
     run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], cwd=repo)
-    run(["git", "add", "."], cwd=repo)
+    if paths:
+        run(["git", "add", "--", *(str(path) for path in paths)], cwd=repo)
+    else:
+        run(["git", "add", "."], cwd=repo)
     if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=repo).returncode == 0:
         print(f"No changes to commit in {repo}")
         return False
@@ -192,16 +201,48 @@ def package_dirs(evidence_root: Path) -> list[Path]:
     return sorted(path for path in evidence_root.iterdir() if (path / "manifest.json").exists())
 
 
-def publish_releases(evidence_root: Path, assets_dir: Path, run_id: str, args: argparse.Namespace) -> None:
+def prepare_run_root(run_root: Path) -> Path:
+    if run_root.exists():
+        raise RuntimeError(f"refusing to overwrite existing evidence run: {run_root}")
+    run_root.mkdir(parents=True)
+    return run_root
+
+
+def release_tag_exists(tag: str) -> bool:
+    result = subprocess.run(
+        ["gh", "release", "view", tag],
+        cwd=ROOT,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+    return result.returncode == 0
+
+
+def evidence_release_tag(run_id: str, package_name: str) -> str:
+    return f"evidence-{run_id}-{package_name}"
+
+
+def publish_releases(
+    evidence_root: Path,
+    assets_dir: Path,
+    run_id: str,
+    args: argparse.Namespace,
+    *,
+    release_exists=release_tag_exists,
+) -> None:
     assets_dir.mkdir(parents=True, exist_ok=True)
     for package_dir in package_dirs(evidence_root):
         name = package_dir.name
         release_args = []
         if args.publish_releases:
+            tag = evidence_release_tag(run_id, name)
+            if release_exists(tag):
+                print(f"Release {tag} already exists; skipping publish.")
+                continue
             release_args = [
                 "--publish",
                 "--release-tag",
-                f"evidence-{run_id}-{name}",
+                tag,
                 "--release-title",
                 f"Evidence package {run_id}/{name}",
                 "--release-notes",
@@ -248,7 +289,7 @@ def main() -> int:
         base_data = tmp / "base-data"
         shutil.copytree(data_repo / "data", base_data)
 
-        run_root = evidence_repo / "evidence" / args.run_id
+        run_root = prepare_run_root(evidence_repo / "evidence" / args.run_id)
         live_dir = run_root / "live"
         retry_dir = run_root / "retry"
         supplementary_dir = run_root / "supplementary"
@@ -410,6 +451,7 @@ def main() -> int:
             evidence_repo,
             evidence_commit_message(args.run_id),
             push_ref="evidence" if args.push else None,
+            paths=[Path("evidence") / args.run_id],
         )
 
         run(["git", "add", "data"], cwd=data_repo)
