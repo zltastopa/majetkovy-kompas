@@ -25,7 +25,10 @@ def default_ca_args() -> list[str]:
         ssl.get_default_verify_paths().openssl_cafile,
         "/opt/homebrew/etc/openssl@3/cert.pem",
         "/opt/homebrew/etc/ca-certificates/cert.pem",
+        "/etc/ssl/certs/ca-certificates.crt",
         "/etc/ssl/cert.pem",
+        "/etc/pki/tls/certs/ca-bundle.crt",
+        "/etc/ssl/ca-bundle.pem",
     ]
     for candidate in candidates:
         if candidate and Path(candidate).exists():

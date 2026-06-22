@@ -51,15 +51,15 @@ jobs:
           echo "value=$count" >> "$GITHUB_OUTPUT"
 
       - name: Acquire latest live declaration evidence
-        timeout-minutes: 90
+        timeout-minutes: 180
         run: |
           uv run python acquire_evidence.py \
             --evidence-dir ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/live \
-            --request-retries 0 \
-            --request-timeout 12 \
-            --request-delay 0.4 \
-            --request-jitter 0.6 \
-            --workers 3 \
+            --request-retries 1 \
+            --request-timeout 20 \
+            --request-delay 1.0 \
+            --request-jitter 1.0 \
+            --workers 1 \
             --report-json ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/live/acquire-report.json
 
       - name: Extract latest live declarations from evidence
@@ -212,6 +212,20 @@ jobs:
             --run-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
             --emit-annotation
 
+      - name: Prepare scrape health artifact files
+        if: always()
+        run: |
+          rm -rf scrape-health-artifacts
+          mkdir -p scrape-health-artifacts/evidence
+          for dir in ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/*; do
+            [ -d "$dir" ] || continue
+            name="$(basename "$dir")"
+            mkdir -p "scrape-health-artifacts/evidence/$name"
+            for file in manifest.json manifest.sha256 acquire-report.json; do
+              [ -f "$dir/$file" ] && cp "$dir/$file" "scrape-health-artifacts/evidence/$name/$file"
+            done
+          done
+
       - name: Upload scrape health reports
         uses: actions/upload-artifact@v4
         if: always()
@@ -225,9 +239,7 @@ jobs:
             scrape-second-pass-report.json
             scrape-combined-report.json
             failed-ids.txt
-            ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/*/manifest.json
-            ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/*/manifest.sha256
-            ../evidence-branch/evidence/${{ github.run_id }}-${{ github.run_attempt }}/*/acquire-report.json
+            scrape-health-artifacts/**
           if-no-files-found: ignore
 
       - name: Notify Discord about scrape health warnings
@@ -396,14 +408,24 @@ jobs:
             --report-json reproduction-report.json \
             "${args[@]}"
 
+      - name: Prepare reproduction artifact files
+        if: always()
+        run: |
+          rm -rf reproduction-artifacts
+          mkdir -p reproduction-artifacts
+          [ -f reproduction-report.json ] && cp reproduction-report.json reproduction-artifacts/
+          if [ -f ../recreated-data/_checks/content-hashes.json ]; then
+            mkdir -p reproduction-artifacts/recreated-data/_checks
+            cp ../recreated-data/_checks/content-hashes.json reproduction-artifacts/recreated-data/_checks/content-hashes.json
+          fi
+
       - name: Upload reproduction report
         uses: actions/upload-artifact@v4
         if: always()
         with:
           name: evidence-reproduction-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
-            reproduction-report.json
-            ../recreated-data/_checks/content-hashes.json
+            reproduction-artifacts/**
           if-no-files-found: ignore
 
       - name: Guard against suspicious data loss

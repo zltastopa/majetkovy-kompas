@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import tempfile
 import unittest
+from unittest import mock
 from pathlib import Path
+from types import SimpleNamespace
 
 import evidence
 import validate_evidence
@@ -188,6 +190,19 @@ class ValidateEvidenceTests(unittest.TestCase):
             self.assertIn(str(root / "manifest.sha256.tsq"), commands[0])
             self.assertIn("-in", commands[0])
             self.assertIn(str(root / "manifest.sha256.tsr"), commands[0])
+
+    def test_default_ca_args_uses_common_linux_bundle(self):
+        with mock.patch.object(
+            validate_evidence.ssl,
+            "get_default_verify_paths",
+            return_value=SimpleNamespace(openssl_cafile=None),
+        ), mock.patch.object(validate_evidence.Path, "exists", autospec=True) as exists:
+            exists.side_effect = lambda path: str(path) == "/etc/ssl/certs/ca-certificates.crt"
+
+            self.assertEqual(
+                validate_evidence.default_ca_args(),
+                ["-CAfile", "/etc/ssl/certs/ca-certificates.crt"],
+            )
 
 
 if __name__ == "__main__":
