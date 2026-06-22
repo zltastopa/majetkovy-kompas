@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>io.shu.majetkovy-kompas.daily</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/mrshu/work/dev/zltastopa/majetkovy-kompas/run_local_evidence_daily.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/mrshu/work/dev/zltastopa/majetkovy-kompas</string>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>3</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/Users/mrshu/work/dev/zltastopa/majetkovy-kompas/logs/launchd.out.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/mrshu/work/dev/zltastopa/majetkovy-kompas/logs/launchd.err.log</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/Users/mrshu/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    <key>EVIDENCE_TSA_URL</key>
+    <string>http://timestamp.digicert.com</string>
+  </dict>
+</dict>
+</plist>
