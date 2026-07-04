@@ -1,0 +1,121 @@
+{
+  "artifacts": [
+    {
+      "path": "acquire-report.json",
+      "sha256": "e7c9cee3ca9a694b293f90ea7bb6d033e2245fbd904d224cbc55a3d2c838c1e1",
+      "size": 205
+    }
+  ],
+  "captures": [
+    {
+      "actual_request": {
+        "body": null,
+        "body_sha256": null,
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate",
+          "Connection": "keep-alive",
+          "User-Agent": "python-requests/2.32.5"
+        },
+        "method": "GET",
+        "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=HorvJan"
+      },
+      "body_path": "raw/000001-3f1275b66c2e4483.body",
+      "body_sha256": "3f1275b66c2e4483d63f9edd5b71fdd92f3194d48ba2cfe41ed51a6bb9a4e7f4",
+      "body_size": 76187,
+      "captured_at": "2026-07-04T18:25:08Z",
+      "id": "000001-3f1275b66c2e4483",
+      "metadata": {
+        "explicit_requested_year": false,
+        "requested_year": null,
+        "user_id": "HorvJan"
+      },
+      "method": "GET",
+      "purpose": "declaration",
+      "request_body": null,
+      "request_body_sha256": null,
+      "request_headers": {},
+      "response_headers": {
+        "Cache-Control": "private",
+        "Content-Length": "76187",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Sat, 04 Jul 2026 18:25:06 GMT",
+        "Server": "Microsoft-IIS/10.0",
+        "Set-Cookie": "ASP.NET_SessionId=w24kpnaozzbitzim2n235iuh; path=/; HttpOnly",
+        "X-Powered-By": "ASP.NET"
+      },
+      "status_code": 200,
+      "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=HorvJan"
+    },
+    {
+      "actual_request": {
+        "body": null,
+        "body_sha256": null,
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate",
+          "Connection": "keep-alive",
+          "User-Agent": "python-requests/2.32.5"
+        },
+        "method": "GET",
+        "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=MalaToma"
+      },
+      "body_path": "raw/000002-ab9343c55f8888a3.body",
+      "body_sha256": "ab9343c55f8888a3cddd1b5a494e4f7f8933e5801d4790937a0a52f45578b548",
+      "body_size": 75582,
+      "captured_at": "2026-07-04T18:25:10Z",
+      "id": "000002-ab9343c55f8888a3",
+      "metadata": {
+        "explicit_requested_year": false,
+        "requested_year": null,
+        "user_id": "MalaToma"
+      },
+      "method": "GET",
+      "purpose": "declaration",
+      "request_body": null,
+      "request_body_sha256": null,
+      "request_headers": {},
+      "response_headers": {
+        "Cache-Control": "private",
+        "Content-Length": "75582",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Sat, 04 Jul 2026 18:25:09 GMT",
+        "Server": "Microsoft-IIS/10.0",
+        "Set-Cookie": "ASP.NET_SessionId=13x45k45ldg2qw55suvyx22c; path=/; HttpOnly",
+        "X-Powered-By": "ASP.NET"
+      },
+      "status_code": 200,
+      "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=MalaToma"
+    }
+  ],
+  "command": [
+    "/Users/mrshu/work/dev/zltastopa/majetkovy-kompas/acquire_evidence.py",
+    "--evidence-dir",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260704T180215Z-rnohm01m/evidence-branch/evidence/local-20260704T180215Z/retry",
+    "--user-ids-file",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260704T180215Z-rnohm01m/reports/failed-ids.txt",
+    "--request-retries",
+    "1",
+    "--request-timeout",
+    "20.0",
+    "--request-delay",
+    "0.4",
+    "--request-jitter",
+    "0.6",
+    "--workers",
+    "1",
+    "--report-json",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260704T180215Z-rnohm01m/evidence-branch/evidence/local-20260704T180215Z/retry/acquire-report.json"
+  ],
+  "created_at": "2026-07-04T18:25:05Z",
+  "environment": {
+    "cwd": "/Users/mrshu/work/dev/zltastopa/majetkovy-kompas",
+    "platform": "macOS-15.7.7-arm64-arm-64bit-Mach-O",
+    "python": "3.13.7"
+  },
+  "finalized_at": "2026-07-04T18:25:10Z",
+  "git": {
+    "commit": "6720d64ea506d6ad303a69d3b6de9fc6f428f75b"
+  },
+  "schema_version": 1
+}
