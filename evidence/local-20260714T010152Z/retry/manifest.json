@@ -1,0 +1,201 @@
+{
+  "artifacts": [
+    {
+      "path": "acquire-report.json",
+      "sha256": "5ade8e639467c5fbb278c058ea9eca7296a98c9d860b4f6b591322fdfa43b4c9",
+      "size": 368
+    }
+  ],
+  "captures": [
+    {
+      "actual_request": {
+        "body": null,
+        "body_sha256": null,
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate",
+          "Connection": "keep-alive",
+          "User-Agent": "python-requests/2.32.5"
+        },
+        "method": "GET",
+        "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Erna.Vavrova"
+      },
+      "body_path": "raw/000001-37f2c31ec4dbe991.body",
+      "body_sha256": "37f2c31ec4dbe991b0b9ad7a029f6f746f848ad2a9e1fd229f9665d00ad23ca1",
+      "body_size": 75506,
+      "captured_at": "2026-07-14T01:19:11Z",
+      "id": "000001-37f2c31ec4dbe991",
+      "metadata": {
+        "explicit_requested_year": false,
+        "requested_year": null,
+        "user_id": "Erna.Vavrova"
+      },
+      "method": "GET",
+      "purpose": "declaration",
+      "request_body": null,
+      "request_body_sha256": null,
+      "request_headers": {},
+      "response_headers": {
+        "Cache-Control": "private",
+        "Content-Length": "75506",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Tue, 14 Jul 2026 01:19:10 GMT",
+        "Server": "Microsoft-IIS/10.0",
+        "Set-Cookie": "ASP.NET_SessionId=sgdsumbie1m2jxrwkvwtqo45; path=/; HttpOnly",
+        "X-Powered-By": "ASP.NET"
+      },
+      "status_code": 200,
+      "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Erna.Vavrova"
+    },
+    {
+      "actual_request": {
+        "body": null,
+        "body_sha256": null,
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate",
+          "Connection": "keep-alive",
+          "User-Agent": "python-requests/2.32.5"
+        },
+        "method": "GET",
+        "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Jozef.Belick%C3%BD"
+      },
+      "body_path": "raw/000002-b491321d3fab6336.body",
+      "body_sha256": "b491321d3fab63366ffbcdf0c9382cb1408cd4a7c4d5a2b7243cd037878bdc2e",
+      "body_size": 75179,
+      "captured_at": "2026-07-14T01:19:13Z",
+      "id": "000002-b491321d3fab6336",
+      "metadata": {
+        "explicit_requested_year": false,
+        "requested_year": null,
+        "user_id": "Jozef.Belický"
+      },
+      "method": "GET",
+      "purpose": "declaration",
+      "request_body": null,
+      "request_body_sha256": null,
+      "request_headers": {},
+      "response_headers": {
+        "Cache-Control": "private",
+        "Content-Length": "75179",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Tue, 14 Jul 2026 01:19:13 GMT",
+        "Server": "Microsoft-IIS/10.0",
+        "Set-Cookie": "ASP.NET_SessionId=0fbfspfsntfwlwjbhd5jvsqs; path=/; HttpOnly",
+        "X-Powered-By": "ASP.NET"
+      },
+      "status_code": 200,
+      "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Jozef.Belický"
+    },
+    {
+      "actual_request": {
+        "body": null,
+        "body_sha256": null,
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate",
+          "Connection": "keep-alive",
+          "User-Agent": "python-requests/2.32.5"
+        },
+        "method": "GET",
+        "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Lubos.Stefanik"
+      },
+      "body_path": "raw/000003-1b6b15f00d0f5b90.body",
+      "body_sha256": "1b6b15f00d0f5b90553ee5ca0615da46eecd439bf1dbe0cf16fd160626f737dd",
+      "body_size": 76897,
+      "captured_at": "2026-07-14T01:19:14Z",
+      "id": "000003-1b6b15f00d0f5b90",
+      "metadata": {
+        "explicit_requested_year": false,
+        "requested_year": null,
+        "user_id": "Lubos.Stefanik"
+      },
+      "method": "GET",
+      "purpose": "declaration",
+      "request_body": null,
+      "request_body_sha256": null,
+      "request_headers": {},
+      "response_headers": {
+        "Cache-Control": "private",
+        "Content-Length": "76897",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Tue, 14 Jul 2026 01:19:15 GMT",
+        "Server": "Microsoft-IIS/10.0",
+        "Set-Cookie": "ASP.NET_SessionId=mb32bn45saowyg3v45gn1juf; path=/; HttpOnly",
+        "X-Powered-By": "ASP.NET"
+      },
+      "status_code": 200,
+      "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Lubos.Stefanik"
+    },
+    {
+      "actual_request": {
+        "body": null,
+        "body_sha256": null,
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate",
+          "Connection": "keep-alive",
+          "User-Agent": "python-requests/2.32.5"
+        },
+        "method": "GET",
+        "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Norbert.Polievka"
+      },
+      "body_path": "raw/000004-11af1114ce643f57.body",
+      "body_sha256": "11af1114ce643f572bde939ab62c533618512642e9b07e0eae9744d82aaa0300",
+      "body_size": 75407,
+      "captured_at": "2026-07-14T01:19:16Z",
+      "id": "000004-11af1114ce643f57",
+      "metadata": {
+        "explicit_requested_year": false,
+        "requested_year": null,
+        "user_id": "Norbert.Polievka"
+      },
+      "method": "GET",
+      "purpose": "declaration",
+      "request_body": null,
+      "request_body_sha256": null,
+      "request_headers": {},
+      "response_headers": {
+        "Cache-Control": "private",
+        "Content-Length": "75407",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Tue, 14 Jul 2026 01:19:17 GMT",
+        "Server": "Microsoft-IIS/10.0",
+        "Set-Cookie": "ASP.NET_SessionId=ojmqyheyhisc04uwcezwxj55; path=/; HttpOnly",
+        "X-Powered-By": "ASP.NET"
+      },
+      "status_code": 200,
+      "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Norbert.Polievka"
+    }
+  ],
+  "command": [
+    "/Users/mrshu/work/dev/zltastopa/majetkovy-kompas/acquire_evidence.py",
+    "--evidence-dir",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260714T010152Z-9fwg306h/evidence-branch/evidence/local-20260714T010152Z/retry",
+    "--user-ids-file",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260714T010152Z-9fwg306h/reports/failed-ids.txt",
+    "--request-retries",
+    "1",
+    "--request-timeout",
+    "20.0",
+    "--request-delay",
+    "0.4",
+    "--request-jitter",
+    "0.6",
+    "--workers",
+    "1",
+    "--report-json",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260714T010152Z-9fwg306h/evidence-branch/evidence/local-20260714T010152Z/retry/acquire-report.json"
+  ],
+  "created_at": "2026-07-14T01:19:09Z",
+  "environment": {
+    "cwd": "/Users/mrshu/work/dev/zltastopa/majetkovy-kompas",
+    "platform": "macOS-15.7.7-arm64-arm-64bit-Mach-O",
+    "python": "3.13.7"
+  },
+  "finalized_at": "2026-07-14T01:19:16Z",
+  "git": {
+    "commit": "6720d64ea506d6ad303a69d3b6de9fc6f428f75b"
+  },
+  "schema_version": 1
+}
