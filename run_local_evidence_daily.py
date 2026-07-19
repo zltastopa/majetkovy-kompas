@@ -47,16 +47,25 @@ def branch_exists(branch: str) -> bool:
     return result.returncode == 0
 
 
+def local_branch_exists(branch: str) -> bool:
+    result = subprocess.run(
+        ["git", "show-ref", "--verify", "--quiet", f"refs/heads/{branch}"],
+        cwd=ROOT,
+    )
+    return result.returncode == 0
+
+
 def prepare_worktrees(tmp: Path) -> tuple[Path, Path]:
     run(["git", "fetch", "origin", "data"])
-    if branch_exists("evidence"):
+    evidence_exists = branch_exists("evidence")
+    if evidence_exists:
         run(["git", "fetch", "origin", "evidence:evidence"], check=False)
 
     data_dir = tmp / "data-branch"
     evidence_dir = tmp / "evidence-branch"
     run(["git", "worktree", "add", str(data_dir), "origin/data"])
 
-    if branch_exists("evidence"):
+    if local_branch_exists("evidence"):
         run(["git", "worktree", "add", str(evidence_dir), "evidence"])
     else:
         run(["git", "worktree", "add", "--detach", str(evidence_dir)])
