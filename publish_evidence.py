@@ -63,7 +63,6 @@ def publish_release_asset(
             "release",
             "create",
             tag,
-            *assets,
             "--title",
             title,
             "--notes",
@@ -71,6 +70,7 @@ def publish_release_asset(
             "--latest=false",
         ]
     )
+    run(["gh", "release", "upload", tag, *assets, "--clobber"])
 
 
 def main() -> None:

@@ -48,8 +48,10 @@ class PublishEvidenceTests(unittest.TestCase):
             )
 
             self.assertEqual(commands[0][:4], ["gh", "release", "create", "evidence-123"])
-            self.assertIn(str(archive), commands[0])
             self.assertIn("--latest=false", commands[0])
+            self.assertEqual(commands[1][:4], ["gh", "release", "upload", "evidence-123"])
+            self.assertIn(str(archive), commands[1])
+            self.assertIn("--clobber", commands[1])
 
 
 if __name__ == "__main__":
