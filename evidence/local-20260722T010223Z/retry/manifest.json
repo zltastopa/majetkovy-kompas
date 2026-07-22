@@ -1,0 +1,121 @@
+{
+  "artifacts": [
+    {
+      "path": "acquire-report.json",
+      "sha256": "0a4b9dca8cb97f7b840309b53d617974ee29c64135bc3597ba578be1234efa98",
+      "size": 212
+    }
+  ],
+  "captures": [
+    {
+      "actual_request": {
+        "body": null,
+        "body_sha256": null,
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate",
+          "Connection": "keep-alive",
+          "User-Agent": "python-requests/2.32.5"
+        },
+        "method": "GET",
+        "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Jozef.Hajko"
+      },
+      "body_path": "raw/000001-5c54463ec08002db.body",
+      "body_sha256": "5c54463ec08002dbdfdac5c49f0c852f59eed8ee464862e80999c20a782dd373",
+      "body_size": 75284,
+      "captured_at": "2026-07-22T01:20:29Z",
+      "id": "000001-5c54463ec08002db",
+      "metadata": {
+        "explicit_requested_year": false,
+        "requested_year": null,
+        "user_id": "Jozef.Hajko"
+      },
+      "method": "GET",
+      "purpose": "declaration",
+      "request_body": null,
+      "request_body_sha256": null,
+      "request_headers": {},
+      "response_headers": {
+        "Cache-Control": "private",
+        "Content-Length": "75284",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Wed, 22 Jul 2026 01:20:28 GMT",
+        "Server": "Microsoft-IIS/10.0",
+        "Set-Cookie": "ASP.NET_SessionId=qvhh0w55xpfsma454vam4255; path=/; HttpOnly",
+        "X-Powered-By": "ASP.NET"
+      },
+      "status_code": 200,
+      "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Jozef.Hajko"
+    },
+    {
+      "actual_request": {
+        "body": null,
+        "body_sha256": null,
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate",
+          "Connection": "keep-alive",
+          "User-Agent": "python-requests/2.32.5"
+        },
+        "method": "GET",
+        "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Juraj.Hamaj"
+      },
+      "body_path": "raw/000002-61578a0fa081d6b3.body",
+      "body_sha256": "61578a0fa081d6b3a9d66f99be44eeae7c5d05dc688299affa32f4d70588411b",
+      "body_size": 76054,
+      "captured_at": "2026-07-22T01:20:31Z",
+      "id": "000002-61578a0fa081d6b3",
+      "metadata": {
+        "explicit_requested_year": false,
+        "requested_year": null,
+        "user_id": "Juraj.Hamaj"
+      },
+      "method": "GET",
+      "purpose": "declaration",
+      "request_body": null,
+      "request_body_sha256": null,
+      "request_headers": {},
+      "response_headers": {
+        "Cache-Control": "private",
+        "Content-Length": "76054",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Wed, 22 Jul 2026 01:20:30 GMT",
+        "Server": "Microsoft-IIS/10.0",
+        "Set-Cookie": "ASP.NET_SessionId=4gu1iz45arzvj045xbrzwhry; path=/; HttpOnly",
+        "X-Powered-By": "ASP.NET"
+      },
+      "status_code": 200,
+      "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Juraj.Hamaj"
+    }
+  ],
+  "command": [
+    "/Users/mrshu/work/dev/zltastopa/majetkovy-kompas/acquire_evidence.py",
+    "--evidence-dir",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260722T010223Z-5vcaxmh0/evidence-branch/evidence/local-20260722T010223Z/retry",
+    "--user-ids-file",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260722T010223Z-5vcaxmh0/reports/failed-ids.txt",
+    "--request-retries",
+    "1",
+    "--request-timeout",
+    "20.0",
+    "--request-delay",
+    "0.4",
+    "--request-jitter",
+    "0.6",
+    "--workers",
+    "1",
+    "--report-json",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260722T010223Z-5vcaxmh0/evidence-branch/evidence/local-20260722T010223Z/retry/acquire-report.json"
+  ],
+  "created_at": "2026-07-22T01:20:27Z",
+  "environment": {
+    "cwd": "/Users/mrshu/work/dev/zltastopa/majetkovy-kompas",
+    "platform": "macOS-15.7.7-arm64-arm-64bit-Mach-O",
+    "python": "3.13.7"
+  },
+  "finalized_at": "2026-07-22T01:20:31Z",
+  "git": {
+    "commit": "2d1befaf401085a9c413094970907c096e58948b"
+  },
+  "schema_version": 1
+}
