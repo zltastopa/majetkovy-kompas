@@ -1,0 +1,121 @@
+{
+  "artifacts": [
+    {
+      "path": "acquire-report.json",
+      "sha256": "5e87d71708b232fa2a50869b0bcb1d07118c2977171e2a9a08b84f6733cd806c",
+      "size": 222
+    }
+  ],
+  "captures": [
+    {
+      "actual_request": {
+        "body": null,
+        "body_sha256": null,
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate",
+          "Connection": "keep-alive",
+          "User-Agent": "python-requests/2.32.5"
+        },
+        "method": "GET",
+        "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Rebeka.Riabova"
+      },
+      "body_path": "raw/000001-c8c4e83e9c9eab8d.body",
+      "body_sha256": "c8c4e83e9c9eab8d505fc94105e4ef5cd1fa5d40ee869189f0afea4f01c1f567",
+      "body_size": 74979,
+      "captured_at": "2026-07-24T01:14:04Z",
+      "id": "000001-c8c4e83e9c9eab8d",
+      "metadata": {
+        "explicit_requested_year": false,
+        "requested_year": null,
+        "user_id": "Rebeka.Riabova"
+      },
+      "method": "GET",
+      "purpose": "declaration",
+      "request_body": null,
+      "request_body_sha256": null,
+      "request_headers": {},
+      "response_headers": {
+        "Cache-Control": "private",
+        "Content-Length": "74979",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Fri, 24 Jul 2026 01:14:04 GMT",
+        "Server": "Microsoft-IIS/10.0",
+        "Set-Cookie": "ASP.NET_SessionId=hw352r55gd113z55jq1fq2uu; path=/; HttpOnly",
+        "X-Powered-By": "ASP.NET"
+      },
+      "status_code": 200,
+      "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Rebeka.Riabova"
+    },
+    {
+      "actual_request": {
+        "body": null,
+        "body_sha256": null,
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate",
+          "Connection": "keep-alive",
+          "User-Agent": "python-requests/2.32.5"
+        },
+        "method": "GET",
+        "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Zuzana.Tornocziova"
+      },
+      "body_path": "raw/000002-9165fd662ce55f07.body",
+      "body_sha256": "9165fd662ce55f07c91d3e8c71d64d7c9a327a373a0d4d238ad2c67ba29eefa7",
+      "body_size": 75237,
+      "captured_at": "2026-07-24T01:14:05Z",
+      "id": "000002-9165fd662ce55f07",
+      "metadata": {
+        "explicit_requested_year": false,
+        "requested_year": null,
+        "user_id": "Zuzana.Tornocziova"
+      },
+      "method": "GET",
+      "purpose": "declaration",
+      "request_body": null,
+      "request_body_sha256": null,
+      "request_headers": {},
+      "response_headers": {
+        "Cache-Control": "private",
+        "Content-Length": "75237",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Fri, 24 Jul 2026 01:14:04 GMT",
+        "Server": "Microsoft-IIS/10.0",
+        "Set-Cookie": "ASP.NET_SessionId=0d02jyul1lld1qbg5jjdao3u; path=/; HttpOnly",
+        "X-Powered-By": "ASP.NET"
+      },
+      "status_code": 200,
+      "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Zuzana.Tornocziova"
+    }
+  ],
+  "command": [
+    "/Users/mrshu/work/dev/zltastopa/majetkovy-kompas/acquire_evidence.py",
+    "--evidence-dir",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260724T010059Z-cgrpa5yn/evidence-branch/evidence/local-20260724T010059Z/retry",
+    "--user-ids-file",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260724T010059Z-cgrpa5yn/reports/failed-ids.txt",
+    "--request-retries",
+    "1",
+    "--request-timeout",
+    "20.0",
+    "--request-delay",
+    "0.4",
+    "--request-jitter",
+    "0.6",
+    "--workers",
+    "1",
+    "--report-json",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260724T010059Z-cgrpa5yn/evidence-branch/evidence/local-20260724T010059Z/retry/acquire-report.json"
+  ],
+  "created_at": "2026-07-24T01:14:02Z",
+  "environment": {
+    "cwd": "/Users/mrshu/work/dev/zltastopa/majetkovy-kompas",
+    "platform": "macOS-15.7.7-arm64-arm-64bit-Mach-O",
+    "python": "3.13.7"
+  },
+  "finalized_at": "2026-07-24T01:14:05Z",
+  "git": {
+    "commit": "2d1befaf401085a9c413094970907c096e58948b"
+  },
+  "schema_version": 1
+}
