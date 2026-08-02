@@ -1,0 +1,81 @@
+{
+  "artifacts": [
+    {
+      "path": "acquire-report.json",
+      "sha256": "14d90657ff518e841fb74606a121a2a051deb9161f57e1ec1d1bf338868639f7",
+      "size": 141
+    }
+  ],
+  "captures": [
+    {
+      "actual_request": {
+        "body": null,
+        "body_sha256": null,
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate",
+          "Connection": "keep-alive",
+          "User-Agent": "python-requests/2.32.5"
+        },
+        "method": "GET",
+        "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Peter.Pobeha"
+      },
+      "body_path": "raw/000001-4bcf04c3984db4a8.body",
+      "body_sha256": "4bcf04c3984db4a8b49c8bfc3cdfc240e27e44242fcd768c6d5e3266ae246135",
+      "body_size": 75510,
+      "captured_at": "2026-08-02T01:14:02Z",
+      "id": "000001-4bcf04c3984db4a8",
+      "metadata": {
+        "explicit_requested_year": false,
+        "requested_year": null,
+        "user_id": "Peter.Pobeha"
+      },
+      "method": "GET",
+      "purpose": "declaration",
+      "request_body": null,
+      "request_body_sha256": null,
+      "request_headers": {},
+      "response_headers": {
+        "Cache-Control": "private",
+        "Content-Length": "75510",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Sun, 02 Aug 2026 01:14:01 GMT",
+        "Server": "Microsoft-IIS/10.0",
+        "Set-Cookie": "ASP.NET_SessionId=lgd5bk55yx0yui3a5fqv4ne4; path=/; HttpOnly",
+        "X-Powered-By": "ASP.NET"
+      },
+      "status_code": 200,
+      "url": "https://www.nrsr.sk/web/Default.aspx?sid=vnf/oznamenie&UserId=Peter.Pobeha"
+    }
+  ],
+  "command": [
+    "/Users/mrshu/work/dev/zltastopa/majetkovy-kompas/acquire_evidence.py",
+    "--evidence-dir",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260802T010113Z-040dxegp/evidence-branch/evidence/local-20260802T010113Z/retry",
+    "--user-ids-file",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260802T010113Z-040dxegp/reports/failed-ids.txt",
+    "--request-retries",
+    "1",
+    "--request-timeout",
+    "20.0",
+    "--request-delay",
+    "0.4",
+    "--request-jitter",
+    "0.6",
+    "--workers",
+    "1",
+    "--report-json",
+    "/var/folders/v3/sc4djfxd7vb1pd1y5d9k1rdr0000gn/T/kompas-local-20260802T010113Z-040dxegp/evidence-branch/evidence/local-20260802T010113Z/retry/acquire-report.json"
+  ],
+  "created_at": "2026-08-02T01:14:00Z",
+  "environment": {
+    "cwd": "/Users/mrshu/work/dev/zltastopa/majetkovy-kompas",
+    "platform": "macOS-15.7.7-arm64-arm-64bit-Mach-O",
+    "python": "3.13.7"
+  },
+  "finalized_at": "2026-08-02T01:14:02Z",
+  "git": {
+    "commit": "2d1befaf401085a9c413094970907c096e58948b"
+  },
+  "schema_version": 1
+}
