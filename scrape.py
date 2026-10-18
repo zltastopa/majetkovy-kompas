@@ -254,7 +254,13 @@ def parse_declaration(html):
         if value_td and current_label:
             pairs.append((current_label, value_td))
 
-    return extract_structured(dict(pairs))
+    declaration = extract_structured(dict(pairs))
+    # A partial output table can occur while the site is still processing a
+    # declaration. Treat it as unavailable so callers can try older years
+    # instead of accepting and writing incomplete YAML.
+    if not declaration.get("id") or type(declaration.get("year")) is not int:
+        return None
+    return declaration
 
 
 def extract_structured(raw):
@@ -636,7 +642,7 @@ def error_group(result):
     return result.error_type or "Unknown"
 
 
-def write_scrape_report(report_path, failed_ids_path, results):
+def write_scrape_report(report_path, failed_ids_path, results, *, fatal_error=None):
     results = list(results)
     counts = Counter(result.status for result in results)
     failed_ids = [result.user_id for result in results if result.status == "error"]
@@ -663,6 +669,8 @@ def write_scrape_report(report_path, failed_ids_path, results):
             for result in results
         ],
     }
+    if fatal_error is not None:
+        report["fatal_error"] = fatal_error
 
     if report_path:
         report_path.parent.mkdir(parents=True, exist_ok=True)
@@ -768,7 +776,25 @@ def main():
         print(f"Loaded {len(politicians)} supplementary politicians", file=sys.stderr)
     else:
         print("Fetching politician list...", file=sys.stderr)
-        politicians = fetch_politician_list()
+        try:
+            politicians = fetch_politician_list()
+            if not politicians:
+                raise ValueError("NRSR listing contains no politician links")
+        except (requests.RequestException, ValueError) as exc:
+            error_type, error_status, error_message = error_details(exc)
+            write_scrape_report(
+                args.report_json,
+                args.failed_ids_output,
+                [],
+                fatal_error={
+                    "stage": "politician_list",
+                    "error_type": error_type,
+                    "error_status": error_status,
+                    "error_message": error_message,
+                },
+            )
+            print(f"Unable to fetch politician list: {exc}", file=sys.stderr)
+            sys.exit(1)
         print(f"Found {len(politicians)} politicians from NRSR", file=sys.stderr)
 
         if args.supplementary_ids and args.supplementary_ids.exists():

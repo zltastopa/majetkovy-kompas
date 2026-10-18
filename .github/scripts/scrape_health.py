@@ -17,19 +17,61 @@ from typing import Any
 
 USER_AGENT = "majetkovy-kompas-github-actions/1.0"
 MAX_FAILED_IDS = 10
+RESULT_STATUSES = {"captured", "scraped", "skipped", "error"}
+
+
+def validate_report(report: Any) -> None:
+    if not isinstance(report, dict) or not isinstance(report.get("results"), list):
+        raise ValueError("report must be an object with a results list")
+    if report.get("report_errors"):
+        raise ValueError("report contains unresolved report errors")
+    fatal_errors = report.get("fatal_errors", [])
+    if not isinstance(fatal_errors, list) or any(
+        not isinstance(error, dict) for error in fatal_errors
+    ):
+        raise ValueError("fatal_errors must be a list of objects")
+    if "fatal_error" in report and not isinstance(report["fatal_error"], dict):
+        raise ValueError("fatal_error must be an object")
+
+    counts: Counter[str] = Counter()
+    seen_ids: set[str] = set()
+    for index, result in enumerate(report["results"]):
+        if not isinstance(result, dict):
+            raise ValueError(f"results[{index}] must be an object")
+        user_id = result.get("user_id")
+        status = result.get("status")
+        if not isinstance(user_id, str) or not user_id.strip():
+            raise ValueError(f"results[{index}] must have a nonempty user_id")
+        if user_id in seen_ids:
+            raise ValueError(f"results[{index}] has a duplicate user_id")
+        if not isinstance(status, str) or status not in RESULT_STATUSES:
+            raise ValueError(f"results[{index}] has an invalid status")
+        seen_ids.add(user_id)
+        counts[status] += 1
+
+    expected = {"total": len(report["results"]), "errors": counts["error"]}
+    expected.update({status: counts[status] for status in RESULT_STATUSES - {"error"}})
+    for field, count in expected.items():
+        if field in report and (type(report[field]) is not int or report[field] != count):
+            raise ValueError(f"{field} must match the results count ({count})")
 
 
 def load_report(path: Path) -> dict[str, Any]:
     try:
         value = json.loads(path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
-        return {"total": 0, "scraped": 0, "skipped": 0, "errors": 0, "results": []}
-    return value if isinstance(value, dict) else {}
+        validate_report(value)
+    except (OSError, UnicodeError, ValueError) as exc:
+        raise ValueError(f"{path}: {exc}") from exc
+    return value
 
 
 def combine_reports(reports: list[dict[str, Any]]) -> dict[str, Any]:
     by_user: dict[str, dict[str, Any]] = {}
+    fatal_errors: list[dict[str, Any]] = []
     for report in reports:
+        if "fatal_error" in report:
+            fatal_errors.append(report["fatal_error"])
+        fatal_errors.extend(report.get("fatal_errors", []))
         for result in report.get("results", []):
             user_id = result.get("user_id")
             if isinstance(user_id, str) and user_id:
@@ -48,7 +90,7 @@ def combine_reports(reports: list[dict[str, Any]]) -> dict[str, Any]:
         if result.get("status") == "error" and result.get("user_id")
     ]
     total = len(results)
-    return {
+    combined = {
         "total": total,
         "scraped": counts["scraped"],
         "skipped": counts["skipped"],
@@ -58,6 +100,35 @@ def combine_reports(reports: list[dict[str, Any]]) -> dict[str, Any]:
         "failed_user_ids": sorted(failed_ids),
         "results": sorted(results, key=lambda item: item.get("user_id", "")),
     }
+    if fatal_errors:
+        combined["fatal_errors"] = fatal_errors
+    return combined
+
+
+def report_problems(report: dict[str, Any]) -> list[str]:
+    problems = list(report.get("report_errors", []))
+    unextracted = [
+        result["user_id"]
+        for result in report.get("results", [])
+        if result.get("status") == "captured"
+    ]
+    if unextracted:
+        problems.append(
+            f"{len(unextracted)} captured declarations have no extraction result: "
+            + ", ".join(unextracted[:MAX_FAILED_IDS])
+        )
+    fatal_errors = list(report.get("fatal_errors", []))
+    if "fatal_error" in report:
+        fatal_errors.append(report["fatal_error"])
+    for error in fatal_errors:
+        status = error.get("error_status")
+        status_text = f" (HTTP {status})" if status is not None else ""
+        problems.append(
+            f"Fatal scrape failure at {error.get('stage', 'unknown')}: "
+            f"{error.get('error_type', 'Unknown')}{status_text}: "
+            f"{error.get('error_message', '')}"
+        )
+    return problems
 
 
 def error_group(result: dict[str, Any]) -> str:
@@ -74,12 +145,14 @@ def evaluate_quality(
     alert_threshold: float = 0.25,
     suppress_threshold: float = 0.25,
     fail_threshold: float = 0.50,
+    allow_empty: bool = False,
 ) -> dict[str, Any]:
     total = int(report.get("total") or 0)
     errors = int(report.get("errors") or 0)
     rate = (errors / total) if total else 0
 
-    hard_fail = total > 0 and rate >= fail_threshold
+    invalid = bool(report_problems(report)) or (total == 0 and not allow_empty)
+    hard_fail = invalid or (total > 0 and rate >= fail_threshold)
     if hard_fail:
         level = "error"
     elif total > 0 and rate >= alert_threshold:
@@ -92,7 +165,7 @@ def evaluate_quality(
     return {
         "level": level,
         "error_rate": rate,
-        "commit_ok": not (total > 0 and rate >= suppress_threshold),
+        "commit_ok": not invalid and not (total > 0 and rate >= suppress_threshold),
         "hard_fail": hard_fail,
         "notify": level != "ok",
     }
@@ -119,6 +192,7 @@ def markdown_summary(report: dict[str, Any], quality: dict[str, Any]) -> str:
             f"- Error groups: {group_text}",
             f"- Commit allowed: `{str(quality['commit_ok']).lower()}`",
             f"- Failed IDs: {failed_text}",
+            *[f"- Report problem: {error}" for error in report_problems(report)],
             "",
         ]
     )
@@ -172,7 +246,7 @@ def build_discord_payload(
     if repo_full_name:
         description += f"\nRepozitár: `{clean_discord_text(repo_full_name)}`"
 
-    return {
+    payload = {
         "content": f"{level_label}: denný scrape Majetkového kompasu má chyby",
         "allowed_mentions": {"parse": []},
         "embeds": [
@@ -195,6 +269,16 @@ def build_discord_payload(
             }
         ],
     }
+    problems = report_problems(report)
+    if problems:
+        payload["embeds"][0]["fields"].append(
+            {
+                "name": "Problémy reportov",
+                "value": "\n".join(clean_discord_text(error) for error in problems)[:1024],
+                "inline": False,
+            }
+        )
+    return payload
 
 
 def post_payload(webhook_url: str, payload: dict[str, Any], attempts: int = 3) -> None:
@@ -255,6 +339,11 @@ def write_github_outputs(path: Path, quality: dict[str, Any]) -> None:
 def emit_annotation(report: dict[str, Any], quality: dict[str, Any]) -> None:
     if quality["level"] == "ok":
         return
+    if report_problems(report):
+        for error in report_problems(report):
+            message = error.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+            print(f"::error title=Invalid scrape report::{message}")
+        return
     command = "error" if quality["level"] == "error" else "warning"
     print(
         f"::{command} title=High scraper error rate::"
@@ -266,7 +355,10 @@ def emit_annotation(report: dict[str, Any], quality: dict[str, Any]) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Summarize scrape health")
     parser.add_argument("--report", type=Path, action="append", required=True)
-    parser.add_argument("--combined-report", type=Path)
+    parser.add_argument(
+        "--combined-report", type=Path,
+        help="Write merged results; without health output options, allow empty optional passes",
+    )
     parser.add_argument("--github-output", type=Path)
     parser.add_argument("--step-summary", type=Path)
     parser.add_argument("--repo", default=os.environ.get("GITHUB_REPOSITORY", ""))
@@ -277,8 +369,31 @@ def main() -> int:
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
-    report = combine_reports([load_report(path) for path in args.report if path.exists()])
-    quality = evaluate_quality(report)
+    reports = []
+    report_errors = []
+    for path in args.report:
+        try:
+            reports.append(load_report(path))
+        except ValueError as exc:
+            report_errors.append(str(exc))
+    report = combine_reports(reports)
+    # The workflow combines deliberately empty supplementary/retry placeholders.
+    # Health checks and report-only invocations still require actual targets.
+    combine_only = bool(args.combined_report) and not any(
+        (args.github_output, args.step_summary, args.emit_annotation, args.discord)
+    )
+    if (
+        report["total"] == 0
+        and not combine_only
+        and not report_errors
+        and not report.get("fatal_errors")
+    ):
+        report_errors.append("No scrape targets were reported")
+    if report_errors:
+        report["report_errors"] = report_errors
+    for error in report_problems(report):
+        print(f"Invalid scrape report: {error}", file=sys.stderr)
+    quality = evaluate_quality(report, allow_empty=combine_only)
 
     if args.combined_report:
         args.combined_report.write_text(
@@ -308,7 +423,7 @@ def main() -> int:
         else:
             print("DISCORD_WEBHOOK_URL is not configured; skipping Discord notification.")
 
-    return 0
+    return 1 if report_problems(report) else 0
 
 
 if __name__ == "__main__":

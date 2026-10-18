@@ -4,10 +4,103 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import call, patch
 
 import requests
 
 import scrape
+
+
+def declaration_html(*, user_id="Test.User", year="2025"):
+    fields = [
+        ("Interné číslo", user_id),
+        ("titul, meno, priezvisko", "Test User"),
+        ("oznámenie za rok", year),
+    ]
+    rows = "".join(
+        f'<tr><td class="label">{label}:</td><td class="value">{value}</td></tr>'
+        for label, value in fields
+        if value is not None
+    )
+    return (
+        '<div id="_sectionLayoutContainer_ctl01_OutPut">'
+        f'<table class="oznamenie_table">{rows}</table></div>'
+    )
+
+
+class DeclarationParsingTests(unittest.TestCase):
+    def test_parse_declaration_accepts_id_and_integer_year(self):
+        self.assertEqual(
+            scrape.parse_declaration(declaration_html()),
+            {"id": "Test.User", "name": "Test User", "year": 2025},
+        )
+
+    def test_parse_declaration_rejects_partial_tables(self):
+        cases = {
+            "empty table": (
+                '<div id="_sectionLayoutContainer_ctl01_OutPut">'
+                '<table class="oznamenie_table"></table></div>'
+            ),
+            "name only": declaration_html(user_id=None, year=None),
+            "missing id": declaration_html(user_id=None),
+            "empty id": declaration_html(user_id=""),
+            "blank id": declaration_html(user_id="  "),
+            "missing year": declaration_html(year=None),
+        }
+        for label, html in cases.items():
+            with self.subTest(case=label):
+                self.assertIsNone(scrape.parse_declaration(html))
+
+    def test_parse_declaration_rejects_malformed_year(self):
+        for year in ("", "  ", "not a year", "2025/2026", "2025.0", "True"):
+            with self.subTest(year=year):
+                self.assertIsNone(scrape.parse_declaration(declaration_html(year=year)))
+
+    def test_scrape_one_falls_back_from_invalid_declarations_to_older_year(self):
+        dropdown = """
+        <select id="_sectionLayoutContainer_ctl01_OznameniaList">
+          <option value="older">2023</option>
+          <option value="latest" selected>2025</option>
+          <option value="previous">2024</option>
+        </select>
+        """
+        for label, invalid_html in (
+            ("missing id", declaration_html(user_id=None)),
+            ("missing year", declaration_html(year=None)),
+            ("malformed year", declaration_html(year="pending")),
+        ):
+            with self.subTest(case=label):
+                with patch.object(
+                    scrape, "fetch_declaration_html",
+                    side_effect=[
+                        dropdown + invalid_html,
+                        declaration_html(year="pending"),
+                        declaration_html(year="2023"),
+                    ],
+                ) as fetch:
+                    data = scrape.scrape_one("Test.User")
+
+                self.assertEqual(data, {"id": "Test.User", "name": "Test User", "year": 2023})
+                self.assertEqual(fetch.call_args_list, [
+                    call("Test.User", year=None),
+                    call("Test.User", year=2024),
+                    call("Test.User", year=2023),
+                ])
+
+    def test_scrape_one_explicit_year_returns_none_for_invalid_declaration(self):
+        for html in (declaration_html(user_id=None), declaration_html(year="pending")):
+            with self.subTest(html=html):
+                with patch.object(scrape, "fetch_declaration_html", return_value=html) as fetch:
+                    self.assertIsNone(scrape.scrape_one("Test.User", year=2025))
+                fetch.assert_called_once_with("Test.User", year=2025)
+
+    def test_scrape_one_keeps_valid_latest_declaration(self):
+        with patch.object(
+            scrape, "fetch_declaration_html", return_value=declaration_html(),
+        ) as fetch:
+            data = scrape.scrape_one("Test.User")
+        self.assertEqual(data, {"id": "Test.User", "name": "Test User", "year": 2025})
+        fetch.assert_called_once_with("Test.User", year=None)
 
 
 class Response:
