@@ -4,6 +4,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 import yaml
 
@@ -40,6 +41,88 @@ DECLARATION_HTML = """
 
 
 class EvidencePackageTests(unittest.TestCase):
+    def test_valid_user_id_accepts_filename_safe_strings(self):
+        for user_id in ("Test.User", "123", "Test-User_2", "Žofia.Test"):
+            with self.subTest(user_id=user_id):
+                self.assertTrue(extract_from_evidence.valid_user_id(user_id))
+
+    def test_valid_user_id_rejects_unsafe_or_non_string_values(self):
+        invalid_ids = (
+            "", ".", "..", "../escaped", "nested/escaped", "/absolute",
+            "..\\escaped", "nested\\escaped", "Test\x00User",
+            None, 0, 123, False, True, [], ["Test.User"], {},
+            {"user_id": "Test.User"}, b"Test.User",
+        )
+        for user_id in invalid_ids:
+            with self.subTest(user_id=user_id):
+                self.assertFalse(extract_from_evidence.valid_user_id(user_id))
+
+    def test_extract_from_evidence_reports_invalid_ids_and_continues(self):
+        invalid_metadata = [
+            {"user_id": user_id}
+            for user_id in (
+                "", ".", "..", "../escaped", "nested/escaped",
+                "..\\escaped", "nested\\escaped", "Test\x00User",
+                None, 0, 123, False, True, [], ["Test.User"], {},
+                {"nested": "Test.User"},
+            )
+        ] + [{}, None]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            escaped_path = root / "escaped.yaml"
+            escaped_path.write_text("existing data\n", encoding="utf-8")
+            package = evidence.EvidencePackage(root / "evidence", command=["test-command"])
+            for metadata in invalid_metadata + [{"user_id": "Test.User"}]:
+                package.capture_response(
+                    purpose="declaration",
+                    method="GET",
+                    url="https://example.test/declaration",
+                    status_code=200,
+                    response_headers={},
+                    body=DECLARATION_HTML.encode("utf-8"),
+                    metadata=metadata,
+                )
+            package.finalize()
+
+            data_dir = root / "data"
+            report_path = root / "report.json"
+            with patch.object(
+                extract_from_evidence, "parse_capture",
+                wraps=extract_from_evidence.parse_capture,
+            ) as parse_capture:
+                report = extract_from_evidence.extract_package(
+                    root / "evidence", data_dir, report_json=report_path,
+                )
+
+            self.assertEqual(report["total"], len(invalid_metadata) + 1)
+            self.assertEqual(report["errors"], len(invalid_metadata))
+            self.assertEqual(report["scraped"], 1)
+            self.assertEqual(report["skipped"], 0)
+            self.assertEqual(
+                report["results"][:-1],
+                [
+                    {
+                        "user_id": (metadata or {}).get("user_id"),
+                        "status": "error",
+                        "error_type": "ValueError",
+                        "error_message": "invalid user_id in capture metadata",
+                    }
+                    for metadata in invalid_metadata
+                ],
+            )
+            self.assertEqual(
+                report["results"][-1],
+                {"user_id": "Test.User", "status": "scraped", "year": 2025},
+            )
+            parse_capture.assert_called_once()
+            self.assertEqual(parse_capture.call_args.args[1]["metadata"]["user_id"], "Test.User")
+            self.assertEqual(list(data_dir.iterdir()), [data_dir / "Test.User.yaml"])
+            output = yaml.safe_load((data_dir / "Test.User.yaml").read_text(encoding="utf-8"))
+            self.assertEqual(output["id"], "Test.User")
+            self.assertEqual(output["year"], 2025)
+            self.assertEqual(escaped_path.read_text(encoding="utf-8"), "existing data\n")
+            self.assertEqual(json.loads(report_path.read_text(encoding="utf-8")), report)
+
     def test_capture_response_stores_raw_body_and_manifest_hashes(self):
         with tempfile.TemporaryDirectory() as tmp:
             package = evidence.EvidencePackage(Path(tmp), command=["test-command"])

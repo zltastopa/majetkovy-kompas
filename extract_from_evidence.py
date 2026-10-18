@@ -55,6 +55,17 @@ def parse_capture(evidence_dir: Path, capture: dict[str, Any]) -> dict[str, Any]
     return scrape.parse_declaration(html)
 
 
+def valid_user_id(user_id: Any) -> bool:
+    return (
+        isinstance(user_id, str)
+        and bool(user_id)
+        and user_id not in {".", ".."}
+        and "/" not in user_id
+        and "\\" not in user_id
+        and "\x00" not in user_id
+    )
+
+
 def extract_package(evidence_dir: Path, data_dir: Path, *, report_json: Path | None = None) -> dict[str, Any]:
     manifest = load_manifest(evidence_dir)
     data_dir.mkdir(parents=True, exist_ok=True)
@@ -64,8 +75,17 @@ def extract_package(evidence_dir: Path, data_dir: Path, *, report_json: Path | N
     for capture in declaration_captures(manifest):
         metadata = capture.get("metadata") or {}
         user_id = metadata.get("user_id")
-        if user_id:
-            by_user.setdefault(user_id, []).append(capture)
+        if not valid_user_id(user_id):
+            results.append(
+                {
+                    "user_id": user_id,
+                    "status": "error",
+                    "error_type": "ValueError",
+                    "error_message": "invalid user_id in capture metadata",
+                }
+            )
+            continue
+        by_user.setdefault(user_id, []).append(capture)
 
     for user_id in sorted(by_user):
         captures = by_user[user_id]
